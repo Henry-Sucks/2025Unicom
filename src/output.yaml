@@ -1,0 +1,125 @@
+records:
+- Choice: 5
+  Input: 'null'
+  State: '<p id=0>Calendar</p>
+
+    <button id=1 text=''Search''></button>
+
+    <button id=2 text=''Change view''></button>
+
+    <button id=3 text=''More options''></button>
+
+    <button id=4>July</button>
+
+    <button id=5 text=''New Event''></button>
+
+    <button id=6>go back</button>'
+  state_str: 05c7793fd8ac1e86ce7b93616f856612a43ff5d30dadeb32789e445b82b922d0
+  tag: 2025-07-24_224858
+- Choice: 3
+  Input: laundry
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>New Event</p>
+
+    <button id=2 text=''Save''></button>
+
+    <input id=3>Title</input>
+
+    <input id=4>Location</input>
+
+    <input id=5>Description</input>
+
+    <checkbox id=6 checked=False>All-day OFF</checkbox>
+
+    <button id=7>July 24 (Thu)</button>
+
+    <button id=8>04:00 PM</button>
+
+    <button id=9>July 24 (Thu)</button>
+
+    <button id=10>04:00 PM</button>
+
+    <button id=11>10 minutes before</button>
+
+    <button id=12>Add another reminder</button>
+
+    <button id=13>No repetition</button>
+
+    <button id=14>Regular event</button>
+
+    <button id=15>go back</button>'
+  state_str: 46580afeaae164b3f2996c40af0c6282fa113cd544ae9728a9eff6e90d84a9ae
+  tag: 2025-07-24_230253
+- Choice: 2
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>New Event</p>
+
+    <button id=2 text=''Save''></button>
+
+    <input id=3>Title</input>
+
+    <input id=4>Location</input>
+
+    <input id=5>Description</input>
+
+    <checkbox id=6 checked=False>All-day OFF</checkbox>
+
+    <button id=7>July 24 (Thu)</button>
+
+    <button id=8>04:00 PM</button>
+
+    <button id=9>July 24 (Thu)</button>
+
+    <button id=10>04:00 PM</button>
+
+    <button id=11>10 minutes before</button>
+
+    <button id=12>Add another reminder</button>
+
+    <button id=13>No repetition</button>
+
+    <button id=14>Regular event</button>
+
+    <button id=15>go back</button>'
+  state_str: 46580afeaae164b3f2996c40af0c6282fa113cd544ae9728a9eff6e90d84a9ae
+  tag: 2025-07-24_230253
+- Choice: 2
+  Input: 'null'
+  State: '<button id=0 text=''Navigate up''></button>
+
+    <p id=1>New Event</p>
+
+    <button id=2 text=''Save''></button>
+
+    <input id=3>Title</input>
+
+    <input id=4>Location</input>
+
+    <input id=5>Description</input>
+
+    <checkbox id=6 checked=False>All-day OFF</checkbox>
+
+    <button id=7>July 24 (Thu)</button>
+
+    <button id=8>04:00 PM</button>
+
+    <button id=9>July 24 (Thu)</button>
+
+    <button id=10>04:00 PM</button>
+
+    <button id=11>10 minutes before</button>
+
+    <button id=12>Add another reminder</button>
+
+    <button id=13>No repetition</button>
+
+    <button id=14>Regular event</button>
+
+    <button id=15>go back</button>'
+  state_str: 46580afeaae164b3f2996c40af0c6282fa113cd544ae9728a9eff6e90d84a9ae
+  tag: 2025-07-24_230253
+step_num: 4
+task_name: create a event of laundry

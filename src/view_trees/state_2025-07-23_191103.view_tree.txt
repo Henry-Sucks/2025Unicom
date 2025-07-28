@@ -1,0 +1,254 @@
+- android.widget.FrameLayout | text: None | resource_id: None | id: 0
+  - android.widget.LinearLayout | text: None | resource_id: None | id: 1
+    - android.widget.FrameLayout | text: None | resource_id: None | id: 2
+      - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/action_bar_root | id: 3
+        - android.widget.FrameLayout | text: None | resource_id: android:id/content | id: 4
+          - android.widget.LinearLayout | text: None | resource_id: None | id: 5
+            - android.widget.TabHost | text: None | resource_id: android:id/tabhost | id: 6
+              - android.widget.RelativeLayout | text: None | resource_id: None | id: 7
+                - android.widget.LinearLayout | text: None | resource_id: None | id: 8
+                  - android.widget.FrameLayout | text: None | resource_id: android:id/tabcontent | id: 9
+                    - android.view.View | text: None | resource_id: None | id: 10
+                  - android.widget.FrameLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/realtabcontent | id: 11
+                    - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_root_view | id: 12
+                      - android.view.ViewGroup | text: None | resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_smartrefreshlayout | id: 13
+                        - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_twolevelheader | id: 14
+                          - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/classics | id: 15
+                            - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/srl_classics_arrow | id: 16
+                            - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/srl_classics_center | id: 17
+                              - android.widget.TextView | text: None | resource_id: com.sinovatech.unicom.ui:id/srl_classics_title | id: 18
+                              - android.widget.TextView | text: None | resource_id: com.sinovatech.unicom.ui:id/srl_classics_update | id: 19
+                          - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_second_img | id: 20
+                        - android.widget.RelativeLayout | text: None | resource_id: None | id: 21
+                          - android.view.ViewGroup | text: None | resource_id: com.sinovatech.unicom.ui:id/scrollerLayout | id: 22
+                            - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_bg | id: 23
+                              - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_card_bg | id: 24
+                            - android.support.v4.view.ViewPager | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_main_home_viewpager | id: 25
+                              - android.view.ViewGroup | text: None | resource_id: com.sinovatech.unicom.ui:id/scrollerLayout | id: 26
+                                - android.widget.FrameLayout | text: None | resource_id: None | id: 27
+                                  - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_tuijian_cardview | id: 28
+                                    - android.widget.LinearLayout | text: None | resource_id: None | id: 29
+                                      - android.view.ViewGroup | text: None | resource_id: None | id: 30
+                                        - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_card_member_layout_tishi | id: 31
+                                          - android.widget.TextView | text: 截至 2025/07/23 19:10 | resource_id: com.sinovatech.unicom.ui:id/home_info_jiezhiriqi | id: 32
+                                          - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_info_shuoming | id: 33
+                                        - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_card_member_layout | id: 34
+                                          - android.widget.TextView | text: 130****9526 | resource_id: com.sinovatech.unicom.ui:id/home_card_member_num | id: 35
+                                          - android.widget.ImageView | text: None | resource_id: None | id: 36
+                                    - android.widget.LinearLayout | text: None | resource_id: None | id: 37
+                                      - android.widget.LinearLayout | text: None | resource_id: None | id: 38
+                                        - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_card_header1 | id: 39
+                                          - android.widget.LinearLayout | text: None | resource_id: None | id: 40
+                                            - android.widget.TextView | text: 剩余话费 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv | id: 41
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 42
+                                              - android.widget.RelativeLayout | text: None | resource_id: None | id: 43
+                                                - android.widget.TextView | text: 114.98 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv | id: 44
+                                              - android.widget.TextView | text: 元 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit | id: 45
+                                        - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_card_header2 | id: 46
+                                          - android.widget.LinearLayout | text: None | resource_id: None | id: 47
+                                            - android.widget.TextView | text: 剩余通用流量 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv | id: 48
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 49
+                                              - android.widget.RelativeLayout | text: None | resource_id: None | id: 50
+                                                - android.widget.TextView | text: 12.21 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv | id: 51
+                                              - android.widget.TextView | text: GB | resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit | id: 52
+                                        - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_card_header3 | id: 53
+                                          - android.widget.LinearLayout | text: None | resource_id: None | id: 54
+                                            - android.widget.TextView | text: 剩余语音 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv | id: 55
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 56
+                                              - android.widget.RelativeLayout | text: None | resource_id: None | id: 57
+                                                - android.widget.TextView | text: 1206 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv | id: 58
+                                              - android.widget.TextView | text: 分钟 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit | id: 59
+                                        - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_card_header4 | id: 60
+                                          - android.widget.LinearLayout | text: None | resource_id: None | id: 61
+                                            - android.widget.TextView | text: 可用积分 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv | id: 62
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 63
+                                              - android.widget.RelativeLayout | text: None | resource_id: None | id: 64
+                                                - android.widget.TextView | text: 0 | resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv | id: 65
+                                              - android.widget.TextView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit | id: 66
+                                    - android.widget.LinearLayout | text: None | resource_id: None | id: 67
+                                      - android.widget.LinearLayout | text: None | resource_id: None | id: 68
+                                        - android.widget.LinearLayout | text: None | resource_id: None | id: 69
+                                          - android.support.v7.widget.RecyclerView | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_recycleview | id: 70
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 71
+                                              - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon | id: 72
+                                              - android.widget.TextView | text: 交话费 | resource_id: com.sinovatech.unicom.ui:id/jingangqu_text | id: 73
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 74
+                                              - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon | id: 75
+                                              - android.widget.TextView | text: 充流量 | resource_id: com.sinovatech.unicom.ui:id/jingangqu_text | id: 76
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 77
+                                              - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon | id: 78
+                                              - android.widget.TextView | text: PLUS | resource_id: com.sinovatech.unicom.ui:id/jingangqu_text | id: 79
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 80
+                                              - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon | id: 81
+                                              - android.widget.TextView | text: 资费专区 | resource_id: com.sinovatech.unicom.ui:id/jingangqu_text | id: 82
+                                            - android.widget.LinearLayout | text: None | resource_id: None | id: 83
+                                              - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon | id: 84
+                                              - android.widget.TextView | text: 查账单 | resource_id: com.sinovatech.unicom.ui:id/jingangqu_text | id: 85
+                                          - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_more | id: 86
+                                            - android.widget.ImageView | text: None | resource_id: None | id: 87
+                                            - android.widget.TextView | text: 服务大厅 | resource_id: com.sinovatech.unicom.ui:id/jingangqu_more_text | id: 88
+                                        - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_indicator_layout | id: 89
+                                          - android.view.View | text: None | resource_id: com.sinovatech.unicom.ui:id/jingangqu_indicator | id: 90
+                                    - android.widget.LinearLayout | text: None | resource_id: None | id: 91
+                                      - android.widget.LinearLayout | text: None | resource_id: None | id: 92
+                                        - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_layout | id: 93
+                                          - android.view.View | text: None | resource_id: com.sinovatech.unicom.ui:id/home_service_yuandian | id: 94
+                                          - android.widget.TextView | text: 服务提醒： | resource_id: com.sinovatech.unicom.ui:id/home_first_text | id: 95
+                                          - android.widget.TextView | text: 装宽带限时加赠100元话费券  | resource_id: com.sinovatech.unicom.ui:id/home_long_text | id: 96
+                                          - android.widget.TextView | text: 立即领取 | resource_id: com.sinovatech.unicom.ui:id/home_service_btn | id: 97
+                                - android.view.View | text: None | resource_id: None | id: 98
+                                - android.view.ViewGroup | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_tuijian_fragment_container | id: 99
+                                  - android.view.ViewGroup | text: None | resource_id: com.sinovatech.unicom.ui:id/homeweb_rootview | id: 100
+                                    - android.webkit.WebView | text: None | resource_id: None | id: 101
+                                      - android.webkit.WebView | text: 精选 | resource_id: None | id: 102
+                                        - android.view.View | text:  | resource_id: None | id: 103
+                                          - android.view.View | text:  | resource_id: app | id: 104
+                                            - android.widget.TextView | text: 根据您的套餐及使用情况定制 | resource_id: None | id: 105
+                                            - android.view.View | text:  | resource_id: 1879079048001753089 | id: 106
+                                              - android.view.View | text:  | resource_id: None | id: 107
+                                                - android.widget.TextView | text: 权益N选一 | resource_id: None | id: 108
+                                                - android.widget.TextView | text: 加赠5元话费 | resource_id: None | id: 109
+                                                - android.widget.TextView | text: 立即参与 | resource_id: None | id: 110
+                                                - android.widget.TextView | text:  | resource_id: None | id: 111
+                                                - android.widget.TextView | text:  | resource_id: None | id: 112
+                                            - android.view.View | text:  | resource_id: None | id: 113
+                                              - android.view.View | text:  | resource_id: None | id: 114
+                                                - android.view.View | text:  | resource_id: None | id: 115
+                                                  - android.view.View | text:  | resource_id: None | id: 116
+                                                    - android.view.View | text:  | resource_id: None | id: 117
+                                                      - android.widget.TextView | text: 低价购机 | resource_id: None | id: 118
+                                                      - android.widget.TextView | text:  | resource_id: None | id: 119
+                                                      - android.widget.TextView | text: 购机省千元 | resource_id: None | id: 120
+                                                    - android.view.View | text:  | resource_id: None | id: 121
+                                                      - android.widget.TextView | text: 靓号秒杀 | resource_id: None | id: 122
+                                                      - android.widget.TextView | text:  | resource_id: None | id: 123
+                                                      - android.widget.TextView | text: 0元抢数码 | resource_id: None | id: 124
+                                                    - android.view.View | text:  | resource_id: None | id: 125
+                                                      - android.widget.TextView | text: 领12.8话费 | resource_id: None | id: 126
+                                                      - android.widget.TextView | text:  | resource_id: None | id: 127
+                                                      - android.widget.TextView | text: 限时福利 | resource_id: None | id: 128
+                                                    - android.view.View | text:  | resource_id: None | id: 129
+                                                      - android.widget.TextView | text: 副卡福利 | resource_id: None | id: 130
+                                                      - android.widget.TextView | text:  | resource_id: None | id: 131
+                                                      - android.widget.TextView | text: 领视频会员 | resource_id: None | id: 132
+                                            - android.view.View | text:  | resource_id: pubuliu | id: 133
+                                              - android.widget.ListView | text:  | resource_id: None | id: 134
+                                                - android.view.View | text:  | resource_id: None | id: 135
+                                                - android.view.View | text:  | resource_id: None | id: 136
+                                                - android.view.View | text:  | resource_id: None | id: 137
+                                                - android.view.View | text:  | resource_id: None | id: 138
+                                                  - android.widget.TextView | text:  | resource_id: None | id: 139
+                                                - android.view.View | text:  | resource_id: None | id: 140
+                                                - android.view.View | text:  | resource_id: None | id: 141
+                                                - android.view.View | text:  | resource_id: None | id: 142
+                                                - android.view.View | text:  | resource_id: None | id: 143
+                                                - android.view.View | text:  | resource_id: None | id: 144
+                                                - android.view.View | text:  | resource_id: None | id: 145
+                                                - android.view.View | text:  | resource_id: None | id: 146
+                                                - android.view.View | text:  | resource_id: None | id: 147
+                                                - android.view.View | text:  | resource_id: None | id: 148
+                                              - android.widget.ListView | text:  | resource_id: None | id: 149
+                                                - android.view.View | text:  | resource_id: None | id: 150
+                                                - android.view.View | text:  | resource_id: None | id: 151
+                                                - android.view.View | text:  | resource_id: None | id: 152
+                                                - android.view.View | text:  | resource_id: None | id: 153
+                                                - android.view.View | text:  | resource_id: None | id: 154
+                                                - android.view.View | text:  | resource_id: None | id: 155
+                                                - android.view.View | text:  | resource_id: None | id: 156
+                                                - android.view.View | text:  | resource_id: None | id: 157
+                                                - android.view.View | text:  | resource_id: None | id: 158
+                                                - android.view.View | text:  | resource_id: None | id: 159
+                                                - android.view.View | text:  | resource_id: None | id: 160
+                                                - android.view.View | text:  | resource_id: None | id: 161
+                                                - android.view.View | text:  | resource_id: None | id: 162
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 163
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 164
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 165
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 166
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 167
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 168
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 169
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 170
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 171
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 172
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 173
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 174
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 175
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 176
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 177
+                              - android.view.ViewGroup | text: None | resource_id: None | id: 178
+                            - android.view.View | text: None | resource_id: None | id: 179
+                          - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_toolbar_layout | id: 180
+                            - android.view.View | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_toolbar_top_view | id: 181
+                            - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/top | id: 182
+                              - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/city_select_btn | id: 183
+                                - android.widget.TextView | text: 海口 | resource_id: com.sinovatech.unicom.ui:id/city_select_text | id: 184
+                                - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/city_select_image | id: 185
+                              - android.widget.RadioGroup | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_rg | id: 186
+                                - android.widget.RadioButton | text: 首页 | resource_id: com.sinovatech.unicom.ui:id/unicom_home_rb1 | id: 187
+                                - android.widget.RadioButton | text: 附近营业厅 | resource_id: com.sinovatech.unicom.ui:id/unicom_home_rb2 | id: 188
+                              - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/title_right_layout | id: 189
+                                - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_qiandao_image | id: 190
+                                - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_kefu | id: 191
+                                - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_top_wifi_image | id: 192
+                            - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_search_layout | id: 193
+                              - android.widget.LinearLayout | text: None | resource_id: None | id: 194
+                                - android.widget.ImageView | text: None | resource_id: None | id: 195
+                                - android.widget.ViewFlipper | text: None | resource_id: com.sinovatech.unicom.ui:id/home_viewFlipper | id: 196
+                                  - android.widget.LinearLayout | text: None | resource_id: None | id: 197
+                                    - android.widget.TextView | text: 宽带续约 | resource_id: com.sinovatech.unicom.ui:id/home_flip_tv | id: 198
+                                - android.view.View | text: None | resource_id: None | id: 199
+                                - android.view.View | text: None | resource_id: None | id: 200
+                                - android.widget.TextView | text: 搜索 | resource_id: com.sinovatech.unicom.ui:id/home_top_serach_image | id: 201
+                              - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_search_scan_image_layout | id: 202
+                                - android.widget.ImageView | text: None | resource_id: None | id: 203
+                            - android.widget.FrameLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/tab_xuanfu_layout_wai | id: 204
+                              - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_tab_yaobu_layout | id: 205
+                                - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_tab1 | id: 206
+                                  - android.widget.TextView | text: 推荐 | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title | id: 207
+                                  - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_imageview | id: 208
+                                - android.support.v7.widget.RecyclerView | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_layout | id: 209
+                                  - android.widget.LinearLayout | text: None | resource_id: None | id: 210
+                                    - android.widget.TextView | text: 合约机 | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title | id: 211
+                                  - android.widget.LinearLayout | text: None | resource_id: None | id: 212
+                                    - android.widget.TextView | text: 套餐 | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title | id: 213
+                                  - android.widget.LinearLayout | text: None | resource_id: None | id: 214
+                                    - android.widget.TextView | text: 手机 | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title | id: 215
+                                  - android.widget.LinearLayout | text: None | resource_id: None | id: 216
+                                    - android.widget.TextView | text: 宽带 | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title | id: 217
+                                  - android.widget.LinearLayout | text: None | resource_id: None | id: 218
+                                    - android.widget.TextView | text: 号码 | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title | id: 219
+                                  - android.widget.LinearLayout | text: None | resource_id: None | id: 220
+                                    - android.widget.TextView | text: 政企 | resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title | id: 221
+                                - android.view.View | text: None | resource_id: None | id: 222
+                                - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu | id: 223
+                          - android.widget.LinearLayout | text: None | resource_id: None | id: 224
+                        - android.widget.RelativeLayout | text: None | resource_id: None | id: 225
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/unicom_home_bottom_view | id: 226
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/home_xuanfu_layout | id: 227
+                        - android.widget.LinearLayout | text: None | resource_id: None | id: 228
+                          - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_xuanfu_close | id: 229
+                          - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/home_xuanfu_image | id: 230
+                  - android.view.View | text: None | resource_id: None | id: 231
+                - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_layout | id: 232
+                  - android.widget.LinearLayout | text: None | resource_id: None | id: 233
+                    - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_home_parent_layout | id: 234
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_home_layout | id: 235
+                        - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_home_imageview | id: 236
+                        - android.widget.TextView | text: 首页 | resource_id: com.sinovatech.unicom.ui:id/main_tab_home_textview | id: 237
+                    - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_service_rl | id: 238
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_service_layout | id: 239
+                        - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_service_imageview | id: 240
+                        - android.widget.TextView | text: 服务 | resource_id: com.sinovatech.unicom.ui:id/main_tab_service_textview | id: 241
+                    - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_shop_parent_layout | id: 242
+                      - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_shop_big_icon | id: 243
+                    - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_parent_layout | id: 244
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_layout | id: 245
+                        - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_imageview | id: 246
+                        - android.widget.TextView | text: 权益 | resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_textview | id: 247
+                    - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_user_parent_layout | id: 248
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_user_layout | id: 249
+                        - android.widget.ImageView | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_user_imageview | id: 250
+                        - android.widget.TextView | text: None | resource_id: com.sinovatech.unicom.ui:id/main_tab_user_notice | id: 251
+                        - android.widget.TextView | text: 我的 | resource_id: com.sinovatech.unicom.ui:id/main_tab_user_textview | id: 252
+  - android.view.View | text: None | resource_id: android:id/navigationBarBackground | id: 253
