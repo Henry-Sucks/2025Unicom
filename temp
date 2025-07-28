@@ -1,0 +1,9 @@
+droidbot -a 'C:\Projects\2025Unicom\data\Telegram.apk' -o 'C:\Projects\2025Unicom\output\Telegram_dfs_2' -is_emulator -d emulator-5554 -timeout 7200 -policy dfs_greedy > output4.log 2>&1
+
+
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_dfs' -is_emulator -d emulator-5556 -timeout 7200 -policy dfs_greedy > output1.log 2>&1
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_dfs_1' -is_emulator -d emulator-5556 -timeout 7200 -policy dfs_greedy > output3.log 2>&1
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_dfs_2' -is_emulator -timeout 3600 -policy dfs_greedy > output5.log 2>&1
+
+
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_bfs_1' -is_emulator -timeout 7200 -policy bfs_greedy > output6.log 2>&1
