@@ -7,3 +7,6 @@ droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025U
 
 
 droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_bfs_1' -is_emulator -timeout 7200 -policy bfs_greedy > output6.log 2>&1
+
+
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_manual' -is_emulator -timeout 7200 -policy manual --no-task > output7.log 2>&1

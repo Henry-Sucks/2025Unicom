@@ -25,7 +25,10 @@ class DroidBot(object):
     def __init__(self,
                  app_path=None,
                  device_serial=None,
+
                  task=None,
+                 no_task=False,
+
                  is_emulator=False,
                  output_dir=None,
                  env_policy=None,
@@ -74,7 +77,10 @@ class DroidBot(object):
 
         self.device = None
         self.app = None
+
         self.task = task
+        self.no_task = no_task
+
         self.droidbox = None
         self.env_manager = None
         self.input_manager = None
@@ -104,7 +110,10 @@ class DroidBot(object):
             self.input_manager = InputManager(
                 device=self.device,
                 app=self.app,
+
                 task=self.task,
+                no_task=self.no_task,   
+
                 policy_name=policy_name,
                 random_input=random_input,
                 event_count=event_count,

@@ -27,7 +27,7 @@ class InputManager(object):
     This class manages all events to send during app running
     """
 
-    def __init__(self, device, app, task, policy_name, random_input,
+    def __init__(self, device, app, task, no_task, policy_name, random_input,
                  event_count, event_interval,
                  script_path=None, profiling_method=None, master=None,
                  replay_output=None):
@@ -43,7 +43,10 @@ class InputManager(object):
 
         self.device = device
         self.app = app
+
         self.task = task
+        self.no_task = no_task
+
         self.policy_name = policy_name
         self.random_input = random_input
         self.events = []

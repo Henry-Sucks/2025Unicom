@@ -23,6 +23,28 @@ def parse_args():
                         help="directory of output")
     parser.add_argument("-task", action="store", dest="task", default="mingle around",
                         help="the task to execute, in natural language")
+    
+    parser.add_argument("--no-task", action="store_true", dest="no_task", default=False,
+                    help="specify if no task should be executed")
+    
+    parser.add_argument("-policy", action="store", dest="input_policy", default=input_manager.DEFAULT_POLICY,
+                        help='Policy to use for test input generation. '
+                             'Default: %s.\nSupported policies:\n' % input_manager.DEFAULT_POLICY +
+                             '  \"%s\" -- No event will be sent, user should interact manually with device; \n'
+                             '  \"%s\" -- Use "adb shell monkey" to send events; \n'
+                             '  \"%s\" -- Explore UI using a naive depth-first strategy;\n'
+                             '  \"%s\" -- Explore UI using a greedy depth-first strategy;\n'
+                             '  \"%s\" -- Explore UI using a naive breadth-first strategy;\n'
+                             '  \"%s\" -- Explore UI using a greedy breadth-first strategy;\n'
+                             %
+                             (
+                                 input_policy.POLICY_NONE,
+                                 input_policy.POLICY_MONKEY,
+                                 input_policy.POLICY_NAIVE_DFS,
+                                 input_policy.POLICY_GREEDY_DFS,
+                                 input_policy.POLICY_NAIVE_BFS,
+                                 input_policy.POLICY_GREEDY_BFS,
+                             ))
 
     parser.add_argument("-script", action="store", dest="script_path",
                         help="Use a script to customize input for certain states.")
@@ -66,11 +88,16 @@ def main():
     droidbot = DroidBot(
         app_path=opts.apk_path,
         device_serial=opts.device_serial,
+
         task=opts.task,
+        no_task=opts.no_task,
+
         is_emulator=opts.is_emulator,
         output_dir=opts.output_dir,
         env_policy=env_manager.POLICY_NONE,
-        policy_name=input_manager.POLICY_TASK,
+        # policy_name=input_manager.POLICY_TASK,
+        policy_name=opts.input_policy,
+
         script_path=opts.script_path,
         event_interval=opts.interval,
         timeout=opts.timeout,
