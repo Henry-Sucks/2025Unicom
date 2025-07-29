@@ -648,7 +648,7 @@ class ManualPolicy(UtgBasedInputPolicy):
 
         self.__first_event = True
 
-    def generate_event_based_on_utg(self):
+    def generate_event_based_on_utg(self, input_manager):
         """
         generate an event based on current UTG
         @return: InputEvent
@@ -657,9 +657,9 @@ class ManualPolicy(UtgBasedInputPolicy):
             self.__first_event = False
             self.logger.info("Trying to start the app...")
             start_app_intent = self.app.get_start_intent()
-            return IntentEvent(intent=start_app_intent)
+            return None, IntentEvent(intent=start_app_intent)
         else:
-            return ManualEvent()
+            return None, ManualEvent()
 
 
 class TaskPolicy(UtgBasedInputPolicy):
@@ -1191,3 +1191,7 @@ class TaskPolicy(UtgBasedInputPolicy):
             return 'no_description'  # there is no description of the current state, either it is the leaf node or it was not explored
         # import pdb;pdb.set_trace()
         return self._insert_predictions_into_state_prompt(state_prompt, current_state_item_descriptions)
+    
+
+class FunctionpOLICY(UtgBasedInputPolicy):
+    pass
