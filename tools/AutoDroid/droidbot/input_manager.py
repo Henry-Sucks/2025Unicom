@@ -10,7 +10,8 @@ from .input_policy import UtgBasedInputPolicy, UtgNaiveSearchPolicy, UtgGreedySe
                          POLICY_NAIVE_DFS, POLICY_GREEDY_DFS, \
                          POLICY_NAIVE_BFS, POLICY_GREEDY_BFS, \
                          POLICY_REPLAY, POLICY_MEMORY_GUIDED, \
-                         POLICY_MANUAL, POLICY_MONKEY, POLICY_NONE, POLICY_TASK
+                         POLICY_MANUAL, POLICY_MONKEY, POLICY_NONE, POLICY_TASK, \
+                         POLICY_FUNCTION_EXPLORE, FunctionExplorePolicy
 
 DEFAULT_POLICY = POLICY_GREEDY_DFS
 DEFAULT_EVENT_INTERVAL = 1
@@ -58,6 +59,9 @@ class InputManager(object):
 
         self.monkey = None
 
+        # 为了fucntion_explore添加的
+        self.main_menu = None
+
         if script_path is not None:
             f = open(script_path, 'r')
             script_dict = json.load(f)
@@ -85,6 +89,13 @@ class InputManager(object):
             input_policy = ManualPolicy(device, app)
         elif self.policy_name == POLICY_TASK:
             input_policy = TaskPolicy(device, app, self.random_input, task=self.task)
+
+
+        elif self.policy_name == POLICY_FUNCTION_EXPLORE:
+            input_policy = FunctionExplorePolicy(device, app)
+
+        
+
         else:
             self.logger.warning("No valid input policy specified. Using policy \"none\".")
             input_policy = None

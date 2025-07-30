@@ -9,4 +9,53 @@ droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025U
 droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_bfs_1' -is_emulator -timeout 7200 -policy bfs_greedy > output6.log 2>&1
 
 
-droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_manual' -is_emulator -timeout 7200 -policy manual --no-task > output7.log 2>&1
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_manual' -is_emulator -timeout 7200 -policy manual --no-task > logs/output7.log 2>&1
+
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_manual' -is_emulator -timeout 7200 -policy manual --no-task > output7.log 2>&1  
+
+
+droidbot -a 'C:\Projects\2025Unicom\tools\AutoDroid\test\data\中国联通.apk' -o 'C:\Projects\2025Unicom\tools\AutoDroid\test\output\unicom' -task '查询北京7月26号的酒店并选择500元以内的酒店' -policy task -is_emulator -keep_env -keep_app > output1.log 2>&1
+
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_test' -is_emulator -timeout 7200 -policy function_explore --no-task > output8.log 2>&1  
+
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_test' -timeout 7200 -policy function_explore --no-task > output8.log 2>&1  
+
+adb uninstall com.sinovatech.unicom.ui
+
+{
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1127,
+          426
+        ],
+        [
+          1280,
+          511
+        ]
+      ],
+      "resource_id": "com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 168,
+      "temp_id": 186,
+      "size": "153*85",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu[text][enabled,,]",
+      "view_str": "f5cbf14fb815310114c99d46e26e2222",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu"
+},

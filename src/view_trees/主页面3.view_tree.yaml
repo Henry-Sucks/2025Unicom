@@ -1,0 +1,988 @@
+- class: android.widget.FrameLayout
+  text: null
+  resource_id: null
+  id: 0
+  children:
+  - class: android.widget.LinearLayout
+    text: null
+    resource_id: null
+    id: 1
+    children:
+    - class: android.widget.FrameLayout
+      text: null
+      resource_id: null
+      id: 2
+      children:
+      - class: android.widget.LinearLayout
+        text: null
+        resource_id: com.sinovatech.unicom.ui:id/action_bar_root
+        id: 3
+        children:
+        - class: android.widget.FrameLayout
+          text: null
+          resource_id: android:id/content
+          id: 4
+          children:
+          - class: android.widget.LinearLayout
+            text: null
+            resource_id: null
+            id: 5
+            children:
+            - class: android.widget.TabHost
+              text: null
+              resource_id: android:id/tabhost
+              id: 6
+              children:
+              - class: android.widget.RelativeLayout
+                text: null
+                resource_id: null
+                id: 7
+                children:
+                - class: android.widget.LinearLayout
+                  text: null
+                  resource_id: null
+                  id: 8
+                  children:
+                  - class: android.widget.FrameLayout
+                    text: null
+                    resource_id: android:id/tabcontent
+                    id: 9
+                    children:
+                    - class: android.view.View
+                      text: null
+                      resource_id: null
+                      id: 10
+                  - class: android.widget.FrameLayout
+                    text: null
+                    resource_id: com.sinovatech.unicom.ui:id/realtabcontent
+                    id: 11
+                    children:
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/unicom_home_root_view
+                      id: 12
+                      children:
+                      - class: android.view.ViewGroup
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_smartrefreshlayout
+                        id: 13
+                        children:
+                        - class: android.widget.RelativeLayout
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_twolevelheader
+                          id: 14
+                          children:
+                          - class: android.widget.RelativeLayout
+                            text: null
+                            resource_id: com.sinovatech.unicom.ui:id/classics
+                            id: 15
+                            children:
+                            - class: android.widget.ImageView
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/srl_classics_arrow
+                              id: 16
+                            - class: android.widget.LinearLayout
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/srl_classics_center
+                              id: 17
+                              children:
+                              - class: android.widget.TextView
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/srl_classics_title
+                                id: 18
+                              - class: android.widget.TextView
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/srl_classics_update
+                                id: 19
+                        - class: android.widget.RelativeLayout
+                          text: null
+                          resource_id: null
+                          id: 20
+                          children:
+                          - class: android.view.ViewGroup
+                            text: null
+                            resource_id: com.sinovatech.unicom.ui:id/scrollerLayout
+                            id: 21
+                            children:
+                            - class: android.widget.RelativeLayout
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_bg
+                              id: 22
+                              children:
+                              - class: android.widget.ImageView
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/home_card_bg
+                                id: 23
+                            - class: android.support.v4.view.ViewPager
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/unicom_main_home_viewpager
+                              id: 24
+                              children:
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/scrollerLayout
+                                id: 25
+                                children:
+                                - class: android.widget.FrameLayout
+                                  text: null
+                                  resource_id: null
+                                  id: 26
+                                  children:
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: com.sinovatech.unicom.ui:id/unicom_tuijian_cardview
+                                    id: 27
+                                    children:
+                                    - class: android.widget.LinearLayout
+                                      text: null
+                                      resource_id: null
+                                      id: 28
+                                      children:
+                                      - class: android.view.ViewGroup
+                                        text: null
+                                        resource_id: null
+                                        id: 29
+                                        children:
+                                        - class: android.widget.LinearLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/home_card_member_layout_tishi
+                                          id: 30
+                                          children:
+                                          - class: android.widget.TextView
+                                            text: 截至 2025/07/23 18:56
+                                            resource_id: com.sinovatech.unicom.ui:id/home_info_jiezhiriqi
+                                            id: 31
+                                          - class: android.widget.ImageView
+                                            text: null
+                                            resource_id: com.sinovatech.unicom.ui:id/home_info_shuoming
+                                            id: 32
+                                        - class: android.widget.LinearLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/home_card_member_layout
+                                          id: 33
+                                          children:
+                                          - class: android.widget.TextView
+                                            text: 130****9526
+                                            resource_id: com.sinovatech.unicom.ui:id/home_card_member_num
+                                            id: 34
+                                          - class: android.widget.ImageView
+                                            text: null
+                                            resource_id: null
+                                            id: 35
+                                    - class: android.widget.LinearLayout
+                                      text: null
+                                      resource_id: null
+                                      id: 36
+                                      children:
+                                      - class: android.widget.LinearLayout
+                                        text: null
+                                        resource_id: null
+                                        id: 37
+                                        children:
+                                        - class: android.widget.RelativeLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/home_card_header1
+                                          id: 38
+                                          children:
+                                          - class: android.widget.LinearLayout
+                                            text: null
+                                            resource_id: null
+                                            id: 39
+                                            children:
+                                            - class: android.widget.TextView
+                                              text: 剩余话费
+                                              resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv
+                                              id: 40
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 41
+                                              children:
+                                              - class: android.widget.RelativeLayout
+                                                text: null
+                                                resource_id: null
+                                                id: 42
+                                                children:
+                                                - class: android.widget.TextView
+                                                  text: '114.98'
+                                                  resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv
+                                                  id: 43
+                                              - class: android.widget.TextView
+                                                text: 元
+                                                resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit
+                                                id: 44
+                                        - class: android.widget.RelativeLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/home_card_header2
+                                          id: 45
+                                          children:
+                                          - class: android.widget.LinearLayout
+                                            text: null
+                                            resource_id: null
+                                            id: 46
+                                            children:
+                                            - class: android.widget.TextView
+                                              text: 剩余通用流量
+                                              resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv
+                                              id: 47
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 48
+                                              children:
+                                              - class: android.widget.RelativeLayout
+                                                text: null
+                                                resource_id: null
+                                                id: 49
+                                                children:
+                                                - class: android.widget.TextView
+                                                  text: '12.21'
+                                                  resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv
+                                                  id: 50
+                                              - class: android.widget.TextView
+                                                text: GB
+                                                resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit
+                                                id: 51
+                                        - class: android.widget.RelativeLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/home_card_header3
+                                          id: 52
+                                          children:
+                                          - class: android.widget.LinearLayout
+                                            text: null
+                                            resource_id: null
+                                            id: 53
+                                            children:
+                                            - class: android.widget.TextView
+                                              text: 剩余语音
+                                              resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv
+                                              id: 54
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 55
+                                              children:
+                                              - class: android.widget.RelativeLayout
+                                                text: null
+                                                resource_id: null
+                                                id: 56
+                                                children:
+                                                - class: android.widget.TextView
+                                                  text: '1206'
+                                                  resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv
+                                                  id: 57
+                                              - class: android.widget.TextView
+                                                text: 分钟
+                                                resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit
+                                                id: 58
+                                        - class: android.widget.RelativeLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/home_card_header4
+                                          id: 59
+                                          children:
+                                          - class: android.widget.LinearLayout
+                                            text: null
+                                            resource_id: null
+                                            id: 60
+                                            children:
+                                            - class: android.widget.TextView
+                                              text: 可用积分
+                                              resource_id: com.sinovatech.unicom.ui:id/home_header_long_remain_tv
+                                              id: 61
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 62
+                                              children:
+                                              - class: android.widget.RelativeLayout
+                                                text: null
+                                                resource_id: null
+                                                id: 63
+                                                children:
+                                                - class: android.widget.TextView
+                                                  text: '0'
+                                                  resource_id: com.sinovatech.unicom.ui:id/home_header_long_tv
+                                                  id: 64
+                                              - class: android.widget.TextView
+                                                text: null
+                                                resource_id: com.sinovatech.unicom.ui:id/home_header_long_unit
+                                                id: 65
+                                    - class: android.widget.LinearLayout
+                                      text: null
+                                      resource_id: null
+                                      id: 66
+                                      children:
+                                      - class: android.widget.LinearLayout
+                                        text: null
+                                        resource_id: null
+                                        id: 67
+                                        children:
+                                        - class: android.widget.LinearLayout
+                                          text: null
+                                          resource_id: null
+                                          id: 68
+                                          children:
+                                          - class: android.support.v7.widget.RecyclerView
+                                            text: null
+                                            resource_id: com.sinovatech.unicom.ui:id/jingangqu_recycleview
+                                            id: 69
+                                            children:
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 70
+                                              children:
+                                              - class: android.widget.ImageView
+                                                text: null
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon
+                                                id: 71
+                                              - class: android.widget.TextView
+                                                text: 交话费
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_text
+                                                id: 72
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 73
+                                              children:
+                                              - class: android.widget.ImageView
+                                                text: null
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon
+                                                id: 74
+                                              - class: android.widget.TextView
+                                                text: 充流量
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_text
+                                                id: 75
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 76
+                                              children:
+                                              - class: android.widget.ImageView
+                                                text: null
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon
+                                                id: 77
+                                              - class: android.widget.TextView
+                                                text: PLUS
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_text
+                                                id: 78
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 79
+                                              children:
+                                              - class: android.widget.ImageView
+                                                text: null
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon
+                                                id: 80
+                                              - class: android.widget.TextView
+                                                text: 资费专区
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_text
+                                                id: 81
+                                            - class: android.widget.LinearLayout
+                                              text: null
+                                              resource_id: null
+                                              id: 82
+                                              children:
+                                              - class: android.widget.ImageView
+                                                text: null
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_icon
+                                                id: 83
+                                              - class: android.widget.TextView
+                                                text: 查账单
+                                                resource_id: com.sinovatech.unicom.ui:id/jingangqu_text
+                                                id: 84
+                                          - class: android.widget.LinearLayout
+                                            text: null
+                                            resource_id: com.sinovatech.unicom.ui:id/jingangqu_more
+                                            id: 85
+                                            children:
+                                            - class: android.widget.ImageView
+                                              text: null
+                                              resource_id: null
+                                              id: 86
+                                            - class: android.widget.TextView
+                                              text: 服务大厅
+                                              resource_id: com.sinovatech.unicom.ui:id/jingangqu_more_text
+                                              id: 87
+                                        - class: android.widget.LinearLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/jingangqu_indicator_layout
+                                          id: 88
+                                          children:
+                                          - class: android.view.View
+                                            text: null
+                                            resource_id: com.sinovatech.unicom.ui:id/jingangqu_indicator
+                                            id: 89
+                                    - class: android.widget.LinearLayout
+                                      text: null
+                                      resource_id: null
+                                      id: 90
+                                      children:
+                                      - class: android.widget.LinearLayout
+                                        text: null
+                                        resource_id: null
+                                        id: 91
+                                        children:
+                                        - class: android.widget.LinearLayout
+                                          text: null
+                                          resource_id: com.sinovatech.unicom.ui:id/home_layout
+                                          id: 92
+                                          children:
+                                          - class: android.view.View
+                                            text: null
+                                            resource_id: com.sinovatech.unicom.ui:id/home_service_yuandian
+                                            id: 93
+                                          - class: android.widget.TextView
+                                            text: 服务提醒：
+                                            resource_id: com.sinovatech.unicom.ui:id/home_first_text
+                                            id: 94
+                                          - class: android.widget.TextView
+                                            text: '装宽带限时加赠100元话费券 '
+                                            resource_id: com.sinovatech.unicom.ui:id/home_long_text
+                                            id: 95
+                                          - class: android.widget.TextView
+                                            text: 立即领取
+                                            resource_id: com.sinovatech.unicom.ui:id/home_service_btn
+                                            id: 96
+                                - class: android.view.View
+                                  text: null
+                                  resource_id: null
+                                  id: 97
+                                - class: android.view.ViewGroup
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_tuijian_fragment_container
+                                  id: 98
+                                  children:
+                                  - class: android.view.ViewGroup
+                                    text: null
+                                    resource_id: com.sinovatech.unicom.ui:id/homeweb_rootview
+                                    id: 99
+                                    children:
+                                    - class: android.webkit.WebView
+                                      text: null
+                                      resource_id: null
+                                      id: 100
+                                      children:
+                                      - class: android.webkit.WebView
+                                        text: 精选
+                                        resource_id: null
+                                        id: 101
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 102
+                                          children:
+                                          - class: android.view.View
+                                            text: ''
+                                            resource_id: app
+                                            id: 103
+                                            children:
+                                            - class: android.widget.TextView
+                                              text: 根据您的套餐及使用情况定制
+                                              resource_id: null
+                                              id: 104
+                                            - class: android.view.View
+                                              text: ''
+                                              resource_id: null
+                                              id: 105
+                                              children:
+                                              - class: android.view.View
+                                                text: ''
+                                                resource_id: null
+                                                id: 106
+                                                children:
+                                                - class: android.view.View
+                                                  text: ''
+                                                  resource_id: null
+                                                  id: 107
+                                                  children:
+                                                  - class: android.view.View
+                                                    text: ''
+                                                    resource_id: null
+                                                    id: 108
+                                                    children:
+                                                    - class: android.view.View
+                                                      text: ''
+                                                      resource_id: null
+                                                      id: 109
+                                                      children:
+                                                      - class: android.widget.TextView
+                                                        text: 低价购机
+                                                        resource_id: null
+                                                        id: 110
+                                                      - class: android.widget.TextView
+                                                        text: ''
+                                                        resource_id: null
+                                                        id: 111
+                                                      - class: android.widget.TextView
+                                                        text: 购机省千元
+                                                        resource_id: null
+                                                        id: 112
+                                                    - class: android.view.View
+                                                      text: ''
+                                                      resource_id: null
+                                                      id: 113
+                                                      children:
+                                                      - class: android.widget.TextView
+                                                        text: 靓号秒杀
+                                                        resource_id: null
+                                                        id: 114
+                                                      - class: android.widget.TextView
+                                                        text: ''
+                                                        resource_id: null
+                                                        id: 115
+                                                      - class: android.widget.TextView
+                                                        text: 0元抢数码
+                                                        resource_id: null
+                                                        id: 116
+                                                    - class: android.view.View
+                                                      text: ''
+                                                      resource_id: null
+                                                      id: 117
+                                                      children:
+                                                      - class: android.widget.TextView
+                                                        text: 领12.8话费
+                                                        resource_id: null
+                                                        id: 118
+                                                      - class: android.widget.TextView
+                                                        text: ''
+                                                        resource_id: null
+                                                        id: 119
+                                                      - class: android.widget.TextView
+                                                        text: 限时福利
+                                                        resource_id: null
+                                                        id: 120
+                                                    - class: android.view.View
+                                                      text: ''
+                                                      resource_id: null
+                                                      id: 121
+                                                      children:
+                                                      - class: android.widget.TextView
+                                                        text: 副卡福利
+                                                        resource_id: null
+                                                        id: 122
+                                                      - class: android.widget.TextView
+                                                        text: ''
+                                                        resource_id: null
+                                                        id: 123
+                                                      - class: android.widget.TextView
+                                                        text: 领视频会员
+                                                        resource_id: null
+                                                        id: 124
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 125
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 126
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 127
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 128
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 129
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 130
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 131
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 132
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 133
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 134
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 135
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 136
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 137
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 138
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 139
+                              - class: android.view.ViewGroup
+                                text: null
+                                resource_id: null
+                                id: 140
+                            - class: android.view.View
+                              text: null
+                              resource_id: null
+                              id: 141
+                          - class: android.widget.LinearLayout
+                            text: null
+                            resource_id: com.sinovatech.unicom.ui:id/unicom_home_toolbar_layout
+                            id: 142
+                            children:
+                            - class: android.view.View
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/unicom_home_toolbar_top_view
+                              id: 143
+                            - class: android.widget.RelativeLayout
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/top
+                              id: 144
+                              children:
+                              - class: android.widget.RelativeLayout
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/city_select_btn
+                                id: 145
+                                children:
+                                - class: android.widget.TextView
+                                  text: 海口
+                                  resource_id: com.sinovatech.unicom.ui:id/city_select_text
+                                  id: 146
+                                - class: android.widget.ImageView
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/city_select_image
+                                  id: 147
+                              - class: android.widget.RadioGroup
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/unicom_home_rg
+                                id: 148
+                                children:
+                                - class: android.widget.RadioButton
+                                  text: 首页
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_rb1
+                                  id: 149
+                                - class: android.widget.RadioButton
+                                  text: 附近营业厅
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_rb2
+                                  id: 150
+                              - class: android.widget.LinearLayout
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/title_right_layout
+                                id: 151
+                                children:
+                                - class: android.widget.ImageView
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/home_qiandao_image
+                                  id: 152
+                                - class: android.widget.ImageView
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/home_kefu
+                                  id: 153
+                                - class: android.widget.ImageView
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/home_top_wifi_image
+                                  id: 154
+                            - class: android.widget.LinearLayout
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/home_search_layout
+                              id: 155
+                              children:
+                              - class: android.widget.LinearLayout
+                                text: null
+                                resource_id: null
+                                id: 156
+                                children:
+                                - class: android.widget.ImageView
+                                  text: null
+                                  resource_id: null
+                                  id: 157
+                                - class: android.widget.ViewFlipper
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/home_viewFlipper
+                                  id: 158
+                                  children:
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: null
+                                    id: 159
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 宽带续约
+                                      resource_id: com.sinovatech.unicom.ui:id/home_flip_tv
+                                      id: 160
+                                - class: android.view.View
+                                  text: null
+                                  resource_id: null
+                                  id: 161
+                                - class: android.view.View
+                                  text: null
+                                  resource_id: null
+                                  id: 162
+                                - class: android.widget.TextView
+                                  text: 搜索
+                                  resource_id: com.sinovatech.unicom.ui:id/home_top_serach_image
+                                  id: 163
+                              - class: android.widget.LinearLayout
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/home_search_scan_image_layout
+                                id: 164
+                                children:
+                                - class: android.widget.ImageView
+                                  text: null
+                                  resource_id: null
+                                  id: 165
+                            - class: android.widget.FrameLayout
+                              text: null
+                              resource_id: com.sinovatech.unicom.ui:id/tab_xuanfu_layout_wai
+                              id: 166
+                              children:
+                              - class: android.widget.LinearLayout
+                                text: null
+                                resource_id: com.sinovatech.unicom.ui:id/home_tab_yaobu_layout
+                                id: 167
+                                children:
+                                - class: android.widget.LinearLayout
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_tab1
+                                  id: 168
+                                  children:
+                                  - class: android.widget.TextView
+                                    text: 推荐
+                                    resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title
+                                    id: 169
+                                  - class: android.widget.ImageView
+                                    text: null
+                                    resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_imageview
+                                    id: 170
+                                - class: android.support.v7.widget.RecyclerView
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_layout
+                                  id: 171
+                                  children:
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: null
+                                    id: 172
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 合约机
+                                      resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title
+                                      id: 173
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: null
+                                    id: 174
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 套餐
+                                      resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title
+                                      id: 175
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: null
+                                    id: 176
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 手机
+                                      resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title
+                                      id: 177
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: null
+                                    id: 178
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 宽带
+                                      resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title
+                                      id: 179
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: null
+                                    id: 180
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 号码
+                                      resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title
+                                      id: 181
+                                  - class: android.widget.LinearLayout
+                                    text: null
+                                    resource_id: null
+                                    id: 182
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 政企
+                                      resource_id: com.sinovatech.unicom.ui:id/tab_layout_item_title
+                                      id: 183
+                                - class: android.view.View
+                                  text: null
+                                  resource_id: null
+                                  id: 184
+                                - class: android.widget.ImageView
+                                  text: null
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu
+                                  id: 185
+                          - class: android.widget.LinearLayout
+                            text: null
+                            resource_id: null
+                            id: 186
+                        - class: android.widget.RelativeLayout
+                          text: null
+                          resource_id: null
+                          id: 187
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/unicom_home_bottom_view
+                        id: 188
+                        children:
+                        - class: android.widget.LinearLayout
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/main_bottom_toast_layout
+                          id: 189
+                          children:
+                          - class: android.widget.ImageView
+                            text: null
+                            resource_id: com.sinovatech.unicom.ui:id/main_bottom_toast_content_iv
+                            id: 190
+                          - class: android.widget.TextView
+                            text: 连续签到领话费
+                            resource_id: com.sinovatech.unicom.ui:id/main_bottom_toast_content_tv
+                            id: 191
+                          - class: android.widget.ImageView
+                            text: null
+                            resource_id: com.sinovatech.unicom.ui:id/main_bottom_toast_view_dismiss
+                            id: 192
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/home_xuanfu_layout
+                        id: 193
+                        children:
+                        - class: android.widget.LinearLayout
+                          text: null
+                          resource_id: null
+                          id: 194
+                          children:
+                          - class: android.widget.ImageView
+                            text: null
+                            resource_id: com.sinovatech.unicom.ui:id/home_xuanfu_close
+                            id: 195
+                          - class: android.widget.ImageView
+                            text: null
+                            resource_id: com.sinovatech.unicom.ui:id/home_xuanfu_image
+                            id: 196
+                  - class: android.view.View
+                    text: null
+                    resource_id: null
+                    id: 197
+                - class: android.widget.RelativeLayout
+                  text: null
+                  resource_id: com.sinovatech.unicom.ui:id/main_tab_layout
+                  id: 198
+                  children:
+                  - class: android.widget.LinearLayout
+                    text: null
+                    resource_id: null
+                    id: 199
+                    children:
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_home_parent_layout
+                      id: 200
+                      children:
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_home_layout
+                        id: 201
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_home_imageview
+                          id: 202
+                        - class: android.widget.TextView
+                          text: 首页
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_home_textview
+                          id: 203
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_service_rl
+                      id: 204
+                      children:
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_service_layout
+                        id: 205
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_service_imageview
+                          id: 206
+                        - class: android.widget.TextView
+                          text: 服务
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_service_textview
+                          id: 207
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_shop_parent_layout
+                      id: 208
+                      children:
+                      - class: android.widget.ImageView
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_shop_big_icon
+                        id: 209
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_parent_layout
+                      id: 210
+                      children:
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_layout
+                        id: 211
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_imageview
+                          id: 212
+                        - class: android.widget.TextView
+                          text: 权益
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_textview
+                          id: 213
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_user_parent_layout
+                      id: 214
+                      children:
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_user_layout
+                        id: 215
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_user_imageview
+                          id: 216
+                        - class: android.widget.TextView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_user_notice
+                          id: 217
+                        - class: android.widget.TextView
+                          text: 我的
+                          resource_id: com.sinovatech.unicom.ui:id/main_tab_user_textview
+                          id: 218
+  - class: android.view.View
+    text: null
+    resource_id: android:id/navigationBarBackground
+    id: 219
