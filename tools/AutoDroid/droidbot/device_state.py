@@ -3,6 +3,7 @@ import math
 import os
 import pdb
 
+
 import tools
 from .utils import md5
 from .input_event import TouchEvent, LongTouchEvent, ScrollEvent, SetTextEvent, KeyEvent, UIEvent
@@ -10,6 +11,10 @@ import hashlib
 from treelib import Tree
 import networkx as nx
 import numpy as np
+
+
+import yaml
+from collections import deque
 
 class DeviceState(object):
     """
@@ -1198,3 +1203,179 @@ class DeviceState(object):
             if scrollable and not clickable and not checkable and not long_clickable and not editable:
                 scrollable_views.append(view)
         return scrollable_views
+    
+
+
+
+
+    def compare_to_yaml(self, yaml_path, output_dir=None, 
+                   classes_to_remove=None, 
+                   max_difference=5):
+        """
+        比较当前state的view_tree与YAML文件，支持忽略特定类及其子组件
+        
+        参数:
+            yaml_path: YAML文件路径
+            output_dir: (可选)输出目录
+            classes_to_filter: (可选)需要过滤的类名列表(保留父节点)
+            ignore_classes_with_children: (可选)需要完全忽略的类名列表(包括其子节点)
+            max_difference: (可选)允许的最大差异组件数
+        """
+        def normalize_node(node, classes_to_remove=None):
+            """
+            规范化节点，移除指定类及其所有子节点
+            
+            参数:
+                node: 当前处理的节点
+                classes_to_remove: 需要完全移除的类名列表
+            
+            返回:
+                规范化后的节点或None(如果被过滤)
+            """
+            if not isinstance(node, dict):
+                return None
+                
+            # 检查是否需要完全移除(包括子节点)
+            class_name = node.get('class')
+            if classes_to_remove and class_name in classes_to_remove:
+                return None
+                
+            # 构建标准化节点
+            normalized = {
+                'class': class_name,
+                'resource_id': node.get('resource_id'),
+                'text': node.get('text'),
+                'children': []
+            }
+            
+            # 递归处理子节点(使用相同的过滤规则)
+            for child in node.get('children', []):
+                normalized_child = normalize_node(child, classes_to_remove)
+                if normalized_child is not None:
+                    normalized['children'].append(normalized_child)
+                    
+            # 移除空children
+            if not normalized['children']:
+                normalized.pop('children', None)
+                
+            return {k: v for k, v in normalized.items() if v is not None}
+        
+        def count_differences(layout1, layout2):
+            """计算两个布局之间的差异组件数"""
+            if layout1 == layout2:
+                return 0
+            
+            if (layout1 is None) != (layout2 is None):
+                return float('inf')  # 一方为None另一方不为None，视为无限差异
+            
+            if not isinstance(layout1, dict) or not isinstance(layout2, dict):
+                return 1
+            
+            # 比较当前节点的属性
+            diff_count = 0
+            if layout1.get('class') != layout2.get('class'):
+                diff_count += 1
+            if layout1.get('resource_id') != layout2.get('resource_id'):
+                diff_count += 1
+            
+            # 比较子节点
+            children1 = layout1.get('children', [])
+            children2 = layout2.get('children', [])
+            
+            # 使用广度优先策略比较子节点
+            queue = deque()
+            queue.extend(zip(children1, children2))
+            
+            while queue:
+                child1, child2 = queue.popleft()
+                if child1 == child2:
+                    continue
+                
+                if (child1 is None) != (child2 is None):
+                    diff_count += 1
+                    continue
+                
+                if not isinstance(child1, dict) or not isinstance(child2, dict):
+                    diff_count += 1
+                    continue
+                
+                # 比较当前子节点的属性
+                if child1.get('class') != child2.get('class'):
+                    diff_count += 1
+                if child1.get('resource_id') != child2.get('resource_id'):
+                    diff_count += 1
+                
+                # 将子节点的子节点加入队列
+                queue.extend(zip(child1.get('children', []), child2.get('children', [])))
+                
+                # 如果差异已经超过允许范围，提前终止
+                if diff_count > max_difference:
+                    return diff_count
+            
+            return diff_count
+        
+        try:
+            # 标准化state视图
+            state_tree = normalize_node(self.view_tree)
+            
+            # 加载并标准化YAML
+            with open(yaml_path, 'r', encoding='utf-8') as f:
+                yaml_tree = yaml.safe_load(f)
+            yaml_tree = normalize_node(yaml_tree)
+            
+            # # 输出标准化结果(可选)
+            # if output_dir:
+            #     os.makedirs(output_dir, exist_ok=True)
+            #     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                
+            #     # 保存标准化结果
+            #     for name, tree in [('state', state_tree), ('yaml', yaml_tree)]:
+            #         if tree:  # 只有当树不为空时才保存
+            #             output_path = os.path.join(
+            #                 output_dir, 
+            #                 f"{name}_normalized_{timestamp}.yaml"
+            #             )
+            #             with open(output_path, 'w', encoding='utf-8') as f:
+            #                 yaml.dump(tree, f, default_flow_style=False)
+            #             print(f"标准化布局已保存到: {output_path}")
+            
+            # 计算差异
+            differences = count_differences(state_tree, yaml_tree)
+            print(f"发现差异组件数: {differences} (允许最大差异: {max_difference})")
+            return differences <= max_difference
+            
+        except Exception as e:
+            print(f"比较过程中出错: {e}")
+            return False
+
+
+    def get_view_by_id(self, resource_id):
+        """
+        根据resource_id在视图树中查找并返回对应的视图节点
+        
+        参数:
+            resource_id: 要查找的资源ID字符串，例如"com.example:id/button"
+        
+        返回:
+            匹配的视图节点(dict)，如果未找到则返回None
+        """
+        def find_view_in_tree(node):
+            # 处理单个节点
+            if isinstance(node, dict):
+                if node.get('resource_id') == resource_id:
+                    return node
+                # 递归搜索子节点
+                for child in node.get('children', []):
+                    result = find_view_in_tree(child)
+                    if result is not None:
+                        return result
+            # 处理节点列表
+            elif isinstance(node, list):
+                for item in node:
+                    result = find_view_in_tree(item)
+                    if result is not None:
+                        return result
+            return None
+        
+        # 从view_tree开始搜索
+        return find_view_in_tree(self.view_tree)

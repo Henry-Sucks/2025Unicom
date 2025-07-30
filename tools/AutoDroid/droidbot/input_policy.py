@@ -12,6 +12,10 @@ from .input_event import *
 from .utg import UTG
 import time
 from .input_event import ScrollEvent
+
+
+from .my_utils import layout_compare
+
 # from memory.memory_builder import Memory
 import tools
 import pdb
@@ -46,6 +50,10 @@ POLICY_MONKEY = "monkey"
 POLICY_TASK = "task"
 POLICY_NONE = "none"
 POLICY_MEMORY_GUIDED = "memory_guided"  # implemented in input_policy2
+
+POLICY_FUNCTION_EXPLORE = "function_explore"
+
+
 FINISHED = "task_completed"
 MAX_SCROLL_NUM = 7
 USE_LMQL = False
@@ -397,7 +405,6 @@ class UtgGreedySearchPolicy(UtgBasedInputPolicy):
         @return: InputEvent
         """
         current_state = self.current_state
-        self.logger.info("Current state: %s" % current_state.state_str)
         if current_state.state_str in self.__missed_states:
             self.__missed_states.remove(current_state.state_str)
 
@@ -659,6 +666,10 @@ class ManualPolicy(UtgBasedInputPolicy):
             start_app_intent = self.app.get_start_intent()
             return None, IntentEvent(intent=start_app_intent)
         else:
+            self.logger.info("current state: \n")
+            self.logger.info(self.current_state.view_tree)
+            self.logger.info("Current Views")
+            self.logger.info(self.current_state.views)
             return None, ManualEvent()
 
 
@@ -776,8 +787,6 @@ class TaskPolicy(UtgBasedInputPolicy):
         # if self.__if_save_this_current_state(last_state, current_state):
         #     self.current_state = current_state
 
-        
-        self.logger.info("Current state: %s" % current_state.state_str)
         if current_state.state_str in self.__missed_states:
             self.__missed_states.remove(current_state.state_str)
 
@@ -1193,5 +1202,48 @@ class TaskPolicy(UtgBasedInputPolicy):
         return self._insert_predictions_into_state_prompt(state_prompt, current_state_item_descriptions)
     
 
-class FunctionpOLICY(UtgBasedInputPolicy):
-    pass
+class FunctionExplorePolicy(InputPolicy):
+    def __init__(self, device, app):
+        super(FunctionExplorePolicy, self).__init__(device, app)
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.device = device
+        
+        self.action_count = 0
+        self.master = None
+
+        self.current_state = None
+
+        # 这里应该记录主页面，以什么形式记录呢？
+        self.main_menu = r"C:\Projects\2025Unicom\src\view_trees\主页面1.view_tree.yaml"
+        self.menu_bar_id= r"com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu"
+        self.main_menu_hit = False
+        self.menu_tab_hit = False
+
+    def __if_current_is_main_menu(self, current_state):
+        return current_state.compare_to_yaml(self.main_menu)
+
+    def generate_event(self, input_manager):
+
+        self.current_state = self.device.get_current_state()
+
+        if not self.main_menu_hit:
+            if not self.__if_current_is_main_menu(self.current_state):
+                # 执行操作到达主页面，或者可以什么都不做？
+                return ManualEvent()
+            else:
+                self.main_menu_hit = True
+                # 生成触发主页面目录按钮的event
+                # self.logger.info("Current View")
+                # self.logger.info(self.current_state.views)
+                return TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
+
+
+        # 遍历目录栏，get到按钮上的文字
+        self.logger.info("I am finally here!")
+            
+
+
+
+
+        
+
