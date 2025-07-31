@@ -1409,7 +1409,7 @@ class DeviceState(object):
             bool: 如果当前前台Activity匹配输入则返回True，否则返回False
         """
         # 如果输入的是完整类名（包含包名）
-        print("当前Activity:", self.foreground_activity)
+        print("当前包名：", self.foreground_activity)
         if '.' in activity_name:
             return self.foreground_activity == activity_name
         
