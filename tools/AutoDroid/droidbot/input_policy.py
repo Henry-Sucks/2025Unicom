@@ -1207,6 +1207,8 @@ class FunctionExplorePolicy(InputPolicy):
         super(FunctionExplorePolicy, self).__init__(device, app)
         self.logger = logging.getLogger(self.__class__.__name__)
         self.device = device
+
+        self.__first_event = True
         
         self.action_count = 0
         self.master = None
@@ -1215,19 +1217,27 @@ class FunctionExplorePolicy(InputPolicy):
 
         # 这里应该记录主页面，以什么形式记录呢？
         self.main_menu = r"C:\Projects\2025Unicom\src\view_trees\主页面1.view_tree.yaml"
+        self.main_menu_activity = r"com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity"
         self.menu_bar_id= r"com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu"
         self.main_menu_hit = False
         self.menu_tab_hit = False
 
-    def __if_current_is_main_menu(self, current_state):
-        return current_state.compare_to_yaml(self.main_menu)
+    def __if_current_is_main_menu(self):
+        # return self.current_state.compare_to_yaml(self.main_menu)
+        return self.current_state.is_current_activity(self.main_menu_activity)
 
     def generate_event(self, input_manager):
+
+        if self.__first_event:
+            self.__first_event = False
+            self.logger.info("Trying to start the app...")
+            start_app_intent = self.app.get_start_intent()
+            return IntentEvent(intent=start_app_intent)
 
         self.current_state = self.device.get_current_state()
 
         if not self.main_menu_hit:
-            if not self.__if_current_is_main_menu(self.current_state):
+            if not self.__if_current_is_main_menu():
                 # 执行操作到达主页面，或者可以什么都不做？
                 return ManualEvent()
             else:
@@ -1240,6 +1250,7 @@ class FunctionExplorePolicy(InputPolicy):
 
         # 遍历目录栏，get到按钮上的文字
         self.logger.info("I am finally here!")
+        return ManualEvent()
             
 
 

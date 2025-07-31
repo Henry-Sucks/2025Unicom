@@ -1223,42 +1223,69 @@ class DeviceState(object):
         """
         def normalize_node(node, classes_to_remove=None):
             """
-            规范化节点，移除指定类及其所有子节点
+            规范化节点，支持列表或字典输入
             
             参数:
-                node: 当前处理的节点
+                node: 当前处理的节点（可以是列表或字典）
                 classes_to_remove: 需要完全移除的类名列表
             
             返回:
-                规范化后的节点或None(如果被过滤)
+                规范化后的节点或列表（如果输入是列表）
             """
-            if not isinstance(node, dict):
+            if isinstance(node, list):
+                # 如果是列表，递归处理每个元素
+                normalized_children = []
+                for child in node:
+                    normalized_child = normalize_node(child, classes_to_remove)
+                    if normalized_child is not None:
+                        normalized_children.append(normalized_child)
+                return normalized_children if normalized_children else None
+            
+            elif not isinstance(node, dict):
+                # 如果不是字典也不是列表，直接过滤掉
+                print(f"Invalid node type: {type(node)}")
                 return None
-                
-            # 检查是否需要完全移除(包括子节点)
+            
+            classes_to_remove = [
+                'android.support.v4.view.ViewPager',
+                'android.widget.ImageView',
+                'android.widget.TextView'
+            ]
+            
             class_name = node.get('class')
             if classes_to_remove and class_name in classes_to_remove:
                 return None
-                
-            # 构建标准化节点
+            
             normalized = {
                 'class': class_name,
-                'resource_id': node.get('resource_id'),
+                'resource_id': node.get('resource_id'),  # 即使为 None 也保留
                 'text': node.get('text'),
                 'children': []
             }
             
-            # 递归处理子节点(使用相同的过滤规则)
             for child in node.get('children', []):
                 normalized_child = normalize_node(child, classes_to_remove)
                 if normalized_child is not None:
                     normalized['children'].append(normalized_child)
-                    
-            # 移除空children
+            
             if not normalized['children']:
                 normalized.pop('children', None)
-                
-            return {k: v for k, v in normalized.items() if v is not None}
+            
+            return normalized
+        
+        def get_max_depth(node):
+            """计算布局树的最大深度（递归实现）"""
+            if not node or not isinstance(node, dict):
+                return 0  # 空节点或非字典节点深度为0
+            
+            children = node.get('children', [])
+            if not children:
+                return 1  # 无子节点时深度为1
+            
+            # 递归计算所有子节点的最大深度
+            max_child_depth = max(get_max_depth(child) for child in children)
+            return 1 + max_child_depth  # 当前节点深度 = 1 + 最大子节点深度
+        
         
         def count_differences(layout1, layout2):
             """计算两个布局之间的差异组件数"""
@@ -1273,6 +1300,10 @@ class DeviceState(object):
             
             # 比较当前节点的属性
             diff_count = 0
+
+            depth_diff = abs(get_max_depth(layout1) - get_max_depth(layout2))
+            diff_count += depth_diff * 0.5  # 每层深度差异增加 0.5 个差异度
+
             if layout1.get('class') != layout2.get('class'):
                 diff_count += 1
             if layout1.get('resource_id') != layout2.get('resource_id'):
@@ -1317,27 +1348,14 @@ class DeviceState(object):
         try:
             # 标准化state视图
             state_tree = normalize_node(self.view_tree)
+            print(state_tree)
             
             # 加载并标准化YAML
             with open(yaml_path, 'r', encoding='utf-8') as f:
                 yaml_tree = yaml.safe_load(f)
+
             yaml_tree = normalize_node(yaml_tree)
-            
-            # # 输出标准化结果(可选)
-            # if output_dir:
-            #     os.makedirs(output_dir, exist_ok=True)
-            #     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                
-            #     # 保存标准化结果
-            #     for name, tree in [('state', state_tree), ('yaml', yaml_tree)]:
-            #         if tree:  # 只有当树不为空时才保存
-            #             output_path = os.path.join(
-            #                 output_dir, 
-            #                 f"{name}_normalized_{timestamp}.yaml"
-            #             )
-            #             with open(output_path, 'w', encoding='utf-8') as f:
-            #                 yaml.dump(tree, f, default_flow_style=False)
-            #             print(f"标准化布局已保存到: {output_path}")
+            print(yaml_tree)
             
             # 计算差异
             differences = count_differences(state_tree, yaml_tree)
@@ -1379,3 +1397,22 @@ class DeviceState(object):
         
         # 从view_tree开始搜索
         return find_view_in_tree(self.view_tree)
+    
+    def is_current_activity(self, activity_name):
+        """
+        判断当前状态是否属于指定的Activity
+        
+        参数:
+            activity_name: 要检查的Activity名称，可以是完整类名或短名称
+        
+        返回:
+            bool: 如果当前前台Activity匹配输入则返回True，否则返回False
+        """
+        # 如果输入的是完整类名（包含包名）
+        print("当前Activity:", self.foreground_activity)
+        if '.' in activity_name:
+            return self.foreground_activity == activity_name
+        
+        # 如果输入的是短名称（不包含包名）
+        current_short_name = self.foreground_activity.split('.')[-1]
+        return current_short_name == activity_name

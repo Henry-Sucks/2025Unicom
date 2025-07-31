@@ -18,7 +18,7 @@ droidbot -a 'C:\Projects\2025Unicom\tools\AutoDroid\test\data\中国联通.apk' 
 
 droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_test' -is_emulator -timeout 7200 -policy function_explore --no-task > output8.log 2>&1  
 
-droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_test' -timeout 7200 -policy function_explore --no-task > output8.log 2>&1  
+droidbot -a 'C:\Projects\2025Unicom\data\中国联通.apk' -o 'C:\Projects\2025Unicom\output\Unicom_test' -timeout 7200 -policy function_explore --no-task -keep_env -keep_app > output8.log 2>&1  
 
 adb uninstall com.sinovatech.unicom.ui
 
