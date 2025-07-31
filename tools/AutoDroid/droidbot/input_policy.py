@@ -1219,7 +1219,8 @@ class FunctionExplorePolicy(InputPolicy):
         self.main_menu = r"C:\Projects\2025Unicom\src\view_trees\主页面1.view_tree.yaml"
         self.main_menu_activity = r"com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity"
         self.menu_bar_id= r"com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu"
-        self.main_menu_hit = False
+        self.main_menu_first_hit = False
+        self.main_menu_second_hit = False
         self.menu_tab_hit = False
 
     def __if_current_is_main_menu(self):
@@ -1236,21 +1237,27 @@ class FunctionExplorePolicy(InputPolicy):
 
         self.current_state = self.device.get_current_state()
 
-        if not self.main_menu_hit:
+        if not self.main_menu_first_hit:
             if not self.__if_current_is_main_menu():
                 # 执行操作到达主页面，或者可以什么都不做？
                 return ManualEvent()
             else:
-                self.main_menu_hit = True
+                self.main_menu_first_hit = True
                 # 生成触发主页面目录按钮的event
                 # self.logger.info("Current View")
                 # self.logger.info(self.current_state.views)
-                return TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
+                print(self.current_state.get_view_by_id(self.menu_bar_id))
+                return ManualEvent()
+
+        if not self.main_menu_second_hit:
+            self.main_menu_second_hit = True
+            print(self.current_state.get_view_by_id(self.menu_bar_id))
+            return TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
 
 
         # 遍历目录栏，get到按钮上的文字
         self.logger.info("I am finally here!")
-        return ManualEvent()
+
             
 
 
