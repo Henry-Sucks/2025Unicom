@@ -1,0 +1,11 @@
+触发Touch事件的时候，为什么会报
+```
+def view_str(state, view):
+        view_class = view['class'].split('.')[-1]
+        view_text = view['text'].replace('\n', '\\n') if 'text' in view and view['text'] else ''
+        view_text = view_text[:10] if len(view_text) > 10 else view_text
+        view_short_sig = f'{state.activity_short_name}/{view_class}-{view_text}'
+        return "What?"
+        # return f"state={state.state_str}, view={view['view_str']}({view_short_sig})"
+```
+相关的错误？

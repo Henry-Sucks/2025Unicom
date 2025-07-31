@@ -1208,163 +1208,163 @@ class DeviceState(object):
 
 
 
-    def compare_to_yaml(self, yaml_path, output_dir=None, 
-                   classes_to_remove=None, 
-                   max_difference=5):
-        """
-        比较当前state的view_tree与YAML文件，支持忽略特定类及其子组件
+    # def compare_to_yaml(self, yaml_path, output_dir=None, 
+    #                classes_to_remove=None, 
+    #                max_difference=5):
+    #     """
+    #     比较当前state的view_tree与YAML文件，支持忽略特定类及其子组件
         
-        参数:
-            yaml_path: YAML文件路径
-            output_dir: (可选)输出目录
-            classes_to_filter: (可选)需要过滤的类名列表(保留父节点)
-            ignore_classes_with_children: (可选)需要完全忽略的类名列表(包括其子节点)
-            max_difference: (可选)允许的最大差异组件数
-        """
-        def normalize_node(node, classes_to_remove=None):
-            """
-            规范化节点，支持列表或字典输入
+    #     参数:
+    #         yaml_path: YAML文件路径
+    #         output_dir: (可选)输出目录
+    #         classes_to_filter: (可选)需要过滤的类名列表(保留父节点)
+    #         ignore_classes_with_children: (可选)需要完全忽略的类名列表(包括其子节点)
+    #         max_difference: (可选)允许的最大差异组件数
+    #     """
+    #     def normalize_node(node, classes_to_remove=None):
+    #         """
+    #         规范化节点，支持列表或字典输入
             
-            参数:
-                node: 当前处理的节点（可以是列表或字典）
-                classes_to_remove: 需要完全移除的类名列表
+    #         参数:
+    #             node: 当前处理的节点（可以是列表或字典）
+    #             classes_to_remove: 需要完全移除的类名列表
             
-            返回:
-                规范化后的节点或列表（如果输入是列表）
-            """
-            if isinstance(node, list):
-                # 如果是列表，递归处理每个元素
-                normalized_children = []
-                for child in node:
-                    normalized_child = normalize_node(child, classes_to_remove)
-                    if normalized_child is not None:
-                        normalized_children.append(normalized_child)
-                return normalized_children if normalized_children else None
+    #         返回:
+    #             规范化后的节点或列表（如果输入是列表）
+    #         """
+    #         if isinstance(node, list):
+    #             # 如果是列表，递归处理每个元素
+    #             normalized_children = []
+    #             for child in node:
+    #                 normalized_child = normalize_node(child, classes_to_remove)
+    #                 if normalized_child is not None:
+    #                     normalized_children.append(normalized_child)
+    #             return normalized_children if normalized_children else None
             
-            elif not isinstance(node, dict):
-                # 如果不是字典也不是列表，直接过滤掉
-                print(f"Invalid node type: {type(node)}")
-                return None
+    #         elif not isinstance(node, dict):
+    #             # 如果不是字典也不是列表，直接过滤掉
+    #             print(f"Invalid node type: {type(node)}")
+    #             return None
             
-            classes_to_remove = [
-                'android.support.v4.view.ViewPager',
-                'android.widget.ImageView',
-                'android.widget.TextView'
-            ]
+    #         classes_to_remove = [
+    #             'android.support.v4.view.ViewPager',
+    #             'android.widget.ImageView',
+    #             'android.widget.TextView'
+    #         ]
             
-            class_name = node.get('class')
-            if classes_to_remove and class_name in classes_to_remove:
-                return None
+    #         class_name = node.get('class')
+    #         if classes_to_remove and class_name in classes_to_remove:
+    #             return None
             
-            normalized = {
-                'class': class_name,
-                'resource_id': node.get('resource_id'),  # 即使为 None 也保留
-                'text': node.get('text'),
-                'children': []
-            }
+    #         normalized = {
+    #             'class': class_name,
+    #             'resource_id': node.get('resource_id'),  # 即使为 None 也保留
+    #             'text': node.get('text'),
+    #             'children': []
+    #         }
             
-            for child in node.get('children', []):
-                normalized_child = normalize_node(child, classes_to_remove)
-                if normalized_child is not None:
-                    normalized['children'].append(normalized_child)
+    #         for child in node.get('children', []):
+    #             normalized_child = normalize_node(child, classes_to_remove)
+    #             if normalized_child is not None:
+    #                 normalized['children'].append(normalized_child)
             
-            if not normalized['children']:
-                normalized.pop('children', None)
+    #         if not normalized['children']:
+    #             normalized.pop('children', None)
             
-            return normalized
+    #         return normalized
         
-        def get_max_depth(node):
-            """计算布局树的最大深度（递归实现）"""
-            if not node or not isinstance(node, dict):
-                return 0  # 空节点或非字典节点深度为0
+    #     def get_max_depth(node):
+    #         """计算布局树的最大深度（递归实现）"""
+    #         if not node or not isinstance(node, dict):
+    #             return 0  # 空节点或非字典节点深度为0
             
-            children = node.get('children', [])
-            if not children:
-                return 1  # 无子节点时深度为1
+    #         children = node.get('children', [])
+    #         if not children:
+    #             return 1  # 无子节点时深度为1
             
-            # 递归计算所有子节点的最大深度
-            max_child_depth = max(get_max_depth(child) for child in children)
-            return 1 + max_child_depth  # 当前节点深度 = 1 + 最大子节点深度
+    #         # 递归计算所有子节点的最大深度
+    #         max_child_depth = max(get_max_depth(child) for child in children)
+    #         return 1 + max_child_depth  # 当前节点深度 = 1 + 最大子节点深度
         
         
-        def count_differences(layout1, layout2):
-            """计算两个布局之间的差异组件数"""
-            if layout1 == layout2:
-                return 0
+    #     def count_differences(layout1, layout2):
+    #         """计算两个布局之间的差异组件数"""
+    #         if layout1 == layout2:
+    #             return 0
             
-            if (layout1 is None) != (layout2 is None):
-                return float('inf')  # 一方为None另一方不为None，视为无限差异
+    #         if (layout1 is None) != (layout2 is None):
+    #             return float('inf')  # 一方为None另一方不为None，视为无限差异
             
-            if not isinstance(layout1, dict) or not isinstance(layout2, dict):
-                return 1
+    #         if not isinstance(layout1, dict) or not isinstance(layout2, dict):
+    #             return 1
             
-            # 比较当前节点的属性
-            diff_count = 0
+    #         # 比较当前节点的属性
+    #         diff_count = 0
 
-            depth_diff = abs(get_max_depth(layout1) - get_max_depth(layout2))
-            diff_count += depth_diff * 0.5  # 每层深度差异增加 0.5 个差异度
+    #         depth_diff = abs(get_max_depth(layout1) - get_max_depth(layout2))
+    #         diff_count += depth_diff * 0.5  # 每层深度差异增加 0.5 个差异度
 
-            if layout1.get('class') != layout2.get('class'):
-                diff_count += 1
-            if layout1.get('resource_id') != layout2.get('resource_id'):
-                diff_count += 1
+    #         if layout1.get('class') != layout2.get('class'):
+    #             diff_count += 1
+    #         if layout1.get('resource_id') != layout2.get('resource_id'):
+    #             diff_count += 1
             
-            # 比较子节点
-            children1 = layout1.get('children', [])
-            children2 = layout2.get('children', [])
+    #         # 比较子节点
+    #         children1 = layout1.get('children', [])
+    #         children2 = layout2.get('children', [])
             
-            # 使用广度优先策略比较子节点
-            queue = deque()
-            queue.extend(zip(children1, children2))
+    #         # 使用广度优先策略比较子节点
+    #         queue = deque()
+    #         queue.extend(zip(children1, children2))
             
-            while queue:
-                child1, child2 = queue.popleft()
-                if child1 == child2:
-                    continue
+    #         while queue:
+    #             child1, child2 = queue.popleft()
+    #             if child1 == child2:
+    #                 continue
                 
-                if (child1 is None) != (child2 is None):
-                    diff_count += 1
-                    continue
+    #             if (child1 is None) != (child2 is None):
+    #                 diff_count += 1
+    #                 continue
                 
-                if not isinstance(child1, dict) or not isinstance(child2, dict):
-                    diff_count += 1
-                    continue
+    #             if not isinstance(child1, dict) or not isinstance(child2, dict):
+    #                 diff_count += 1
+    #                 continue
                 
-                # 比较当前子节点的属性
-                if child1.get('class') != child2.get('class'):
-                    diff_count += 1
-                if child1.get('resource_id') != child2.get('resource_id'):
-                    diff_count += 1
+    #             # 比较当前子节点的属性
+    #             if child1.get('class') != child2.get('class'):
+    #                 diff_count += 1
+    #             if child1.get('resource_id') != child2.get('resource_id'):
+    #                 diff_count += 1
                 
-                # 将子节点的子节点加入队列
-                queue.extend(zip(child1.get('children', []), child2.get('children', [])))
+    #             # 将子节点的子节点加入队列
+    #             queue.extend(zip(child1.get('children', []), child2.get('children', [])))
                 
-                # 如果差异已经超过允许范围，提前终止
-                if diff_count > max_difference:
-                    return diff_count
+    #             # 如果差异已经超过允许范围，提前终止
+    #             if diff_count > max_difference:
+    #                 return diff_count
             
-            return diff_count
+    #         return diff_count
         
-        try:
-            # 标准化state视图
-            state_tree = normalize_node(self.view_tree)
-            print(state_tree)
+    #     try:
+    #         # 标准化state视图
+    #         state_tree = normalize_node(self.view_tree)
+    #         print(state_tree)
             
-            # 加载并标准化YAML
-            with open(yaml_path, 'r', encoding='utf-8') as f:
-                yaml_tree = yaml.safe_load(f)
+    #         # 加载并标准化YAML
+    #         with open(yaml_path, 'r', encoding='utf-8') as f:
+    #             yaml_tree = yaml.safe_load(f)
 
-            yaml_tree = normalize_node(yaml_tree)
-            print(yaml_tree)
+    #         yaml_tree = normalize_node(yaml_tree)
+    #         print(yaml_tree)
             
-            # 计算差异
-            differences = count_differences(state_tree, yaml_tree)
-            print(f"发现差异组件数: {differences} (允许最大差异: {max_difference})")
-            return differences <= max_difference
+    #         # 计算差异
+    #         differences = count_differences(state_tree, yaml_tree)
+    #         print(f"发现差异组件数: {differences} (允许最大差异: {max_difference})")
+    #         return differences <= max_difference
             
-        except Exception as e:
-            print(f"比较过程中出错: {e}")
-            return False
+    #     except Exception as e:
+    #         print(f"比较过程中出错: {e}")
+    #         return False
 
 
     def get_view_by_id(self, resource_id):
@@ -1416,3 +1416,92 @@ class DeviceState(object):
         # 如果输入的是短名称（不包含包名）
         current_short_name = self.foreground_activity.split('.')[-1]
         return current_short_name == activity_name
+    
+
+    def get_described_actions_within_view_class(self, target_class: str, prefix=''):
+        """
+        Get a text description of components *within* views of a given class name.
+        Only describe views inside views with the specified class (e.g. "android.support.v4.view.ViewPager").
+        """
+
+        # Frame templates for HTML representation
+        text_frame = "<p id=@ class='&'>#</p>"
+        btn_frame = "<button id=@ class='&' checked=$>#</button>"
+        input_frame = "<input id=@ class='&' >#</input>"
+        scroll_down_frame = "<div id=@ class='scroller'>scroll down</div>"
+        scroll_up_frame = "<div id=@ class='scroller'>scroll up</div>"
+
+        view_descs = []
+        available_actions = []
+
+        # Step 1: 找到所有匹配指定 class 的父 view
+        target_view_ids = [
+            view['temp_id']
+            for view in self.views
+            if self.__safe_dict_get(view, 'class') == target_class
+        ]
+
+        # Step 2: 找出所有 parent 属于 target_view_ids 的子 view
+        target_child_views = [
+            view for view in self.views
+            if self.__safe_dict_get(view, 'parent') in target_view_ids and
+            self.__safe_dict_get(view, 'visible') and
+            self.__safe_dict_get(view, 'resource_id') not in [
+                'android:id/navigationBarBackground',
+                'android:id/statusBarBackground'
+            ]
+        ]
+
+        for idx, view in enumerate(target_child_views):
+            clickable = self._get_self_ancestors_property(view, 'clickable')
+            scrollable = self.__safe_dict_get(view, 'scrollable')
+            checkable = self._get_self_ancestors_property(view, 'checkable')
+            long_clickable = self._get_self_ancestors_property(view, 'long_clickable')
+            editable = self.__safe_dict_get(view, 'editable')
+            actionable = clickable or scrollable or checkable or long_clickable or editable
+            checked = self.__safe_dict_get(view, 'checked', default=False)
+            selected = self.__safe_dict_get(view, 'selected', default=False)
+            content_description = self.__safe_dict_get(view, 'content_description', default='')
+            view_text = self.__safe_dict_get(view, 'text', default='')
+            view_class = self.__safe_dict_get(view, 'class').split('.')[-1]
+
+            # 如果既无文字又无描述且非 scrollable，就跳过
+            if not content_description and not view_text and not scrollable:
+                continue
+
+            if editable:
+                view_desc = input_frame.replace('@', str(len(view_descs))).replace('#', view_text)
+                if content_description:
+                    view_desc = view_desc.replace('&', content_description)
+                else:
+                    view_desc = view_desc.replace(" class='&'", "")
+                view_descs.append(view_desc)
+                available_actions.append(SetTextEvent(view=view, text='HelloWorld'))
+
+            elif (clickable or checkable or long_clickable):
+                view_desc = btn_frame.replace('@', str(len(view_descs))).replace('#', view_text).replace('$', str(checked or selected))
+                if content_description:
+                    view_desc = view_desc.replace('&', content_description)
+                else:
+                    view_desc = view_desc.replace(" class='&'", "")
+                view_descs.append(view_desc)
+                available_actions.append(TouchEvent(view=view))
+
+            elif scrollable:
+                view_descs.append(scroll_up_frame.replace('@', str(len(view_descs))))
+                available_actions.append(ScrollEvent(view=view, direction='UP'))
+                view_descs.append(scroll_down_frame.replace('@', str(len(view_descs))))
+                available_actions.append(ScrollEvent(view=view, direction='DOWN'))
+
+            else:
+                view_desc = text_frame.replace('@', str(len(view_descs))).replace('#', view_text)
+                if content_description:
+                    view_desc = view_desc.replace('&', content_description)
+                else:
+                    view_desc = view_desc.replace(" class='&'", "")
+                view_descs.append(view_desc)
+                available_actions.append(TouchEvent(view=view))
+
+        state_desc = prefix + '\n '.join(view_descs)
+        views_without_id = self._remove_view_ids(view_descs)
+        return state_desc, available_actions, views_without_id
