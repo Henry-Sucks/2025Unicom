@@ -14,7 +14,7 @@ import time
 from .input_event import ScrollEvent
 
 
-from .my_utils import layout_compare
+from .my_utils import *
 
 # from memory.memory_builder import Memory
 import tools
@@ -1222,6 +1222,13 @@ class FunctionExplorePolicy(InputPolicy):
         self.main_menu_first_hit = False
         self.main_menu_second_hit = False
         self.menu_tab_hit = False
+        self.menu_phase = True
+        self.page_phase = False
+
+
+        # 新增：记录已点击的按钮
+        self.clicked_buttons = set()  # 使用集合存储已点击按钮的唯一标识
+        self.current_content = ""
 
     def __if_current_is_main_menu(self):
         # return self.current_state.compare_to_yaml(self.main_menu)
@@ -1246,17 +1253,62 @@ class FunctionExplorePolicy(InputPolicy):
                 # 生成触发主页面目录按钮的event
                 # self.logger.info("Current View")
                 # self.logger.info(self.current_state.views)
+                time.sleep(1)
+                self.current_state = self.device.get_current_state()
                 print(self.current_state.get_view_by_id(self.menu_bar_id))
-                return ManualEvent()
+                return TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
 
-        if not self.main_menu_second_hit:
-            self.main_menu_second_hit = True
-            print(self.current_state.get_view_by_id(self.menu_bar_id))
-            return TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
+
+        # if not self.main_menu_second_hit:
+        #     self.main_menu_second_hit = True
+        #     print(self.current_state.get_view_by_id(self.menu_bar_id))
+        #     return TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
 
 
         # 遍历目录栏，get到按钮上的文字
         self.logger.info("I am finally here!")
+
+        if self.menu_phase:
+            time.sleep(1)
+            current_state = self.device.get_current_state()
+            menu_view = current_state.get_view_by_id(r'com.sinovatech.unicom.ui:id/home_menu_pop_recylerView')
+
+            if menu_view is None:
+                self.logger.warning("Menu view not found!")
+                return ManualEvent()
+
+            clickable_buttons = extract_text_views(menu_view)
+            
+            if not clickable_buttons:
+                self.logger.info("No clickable buttons found in menu")
+                self.menu_phase = False
+                self.page_phase = True
+                return ManualEvent()
+
+            # 遍历按钮，寻找未点击过的
+            for button_view, button_text in clickable_buttons:
+                button_str = button_view.get('view_str')
+                if button_str not in self.clicked_buttons:
+                    self.logger.info(f"Clicking new button: {button_text}")
+                    print(button_view)
+                    self.current_content = button_text
+                    self.clicked_buttons.add(button_str)  # 标记为已点击
+                    self.menu_phase = False
+                    self.page_phase = True
+                    return TouchEvent(view=button_view)
+
+            # 如果所有按钮都已点击过，切换到页面阶段
+            self.logger.info("All menu buttons have been clicked")
+            return ExitEvent() 
+
+        if(self.page_phase):
+            time.sleep(1)
+            current_state = self.device.get_current_state()
+            # 遍历页面，获取按钮上的关键词和页面布局，为给大模型，让大模型进行：总结页面功能，判断是否由更多值得探索的子功能，返回进一步探索方案
+            print(f"I am in page {self.current_content}!")
+            self.menu_phase = True
+            self.page_phase = False
+            return TouchEvent(view = current_state.get_view_by_id(self.menu_bar_id))
 
             
 
