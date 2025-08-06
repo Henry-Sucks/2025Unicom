@@ -11,7 +11,8 @@ from .input_policy import UtgBasedInputPolicy, UtgNaiveSearchPolicy, UtgGreedySe
                          POLICY_NAIVE_BFS, POLICY_GREEDY_BFS, \
                          POLICY_REPLAY, POLICY_MEMORY_GUIDED, \
                          POLICY_MANUAL, POLICY_MONKEY, POLICY_NONE, POLICY_TASK, \
-                         POLICY_FUNCTION_EXPLORE, FunctionExplorePolicy
+                         POLICY_FUNCTION_EXPLORE
+from .input_policy3 import FunctionExplorePolicy
 
 DEFAULT_POLICY = POLICY_GREEDY_DFS
 DEFAULT_EVENT_INTERVAL = 1
