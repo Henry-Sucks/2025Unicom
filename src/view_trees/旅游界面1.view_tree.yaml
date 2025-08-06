@@ -1,0 +1,712 @@
+- class: android.widget.FrameLayout
+  text: null
+  resource_id: null
+  id: 0
+  children:
+  - class: android.widget.LinearLayout
+    text: null
+    resource_id: null
+    id: 1
+    children:
+    - class: android.widget.FrameLayout
+      text: null
+      resource_id: null
+      id: 2
+      children:
+      - class: android.widget.LinearLayout
+        text: null
+        resource_id: com.sinovatech.unicom.ui:id/action_bar_root
+        id: 3
+        children:
+        - class: android.widget.FrameLayout
+          text: null
+          resource_id: android:id/content
+          id: 4
+          children:
+          - class: android.widget.LinearLayout
+            text: null
+            resource_id: null
+            id: 5
+            children:
+            - class: android.widget.RelativeLayout
+              text: null
+              resource_id: com.sinovatech.unicom.ui:id/web_liner_layout
+              id: 6
+              children:
+              - class: android.widget.RelativeLayout
+                text: null
+                resource_id: com.sinovatech.unicom.ui:id/root_layout
+                id: 7
+                children:
+                - class: android.widget.LinearLayout
+                  text: null
+                  resource_id: null
+                  id: 8
+                  children:
+                  - class: android.widget.RelativeLayout
+                    text: null
+                    resource_id: com.sinovatech.unicom.ui:id/webdetail_title_layout
+                    id: 9
+                    children:
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/webdetail_normal_layout
+                      id: 10
+                      children:
+                      - class: android.widget.LinearLayout
+                        text: null
+                        resource_id: null
+                        id: 11
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/web_back
+                          id: 12
+                      - class: android.widget.LinearLayout
+                        text: null
+                        resource_id: null
+                        id: 13
+                        children:
+                        - class: android.widget.TextView
+                          text: 联通旅游
+                          resource_id: com.sinovatech.unicom.ui:id/webdetail_title_textview
+                          id: 14
+                        - class: android.widget.TextView
+                          text: 130****9526
+                          resource_id: com.sinovatech.unicom.ui:id/webdetail_currentmobile_textview
+                          id: 15
+                      - class: android.widget.LinearLayout
+                        text: null
+                        resource_id: null
+                        id: 16
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/web_close
+                          id: 17
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/web_more
+                          id: 18
+                  - class: android.widget.RelativeLayout
+                    text: null
+                    resource_id: com.sinovatech.unicom.ui:id/webdetail_contentroot_layout
+                    id: 19
+                    children:
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: null
+                      id: 20
+                      children:
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/toutiao_webview_xinxiliu_layout
+                        id: 21
+                      - class: android.webkit.WebView
+                        text: null
+                        resource_id: null
+                        id: 22
+                        children:
+                        - class: android.webkit.WebView
+                          text: 联通旅游
+                          resource_id: null
+                          id: 23
+                          children:
+                          - class: android.view.View
+                            text: ''
+                            resource_id: app
+                            id: 24
+                            children:
+                            - class: android.view.View
+                              text: ''
+                              resource_id: null
+                              id: 25
+                              children:
+                              - class: android.view.View
+                                text: ''
+                                resource_id: null
+                                id: 26
+                                children:
+                                - class: android.view.View
+                                  text: ''
+                                  resource_id: null
+                                  id: 27
+                                  children:
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 28
+                                    children:
+                                    - class: android.widget.Image
+                                      text: ticket_banner.9c42e161
+                                      resource_id: null
+                                      id: 29
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 30
+                                    children:
+                                    - class: android.widget.TextView
+                                      text: 机票查询
+                                      resource_id: null
+                                      id: 31
+                                    - class: android.widget.TextView
+                                      text: 单程
+                                      resource_id: null
+                                      id: 32
+                                    - class: android.widget.TextView
+                                      text: 往返
+                                      resource_id: null
+                                      id: 33
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 34
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 35
+                                        children:
+                                        - class: android.widget.Image
+                                          text: cityExchange1.f17ba725
+                                          resource_id: null
+                                          id: 36
+                                        - class: android.widget.Image
+                                          text: cityExchange2.792a9190
+                                          resource_id: null
+                                          id: 37
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 38
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 39
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: ''
+                                            resource_id: null
+                                            id: 40
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 41
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 42
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: ''
+                                            resource_id: null
+                                            id: 43
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 44
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 45
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: ''
+                                            resource_id: null
+                                            id: 46
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 47
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 48
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: ''
+                                            resource_id: null
+                                            id: 49
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 50
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 51
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: 08月07日
+                                            resource_id: null
+                                            id: 52
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 53
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 54
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: ' 明天'
+                                            resource_id: null
+                                            id: 55
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 56
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 57
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: 不限舱位
+                                            resource_id: null
+                                            id: 58
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 59
+                                        children:
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 60
+                                          children:
+                                          - class: android.widget.EditText
+                                            text: ''
+                                            resource_id: null
+                                            id: 61
+                                    - class: android.widget.Button
+                                      text: 查 询
+                                      resource_id: null
+                                      id: 62
+                                  - class: android.widget.TextView
+                                    text: 特价优选
+                                    resource_id: null
+                                    id: 63
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 64
+                                    children:
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 65
+                                      children:
+                                      - class: android.widget.Image
+                                        text: '1902993047638044672'
+                                        resource_id: null
+                                        id: 66
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 67
+                                        children:
+                                        - class: android.widget.TextView
+                                          text: '1'
+                                          resource_id: null
+                                          id: 68
+                                        - class: android.widget.Image
+                                          text: bangdan1.e9f11fb5
+                                          resource_id: null
+                                          id: 69
+                                    - class: android.widget.TextView
+                                      text: 北京 — 上海
+                                      resource_id: null
+                                      id: 70
+                                    - class: android.widget.TextView
+                                      text: 国航
+                                      resource_id: null
+                                      id: 71
+                                    - class: android.widget.TextView
+                                      text: 08-07 周四
+                                      resource_id: null
+                                      id: 72
+                                    - class: android.widget.TextView
+                                      text: ¥820起
+                                      resource_id: null
+                                      id: 73
+                                    - class: android.widget.TextView
+                                      text: 凤凰礼遇
+                                      resource_id: null
+                                      id: 74
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 75
+                                    children:
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 76
+                                      children:
+                                      - class: android.widget.Image
+                                        text: '1902993981252366336'
+                                        resource_id: null
+                                        id: 77
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 78
+                                        children:
+                                        - class: android.widget.TextView
+                                          text: '2'
+                                          resource_id: null
+                                          id: 79
+                                        - class: android.widget.Image
+                                          text: bangdan2.5910e64b
+                                          resource_id: null
+                                          id: 80
+                                    - class: android.widget.TextView
+                                      text: 上海 — 广州
+                                      resource_id: null
+                                      id: 81
+                                    - class: android.widget.TextView
+                                      text: 国航
+                                      resource_id: null
+                                      id: 82
+                                    - class: android.widget.TextView
+                                      text: 08-07 周四
+                                      resource_id: null
+                                      id: 83
+                                    - class: android.widget.TextView
+                                      text: ¥450起
+                                      resource_id: null
+                                      id: 84
+                                    - class: android.widget.TextView
+                                      text: 凤凰礼遇
+                                      resource_id: null
+                                      id: 85
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 86
+                                    children:
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 87
+                                      children:
+                                      - class: android.widget.Image
+                                        text: '1902998780832239616'
+                                        resource_id: null
+                                        id: 88
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 89
+                                        children:
+                                        - class: android.widget.TextView
+                                          text: '3'
+                                          resource_id: null
+                                          id: 90
+                                        - class: android.widget.Image
+                                          text: bangdan3.51a9f034
+                                          resource_id: null
+                                          id: 91
+                                    - class: android.widget.TextView
+                                      text: 北京 — 成都
+                                      resource_id: null
+                                      id: 92
+                                    - class: android.widget.TextView
+                                      text: 国航
+                                      resource_id: null
+                                      id: 93
+                                    - class: android.widget.TextView
+                                      text: 08-07 周四
+                                      resource_id: null
+                                      id: 94
+                                    - class: android.widget.TextView
+                                      text: ¥1080起
+                                      resource_id: null
+                                      id: 95
+                                    - class: android.widget.TextView
+                                      text: 凤凰礼遇
+                                      resource_id: null
+                                      id: 96
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 97
+                                    children:
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 98
+                                      children:
+                                      - class: android.widget.Image
+                                        text: '1902995950641729536'
+                                        resource_id: null
+                                        id: 99
+                                    - class: android.widget.TextView
+                                      text: 上海 — 深圳
+                                      resource_id: null
+                                      id: 100
+                                    - class: android.widget.TextView
+                                      text: 国航
+                                      resource_id: null
+                                      id: 101
+                                    - class: android.widget.TextView
+                                      text: 08-07 周四
+                                      resource_id: null
+                                      id: 102
+                                    - class: android.widget.TextView
+                                      text: ¥350起
+                                      resource_id: null
+                                      id: 103
+                                    - class: android.widget.TextView
+                                      text: 凤凰礼遇
+                                      resource_id: null
+                                      id: 104
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 105
+                                    children:
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 106
+                                      children:
+                                      - class: android.widget.Image
+                                        text: '1902999901856452608'
+                                        resource_id: null
+                                        id: 107
+                                    - class: android.widget.TextView
+                                      text: 广州 — 北京
+                                      resource_id: null
+                                      id: 108
+                                    - class: android.widget.TextView
+                                      text: 国航
+                                      resource_id: null
+                                      id: 109
+                                    - class: android.widget.TextView
+                                      text: 08-07 周四
+                                      resource_id: null
+                                      id: 110
+                                    - class: android.widget.TextView
+                                      text: ¥1480起
+                                      resource_id: null
+                                      id: 111
+                                    - class: android.widget.TextView
+                                      text: 凤凰礼遇
+                                      resource_id: null
+                                      id: 112
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 113
+                                    children:
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 114
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 115
+                                        children:
+                                        - class: android.widget.TextView
+                                          text: 国航精选
+                                          resource_id: null
+                                          id: 116
+                                        - class: android.widget.Image
+                                          text: ''
+                                          resource_id: null
+                                          id: 117
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 118
+                                          children:
+                                          - class: android.widget.Image
+                                            text: '1832984997343125504'
+                                            resource_id: null
+                                            id: 119
+                                      - class: android.widget.TextView
+                                        text: 国航旗舰店
+                                        resource_id: null
+                                        id: 120
+                                      - class: android.widget.TextView
+                                        text: ' 上海-深圳'
+                                        resource_id: null
+                                        id: 121
+                                      - class: android.widget.TextView
+                                        text: ￥500起
+                                        resource_id: null
+                                        id: 122
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 123
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 124
+                                        children:
+                                        - class: android.widget.TextView
+                                          text: 特价贵阳
+                                          resource_id: null
+                                          id: 125
+                                        - class: android.widget.Image
+                                          text: ''
+                                          resource_id: null
+                                          id: 126
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 127
+                                          children:
+                                          - class: android.widget.Image
+                                            text: yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+                                            resource_id: null
+                                            id: 128
+                                          - class: android.view.View
+                                            text: ''
+                                            resource_id: null
+                                            id: 129
+                                            children:
+                                            - class: android.view.View
+                                              text: ''
+                                              resource_id: null
+                                              id: 130
+                                              children:
+                                              - class: android.widget.TextView
+                                                text: 
+                                                resource_id: null
+                                                id: 131
+                                      - class: android.widget.TextView
+                                        text: 随心飞
+                                        resource_id: null
+                                        id: 132
+                                      - class: android.widget.TextView
+                                        text: ' 特价飞贵阳'
+                                        resource_id: null
+                                        id: 133
+                                      - class: android.widget.TextView
+                                        text: ￥320起
+                                        resource_id: null
+                                        id: 134
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 135
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 136
+                                        children:
+                                        - class: android.widget.TextView
+                                          text: 国航精选
+                                          resource_id: null
+                                          id: 137
+                                        - class: android.widget.Image
+                                          text: ''
+                                          resource_id: null
+                                          id: 138
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 139
+                                          children:
+                                          - class: android.widget.Image
+                                            text: '1832985602346254336'
+                                            resource_id: null
+                                            id: 140
+                                      - class: android.widget.TextView
+                                        text: 国航旗舰店
+                                        resource_id: null
+                                        id: 141
+                                      - class: android.widget.TextView
+                                        text: ' 广州-杭州'
+                                        resource_id: null
+                                        id: 142
+                                      - class: android.widget.TextView
+                                        text: ￥470起
+                                        resource_id: null
+                                        id: 143
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 144
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 145
+                                        children:
+                                        - class: android.widget.TextView
+                                          text: 特价桂林
+                                          resource_id: null
+                                          id: 146
+                                        - class: android.widget.Image
+                                          text: ''
+                                          resource_id: null
+                                          id: 147
+                                        - class: android.view.View
+                                          text: ''
+                                          resource_id: null
+                                          id: 148
+                                          children:
+                                          - class: android.widget.Image
+                                            text: yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+                                            resource_id: null
+                                            id: 149
+                                          - class: android.view.View
+                                            text: ''
+                                            resource_id: null
+                                            id: 150
+                                            children:
+                                            - class: android.view.View
+                                              text: ''
+                                              resource_id: null
+                                              id: 151
+                                              children:
+                                              - class: android.widget.TextView
+                                                text: 
+                                                resource_id: null
+                                                id: 152
+                                      - class: android.widget.TextView
+                                        text: 随心飞
+                                        resource_id: null
+                                        id: 153
+                                      - class: android.widget.TextView
+                                        text: ' 特价飞桂林'
+                                        resource_id: null
+                                        id: 154
+                                      - class: android.widget.TextView
+                                        text: ￥370起
+                                        resource_id: null
+                                        id: 155
+                  - class: android.widget.FrameLayout
+                    text: null
+                    resource_id: com.sinovatech.unicom.ui:id/fl_emotionview_main
+                    id: 156
+                - class: android.widget.FrameLayout
+                  text: null
+                  resource_id: com.sinovatech.unicom.ui:id/surfaceFram
+                  id: 157
+  - class: android.view.View
+    text: null
+    resource_id: android:id/statusBarBackground
+    id: 158
+  - class: android.view.View
+    text: null
+    resource_id: android:id/navigationBarBackground
+    id: 159

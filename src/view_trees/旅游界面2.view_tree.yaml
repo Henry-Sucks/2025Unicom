@@ -1,0 +1,335 @@
+- class: android.widget.FrameLayout
+  text: null
+  resource_id: null
+  id: 0
+  children:
+  - class: android.widget.LinearLayout
+    text: null
+    resource_id: null
+    id: 1
+    children:
+    - class: android.widget.FrameLayout
+      text: null
+      resource_id: null
+      id: 2
+      children:
+      - class: android.widget.LinearLayout
+        text: null
+        resource_id: com.sinovatech.unicom.ui:id/action_bar_root
+        id: 3
+        children:
+        - class: android.widget.FrameLayout
+          text: null
+          resource_id: android:id/content
+          id: 4
+          children:
+          - class: android.widget.LinearLayout
+            text: null
+            resource_id: null
+            id: 5
+            children:
+            - class: android.widget.RelativeLayout
+              text: null
+              resource_id: com.sinovatech.unicom.ui:id/web_liner_layout
+              id: 6
+              children:
+              - class: android.widget.RelativeLayout
+                text: null
+                resource_id: com.sinovatech.unicom.ui:id/root_layout
+                id: 7
+                children:
+                - class: android.widget.LinearLayout
+                  text: null
+                  resource_id: null
+                  id: 8
+                  children:
+                  - class: android.widget.RelativeLayout
+                    text: null
+                    resource_id: com.sinovatech.unicom.ui:id/webdetail_title_layout
+                    id: 9
+                    children:
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: com.sinovatech.unicom.ui:id/webdetail_normal_layout
+                      id: 10
+                      children:
+                      - class: android.widget.LinearLayout
+                        text: null
+                        resource_id: null
+                        id: 11
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/web_back
+                          id: 12
+                      - class: android.widget.LinearLayout
+                        text: null
+                        resource_id: null
+                        id: 13
+                        children:
+                        - class: android.widget.TextView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/webdetail_title_textview
+                          id: 14
+                        - class: android.widget.TextView
+                          text: 130****9526
+                          resource_id: com.sinovatech.unicom.ui:id/webdetail_currentmobile_textview
+                          id: 15
+                      - class: android.widget.LinearLayout
+                        text: null
+                        resource_id: null
+                        id: 16
+                        children:
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/web_close
+                          id: 17
+                        - class: android.widget.ImageView
+                          text: null
+                          resource_id: com.sinovatech.unicom.ui:id/web_more
+                          id: 18
+                  - class: android.widget.RelativeLayout
+                    text: null
+                    resource_id: com.sinovatech.unicom.ui:id/webdetail_contentroot_layout
+                    id: 19
+                    children:
+                    - class: android.widget.RelativeLayout
+                      text: null
+                      resource_id: null
+                      id: 20
+                      children:
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/toutiao_webview_xinxiliu_layout
+                        id: 21
+                      - class: android.widget.RelativeLayout
+                        text: null
+                        resource_id: com.sinovatech.unicom.ui:id/toutiao_webview_banner_layout
+                        id: 22
+                      - class: android.webkit.WebView
+                        text: null
+                        resource_id: null
+                        id: 23
+                        children:
+                        - class: android.webkit.WebView
+                          text: 联通旅游
+                          resource_id: null
+                          id: 24
+                          children:
+                          - class: android.view.View
+                            text: ''
+                            resource_id: app
+                            id: 25
+                            children:
+                            - class: android.view.View
+                              text: ''
+                              resource_id: null
+                              id: 26
+                              children:
+                              - class: android.view.View
+                                text: ''
+                                resource_id: null
+                                id: 27
+                                children:
+                                - class: android.view.View
+                                  text: ''
+                                  resource_id: null
+                                  id: 28
+                                  children:
+                                  - class: android.widget.Image
+                                    text: ticket_banner.9c42e161
+                                    resource_id: null
+                                    id: 29
+                                - class: android.view.View
+                                  text: ''
+                                  resource_id: null
+                                  id: 30
+                                  children:
+                                  - class: android.widget.TextView
+                                    text: 机票查询
+                                    resource_id: null
+                                    id: 31
+                                  - class: android.widget.TextView
+                                    text: 单程
+                                    resource_id: null
+                                    id: 32
+                                  - class: android.widget.TextView
+                                    text: 往返
+                                    resource_id: null
+                                    id: 33
+                                  - class: android.view.View
+                                    text: ''
+                                    resource_id: null
+                                    id: 34
+                                    children:
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 35
+                                      children:
+                                      - class: android.widget.Image
+                                        text: cityExchange1.f17ba725
+                                        resource_id: null
+                                        id: 36
+                                      - class: android.widget.Image
+                                        text: cityExchange2.792a9190
+                                        resource_id: null
+                                        id: 37
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 38
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 39
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: ''
+                                          resource_id: null
+                                          id: 40
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 41
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 42
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: ''
+                                          resource_id: null
+                                          id: 43
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 44
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 45
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: ''
+                                          resource_id: null
+                                          id: 46
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 47
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 48
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: ''
+                                          resource_id: null
+                                          id: 49
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 50
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 51
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: 08月07日
+                                          resource_id: null
+                                          id: 52
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 53
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 54
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: ' 明天'
+                                          resource_id: null
+                                          id: 55
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 56
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 57
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: 不限舱位
+                                          resource_id: null
+                                          id: 58
+                                    - class: android.view.View
+                                      text: ''
+                                      resource_id: null
+                                      id: 59
+                                      children:
+                                      - class: android.view.View
+                                        text: ''
+                                        resource_id: null
+                                        id: 60
+                                        children:
+                                        - class: android.widget.EditText
+                                          text: ''
+                                          resource_id: null
+                                          id: 61
+                                  - class: android.widget.Button
+                                    text: 查 询
+                                    resource_id: null
+                                    id: 62
+                                - class: android.widget.TextView
+                                  text: 特价优选
+                                  resource_id: null
+                                  id: 63
+                                - class: android.view.View
+                                  text: ''
+                                  resource_id: null
+                                  id: 64
+                          - class: android.view.View
+                            text: ''
+                            resource_id: null
+                            id: 65
+                            children:
+                            - class: android.view.View
+                              text: ''
+                              resource_id: null
+                              id: 66
+                              children:
+                              - class: android.widget.Image
+                                text: ''
+                                resource_id: null
+                                id: 67
+                            - class: android.widget.TextView
+                              text: 加载中...
+                              resource_id: null
+                              id: 68
+                  - class: android.widget.FrameLayout
+                    text: null
+                    resource_id: com.sinovatech.unicom.ui:id/fl_emotionview_main
+                    id: 69
+                - class: android.widget.FrameLayout
+                  text: null
+                  resource_id: com.sinovatech.unicom.ui:id/surfaceFram
+                  id: 70
+  - class: android.view.View
+    text: null
+    resource_id: android:id/statusBarBackground
+    id: 71
+  - class: android.view.View
+    text: null
+    resource_id: android:id/navigationBarBackground
+    id: 72
