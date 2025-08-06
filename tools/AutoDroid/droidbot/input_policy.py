@@ -1308,7 +1308,24 @@ class FunctionExplorePolicy(InputPolicy):
             print(f"I am in page {self.current_content}!")
             self.menu_phase = True
             self.page_phase = False
+
+
+
+            print(current_state.get_described_actions_within_view_class("android.support.v4.view.ViewPager"))
+            
+
+
+
+
+
+
+
             return TouchEvent(view = current_state.get_view_by_id(self.menu_bar_id))
+
+
+
+
+
 
             
 

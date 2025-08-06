@@ -1,0 +1,937 @@
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>推荐优惠手机合约产品：</p>
+<p id=3>承诺低消59元套餐U享合约36个月（次月）-自有-存量-18Y510ZJ（海南）</p>
+<p id=4>200</p>
+<p id=5>min</p>
+<p id=6>语音</p>
+<p id=7>10</p>
+<p id=8>GB</p>
+<p id=9>流量</p>
+<p id=10>匹配热销手机</p>
+<p id=11>以下热销手机，可选择其中一个参加合约，也可以在营业员受理合约时更换型号、内存、颜色或其他品牌手机。</p>
+<checkbox id=12 checked=True> </checkbox>
+<p id=13>热门新品优惠</p>
+<p id=14>256G</p>
+<p id=15>白月光</p>
+<p id=16>日常价:</p>
+<p id=17>￥4399</p>
+<p id=18>合约优惠后: 0元起</p>
+<p id=19>合约补贴</p>
+<p id=20>4399元</p>
+<checkbox id=21 checked=False> </checkbox>
+<p id=22>vivo X200</p>
+<p id=23>256G</p>
+<p id=24>辰夜黑</p>
+<p id=25>日常价:</p>
+<p id=26>￥4099</p>
+<p id=27>合约优惠后: 0元起</p>
+<p id=28>合约补贴</p>
+<p id=29>4099元</p>
+<checkbox id=30 checked=False> </checkbox>
+<p id=31>热门新品优惠</p>
+<p id=32>1T</p>
+<p id=33>浮光白</p>
+<button id=34>咨询政策</button>
+<button id=35>免费预约受理</button>
+<button id=36>海口</button>
+<checkbox id=37 checked=True>首页</checkbox>
+<checkbox id=38 checked=False>附近营业厅</checkbox>
+<button id=39 text='签到'></button>
+<button id=40 text='客服'></button>
+<button id=41 text='扫一扫'></button>
+<button id=42 text='扫一扫<br>搜索'>搜索<br>领会员</button>
+<button id=43>推荐</button>
+<button id=44 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>领会员<br>推荐<br>合约机<br>套餐<br>手机<br>宽带<br>号码<br>政企</button>
+<button id=45>首页</button>
+<button id=46>服务</button>
+<button id=47>商城</button>
+<button id=48>权益</button>
+<button id=49>我的</button>
+<button id=50>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page is a China Unicom mobile app page showcasing recommended mobile contract products, including phone models with contract subsidies, and providing options to consult policies or schedule appointments.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "The page includes sub-functions such as consulting policies, scheduling appointments, and navigating to different sections like 'Service', 'Mall', 'Rights', and 'My'.",
+    "NavigationElements": ["34", "35", "36", "39", "40", "41", "42", "43", "45", "46", "47", "48", "49"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>推荐优惠手机合约产品：</p>
+<p id=3>承诺低消59元套餐U享合约36个月（次月）-自有-存量-18Y510ZJ（海南）</p>
+<p id=4>200</p>
+<p id=5>min</p>
+<p id=6>语音</p>
+<p id=7>10</p>
+<p id=8>GB</p>
+<p id=9>流量</p>
+<p id=10>匹配热销手机</p>
+<p id=11>以下热销手机，可选择其中一个参加合约，也可以在营业员受理合约时更换型号、内存、颜色或其他品牌手机。</p>
+<checkbox id=12 checked=True> </checkbox>
+<p id=13>热门新品优惠</p>
+<p id=14>256G</p>
+<p id=15>白月光</p>
+<p id=16>日常价:</p>
+<p id=17>￥4399</p>
+<p id=18>合约优惠后: 0元起</p>
+<p id=19>合约补贴</p>
+<p id=20>4399元</p>
+<checkbox id=21 checked=False> </checkbox>
+<p id=22>vivo X200</p>
+<p id=23>256G</p>
+<p id=24>辰夜黑</p>
+<p id=25>日常价:</p>
+<p id=26>￥4099</p>
+<p id=27>合约优惠后: 0元起</p>
+<p id=28>合约补贴</p>
+<p id=29>4099元</p>
+<checkbox id=30 checked=False> </checkbox>
+<p id=31>热门新品优惠</p>
+<p id=32>1T</p>
+<p id=33>浮光白</p>
+<button id=34>咨询政策</button>
+<button id=35>免费预约受理</button>
+<button id=36>海口</button>
+<checkbox id=37 checked=True>首页</checkbox>
+<checkbox id=38 checked=False>附近营业厅</checkbox>
+<button id=39 text='签到'></button>
+<button id=40 text='客服'></button>
+<button id=41 text='扫一扫'></button>
+<button id=42 text='扫一扫<br>搜索'>搜索<br>订云机 即享流量加赠</button>
+<button id=43>推荐</button>
+<button id=44 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>订云机 即享流量加赠<br>推荐<br>合约机<br>套餐<br>手机<br>宽带<br>号码<br>政企</button>
+<button id=45>首页</button>
+<button id=46>服务</button>
+<button id=47>商城</button>
+<button id=48>权益</button>
+<button id=49>我的</button>
+<button id=50>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The page is a China Unicom mobile app interface showcasing recommended mobile contract products, including details on plans, benefits, and available smartphones with contract subsidies. Users can explore and select contract options and smartphones.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include viewing contract details, selecting different smartphone models, and exploring other services like nearby stores, customer service, and signing in.",
+    "NavigationElements": ["34", "35", "36", "39", "40", "41", "42", "43", "45", "46", "47", "48", "49", "50"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>推荐优惠手机合约产品：</p>
+<p id=3>承诺低消59元套餐U享合约36个月（次月）-自有-存量-18Y510ZJ（海南）</p>
+<p id=4>200</p>
+<p id=5>min</p>
+<p id=6>语音</p>
+<p id=7>10</p>
+<p id=8>GB</p>
+<p id=9>流量</p>
+<p id=10>匹配热销手机</p>
+<p id=11>以下热销手机，可选择其中一个参加合约，也可以在营业员受理合约时更换型号、内存、颜色或其他品牌手机。</p>
+<checkbox id=12 checked=True> </checkbox>
+<p id=13>热门新品优惠</p>
+<p id=14>256G</p>
+<p id=15>白月光</p>
+<p id=16>日常价:</p>
+<p id=17>￥4399</p>
+<p id=18>合约优惠后: 0元起</p>
+<p id=19>合约补贴</p>
+<p id=20>4399元</p>
+<checkbox id=21 checked=False> </checkbox>
+<p id=22>vivo X200</p>
+<p id=23>256G</p>
+<p id=24>辰夜黑</p>
+<p id=25>日常价:</p>
+<p id=26>￥4099</p>
+<p id=27>合约优惠后: 0元起</p>
+<p id=28>合约补贴</p>
+<p id=29>4099元</p>
+<checkbox id=30 checked=False> </checkbox>
+<p id=31>热门新品优惠</p>
+<p id=32>1T</p>
+<p id=33>浮光白</p>
+<button id=34>咨询政策</button>
+<button id=35>免费预约受理</button>
+<button id=36>海口</button>
+<checkbox id=37 checked=True>首页</checkbox>
+<checkbox id=38 checked=False>附近营业厅</checkbox>
+<button id=39 text='签到'></button>
+<button id=40 text='客服'></button>
+<button id=41 text='扫一扫'></button>
+<button id=42 text='扫一扫<br>搜索'>搜索<br>订云机 即享流量加赠</button>
+<button id=43>推荐</button>
+<button id=44 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>订云机 即享流量加赠<br>推荐<br>合约机<br>套餐<br>手机<br>宽带<br>号码<br>政企</button>
+<button id=45>首页</button>
+<button id=46>服务</button>
+<button id=47>商城</button>
+<button id=48>权益</button>
+<button id=49>我的</button>
+<button id=50>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The page is a China Unicom mobile app interface showcasing a recommended mobile contract product with a low-cost package, including voice and data benefits, and options to select from popular new smartphones with contract subsidies.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "The page offers sub-functions such as consulting policies, free appointment acceptance, and navigating to different sections like nearby business halls, services, mall, benefits, and personal account.",
+    "NavigationElements": ["34", "35", "36", "38", "46", "47", "48", "49"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>联通旅游</p>
+<button id=3>1952287974196633600</button>
+<button id=4>1948283085929947136</button>
+<button id=5>icon_plane.a2345c65<br>机票</button>
+<button id=6>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=7>icon_list.3aff9a55<br>榜单</button>
+<button id=8>icon_Collect.958de8f7<br>领券</button>
+<button id=9>icon_order.74e4aa7a<br>订单</button>
+<button id=10>icon_my.bccd005f<br>我的</button>
+<button id=11>1947956850486009856</button>
+<button id=12>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=13>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=14>海口</button>
+<checkbox id=15 checked=True>首页</checkbox>
+<checkbox id=16 checked=False>附近营业厅</checkbox>
+<button id=17 text='签到'></button>
+<button id=18 text='客服'></button>
+<button id=19 text='扫一扫'></button>
+<button id=20 text='扫一扫<br>搜索'>搜索<br>订云机 即享流量加赠</button>
+<button id=21>推荐</button>
+<button id=22 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>订云机 即享流量加赠<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=23>首页</button>
+<button id=24>服务</button>
+<button id=25>商城</button>
+<button id=26>权益</button>
+<button id=27>我的</button>
+<button id=28>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page is part of the China Unicom mobile app, featuring core functions such as travel services (flights, hotels), deals, orders, and user account management. It also includes navigation options for different sections like home, services, mall, benefits, and personal account.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include travel-related services (flights, hotels), deals, and user-specific options like orders and account management.",
+    "NavigationElements": ["5", "6", "7", "8", "9", "10"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>联通旅游</p>
+<button id=3>1952287974196633600</button>
+<button id=4>1948283085929947136</button>
+<button id=5>icon_plane.a2345c65<br>机票</button>
+<button id=6>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=7>icon_list.3aff9a55<br>榜单</button>
+<button id=8>icon_Collect.958de8f7<br>领券</button>
+<button id=9>icon_order.74e4aa7a<br>订单</button>
+<button id=10>icon_my.bccd005f<br>我的</button>
+<button id=11>1947956850486009856</button>
+<button id=12>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=13>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=14>海口</button>
+<checkbox id=15 checked=True>首页</checkbox>
+<checkbox id=16 checked=False>附近营业厅</checkbox>
+<button id=17 text='签到'></button>
+<button id=18 text='客服'></button>
+<button id=19 text='扫一扫'></button>
+<button id=20 text='扫一扫<br>搜索'>搜索<br>送 12 月会员！限时抢</button>
+<button id=21>推荐</button>
+<button id=22 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>送 12 月会员！限时抢<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=23>首页</button>
+<button id=24>服务</button>
+<button id=25>商城</button>
+<button id=26>权益</button>
+<button id=27>我的</button>
+<button id=28>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page is part of the China Unicom mobile app, featuring core functions such as travel services (flights, hotels), deals, orders, and user account management. It also includes promotional content and navigation options like search, customer service, and scanning.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include travel-related services (flights, hotels), deals, orders, and user account management accessible through the bottom navigation bar and other interactive elements.",
+    "NavigationElements": ["5", "6", "7", "8", "9", "10", "17", "18", "19", "23", "24", "25", "26", "27"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<button id=0 text='背景图片'></button>
+<p id=1>联通旅游</p>
+<button id=2>1952287974196633600</button>
+<button id=3>1948283085929947136</button>
+<button id=4>icon_plane.a2345c65<br>机票</button>
+<button id=5>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=6>icon_list.3aff9a55<br>榜单</button>
+<button id=7>icon_Collect.958de8f7<br>领券</button>
+<button id=8>icon_order.74e4aa7a<br>订单</button>
+<button id=9>icon_my.bccd005f<br>我的</button>
+<button id=10>1947956850486009856</button>
+<button id=11>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=12>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=13>海口</button>
+<checkbox id=14 checked=True>首页</checkbox>
+<checkbox id=15 checked=False>附近营业厅</checkbox>
+<button id=16 text='签到'></button>
+<button id=17 text='客服'></button>
+<button id=18 text='扫一扫'></button>
+<button id=19 text='扫一扫<br>搜索'>搜索<br>话费也能买电影票</button>
+<button id=20>推荐</button>
+<button id=21 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>话费也能买电影票<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=22>首页</button>
+<button id=23>服务</button>
+<button id=24>商城</button>
+<button id=25>权益</button>
+<button id=26>我的</button>
+<button id=27>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page is a travel and lifestyle app interface with core functions including travel booking (flights, hotels), accessing deals, viewing orders, and personal account management. It also features promotional content and location-based services.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include flight booking, hotel booking, accessing travel deals, viewing travel rankings, and managing personal orders.",
+    "NavigationElements": ["4", "5", "6", "7", "8"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<button id=0 text='背景图片'></button>
+<p id=1>联通旅游</p>
+<button id=2>1952287974196633600</button>
+<button id=3>1948283085929947136</button>
+<button id=4>icon_plane.a2345c65<br>机票</button>
+<button id=5>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=6>icon_list.3aff9a55<br>榜单</button>
+<button id=7>icon_Collect.958de8f7<br>领券</button>
+<button id=8>icon_order.74e4aa7a<br>订单</button>
+<button id=9>icon_my.bccd005f<br>我的</button>
+<button id=10>1947956850486009856</button>
+<button id=11>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=12>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=13>海口</button>
+<checkbox id=14 checked=True>首页</checkbox>
+<checkbox id=15 checked=False>附近营业厅</checkbox>
+<button id=16 text='签到'></button>
+<button id=17 text='客服'></button>
+<button id=18 text='扫一扫'></button>
+<button id=19 text='扫一扫<br>搜索'>搜索<br>云手机</button>
+<button id=20>推荐</button>
+<button id=21 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>云手机<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=22>首页</button>
+<button id=23>服务</button>
+<button id=24>商城</button>
+<button id=25>权益</button>
+<button id=26>我的</button>
+<button id=27>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page appears to be a travel and lifestyle app homepage with core functions including travel booking (flights, hotels), accessing deals, viewing orders, and personal account management. Key features are represented by icons like '机票' (flights), '酒店' (hotels), '领券' (coupons), and '我的' (my account).",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Noteworthy sub-functions include travel booking services (flights/hotels), deal/coupon sections, and personalized recommendation areas ('夏日风光' summer scenery promotion).",
+    "NavigationElements": ["4", "5", "6", "7", "8", "9", "11", "12"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>联通旅游</p>
+<button id=3>1952287974196633600</button>
+<button id=4>1948283085929947136</button>
+<button id=5>icon_plane.a2345c65<br>机票</button>
+<button id=6>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=7>icon_list.3aff9a55<br>榜单</button>
+<button id=8>icon_Collect.958de8f7<br>领券</button>
+<button id=9>icon_order.74e4aa7a<br>订单</button>
+<button id=10>icon_my.bccd005f<br>我的</button>
+<button id=11>1947956850486009856</button>
+<button id=12>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=13>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=14>海口</button>
+<checkbox id=15 checked=True>首页</checkbox>
+<checkbox id=16 checked=False>附近营业厅</checkbox>
+<button id=17 text='签到'></button>
+<button id=18 text='客服'></button>
+<button id=19 text='扫一扫'></button>
+<button id=20 text='扫一扫<br>搜索'>搜索<br>会员</button>
+<button id=21>推荐</button>
+<button id=22 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>会员<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=23>首页</button>
+<button id=24>服务</button>
+<button id=25>商城</button>
+<button id=26>权益</button>
+<button id=27>我的</button>
+<button id=28>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page appears to be the main interface of the China Unicom mobile app, offering core services such as travel-related functions (flights, hotels), deals, orders, and user account management.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include travel services (flights, hotels), deals/offers, rankings, and user account features.",
+    "NavigationElements": ["5", "6", "7", "8", "9", "10"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<button id=0 text='背景图片'></button>
+<p id=1>联通旅游</p>
+<button id=2>1952287974196633600</button>
+<button id=3>1948283085929947136</button>
+<button id=4>icon_plane.a2345c65<br>机票</button>
+<button id=5>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=6>icon_list.3aff9a55<br>榜单</button>
+<button id=7>icon_Collect.958de8f7<br>领券</button>
+<button id=8>icon_order.74e4aa7a<br>订单</button>
+<button id=9>icon_my.bccd005f<br>我的</button>
+<button id=10>1947956850486009856</button>
+<button id=11>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=12>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=13>海口</button>
+<checkbox id=14 checked=True>首页</checkbox>
+<checkbox id=15 checked=False>附近营业厅</checkbox>
+<button id=16 text='签到'></button>
+<button id=17 text='客服'></button>
+<button id=18 text='扫一扫'></button>
+<button id=19 text='扫一扫<br>搜索'>搜索<br>权益超市5元优享会员</button>
+<button id=20>推荐</button>
+<button id=21 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>权益超市5元优享会员<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=22>首页</button>
+<button id=23>服务</button>
+<button id=24>商城</button>
+<button id=25>权益</button>
+<button id=26>我的</button>
+<button id=27>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page appears to be a travel and lifestyle app homepage, offering services like flight tickets, hotel bookings, rankings, coupons, and orders. It also includes navigation to different sections such as 'My', 'Services', 'Mall', 'Rights', and 'My'.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include accessing specific travel-related services like flights, hotels, rankings, and coupons, as well as navigating to different app sections.",
+    "NavigationElements": ["4", "5", "6", "7", "8", "9", "22", "23", "24", "25", "26"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>联通旅游</p>
+<button id=3>1952287974196633600</button>
+<button id=4>1948283085929947136</button>
+<button id=5>icon_plane.a2345c65<br>机票</button>
+<button id=6>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=7>icon_list.3aff9a55<br>榜单</button>
+<button id=8>icon_Collect.958de8f7<br>领券</button>
+<button id=9>icon_order.74e4aa7a<br>订单</button>
+<button id=10>icon_my.bccd005f<br>我的</button>
+<button id=11>1947956850486009856</button>
+<button id=12>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=13>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=14>海口</button>
+<checkbox id=15 checked=True>首页</checkbox>
+<checkbox id=16 checked=False>附近营业厅</checkbox>
+<button id=17 text='签到'></button>
+<button id=18 text='客服'></button>
+<button id=19 text='扫一扫'></button>
+<button id=20 text='扫一扫<br>搜索'>搜索<br>领会员</button>
+<button id=21>推荐</button>
+<button id=22 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>领会员<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=23>首页</button>
+<button id=24>服务</button>
+<button id=25>商城</button>
+<button id=26>权益</button>
+<button id=27>我的</button>
+<button id=28>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page is part of the China Unicom mobile app, featuring core functions such as travel services (flights, hotels), promotions (coupons), user orders, and personal account management. It also includes navigation options for different sections like home, services, mall, benefits, and user profile.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include travel-related services (flights, hotels), promotional activities (coupons), and user account management (orders, personal profile).",
+    "NavigationElements": ["5", "6", "7", "8", "9", "10"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<p id=0 text='中国联通'></p>
+<button id=1 text='背景图片'></button>
+<p id=2>联通旅游</p>
+<button id=3>1952287974196633600</button>
+<button id=4>1948283085929947136</button>
+<button id=5>icon_plane.a2345c65<br>机票</button>
+<button id=6>icon_hotel.e422e4d1<br>酒店<br>hotel_bill.8341c9d8</button>
+<button id=7>icon_list.3aff9a55<br>榜单</button>
+<button id=8>icon_Collect.958de8f7<br>领券</button>
+<button id=9>icon_order.74e4aa7a<br>订单</button>
+<button id=10>icon_my.bccd005f<br>我的</button>
+<button id=11>1947956850486009856</button>
+<button id=12>Sale.6fb703f9<br>podcast_iocn.4a7120d0<br>1937766013349883904<br>夏日风光，漫步云游</button>
+<button id=13>Cost_effective.63df7e50<br>1937766152113516544<br>万物更新，山花烂漫</button>
+<button id=14>海口</button>
+<checkbox id=15 checked=True>首页</checkbox>
+<checkbox id=16 checked=False>附近营业厅</checkbox>
+<button id=17 text='签到'></button>
+<button id=18 text='客服'></button>
+<button id=19 text='扫一扫'></button>
+<button id=20 text='扫一扫<br>搜索'>搜索<br>新装宽带领会员</button>
+<button id=21>推荐</button>
+<button id=22 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>新装宽带领会员<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=23>首页</button>
+<button id=24>服务</button>
+<button id=25>商城</button>
+<button id=26>权益</button>
+<button id=27>我的</button>
+<button id=28>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page is a China Unicom mobile app interface offering travel-related services, including flight tickets, hotel bookings, and travel deals, along with general app functionalities like search, customer service, and user account management.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "Sub-functions include travel services (flights, hotels), deals, orders, and user account management.",
+    "NavigationElements": ["5", "6", "7", "8", "9", "10"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<button id=0 text='背景图片'></button>
+<button id=1>海口</button>
+<checkbox id=2 checked=True>首页</checkbox>
+<checkbox id=3 checked=False>附近营业厅</checkbox>
+<button id=4 text='签到'></button>
+<button id=5 text='客服'></button>
+<button id=6 text='扫一扫'></button>
+<button id=7 text='扫一扫<br>搜索'>搜索<br>新装宽带送100元代金券</button>
+<button id=8>推荐</button>
+<button id=9 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>新装宽带送100元代金券<br>推荐<br>影视<br>借钱<br>饭票<br>发现<br>旅行<br>小说</button>
+<button id=10>首页</button>
+<button id=11>服务</button>
+<button id=12>商城</button>
+<button id=13>权益</button>
+<button id=14>我的</button>
+<button id=15>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page appears to be a mobile app interface with core functions including navigation (home, services, mall, benefits, personal), location selection (Haikou), check-in, customer service, scanning, and various recommendations (movies, loans, meal tickets, travel, novels).",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "The page contains multiple sub-functions such as movies, loans, meal tickets, discovery, travel, and novels under the 'Recommend' section.",
+    "NavigationElements": ["8", "9"]
+  }
+}
+prompt: 
+You are a smartphone assistant to help users summarize and explore page functionalities by interacting with mobile apps. 
+
+Given the HTML-formatted current UI state of a page, your job is to:
+1. Summarize the core functions of the current page.
+2. Determine whether the page contains sub-functions worth exploring.
+3. If sub-functions exist, identify which UI elements in the current UI state are most likely to navigate to these sub-functions.
+
+Current UI state: 
+<button id=0 text='背景图片'></button>
+<button id=1>截至 2025/08/06 15:30</button>
+<button id=2>130****9526</button>
+<button id=3>剩余话费<br>元<br>8.88</button>
+<button id=4>剩余通用流量<br>GB<br>14</button>
+<button id=5>剩余语音<br>分钟<br>1799</button>
+<button id=6>可用积分<br>0</button>
+<button id=7>交话费</button>
+<button id=8>充流量</button>
+<button id=9>PLUS</button>
+<button id=10>资费专区</button>
+<button id=11>查账单</button>
+<button id=12>服务大厅</button>
+<p id=13>服务提醒：</p>
+<p id=14>装宽带限时加赠100元话费券 </p>
+<button id=15>立即领取</button>
+<button id=16>根据您的套餐及使用情况定制<br>低价购机<br>千元优惠<br>靓号秒杀<br>0元抢数码<br>领12.8话费<br>限时福利<br>副卡福利<br>领视频会员<br>g0rkWYF75C8YgVOAxFQrYkXB2YaIAp0c0uMWEgoHZBIxYyJrOC<br>爱意绵延 家庭圆满<br>换一批<br>1<br>3<br>0<br>7<br>8<br>9<br>5<br>9<br>5<br>4<br>6</button>
+<button id=17>海口</button>
+<checkbox id=18 checked=True>首页</checkbox>
+<checkbox id=19 checked=False>附近营业厅</checkbox>
+<button id=20 text='签到'></button>
+<button id=21 text='客服'></button>
+<button id=22 text='扫一扫'></button>
+<button id=23 text='扫一扫<br>搜索'>搜索<br>新装宽带领会员</button>
+<button id=24>推荐</button>
+<button id=25 text='搜索<br>签到<br>客服<br>扫一扫<br>扫一扫'>海口<br>首页<br>附近营业厅<br>搜索<br>新装宽带领会员<br>推荐<br>合约机<br>套餐<br>手机<br>宽带<br>号码<br>政企</button>
+<button id=26>首页</button>
+<button id=27>服务</button>
+<button id=28>商城</button>
+<button id=29>权益</button>
+<button id=30>我的</button>
+<button id=31>go back</button>
+
+Your answer should always use the following format: 
+{
+  "Summary": "...<concise overview of the mobile app page's core functions>",
+  "SubFunctions": {
+    "Exist": "Yes/No",
+    "Description": "...<brief explanation of noteworthy sub-functions if any>",
+    "NavigationElements": ["...<UI element id>"]
+  }
+}
+
+**Note that:**
+1. Only include <button> elements in "NavigationElements"
+2. Exclude elements from "NavigationElements" if ANY of these is true:
+   - contains >=3 line breaks(count ALL: <br>, <br/>)
+   - has long numeric strings with >=6 digits(e.g. "1902993047638044672")
+   - is part of the MAIN FUNCTIONAL FLOW(e.g. 'Search', 'Submit')
+   - contains descriptive text or state indicators
+3. If no sub-functions exist ("Exist": "No"), "NavigationElements" should be an empty array []
+4. All ids in "NavigationElements" must exactly match the id attributes in the provided Current UI state
+5. Please do not output any content other than the JSON format.
+
+response: {
+  "Summary": "The current page appears to be a mobile carrier service dashboard, displaying user account information such as remaining balance, data, and call minutes, along with promotional offers and quick access to services like bill payment, data top-up, and customer support.",
+  "SubFunctions": {
+    "Exist": "Yes",
+    "Description": "The page offers various sub-functions including bill checking, service hall access, PLUS membership, tariff zone information, and promotional offers like broadband installation benefits and limited-time deals.",
+    "NavigationElements": ["7", "8", "9", "10", "11", "12", "15"]
+  }
+}
