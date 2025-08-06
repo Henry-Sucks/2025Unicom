@@ -240,7 +240,6 @@ class UTG(object):
 
     def is_event_explored(self, event, state):
         event_str = event.get_event_str(state)
-        print(f"Current event: {event_str}")
         if event_str in self.effective_event_strs:
             print(f"Event {event_str} is effective")
         elif event_str in self.ineffective_event_strs:

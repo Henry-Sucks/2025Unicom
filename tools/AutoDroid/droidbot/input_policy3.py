@@ -21,6 +21,7 @@ from .my_utils import *
 import tools
 import pdb
 import os
+import io
 
 from .input_event import KeyEvent, IntentEvent, TouchEvent, UIEvent, KillAppEvent
 from .input_policy import InputPolicy, InputInterruptedException
@@ -47,6 +48,9 @@ EVENT_FLAG_TOUCH = "+touch"
 FINISHED = "task_completed"
 MAX_SCROLL_NUM = 2
 USE_LMQL = False
+
+MAX_DFS_DEPTH = 2
+
 
 class MyUtgBasedInputPolicy(InputPolicy):
     """
@@ -164,6 +168,7 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
         self.dfs_stack = []  # 存储待探索的状态
         self.visited_states = set()  # 存储已访问的状态
         self.state_actions_map = {}  # 存储状态到可用动作的映射
+        self.dfs_depth = 0
         
     def generate_event_based_on_utg(self, input_manager):
         current_state = self.current_state
@@ -235,14 +240,12 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                 # 生成触发主页面目录按钮的event
                 # self.logger.info("Current View")
                 # self.logger.info(self.current_state.views)
-                time.sleep(1)
+                time.sleep(3)
                 self.current_state = self.device.get_current_state()
                 return self.current_state, TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
-            
-        print("I am finally here!")
 
         if self.menu_phrase:
-            time.sleep(1)
+            time.sleep(3)
             current_state = self.device.get_current_state()
             menu_view = current_state.get_view_by_id(r'com.sinovatech.unicom.ui:id/home_menu_pop_recylerView')
 
@@ -276,69 +279,71 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
             # 如果所有按钮都已点击过，切换到页面阶段
             self.logger.info("All menu buttons have been clicked")
             return self.current_state, ExitEvent() 
-        
-        # if self.page_phrase:
-        #     self.current_state = self.device.get_current_state()
-
-        #     if not self.already_explored:
-        #         current_function, actions_to_explore = self.__explore_current_state()
-        #         self.current_function = current_function
-        #         self.already_explored = True
-        #         # 实现DFS探索
-        #         print(actions_to_explore)
-        #         self.actions_to_explore = actions_to_explore
-        #         # self.actions_to_explore.insert(0, KeyEvent(name="BACK"))
-        #         # self.actions_to_explore.append(KeyEvent(name="BACK"))
-
-
-
-        #     next_event = None
-        #     for input_event in self.actions_to_explore:
-        #         # if input_event == TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id)):
-        #         #     # return self.current_state, input_event
-        #         #     next_event = input_event
-        #         #     # return self.current_state, next_event
-        #         if not self.utg.is_event_explored(event=input_event, state=self.current_state):
-        #             self.logger.info("Trying an unexplored event.")
-        #             # self.__event_trace += EVENT_FLAG_EXPLORE
-        #             # return self.current_state, input_event
-        #             next_event = input_event
-        #             print("Next event: ")
-        #             print(next_event)
-        #             return self.current_state, next_event
-        #             # return self.current_state, next_event
-
-
-        #     return self.current_state, ManualEvent()
 
         if self.page_phrase:
+            time.sleep(3)
             self.current_state = self.device.get_current_state()
             
-            # 如果是第一次到达该状态，获取可用动作并加入队列
-            if self.current_state.state_str not in self.visited_states:
-                self.visited_states.add(self.current_state.state_str)
+            # 如果是第一次到达该状态，获取可用动作并加入栈
+            if self.current_state.structure_str not in self.visited_states:
+                self.dfs_depth += 1
+                print(f"Entering a new state: {self.current_state.structure_str}")
+                print(f"DFS depth: {self.dfs_depth}")
+                if self.dfs_depth > MAX_DFS_DEPTH:
+                    print("DFS depth exceeded, going back...")
+                    self.dfs_depth -= 1
+                    return self.current_state, KeyEvent(name="BACK")
+                
+
+                
+                
+                self.visited_states.add(self.current_state.structure_str)
                 current_function, actions_to_explore = self.__explore_current_state()
-                self.state_actions_map[self.current_state.state_str] = actions_to_explore
-                self.bfs_queue.append((self.current_state, actions_to_explore))
+
+                if len(actions_to_explore) == 0:
+                    print("No actions to explore, something is wrong? Going back...")
+                    self.dfs_depth -= 1
+                    return self.current_state, KeyEvent(name="BACK")
+                else:
+                    print(f"Actions to explore: {len(actions_to_explore)}")
+                self.current_function = current_function
+                self.state_actions_map[self.current_state.structure_str] = actions_to_explore
+                # 将状态和动作加入栈顶，实现深度优先
+                actions_to_explore.append((self.current_state, KeyEvent(name="BACK")))
+                for action in reversed(actions_to_explore):
+                    self.dfs_stack.append((self.current_state, action))
+
+            else:
+                # 如果状态已访问过，直接返回
+                print(f"State {self.current_state.structure_str} has been visited before.")
             
-            # BFS探索
-            while self.bfs_queue:
-                current_state, action = self.bfs_queue[0]
+            # DFS探索
+            while self.dfs_stack:
+                current_state, action = self.dfs_stack.pop()  # 从栈顶取出元素
                 
                 # 尝试执行未探索的动作
                 if not self.utg.is_event_explored(event=action, state=current_state):
-                    self.logger.info("Trying an unexplored event.")
+                    print("Trying an unexplored event with DFS.")
+                    print("Next event: ")
+                    print(action.get_event_str(current_state))
+                    print("Remaining events: ")
+                    print(self.dfs_stack)
+                    
+                    if isinstance(action, KeyEvent) and  action.name == "BACK":
+                        print("Finishing DFS exploration on this page, going back...")
+                        self.dfs_depth -= 1
                     return current_state, action
                 
-                # 如果所有动作都已探索，从队列中移除
-                self.bfs_queue.pop(0)
+                # 如果所有动作都已探索，继续从栈中取出下一个元素
                 
-                # 如果队列为空，探索结束
-                if not self.bfs_queue:
-                    self.logger.info("BFS exploration completed.")
-                    return self.current_state, ExitEvent()
-            
-            return self.current_state, ManualEvent()
+                # 如果栈为空，探索结束
+                if not self.dfs_stack:
+                    print("DFS exploration completed.")
+                    return self.current_state, KeyEvent(name="BACK")
+
+                
+                print("I am not supposed to be here, something is wrong?")
+
 
 
 
@@ -447,7 +452,6 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
     def __explore_current_state(self):
         current_state = self.device.get_current_state()
         # 遍历页面，获取按钮上的关键词和页面布局，为给大模型，让大模型进行：总结页面功能，判断是否由更多值得探索的子功能，返回进一步探索方案
-        print(f"I am in page {self.current_function}!")
         time.sleep(3)
         
         # scroll to get prompt content
@@ -502,6 +506,8 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
 
         function_summary, actions = self._get_func_subfunc_from_views(current_state=current_state)
 
+        print(f"I am in page {function_summary}!")
+
         return function_summary, actions
 
 
@@ -545,13 +551,18 @@ Your answer should always use the following format:
         return prompt
      
     def _get_func_subfunc_from_views(self, views=None, current_state=None, candidate_actions=None):
-        def clean_print(text):
-            try:
-                print(text)
-            except UnicodeEncodeError:
-                # 替换无法编码的字符
-                cleaned_text = text.encode('utf-8', errors='replace').decode('utf-8')
-                print(cleaned_text)
+        # def clean_print(text):
+        #     try:
+        #         # 设置控制台编码为utf-8
+        #         import sys
+        #         import io
+        #         sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+        #         print(text)
+        #     except UnicodeEncodeError:
+        #         # 替换无法编码的字符
+        #         cleaned_text = text.encode('utf-8', errors='replace').decode('utf-8')
+        #         print(cleaned_text)
+
         if views:
             views_with_id = []
             for id in range(len(views)):
@@ -563,18 +574,20 @@ Your answer should always use the following format:
             state_prompt, candidate_actions, _, _ = current_state.get_described_actions()
             prompt = self._make_prompt(state_prompt)
 
-        prompt = prompt.replace('\xa0', ' ')
-        prompt = prompt.replace('\ue728', ' ')
+        # prompt = prompt.replace('\xa0', ' ')
+        # prompt = prompt.replace('\ue728', ' ')
+        # prompt = prompt.replace('\xa5', '¥')
         
         print('********************************** prompt: **********************************')
-        clean_print(prompt)
+        # print(prompt.encode('utf-8', errors='replace').decode('utf-8'))
         print('********************************** end of prompt **********************************')
-        response = tools.query_deepseek(prompt)
-        clean_print(f'response: {response}')
+        response = tools.query_deepseek(prompt.encode('utf-8', errors='replace').decode('utf-8'))
+        print(f'response: {response}')
 
-        with open('ds_response.txt', 'a', encoding='utf-8', errors='ignore') as f:
+        with open('ds_response.txt', 'a', encoding='utf-8') as f:
             f.write(f'prompt: {prompt}\n')
             f.write(f'response: {response}\n')
+
 
         function_summary = self._extract_summary_from_response(response)
         ids = self._extract_ids_from_response(response)

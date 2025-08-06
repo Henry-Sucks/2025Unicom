@@ -50,6 +50,6 @@ def main(json_path, output_dir):
     print(f"\n✅ 视图树已保存至：{output_path}")
 
 if __name__ == "__main__":
-    json_file_path = r"C:\Projects\2025Unicom\src\states\小说界面.json"
+    json_file_path = r"C:\Projects\2025Unicom\src\states\旅游界面2.json"
     output_folder = r"C:\Projects\2025Unicom\src\view_trees"
     main(json_file_path, output_folder)
