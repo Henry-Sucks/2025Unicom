@@ -16,7 +16,7 @@ import numpy as np
 import yaml
 from collections import deque
 
-class DeviceState(object):
+class MyDeviceState(object):
     """
     the state of the current device
     """
@@ -128,16 +128,16 @@ class DeviceState(object):
     def __calculate_depth(views):
         root_view = None
         for view in views:
-            if DeviceState.__safe_dict_get(view, 'parent') == -1:
+            if MyDeviceState.__safe_dict_get(view, 'parent') == -1:
                 root_view = view
                 break
-        DeviceState.__assign_depth(views, root_view, 0)
+        MyDeviceState.__assign_depth(views, root_view, 0)
 
     @staticmethod
     def __assign_depth(views, view_dict, depth):
         view_dict['depth'] = depth
-        for view_id in DeviceState.__safe_dict_get(view_dict, 'children', []):
-            DeviceState.__assign_depth(views, views[view_id], depth + 1)
+        for view_id in MyDeviceState.__safe_dict_get(view_dict, 'children', []):
+            MyDeviceState.__assign_depth(views, views[view_id], depth + 1)
 
     def __get_state_str(self):
         state_str_raw = self.__get_state_str_raw()
@@ -156,7 +156,7 @@ class DeviceState(object):
         else:
             view_signatures = set()
             for view in self.views:
-                view_signature = DeviceState.__get_view_signature(view)
+                view_signature = MyDeviceState.__get_view_signature(view)
                 if view_signature:
                     view_signatures.add(view_signature)
             return "%s{%s}" % (self.foreground_activity, ",".join(sorted(view_signatures)))
@@ -174,7 +174,7 @@ class DeviceState(object):
         else:
             view_signatures = set()
             for view in self.views:
-                view_signature = DeviceState.__get_content_free_view_signature(view)
+                view_signature = MyDeviceState.__get_content_free_view_signature(view)
                 if view_signature:
                     view_signatures.add(view_signature)
             state_str = "%s{%s}" % (self.foreground_activity, ",".join(sorted(view_signatures)))
@@ -197,7 +197,7 @@ class DeviceState(object):
         """
         property_values = set()
         for view in self.views:
-            property_value = DeviceState.__safe_dict_get(view, property_name, None)
+            property_value = MyDeviceState.__safe_dict_get(view, property_name, None)
             if property_value:
                 property_values.add(property_value)
         return property_values
@@ -260,7 +260,7 @@ class DeviceState(object):
     def is_different_from(self, another_state):
         """
         compare this state with another
-        @param another_state: DeviceState
+        @param another_state: MyDeviceState
         @return: boolean, true if this state is different from other_state
         """
         return self.state_str != another_state.state_str
@@ -269,23 +269,23 @@ class DeviceState(object):
     def __get_view_signature(view_dict):
         """
         get the signature of the given view
-        @param view_dict: dict, an element of list DeviceState.views
+        @param view_dict: dict, an element of list MyDeviceState.views
         @return:
         """
         if 'signature' in view_dict:
             return view_dict['signature']
 
-        view_text = DeviceState.__safe_dict_get(view_dict, 'text', "None")
+        view_text = MyDeviceState.__safe_dict_get(view_dict, 'text', "None")
         if view_text is None or len(view_text) > 50:
             view_text = "None"
 
         signature = "[class]%s[resource_id]%s[text]%s[%s,%s,%s]" % \
-                    (DeviceState.__safe_dict_get(view_dict, 'class', "None"),
-                     DeviceState.__safe_dict_get(view_dict, 'resource_id', "None"),
+                    (MyDeviceState.__safe_dict_get(view_dict, 'class', "None"),
+                     MyDeviceState.__safe_dict_get(view_dict, 'resource_id', "None"),
                      view_text,
-                     DeviceState.__key_if_true(view_dict, 'enabled'),
-                     DeviceState.__key_if_true(view_dict, 'checked'),
-                     DeviceState.__key_if_true(view_dict, 'selected'))
+                     MyDeviceState.__key_if_true(view_dict, 'enabled'),
+                     MyDeviceState.__key_if_true(view_dict, 'checked'),
+                     MyDeviceState.__key_if_true(view_dict, 'selected'))
         view_dict['signature'] = signature
         return signature
 
@@ -293,33 +293,33 @@ class DeviceState(object):
     def __get_content_free_view_signature(view_dict):
         """
         get the content-free signature of the given view
-        @param view_dict: dict, an element of list DeviceState.views
+        @param view_dict: dict, an element of list MyDeviceState.views
         @return:
         """
         if 'content_free_signature' in view_dict:
             return view_dict['content_free_signature']
         content_free_signature = "[class]%s[resource_id]%s" % \
-                                 (DeviceState.__safe_dict_get(view_dict, 'class', "None"),
-                                  DeviceState.__safe_dict_get(view_dict, 'resource_id', "None"))
+                                 (MyDeviceState.__safe_dict_get(view_dict, 'class', "None"),
+                                  MyDeviceState.__safe_dict_get(view_dict, 'resource_id', "None"))
         view_dict['content_free_signature'] = content_free_signature
         return content_free_signature
 
     def __get_view_str(self, view_dict):
         """
         get a string which can represent the given view
-        @param view_dict: dict, an element of list DeviceState.views
+        @param view_dict: dict, an element of list MyDeviceState.views
         @return:
         """
         if 'view_str' in view_dict:
             return view_dict['view_str']
-        view_signature = DeviceState.__get_view_signature(view_dict)
+        view_signature = MyDeviceState.__get_view_signature(view_dict)
         parent_strs = []
         for parent_id in self.get_all_ancestors(view_dict):
-            parent_strs.append(DeviceState.__get_view_signature(self.views[parent_id]))
+            parent_strs.append(MyDeviceState.__get_view_signature(self.views[parent_id]))
         parent_strs.reverse()
         child_strs = []
         for child_id in self.get_all_children(view_dict):
-            child_strs.append(DeviceState.__get_view_signature(self.views[child_id]))
+            child_strs.append(MyDeviceState.__get_view_signature(self.views[child_id]))
         child_strs.sort()
         view_str = "Activity:%s\nSelf:%s\nParents:%s\nChildren:%s" % \
                    (self.foreground_activity, view_signature, "//".join(parent_strs), "||".join(child_strs))
@@ -331,14 +331,14 @@ class DeviceState(object):
     def __get_view_structure(self, view_dict):
         """
         get the structure of the given view
-        :param view_dict: dict, an element of list DeviceState.views
+        :param view_dict: dict, an element of list MyDeviceState.views
         :return: dict, representing the view structure
         """
         if 'view_structure' in view_dict:
             return view_dict['view_structure']
-        width = DeviceState.get_view_width(view_dict)
-        height = DeviceState.get_view_height(view_dict)
-        class_name = DeviceState.__safe_dict_get(view_dict, 'class', "None")
+        width = MyDeviceState.get_view_width(view_dict)
+        height = MyDeviceState.get_view_height(view_dict)
+        class_name = MyDeviceState.__safe_dict_get(view_dict, 'class', "None")
         children = {}
 
         root_x = view_dict['bounds'][0][0]
@@ -374,7 +374,7 @@ class DeviceState(object):
     def get_view_center(view_dict):
         """
         return the center point in a view
-        @param view_dict: dict, an element of DeviceState.views
+        @param view_dict: dict, an element of MyDeviceState.views
         @return: a pair of int
         """
         bounds = view_dict['bounds']
@@ -384,7 +384,7 @@ class DeviceState(object):
     def get_view_width(view_dict):
         """
         return the width of a view
-        @param view_dict: dict, an element of DeviceState.views
+        @param view_dict: dict, an element of MyDeviceState.views
         @return: int
         """
         bounds = view_dict['bounds']
@@ -394,7 +394,7 @@ class DeviceState(object):
     def get_view_height(view_dict):
         """
         return the height of a view
-        @param view_dict: dict, an element of DeviceState.views
+        @param view_dict: dict, an element of MyDeviceState.views
         @return: int
         """
         bounds = view_dict['bounds']
@@ -403,7 +403,7 @@ class DeviceState(object):
     def get_all_ancestors(self, view_dict):
         """
         Get temp view ids of the given view's ancestors
-        :param view_dict: dict, an element of DeviceState.views
+        :param view_dict: dict, an element of MyDeviceState.views
         :return: list of int, each int is an ancestor node id
         """
         result = []
@@ -416,7 +416,7 @@ class DeviceState(object):
     def get_all_children(self, view_dict):
         """
         Get temp view ids of the given view's children
-        :param view_dict: dict, an element of DeviceState.views
+        :param view_dict: dict, an element of MyDeviceState.views
         :return: set of int, each int is a child node id
         """
         children = self.__safe_dict_get(view_dict, 'children')
@@ -1208,6 +1208,33 @@ class DeviceState(object):
         return scrollable_views
     
 
+    def __filter_views(self):
+        def is_all_children_invisible(view_dict):
+            """检查一个节点的所有子节点是否都不可见"""
+            if not self.__safe_dict_get(view_dict, 'children'):
+                return True
+            
+            for child_id in view_dict['children']:
+                child_view = self.views[child_id]
+                if self.__safe_dict_get(child_view, 'visible'):
+                    return False
+                # 递归检查子节点的子节点
+                if not is_all_children_invisible(child_view):
+                    return False
+            return True
+
+        # 过滤views列表，只保留可见的view或其子节点有可见的view
+        self.views = [
+            view_dict for view_dict in self.views
+            if self.__safe_dict_get(view_dict, 'visible') or not is_all_children_invisible(view_dict)
+        ]
+
+        # 重新分配temp_id
+        for idx, view_dict in enumerate(self.views):
+            view_dict['temp_id'] = idx
+
+    
+
 
 
 
@@ -1419,31 +1446,6 @@ class DeviceState(object):
         # 如果输入的是短名称（不包含包名）
         current_short_name = self.foreground_activity.split('.')[-1]
         return current_short_name == activity_name
-    
-    def __filter_views(self):
-        def is_all_children_invisible(view_dict):
-            """检查一个节点的所有子节点是否都不可见"""
-            if not self.__safe_dict_get(view_dict, 'children'):
-                return True
-            
-            for child_id in view_dict['children']:
-                child_view = self.views[child_id]
-                if self.__safe_dict_get(child_view, 'visible'):
-                    return False
-                # 递归检查子节点的子节点
-                if not is_all_children_invisible(child_view):
-                    return False
-            return True
-
-        # 过滤views列表，只保留可见的view或其子节点有可见的view
-        self.views = [
-            view_dict for view_dict in self.views
-            if self.__safe_dict_get(view_dict, 'visible') or not is_all_children_invisible(view_dict)
-        ]
-
-        # 重新分配temp_id
-        for idx, view_dict in enumerate(self.views):
-            view_dict['temp_id'] = idx
     
 
     def get_described_actions_within_view_class(self, target_class: str, prefix=''):
