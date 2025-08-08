@@ -33,6 +33,9 @@ class DeviceState(object):
         self.tag = tag
         self.screenshot_path = screenshot_path
         self.views = self.__parse_views(views)
+
+        # 进行一个过滤
+        self.__filter_views()
         
         self.bk_views = copy.deepcopy(self.views)
         self.view_graph = self._build_view_graph()
@@ -1416,6 +1419,31 @@ class DeviceState(object):
         # 如果输入的是短名称（不包含包名）
         current_short_name = self.foreground_activity.split('.')[-1]
         return current_short_name == activity_name
+    
+    def __filter_views(self):
+        def is_all_children_invisible(view_dict):
+            """检查一个节点的所有子节点是否都不可见"""
+            if not self.__safe_dict_get(view_dict, 'children'):
+                return True
+            
+            for child_id in view_dict['children']:
+                child_view = self.views[child_id]
+                if self.__safe_dict_get(child_view, 'visible'):
+                    return False
+                # 递归检查子节点的子节点
+                if not is_all_children_invisible(child_view):
+                    return False
+            return True
+
+        # 过滤views列表，只保留可见的view或其子节点有可见的view
+        self.views = [
+            view_dict for view_dict in self.views
+            if self.__safe_dict_get(view_dict, 'visible') or not is_all_children_invisible(view_dict)
+        ]
+
+        # 重新分配temp_id
+        for idx, view_dict in enumerate(self.views):
+            view_dict['temp_id'] = idx
     
 
     def get_described_actions_within_view_class(self, target_class: str, prefix=''):

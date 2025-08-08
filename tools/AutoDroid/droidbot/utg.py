@@ -183,17 +183,18 @@ class UTG(object):
 
             for event_str, event_info in sorted(iter(events.items()), key=lambda x: x[1]["id"]):
                 event_short_descs.append((event_info["id"], event_str))
-                if self.device.adapters[self.device.minicap]:
-                    view_images = ["views/view_" + view["view_str"] + ".jpg"
-                                   for view in event_info["event"].get_views()]
-                else:
-                    view_images = ["views/view_" + view["view_str"] + ".png"
-                                   for view in event_info["event"].get_views()]
+                self.logger.info("Generating view images for event %s" % event_str)
+                # if self.device.adapters[self.device.minicap]:
+                #     view_images = ["views/view_" + view["view_str"] + ".jpg"
+                #                    for view in event_info["event"].get_views()]
+                # else:
+                #     view_images = ["views/view_" + view["view_str"] + ".png"
+                #                    for view in event_info["event"].get_views()]
                 event_list.append({
                     "event_str": event_str,
                     "event_id": event_info["id"],
                     "event_type": event_info["event"].event_type,
-                    "view_images": view_images
+                    # "view_images": view_images
                 })
 
             utg_edge = {
@@ -239,8 +240,9 @@ class UTG(object):
         utg_file.close()
 
     def is_event_explored(self, event, state):
-        event_str = event.get_event_str(state)
-        return event_str in self.effective_event_strs or event_str in self.ineffective_event_strs
+        return False
+        # event_str = event.get_event_str(state)
+        # return event_str in self.effective_event_strs or event_str in self.ineffective_event_strs
 
     def is_state_explored(self, state):
         if state.state_str in self.explored_state_strs:

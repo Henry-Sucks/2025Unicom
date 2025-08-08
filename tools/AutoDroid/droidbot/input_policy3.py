@@ -10,7 +10,8 @@ import copy
 import requests
 import ast
 from .input_event import *
-from .my_utg import UTG
+from .utg import UTG
+from .my_utg import MyUTG
 import time
 from .input_event import ScrollEvent
 
@@ -49,7 +50,9 @@ FINISHED = "task_completed"
 MAX_SCROLL_NUM = 2
 USE_LMQL = False
 
+# 和DFS有关的全局变量
 MAX_DFS_DEPTH = 2
+MAX_DFS_WAITING_TIME = 10
 
 
 class MyUtgBasedInputPolicy(InputPolicy):
@@ -126,6 +129,7 @@ class MyUtgBasedInputPolicy(InputPolicy):
         generate an event based on UTG
         :return: InputEvent
         """
+        # TODO: 实现基于UTG生成事件的方法
         pass
 
 
@@ -149,6 +153,10 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
         self.__random_explore = False
 
 
+
+        self.my_utg = MyUTG(device=device, app=app, random_input=False)
+
+
         self.main_menu_activity = r"com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity"
         self.menu_bar_id= r"com.sinovatech.unicom.ui:id/unicom_home_tabbar_menu"
         self.main_menu_first_hit = False
@@ -158,6 +166,9 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
         self.current_function = None
         self.already_explored = False
         self.actions_to_explore = None
+
+        # DFS回退过程中应该到达的状态，如果因为加载时间、页面逻辑等原因没有到达，则另外处理
+        self.expected_state = None
 
         # 新增：记录已点击的按钮
         self.clicked_buttons = set()  # 使用集合存储已点击按钮的唯一标识
@@ -169,6 +180,16 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
         self.visited_states = set()  # 存储已访问的状态
         self.state_actions_map = {}  # 存储状态到可用动作的映射
         self.dfs_depth = 0
+
+    # 根据utg得出当前state执行返回event后应该落回的状态
+    def _get_expected_state(self, current_state):
+
+        expected_state = self.my_utg.get_expected_state(current_state)
+        if expected_state is None:
+            self.logger.info("No expected state found for current state.")
+            return None
+        else:
+            return expected_state.structure_str
         
     def generate_event_based_on_utg(self, input_manager):
         current_state = self.current_state
@@ -242,11 +263,17 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                 # self.logger.info(self.current_state.views)
                 time.sleep(3)
                 self.current_state = self.device.get_current_state()
-                return self.current_state, TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
+                self.my_utg.add_node(self.current_state, "Starting point - Main page")
+                self.last_state = self.current_state
+                self.device.send_event(TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id)))
+                # return self.current_state, TouchEvent(view = self.current_state.get_view_by_id(self.menu_bar_id))
 
         if self.menu_phrase:
             time.sleep(3)
             current_state = self.device.get_current_state()
+            self.my_utg.add_node(self.current_state, "Main page with menu bar - navigation to each main function of this app")
+            self.my_utg.add_transition(TouchEvent(view = self.last_state.get_view_by_id(self.menu_bar_id)), self.last_state, self.current_state, KeyEvent(name="BACK"))
+
             menu_view = current_state.get_view_by_id(r'com.sinovatech.unicom.ui:id/home_menu_pop_recylerView')
 
             if menu_view is None:
@@ -281,24 +308,60 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
             return self.current_state, ExitEvent() 
 
         if self.page_phrase:
-            time.sleep(3)
+            time.sleep(5)
             self.current_state = self.device.get_current_state()
+
+            def is_back_key_event(event):
+                return isinstance(event, KeyEvent) and event.name == "BACK"
             
+            if is_back_key_event(self.last_event):
+                self.logger.info("The last event is a BACK")
+                if self.current_state.structure_str != self.expected_state:
+                    if self.expected_state is None:
+                        self.logger.info("Expected state not found, skip it.")
+                    
+                    else:
+                        waited_times = 0
+                        while waited_times < MAX_DFS_WAITING_TIME:
+                            self.logger.info('Current state: ' + self.current_state.structure_str)
+                            self.logger.info('Expected state: ' + self.expected_state)
+                            self.logger.info("Waiting for the expected state...")
+                            time.sleep(1)
+                            waited_times += 1
+                            self.current_state = self.device.get_current_state()
+                            if self.current_state.structure_str == self.expected_state:
+                                break
+
+                        raise InputInterruptedException("Waited too long, may have entered an unknown state we can't go back.")
+
             # 如果是第一次到达该状态，获取可用动作并加入栈
             if self.current_state.structure_str not in self.visited_states:
                 self.dfs_depth += 1
                 print(f"Entering a new state: {self.current_state.structure_str}")
                 print(f"DFS depth: {self.dfs_depth}")
+
+                self.visited_states.add(self.current_state.structure_str)
+                current_function, actions_to_explore = self.__explore_current_state()
+
                 if self.dfs_depth > MAX_DFS_DEPTH:
                     print("DFS depth exceeded, going back...")
                     self.dfs_depth -= 1
+
+                    # 更新utg
+                    self.my_utg.add_node(self.current_state, current_function)
+                    self.my_utg.add_transition(self.last_event, self.last_state, self.current_state, KeyEvent(name="BACK"))
+                    # 更新expected_state
+                    self.expected_state = self._get_expected_state(self.current_state)
                     return self.current_state, KeyEvent(name="BACK")
                 
 
                 
                 
-                self.visited_states.add(self.current_state.structure_str)
-                current_function, actions_to_explore = self.__explore_current_state()
+                
+                
+                self.current_function = current_function
+                self.my_utg.add_node(self.current_state, self.current_function)
+                self.my_utg.add_transition(self.last_event, self.last_state, self.current_state, KeyEvent(name="BACK"))
 
                 if len(actions_to_explore) == 0:
                     print("No actions to explore, something is wrong? Going back...")
@@ -593,7 +656,7 @@ Your answer should always use the following format:
         ids = self._extract_ids_from_response(response)
         # print(f'ids: {ids}')
         touch_actions = []
-        print(f'action_example: {candidate_actions[int(ids[0])]}')
+        # print(f'action_example: {candidate_actions[int(ids[0])]}')
         for id in ids:
             id=int(id)
             touch_actions.append(candidate_actions[id])
