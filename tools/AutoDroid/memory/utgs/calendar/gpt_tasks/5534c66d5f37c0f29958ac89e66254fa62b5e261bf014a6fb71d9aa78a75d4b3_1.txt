@@ -1,1 +1,0 @@
-Allow or deny Calendar app access to your contacts.

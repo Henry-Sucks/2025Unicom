@@ -1,0 +1,102 @@
+- android.widget.FrameLayout | text: None | resource_id: None | id: 0
+  - android.widget.LinearLayout | text: None | resource_id: None | id: 1
+    - android.widget.FrameLayout | text: None | resource_id: None | id: 2
+      - android.widget.LinearLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/action_bar_root | id: 3
+        - android.widget.FrameLayout | text: None | resource_id: android:id/content | id: 4
+          - android.widget.LinearLayout | text: None | resource_id: None | id: 5
+            - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/web_liner_layout | id: 6
+              - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/root_layout | id: 7
+                - android.widget.LinearLayout | text: None | resource_id: None | id: 8
+                  - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/webdetail_contentroot_layout | id: 9
+                    - android.widget.RelativeLayout | text: None | resource_id: None | id: 10
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/toutiao_webview_xinxiliu_layout | id: 11
+                      - android.widget.RelativeLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/toutiao_webview_banner_layout | id: 12
+                      - android.webkit.WebView | text: None | resource_id: None | id: 13
+                        - android.webkit.WebView | text: 搜索 | resource_id: None | id: 14
+                          - android.view.View | text:  | resource_id: app | id: 15
+                            - android.view.View | text:  | resource_id: None | id: 16
+                              - android.view.View | text:  | resource_id: None | id: 17
+                                - android.widget.Button | text: 返回 | resource_id: None | id: 18
+                                - android.view.View | text:  | resource_id: None | id: 19
+                                  - android.view.View | text:  | resource_id: None | id: 20
+                                    - android.widget.EditText | text:  | resource_id: search-main-input | id: 21
+                                - android.widget.TextView | text: 搜索 | resource_id: None | id: 22
+                              - android.view.View | text:  | resource_id: search-main-content-box | id: 23
+                                - android.widget.TextView | text:  | resource_id: None | id: 24
+                                - android.view.View | text:  | resource_id: None | id: 25
+                                  - android.view.View | text:  | resource_id: None | id: 26
+                                    - android.widget.TextView | text: 搜索发现 | resource_id: None | id: 27
+                                    - android.view.View | text:  | resource_id: None | id: 28
+                                      - android.widget.Image | text: 开关 | resource_id: None | id: 29
+                                  - android.view.View | text:  | resource_id: None | id: 30
+                                    - android.widget.ListView | text:  | resource_id: None | id: 31
+                                      - android.view.View | text: 领腾讯/爱奇艺VIP | resource_id: None | id: 32
+                                      - android.view.View | text: 领30元 | resource_id: None | id: 33
+                                      - android.view.View | text: 领5-10元话费 | resource_id: None | id: 34
+                                      - android.view.View | text: 送视频权益 | resource_id: None | id: 35
+                                      - android.view.View | text: 送腾讯VIP | resource_id: None | id: 36
+                                      - android.view.View | text:  | resource_id: None | id: 37
+                                        - android.widget.TextView | text: 国家补贴超划算 | resource_id: None | id: 38
+                                        - android.widget.Image | text: 1741075236162 | resource_id: None | id: 39
+                                      - android.view.View | text: 热门会员+5元话费 | resource_id: None | id: 40
+                                      - android.view.View | text: 热门特权N选2 | resource_id: None | id: 41
+                                      - android.view.View | text:  | resource_id: None | id: 42
+                                        - android.widget.TextView | text: 新装宽带领100元 | resource_id: None | id: 43
+                                        - android.widget.Image | text: 1711934072335 | resource_id: None | id: 44
+                                      - android.view.View | text:  | resource_id: None | id: 45
+                                        - android.widget.TextView | text: 领12个月腾讯视频 | resource_id: None | id: 46
+                                        - android.widget.Image | text: 1726111531594 | resource_id: None | id: 47
+                                      - android.view.View | text:  | resource_id: None | id: 48
+                                        - android.widget.TextView | text: 首月免月租 | resource_id: None | id: 49
+                                        - android.widget.Image | text: 1750987865896 | resource_id: None | id: 50
+                                - android.view.View | text:  | resource_id: HotSearchRecommended | id: 51
+                                  - android.view.View | text:  | resource_id: None | id: 52
+                                    - android.view.View | text:  | resource_id: None | id: 53
+                                      - android.view.View | text:  | resource_id: None | id: 54
+                                        - android.widget.TextView | text: 榜单速递 | resource_id: None | id: 55
+                                        - android.widget.TextView | text: 宽带 | resource_id: None | id: 56
+                                        - android.widget.TextView | text: 更多 | resource_id: None | id: 57
+                                        - android.widget.TextView | text: 爱腾优芒 月月随心领 | resource_id: None | id: 58
+                                        - android.widget.TextView | text: 续约/升档办理更方便 | resource_id: None | id: 59
+                                        - android.widget.TextView | text: 出行/视频/音乐会员任意领 | resource_id: None | id: 60
+                                        - android.widget.TextView | text: 号卡 | resource_id: None | id: 61
+                                        - android.widget.TextView | text: 更多 | resource_id: None | id: 62
+                                        - android.widget.TextView | text: 享30GB专属流量 | resource_id: None | id: 63
+                                        - android.widget.TextView | text: 海量特惠套餐任意选 | resource_id: None | id: 64
+                                        - android.widget.TextView | text: 手机数码 | resource_id: None | id: 65
+                                        - android.widget.TextView | text: 更多 | resource_id: None | id: 66
+                                        - android.widget.TextView | text: 国补购机，至高减500 | resource_id: None | id: 67
+                                        - android.widget.TextView | text: 联通专属购机优惠！ | resource_id: None | id: 68
+                                        - android.widget.TextView | text: 国补+合约 购机省千元 | resource_id: None | id: 69
+                                      - android.view.View | text:  | resource_id: None | id: 70
+                                        - android.widget.TextView | text: 今日热搜 | resource_id: None | id: 71
+                                        - android.widget.TextView | text: 1国补500元+合约超划算 | resource_id: None | id: 72
+                                        - android.widget.TextView | text: 2办小号，远离电话骚扰 | resource_id: None | id: 73
+                                        - android.widget.TextView | text: 3高星用户月月抽会员 | resource_id: None | id: 74
+                                        - android.widget.TextView | text: 4免费抽华为三折叠 | resource_id: None | id: 75
+                                        - android.widget.TextView | text: 5随时随地 手表联系 | resource_id: None | id: 76
+                                        - android.widget.TextView | text: 6得 12 月会员，爱奇艺/B站/QQ音乐任选 | resource_id: None | id: 77
+                                        - android.widget.TextView | text: 7+1年会员，视频音乐出行全含 | resource_id: None | id: 78
+                                        - android.widget.TextView | text: 8定制专属靓号 | resource_id: None | id: 79
+                                        - android.widget.TextView | text: 9预存享海量会员好礼 | resource_id: None | id: 80
+                                        - android.widget.TextView | text: 10666豹子号 | resource_id: None | id: 81
+                                      - android.view.View | text:  | resource_id: None | id: 82
+                                        - android.widget.TextView | text: 商城 | resource_id: None | id: 83
+                                        - android.widget.TextView | text: 1领优享会员8项特权 | resource_id: None | id: 84
+                                        - android.widget.TextView | text: 2权益超市 海量权益折扣购 | resource_id: None | id: 85
+                                        - android.widget.TextView | text: 3新装宽带送100元代金券 | resource_id: None | id: 86
+                                        - android.widget.TextView | text: 4签到抢兑18元话费券 | resource_id: None | id: 87
+                                        - android.widget.TextView | text: 5防骚扰护隐私，限时5折 | resource_id: None | id: 88
+                                        - android.widget.TextView | text: 6腾讯王卡首月0月租体验 | resource_id: None | id: 89
+                                        - android.widget.TextView | text: 7爆款套餐任性选 | resource_id: None | id: 90
+                                        - android.widget.TextView | text: 8副卡全家享 更省钱 | resource_id: None | id: 91
+                                        - android.widget.TextView | text: 9足不出户线上办宽带 | resource_id: None | id: 92
+                                      - android.view.View | text:  | resource_id: None | id: 93
+                                        - android.widget.TextView | text: 服务 | resource_id: None | id: 94
+                                    - android.widget.TextView | text:  | resource_id: None | id: 95
+                                  - android.view.View | text:  | resource_id: None | id: 96
+                                    - android.widget.Image | text: 开关 | resource_id: None | id: 97
+                                    - android.widget.TextView | text:  隐藏热搜榜 | resource_id: None | id: 98
+                  - android.widget.FrameLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/fl_emotionview_main | id: 99
+                - android.widget.FrameLayout | text: None | resource_id: com.sinovatech.unicom.ui:id/surfaceFram | id: 100
+  - android.view.View | text: None | resource_id: android:id/navigationBarBackground | id: 101

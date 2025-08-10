@@ -1,1 +1,0 @@
-Set the size of the file or folder to small, medium, large, or extra large.

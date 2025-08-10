@@ -1,1 +1,0 @@
-Display daily, weekly, monthly, yearly view and a simple event list. Allow users to go back, search, change view, access more options, and create new events.

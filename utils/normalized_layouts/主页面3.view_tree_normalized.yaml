@@ -1,0 +1,173 @@
+- children:
+  - children:
+    - children:
+      - children:
+        - children:
+          - children:
+            - children:
+              - children:
+                - children:
+                  - children:
+                    - children: []
+                      class: android.view.View
+                    class: android.widget.FrameLayout
+                    resource_id: android:id/tabcontent
+                  - children:
+                    - children:
+                      - children:
+                        - children:
+                          - children:
+                            - children: []
+                              class: android.widget.LinearLayout
+                              resource_id: com.sinovatech.unicom.ui:id/srl_classics_center
+                            class: android.widget.RelativeLayout
+                            resource_id: com.sinovatech.unicom.ui:id/classics
+                          class: android.widget.RelativeLayout
+                          resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_twolevelheader
+                        - children:
+                          - children:
+                            - children: []
+                              class: android.widget.RelativeLayout
+                              resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_bg
+                            - children: []
+                              class: android.view.View
+                            class: android.view.ViewGroup
+                            resource_id: com.sinovatech.unicom.ui:id/scrollerLayout
+                          - children:
+                            - children: []
+                              class: android.view.View
+                              resource_id: com.sinovatech.unicom.ui:id/unicom_home_toolbar_top_view
+                            - children:
+                              - children: []
+                                class: android.widget.RelativeLayout
+                                resource_id: com.sinovatech.unicom.ui:id/city_select_btn
+                              - children:
+                                - children: []
+                                  class: android.widget.RadioButton
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_rb1
+                                - children: []
+                                  class: android.widget.RadioButton
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_rb2
+                                class: android.widget.RadioGroup
+                                resource_id: com.sinovatech.unicom.ui:id/unicom_home_rg
+                              - children: []
+                                class: android.widget.LinearLayout
+                                resource_id: com.sinovatech.unicom.ui:id/title_right_layout
+                              class: android.widget.RelativeLayout
+                              resource_id: com.sinovatech.unicom.ui:id/top
+                            - children:
+                              - children:
+                                - children:
+                                  - children: []
+                                    class: android.widget.LinearLayout
+                                  class: android.widget.ViewFlipper
+                                  resource_id: com.sinovatech.unicom.ui:id/home_viewFlipper
+                                - children: []
+                                  class: android.view.View
+                                - children: []
+                                  class: android.view.View
+                                class: android.widget.LinearLayout
+                              - children: []
+                                class: android.widget.LinearLayout
+                                resource_id: com.sinovatech.unicom.ui:id/home_search_scan_image_layout
+                              class: android.widget.LinearLayout
+                              resource_id: com.sinovatech.unicom.ui:id/home_search_layout
+                            - children:
+                              - children:
+                                - children: []
+                                  class: android.widget.LinearLayout
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_tab1
+                                - children:
+                                  - children: []
+                                    class: android.widget.LinearLayout
+                                  - children: []
+                                    class: android.widget.LinearLayout
+                                  - children: []
+                                    class: android.widget.LinearLayout
+                                  - children: []
+                                    class: android.widget.LinearLayout
+                                  - children: []
+                                    class: android.widget.LinearLayout
+                                  - children: []
+                                    class: android.widget.LinearLayout
+                                  class: android.support.v7.widget.RecyclerView
+                                  resource_id: com.sinovatech.unicom.ui:id/unicom_home_tabbar_layout
+                                - children: []
+                                  class: android.view.View
+                                class: android.widget.LinearLayout
+                                resource_id: com.sinovatech.unicom.ui:id/home_tab_yaobu_layout
+                              class: android.widget.FrameLayout
+                              resource_id: com.sinovatech.unicom.ui:id/tab_xuanfu_layout_wai
+                            class: android.widget.LinearLayout
+                            resource_id: com.sinovatech.unicom.ui:id/unicom_home_toolbar_layout
+                          - children: []
+                            class: android.widget.LinearLayout
+                          class: android.widget.RelativeLayout
+                        - children: []
+                          class: android.widget.RelativeLayout
+                        class: android.view.ViewGroup
+                        resource_id: com.sinovatech.unicom.ui:id/unicome_main_home_smartrefreshlayout
+                      - children:
+                        - children: []
+                          class: android.widget.LinearLayout
+                          resource_id: com.sinovatech.unicom.ui:id/main_bottom_toast_layout
+                        class: android.widget.RelativeLayout
+                        resource_id: com.sinovatech.unicom.ui:id/unicom_home_bottom_view
+                      - children:
+                        - children: []
+                          class: android.widget.LinearLayout
+                        class: android.widget.RelativeLayout
+                        resource_id: com.sinovatech.unicom.ui:id/home_xuanfu_layout
+                      class: android.widget.RelativeLayout
+                      resource_id: com.sinovatech.unicom.ui:id/unicom_home_root_view
+                    class: android.widget.FrameLayout
+                    resource_id: com.sinovatech.unicom.ui:id/realtabcontent
+                  - children: []
+                    class: android.view.View
+                  class: android.widget.LinearLayout
+                - children:
+                  - children:
+                    - children:
+                      - children: []
+                        class: android.widget.RelativeLayout
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_home_layout
+                      class: android.widget.RelativeLayout
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_home_parent_layout
+                    - children:
+                      - children: []
+                        class: android.widget.RelativeLayout
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_service_layout
+                      class: android.widget.RelativeLayout
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_service_rl
+                    - children: []
+                      class: android.widget.RelativeLayout
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_shop_parent_layout
+                    - children:
+                      - children: []
+                        class: android.widget.RelativeLayout
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_layout
+                      class: android.widget.RelativeLayout
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_ad_parent_layout
+                    - children:
+                      - children: []
+                        class: android.widget.RelativeLayout
+                        resource_id: com.sinovatech.unicom.ui:id/main_tab_user_layout
+                      class: android.widget.RelativeLayout
+                      resource_id: com.sinovatech.unicom.ui:id/main_tab_user_parent_layout
+                    class: android.widget.LinearLayout
+                  class: android.widget.RelativeLayout
+                  resource_id: com.sinovatech.unicom.ui:id/main_tab_layout
+                class: android.widget.RelativeLayout
+              class: android.widget.TabHost
+              resource_id: android:id/tabhost
+            class: android.widget.LinearLayout
+          class: android.widget.FrameLayout
+          resource_id: android:id/content
+        class: android.widget.LinearLayout
+        resource_id: com.sinovatech.unicom.ui:id/action_bar_root
+      class: android.widget.FrameLayout
+    class: android.widget.LinearLayout
+  - children: []
+    class: android.view.View
+    resource_id: android:id/navigationBarBackground
+  class: android.widget.FrameLayout
