@@ -1,0 +1,2158 @@
+{"1": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2": "[\"Open a checklist note or create one if there is none.\"]"}
+{"3": "[\"Open a checklist note or create one if there is none.\"]"}
+{"4": "[\"Open a checklist note or create one if there is none.\"]"}
+{"5": "[\"Open a checklist note or create one if there is none.\"]"}
+{"6": "[\"Open a checklist note or create one if there is none.\"]"}
+{"7": "[\"Open a checklist note or create one if there is none.\"]"}
+{"8": "[\"Open a checklist note or create one if there is none.\"]"}
+{"9": "[\"Open a checklist note or create one if there is none.\"]"}
+{"12": "[\"Open a note or create one if there is none.\"]"}
+{"13": "[\"Open a note or create one if there is none.\"]"}
+{"14": "[\"Open a checklist note or create one if there is none.\"]"}
+{"15": "[\"Open a checklist note or create one if there is none.\"]"}
+{"21": "[\"Open a note or create one if there is none.\"]"}
+{"25": "[\"Open a checklist note or create one if there is none.\"]"}
+{"27": "[\"Open settings from the more options of a note or checklist.\"]"}
+{"29": "[\"Open settings and navigate to color customization options.\"]"}
+{"30": "[\"Open settings and navigate to color customization options.\"]"}
+{"31": "[\"Open a note or create one if there is none.\"]"}
+{"32": "[\"Open a note or create one if there is none.\"]"}
+{"33": "[\"Open a note or create one if there is none.\"]"}
+{"40": "[\"Open settings from the more options of a note or checklist.\"]"}
+{"41": "[\"Open a checklist note or create one if there is none.\"]"}
+{"43": "[\"Open a note or create one if there is none.\"]"}
+{"51": "[\"Open the font size settings.\"]"}
+{"52": "[\"Open the font size settings.\"]"}
+{"54": "[\"Tap on the 'Search' button.\"]"}
+{"55": "[\"Open a note or create one if there is none.\"]"}
+{"56": "[\"Navigate to 'Customize colors' in the settings.\"]"}
+{"57": "[\"Open a note or create one if there is none.\"]"}
+{"58": "[\"Open a checklist note or create one if there is none.\"]"}
+{"60": "[\"Open the font size settings.\"]"}
+{"62": "[\"Open the font size settings.\"]"}
+{"63": "[\"Open a note or create one if there is none.\"]"}
+{"64": "[\"Open a checklist note or create one if there is none.\"]"}
+{"65": "[\"Open a note or create one if there is none.\"]"}
+{"67": "[\"Open a note or create one if there is none.\"]"}
+{"69": "[\"Open a checklist note or create one if there is none.\"]"}
+{"71": "[\"Open a note or create one if there is none.\"]"}
+{"72": "[\"Open a checklist note or create one if there is none.\"]"}
+{"73": "[\"Open a note or create one if there is none.\"]"}
+{"74": "[\"Open a checklist note or create one if there is none.\"]"}
+{"75": "[\"Open a checklist note or create one if there is none.\"]"}
+{"76": "[\"Open a checklist note or create one if there is none.\"]"}
+{"77": "[\"Open the font size settings.\"]"}
+{"78": "[\"Open the font size settings.\"]"}
+{"79": "[\"Open the font size settings.\"]"}
+{"80": "[\"Open a note if there's none open.\"]"}
+{"81": "[\"Open a note or checklist item if there is none.\"]"}
+{"82": "[\"Open a note or checklist item if there is none.\"]"}
+{"83": "[\"Open a checklist note or create one if there is none.\"]"}
+{"84": "[\"Open a checklist note with at least two items or create one if there is none.\"]"}
+{"85": "[\"Open a checklist note with at least three items or create one if there is none.\"]"}
+{"86": "[\"Open a note or create one if there is none.\"]"}
+{"87": "[\"Open a note with the word 'recipe' or create one if there is none.\"]"}
+{"88": "[\"Open a note with the keyword 'travel itinerary' or create one if there is none.\"]"}
+{"89": "[\"Open the note titled 'Project Plan' or create one if there is none.\"]"}
+{"90": "[\"Open a note with the phrase 'birthday reminders' or create one if there is none.\"]"}
+{"91": "[\"Open a note or create one if there is none.\"]"}
+{"92": "[\"Open a checklist note or create one if there is none.\"]"}
+{"93": "[\"Open a note or create one if there is none.\"]"}
+{"94": "[\"Open a checklist note or create one if there is none.\"]"}
+{"95": "[\"Open a checklist note or create one if there is none.\"]"}
+{"96": "[\"Open a note with the word 'budget' or create one if there is none.\"]"}
+{"97": "[\"Open a checklist note with the item 'Buy groceries' or create one if there is none.\"]"}
+{"98": "[\"Open a checklist note with the item 'Walk the dog' or create one if there is none.\"]"}
+{"99": "[\"Open a checklist note with the item 'Finish project report' or create one if there is none.\"]"}
+{"100": "[\"Open a checklist note with the item 'Call mom' or create one if there is none.\"]"}
+{"103": "[\"Ensure a note is open.\"]"}
+{"104": "[\"Ensure a checklist is open.\"]"}
+{"105": "[\"Ensure a note is open.\"]"}
+{"106": "[\"Ensure a note is open.\"]"}
+{"107": "[\"Ensure a checklist is open.\"]"}
+{"108": "[\"Open the settings page.\"]"}
+{"109": "[\"Open the settings page.\"]"}
+{"111": "[\"Ensure a checklist is open.\"]"}
+{"112": "[\"Ensure a note is open.\"]"}
+{"113": "[\"Ensure a checklist is open.\"]"}
+{"114": "[\"Open the settings page.\"]"}
+{"115": "[\"Open the settings page.\"]"}
+{"116": "[\"Ensure a note is open.\"]"}
+{"117": "[\"Ensure a note is open.\"]"}
+{"118": "[\"Ensure a note is open.\"]"}
+{"119": "[\"Ensure a note is open.\"]"}
+{"120": "[\"Ensure a note is open.\"]"}
+{"121": "[\"Ensure a checklist is open.\"]"}
+{"122": "[\"Ensure a checklist is open.\"]"}
+{"123": "[\"Ensure a checklist is open.\"]"}
+{"124": "[\"Ensure a checklist is open.\"]"}
+{"125": "[\"Ensure a checklist is open.\"]"}
+{"126": "[\"Ensure a checklist is open.\"]"}
+{"127": "[\"Open the settings page.\"]"}
+{"128": "[\"Ensure a note is open.\"]"}
+{"129": "[\"Ensure a note with the title 'Project Ideas' exists.\"]"}
+{"130": "[\"Ensure a checklist is open.\"]"}
+{"132": "[\"Ensure a note is open.\"]"}
+{"133": "[\"Ensure a checklist is open.\"]"}
+{"134": "[\"Open the settings page.\"]"}
+{"135": "[\"Open the settings page.\"]"}
+{"136": "[\"Open the settings page.\"]"}
+{"138": "[\"Open the settings page.\"]"}
+{"139": "[\"Open the color customization window.\"]"}
+{"140": "[\"Ensure a note is open.\"]"}
+{"141": "[\"Ensure a checklist is open.\"]"}
+{"142": "[\"Ensure a note is open.\"]"}
+{"143": "[\"Ensure a checklist is open.\"]"}
+{"144": "[\"Ensure a note is open.\"]"}
+{"145": "[\"Ensure a checklist is open.\"]"}
+{"146": "[\"Ensure a note is open.\"]"}
+{"147": "[\"Ensure a checklist is open.\"]"}
+{"148": "[\"Ensure a note is open.\"]"}
+{"149": "[\"Ensure a note is open.\"]"}
+{"150": "[\"Open the settings page.\"]"}
+{"153": "[\"Ensure no other note with the title 'Meeting Agenda' exists.\"]"}
+{"154": "[\"Ensure no other checklist note with the title 'Grocery List' exists.\"]"}
+{"155": "[\"Ensure no other note with the title 'Project Ideas' exists.\"]"}
+{"156": "[\"Ensure a checklist note is open or create one if none exists.\"]"}
+{"157": "[\"Ensure a checklist note is open or create one if none exists.\"]"}
+{"158": "[\"Ensure a checklist note is open or create one if none exists.\"]"}
+{"159": "[\"Ensure a checklist note is open or create one if none exists.\"]"}
+{"160": "[\"Ensure a checklist note is open or create one if none exists.\"]"}
+{"161": "[\"Ensure no other note with the title 'Recipe for Chocolate Cake' exists.\"]"}
+{"162": "[\"Ensure a note titled 'Shopping List' exists.\"]"}
+{"163": "[\"Ensure no other note with the title 'Weekend Getaway Plans' exists.\"]"}
+{"164": "[\"Ensure a note titled 'Study Schedule' exists.\"]"}
+{"165": "[\"Ensure no other note with the title 'Home Maintenance Tasks' exists.\"]"}
+{"202": "[\"Open a checklist note or create one if there is none.\"]"}
+{"203": "[\"Open a checklist note or create one if there is none.\"]"}
+{"204": "[\"Open a checklist note or create one if there is none.\"]"}
+{"205": "[\"Open a checklist note or create one if there is none\"]"}
+{"206": "[\"Create the note 'Ideas' if it doesn't exist.\"]"}
+{"207": "[\"Create the note 'Dream Journal' if it doesn't exist.\"]"}
+{"208": "[\"Create the note 'Project Tasks' if it doesn't exist.\"]"}
+{"215": "[\"Open the settings page of the Notes App.\"]"}
+{"216": "[\"Create the note 'Workout Routine' if it doesn't exist.\"]"}
+{"217": "[\"Open the settings page of the Notes App.\"]"}
+{"218": "[\"Open an existing note or create one if there is none.\"]"}
+{"221": "[\"Open an existing note or create one if there is none.\"]"}
+{"222": "[\"Open a checklist note or create one if there is none.\"]"}
+{"223": "[\"Open an existing note or create one if there is none.\"]"}
+{"224": "[\"Open a checklist note or create one if there is none.\"]"}
+{"225": "[\"Open an existing note or create one if there is none.\"]"}
+{"226": "[\"Open a checklist note or create one if there is none.\"]"}
+{"228": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"229": "[\"Open a note or create one if there is none.\"]"}
+{"230": "[\"Open a note or create one if there is none.\"]"}
+{"232": "[\"Open a checklist note or create one if there is none.\"]"}
+{"233": "[\"Open a checklist note or create one if there is none.\"]"}
+{"234": "[\"Open a checklist note or create one if there is none.\"]"}
+{"235": "[\"Open a checklist note or create one if there is none.\"]"}
+{"237": "[\"Open the settings page of the Notes App.\"]"}
+{"238": "[\"Open a checklist note or create one if there is none.\"]"}
+{"239": "[\"Open an existing note or create one if there is none.\"]"}
+{"240": "[\"Open a checklist note or create one if there is none.\"]"}
+{"241": "[\"Open a checklist note or create one if there is none.\"]"}
+{"242": "[\"Open an existing note or create one if there is none.\"]"}
+{"243": "[\"Open a checklist note or create one if there is none.\"]"}
+{"246": "[\"Open a checklist note or create one if there is none.\"]"}
+{"247": "[\"Open a checklist note or create one if there is none.\"]"}
+{"248": "[\"Open an existing note or create one if there is none.\"]"}
+{"249": "[\"Open a checklist note or create one if there is none.\"]"}
+{"250": "[\"Open an existing note or create one if there is none.\"]"}
+{"251": "[\"Open the checklist titled 'Project Checklist' or create it if it doesn't exist.\"]"}
+{"252": "[\"Create a note titled 'Travel Itinerary' if it doesn't exist.\"]"}
+{"253": "[\"Open the checklist titled 'Workout Plan' or create it if it doesn't exist.\"]"}
+{"254": "[\"Open the checklist titled 'Holiday Plans' or create it if it doesn't exist.\"]"}
+{"255": "[\"Open the note titled 'Birthday Party' or create it if it doesn't exist.\"]"}
+{"256": "[\"Create a new note titled 'Daily Journal'.\"]"}
+{"257": "[\"Create a note titled 'Project Ideas' if it doesn't exist.\"]"}
+{"258": "[\"Open a note.\"]"}
+{"259": "[\"Open a checklist.\"]"}
+{"260": "[\"Open a note.\"]"}
+{"261": "[\"Open a checklist.\"]"}
+{"262": "[\"Open a note.\"]"}
+{"263": "[\"Open a checklist.\"]"}
+{"266": "[\"Open a note about travel plans or create one if it doesn't exist.\"]"}
+{"267": "[\"Open a checklist about weekend chores or create one if it doesn't exist.\"]"}
+{"268": "[\"Open a checklist about office supplies or create one if it doesn't exist.\"]"}
+{"269": "[\"Open a note containing a recipe for pasta or create one if it doesn't exist.\"]"}
+{"270": "[\"Open a note containing the address of the new apartment or create one if it doesn't exist.\"]"}
+{"271": "[\"Open a note.\"]"}
+{"272": "[\"Open a checklist.\"]"}
+{"276": "[\"Create a note titled 'Meeting Notes' if it doesn't exist.\"]"}
+{"277": "[\"Create a note titled 'Birthday Plans' if it doesn't exist.\"]"}
+{"278": "[\"If a note with the title 'Grocery List' already exists, rename it.\"]"}
+{"279": "[\"Create a note if no note exists.\"]"}
+{"280": "[\"If a note with the title 'Meeting Agenda' already exists, rename it.\"]"}
+{"281": "[\"Open a checklist.\"]"}
+{"282": "[\"Open a checklist.\"]"}
+{"283": "[\"Open a checklist.\"]"}
+{"284": "[\"Open a note.\"]"}
+{"288": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"291": "[\"Create a checklist titled 'Shopping List' if it doesn't exist.\"]"}
+{"292": "[\"Open a note.\"]"}
+{"293": "[\"Open a checklist.\"]"}
+{"294": "[\"Open a note.\"]"}
+{"295": "[\"Open a checklist.\"]"}
+{"296": "[\"Open a checklist.\"]"}
+{"297": "[\"Open a note.\"]"}
+{"298": "[\"Open a checklist.\"]"}
+{"299": "[\"Open a note.\"]"}
+{"301": "[\"Open the settings page\"]"}
+{"302": "[\"Open the settings page\"]"}
+{"303": "[\"Open an existing note or create a new one if there is none\"]"}
+{"304": "[\"Open an existing note or create a new one if there is none\"]"}
+{"305": "[\"Open an existing note or create a new one if there is none\"]"}
+{"306": "[\"Open a checklist note or create one if there is none\"]"}
+{"307": "[\"Open a checklist note or create one if there is none\"]"}
+{"308": "[\"Open a checklist note or create one if there is none\"]"}
+{"309": "[\"Open a checklist note or create one if there is none\"]"}
+{"310": "[\"Open a checklist note or create one if there is none\"]"}
+{"311": "[\"Open a checklist note or create one if there is none\"]"}
+{"312": "[\"Open a checklist note or create one if there is none\"]"}
+{"313": "[\"Open the settings page if the current page is not the settings page\"]"}
+{"314": "[\"Open an existing note or create a new one if there is none\"]"}
+{"315": "[\"Open an existing note or create a new one if there is none\"]"}
+{"317": "[\"Open the settings page\"]"}
+{"318": "[\"Open the settings page\"]"}
+{"319": "[\"Open the settings page\"]"}
+{"320": "[\"Open the settings page\"]"}
+{"321": "[\"Open a checklist note or create one if there is none\"]"}
+{"322": "[\"Open a checklist note or create one if there is none\"]"}
+{"323": "[\"Open a checklist note or create one if there is none\"]"}
+{"324": "[\"Open a checklist note or create one if there is none\"]"}
+{"325": "[\"Open a checklist note or create one if there is none\"]"}
+{"326": "[\"Open a checklist note or create one if there is none\"]"}
+{"327": "[\"Open an existing note or create a new one if there is none\"]"}
+{"328": "[\"Open an existing note or create a new one if there is none\"]"}
+{"329": "[\"Open an existing note or create a new one if there is none\"]"}
+{"330": "[\"Open an existing note or create a new one if there is none\"]"}
+{"331": "[\"Open an existing note or create a new one if there is none\"]"}
+{"333": "[\"Open the settings page\"]"}
+{"334": "[\"Open the settings page\"]"}
+{"335": "[\"Open the settings page\"]"}
+{"336": "[\"Open a checklist note or create one if there is none\"]"}
+{"337": "[\"Open a checklist note or create one if there is none\"]"}
+{"338": "[\"Ensure there are at least two notes available\"]"}
+{"339": "[\"Ensure there are at least two checklist notes available\"]"}
+{"340": "[\"Open a checklist note or create one if there is none\"]"}
+{"341": "[\"Open an existing note or create a new one if there is none\"]"}
+{"342": "[\"Open an existing note or create a new one if there is none\"]"}
+{"343": "[\"Open the settings page\"]"}
+{"344": "[\"Open the settings page\"]"}
+{"345": "[\"Open a checklist note or create one if there is none\"]"}
+{"346": "[\"Open the settings page\"]"}
+{"347": "[\"Open the settings page\"]"}
+{"348": "[\"Open a checklist note or create one if there is none\"]"}
+{"349": "[\"Open the settings page\"]"}
+{"350": "[\"Open the settings page\"]"}
+{"351": "[\"Ensure there is no existing note titled 'Shopping List'.\"]"}
+{"352": "[\"Create a note titled 'Work Notes' if it doesn't exist.\"]"}
+{"353": "[\"Ensure no note titled 'Vacation Plans' exists.\"]"}
+{"354": "[\"Create a note titled 'Todo List' if it doesn't exist.\"]"}
+{"355": "[\"Make sure a note is open and is the current note.\"]"}
+{"356": "[\"Open the settings menu.\"]"}
+{"357": "[\"Open the settings menu.\"]"}
+{"358": "[\"Open the settings menu.\"]"}
+{"359": "[\"Make sure a note is open and is the current note.\"]"}
+{"360": "[\"Make sure a checklist is open and is the current checklist.\"]"}
+{"361": "[\"Make sure a note is open and is the current note.\"]"}
+{"362": "[\"Make sure a checklist is open and is the current checklist.\"]"}
+{"364": "[\"Open the settings menu.\"]"}
+{"365": "[\"Open the settings menu.\"]"}
+{"367": "[\"Open the settings menu.\"]"}
+{"368": "[\"Open the settings menu.\"]"}
+{"369": "[\"Open the settings menu.\"]"}
+{"370": "[\"Open the settings menu.\"]"}
+{"371": "[\"Make sure a checklist is open and is the current checklist.\"]"}
+{"372": "[\"Open the settings menu.\"]"}
+{"373": "[\"Make sure a note is open and is the current note.\"]"}
+{"374": "[\"Make sure a checklist is open and is the current checklist.\"]"}
+{"376": "[\"Make sure a note is open and is the current note.\"]"}
+{"377": "[\"Make sure a checklist is open and is the current checklist.\"]"}
+{"378": "[\"Open the settings menu.\"]"}
+{"379": "[\"Open the settings menu.\"]"}
+{"380": "[\"Open the settings menu.\"]"}
+{"381": "[\"Make sure a note is open and is the current note.\"]"}
+{"382": "[\"Make sure a note is open and is the current note.\"]"}
+{"383": "[\"Make sure a note is open and is the current note.\"]"}
+{"384": "[\"Make sure a note is open and is the current note.\"]"}
+{"385": "[\"Make sure a note is open and is the current note.\"]"}
+{"386": "[\"Make sure a checklist is open and is the current checklist.\"]"}
+{"387": "[\"Make sure a note is open and is the current note.\"]"}
+{"388": "[\"Make sure a checklist is open and is the current checklist.\"]"}
+{"389": "[\"Make sure a note is open and is the current note.\"]"}
+{"390": "[\"Make sure a note is open and is the current note.\"]"}
+{"391": "[\"Open the settings menu.\"]"}
+{"392": "[\"Open the settings menu.\"]"}
+{"393": "[\"Open the settings menu.\"]"}
+{"394": "[\"Make sure a note is open and is the current note.\"]"}
+{"395": "[\"Make sure a note is open and is the current note.\"]"}
+{"396": "[\"Open the settings menu.\"]"}
+{"397": "[\"Open the settings menu.\"]"}
+{"398": "[\"Open the settings menu.\"]"}
+{"399": "[\"Open the settings menu.\"]"}
+{"400": "[\"Open the settings menu.\"]"}
+{"405": "[\"Open a note if none are currently opened.\"]"}
+{"406": "[\"Tap 'Create Note' to add a new note.\"]"}
+{"407": "[\"Tap 'Create Note' to add a new note.\"]"}
+{"408": "[\"Tap 'Create Note' to add a new note.\"]"}
+{"409": "[\"Tap 'Create Note' to add a new note.\"]"}
+{"410": "[\"Open a note if none are currently opened.\"]"}
+{"412": "[\"Open settings of the app.\"]"}
+{"413": "[\"Customize the colors of the app.\"]"}
+{"414": "[\"Customize the colors of the app.\"]"}
+{"415": "[\"Open a note if none are currently opened.\"]"}
+{"417": "[\"Open a note if none are currently opened.\"]"}
+{"418": "[\"Open a checklist note if none are currently opened.\"]"}
+{"419": "[\"Ensure that a note titled 'Grocery List' exists and is opened.\"]"}
+{"420": "[\"Ensure that a note titled 'Meeting Notes' exists and is opened.\"]"}
+{"421": "[\"Open a checklist note if none are currently opened.\"]"}
+{"422": "[\"Open a checklist note if none are currently opened.\"]"}
+{"423": "[\"Ensure that a note titled 'Meeting Notes' exists.\"]"}
+{"424": "[\"Ensure no other note with the title 'Shopping List' exists.\"]"}
+{"425": "[\"Ensure no other note with the title 'Vacation Packing List' exists.\"]"}
+{"428": "[\"Open settings of the app.\"]"}
+{"429": "[\"Open the font size settings.\"]"}
+{"430": "[\"Open the font size settings.\"]"}
+{"431": "[\"Open a checklist note if none are currently opened.\"]"}
+{"432": "[\"Open settings of the app.\"]"}
+{"433": "[\"Open settings of the app.\"]"}
+{"434": "[\"Open settings of the app.\"]"}
+{"435": "[\"Open a note if none are currently opened.\"]"}
+{"436": "[\"Open a checklist note if none are currently opened.\"]"}
+{"437": "[\"Open a note if none are currently opened.\"]"}
+{"438": "[\"Open a checklist note if none are currently opened.\"]"}
+{"439": "[\"Ensure that a note titled 'Grocery List' exists and is opened.\"]"}
+{"440": "[\"Ensure that a note titled 'Meeting Minutes' exists and is opened.\"]"}
+{"441": "[\"Tap 'Create Note' to add a new note.\"]"}
+{"442": "[\"Open a checklist note if none are currently opened.\"]"}
+{"444": "[\"Ensure that a checklist note containing 'Buy Milk' exists and is opened.\"]"}
+{"445": "[\"Ensure that a note titled 'Meeting Notes' exists.\"]"}
+{"446": "[\"Open a checklist note if none are currently opened.\"]"}
+{"447": "[\"Open a checklist note containing 'Meeting at 3PM' if none are currently opened.\"]"}
+{"448": "[\"Open a checklist note containing 'Dentist Appointment' if none are currently opened.\"]"}
+{"449": "[\"Open a checklist note if none are currently opened.\"]"}
+{"450": "[\"Open a checklist note if none are currently opened.\"]"}
+{"451": "[\"Create the note titled 'Workout Plan' if it doesn't exist.\"]"}
+{"452": "[\"Create a checklist item titled 'Finish Report' if it doesn't exist.\"]"}
+{"453": "[\"Create a checklist item titled 'Walk the Dog' and mark it as checked.\"]"}
+{"454": "[\"Create the note titled 'Meeting Agenda' if it doesn't exist.\"]"}
+{"455": "[\"Create a checklist item titled 'Buy Groceries' if it doesn't exist.\"]"}
+{"457": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"458": "[\"Create the note titled 'Project Ideas' if it doesn't exist.\"]"}
+{"459": "[\"If a note with the title 'Travel Itinerary' already exists, rename the note title to something else.\"]"}
+{"460": "[\"Open a note and enter the word 'dinner' at least twice.\"]"}
+{"461": "[\"Create the note titled 'Shopping List' if it doesn't exist.\"]"}
+{"462": "[\"Create the note titled 'Study Plan' if it doesn't exist.\"]"}
+{"463": "[\"Create the note titled 'Holiday Plans' if it doesn't exist.\"]"}
+{"464": "[\"Create the note titled 'Workout Schedule' if it doesn't exist.\"]"}
+{"465": "[\"Create the note titled 'To-Do List' if it doesn't exist.\"]"}
+{"471": "[\"Create a checklist item titled 'Buy groceries' if it doesn't exist.\"]"}
+{"473": "[\"Create the note titled 'Meeting Notes' if it doesn't exist.\"]"}
+{"475": "[\"Create the note titled 'Vacation Plans' if it doesn't exist.\"]"}
+{"478": "[\"Open the settings of the app.\"]"}
+{"479": "[\"Open the settings of the app.\"]"}
+{"480": "[\"Open the settings of the app.\"]"}
+{"482": "[\"Ensure the current note is titled 'Work'.\"]"}
+{"488": "[\"Open the settings of the app.\"]"}
+{"491": "[\"Create a checklist item titled 'Respond to Emails' if it doesn't exist.\"]"}
+{"493": "[\"Create the note titled 'Groceries' if it doesn't exist.\"]"}
+{"494": "[\"Create a checklist titled 'Weekend Trip' if it doesn't exist.\"]"}
+{"499": "[\"Open the settings of the app.\"]"}
+{"500": "[\"Open the settings of the app.\"]"}
+{"501": "[\"Navigate to the settings page.\"]"}
+{"502": "[\"Open a note if one is not currently open.\"]"}
+{"503": "[\"Open a note if one is not currently open.\"]"}
+{"504": "[\"Open a checklist note if one is not currently open.\"]"}
+{"505": "[\"Open a checklist note if one is not currently open.\"]"}
+{"506": "[\"Open a note if one is not currently open.\"]"}
+{"507": "[\"Open a checklist note if one is not currently open.\"]"}
+{"508": "[\"Open a note if one is not currently open.\"]"}
+{"509": "[\"Open a checklist note if one is not currently open.\"]"}
+{"510": "[\"Open a note if one is not currently open.\"]"}
+{"511": "[\"Open a note if one is not currently open.\"]"}
+{"513": "[\"Open a checklist note if one is not currently open.\"]"}
+{"514": "[\"Navigate to the settings page.\"]"}
+{"515": "[\"Navigate to the settings page.\"]"}
+{"518": "[\"If a note with the title 'Travel Itinerary' already exists, rename the note title to something else.\"]"}
+{"521": "[\"Ensure that the checklist for project tasks is open.\"]"}
+{"522": "[\"Ensure that the note about upcoming birthdays is open.\"]"}
+{"524": "[\"Open a checklist note if one is not currently open.\"]"}
+{"525": "[\"Open a checklist note if one is not currently open.\"]"}
+{"526": "[\"Navigate to the settings page.\"]"}
+{"527": "[\"Open a note if one is not currently open.\"]"}
+{"529": "[\"Navigate to the settings page.\"]"}
+{"530": "[\"Navigate to the settings page.\"]"}
+{"531": "[\"Navigate to the settings page.\"]"}
+{"532": "[\"Navigate to the settings page.\"]"}
+{"533": "[\"Navigate to the settings page.\"]"}
+{"534": "[\"Navigate to the settings page.\"]"}
+{"535": "[\"Open a checklist note if one is not currently open.\"]"}
+{"536": "[\"Navigate to the settings page.\"]"}
+{"537": "[\"Navigate to the settings page.\"]"}
+{"538": "[\"Navigate to the settings page.\"]"}
+{"539": "[\"Open a note if one is not currently open.\"]"}
+{"540": "[\"Open the specific note where the content should be edited.\"]"}
+{"541": "[\"Open the note where the cursor needs to be placed at the end.\"]"}
+{"542": "[\"Open the note in which the search will be performed.\"]"}
+{"543": "[\"Open the note in which the search will be performed.\"]"}
+{"544": "[\"Open the note in which the search will be performed.\"]"}
+{"545": "[\"Navigate to the settings page.\"]"}
+{"547": "[\"Navigate to the settings page.\"]"}
+{"548": "[\"Navigate to the settings page.\"]"}
+{"549": "[\"Navigate to the settings page.\"]"}
+{"550": "[\"Navigate to the settings page.\"]"}
+{"551": "[\"Open the 'Settings' menu.\"]"}
+{"552": "[\"Open the 'Settings' menu.\"]"}
+{"553": "[\"Open a note or create one if there is none.\"]"}
+{"554": "[\"Open a note or create one if there is none.\"]"}
+{"555": "[\"Open a note or create one if there is none.\"]"}
+{"556": "[\"Create a note titled 'Meeting Notes' if it doesn't already exist.\"]"}
+{"558": "[\"Open the settings of the Notes APP.\"]"}
+{"559": "[\"Open a checklist note or create one if there is none.\"]"}
+{"560": "[\"Open a checklist note or create one if there is none.\"]"}
+{"561": "[\"Open a checklist note or create one if there is none.\"]"}
+{"562": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"563": "[\"Open a note or create one if there is none.\"]"}
+{"564": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"565": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"566": "[\"Open a note or create one if there is none.\"]"}
+{"567": "[\"Open a note or create one if there is none.\"]"}
+{"568": "[\"Open a checklist note or create one if there is none.\"]"}
+{"570": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"571": "[\"Open a note or create one if there is none.\"]"}
+{"572": "[\"Open a checklist note or create one if there is none.\"]"}
+{"573": "[\"Open a note or create one if there is none.\"]"}
+{"574": "[\"Open a checklist note or create one if there is none.\"]"}
+{"575": "[\"Open a note or create one if there is none.\"]"}
+{"576": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"577": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"578": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"579": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"580": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"582": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"583": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"584": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"585": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"586": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"587": "[\"Open a note or create one if there is none.\"]"}
+{"588": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"589": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"591": "[\"Open a checklist note or create one if there is none.\"]"}
+{"592": "[\"Create a note titled 'Meeting Notes' if it doesn't already exist.\"]"}
+{"593": "[\"Open a checklist note or create one if there is none.\"]"}
+{"594": "[\"Open a checklist note or create one if there is none.\"]"}
+{"595": "[\"Create a note titled 'Project Plan' if it doesn't already exist.\"]"}
+{"596": "[\"Open a checklist note or create one if there is none.\"]"}
+{"597": "[\"Ensure there is more than one note available in the list to switch to.\"]"}
+{"598": "[\"Create a note titled 'Grocery List' if it doesn't already exist.\"]"}
+{"599": "[\"Open a note or create one if there is none.\"]"}
+{"600": "[\"Open a note or create one if there is none.\"]"}
+{"601": "[\"Ensure a checklist exists and is opened.\"]"}
+{"602": "[\"Ensure multiple checklists are present.\"]"}
+{"603": "[\"Ensure multiple notes are present.\"]"}
+{"604": "[\"Ensure an item is selected or opened.\"]"}
+{"605": "[\"Ensure multiple checklists are present.\"]"}
+{"606": "[\"Ensure the checklist containing 'Workout at 5 PM' is open.\"]"}
+{"607": "[\"Ensure a note is open.\"]"}
+{"608": "[\"Ensure the search box is open.\"]"}
+{"609": "[\"Ensure no existing note with the title 'Groceries List'.\"]"}
+{"610": "[\"Ensure no existing note with the title 'Daily Journal'.\"]"}
+{"611": "[\"Ensure a note is opened.\"]"}
+{"612": "[\"Ensure a note is opened.\"]"}
+{"613": "[\"Ensure a note is open.\"]"}
+{"614": "[\"Ensure a note is open.\"]"}
+{"615": "[\"Ensure a note or checklist is open.\"]"}
+{"616": "[\"Open the settings menu.\"]"}
+{"617": "[\"Open the settings menu.\"]"}
+{"618": "[\"Ensure a note is opened.\"]"}
+{"619": "[\"Ensure a checklist is opened.\"]"}
+{"620": "[\"Open the settings menu.\"]"}
+{"621": "[\"Open the settings menu.\"]"}
+{"622": "[\"Open the settings menu.\"]"}
+{"623": "[\"Open the settings menu.\"]"}
+{"624": "[\"Open the settings menu.\"]"}
+{"625": "[\"Ensure a note is opened.\"]"}
+{"626": "[\"Ensure a checklist is opened.\"]"}
+{"627": "[\"Ensure a checklist is opened.\"]"}
+{"628": "[\"Ensure a checklist is opened.\"]"}
+{"629": "[\"Ensure a checklist is opened.\"]"}
+{"630": "[\"Ensure a note titled 'Grocery List' exists.\"]"}
+{"631": "[\"Ensure multiple notes are present.\"]"}
+{"632": "[\"Ensure a checklist is opened.\"]"}
+{"633": "[\"Ensure an item is selected or opened.\"]"}
+{"634": "[\"Ensure items exist within the opened note or checklist.\"]"}
+{"635": "[\"Ensure items exist within the opened note or checklist.\"]"}
+{"636": "[\"Ensure a checklist is opened.\"]"}
+{"637": "[\"Ensure a checklist is opened.\"]"}
+{"638": "[\"Ensure a checklist is opened.\"]"}
+{"639": "[\"Ensure a note is opened.\"]"}
+{"640": "[\"Ensure a note is opened.\"]"}
+{"641": "[\"Ensure a checklist is opened.\"]"}
+{"642": "[\"Ensure items exist within the opened note or checklist.\"]"}
+{"643": "[\"Ensure items exist within the opened note or checklist.\"]"}
+{"644": "[\"Ensure an item is selected or opened.\"]"}
+{"645": "[\"Ensure a checklist is opened.\"]"}
+{"647": "[\"Ensure no existing checklist with the title 'Project Tasks'.\"]"}
+{"648": "[\"Ensure no existing note with the title 'Grocery List'.\"]"}
+{"649": "[\"Ensure a note titled 'Meeting Notes' exists.\"]"}
+{"650": "[\"Ensure a checklist is opened with multiple items.\"]"}
+{"651": "[\"Open or create a checklist note if it doesn't exist.\"]"}
+{"653": "[\"Open settings.\"]"}
+{"654": "[\"Open settings.\"]"}
+{"655": "[\"Open a note or create one if none exists.\"]"}
+{"656": "[\"Open a checklist note or create one if it does not exist.\"]"}
+{"657": "[\"Open a checklist note or create one if it does not exist.\"]"}
+{"658": "[\"Open a note or create one if none exists.\"]"}
+{"659": "[\"Open a note or create one if none exists.\"]"}
+{"660": "[\"If a note with the title 'Grocery List' already exists, rename the note to something else.\"]"}
+{"661": "[\"Open or create a checklist note if it doesn't exist.\"]"}
+{"662": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"663": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"664": "[\"Open an existing checklist note or create a new one if necessary.\"]"}
+{"665": "[\"Open settings.\"]"}
+{"666": "[\"Create a checklist note titled 'Workout Plan' if it doesn't exist.\"]"}
+{"667": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"668": "[\"Create a note titled 'Travel Itinerary' if it doesn't exist.\"]"}
+{"669": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"670": "[\"Open a note or create one if none exist.\"]"}
+{"671": "[\"Open settings.\"]"}
+{"672": "[\"Open settings.\"]"}
+{"673": "[\"Open or create a checklist note if it doesn't exist.\"]"}
+{"674": "[\"Open an existing checklist note or create a new one if necessary.\"]"}
+{"675": "[\"Open settings.\"]"}
+{"676": "[\"Open a note or create one if none exist.\"]"}
+{"677": "[\"Open a note or create one if none exist.\"]"}
+{"678": "[\"Open a note or create one if none exist.\"]"}
+{"679": "[\"Open a note or create one if none exist.\"]"}
+{"681": "[\"Open a note or create one if none exist.\"]"}
+{"682": "[\"Open a note or create one if none exist.\"]"}
+{"683": "[\"Open a note or create one if none exist.\"]"}
+{"684": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"685": "[\"Open a note or create one if none exist.\"]"}
+{"686": "[\"Open settings.\"]"}
+{"687": "[\"Open settings.\"]"}
+{"688": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"689": "[\"Open a checklist note or create one if it doesn't exist.\"]"}
+{"690": "[\"Open a checklist note or create one if it doesn't exist.\"]"}
+{"691": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"692": "[\"Open or create a checklist note if it doesn't exist.\"]"}
+{"694": "[\"Open settings.\"]"}
+{"695": "[\"Open settings.\"]"}
+{"696": "[\"Open settings.\"]"}
+{"697": "[\"Open a note or create one if none exist.\"]"}
+{"698": "[\"Open settings.\"]"}
+{"699": "[\"Open an existing note or create a new one if necessary.\"]"}
+{"700": "[\"Open or create a checklist note if it doesn't exist.\"]"}
+{"701": "[\"Open a checklist note.\"]"}
+{"702": "[\"Ensure there is more than one note in the application.\"]"}
+{"704": "[\"Ensure a note titled 'Meeting Agenda' exists.\"]"}
+{"705": "[\"Open an existing note.\"]"}
+{"706": "[\"Open a checklist note.\"]"}
+{"707": "[\"Open a checklist note.\"]"}
+{"708": "[\"Open any note with multiple items.\"]"}
+{"709": "[\"Open any note with multiple items.\"]"}
+{"710": "[\"Open a checklist note.\"]"}
+{"711": "[\"Open a checklist note.\"]"}
+{"712": "[\"Open a checklist note.\"]"}
+{"713": "[\"Open a checklist note.\"]"}
+{"714": "[\"Open a checklist note.\"]"}
+{"715": "[\"Open a checklist note.\"]"}
+{"716": "[\"Open a checklist note.\"]"}
+{"717": "[\"Open a checklist note.\"]"}
+{"718": "[\"Open a checklist note.\"]"}
+{"719": "[\"Open a checklist note.\"]"}
+{"720": "[\"Open a checklist note.\"]"}
+{"721": "[\"Open an existing note.\"]"}
+{"722": "[\"Ensure a note titled 'Grocery List' exists.\"]"}
+{"723": "[\"Open a checklist note.\"]"}
+{"724": "[\"Open a checklist note.\"]"}
+{"725": "[\"Open a checklist note.\"]"}
+{"728": "[\"Open an existing note.\"]"}
+{"729": "[\"Open a checklist note.\"]"}
+{"731": "[\"Open an existing note.\"]"}
+{"733": "[\"Open an existing note.\"]"}
+{"734": "[\"Open an existing note.\"]"}
+{"735": "[\"Open a checklist note.\"]"}
+{"736": "[\"Open a checklist note.\"]"}
+{"737": "[\"Open a checklist note.\"]"}
+{"738": "[\"Open a checklist note.\"]"}
+{"739": "[\"Ensure a note titled 'Grocery List' exists.\"]"}
+{"740": "[\"Ensure a note titled 'Meeting Notes' exists.\"]"}
+{"741": "[\"Open a checklist note.\"]"}
+{"742": "[\"Ensure a note titled 'Meeting Agenda' exists.\"]"}
+{"743": "[\"Ensure a checklist named 'Grocery List' exists.\"]"}
+{"744": "[\"Ensure a note titled 'Personal Journal' exists.\"]"}
+{"745": "[\"Ensure a checklist named 'Weekend Tasks' exists.\"]"}
+{"746": "[\"Open a checklist note.\"]"}
+{"747": "[\"Open a checklist note.\"]"}
+{"748": "[\"Open a checklist note.\"]"}
+{"749": "[\"Open a checklist note.\"]"}
+{"750": "[\"Open a checklist note.\"]"}
+{"751": "[\"Open a note or create one if there is none.\"]"}
+{"752": "[\"Open a checklist note or create one if there is none.\"]"}
+{"755": "[\"Open a note or create one if there is none.\"]"}
+{"756": "[\"If a note with the title 'Workout Routine' already exists, rename the note title to something else.\"]"}
+{"757": "[\"If a note with the title 'Daily Journal' does not exist, create it.\"]"}
+{"758": "[\"Open a note or create one if there is none.\"]"}
+{"759": "[\"Open a note or create one if there is none.\"]"}
+{"760": "[\"Open a note if there is none or if no note is opened.\"]"}
+{"761": "[\"Open a note or create one if there is none.\"]"}
+{"762": "[\"Open a note or create one if there is none.\"]"}
+{"763": "[\"Open a note or create one if there is none.\"]"}
+{"764": "[\"Open a checklist note or create one if there is none.\"]"}
+{"766": "[\"Open the settings page.\"]"}
+{"767": "[\"Open the settings page.\"]"}
+{"768": "[\"Open the settings page.\"]"}
+{"769": "[\"Open the settings page.\"]"}
+{"770": "[\"Open a note if there is none or if no note is opened.\"]"}
+{"771": "[\"Open a note or create one if there is none.\"]"}
+{"772": "[\"Open a checklist note or create one if there is none.\"]"}
+{"773": "[\"Open a note or create one if there is none.\"]"}
+{"774": "[\"Open a checklist note or create one if there is none.\"]"}
+{"775": "[\"Open a note or create one if there is none.\"]"}
+{"776": "[\"Open the settings page.\"]"}
+{"777": "[\"Open a note or create one if there is none.\"]"}
+{"778": "[\"Open a checklist note or create one if there is none.\"]"}
+{"779": "[\"Open a note or create one if there is none.\"]"}
+{"780": "[\"Open a checklist note or create one if there is none.\"]"}
+{"781": "[\"Open the note titled 'Daily Journal'.\"]"}
+{"782": "[\"If a note with the title 'Holiday Plans' does not exist, create it.\"]"}
+{"783": "[\"Open a checklist note or create one if there is none.\"]"}
+{"784": "[\"Open a checklist note or create one if there is none.\"]"}
+{"785": "[\"Open the settings page.\"]"}
+{"786": "[\"Open a note or create one if there is none.\"]"}
+{"787": "[\"Open a note or create one if there is none.\"]"}
+{"788": "[\"Open a note or create one if there is none.\"]"}
+{"789": "[\"Open a note or create one if there is none.\"]"}
+{"790": "[\"Open a note or create one if there is none.\"]"}
+{"791": "[\"Open the settings page.\"]"}
+{"792": "[\"Open the settings page.\"]"}
+{"793": "[\"Open the settings page.\"]"}
+{"794": "[\"Open a checklist note or create one if there is none.\"]"}
+{"795": "[\"Open a checklist note or create one if there is none.\"]"}
+{"796": "[\"If a note with the title 'Travel Itinerary' already exists, rename the note title to something else.\"]"}
+{"797": "[\"Open a note or create one if there is none.\"]"}
+{"798": "[\"Open a note or create one if there is none.\"]"}
+{"799": "[\"Open a note or create one if there is none.\"]"}
+{"800": "[\"Open multiple notes to facilitate navigation between them.\"]"}
+{"805": "[\"Ensure a note is open\"]"}
+{"806": "[\"Ensure a note is open\"]"}
+{"807": "[\"Ensure a note is open\"]"}
+{"808": "[\"Ensure a note is open\"]"}
+{"809": "[\"Ensure a note is open\"]"}
+{"810": "[\"Ensure a note is open\"]"}
+{"814": "[\"Ensure a note is open\"]"}
+{"815": "[\"Ensure a note is open\"]"}
+{"826": "[\"Ensure a note is open\"]"}
+{"827": "[\"Ensure a checklist is open\"]"}
+{"828": "[\"Ensure a note is open\"]"}
+{"829": "[\"Ensure a checklist is open\"]"}
+{"830": "[\"Ensure a note is open\"]"}
+{"831": "[\"Ensure the note titled 'Class schedule' exists.\"]"}
+{"832": "[\"Ensure the checklist titled 'Home maintenance' exists.\"]"}
+{"833": "[\"Ensure the note titled 'Old recipes' exists.\"]"}
+{"834": "[\"Ensure the checklist titled 'Christmas shopping' exists.\"]"}
+{"835": "[\"Ensure a note is open\"]"}
+{"836": "[\"Ensure a note is open\"]"}
+{"837": "[\"Ensure a note is open\"]"}
+{"838": "[\"Ensure there is no note titled 'Grocery List'\"]"}
+{"839": "[\"Ensure there is no checklist titled 'Weekend Tasks'\"]"}
+{"840": "[\"Ensure the note titled 'Travel Plans' exists.\"]"}
+{"841": "[\"Ensure a checklist is open\"]"}
+{"842": "[\"Ensure there is no note titled 'Shopping List'\"]"}
+{"843": "[\"Ensure there is no note titled 'Meeting Notes'\"]"}
+{"844": "[\"Ensure there is no currently open checklist\"]"}
+{"845": "[\"Ensure there is no note titled 'Workout Plan'\"]"}
+{"851": "[\"Open a checklist note or create one if there is none\"]"}
+{"852": "[\"Open a note or create one if there is none\"]"}
+{"854": "[\"Open the settings of the app\"]"}
+{"855": "[\"Open the settings of the app\"]"}
+{"856": "[\"Open the settings of the app\"]"}
+{"857": "[\"Open a note or create one if there is none\"]"}
+{"859": "[\"Open a checklist note or create one if there is none\"]"}
+{"860": "[\"Open the settings of the app\"]"}
+{"861": "[\"Open the settings of the app\"]"}
+{"862": "[\"Open the settings of the app\"]"}
+{"863": "[\"Open a note or create one if there is none\"]"}
+{"865": "[\"Open the settings of the app\"]"}
+{"866": "[\"Create the note titled 'Holiday Plans' if it doesn’t exist.\"]"}
+{"867": "[\"Open a note or create one if there is none\"]"}
+{"868": "[\"Open a note or create one if there is none\"]"}
+{"869": "[\"Open a note or create one if there is none\"]"}
+{"870": "[\"Open a note or create one if there is none\"]"}
+{"871": "[\"Open a note or create one if there is none\"]"}
+{"872": "[\"Open a note or create one if there is none\"]"}
+{"873": "[\"Create the note titled 'Project Ideas' if it doesn’t exist.\"]"}
+{"874": "[\"Open a note or create one if there is none\"]"}
+{"875": "[\"Open a note or create one if there is none\"]"}
+{"876": "[\"Open a checklist note or create one if there is none\"]"}
+{"878": "[\"Open the settings of the app\"]"}
+{"879": "[\"Open the settings of the app\"]"}
+{"880": "[\"Open the settings of the app\"]"}
+{"881": "[\"Open the settings of the app\"]"}
+{"882": "[\"Open the settings of the app\"]"}
+{"883": "[\"Open the settings of the app\"]"}
+{"884": "[\"Open a note or create one if there is none\"]"}
+{"885": "[\"Ensure multiple notes or checklist items exist\"]"}
+{"886": "[\"Open a checklist note or create one if there is none\"]"}
+{"887": "[\"Open a note or create one if there is none\"]"}
+{"888": "[\"Open a checklist note or create one if there is none\"]"}
+{"889": "[\"Open a note or create one if there is none\"]"}
+{"890": "[\"Open a checklist note or create one if there is none\"]"}
+{"891": "[\"Open the settings of the app\"]"}
+{"892": "[\"Open the settings of the app\"]"}
+{"893": "[\"Open the settings of the app\"]"}
+{"894": "[\"Open a checklist note or create one if there is none\"]"}
+{"895": "[\"Open a note or create one if there is none\"]"}
+{"896": "[\"Open the settings of the app\"]"}
+{"897": "[\"Open a note or create one if there is none\"]"}
+{"898": "[\"Open the settings of the app\"]"}
+{"899": "[\"Open the settings of the app\"]"}
+{"900": "[\"Open a checklist note or create one if there is none\"]"}
+{"901": "[\"Open any existing note or create a new note.\"]"}
+{"902": "[\"Open any existing note or create a new note.\"]"}
+{"903": "[\"Open any existing note or create a new note.\"]"}
+{"904": "[\"Open any existing note or create a new note.\"]"}
+{"905": "[\"Open any existing note or create a new note.\"]"}
+{"906": "[\"Open any existing note or create a new note.\"]"}
+{"908": "[\"Open any existing checklist or create a new checklist note.\"]"}
+{"909": "[\"Open any existing note or create a new note.\"]"}
+{"914": "[\"If a note titled 'Shopping List' already exists, rename it to something else.\"]"}
+{"915": "[\"If a checklist note titled 'To-Do List' already exists, rename it to something else.\"]"}
+{"924": "[\"Open any existing checklist or create a new checklist note.\"]"}
+{"925": "[\"If a note titled 'Grocery List' already exists, rename it to something else.\"]"}
+{"926": "[\"Open any existing note or create a new note.\"]"}
+{"927": "[\"Open the settings page.\"]"}
+{"928": "[\"Open the settings page.\"]"}
+{"929": "[\"Open any existing note or create a new note.\"]"}
+{"935": "[\"Open any existing checklist or create a new checklist note.\"]"}
+{"936": "[\"Open any existing checklist or create a new checklist note.\"]"}
+{"938": "[\"Open any existing note or create a new note.\"]"}
+{"939": "[\"Open any existing note or create a new note.\"]"}
+{"940": "[\"Open any existing note or create a new note.\"]"}
+{"941": "[\"Open any existing note or create a new note.\"]"}
+{"945": "[\"Open any existing note or create a new note.\"]"}
+{"946": "[\"If a checklist note titled 'To-Do List' already exists, rename it to something else.\"]"}
+{"947": "[\"If a note titled 'Workout Plan' already exists, rename it to something else.\"]"}
+{"950": "[\"Open any existing note or create a new note.\"]"}
+{"951": "[\"Open a checklist note or create one if there is none.\"]"}
+{"952": "[\"Open a checklist note or create one if there is none.\"]"}
+{"953": "[\"Open a checklist note or create one if there is none.\"]"}
+{"954": "[\"Open a checklist note or create one if there is none.\"]"}
+{"955": "[\"Open a checklist note or create one if there is none.\"]"}
+{"956": "[\"Open any note.\"]"}
+{"957": "[\"Open any checklist note.\"]"}
+{"958": "[\"Ensure the widget setup interface is accessible.\"]"}
+{"959": "[\"Open the color customization interface.\"]"}
+{"960": "[\"Open any note.\"]"}
+{"961": "[\"Create the note 'Project Plan' if it doesn't exist.\"]"}
+{"962": "[\"Create the note 'Meeting Notes' if it doesn't exist.\"]"}
+{"963": "[\"Create the note 'Daily Journal' if it doesn't exist.\"]"}
+{"964": "[\"Create the note 'To-Do List' if it doesn't exist.\"]"}
+{"965": "[\"Create the note 'Vacation Plans' if it doesn't exist.\"]"}
+{"966": "[\"Create the note 'Shopping List' if it doesn't exist.\"]"}
+{"967": "[\"Create the checklist note 'Daily Tasks' if it doesn't exist.\"]"}
+{"968": "[\"Create the note 'Meeting Minutes' if it doesn't exist.\"]"}
+{"969": "[\"Create the checklist note 'Project Checklist' if it doesn't exist.\"]"}
+{"970": "[\"Create the note 'Old Recipes' if it doesn't exist.\"]"}
+{"971": "[\"Open any checklist note.\"]"}
+{"972": "[\"Open the settings menu.\"]"}
+{"973": "[\"Open any checklist note.\"]"}
+{"974": "[\"Open a checklist note or create one if there is none.\"]"}
+{"975": "[\"Open a checklist note or create one if there is none.\"]"}
+{"977": "[\"Open the color customization interface in the settings menu.\"]"}
+{"978": "[\"Open the theme color setting interface in the settings menu.\"]"}
+{"979": "[\"Open the theme setting interface in the settings menu.\"]"}
+{"980": "[\"Open any checklist note.\"]"}
+{"981": "[\"Open any checklist note.\"]"}
+{"983": "[\"Open the color customization interface in the settings menu.\"]"}
+{"984": "[\"Open the theme color setting interface in the settings menu.\"]"}
+{"985": "[\"Ensure the widget setup interface is accessible.\"]"}
+{"986": "[\"Open a checklist note or create one if there is none.\"]"}
+{"987": "[\"Open a checklist note or create one if there is none.\"]"}
+{"988": "[\"Open a checklist note or create one if there is none.\"]"}
+{"989": "[\"Open a checklist note or create one if there is none.\"]"}
+{"990": "[\"Open any note.\"]"}
+{"991": "[\"Create the note 'Workout Schedule' if it doesn't exist.\"]"}
+{"992": "[\"Create the note 'Books to Read' if it doesn't exist.\"]"}
+{"993": "[\"Open any checklist note.\"]"}
+{"994": "[\"Open a checklist note or create one if there is none.\"]"}
+{"995": "[\"Open a checklist note or create one if there is none.\"]"}
+{"996": "[\"Open a checklist note or create one if there is none.\"]"}
+{"997": "[\"Open a checklist note or create one if there is none.\"]"}
+{"998": "[\"Open a checklist note or create one if there is none.\"]"}
+{"999": "[\"Open the appropriate settings interface.\"]"}
+{"1000": "[\"Open the appropriate settings interface.\"]"}
+{"1001": "[\"Open the app settings.\"]"}
+{"1002": "[\"Open the app settings.\"]"}
+{"1003": "[\"Open the app settings.\"]"}
+{"1004": "[\"Open the app settings.\"]"}
+{"1005": "[\"Open the app settings.\"]"}
+{"1011": "[\"Rename the current note to 'Meeting Notes.'\"]"}
+{"1012": "[\"Rename the current checklist to 'Grocery List.'\"]"}
+{"1013": "[\"Open the current note.\"]"}
+{"1014": "[\"Open the current checklist.\"]"}
+{"1015": "[\"Lock the current note.\"]"}
+{"1023": "[\"If a note with the title 'Grocery List' already exists, rename that note.\"]"}
+{"1025": "[\"Check if the note titled 'Vacation Ideas' exists.\"]"}
+{"1034": "[\"Open the settings page if it is not already open.\"]"}
+{"1036": "[\"Open the app settings.\"]"}
+{"1037": "[\"Open the app settings.\"]"}
+{"1038": "[\"Open the app settings.\"]"}
+{"1039": "[\"Open the app settings.\"]"}
+{"1040": "[\"Open the app settings.\"]"}
+{"1043": "[\"Open the app settings.\"]"}
+{"1049": "[\"Open the app settings.\"]"}
+{"1050": "[\"Open the app settings.\"]"}
+{"1051": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1052": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1053": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1054": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1055": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1056": "[\"Open a text note or create one if there is none.\"]"}
+{"1057": "[\"Open a text note or create one if there is none.\"]"}
+{"1058": "[\"Open a text note or create one if there is none.\"]"}
+{"1059": "[\"Open a text note or create one if there is none.\"]"}
+{"1060": "[\"If a note with the title 'Shopping List' already exists, rename the note title to something else.\"]"}
+{"1066": "[\"Navigate to the settings page.\"]"}
+{"1067": "[\"Open a text note or create one if there is none.\"]"}
+{"1071": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1072": "[\"Open a text note or create one if there is none.\"]"}
+{"1073": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1074": "[\"Open a text note or create one if there is none.\"]"}
+{"1075": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1077": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"1078": "[\"Open a text note or create one if there is none.\"]"}
+{"1079": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1081": "[\"Open a text note or create one if there is none.\"]"}
+{"1082": "[\"Open a text note or create one if there is none.\"]"}
+{"1083": "[\"Open a text note or create one if there is none.\"]"}
+{"1084": "[\"Open a text note or create one if there is none.\"]"}
+{"1085": "[\"Open a text note or create one if there is none.\"]"}
+{"1092": "[\"Open an existing checklist containing the item 'Buy Milk' or create one and add the item 'Buy Milk'.\"]"}
+{"1093": "[\"Open an existing checklist containing the item 'Call Doctor' or create one and add the item 'Call Doctor'.\"]"}
+{"1094": "[\"Open an existing checklist containing the item 'Finish Report' or create one and add the item 'Finish Report'.\"]"}
+{"1096": "[\"If a note with the title 'Meeting notes' already exists, rename the note title to something else.\"]"}
+{"1097": "[\"If a note with the title 'Groceries List' already exists, rename the note title to something else.\"]"}
+{"1101": "[\"Ensure a note about the meeting exists.\"]"}
+{"1102": "[\"Ensure a checklist titled 'Grocery List' exists.\"]"}
+{"1103": "[\"Ensure a note titled 'Personal Diary' exists.\"]"}
+{"1104": "[\"Ensure a note titled 'Old Recipe' exists.\"]"}
+{"1105": "[\"Ensure a checklist titled 'Work Tasks' exists.\"]"}
+{"1106": "[\"Ensure a note containing information about the app exists.\"]"}
+{"1107": "[\"Ensure a checklist containing information about the app exists.\"]"}
+{"1108": "[\"Ensure a note is currently open.\"]"}
+{"1109": "[\"Ensure a checklist is currently open.\"]"}
+{"1110": "[\"Ensure a note titled 'Meeting Minutes' exists.\"]"}
+{"1111": "[\"Ensure a note is currently open.\"]"}
+{"1112": "[\"Ensure a checklist is currently open.\"]"}
+{"1114": "[\"If a note titled 'Grocery List' already exists, rename it to something else.\"]"}
+{"1115": "[\"If a checklist titled 'Vacation Packing' already exists, rename it to something else.\"]"}
+{"1116": "[\"Ensure a checklist is currently open.\"]"}
+{"1117": "[\"Ensure a note is currently open.\"]"}
+{"1118": "[\"Ensure a checklist is currently open.\"]"}
+{"1119": "[\"Ensure a checklist is currently open.\"]"}
+{"1120": "[\"Ensure a checklist is currently open.\"]"}
+{"1123": "[\"Open the settings page and customize the colors.\"]"}
+{"1124": "[\"Ensure a note is currently open.\"]"}
+{"1125": "[\"Ensure a checklist is currently open.\"]"}
+{"1130": "[\"Ensure a note is currently open.\"]"}
+{"1131": "[\"Ensure a note is currently open.\"]"}
+{"1134": "[\"Ensure a checklist is currently open.\"]"}
+{"1135": "[\"Open the settings and customize the colors.\"]"}
+{"1136": "[\"If a note titled 'Grocery List' already exists, rename it to something else.\"]"}
+{"1139": "[\"Ensure a checklist is currently open.\"]"}
+{"1140": "[\"Ensure a note is currently open.\"]"}
+{"1141": "[\"Ensure a note is currently open.\"]"}
+{"1148": "[\"Ensure a note is currently open.\"]"}
+{"1149": "[\"Ensure a checklist is currently open.\"]"}
+{"1150": "[\"Ensure a note is currently open.\"]"}
+{"1151": "[\"Open or create a new note if there is none.\"]"}
+{"1152": "[\"Create the note titled 'Meeting Minutes' if it doesn't exist.\"]"}
+{"1153": "[\"Open or create a new note if there is none.\"]"}
+{"1154": "[\"Open or create a new note if there is none.\"]"}
+{"1155": "[\"Create the note titled 'Travel Itinerary' if it doesn't exist.\"]"}
+{"1156": "[\"Open or create a new note if there is none.\"]"}
+{"1157": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1158": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1159": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1160": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1161": "[\"Open or create a new note if there is none.\"]"}
+{"1162": "[\"Open or create a new note if there is none.\"]"}
+{"1163": "[\"Open or create a new note if there is none.\"]"}
+{"1164": "[\"Open or create a new note if there is none.\"]"}
+{"1165": "[\"Open or create a new note if there is none.\"]"}
+{"1166": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1167": "[\"Open the settings page.\"]"}
+{"1170": "[\"Open or create a new note if there is none.\"]"}
+{"1171": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1172": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1173": "[\"Open a checklist note or create one if there is none. \"]"}
+{"1174": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1175": "[\"Open a checklist note or create one if there is none. \"]"}
+{"1176": "[\"Open or create a new note if there is none.\"]"}
+{"1179": "[\"Open or create a new note if there is none.\"]"}
+{"1180": "[\"Open or create a new note if there is none.\"]"}
+{"1182": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1186": "[\"Create the note titled 'Travel Plans' if it doesn't exist.\"]"}
+{"1187": "[\"Create the note titled 'Personal Diary' if it doesn't exist.\"]"}
+{"1188": "[\"Create the note titled 'Recipes' if it doesn't exist.\"]"}
+{"1189": "[\"Create the checklist titled 'Daily Tasks' if it doesn't exist.\"]"}
+{"1190": "[\"Open or create a new note if there is none.\"]"}
+{"1191": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1192": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1193": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1194": "[\"Open or create a new note if there is none.\"]"}
+{"1195": "[\"Open or create a new note if there is none.\"]"}
+{"1201": "[\"Open the current note.\"]"}
+{"1202": "[\"Open the current checklist.\"]"}
+{"1203": "[\"Open the current checklist.\"]"}
+{"1205": "[\"Open the current note.\"]"}
+{"1206": "[\"Open the settings menu.\"]"}
+{"1207": "[\"Open the settings menu.\"]"}
+{"1208": "[\"Open the settings menu.\"]"}
+{"1209": "[\"Open the settings menu.\"]"}
+{"1210": "[\"Open the current checklist.\"]"}
+{"1211": "[\"Open the settings menu.\"]"}
+{"1212": "[\"Open the settings menu.\"]"}
+{"1213": "[\"Open the settings menu.\"]"}
+{"1214": "[\"Open the current note.\"]"}
+{"1215": "[\"Open the current checklist.\"]"}
+{"1216": "[\"Open the settings menu.\"]"}
+{"1217": "[\"Open the current note.\"]"}
+{"1218": "[\"Open the current checklist.\"]"}
+{"1220": "[\"Open the settings menu.\"]"}
+{"1221": "[\"Open the current note.\"]"}
+{"1222": "[\"Open the current note.\"]"}
+{"1223": "[\"Open the current note.\"]"}
+{"1224": "[\"Open the current checklist.\"]"}
+{"1225": "[\"Open the current checklist.\"]"}
+{"1226": "[\"Open the checklist containing the item 'Shopping List'.\"]"}
+{"1227": "[\"Open the checklist containing the item 'Prepare Presentation'.\"]"}
+{"1228": "[\"Open the checklist containing the item 'Review Quarterly Report'.\"]"}
+{"1229": "[\"Open the current note.\"]"}
+{"1230": "[\"Open the current checklist.\"]"}
+{"1231": "[\"Ensure no note creation conflict by checking existing note titles.\"]"}
+{"1232": "[\"Open the current note.\"]"}
+{"1233": "[\"Open the current note.\"]"}
+{"1234": "[\"Open the current checklist.\"]"}
+{"1235": "[\"Open the current checklist.\"]"}
+{"1236": "[\"Open the settings menu.\"]"}
+{"1237": "[\"Open the current note.\"]"}
+{"1238": "[\"Open the current note.\"]"}
+{"1239": "[\"Open the current checklist.\"]"}
+{"1240": "[\"Open the settings menu.\"]"}
+{"1241": "[\"Open the current note.\"]"}
+{"1242": "[\"Open the current checklist.\"]"}
+{"1243": "[\"Open the current checklist.\"]"}
+{"1244": "[\"Open the current note.\"]"}
+{"1245": "[\"Open the current checklist.\"]"}
+{"1246": "[\"Open the 'Grocery list' checklist.\"]"}
+{"1247": "[\"Ensure the 'Meeting minutes' note exists and open it.\"]"}
+{"1248": "[\"Ensure the 'Weekly tasks' checklist exists and open it.\"]"}
+{"1249": "[\"Ensure the 'Travel itinerary' note exists and open it.\"]"}
+{"1250": "[\"Ensure the 'Books to read' checklist exists and open it.\"]"}
+{"1256": "[\"Create the note titled 'Shopping List' if it doesn't exist.\"]"}
+{"1257": "[\"Open the note titled 'Grocery List' if it's not open.\"]"}
+{"1258": "[\"Open any note or create a new note if none exist.\"]"}
+{"1259": "[\"Open the note titled 'Work Notes' if it doesn't exist.\"]"}
+{"1260": "[\"Create the note 'Project Plan' if it doesn't exist.\"]"}
+{"1266": "[\"Ensure there are at least two notes present.\"]"}
+{"1267": "[\"Open any note or create a new note if none exist.\"]"}
+{"1268": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1269": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1270": "[\"Open any note or create a new note if none exist.\"]"}
+{"1272": "[\"Open any note or create a new note if none exist.\"]"}
+{"1273": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1276": "[\"Ensure there is at least one note present.\"]"}
+{"1278": "[\"Ensure there are at least two notes present.\"]"}
+{"1279": "[\"Ensure there is more than one note present.\"]"}
+{"1280": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1281": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1282": "[\"Create the note titled 'Grocery List' if it doesn't exist.\"]"}
+{"1283": "[\"Open any note or create a new note if none exist.\"]"}
+{"1284": "[\"Open any note or create a new note if none exist.\"]"}
+{"1285": "[\"Open any note or create a new note if none exist.\"]"}
+{"1286": "[\"Create the note titled 'Meeting Notes' if it doesn't exist.\"]"}
+{"1287": "[\"Open any note or create a new note if none exist.\"]"}
+{"1288": "[\"Open any note or create a new note if none exist.\"]"}
+{"1289": "[\"Open any note or create a new note if none exist.\"]"}
+{"1290": "[\"Open any note or create a new note if none exist.\"]"}
+{"1308": "[\"Open a note.\"]"}
+{"1311": "[\"Open the settings of the Notes app.\"]"}
+{"1312": "[\"Open the settings of the Notes app.\"]"}
+{"1313": "[\"Open the settings of the Notes app.\"]"}
+{"1314": "[\"Open the settings of the Notes app.\"]"}
+{"1318": "[\"Open the settings of the Notes app.\"]"}
+{"1319": "[\"Open the settings of the Notes app.\"]"}
+{"1321": "[\"Open the settings of the Notes app.\"]"}
+{"1322": "[\"Open the settings of the Notes app.\"]"}
+{"1323": "[\"Open the settings of the Notes app.\"]"}
+{"1324": "[\"Open the settings of the Notes app.\"]"}
+{"1325": "[\"Open the settings of the Notes app.\"]"}
+{"1326": "[\"Open the settings of the Notes app.\"]"}
+{"1327": "[\"Open a note.\"]"}
+{"1328": "[\"Open a checklist.\"]"}
+{"1329": "[\"Ensure a note titled 'Shopping List' exists.\"]"}
+{"1331": "[\"Open the settings of the Notes app.\"]"}
+{"1332": "[\"Open the settings of the Notes app.\"]"}
+{"1333": "[\"Open a note.\"]"}
+{"1334": "[\"Open a checklist.\"]"}
+{"1335": "[\"Ensure no checklist with the title 'Weekend Activities' exists.\"]"}
+{"1337": "[\"Open a note.\"]"}
+{"1338": "[\"Open a note.\"]"}
+{"1340": "[\"Open a checklist.\"]"}
+{"1341": "[\"Open the settings of the Notes app.\"]"}
+{"1342": "[\"Open the settings of the Notes app.\"]"}
+{"1343": "[\"Open the settings of the Notes app.\"]"}
+{"1344": "[\"Open the settings of the Notes app.\"]"}
+{"1345": "[\"Open the settings of the Notes app.\"]"}
+{"1346": "[\"Open the settings of the Notes app.\"]"}
+{"1347": "[\"Open the settings of the Notes app.\"]"}
+{"1348": "[\"Open the settings of the Notes app.\"]"}
+{"1349": "[\"Open a note.\"]"}
+{"1350": "[\"Open the settings page.\"]"}
+{"1351": "[\"Open the settings page.\"]"}
+{"1352": "[\"Open the settings page.\"]"}
+{"1353": "[\"Open the settings page.\"]"}
+{"1354": "[\"Open the settings page.\"]"}
+{"1357": "[\"Open a note if there is none opened.\"]"}
+{"1358": "[\"Open a checklist note if there is none opened.\"]"}
+{"1360": "[\"Open a note if there is none opened.\"]"}
+{"1361": "[\"Open a note if there is none opened.\"]"}
+{"1362": "[\"Open the settings page.\"]"}
+{"1363": "[\"Open a note if there is none opened.\"]"}
+{"1364": "[\"Open a checklist note if there is none opened.\"]"}
+{"1365": "[\"Open the settings page.\"]"}
+{"1366": "[\"Open the settings page.\"]"}
+{"1367": "[\"Open the settings page.\"]"}
+{"1368": "[\"Open a note if there is none opened.\"]"}
+{"1369": "[\"Open a checklist note if there is none opened.\"]"}
+{"1370": "[\"Create the note titled 'Books to Read' if it doesn't exist.\"]"}
+{"1371": "[\"Open a note if there is none opened.\"]"}
+{"1372": "[\"Create the note titled 'Workout Routine' if it doesn't exist.\"]"}
+{"1373": "[\"Create the note titled 'Work Tasks' and add the checklist item 'Finish report' if it doesn't exist.\"]"}
+{"1378": "[\"Open the settings page.\"]"}
+{"1379": "[\"Open the settings page.\"]"}
+{"1382": "[\"Open a checklist note if there is none opened.\"]"}
+{"1383": "[\"Open a checklist note if there is none opened.\"]"}
+{"1384": "[\"Open a checklist note if there is none opened.\"]"}
+{"1385": "[\"Open the settings page.\"]"}
+{"1386": "[\"Open the settings page.\"]"}
+{"1387": "[\"Open the settings page.\"]"}
+{"1388": "[\"Open the settings page.\"]"}
+{"1389": "[\"Open the settings page.\"]"}
+{"1390": "[\"Open the settings page.\"]"}
+{"1391": "[\"Open the settings page.\"]"}
+{"1392": "[\"Open the settings page.\"]"}
+{"1393": "[\"Open a note if there is none opened.\"]"}
+{"1394": "[\"Open a note if there is none opened.\"]"}
+{"1395": "[\"Open a note if there is none opened.\"]"}
+{"1397": "[\"Open a checklist note if there is none opened.\"]"}
+{"1398": "[\"Open the settings page.\"]"}
+{"1399": "[\"Open the settings page.\"]"}
+{"1402": "[\"Open the settings menu.\"]"}
+{"1403": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1404": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1405": "[\"Open a checklist note containing the item 'Buy Milk'.\"]"}
+{"1406": "[\"Open a checklist note containing the item 'Old Task'.\"]"}
+{"1407": "[\"Open a checklist note containing the item 'Clean the kitchen'.\"]"}
+{"1408": "[\"Open a checklist note containing the item 'Finish Assignment'.\"]"}
+{"1409": "[\"Create the note 'Work Tasks' if it doesn't exist.\"]"}
+{"1411": "[\"Open the settings menu.\"]"}
+{"1412": "[\"Open the settings menu.\"]"}
+{"1413": "[\"Open the settings menu.\"]"}
+{"1414": "[\"Open the settings menu.\"]"}
+{"1416": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1420": "[\"Open the settings menu.\"]"}
+{"1421": "[\"Open the settings menu.\"]"}
+{"1422": "[\"Open the settings menu.\"]"}
+{"1423": "[\"Open the settings menu.\"]"}
+{"1425": "[\"Open the settings menu.\"]"}
+{"1426": "[\"Open the settings menu.\"]"}
+{"1427": "[\"Open a text note or create one if there is none.\"]"}
+{"1429": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1430": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1431": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1432": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1433": "[\"Open a text note containing the word 'meeting'.\"]"}
+{"1434": "[\"Open a text note containing multiple occurrences of the word 'report'.\"]"}
+{"1435": "[\"Initiate a search within any note.\"]"}
+{"1436": "[\"If a note with the title 'Shopping List' already exists, rename the note title to something else.\"]"}
+{"1437": "[\"If a note with the title 'Project Ideas' already exists, rename the note title to something else.\"]"}
+{"1438": "[\"Ensure that there is at least one existing note.\"]"}
+{"1439": "[\"If a note with the title 'Daily Journal' already exists, rename the note title to something else.\"]"}
+{"1441": "[\"Open a text note or create one if there is none.\"]"}
+{"1442": "[\"Ensure that a different note with the title 'Meeting Notes' does not already exist.\"]"}
+{"1443": "[\"Open a text note or create one if there is none.\"]"}
+{"1444": "[\"Open a text note or create one if there is none.\"]"}
+{"1445": "[\"Open a checklist note containing the item 'Email Client'.\"]"}
+{"1446": "[\"Open a checklist note containing the item 'Meeting at 3 PM'.\"]"}
+{"1447": "[\"Open a checklist note containing the item 'Review Report'.\"]"}
+{"1448": "[\"Create the note 'Vacation Plans' if it doesn't exist.\"]"}
+{"1449": "[\"Open a text note or create one if there is none.\"]"}
+{"1450": "[\"Verify all notes exist in the application.\"]"}
+{"1453": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1454": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1460": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1461": "[\"Open a note or create one if there is none.\"]"}
+{"1462": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1465": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1466": "[\"Open a note or create one if there is none.\"]"}
+{"1468": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1473": "[\"Open the note titled 'Meeting Minutes'.\"]"}
+{"1474": "[\"Open the note titled 'Shopping List'.\"]"}
+{"1475": "[\"Create a note titled 'Shopping List' if it doesn't exist.\"]"}
+{"1476": "[\"Ensure no existing note with the title 'Meeting Agenda'.\"]"}
+{"1477": "[\"Ensure no existing note with the title 'Project Plan'.\"]"}
+{"1478": "[\"Open the note in which 'Buy milk' is to be added as a checklist item or create one if there is none.\"]"}
+{"1479": "[\"Ensure the note 'Travel Itinerary' exists.\"]"}
+{"1480": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1481": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1482": "[\"Open a note or create one if there is none.\"]"}
+{"1483": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1485": "[\"Ensure the note titled 'Passwords' exists.\"]"}
+{"1486": "[\"Ensure the note titled 'Budget Report' exists and contains an attached file.\"]"}
+{"1487": "[\"Ensure the note titled 'Daily Journal' exists.\"]"}
+{"1489": "[\"Ensure the checklist titled 'To-Do List' exists.\"]"}
+{"1490": "[\"Open a checklist note or create one if there is none.\"]"}
+{"1491": "[\"Ensure no existing note with the title 'Grocery List'.\"]"}
+{"1493": "[\"Ensure no existing note with the title 'Meeting Notes'.\"]"}
+{"1494": "[\"Open a note or create one if there is none.\"]"}
+{"1495": "[\"Open a note or create one if there is none.\"]"}
+{"1500": "[\"Create the note titled 'Project Plan' if it doesn't exist.\"]"}
+{"1501": "[\"Open a note or create one if none exists.\"]"}
+{"1502": "[\"Open a note or create one if none exists.\"]"}
+{"1503": "[\"Open a note or create one if none exists.\"]"}
+{"1504": "[\"Open a note or create one if none exists.\"]"}
+{"1505": "[\"Open the settings page from the home screen.\"]"}
+{"1506": "[\"Open the settings page from the home screen.\"]"}
+{"1507": "[\"Open the settings page from the home screen.\"]"}
+{"1509": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1510": "[\"Create the note titled 'Grocery List' if it doesn't exist.\"]"}
+{"1511": "[\"Open a checklist note titled 'Grocery List' or create one if none exists and add 'Buy Milk' item.\"]"}
+{"1512": "[\"Open a note or create one if none exists and include the word 'meeting' inside.\"]"}
+{"1513": "[\"Open a note or create one if none exists.\"]"}
+{"1514": "[\"Open a note or create one if none exists.\"]"}
+{"1515": "[\"Open the settings page from the home screen.\"]"}
+{"1516": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1517": "[\"Open the settings page from the home screen.\"]"}
+{"1518": "[\"Open the settings page from the home screen and navigate to the color customization section.\"]"}
+{"1519": "[\"Open the settings page from the home screen and navigate to the color customization section.\"]"}
+{"1520": "[\"Open a note or create one if none exists.\"]"}
+{"1522": "[\"Open a note or create one if none exists.\"]"}
+{"1524": "[\"Open the settings page from the home screen.\"]"}
+{"1525": "[\"Open a note or create one if none exists.\"]"}
+{"1527": "[\"Open the settings page from the home screen.\"]"}
+{"1528": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1529": "[\"Open the settings page from the home screen.\"]"}
+{"1530": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1531": "[\"Open a checklist note or create one if none exists and mark some items as done.\"]"}
+{"1532": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1533": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1534": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1535": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1536": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1537": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1538": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1539": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1542": "[\"Open a note or create one if none exists.\"]"}
+{"1543": "[\"Open a note or create one if none exists.\"]"}
+{"1544": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1545": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1546": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1547": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1548": "[\"Open a checklist note or create one if none exists.\"]"}
+{"1550": "[\"Create the note 'Meeting Notes' if it doesn't exist.\"]"}
+{"1551": "[\"Create the note 'Grocery List' if it doesn't exist.\"]"}
+{"1552": "[\"Create the checklist 'Weekend Tasks' if it doesn't exist.\"]"}
+{"1553": "[\"Create the note 'Ideas for Blog' if it doesn't exist.\"]"}
+{"1554": "[\"Create the note 'Travel Plan' if it doesn't exist.\"]"}
+{"1556": "[\"If a note with the title 'Meeting Notes' already exists, rename the note title to something else.\"]"}
+{"1557": "[\"If a note with the title 'Todo List' already exists, rename the note title to something else.\"]"}
+{"1561": "[\"Create the note 'Vacation Ideas' if it doesn't exist.\"]"}
+{"1562": "[\"Create the note 'To-Do List' if it doesn't exist.\"]"}
+{"1563": "[\"Create the note 'Recipe' if it doesn't exist.\"]"}
+{"1564": "[\"Create the note 'Financial Plan' if it doesn't exist.\"]"}
+{"1568": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1569": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1580": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1582": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1585": "[\"Create the note 'Recipe for Lasagna' if it doesn't exist.\"]"}
+{"1586": "[\"Create the checklist 'Household Chores' if it doesn't exist.\"]"}
+{"1587": "[\"Create the checklist 'Daily Workout Plan' if it doesn't exist.\"]"}
+{"1588": "[\"Create the note 'Personal Diary' if it doesn't exist.\"]"}
+{"1589": "[\"Create the checklist 'Shopping List' if it doesn't exist.\"]"}
+{"1592": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1595": "[\"Create the note 'Grocery List' if it doesn't exist.\"]"}
+{"1596": "[\"Create the note 'Meeting Notes' if it doesn't exist.\"]"}
+{"1600": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1602": "[\"Open a note or create one if there is none.\"]"}
+{"1603": "[\"Open a checklist or create one if there is none.\"]"}
+{"1604": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1605": "[\"Open a checklist or create one if there is none.\"]"}
+{"1606": "[\"Set the sort type for the checklist to be confirmed.\"]"}
+{"1607": "[\"Open a checklist or create one if there is none.\"]"}
+{"1608": "[\"Open a note or create one if there is none.\"]"}
+{"1609": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1610": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1611": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1612": "[\"Open the widget settings if not already there.\"]"}
+{"1613": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1614": "[\"Open a note or create one if there is none.\"]"}
+{"1615": "[\"Rename the note.\"]"}
+{"1616": "[\"Open a note or create one if there is none.\"]"}
+{"1617": "[\"Initiate the locking of the note.\"]"}
+{"1618": "[\"Open a note or create one if there is none.\"]"}
+{"1619": "[\"Initiate the deletion of the note.\"]"}
+{"1620": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1621": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1622": "[\"Open a note or create one if there is none.\"]"}
+{"1624": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1625": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1626": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1627": "[\"Open a note or create one if there is none.\"]"}
+{"1628": "[\"Open a checklist or create one if there is none.\"]"}
+{"1629": "[\"Open a checklist or create one if there is none.\"]"}
+{"1630": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1631": "[\"Open a note or create one if there is none.\"]"}
+{"1632": "[\"Open a checklist or create one if there is none.\"]"}
+{"1633": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1634": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1635": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1636": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1637": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1638": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1639": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1640": "[\"Open a checklist or create one if there is none.\"]"}
+{"1641": "[\"Open a checklist or create one if there is none.\"]"}
+{"1642": "[\"Initiate the renaming of the checklist.\"]"}
+{"1643": "[\"Open a checklist or create one if there is none.\"]"}
+{"1644": "[\"Open a checklist or create one if there is none.\"]"}
+{"1645": "[\"Open the settings menu in the Notes app if not already there.\"]"}
+{"1646": "[\"Open the widget settings if not already there.\"]"}
+{"1647": "[\"Create the note 'Meeting Minutes' if it doesn't exist.\"]"}
+{"1648": "[\"Create the note 'Project Plan' if it doesn't exist.\"]"}
+{"1649": "[\"Create the note 'Shopping List' if it doesn't exist.\"]"}
+{"1650": "[\"Create the note 'To-Do List' if it doesn't exist.\"]"}
+{"1651": "[\"Create the note 'Travel Plans' if it doesn't exist.\"]"}
+{"1652": "[\"Create the note 'Daily Tasks' if it doesn't exist.\"]"}
+{"1653": "[\"Verify that a note is currently open.\"]"}
+{"1654": "[\"Create the note 'Shopping List' if it doesn't exist.\"]"}
+{"1657": "[\"Verify that a note is currently open.\"]"}
+{"1660": "[\"Verify that a note is currently open.\"]"}
+{"1665": "[\"Verify that a note is currently open.\"]"}
+{"1666": "[\"Verify that a note is currently open.\"]"}
+{"1667": "[\"Verify that a note is currently open.\"]"}
+{"1668": "[\"Verify that a note is currently open.\"]"}
+{"1669": "[\"Verify that a note is currently open.\"]"}
+{"1670": "[\"Verify that a checklist is currently open.\"]"}
+{"1687": "[\"Verify that a checklist is currently open.\"]"}
+{"1688": "[\"Verify that a checklist is currently open.\"]"}
+{"1689": "[\"Verify that a checklist is currently open.\"]"}
+{"1690": "[\"Verify that a note is currently open.\"]"}
+{"1691": "[\"Verify that a checklist is currently open.\"]"}
+{"1695": "[\"Verify that a note is currently open.\"]"}
+{"1696": "[\"Verify that a note is currently open.\"]"}
+{"1697": "[\"Verify that a checklist is currently open.\"]"}
+{"1698": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1699": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1701": "[\"Ensure there is an existing note open.\"]"}
+{"1702": "[\"Ensure there is an existing note open.\"]"}
+{"1703": "[\"Ensure there is an existing note open.\"]"}
+{"1704": "[\"Ensure there is an existing note open.\"]"}
+{"1707": "[\"Ensure there is an existing note open.\"]"}
+{"1708": "[\"Ensure there is an existing note open.\"]"}
+{"1709": "[\"Ensure there is an existing note open.\"]"}
+{"1714": "[\"Ensure there is an existing checklist open.\"]"}
+{"1715": "[\"Ensure the checklist 'Birthday Party Plan' exists.\"]"}
+{"1716": "[\"Ensure the checklist 'Fitness Goals' exists.\"]"}
+{"1717": "[\"Ensure the note 'Grocery List' exists.\"]"}
+{"1718": "[\"Ensure there is an existing note open.\"]"}
+{"1719": "[\"Ensure there is an existing note open.\"]"}
+{"1720": "[\"Ensure no note with the title 'Meeting Tasks' exists.\"]"}
+{"1721": "[\"Ensure the note 'Shopping List' exists.\"]"}
+{"1722": "[\"Ensure the note 'Vacation Plans' exists.\"]"}
+{"1723": "[\"Ensure the note 'Project Ideas' exists.\"]"}
+{"1724": "[\"Ensure the note 'Sensitive Information' exists.\"]"}
+{"1725": "[\"Ensure there are multiple notes available.\"]"}
+{"1726": "[\"Ensure there are multiple notes available.\"]"}
+{"1727": "[\"Ensure there is an existing checklist open.\"]"}
+{"1728": "[\"Open the settings page.\"]"}
+{"1729": "[\"Ensure there is an existing note open.\"]"}
+{"1730": "[\"Open the settings page.\"]"}
+{"1731": "[\"Ensure there is an existing checklist open.\"]"}
+{"1732": "[\"Open the settings page.\"]"}
+{"1733": "[\"Open the settings page.\"]"}
+{"1734": "[\"Open the settings page.\"]"}
+{"1735": "[\"Ensure there is an existing checklist open.\"]"}
+{"1736": "[\"Ensure there is an existing note open.\"]"}
+{"1737": "[\"Ensure there is an existing checklist open.\"]"}
+{"1738": "[\"Open the settings page.\"]"}
+{"1739": "[\"Open the settings page.\"]"}
+{"1740": "[\"Ensure there is an existing checklist open.\"]"}
+{"1741": "[\"Ensure there is an existing note open.\"]"}
+{"1742": "[\"Ensure there is an existing checklist open.\"]"}
+{"1743": "[\"Ensure there is an existing checklist open.\"]"}
+{"1744": "[\"Ensure there is an existing checklist open.\"]"}
+{"1745": "[\"Open the settings page.\"]"}
+{"1746": "[\"Open the settings page.\"]"}
+{"1747": "[\"Open the settings page.\"]"}
+{"1748": "[\"Open the color setting popup window.\"]"}
+{"1749": "[\"Ensure there is an existing note open.\"]"}
+{"1750": "[\"Open the alignment settings in the app\"]"}
+{"1751": "[\"Open the alignment settings in the app\"]"}
+{"1752": "[\"Open the theme color settings in the app\"]"}
+{"1753": "[\"Open the text color settings in the app\"]"}
+{"1754": "[\"Open the background color settings in the app\"]"}
+{"1755": "[\"Open a checklist note or create one if there is none\"]"}
+{"1756": "[\"Open a note or create one if there is none\"]"}
+{"1758": "[\"Open the settings menu\"]"}
+{"1759": "[\"Open the settings menu\"]"}
+{"1760": "[\"Open the theme color settings in the app\"]"}
+{"1761": "[\"Open the theme color settings in the app\"]"}
+{"1762": "[\"Open the theme color settings in the app\"]"}
+{"1763": "[\"Open the theme color settings in the app\"]"}
+{"1764": "[\"Open the custom theme color settings in the app\"]"}
+{"1765": "[\"Open a note containing the word 'budget' \"]"}
+{"1766": "[\"Open a note and perform a search\"]"}
+{"1767": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"1768": "[\"If a note with the title 'Work Tasks' already exists, rename the note title to something else.\"]"}
+{"1769": "[\"Create the note titled 'Project Plan' if it doesn't exist.\"]"}
+{"1770": "[\"Open the app icon color settings \"]"}
+{"1771": "[\"Open the settings menu\"]"}
+{"1772": "[\"Open the theme color settings in the app\"]"}
+{"1773": "[\"Open the theme color settings in the app\"]"}
+{"1774": "[\"Open a note or create one if there is none\"]"}
+{"1775": "[\"Open a checklist note or create one if there is none\"]"}
+{"1776": "[\"Open a checklist note or create one if there is none\"]"}
+{"1777": "[\"Open a checklist note or create one if there is none\"]"}
+{"1778": "[\"Open a checklist note or create one if there is none\"]"}
+{"1779": "[\"Open a checklist note or create one if there is none\"]"}
+{"1780": "[\"Open the alignment settings in the app\"]"}
+{"1781": "[\"Open the color settings popup\"]"}
+{"1782": "[\"Open the color customization settings in the app\"]"}
+{"1783": "[\"Open color settings\"]"}
+{"1784": "[\"Open the theme color settings in the app\"]"}
+{"1785": "[\"Open the color customization settings in the app\"]"}
+{"1786": "[\"Open the color customization settings and customize the colors\"]"}
+{"1787": "[\"Open the color customization window\"]"}
+{"1788": "[\"Open a checklist note or create one if there is none\"]"}
+{"1789": "[\"Open a note or create one if there is none\"]"}
+{"1790": "[\"Open the custom theme color settings in the app\"]"}
+{"1791": "[\"Open the font size settings in the app\"]"}
+{"1792": "[\"Open the font size settings in the app\"]"}
+{"1793": "[\"Open a checklist note or create one if there is none\"]"}
+{"1794": "[\"Open the theme color settings in the app\"]"}
+{"1795": "[\"Open the settings menu\"]"}
+{"1796": "[\"Open the settings menu\"]"}
+{"1797": "[\"Open the alignment settings in the app\"]"}
+{"1798": "[\"Open the color customization settings in the app\"]"}
+{"1799": "[\"Open the customize colors popup window\"]"}
+{"1800": "[\"Ensure a note is open and visible\"]"}
+{"1801": "[\"Ensure a note is open and visible\"]"}
+{"1802": "[\"Ensure a note is open and visible\"]"}
+{"1803": "[\"Ensure a note is open and visible\"]"}
+{"1804": "[\"Ensure renaming action has been initiated\"]"}
+{"1806": "[\"Open the settings menu\"]"}
+{"1807": "[\"Open the settings menu\"]"}
+{"1808": "[\"Open the settings menu\"]"}
+{"1809": "[\"Open the settings menu\"]"}
+{"1810": "[\"Open the settings menu\"]"}
+{"1811": "[\"Open the settings menu\"]"}
+{"1812": "[\"Ensure a checklist is open and visible\"]"}
+{"1813": "[\"Ensure the note titled 'Grocery List' exists; if not, create it\"]"}
+{"1814": "[\"Ensure a note is open and visible\"]"}
+{"1815": "[\"Ensure there are multiple notes or checklist items\"]"}
+{"1816": "[\"Ensure a checklist is open and visible\"]"}
+{"1818": "[\"Ensure you are on the settings page\"]"}
+{"1819": "[\"Ensure a note is open and visible\"]"}
+{"1820": "[\"Ensure a checklist is open and visible\"]"}
+{"1821": "[\"Ensure a note is open and visible\"]"}
+{"1822": "[\"Ensure a note is open and visible\"]"}
+{"1824": "[\"Open the settings menu\"]"}
+{"1825": "[\"Ensure a note is open and visible\"]"}
+{"1826": "[\"Ensure a checklist is open and visible\"]"}
+{"1828": "[\"Ensure a note is open and visible\"]"}
+{"1829": "[\"Ensure a note is open and visible\"]"}
+{"1830": "[\"Ensure a note is open and visible\"]"}
+{"1831": "[\"Ensure locking action has been initiated\"]"}
+{"1832": "[\"Ensure a checklist is open and visible\"]"}
+{"1833": "[\"Ensure a checklist is open and visible\"]"}
+{"1834": "[\"Ensure a checklist is open and visible\"]"}
+{"1835": "[\"Open the settings menu\"]"}
+{"1836": "[\"Ensure a checklist is open and visible\"]"}
+{"1837": "[\"Open the settings menu\"]"}
+{"1838": "[\"Open the settings menu\"]"}
+{"1839": "[\"Ensure a note is open and visible\"]"}
+{"1840": "[\"Open the settings menu\"]"}
+{"1841": "[\"Open the settings menu\"]"}
+{"1842": "[\"If a note with the title 'Grocery List' exists, rename the note title to something else\"]"}
+{"1843": "[\"Ensure the note titled 'Project Ideas' exists; if not, create it\"]"}
+{"1844": "[\"Ensure a note is open and visible\"]"}
+{"1845": "[\"Open the settings menu\"]"}
+{"1846": "[\"Open the settings menu\"]"}
+{"1847": "[\"Open the settings menu\"]"}
+{"1848": "[\"Open the settings menu\"]"}
+{"1849": "[\"Open the settings menu\"]"}
+{"1855": "[\"Open the note titled 'Book Quotes'.\"]"}
+{"1900": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1901": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1902": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1903": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1904": "[\"Open a note or create one if there is none.\"]"}
+{"1905": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1906": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1907": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1908": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1909": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1910": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1911": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1913": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"1917": "[\"Open a note titled 'Work Tasks' if it exists, or create it if it does not.\"]"}
+{"1918": "[\"Open or create a note titled 'Personal Diary'.\"]"}
+{"1919": "[\"Open a checklist note titled 'Grocery Items' if it exists, or create it if it does not.\"]"}
+{"1921": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1922": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1923": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1924": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1925": "[\"Open or create a checklist note if there is none.\"]"}
+{"1926": "[\"Open or create a note if there is none.\"]"}
+{"1927": "[\"Open or create a note if there is none.\"]"}
+{"1928": "[\"Open or create a note if there is none.\"]"}
+{"1929": "[\"Open or create a note if there is none.\"]"}
+{"1930": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1931": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1932": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1933": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1934": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1936": "[\"Open or create a checklist note if there is none.\"]"}
+{"1937": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1938": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1939": "[\"Open the feature that triggers the color customization popup.\"]"}
+{"1940": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1941": "[\"Open or create a note if there is none.\"]"}
+{"1942": "[\"Open or create a checklist note if there is none.\"]"}
+{"1943": "[\"Open or create a note if there is none.\"]"}
+{"1944": "[\"Open or create a checklist note if there is none.\"]"}
+{"1945": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1946": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"1947": "[\"Open or create a note if there is none.\"]"}
+{"1948": "[\"Open or create a checklist note if there is none.\"]"}
+{"1950": "[\"Open settings\"]"}
+{"1951": "[\"Open settings\"]"}
+{"1952": "[\"Open settings\"]"}
+{"1953": "[\"Open settings\"]"}
+{"1954": "[\"Open settings\"]"}
+{"1955": "[\"Open settings\"]"}
+{"1956": "[\"Open settings\"]"}
+{"1957": "[\"Open settings\"]"}
+{"1958": "[\"Open settings\"]"}
+{"1959": "[\"Open settings\"]"}
+{"1960": "[\"Open settings\"]"}
+{"1961": "[\"Open the set colors screen\"]"}
+{"1962": "[\"Open the set colors screen\"]"}
+{"1963": "[\"Open the current note\"]"}
+{"1964": "[\"Open the current note\"]"}
+{"1965": "[\"Open settings\"]"}
+{"1966": "[\"Open settings\"]"}
+{"1967": "[\"Open settings\"]"}
+{"1968": "[\"Open the current note\"]"}
+{"1969": "[\"Open the current checklist\"]"}
+{"1970": "[\"Open settings\"]"}
+{"1971": "[\"Open settings\"]"}
+{"1972": "[\"Open settings\"]"}
+{"1973": "[\"Open settings\"]"}
+{"1975": "[\"Open settings\"]"}
+{"1976": "[\"Open settings\"]"}
+{"1977": "[\"Open settings\"]"}
+{"1978": "[\"Open settings\"]"}
+{"1979": "[\"Open settings\"]"}
+{"1980": "[\"Initiate the creation of a new note\"]"}
+{"1981": "[\"Open the current note\"]"}
+{"1982": "[\"Open the current note\"]"}
+{"1983": "[\"Open the current checklist\"]"}
+{"1984": "[\"Open the current note\"]"}
+{"1985": "[\"Open the current checklist containing 'Finish Homework'\"]"}
+{"1986": "[\"Open the note titled 'Project Ideas'\"]"}
+{"1987": "[\"Open the note titled 'Vacation Plans'\"]"}
+{"1988": "[\"Open the checklist containing the item 'Call Doctor'\"]"}
+{"1989": "[\"Open the note titled 'Weekly Report'\"]"}
+{"1990": "[\"Open settings\"]"}
+{"1991": "[\"Open settings\"]"}
+{"1993": "[\"Open settings\"]"}
+{"1994": "[\"Open settings\"]"}
+{"1995": "[\"Open settings\"]"}
+{"1996": "[\"Open the current note\"]"}
+{"1997": "[\"Open settings\"]"}
+{"1998": "[\"Open settings\"]"}
+{"1999": "[\"Open settings\"]"}
+{"2000": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"2001": "[\"If a checklist note with the title 'Daily Workout Routine' already exists, rename the checklist title to something else.\"]"}
+{"2002": "[\"Create the note 'Project Ideas' if it doesn't exist.\"]"}
+{"2003": "[\"Create the note 'Meeting Agenda' if it doesn't exist.\"]"}
+{"2004": "[\"Create the checklist note 'Travel Packing List' if it doesn't exist.\"]"}
+{"2009": "[\"Open a note or create one if there is none.\"]"}
+{"2020": "[\"If a note with the title 'Shopping List' already exists, rename the note title to something else.\"]"}
+{"2021": "[\"Open multiple notes in the application.\"]"}
+{"2022": "[\"Open multiple notes in the application.\"]"}
+{"2023": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2024": "[\"Open a note or create one if there is none.\"]"}
+{"2027": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2035": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2036": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2037": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2038": "[\"Open a note or create one if there is none.\"]"}
+{"2039": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2042": "[\"Open a note or create one if there is none.\"]"}
+{"2051": "[\"Ensure a note is open\"]"}
+{"2052": "[\"Ensure a checklist note is open\"]"}
+{"2054": "[\"Open the settings of the app\"]"}
+{"2055": "[\"Ensure a note is open\"]"}
+{"2056": "[\"Ensure a note is open\"]"}
+{"2057": "[\"Ensure a note is open\"]"}
+{"2058": "[\"Ensure that there is at least one note in the note list\"]"}
+{"2059": "[\"Ensure a note is open\"]"}
+{"2060": "[\"Ensure that the note titled 'Budget 2023' exists\"]"}
+{"2061": "[\"Ensure that the note titled 'User Manual' exists and has an attached file\"]"}
+{"2062": "[\"Ensure a note is open\"]"}
+{"2063": "[\"Ensure a checklist note is open\"]"}
+{"2065": "[\"Ensure a note is open\"]"}
+{"2066": "[\"Ensure a checklist note is open\"]"}
+{"2067": "[\"Open the settings of the app\"]"}
+{"2068": "[\"Open the settings of the app\"]"}
+{"2069": "[\"Open the settings of the app\"]"}
+{"2070": "[\"Ensure a note is open with an active search box\"]"}
+{"2071": "[\"Ensure no existing note has the title 'Meeting Notes'\"]"}
+{"2072": "[\"Ensure there is at least one existing note\"]"}
+{"2075": "[\"Ensure a checklist note is open\"]"}
+{"2076": "[\"Ensure a checklist note is open\"]"}
+{"2077": "[\"Open the settings of the app\"]"}
+{"2078": "[\"Open the settings of the app\"]"}
+{"2079": "[\"Open the settings of the app\"]"}
+{"2080": "[\"Open the settings of the app\"]"}
+{"2081": "[\"Open the settings of the app\"]"}
+{"2082": "[\"Open the settings of the app\"]"}
+{"2083": "[\"Open the settings of the app\"]"}
+{"2084": "[\"Open the settings of the app\"]"}
+{"2085": "[\"Open the settings of the app\"]"}
+{"2086": "[\"Open the settings of the app\"]"}
+{"2087": "[\"Open the settings of the app\"]"}
+{"2088": "[\"Open the settings of the app\"]"}
+{"2089": "[\"Open the settings of the app\"]"}
+{"2090": "[\"Open the settings of the app\"]"}
+{"2091": "[\"Open the settings of the app\"]"}
+{"2092": "[\"Open the settings of the app\"]"}
+{"2093": "[\"Open the settings of the app\"]"}
+{"2094": "[\"Open the settings of the app\"]"}
+{"2096": "[\"Open the settings of the app\"]"}
+{"2097": "[\"Ensure that the note titled 'Grocery List' exists\"]"}
+{"2098": "[\"Ensure a note is open\"]"}
+{"2099": "[\"Ensure a checklist note is open\"]"}
+{"2100": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"2101": "[\"If a note with the title 'Weekend To-Do' already exists, rename the note title to something else.\"]"}
+{"2102": "[\"Create the note titled 'Meeting Minutes' if it doesn't exist.\"]"}
+{"2103": "[\"Create the note titled 'Meeting Minutes' if it doesn't exist.\"]"}
+{"2104": "[\"Create the note titled 'Travel Itinerary' if it doesn't exist.\"]"}
+{"2105": "[\"Open an existing note or create a new note.\"]"}
+{"2106": "[\"Open an existing note or create a new note.\"]"}
+{"2107": "[\"Open an existing note or create a new note.\"]"}
+{"2108": "[\"Open an existing note or create a new note.\"]"}
+{"2109": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2110": "[\"Navigate to the settings page.\"]"}
+{"2111": "[\"Navigate to the settings page.\"]"}
+{"2112": "[\"Navigate to the settings page.\"]"}
+{"2113": "[\"Navigate to the settings page.\"]"}
+{"2114": "[\"Navigate to the settings page.\"]"}
+{"2115": "[\"Navigate to the settings page.\"]"}
+{"2116": "[\"Navigate to the settings page.\"]"}
+{"2117": "[\"Navigate to the settings page.\"]"}
+{"2118": "[\"Navigate to the settings page.\"]"}
+{"2119": "[\"Open an existing note or create a new note.\"]"}
+{"2120": "[\"If a note with the title 'Meeting Notes' already exists, rename the note title to something else.\"]"}
+{"2121": "[\"Create a note and make it the current note if necessary.\"]"}
+{"2122": "[\"Create the note titled 'Daily Tasks' if it doesn't exist.\"]"}
+{"2123": "[\"Create the note titled 'Private Journal' if it doesn't exist.\"]"}
+{"2124": "[\"Create the note titled 'Project Plan' if it doesn't exist.\"]"}
+{"2125": "[\"Navigate to the settings page.\"]"}
+{"2126": "[\"Navigate to the settings page.\"]"}
+{"2127": "[\"Navigate to the settings page.\"]"}
+{"2128": "[\"Navigate to the settings page.\"]"}
+{"2131": "[\"Open an existing note or create a new note and make it the current note.\"]"}
+{"2132": "[\"Open a checklist note or create one and make it the current checklist.\"]"}
+{"2133": "[\"Open an existing note or create a new note and make it the current note.\"]"}
+{"2134": "[\"Open a checklist note or create one and make it the current checklist.\"]"}
+{"2135": "[\"Open a checklist note or create one and make it the current checklist.\"]"}
+{"2136": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"2137": "[\"Open an existing note or create a new note and make it the current note.\"]"}
+{"2139": "[\"Navigate to the settings page.\"]"}
+{"2140": "[\"Create the note titled 'Financial Plan' if it doesn't exist.\"]"}
+{"2141": "[\"Create a note with text including the word 'Project' if none exists.\"]"}
+{"2142": "[\"If a note with the title 'Daily Journal' already exists, rename the note title to something else.\"]"}
+{"2143": "[\"If a checklist note with items 'Passport', 'Tickets', 'Charger' already exists, rename or modify it.\"]"}
+{"2144": "[\"Ensure there is at least one note in the app.\"]"}
+{"2145": "[\"Create a note and make it the current note if necessary.\"]"}
+{"2146": "[\"Create a note and make it the current note if necessary.\"]"}
+{"2147": "[\"Create a note and make it the current note if necessary.\"]"}
+{"2148": "[\"Open a checklist note or create one and make it the current checklist.\"]"}
+{"2149": "[\"Open a checklist note or create one and make it the current checklist.\"]"}
+{"2150": "[\"Navigate to font settings.\"]"}
+{"2151": "[\"Navigate to font settings.\"]"}
+{"2152": "[\"Navigate to font settings.\"]"}
+{"2153": "[\"Navigate to font settings.\"]"}
+{"2154": "[\"Navigate to font settings.\"]"}
+{"2155": "[\"Open a note if none is currently open.\"]"}
+{"2156": "[\"Open a checklist if none is currently open.\"]"}
+{"2157": "[\"Navigate to customization settings.\"]"}
+{"2158": "[\"Navigate to theme settings.\"]"}
+{"2159": "[\"Open customization settings.\"]"}
+{"2160": "[\"Open a checklist if none is currently open.\"]"}
+{"2161": "[\"Select a note or have a note open.\"]"}
+{"2162": "[\"Open the specific note to be deleted.\"]"}
+{"2163": "[\"Open a checklist if none is currently open.\"]"}
+{"2164": "[\"Ensure the color customization window is open.\"]"}
+{"2165": "[\"Navigate to customization settings.\"]"}
+{"2166": "[\"Navigate to theme settings.\"]"}
+{"2167": "[\"Open customization settings.\"]"}
+{"2168": "[\"Open customization settings.\"]"}
+{"2169": "[\"Open customization settings.\"]"}
+{"2170": "[\"Open the note titled 'Recipe for Lasagna'.\"]"}
+{"2171": "[\"Ensure there is at least one note present.\"]"}
+{"2172": "[\"Have a note or a checklist open.\"]"}
+{"2173": "[\"Open the note to be edited or create a new one.\"]"}
+{"2174": "[\"Have a note open for the search to be applicable.\"]"}
+{"2175": "[\"Open a note to make 'More options' available.\"]"}
+{"2176": "[\"Have a note open.\"]"}
+{"2177": "[\"Have a checklist open.\"]"}
+{"2179": "[\"Open the settings.\"]"}
+{"2181": "[\"Navigate to theme settings.\"]"}
+{"2182": "[\"Navigate to theme settings.\"]"}
+{"2183": "[\"Navigate to theme settings.\"]"}
+{"2184": "[\"Navigate to theme settings.\"]"}
+{"2185": "[\"Navigate to font settings.\"]"}
+{"2186": "[\"Navigate to font settings.\"]"}
+{"2187": "[\"Navigate to font settings.\"]"}
+{"2188": "[\"Navigate to font settings.\"]"}
+{"2189": "[\"Navigate to font settings.\"]"}
+{"2190": "[\"Open the note where the alignment needs to be changed.\"]"}
+{"2191": "[\"Navigate to customization settings.\"]"}
+{"2192": "[\"Customize the colors in the customization settings.\"]"}
+{"2193": "[\"Have a note open.\"]"}
+{"2194": "[\"Have a checklist open.\"]"}
+{"2195": "[\"Have a note open.\"]"}
+{"2197": "[\"Navigate to customization settings.\"]"}
+{"2198": "[\"Customize colors in the customization settings.\"]"}
+{"2199": "[\"Navigate to theme settings.\"]"}
+{"2200": "[\"Create the note 'Shopping List' if it doesn't exist.\"]"}
+{"2201": "[\"Create the note 'Finance Plan' if it doesn't exist.\"]"}
+{"2202": "[\"If a checklist with the title 'Groceries' already exists, rename it to something else.\"]"}
+{"2203": "[\"Create the note 'Work Tasks' if it doesn't exist.\"]"}
+{"2215": "[\"Open a checklist note if it doesn't exist or create one.\"]"}
+{"2216": "[\"Ensure there are multiple notes in the list.\"]"}
+{"2217": "[\"Ensure there are multiple notes in the list.\"]"}
+{"2218": "[\"Open any note or create one if none exist.\"]"}
+{"2219": "[\"Open a checklist note if it doesn't exist or create one.\"]"}
+{"2224": "[\"Create the note 'Meeting Minutes' if it doesn't exist.\"]"}
+{"2225": "[\"Open a checklist note if it doesn't exist or create one.\"]"}
+{"2226": "[\"Ensure at least one note exists and is open.\"]"}
+{"2235": "[\"Open a checklist note if it doesn't exist or create one.\"]"}
+{"2236": "[\"Open a checklist note if it doesn't exist or create one.\"]"}
+{"2237": "[\"Ensure at least one note exists and is open.\"]"}
+{"2238": "[\"Open a checklist note if it doesn't exist or create one.\"]"}
+{"2240": "[\"Create the note 'Project Ideas' if it doesn't exist.\"]"}
+{"2241": "[\"If a note with the title 'Daily Journal' already exists, rename it to something else.\"]"}
+{"2242": "[\"If a checklist with the title 'Travel Packing' already exists, rename it to something else.\"]"}
+{"2243": "[\"If a note with the title 'Reading List' already exists, rename it to something else.\"]"}
+{"2250": "[\"Open the settings page\"]"}
+{"2251": "[\"Open the settings page\"]"}
+{"2252": "[\"Open the settings page\"]"}
+{"2253": "[\"Open the settings page\"]"}
+{"2254": "[\"Open a note or create one if there is none\"]"}
+{"2255": "[\"Open the settings page\"]"}
+{"2256": "[\"Open a checklist note or create one if there is none\"]"}
+{"2257": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"2258": "[\"Open a checklist note or create one if there is none\"]"}
+{"2259": "[\"Open a note or create one if there is none\"]"}
+{"2260": "[\"Open the settings page\"]"}
+{"2261": "[\"Open the settings page\"]"}
+{"2262": "[\"Open the settings page\"]"}
+{"2263": "[\"Open the settings page\"]"}
+{"2264": "[\"Open the settings page\"]"}
+{"2265": "[\"Open the settings page\"]"}
+{"2266": "[\"Open a note or create one if there is none\"]"}
+{"2267": "[\"Open a checklist note or create one if there is none\"]"}
+{"2268": "[\"Open a note or create one if there is none\"]"}
+{"2269": "[\"Open a checklist note or create one if there is none\"]"}
+{"2270": "[\"If a checklist note titled 'Weekend Tasks' already exists, rename or delete it.\"]"}
+{"2271": "[\"Start the note creation process and type the title 'Daily Journal'\"]"}
+{"2272": "[\"Create the note 'Travel Plans' if it doesn't exist\"]"}
+{"2273": "[\"Open the settings page\"]"}
+{"2274": "[\"Open the settings page\"]"}
+{"2276": "[\"Open the settings page\"]"}
+{"2277": "[\"Open the settings page\"]"}
+{"2278": "[\"Open the settings page\"]"}
+{"2279": "[\"Open the settings page\"]"}
+{"2280": "[\"Open the settings page\"]"}
+{"2281": "[\"Open a note or create one if there is none\"]"}
+{"2282": "[\"Open a checklist note or create one if there is none\"]"}
+{"2283": "[\"Open a checklist note or create one if there is none\"]"}
+{"2284": "[\"Open a checklist note or create one if there is none\"]"}
+{"2285": "[\"Open the settings page\"]"}
+{"2286": "[\"Open a note or create one if there is none\"]"}
+{"2288": "[\"Open a checklist note or create one if there is none\"]"}
+{"2289": "[\"Open the settings page\"]"}
+{"2290": "[\"Open the settings page\"]"}
+{"2291": "[\"Open a note or create one if there is none\"]"}
+{"2292": "[\"Open a checklist note or create one if there is none\"]"}
+{"2293": "[\"Open the settings page\"]"}
+{"2294": "[\"Open a note or create one if there is none\"]"}
+{"2295": "[\"Open the settings page\"]"}
+{"2296": "[\"Open a note or create one if there is none\"]"}
+{"2297": "[\"Open a checklist note or create one if there is none\"]"}
+{"2298": "[\"Open a note or create one if there is none\"]"}
+{"2299": "[\"Open a checklist note or create one if there is none\"]"}
+{"2301": "[\"Open any checklist note.\"]"}
+{"2302": "[\"Create the note titled 'Grocery List' if it does not exist.\"]"}
+{"2303": "[\"Ensure no existing note has the title 'Meeting Minutes.'\"]"}
+{"2304": "[\"Ensure no existing checklist note has the title 'Workout Routine.'\"]"}
+{"2307": "[\"Open any existing note.\"]"}
+{"2308": "[\"Open any existing checklist note.\"]"}
+{"2315": "[\"Open any existing note.\"]"}
+{"2316": "[\"Open any existing note.\"]"}
+{"2317": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2319": "[\"Open any existing note.\"]"}
+{"2320": "[\"Create the note titled 'Recipe Ideas' if it does not exist.\"]"}
+{"2321": "[\"Create the checklist titled 'Books to Read' if it does not exist.\"]"}
+{"2322": "[\"Create the note titled 'Weekly Summary' if it does not exist.\"]"}
+{"2323": "[\"Create the checklist titled 'Shopping List' if it does not exist.\"]"}
+{"2324": "[\"Open any existing note.\"]"}
+{"2335": "[\"Open any existing note.\"]"}
+{"2336": "[\"Create the note titled 'Daily Journal' if it does not exist.\"]"}
+{"2337": "[\"Create the note titled 'Work Schedule' if it does not exist.\"]"}
+{"2338": "[\"Ensure that the note titled 'Expense Report' has an attached file.\"]"}
+{"2339": "[\"Create the note titled 'Travel Itinerary' if it does not exist.\"]"}
+{"2340": "[\"Open any existing note.\"]"}
+{"2341": "[\"Open any existing note.\"]"}
+{"2342": "[\"Open any existing checklist note.\"]"}
+{"2343": "[\"Open any existing checklist note.\"]"}
+{"2344": "[\"Open any existing checklist note.\"]"}
+{"2345": "[\"Open any existing note.\"]"}
+{"2346": "[\"Open any existing note.\"]"}
+{"2347": "[\"Open any existing note and search for the word 'project'\"]"}
+{"2348": "[\"Open any existing note and search for the word 'deadline'\"]"}
+{"2349": "[\"Open any existing note and conduct any search\"]"}
+{"2350": "[\"Open the current checklist\"]"}
+{"2352": "[\"Navigate to the settings page from the home page\"]"}
+{"2353": "[\"Open the current note\"]"}
+{"2354": "[\"Navigate to the settings page from the home page\"]"}
+{"2355": "[\"Navigate to the settings page from the home page\"]"}
+{"2356": "[\"Open the current note\"]"}
+{"2357": "[\"Open the current note\"]"}
+{"2358": "[\"Open the current note\"]"}
+{"2359": "[\"Navigate to the settings page from the home page\"]"}
+{"2360": "[\"Navigate to the settings page from the home page\"]"}
+{"2361": "[\"Navigate to the settings page from the home page\"]"}
+{"2362": "[\"Navigate to the settings page from the home page\"]"}
+{"2363": "[\"Navigate to the settings page from the home page\"]"}
+{"2364": "[\"Open the current note\"]"}
+{"2365": "[\"Open the current checklist\"]"}
+{"2366": "[\"Open the current note\"]"}
+{"2367": "[\"Open the current checklist\"]"}
+{"2368": "[\"Open the current note\"]"}
+{"2369": "[\"Open the current checklist\"]"}
+{"2370": "[\"Open the current note\"]"}
+{"2371": "[\"Open the current checklist\"]"}
+{"2372": "[\"Open the current checklist\"]"}
+{"2373": "[\"Open the current checklist\"]"}
+{"2374": "[\"Navigate to the settings page from the home page\"]"}
+{"2375": "[\"Open the current note\"]"}
+{"2376": "[\"Open the current checklist\"]"}
+{"2378": "[\"Navigate to the settings page from the home page\"]"}
+{"2379": "[\"Navigate to the settings page from the home page\"]"}
+{"2380": "[\"Navigate to the settings page from the home page\"]"}
+{"2381": "[\"Navigate to the settings page from the home page\"]"}
+{"2382": "[\"Open the settings page if the current page is not the settings page\"]"}
+{"2383": "[\"Open the current note\"]"}
+{"2384": "[\"Open the current checklist\"]"}
+{"2385": "[\"Open the current checklist and locate 'Buy milk'\"]"}
+{"2386": "[\"Open the current checklist and locate 'Buy milk'\"]"}
+{"2387": "[\"Open the current checklist and locate 'Buy milk'\"]"}
+{"2388": "[\"Open the current checklist and locate 'Buy milk'\"]"}
+{"2389": "[\"Navigate to the settings page from the home page\"]"}
+{"2390": "[\"Navigate to the settings page from the home page\"]"}
+{"2391": "[\"Navigate to the settings page from the home page\"]"}
+{"2392": "[\"Navigate to the settings page from the home page\"]"}
+{"2393": "[\"Open the current checklist\"]"}
+{"2394": "[\"Open the current checklist\"]"}
+{"2395": "[\"Open the current note\"]"}
+{"2396": "[\"Open the current checklist\"]"}
+{"2398": "[\"Navigate to the settings page from the home page\"]"}
+{"2399": "[\"Open the current checklist\"]"}
+{"2401": "[\"Open the settings page if the current page is not the settings page.\"]"}
+{"2404": "[\"Open a checklist note or create one if there is none\"]"}
+{"2406": "[\"Open a note or create one if there is none\"]"}
+{"2407": "[\"Open a note or create one if there is none\"]"}
+{"2411": "[\"Open the settings and navigate to the color customization option\"]"}
+{"2413": "[\"Open a checklist note or create one if there is none\"]"}
+{"2415": "[\"Open the settings page\"]"}
+{"2416": "[\"Open the settings and navigate to the color customization option\"]"}
+{"2417": "[\"Open the settings and navigate to the color customization option\"]"}
+{"2418": "[\"Open the settings and navigate to theme color options\"]"}
+{"2419": "[\"Open the settings and navigate to theme color options\"]"}
+{"2421": "[\"Open a checklist note or create one if there is none\"]"}
+{"2423": "[\"Open the settings page\"]"}
+{"2424": "[\"Open the settings page\"]"}
+{"2425": "[\"Open the settings and navigate to theme color options\"]"}
+{"2426": "[\"Open a note or create one if there is none\"]"}
+{"2427": "[\"Open a note or create one if there is none\"]"}
+{"2428": "[\"Open a checklist note or create one if there is none\"]"}
+{"2429": "[\"Open the settings page\"]"}
+{"2430": "[\"Open a checklist note or create one if there is none\"]"}
+{"2431": "[\"Open a checklist note or create one if there is none\"]"}
+{"2433": "[\"Open a checklist note or create one if there is none\"]"}
+{"2434": "[\"Create the note titled 'Gym Schedule' if it does not exist\"]"}
+{"2435": "[\"Open a note or create one if there is none\"]"}
+{"2436": "[\"Open a checklist note or create one if there is none\"]"}
+{"2437": "[\"Open a checklist note or create one if there is none\"]"}
+{"2438": "[\"Open a checklist note or create one if there is none\"]"}
+{"2439": "[\"Open a checklist note or create one if there is none\"]"}
+{"2440": "[\"Open a note or create one if there is none\"]"}
+{"2441": "[\"Open a checklist note or create one if there is none\"]"}
+{"2442": "[\"Open a checklist note or create one if there is none\"]"}
+{"2444": "[\"Open a note or create one if there is none\"]"}
+{"2445": "[\"Open a note or create one if there is none\"]"}
+{"2446": "[\"Open a checklist note or create one if there is none\"]"}
+{"2447": "[\"Open a note or create one if there is none\"]"}
+{"2448": "[\"Open a checklist note or create one if there is none\"]"}
+{"2449": "[\"Open the settings page\"]"}
+{"2450": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2452": "[\"Create a note titled 'Grocery List' if it doesn't exist.\"]"}
+{"2453": "[\"Ensure there is at least one previous note relative to the current one.\"]"}
+{"2454": "[\"Ensure there is at least one note after the current one.\"]"}
+{"2455": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2456": "[\"Create a checklist titled 'Grocery List' if it doesn't exist.\"]"}
+{"2457": "[\"Create a note titled 'Project Plan' if it doesn't exist.\"]"}
+{"2458": "[\"Create a checklist titled 'Holiday Packing' if it doesn't exist.\"]"}
+{"2459": "[\"Create a note titled 'Trip Itinerary' if it doesn't exist.\"]"}
+{"2460": "[\"Create a checklist titled 'Office Supplies' if it doesn't exist.\"]"}
+{"2465": "[\"Open the customize colors popup window.\"]"}
+{"2466": "[\"Create a note titled 'Shopping List' if it doesn't exist.\"]"}
+{"2467": "[\"Create a note titled 'Meeting Minutes' if it doesn't exist.\"]"}
+{"2468": "[\"Create a note titled 'Weekly Report' if it doesn't exist.\"]"}
+{"2469": "[\"Create a note titled 'Travel Itinerary' if it doesn't exist.\"]"}
+{"2470": "[\"Create a checklist titled 'Grocery List' if it doesn't exist.\"]"}
+{"2480": "[\"Open any note to enable the more options menu.\"]"}
+{"2481": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2491": "[\"Open any note to enable the more options menu.\"]"}
+{"2492": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2494": "[\"Ensure there is no note titled 'Meeting Notes'.\"]"}
+{"2495": "[\"Open any note to enable editing.\"]"}
+{"2496": "[\"Open a note that contains the word 'timeline' or add 'timeline' to an existing open note.\"]"}
+{"2497": "[\"Open a note that contains the word 'project' multiple times.\"]"}
+{"2498": "[\"Open any note to enable the more options menu.\"]"}
+{"2499": "[\"Open any note to enable the more options menu.\"]"}
+{"2500": "[\"Open a checklist note or create one if there is none.\"]"}
+{"2503": "[\"Open the settings page from the home page.\"]"}
+{"2504": "[\"Open the settings page from the home page.\"]"}
+{"2505": "[\"Open the settings page from the home page.\"]"}
+{"2506": "[\"Open the settings page from the home page.\"]"}
+{"2507": "[\"If a note with the title 'Meeting Notes' already exists, rename the note title to something else.\"]"}
+{"2508": "[\"Open the settings page from the home page.\"]"}
+{"2509": "[\"Open the settings page from the home page.\"]"}
+{"2510": "[\"Open the settings page from the home page.\"]"}
+{"2511": "[\"Open the settings page from the home page.\"]"}
+{"2512": "[\"Open the settings page from the home page.\"]"}
+{"2513": "[\"Open the settings page from the home page.\"]"}
+{"2514": "[\"Open the settings page from the home page.\"]"}
+{"2515": "[\"Open the settings page from the home page.\"]"}
+{"2516": "[\"Open the settings page from the home page.\"]"}
+{"2517": "[\"Open the settings page from the home page.\"]"}
+{"2518": "[\"Open the settings page from the home page.\"]"}
+{"2519": "[\"Open the settings page from the home page.\"]"}
+{"2520": "[\"Open the settings page from the home page.\"]"}
+{"2521": "[\"Open the settings page from the home page.\"]"}
+{"2522": "[\"Open the settings page from the home page.\"]"}
+{"2523": "[\"Open a note that can be searched if not already opened.\"]"}
+{"2524": "[\"Input a search term in the search box.\"]"}
+{"2525": "[\"Input a search term in the search box.\"]"}
+{"2526": "[\"Open the search box if not already open.\"]"}
+{"2527": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else.\"]"}
+{"2528": "[\"Open an existing note or create a new one.\"]"}
+{"2529": "[\"Open an existing checklist note or create a new one.\"]"}
+{"2530": "[\"Open the settings page from the home page.\"]"}
+{"2531": "[\"Open the settings page from the home page.\"]"}
+{"2532": "[\"Open the settings page from the home page.\"]"}
+{"2533": "[\"Ensure no conflicting note titles exist.\"]"}
+{"2534": "[\"Ensure no conflicting checklist note titles exist.\"]"}
+{"2535": "[\"Open a note that can be renamed if none is currently opened.\"]"}
+{"2536": "[\"Open a note that can be locked if none is currently opened.\"]"}
+{"2537": "[\"Open a note that can be deleted if none is currently opened.\"]"}
+{"2538": "[\"Open the settings page from the home page.\"]"}
+{"2539": "[\"Open a note that allows accessing more options if none is currently opened.\"]"}
+{"2540": "[\"Open a checklist note that allows accessing more options if none is currently opened.\"]"}
+{"2541": "[\"Ensure there are at least three notes available.\"]"}
+{"2542": "[\"If a note with the title 'Meeting Notes' already exists, rename the note title to something else.\"]"}
+{"2543": "[\"Open a note that allows accessing more options if none is currently opened.\"]"}
+{"2544": "[\"Open a checklist note that allows accessing more options if none is currently opened.\"]"}
+{"2545": "[\"Open the settings page from the home page.\"]"}
+{"2546": "[\"Open the settings page from the home page.\"]"}
+{"2547": "[\"Open a note that allows accessing more options if none is currently opened.\"]"}
+{"2548": "[\"Open the settings page from the home page.\"]"}
+{"2549": "[\"Open the settings page from the home page.\"]"}
+{"2550": "[\"Open the settings page from the home page.\"]"}
+{"2551": "[\"Open the settings page from the home page.\"]"}
+{"2552": "[\"Open the settings page from the home page.\"]"}
+{"2553": "[\"Open a checklist note or create one if there is none\"]"}
+{"2554": "[\"Open a checklist note or create one if there is none\"]"}
+{"2555": "[\"Open a checklist note or create one if there is none\"]"}
+{"2556": "[\"Open a checklist note or create one if there is none\"]"}
+{"2557": "[\"If a note titled 'Travel Packing List' already exists, delete it or rename it.\"]"}
+{"2558": "[\"Create the note titled 'Meeting Notes' if it doesn't exist.\"]"}
+{"2559": "[\"Create the note titled 'Financial Plan' if it doesn't exist.\"]"}
+{"2560": "[\"Create the note titled 'Financial Plan' if it doesn't exist.\"]"}
+{"2561": "[\"Create the note titled 'Financial Plan' if it doesn't exist.\"]"}
+{"2562": "[\"Ensure there are notes available to export.\"]"}
+{"2563": "[\"Open a note or create one if there is none \"]"}
+{"2565": "[\"Open the settings of the app\"]"}
+{"2566": "[\"Open the settings of the app\"]"}
+{"2567": "[\"Open the settings of the app\"]"}
+{"2568": "[\"Open the settings of the app\"]"}
+{"2569": "[\"Open the settings of the app\"]"}
+{"2570": "[\"Open a note or create one if there is none \"]"}
+{"2571": "[\"Open a note or create one if there is none \"]"}
+{"2572": "[\"Open the settings of the app\"]"}
+{"2573": "[\"Open the settings of the app\"]"}
+{"2574": "[\"Open the settings of the app\"]"}
+{"2575": "[\"Open a note or create one if there is none \"]"}
+{"2576": "[\"Open a checklist note or create one if there is none\"]"}
+{"2577": "[\"Open a checklist note or create one if there is none\"]"}
+{"2578": "[\"Open a checklist note or create one if there is none\"]"}
+{"2579": "[\"Open a checklist note or create one if there is none\"]"}
+{"2580": "[\"Open the settings page if the current page is not the settings page\"]"}
+{"2581": "[\"Open a note or create one if there is none \"]"}
+{"2582": "[\"Open a checklist note or create one if there is none\"]"}
+{"2583": "[\"Open a checklist note or create one if there is none\"]"}
+{"2584": "[\"Open a note or create one if there is none \"]"}
+{"2586": "[\"Open the settings of the app \"]"}
+{"2587": "[\"Open a checklist note or create one if there is none\"]"}
+{"2588": "[\"Open the settings of the app \"]"}
+{"2595": "[\"Open the settings of the app \"]"}
+{"2596": "[\"Open the settings of the app \"]"}
+{"2597": "[\"Open the settings of the app \"]"}
+{"2598": "[\"Open the settings of the app \"]"}
+{"2599": "[\"Open the settings of the app \"]"}
+{"2600": "[\"Open the settings of the app \"]"}
+{"2601": "[\"Open the settings of the app \"]"}
+{"2602": "[\"Open a checklist note or create one if there is none\"]"}
+{"2603": "[\"Open a checklist note or create one if there is none\"]"}
+{"2604": "[\"Open a checklist note or create one if there is none\"]"}
+{"2605": "[\"Open a checklist note or create one if there is none\"]"}
+{"2606": "[\"Open a checklist note or create one if there is none\"]"}
+{"2607": "[\"Open a checklist note or create one if there is none\"]"}
+{"2608": "[\"Open a checklist note or create one if there is none\"]"}
+{"2609": "[\"Open a note or create one if there is none\"]"}
+{"2610": "[\"Open a note or create one if there is none\"]"}
+{"2611": "[\"Open a note or create one if there is none\"]"}
+{"2612": "[\"Open a note or create one if there is none\"]"}
+{"2613": "[\"Open a note or create one if there is none\"]"}
+{"2614": "[\"Open a note or create one if there is none\"]"}
+{"2615": "[\"Open a note or create one if there is none\"]"}
+{"2616": "[\"Open a note or create one if there is none\"]"}
+{"2617": "[\"Open a checklist note or create one if there is none\"]"}
+{"2619": "[\"Open a note or create one if there is none\"]"}
+{"2621": "[\"Open a note or create one if there is none\"]"}
+{"2622": "[\"Open the theme settings.\"]"}
+{"2623": "[\"Open the theme settings.\"]"}
+{"2624": "[\"Open the theme settings.\"]"}
+{"2625": "[\"Open the theme settings.\"]"}
+{"2626": "[\"Open the font size settings.\"]"}
+{"2627": "[\"Open the font size settings.\"]"}
+{"2630": "[\"Open the more options menu for the current note.\"]"}
+{"2631": "[\"Open the customize colors popup.\"]"}
+{"2632": "[\"Open the customize colors settings.\"]"}
+{"2633": "[\"Apply color customizations to the notes app.\"]"}
+{"2634": "[\"Open the theme settings.\"]"}
+{"2635": "[\"Open the text color settings.\"]"}
+{"2636": "[\"Open the font size settings.\"]"}
+{"2637": "[\"Open the font size settings.\"]"}
+{"2638": "[\"Open the font size settings.\"]"}
+{"2640": "[\"Open the more options menu for the current note.\"]"}
+{"2641": "[\"Open the theme settings.\"]"}
+{"2642": "[\"Open the theme settings.\"]"}
+{"2643": "[\"Open the theme customization settings.\"]"}
+{"2647": "[\"Open the font size settings.\"]"}
+{"2648": "[\"Open the font size settings.\"]"}
+{"2649": "[\"Open the font size settings.\"]"}
+{"2650": "[\"Open the font size settings.\"]"}
+{"2651": "[\"Open a checklist note.\"]"}
+{"2652": "[\"Open the more options menu for the current note.\"]"}
+{"2653": "[\"Open the more options menu for the current checklist.\"]"}
+{"2654": "[\"Open the settings page.\"]"}
+{"2655": "[\"Open the settings page.\"]"}
+{"2656": "[\"Open the settings page.\"]"}
+{"2657": "[\"Open the font size settings from the app settings.\"]"}
+{"2658": "[\"Open the font size settings from the app settings.\"]"}
+{"2659": "[\"Open the font size settings from the app settings.\"]"}
+{"2660": "[\"Open the note editing settings.\"]"}
+{"2662": "[\"Open the customize colors settings.\"]"}
+{"2663": "[\"Open the font size settings.\"]"}
+{"2664": "[\"Open the font size settings.\"]"}
+{"2665": "[\"Open the font size settings.\"]"}
+{"2666": "[\"Open the more options menu for the current checklist.\"]"}
+{"2667": "[\"Open the settings page.\"]"}
+{"2668": "[\"Open the customize colors settings.\"]"}
+{"2669": "[\"Open the widget customization settings.\"]"}
+{"2670": "[\"Open the font size settings.\"]"}
+{"2671": "[\"Open the current note.\"]"}
+{"2672": "[\"Open a note.\"]"}
+{"2673": "[\"Open a checklist.\"]"}
+{"2675": "[\"Open the app settings.\"]"}
+{"2676": "[\"Open the app settings.\"]"}
+{"2677": "[\"Find and open the note titled 'Personal Diary.'\"]"}
+{"2678": "[\"Open a note.\"]"}
+{"2679": "[\"Open a checklist.\"]"}
+{"2681": "[\"Open the app settings.\"]"}
+{"2682": "[\"Open the app settings.\"]"}
+{"2683": "[\"Open the app settings.\"]"}
+{"2684": "[\"Open the app settings.\"]"}
+{"2685": "[\"Open the app settings.\"]"}
+{"2686": "[\"Open the app settings.\"]"}
+{"2687": "[\"Open a note.\"]"}
+{"2688": "[\"Search within the current note for the term 'deadline.'\"]"}
+{"2689": "[\"Search within the current note for the term 'deadline.'\"]"}
+{"2690": "[\"Open a note.\"]"}
+{"2691": "[\"Open a note.\"]"}
+{"2692": "[\"Open a note.\"]"}
+{"2693": "[\"Open a checklist.\"]"}
+{"2694": "[\"Open the app settings.\"]"}
+{"2695": "[\"Open the app settings.\"]"}
+{"2696": "[\"Open the app settings.\"]"}
+{"2697": "[\"Create a note titled 'Recipe' if it doesn't exist.\"]"}
+{"2698": "[\"Create a note titled 'Travel Itinerary' if it doesn't exist.\"]"}
+{"2699": "[\"Create a note titled 'Old Reminders' if it doesn't exist.\"]"}
+{"2700": "[\"Create a note titled 'Workout Routine' if it doesn't exist.\"]"}
+{"2701": "[\"Ensure no existing note titled 'Birthday Gift Ideas' exists.\"]"}
+{"2702": "[\"Open app settings.\"]"}
+{"2703": "[\"Open app settings.\"]"}
+{"2704": "[\"Open the app settings.\"]"}
+{"2705": "[\"Open the app settings.\"]"}
+{"2706": "[\"Ensure there is at least one existing note.\"]"}
+{"2708": "[\"Open the app settings.\"]"}
+{"2709": "[\"Open a note.\"]"}
+{"2710": "[\"Open a checklist.\"]"}
+{"2712": "[\"Open the app settings.\"]"}
+{"2713": "[\"Open the app settings.\"]"}
+{"2714": "[\"Open a note.\"]"}
+{"2715": "[\"Open a note.\"]"}
+{"2716": "[\"Open a checklist.\"]"}
+{"2717": "[\"Open a checklist.\"]"}
+{"2719": "[\"Open the app settings.\"]"}
+{"2720": "[\"Open the app settings.\"]"}
+{"2721": "[\"Open the app settings.\"]"}
+{"2722": "[\"Ensure a note is open.\"]"}
+{"2723": "[\"Ensure a checklist note is open.\"]"}
+{"2725": "[\"Open the Notes app settings.\"]"}
+{"2726": "[\"Open the Notes app settings.\"]"}
+{"2727": "[\"Create the note titled 'Weekly Report' if it doesn't exist.\"]"}
+{"2728": "[\"Create the checklist titled 'Shopping List' if it doesn't exist.\"]"}
+{"2729": "[\"Create the note titled 'Birthday Invitation' if it doesn't exist.\"]"}
+{"2730": "[\"Create the checklist titled 'Daily Tasks' if it doesn't exist.\"]"}
+{"2731": "[\"Create the note titled 'Old Recipes' if it doesn't exist.\"]"}
+{"2733": "[\"Open the Notes app settings.\"]"}
+{"2734": "[\"Ensure a checklist note with the item 'Buy groceries' is open.\"]"}
+{"2735": "[\"Ensure a checklist note with the item 'Buy groceries' is open.\"]"}
+{"2736": "[\"Ensure a checklist note with the item 'Buy groceries' is open.\"]"}
+{"2737": "[\"Ensure a note is open.\"]"}
+{"2738": "[\"Open the search box in the current note.\"]"}
+{"2739": "[\"Create the note titled 'Shopping List' if it doesn't exist.\"]"}
+{"2740": "[\"Ensure there is no existing note titled 'Grocery List'.\"]"}
+{"2741": "[\"Create a new note.\"]"}
+{"2742": "[\"Ensure a checklist note is open.\"]"}
+{"2745": "[\"Open the Notes app settings.\"]"}
+{"2746": "[\"Open the Notes app settings.\"]"}
+{"2747": "[\"Open the Notes app settings.\"]"}
+{"2748": "[\"Open the Notes app settings.\"]"}
+{"2749": "[\"Open the Notes app settings.\"]"}
+{"2750": "[\"Open the Font size settings from the Settings.\"]"}
+{"2751": "[\"Open the Font size settings from the Settings.\"]"}
+{"2753": "[\"Open the Notes app settings.\"]"}
+{"2754": "[\"Open the Notes app settings.\"]"}
+{"2755": "[\"Open the Font size settings from the Settings.\"]"}
+{"2756": "[\"Open the Font size settings from the Settings.\"]"}
+{"2757": "[\"Open the Font size settings from the Settings.\"]"}
+{"2758": "[\"Open the Font size settings from the Settings.\"]"}
+{"2759": "[\"Open the Font size settings from the Settings.\"]"}
+{"2760": "[\"Open the Font size settings from the Settings.\"]"}
+{"2761": "[\"Ensure a checklist note is open.\"]"}
+{"2763": "[\"Ensure a note is open and in edit mode.\"]"}
+{"2764": "[\"Ensure a note is open.\"]"}
+{"2765": "[\"Ensure a note is open.\"]"}
+{"2766": "[\"Ensure a note is open.\"]"}
+{"2767": "[\"Open the Notes app settings.\"]"}
+{"2768": "[\"Ensure a note is open.\"]"}
+{"2769": "[\"Ensure a note is open.\"]"}
+{"2770": "[\"Ensure a checklist note is open.\"]"}
+{"2771": "[\"Open the Notes app settings.\"]"}
+{"2772": "[\"Open a checklist note or create one if there is none\"]"}
+{"2774": "[\"Open a checklist note or create one if there is none\"]"}
+{"2776": "[\"Open any note and create one if there is none\"]"}
+{"2777": "[\"Open a checklist note or create one if there is none\"]"}
+{"2778": "[\"Open any note or create one if there is none\"]"}
+{"2779": "[\"Open any note or create one if there is none\"]"}
+{"2780": "[\"Open a checklist note or create one if there is none\"]"}
+{"2781": "[\"Open any note or create one if there is none\"]"}
+{"2782": "[\"Open a checklist note or create one if there is none\"]"}
+{"2783": "[\"Open the settings menu\"]"}
+{"2784": "[\"Open the settings menu\"]"}
+{"2785": "[\"Open the settings menu\"]"}
+{"2786": "[\"Open the settings menu\"]"}
+{"2787": "[\"Open the settings menu\"]"}
+{"2788": "[\"Create a note titled 'Grocery List' if it doesn't exist\"]"}
+{"2789": "[\"Open any note or create one if there is none\"]"}
+{"2790": "[\"Open any note or create one if there is none\"]"}
+{"2793": "[\"If a note with the title 'Grocery List' already exists, rename the note title to something else\"]"}
+{"2794": "[\"Open a checklist note or create one if there is none\"]"}
+{"2795": "[\"Open the settings menu\"]"}
+{"2796": "[\"Open any note or create one if there is none\"]"}
+{"2797": "[\"None\"]"}
+{"2798": "[\"Open the settings menu\"]"}
+{"2799": "[\"Open any note or create one if there is none\"]"}
+{"2800": "[\"Open a checklist note or create one if there is none\"]"}
+{"2802": "[\"Rename a note to any new title\"]"}
+{"2803": "[\"Rename a checklist to any new title\"]"}
+{"2804": "[\"None\"]"}
+{"2805": "[\"Open the settings menu\"]"}
+{"2806": "[\"Open the settings menu\"]"}
+{"2807": "[\"Open the settings menu\"]"}
+{"2808": "[\"Open the settings menu\"]"}
+{"2809": "[\"Open the settings menu\"]"}
+{"2810": "[\"Open the settings menu\"]"}
+{"2811": "[\"Open the settings menu\"]"}
+{"2812": "[\"Open the settings menu\"]"}
+{"2813": "[\"Open the settings menu\"]"}
+{"2814": "[\"Open the settings menu\"]"}
+{"2815": "[\"Open any note or create one if there is none\"]"}
+{"2816": "[\"None\"]"}
+{"2817": "[\"Open a checklist note or create one if there is none\"]"}
+{"2818": "[\"Open a note or checklist with multiple items\"]"}
+{"2819": "[\"Open a note or checklist with multiple items\"]"}
+{"2820": "[\"Open the settings menu\"]"}
+{"2821": "[\"Open the settings menu\"]"}
+{"2822": "[\"Open the settings menu\"]"}
+{"2823": "[\"Open the settings menu\"]"}
+{"2824": "[\"Open the settings menu\"]"}
+{"2825": "[\"Open the settings menu\"]"}
+{"2826": "[\"Create a new note.\"]"}
+{"2827": "[\"Open a note or create a new one if none exist.\"]"}
+{"2828": "[\"Open a checklist or create a new one if none exist.\"]"}
+{"2831": "[\"Create a checklist titled 'Completed Tasks' if it doesn't exist.\"]"}
+{"2840": "[\"Open a note or create a new one if none exist.\"]"}
+{"2841": "[\"Open a note or create a new one if none exist.\"]"}
+{"2842": "[\"Open a note or create a new one if none exist.\"]"}
+{"2843": "[\"Open a note or create a new one if none exist.\"]"}
+{"2844": "[\"If a note with the title 'Shopping List' already exists, rename the note title to something else.\"]"}
+{"2845": "[\"If a note with the title 'Project Ideas' already exists, rename the note title to something else.\"]"}
+{"2856": "[\"Open a checklist or create a new one if none exist.\"]"}

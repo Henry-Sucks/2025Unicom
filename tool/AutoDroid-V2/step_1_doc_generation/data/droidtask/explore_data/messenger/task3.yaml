@@ -1,0 +1,215 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 15
+  Choice: 15
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <scrollbar id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_coordinator_wrapper'>\n                <RelativeLayout id='18'\
+    \ resource_id='main_holder'>\n                  <RelativeLayout id='19' resource_id='conversations_fastscroller'>\n\
+    \                    <RecyclerView id='20' resource_id='conversations_list'>\n\
+    \                      <FrameLayout id='21' resource_id='conversation_frame'>\n\
+    \                        <RelativeLayout id='22' resource_id='conversation_holder'>\n\
+    \                          <ImageView id='23' resource_id='conversation_image'></ImageView>\n\
+    \                          <RelativeLayout id='24' resource_id='pin_indicator_l'></RelativeLayout>\n\
+    \                          <button id='25' resource_id='conversation_address'>Bob</button>\n\
+    \                          <button id='26' resource_id='conversation_body_short'>Hey</button>\n\
+    \                          <button id='27' resource_id='conversation_date'>30.06</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='28' resource_id='conversation_frame'>\n\
+    \                        <RelativeLayout id='29' resource_id='conversation_holder'>\n\
+    \                          <ImageView id='30' resource_id='conversation_image'></ImageView>\n\
+    \                          <RelativeLayout id='31' resource_id='pin_indicator_l'></RelativeLayout>\n\
+    \                          <button id='32' resource_id='conversation_address'>Alice</button>\n\
+    \                          <button id='33' resource_id='conversation_body_short'>Hello</button>\n\
+    \                          <button id='34' resource_id='conversation_date'>30.06</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <LinearLayout id='36'\
+    \ resource_id='trackView'></LinearLayout>\n                  </RelativeLayout>\n\
+    \                </RelativeLayout>\n              </ViewGroup>\n            </RelativeLayout>\n\
+    \            <ImageButton id='38' resource_id='conversations_fab'></ImageButton>\n\
+    \          </scrollbar>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str: ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+  tag: 2023-07-15_211929
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Import\
+    \ messages</button>\n          </RelativeLayout>\n        </LinearLayout>\n  \
+    \    </LinearLayout>\n      <LinearLayout id='7'>\n        <LinearLayout id='8'\
+    \ resource_id='content'>\n          <RelativeLayout id='9'>\n            <button\
+    \ id='10' resource_id='title'>Export messages</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n    </ListView>\n  </FrameLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: ed52ffd458f2d820697aeecc26d5fd3e9edbba87d5fa8a4f2c57eadd368ee196
+  state_str: e
+  tag: 2023-07-08_111820
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 20
+  Choice: 20
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Export messages</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='export_messages_scrollview'>\n\
+    \                  <LinearLayout id='11' resource_id='export_messages_holder'>\n\
+    \                    <LinearLayout id='12' resource_id='export_messages_filename_hint'>\n\
+    \                      <FrameLayout id='13'>\n                        <input id='14'\
+    \ resource_id='export_messages_filename'>Messages_2023_07_01_11_04_43</input>\n\
+    \                      </FrameLayout>\n                    </LinearLayout>\n \
+    \                   <checkbox id='15' resource_id='export_sms_checkbox' status='selected'>Export\
+    \ SMS</checkbox>\n                    <checkbox id='16' resource_id='export_mms_checkbox'\
+    \ status='selected'>Export MMS</checkbox>\n                  </LinearLayout>\n\
+    \                </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='17' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='18'>\n                <button id='19' resource_id='button2'>Cancel</button>\n\
+    \                <button id='20' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 6797a42871b7143eb9d3fa4eb4056e48a414ed6eb364ec4b635bf81b6754460e
+  state_str: '9'
+  tag: 2023-07-02_121522
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 59
+  Choice: 59
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='coordinator_layout'>\n\
+    \            <DrawerLayout id='6' resource_id='drawer_layout'>\n             \
+    \ <ViewGroup id='7'>\n                <LinearLayout id='8' resource_id='app_bar'>\n\
+    \                  <FrameLayout id='9' resource_id='collapsing_toolbar'>\n   \
+    \                 <ScrollView id='10'>\n                      <LinearLayout id='11'\
+    \ resource_id='directory_header'>\n                        <RecyclerView id='12'\
+    \ resource_id='horizontal_breadcrumb'>\n                          <LinearLayout\
+    \ id='13'>\n                            <p id='14' resource_id='breadcrumb_text'>Downloads</p>\n\
+    \                          </LinearLayout>\n                        </RecyclerView>\n\
+    \                        <LinearLayout id='18'>\n                          <p\
+    \ id='19' resource_id='header_title'>FILES IN DOWNLOADS</p>\n                \
+    \          <LinearLayoutCompat id='20' resource_id='sub_menu'>\n             \
+    \               <button id='21' resource_id='sub_menu_list' alt='List view'></button>\n\
+    \                          </LinearLayoutCompat>\n                        </LinearLayout>\n\
+    \                      </LinearLayout>\n                    </ScrollView>\n  \
+    \                  <View id='22' resource_id='toolbar_background_layout'></View>\n\
+    \                    <ViewGroup id='23' resource_id='toolbar'>\n             \
+    \         <button id='24' alt='Show roots'></button>\n                      <p\
+    \ id='25'>Downloads</p>\n                      <LinearLayoutCompat id='26'>\n\
+    \                        <button id='27' resource_id='option_menu_create_dir'\
+    \ alt='New folder'></button>\n                        <button id='28' alt='More\
+    \ options'></button>\n                      </LinearLayoutCompat>\n          \
+    \          </ViewGroup>\n                  </FrameLayout>\n                </LinearLayout>\n\
+    \                <FrameLayout id='29'>\n                  <FrameLayout id='30'\
+    \ resource_id='container_search_fragment'></FrameLayout>\n                  <LinearLayout\
+    \ id='31'>\n                    <FrameLayout id='32' resource_id='container_directory'>\n\
+    \                      <LinearLayout id='33'>\n                        <ViewGroup\
+    \ id='34' resource_id='refresh_layout'>\n                          <RecyclerView\
+    \ id='35' resource_id='dir_list'>\n                            <FrameLayout id='36'\
+    \ resource_id='item_root'>\n                              <View id='37'></View>\n\
+    \                              <MaterialCardView id='38'>\n                  \
+    \              <FrameLayout id='39'>\n                                  <RelativeLayout\
+    \ id='40'>\n                                    <FrameLayout id='41' resource_id='thumbnail'></FrameLayout>\n\
+    \                                    <LinearLayout id='44' resource_id='nameplate'>\n\
+    \                                      <FrameLayout id='45' resource_id='icon'></FrameLayout>\n\
+    \                                      <RelativeLayout id='48'>\n            \
+    \                            <p id='49' resource_id='title'>Diary.pdf</p>\n  \
+    \                                      <p id='50' resource_id='details'>6.24 kB</p>\n\
+    \                                        <p id='51' resource_id='date'>Jun 30</p>\n\
+    \                                      </RelativeLayout>\n                   \
+    \                 </LinearLayout>\n                                  </RelativeLayout>\n\
+    \                                </FrameLayout>\n                            \
+    \  </MaterialCardView>\n                            </FrameLayout>\n         \
+    \                 </RecyclerView>\n                        </ViewGroup>\n    \
+    \                  </LinearLayout>\n                    </FrameLayout>\n     \
+    \             </LinearLayout>\n                  <View id='52' resource_id='drawer_edge'></View>\n\
+    \                </FrameLayout>\n                <ViewGroup id='53' resource_id='container_save'>\n\
+    \                  <LinearLayout id='54'>\n                    <FrameLayout id='55'></FrameLayout>\n\
+    \                    <input id='57' resource_id='title'>Messages_2023_07_01_11_04_43.json</input>\n\
+    \                    <FrameLayout id='58'>\n                      <button id='59'\
+    \ resource_id='button1'>SAVE</button>\n                    </FrameLayout>\n  \
+    \                </LinearLayout>\n                </ViewGroup>\n             \
+    \ </ViewGroup>\n            </DrawerLayout>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 0a8be119b2468b4a9144900367f4d49faba78125802eda25579df42980900f00
+  state_str: '1'
+  tag: 2023-07-02_121528
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <scrollbar id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_coordinator_wrapper'>\n                <RelativeLayout id='18'\
+    \ resource_id='main_holder'>\n                  <RelativeLayout id='19' resource_id='conversations_fastscroller'>\n\
+    \                    <RecyclerView id='20' resource_id='conversations_list'>\n\
+    \                      <FrameLayout id='21' resource_id='conversation_frame'>\n\
+    \                        <RelativeLayout id='22' resource_id='conversation_holder'>\n\
+    \                          <ImageView id='23' resource_id='conversation_image'></ImageView>\n\
+    \                          <RelativeLayout id='24' resource_id='pin_indicator_l'></RelativeLayout>\n\
+    \                          <button id='25' resource_id='conversation_address'>Bob</button>\n\
+    \                          <button id='26' resource_id='conversation_body_short'>Hey</button>\n\
+    \                          <button id='27' resource_id='conversation_date'>30.06</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='28' resource_id='conversation_frame'>\n\
+    \                        <RelativeLayout id='29' resource_id='conversation_holder'>\n\
+    \                          <ImageView id='30' resource_id='conversation_image'></ImageView>\n\
+    \                          <RelativeLayout id='31' resource_id='pin_indicator_l'></RelativeLayout>\n\
+    \                          <button id='32' resource_id='conversation_address'>Alice</button>\n\
+    \                          <button id='33' resource_id='conversation_body_short'>Hello</button>\n\
+    \                          <button id='34' resource_id='conversation_date'>30.06</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <LinearLayout id='36'\
+    \ resource_id='trackView'></LinearLayout>\n                  </RelativeLayout>\n\
+    \                </RelativeLayout>\n              </ViewGroup>\n            </RelativeLayout>\n\
+    \            <ImageButton id='38' resource_id='conversations_fab'></ImageButton>\n\
+    \          </scrollbar>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str: ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+  tag: 2023-07-15_211929_2
+step_num: 5
+task_name: Export all messages to a Json file

@@ -1,0 +1,201 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <scrollbar id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_coordinator_wrapper'>\n                <RelativeLayout id='18'\
+    \ resource_id='main_holder'>\n                  <RelativeLayout id='19' resource_id='conversations_fastscroller'>\n\
+    \                    <RecyclerView id='20' resource_id='conversations_list'>\n\
+    \                      <FrameLayout id='21' resource_id='conversation_frame'>\n\
+    \                        <RelativeLayout id='22' resource_id='conversation_holder'>\n\
+    \                          <ImageView id='23' resource_id='conversation_image'></ImageView>\n\
+    \                          <RelativeLayout id='24' resource_id='pin_indicator_l'></RelativeLayout>\n\
+    \                          <button id='25' resource_id='conversation_address'>Bob</button>\n\
+    \                          <button id='26' resource_id='conversation_body_short'>Hey</button>\n\
+    \                          <button id='27' resource_id='conversation_date'>30.06</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='28' resource_id='conversation_frame'>\n\
+    \                        <RelativeLayout id='29' resource_id='conversation_holder'>\n\
+    \                          <ImageView id='30' resource_id='conversation_image'></ImageView>\n\
+    \                          <RelativeLayout id='31' resource_id='pin_indicator_l'></RelativeLayout>\n\
+    \                          <button id='32' resource_id='conversation_address'>Alice</button>\n\
+    \                          <button id='33' resource_id='conversation_body_short'>Hello</button>\n\
+    \                          <button id='34' resource_id='conversation_date'>30.06</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <LinearLayout id='36'\
+    \ resource_id='trackView'></LinearLayout>\n                  </RelativeLayout>\n\
+    \                </RelativeLayout>\n              </ViewGroup>\n            </RelativeLayout>\n\
+    \            <ImageButton id='38' resource_id='conversations_fab'></ImageButton>\n\
+    \          </scrollbar>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: fc3f74bf7d6eb2bf6fa69fef7f791f434acac4448c9f2aac78a0820fd4b348f9
+  state_str: ebe04be39b2a5afdab7abd3dfa557ba5be810fc9e9fc0bd29f0c6585511139db
+  tag: 2023-07-15_211929
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '10'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_change_date_time_format_holder'>\n\
+    \                  <button id='18' resource_id='settings_change_date_time_format'>Change\
+    \ date and time format</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='19' resource_id='settings_manage_blocked_numbers_holder'>\n\
+    \                  <button id='20' resource_id='settings_manage_blocked_numbers'>Manage\
+    \ blocked numbers</button>\n                </RelativeLayout>\n              \
+    \  <RelativeLayout id='21' resource_id='settings_font_size_holder'>\n        \
+    \          <button id='22' resource_id='settings_font_size_label'>Font size</button>\n\
+    \                  <button id='23' resource_id='settings_font_size'>Medium</button>\n\
+    \                </RelativeLayout>\n                <ImageView id='24' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='25' resource_id='settings_notifications_label'>NOTIFICATIONS</p>\n\
+    \                <RelativeLayout id='26' resource_id='settings_customize_notifications_holder'>\n\
+    \                  <button id='27' resource_id='settings_customize_notifications_label'>Customize\
+    \ notifications</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='28' resource_id='settings_lock_screen_visibility_holder'>\n            \
+    \      <button id='29' resource_id='settings_lock_screen_visibility_label'>Lock\
+    \ screen notification visibility</button>\n                  <button id='30' resource_id='settings_lock_screen_visibility'>Sender\
+    \ and message</button>\n                </RelativeLayout>\n                <ImageView\
+    \ id='31' resource_id='settings_notifications_divider'></ImageView>\n        \
+    \        <p id='32' resource_id='settings_outgoing_messages_label'>OUTGOING MESSAGES</p>\n\
+    \                <RelativeLayout id='33' resource_id='settings_show_character_counter_holder'>\n\
+    \                  <checkbox id='34' resource_id='settings_show_character_counter'>Show\
+    \ a character counter at writing messages</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='35' resource_id='settings_use_simple_characters_holder'></RelativeLayout>\n\
+    \              </LinearLayout>\n            </scrollbar>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: f7428990ab52dfba4ccb2c79d5cb71b7c0546fd5f953239f826a39d7d99eda03
+  state_str: 2c5664b27094d5b399cec3fa113aa97a1464ec8b9af968fa8018c436587674e6
+  tag: 2023-07-08_111137
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 38
+  Choice: 38
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='25' resource_id='settings_notifications_label'>NOTIFICATIONS</p>\n\
+    \                <RelativeLayout id='26' resource_id='settings_customize_notifications_holder'>\n\
+    \                  <button id='27' resource_id='settings_customize_notifications_label'>Customize\
+    \ notifications</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='28' resource_id='settings_lock_screen_visibility_holder'>\n            \
+    \      <button id='29' resource_id='settings_lock_screen_visibility_label'>Lock\
+    \ screen notification visibility</button>\n                  <button id='30' resource_id='settings_lock_screen_visibility'>Sender\
+    \ and message</button>\n                </RelativeLayout>\n                <ImageView\
+    \ id='31' resource_id='settings_notifications_divider'></ImageView>\n        \
+    \        <p id='32' resource_id='settings_outgoing_messages_label'>OUTGOING MESSAGES</p>\n\
+    \                <RelativeLayout id='33' resource_id='settings_show_character_counter_holder'>\n\
+    \                  <checkbox id='34' resource_id='settings_show_character_counter'>Show\
+    \ a character counter at writing messages</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='35' resource_id='settings_use_simple_characters_holder'>\n\
+    \                  <checkbox id='36' resource_id='settings_use_simple_characters'>Remove\
+    \ accents and diacritics at sending messages</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='37' resource_id='settings_send_on_enter_holder'>\n\
+    \                  <checkbox id='38' resource_id='settings_send_on_enter'>Send\
+    \ message on pressing Enter</checkbox>\n                </RelativeLayout>\n  \
+    \              <RelativeLayout id='39' resource_id='settings_enable_delivery_reports_holder'>\n\
+    \                  <checkbox id='40' resource_id='settings_enable_delivery_reports'>Enable\
+    \ delivery reports</checkbox>\n                </RelativeLayout>\n           \
+    \     <RelativeLayout id='41' resource_id='settings_send_long_message_mms_holder'>\n\
+    \                  <checkbox id='42' resource_id='settings_send_long_message_mms'>Send\
+    \ long messages as MMS</checkbox>\n                </RelativeLayout>\n       \
+    \         <RelativeLayout id='43' resource_id='settings_send_group_message_mms_holder'>\n\
+    \                  <checkbox id='44' resource_id='settings_send_group_message_mms'>Send\
+    \ group messages as MMS</checkbox>\n                </RelativeLayout>\n      \
+    \          <RelativeLayout id='45' resource_id='settings_mms_file_size_limit_holder'>\n\
+    \                  <button id='46' resource_id='settings_mms_file_size_limit_label'>Resize\
+    \ sent MMS images</button>\n                  <button id='47' resource_id='settings_mms_file_size_limit'>600KB</button>\n\
+    \                </RelativeLayout>\n              </LinearLayout>\n          \
+    \  </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: bad64af50b28261e6fc5ca0ed80019492fe49097d36edc5faa2a2742789f3dbc
+  state_str: f7428990ab52dfba4ccb2c79d5cb71b7c0546fd5f953239f826a39d7d99eda03
+  tag: 2023-07-08_111137_2
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_change_date_time_format_holder'>\n\
+    \                  <button id='18' resource_id='settings_change_date_time_format'>Change\
+    \ date and time format</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='19' resource_id='settings_manage_blocked_numbers_holder'>\n\
+    \                  <button id='20' resource_id='settings_manage_blocked_numbers'>Manage\
+    \ blocked numbers</button>\n                </RelativeLayout>\n              \
+    \  <RelativeLayout id='21' resource_id='settings_font_size_holder'>\n        \
+    \          <button id='22' resource_id='settings_font_size_label'>Font size</button>\n\
+    \                  <button id='23' resource_id='settings_font_size'>Medium</button>\n\
+    \                </RelativeLayout>\n                <ImageView id='24' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='25' resource_id='settings_notifications_label'>NOTIFICATIONS</p>\n\
+    \                <RelativeLayout id='26' resource_id='settings_customize_notifications_holder'>\n\
+    \                  <button id='27' resource_id='settings_customize_notifications_label'>Customize\
+    \ notifications</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='28' resource_id='settings_lock_screen_visibility_holder'>\n            \
+    \      <button id='29' resource_id='settings_lock_screen_visibility_label'>Lock\
+    \ screen notification visibility</button>\n                  <button id='30' resource_id='settings_lock_screen_visibility'>Sender\
+    \ and message</button>\n                </RelativeLayout>\n                <ImageView\
+    \ id='31' resource_id='settings_notifications_divider'></ImageView>\n        \
+    \        <p id='32' resource_id='settings_outgoing_messages_label'>OUTGOING MESSAGES</p>\n\
+    \                <RelativeLayout id='33' resource_id='settings_show_character_counter_holder'>\n\
+    \                  <checkbox id='34' resource_id='settings_show_character_counter'>Show\
+    \ a character counter at writing messages</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='35' resource_id='settings_use_simple_characters_holder'></RelativeLayout>\n\
+    \              </LinearLayout>\n            </scrollbar>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: d6f325d3bc8ac99bad30537209d382bd4ef25ac29ac718d7ec5b89b41a270206
+  state_str: 2c5664b27094d5b399cec3fa113aa97a1464ec8b9af968fa8018c436587674e6
+  tag: 2023-07-08_111133
+step_num: 3
+task_name: Enable sending message by pressing Enter

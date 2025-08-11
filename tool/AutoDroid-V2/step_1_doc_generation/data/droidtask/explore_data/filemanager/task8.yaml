@@ -1,0 +1,361 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 15
+  Choice: 15
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='add_favorite' alt='Add to favorites'></button>\n              \
+    \        <button id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_holder'>\n              <scrollbar id='17' resource_id='main_view_pager'>\n\
+    \                <RelativeLayout id='18' resource_id='items_fragment'>\n     \
+    \             <ViewGroup id='19' resource_id='items_coordinator'>\n          \
+    \          <RelativeLayout id='20' resource_id='items_wrapper'>\n            \
+    \          <HorizontalScrollView id='21' resource_id='breadcrumbs'>\n        \
+    \                <LinearLayout id='22'>\n                          <FrameLayout\
+    \ id='23'>\n                            <button id='24' resource_id='breadcrumb_text'>Internal</button>\n\
+    \                          </FrameLayout>\n                        </LinearLayout>\n\
+    \                      </HorizontalScrollView>\n                      <ViewGroup\
+    \ id='25' resource_id='items_swipe_refresh'>\n                        <RelativeLayout\
+    \ id='26' resource_id='items_fastscroller'>\n                          <scrollbar\
+    \ id='27' resource_id='items_list'>\n                            <FrameLayout\
+    \ id='28' resource_id='item_frame'>\n                              <RelativeLayout\
+    \ id='29' resource_id='item_holder'>\n                                <ImageView\
+    \ id='30' resource_id='item_icon'></ImageView>\n                             \
+    \   <button id='31' resource_id='item_name'>Alarms</button>\n                \
+    \                <button id='32' resource_id='item_details'>0 items</button>\n\
+    \                              </RelativeLayout>\n                           \
+    \ </FrameLayout>\n                            <FrameLayout id='33' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='34' resource_id='item_holder'>\n\
+    \                                <ImageView id='35' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='36' resource_id='item_name'>Android</button>\n\
+    \                                <button id='37' resource_id='item_details'>3\
+    \ items</button>\n                              </RelativeLayout>\n          \
+    \                  </FrameLayout>\n                            <FrameLayout id='38'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='39'\
+    \ resource_id='item_holder'>\n                                <ImageView id='40'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='41' resource_id='item_name'>Audiobooks</button>\n                      \
+    \          <button id='42' resource_id='item_details'>0 items</button>\n     \
+    \                         </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='43' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='44' resource_id='item_holder'>\n\
+    \                                <ImageView id='45' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='46' resource_id='item_name'>DCIM</button>\n\
+    \                                <button id='47' resource_id='item_details'>6\
+    \ items</button>\n                              </RelativeLayout>\n          \
+    \                  </FrameLayout>\n                            <FrameLayout id='48'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='49'\
+    \ resource_id='item_holder'>\n                                <ImageView id='50'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='51' resource_id='item_name'>Documents</button>\n                       \
+    \         <button id='52' resource_id='item_details'>0 items</button>\n      \
+    \                        </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='53' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='54' resource_id='item_holder'>\n\
+    \                                <ImageView id='55' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='56' resource_id='item_name'>Download</button>\n\
+    \                                <button id='57' resource_id='item_details'>1\
+    \ item</button>\n                              </RelativeLayout>\n           \
+    \                 </FrameLayout>\n                            <FrameLayout id='58'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='59'\
+    \ resource_id='item_holder'>\n                                <ImageView id='60'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='61' resource_id='item_name'>Movies</button>\n                          \
+    \      <button id='62' resource_id='item_details'>0 items</button>\n         \
+    \                     </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='63' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='64' resource_id='item_holder'>\n\
+    \                                <ImageView id='65' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='66' resource_id='item_name'>Music</button>\n\
+    \                                <button id='67' resource_id='item_details'>1\
+    \ item</button>\n                              </RelativeLayout>\n           \
+    \                 </FrameLayout>\n                            <FrameLayout id='68'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='69'\
+    \ resource_id='item_holder'>\n                                <ImageView id='70'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='71' resource_id='item_name'>Notifications</button>\n                   \
+    \             <button id='72' resource_id='item_details'>0 items</button>\n  \
+    \                            </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='73' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='74' resource_id='item_holder'>\n\
+    \                                <ImageView id='75' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='76' resource_id='item_name'>Pictures</button>\n\
+    \                              </RelativeLayout>\n                           \
+    \ </FrameLayout>\n                          </scrollbar>\n                   \
+    \       <LinearLayout id='79' resource_id='trackView'></LinearLayout>\n      \
+    \                  </RelativeLayout>\n                      </ViewGroup>\n   \
+    \                 </RelativeLayout>\n                    <ImageButton id='81'\
+    \ resource_id='items_fab'></ImageButton>\n                  </ViewGroup>\n   \
+    \             </RelativeLayout>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='171' resource_id='main_tabs_holder'>\n                <LinearLayout id='172'>\n\
+    \                  <LinearLayout id='173'>\n                    <LinearLayout\
+    \ id='174' resource_id='tab_item_holder'>\n                      <ImageView id='175'\
+    \ resource_id='tab_item_icon'></ImageView>\n                      <p id='176'\
+    \ resource_id='tab_item_label' status='selected'>Files</p>\n                 \
+    \   </LinearLayout>\n                  </LinearLayout>\n                  <LinearLayout\
+    \ id='177'>\n                    <LinearLayout id='178' resource_id='tab_item_holder'>\n\
+    \                      <ImageView id='179' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='180' resource_id='tab_item_label'>Recents</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='181'>\n                    <LinearLayout id='182'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='183' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='184' resource_id='tab_item_label'>Storage</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4ab22c498122e2ee239fea7ea030f4f60c03229f1e8e59353d5d52832a2837f1
+  state_str: d53745f040b2294c831e66c9f949824815ecc6d4f467f35b2d79fe988925cec7
+  tag: 2023-06-30_203321
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Change\
+    \ view type</button>\n          </RelativeLayout>\n        </LinearLayout>\n \
+    \     </LinearLayout>\n      <LinearLayout id='7'>\n        <LinearLayout id='8'\
+    \ resource_id='content'>\n          <RelativeLayout id='9'>\n            <button\
+    \ id='10' resource_id='title'>Temporarily show hidden</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n      <LinearLayout id='11'>\n\
+    \        <LinearLayout id='12' resource_id='content'>\n          <RelativeLayout\
+    \ id='13'>\n            <button id='14' resource_id='title'>Settings</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='15'>\n        <LinearLayout id='16' resource_id='content'>\n\
+    \          <RelativeLayout id='17'>\n            <button id='18' resource_id='title'>About</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: ce01d730ec0ae96e87e9bb5eecb040aef29009e196349116a85f3fcb5d492b95
+  state_str: '8'
+  tag: 2023-07-06_225902
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_manage_favorites_holder'>\n\
+    \                  <button id='18' resource_id='settings_manage_favorites'>Manage\
+    \ favorites</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='19' resource_id='settings_manage_tabs_holder'>\n                  <button\
+    \ id='20' resource_id='settings_manage_tabs'>Manage shown tabs</button>\n    \
+    \            </RelativeLayout>\n                <RelativeLayout id='21' resource_id='settings_change_date_time_format_holder'>\n\
+    \                  <button id='22' resource_id='settings_change_date_time_format'>Change\
+    \ date and time format</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='23' resource_id='settings_font_size_holder'>\n   \
+    \               <button id='24' resource_id='settings_font_size_label'>Font size</button>\n\
+    \                  <button id='25' resource_id='settings_font_size'>Medium</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='26' resource_id='settings_press_back_twice_holder'>\n\
+    \                  <checkbox id='27' resource_id='settings_press_back_twice' status='selected'>Require\
+    \ pressing Back twice to leave the app</checkbox>\n                </RelativeLayout>\n\
+    \                <ImageView id='28' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='29' resource_id='settings_visibility_label'>VISIBILITY</p>\n\
+    \                <RelativeLayout id='30' resource_id='settings_show_hidden_holder'>\n\
+    \                  <checkbox id='31' resource_id='settings_show_hidden'>Show hidden\
+    \ items</checkbox>\n                </RelativeLayout>\n                <ImageView\
+    \ id='32' resource_id='settings_visibility_divider'></ImageView>\n           \
+    \     <p id='33' resource_id='settings_scrolling_label'>SCROLLING</p>\n      \
+    \          <RelativeLayout id='34' resource_id='settings_enable_pull_to_refresh_holder'>\n\
+    \                  <checkbox id='35' resource_id='settings_enable_pull_to_refresh'\
+    \ status='selected'>Enable pull-to-refresh from the top</checkbox>\n         \
+    \       </RelativeLayout>\n              </LinearLayout>\n            </scrollbar>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: c4a58a4222bfd4700ca879d08f7876960a220a370bf5edf8e8ff0653f8eec119
+  state_str: 70988606db01d39202cebf33b6abc825f464816a34507f44d98bddb951ca66b1
+  tag: 2023-07-06_230218
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='customization_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='customization_toolbar'>\n        \
+    \      <ImageButton id='7'></ImageButton>\n              <p id='8'>Customize colors</p>\n\
+    \            </ViewGroup>\n            <ScrollView id='10' resource_id='customization_nested_scrollview'>\n\
+    \              <RelativeLayout id='11' resource_id='customization_holder'>\n \
+    \               <RelativeLayout id='12' resource_id='customization_theme_holder'>\n\
+    \                  <button id='13' resource_id='customization_theme_label'>Theme</button>\n\
+    \                  <button id='14' resource_id='customization_theme'>Dark</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='15' resource_id='customization_text_color_holder'>\n\
+    \                  <button id='16' resource_id='customization_text_color_label'>Text\
+    \ color</button>\n                  <ImageView id='17' resource_id='customization_text_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='18' resource_id='customization_background_color_holder'>\n\
+    \                  <button id='19' resource_id='customization_background_color_label'>Background\
+    \ color</button>\n                  <ImageView id='20' resource_id='customization_background_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='21' resource_id='customization_primary_color_holder'>\n\
+    \                  <button id='22' resource_id='customization_primary_color_label'>Primary\
+    \ color</button>\n                  <ImageView id='23' resource_id='customization_primary_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='24' resource_id='customization_app_icon_color_holder'>\n\
+    \                  <button id='25' resource_id='customization_app_icon_color_label'>App\
+    \ icon color</button>\n                  <ImageView id='26' resource_id='customization_app_icon_color'></ImageView>\n\
+    \                </RelativeLayout>\n              </RelativeLayout>\n        \
+    \    </ScrollView>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 06d12a81a984d165f6107d52300085d901815170a2c6546fc7129a5ff30b88da
+  state_str: '3'
+  tag: 2023-07-06_230320
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 12
+  Choice: 12
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='message_scrollview'>\n\
+    \                  <p id='9' resource_id='message'>WARNING: Some launchers do\
+    \ not handle app icon cus</p>\n                </ScrollView>\n              </FrameLayout>\n\
+    \            </FrameLayout>\n            <ScrollView id='10' resource_id='buttonPanel'>\n\
+    \              <LinearLayout id='11'>\n                <button id='12' resource_id='button1'>OK</button>\n\
+    \              </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: db8da4c4aed69c1ee76c3c58386edc9a9b8924ab9d096893dc87ae36659c73bb
+  state_str: '1'
+  tag: 2023-07-06_230326
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 11
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10'>Auto light / dark</checkbox>\n            \
+    \        <checkbox id='11'>Light</checkbox>\n                    <checkbox id='12'\
+    \ status='selected'>Dark</checkbox>\n                    <checkbox id='13'>Dark\
+    \ red</checkbox>\n                    <checkbox id='14'>White</checkbox>\n   \
+    \                 <checkbox id='15'>Black &amp; White</checkbox>\n           \
+    \         <checkbox id='16'>Custom</checkbox>\n                  </RadioGroup>\n\
+    \                </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayoutCompat>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: ee4bc85165d8e30eb0e6662bbd800d46bbbc7663b2262c79288c29040a6fb67d
+  state_str: f
+  tag: 2023-07-06_230332
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='customization_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='customization_toolbar'>\n        \
+    \      <ImageButton id='7'></ImageButton>\n              <p id='8'>Customize colors</p>\n\
+    \              <LinearLayoutCompat id='9'>\n                <button id='10' resource_id='save'\
+    \ alt='Save'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <ScrollView id='11' resource_id='customization_nested_scrollview'>\n\
+    \              <RelativeLayout id='12' resource_id='customization_holder'>\n \
+    \               <RelativeLayout id='13' resource_id='customization_theme_holder'>\n\
+    \                  <button id='14' resource_id='customization_theme_label'>Theme</button>\n\
+    \                  <button id='15' resource_id='customization_theme'>Light</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='16' resource_id='customization_text_color_holder'>\n\
+    \                  <button id='17' resource_id='customization_text_color_label'>Text\
+    \ color</button>\n                  <ImageView id='18' resource_id='customization_text_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='19' resource_id='customization_background_color_holder'>\n\
+    \                  <button id='20' resource_id='customization_background_color_label'>Background\
+    \ color</button>\n                  <ImageView id='21' resource_id='customization_background_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='22' resource_id='customization_primary_color_holder'>\n\
+    \                  <button id='23' resource_id='customization_primary_color_label'>Primary\
+    \ color</button>\n                  <ImageView id='24' resource_id='customization_primary_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='25' resource_id='customization_app_icon_color_holder'>\n\
+    \                  <button id='26' resource_id='customization_app_icon_color_label'>App\
+    \ icon color</button>\n                  <ImageView id='27' resource_id='customization_app_icon_color'></ImageView>\n\
+    \                </RelativeLayout>\n              </RelativeLayout>\n        \
+    \    </ScrollView>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 1b233e6d1cbf98943343817ef79284ef3921b2df45da09f3965f46f18c506726
+  state_str: '3'
+  tag: 2023-06-30_202336
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_manage_favorites_holder'>\n\
+    \                  <button id='18' resource_id='settings_manage_favorites'>Manage\
+    \ favorites</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='19' resource_id='settings_manage_tabs_holder'>\n                  <button\
+    \ id='20' resource_id='settings_manage_tabs'>Manage shown tabs</button>\n    \
+    \            </RelativeLayout>\n                <RelativeLayout id='21' resource_id='settings_change_date_time_format_holder'>\n\
+    \                  <button id='22' resource_id='settings_change_date_time_format'>Change\
+    \ date and time format</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='23' resource_id='settings_font_size_holder'>\n   \
+    \               <button id='24' resource_id='settings_font_size_label'>Font size</button>\n\
+    \                  <button id='25' resource_id='settings_font_size'>Medium</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='26' resource_id='settings_press_back_twice_holder'>\n\
+    \                  <checkbox id='27' resource_id='settings_press_back_twice' status='selected'>Require\
+    \ pressing Back twice to leave the app</checkbox>\n                </RelativeLayout>\n\
+    \                <ImageView id='28' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='29' resource_id='settings_visibility_label'>VISIBILITY</p>\n\
+    \                <RelativeLayout id='30' resource_id='settings_show_hidden_holder'>\n\
+    \                  <checkbox id='31' resource_id='settings_show_hidden'>Show hidden\
+    \ items</checkbox>\n                </RelativeLayout>\n                <ImageView\
+    \ id='32' resource_id='settings_visibility_divider'></ImageView>\n           \
+    \     <p id='33' resource_id='settings_scrolling_label'>SCROLLING</p>\n      \
+    \          <RelativeLayout id='34' resource_id='settings_enable_pull_to_refresh_holder'>\n\
+    \                  <checkbox id='35' resource_id='settings_enable_pull_to_refresh'\
+    \ status='selected'>Enable pull-to-refresh from the top</checkbox>\n         \
+    \       </RelativeLayout>\n              </LinearLayout>\n            </scrollbar>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: c4a58a4222bfd4700ca879d08f7876960a220a370bf5edf8e8ff0653f8eec119
+  state_str: 70988606db01d39202cebf33b6abc825f464816a34507f44d98bddb951ca66b1
+  tag: 2023-07-06_230218_2
+step_num: 8
+task_name: change the theme to light

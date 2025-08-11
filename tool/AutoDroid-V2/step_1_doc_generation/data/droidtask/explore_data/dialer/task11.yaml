@@ -1,0 +1,362 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 63
+  Choice: 63
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='filter' alt='Filter'></button>\n                      <button id='15'\
+    \ resource_id='create_new_contact' alt='Create new contact'></button>\n      \
+    \                <button id='16' alt='More options'></button>\n              \
+    \      </LinearLayoutCompat>\n                  </ViewGroup>\n               \
+    \ </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <ViewGroup id='17' resource_id='main_holder'>\n              <scrollbar\
+    \ id='18' resource_id='view_pager'>\n                <RelativeLayout id='19' resource_id='contacts_fragment'>\n\
+    \                  <RelativeLayout id='20' resource_id='fragment_wrapper'>\n \
+    \                   <RecyclerView id='21' resource_id='fragment_list'>\n     \
+    \                 <FrameLayout id='22' resource_id='item_contact_frame'>\n   \
+    \                     <RelativeLayout id='23' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='24' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='25' resource_id='item_contact_name'>Alice</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='26' resource_id='item_contact_frame'>\n\
+    \                        <RelativeLayout id='27' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='28' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='29' resource_id='item_contact_name'>Bob</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='30' resource_id='item_contact_frame'>\n\
+    \                        <RelativeLayout id='31' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='32' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='33' resource_id='item_contact_name'>Jack</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <ViewGroup id='34' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \                    <LinearLayout id='38' resource_id='letter_fastscroller'>\n\
+    \                      <button id='39'>A\nB\nJ</button>\n                    </LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \          </scrollbar>\n              <button id='63' resource_id='main_dialpad_button'\
+    \ alt='Dialpad'></button>\n              <HorizontalScrollView id='64' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='65'>\n                  <LinearLayout id='66'>\n\
+    \                    <LinearLayout id='67' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='68' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='69' resource_id='tab_item_label' status='selected'>Contacts</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='70'>\n                    <LinearLayout id='71'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='72' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='73' resource_id='tab_item_label'>Favorites</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='74'>\n                    <LinearLayout id='75'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='76' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='77' resource_id='tab_item_label'>Call History</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str: a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+  tag: 2023-07-07_174450
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 58
+  Choice: 58
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='dialpad_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='dialpad_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>Dialpad</p>\n              <LinearLayoutCompat\
+    \ id='9'>\n                <button id='10' resource_id='add_number_to_contact'\
+    \ alt='Add number to contact'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <ViewGroup id='11' resource_id='dialpad_holder'>\n\
+    \              <RecyclerView id='12' resource_id='dialpad_list'>\n           \
+    \     <FrameLayout id='13' resource_id='item_contact_frame'>\n               \
+    \   <RelativeLayout id='14' resource_id='item_contact_holder'>\n             \
+    \       <ImageView id='15' resource_id='item_contact_image'></ImageView>\n   \
+    \                 <button id='16' resource_id='item_contact_name'>Alice</button>\n\
+    \                  </RelativeLayout>\n                </FrameLayout>\n       \
+    \         <FrameLayout id='17' resource_id='item_contact_frame'>\n           \
+    \       <RelativeLayout id='18' resource_id='item_contact_holder'>\n         \
+    \           <ImageView id='19' resource_id='item_contact_image'></ImageView>\n\
+    \                    <button id='20' resource_id='item_contact_name'>Bob</button>\n\
+    \                  </RelativeLayout>\n                </FrameLayout>\n       \
+    \         <FrameLayout id='21' resource_id='item_contact_frame'>\n           \
+    \       <RelativeLayout id='22' resource_id='item_contact_holder'>\n         \
+    \           <ImageView id='23' resource_id='item_contact_image'></ImageView>\n\
+    \                    <button id='24' resource_id='item_contact_name'>Jack</button>\n\
+    \                  </RelativeLayout>\n                </FrameLayout>\n       \
+    \       </RecyclerView>\n              <ViewGroup id='25' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \              <LinearLayout id='29' resource_id='letter_fastscroller'>\n    \
+    \            <button id='30'>A\nB\nJ</button>\n              </LinearLayout>\n\
+    \              <TextView id='31' resource_id='dialpad_divider'></TextView>\n \
+    \             <EditText id='32' resource_id='dialpad_input'></EditText>\n    \
+    \          <ImageView id='33' resource_id='dialpad_clear_char'></ImageView>\n\
+    \              <ViewGroup id='34' resource_id='dialpad_wrapper'>\n           \
+    \     <button id='35' resource_id='dialpad_1_holder' alt='One'>\n            \
+    \      <button id='36' resource_id='dialpad_1'>1</button>\n                </button>\n\
+    \                <button id='37' resource_id='dialpad_2_holder' alt='Two'>\n \
+    \                 <button id='38' resource_id='dialpad_2'>2</button>\n       \
+    \           <button id='39' resource_id='dialpad_2_letters'>ABC</button>\n   \
+    \             </button>\n                <button id='40' resource_id='dialpad_3_holder'\
+    \ alt='Three'>\n                  <button id='41' resource_id='dialpad_3'>3</button>\n\
+    \                  <button id='42' resource_id='dialpad_3_letters'>DEF</button>\n\
+    \                </button>\n                <button id='43' resource_id='dialpad_4_holder'\
+    \ alt='Four'>\n                  <button id='44' resource_id='dialpad_4'>4</button>\n\
+    \                  <button id='45' resource_id='dialpad_4_letters'>GHI</button>\n\
+    \                </button>\n                <button id='46' resource_id='dialpad_5_holder'\
+    \ alt='Five'>\n                  <button id='47' resource_id='dialpad_5'>5</button>\n\
+    \                  <button id='48' resource_id='dialpad_5_letters'>JKL</button>\n\
+    \                </button>\n                <button id='49' resource_id='dialpad_6_holder'\
+    \ alt='Six'>\n                  <button id='50' resource_id='dialpad_6'>6</button>\n\
+    \                  <button id='51' resource_id='dialpad_6_letters'>MNO</button>\n\
+    \                </button>\n                <button id='52' resource_id='dialpad_7_holder'\
+    \ alt='Seven'>\n                  <button id='53' resource_id='dialpad_7'>7</button>\n\
+    \                  <button id='54' resource_id='dialpad_7_letters'>PQRS</button>\n\
+    \                </button>\n                <button id='55' resource_id='dialpad_8_holder'\
+    \ alt='Eight'>\n                  <button id='56' resource_id='dialpad_8'>8</button>\n\
+    \                  <button id='57' resource_id='dialpad_8_letters'>TUV</button>\n\
+    \                </button>\n                <button id='58' resource_id='dialpad_9_holder'\
+    \ alt='Nine'>\n                  <button id='59' resource_id='dialpad_9'>9</button>\n\
+    \                  <button id='60' resource_id='dialpad_9_letters'>WXYZ</button>\n\
+    \                </button>\n                <button id='61' resource_id='dialpad_asterisk_holder'\
+    \ alt='Asterisk'>\n                  <button id='62' resource_id='dialpad_asterisk'>*</button>\n\
+    \                </button>\n                <button id='63' resource_id='dialpad_0_holder'\
+    \ alt='Zero'>\n                  <button id='64' resource_id='dialpad_0'>0</button>\n\
+    \                  <button id='65' resource_id='dialpad_plus_letters'>+</button>\n\
+    \                </button>\n                <button id='66' resource_id='dialpad_hashtag_holder'\
+    \ alt='Hashtag'>\n                  <button id='67' resource_id='dialpad_hashtag'>#</button>\n\
+    \                </button>\n              </ViewGroup>\n              <button\
+    \ id='68' resource_id='dialpad_call_button' alt='Call number'></button>\n    \
+    \        </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: bd98a979a8e6635be1fc598aef8736fbe62fa64affa9ffacfb32a7189e3f9805
+  state_str: f
+  tag: 2023-07-07_181339
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 22
+  Choice: 22
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='dialpad_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='dialpad_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>Dialpad</p>\n              <LinearLayoutCompat\
+    \ id='9'>\n                <button id='10' resource_id='add_number_to_contact'\
+    \ alt='Add number to contact'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <ViewGroup id='11' resource_id='dialpad_holder'>\n\
+    \              <p id='12' resource_id='dialpad_placeholder'>No contacts found</p>\n\
+    \              <ViewGroup id='13' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \              <LinearLayout id='17' resource_id='letter_fastscroller'></LinearLayout>\n\
+    \              <TextView id='18' resource_id='dialpad_divider'></TextView>\n \
+    \             <input id='19' resource_id='dialpad_input'>9</input>\n         \
+    \     <ImageView id='20' resource_id='dialpad_clear_char'></ImageView>\n     \
+    \         <ViewGroup id='21' resource_id='dialpad_wrapper'>\n                <button\
+    \ id='22' resource_id='dialpad_1_holder' alt='One'>\n                  <button\
+    \ id='23' resource_id='dialpad_1'>1</button>\n                </button>\n    \
+    \            <button id='24' resource_id='dialpad_2_holder' alt='Two'>\n     \
+    \             <button id='25' resource_id='dialpad_2'>2</button>\n           \
+    \       <button id='26' resource_id='dialpad_2_letters'>ABC</button>\n       \
+    \         </button>\n                <button id='27' resource_id='dialpad_3_holder'\
+    \ alt='Three'>\n                  <button id='28' resource_id='dialpad_3'>3</button>\n\
+    \                  <button id='29' resource_id='dialpad_3_letters'>DEF</button>\n\
+    \                </button>\n                <button id='30' resource_id='dialpad_4_holder'\
+    \ alt='Four'>\n                  <button id='31' resource_id='dialpad_4'>4</button>\n\
+    \                  <button id='32' resource_id='dialpad_4_letters'>GHI</button>\n\
+    \                </button>\n                <button id='33' resource_id='dialpad_5_holder'\
+    \ alt='Five'>\n                  <button id='34' resource_id='dialpad_5'>5</button>\n\
+    \                  <button id='35' resource_id='dialpad_5_letters'>JKL</button>\n\
+    \                </button>\n                <button id='36' resource_id='dialpad_6_holder'\
+    \ alt='Six'>\n                  <button id='37' resource_id='dialpad_6'>6</button>\n\
+    \                  <button id='38' resource_id='dialpad_6_letters'>MNO</button>\n\
+    \                </button>\n                <button id='39' resource_id='dialpad_7_holder'\
+    \ alt='Seven'>\n                  <button id='40' resource_id='dialpad_7'>7</button>\n\
+    \                  <button id='41' resource_id='dialpad_7_letters'>PQRS</button>\n\
+    \                </button>\n                <button id='42' resource_id='dialpad_8_holder'\
+    \ alt='Eight'>\n                  <button id='43' resource_id='dialpad_8'>8</button>\n\
+    \                  <button id='44' resource_id='dialpad_8_letters'>TUV</button>\n\
+    \                </button>\n                <button id='45' resource_id='dialpad_9_holder'\
+    \ alt='Nine'>\n                  <button id='46' resource_id='dialpad_9'>9</button>\n\
+    \                  <button id='47' resource_id='dialpad_9_letters'>WXYZ</button>\n\
+    \                </button>\n                <button id='48' resource_id='dialpad_asterisk_holder'\
+    \ alt='Asterisk'>\n                  <button id='49' resource_id='dialpad_asterisk'>*</button>\n\
+    \                </button>\n                <button id='50' resource_id='dialpad_0_holder'\
+    \ alt='Zero'>\n                  <button id='51' resource_id='dialpad_0'>0</button>\n\
+    \                  <button id='52' resource_id='dialpad_plus_letters'>+</button>\n\
+    \                </button>\n                <button id='53' resource_id='dialpad_hashtag_holder'\
+    \ alt='Hashtag'>\n                  <button id='54' resource_id='dialpad_hashtag'>#</button>\n\
+    \                </button>\n              </ViewGroup>\n              <button\
+    \ id='55' resource_id='dialpad_call_button' alt='Call number'></button>\n    \
+    \        </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 44991ba31c23381eebee7c227961124562619bf8cd93ccfd1157d28b7982ed98
+  state_str: '9'
+  tag: 2023-07-02_113353
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 22
+  Choice: 22
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='dialpad_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='dialpad_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>Dialpad</p>\n              <LinearLayoutCompat\
+    \ id='9'>\n                <button id='10' resource_id='add_number_to_contact'\
+    \ alt='Add number to contact'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <ViewGroup id='11' resource_id='dialpad_holder'>\n\
+    \              <p id='12' resource_id='dialpad_placeholder'>No contacts found</p>\n\
+    \              <ViewGroup id='13' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \              <LinearLayout id='17' resource_id='letter_fastscroller'></LinearLayout>\n\
+    \              <TextView id='18' resource_id='dialpad_divider'></TextView>\n \
+    \             <input id='19' resource_id='dialpad_input'>91</input>\n        \
+    \      <ImageView id='20' resource_id='dialpad_clear_char'></ImageView>\n    \
+    \          <ViewGroup id='21' resource_id='dialpad_wrapper'>\n               \
+    \ <button id='22' resource_id='dialpad_1_holder' alt='One'>\n                \
+    \  <button id='23' resource_id='dialpad_1'>1</button>\n                </button>\n\
+    \                <button id='24' resource_id='dialpad_2_holder' alt='Two'>\n \
+    \                 <button id='25' resource_id='dialpad_2'>2</button>\n       \
+    \           <button id='26' resource_id='dialpad_2_letters'>ABC</button>\n   \
+    \             </button>\n                <button id='27' resource_id='dialpad_3_holder'\
+    \ alt='Three'>\n                  <button id='28' resource_id='dialpad_3'>3</button>\n\
+    \                  <button id='29' resource_id='dialpad_3_letters'>DEF</button>\n\
+    \                </button>\n                <button id='30' resource_id='dialpad_4_holder'\
+    \ alt='Four'>\n                  <button id='31' resource_id='dialpad_4'>4</button>\n\
+    \                  <button id='32' resource_id='dialpad_4_letters'>GHI</button>\n\
+    \                </button>\n                <button id='33' resource_id='dialpad_5_holder'\
+    \ alt='Five'>\n                  <button id='34' resource_id='dialpad_5'>5</button>\n\
+    \                  <button id='35' resource_id='dialpad_5_letters'>JKL</button>\n\
+    \                </button>\n                <button id='36' resource_id='dialpad_6_holder'\
+    \ alt='Six'>\n                  <button id='37' resource_id='dialpad_6'>6</button>\n\
+    \                  <button id='38' resource_id='dialpad_6_letters'>MNO</button>\n\
+    \                </button>\n                <button id='39' resource_id='dialpad_7_holder'\
+    \ alt='Seven'>\n                  <button id='40' resource_id='dialpad_7'>7</button>\n\
+    \                  <button id='41' resource_id='dialpad_7_letters'>PQRS</button>\n\
+    \                </button>\n                <button id='42' resource_id='dialpad_8_holder'\
+    \ alt='Eight'>\n                  <button id='43' resource_id='dialpad_8'>8</button>\n\
+    \                  <button id='44' resource_id='dialpad_8_letters'>TUV</button>\n\
+    \                </button>\n                <button id='45' resource_id='dialpad_9_holder'\
+    \ alt='Nine'>\n                  <button id='46' resource_id='dialpad_9'>9</button>\n\
+    \                  <button id='47' resource_id='dialpad_9_letters'>WXYZ</button>\n\
+    \                </button>\n                <button id='48' resource_id='dialpad_asterisk_holder'\
+    \ alt='Asterisk'>\n                  <button id='49' resource_id='dialpad_asterisk'>*</button>\n\
+    \                </button>\n                <button id='50' resource_id='dialpad_0_holder'\
+    \ alt='Zero'>\n                  <button id='51' resource_id='dialpad_0'>0</button>\n\
+    \                  <button id='52' resource_id='dialpad_plus_letters'>+</button>\n\
+    \                </button>\n                <button id='53' resource_id='dialpad_hashtag_holder'\
+    \ alt='Hashtag'>\n                  <button id='54' resource_id='dialpad_hashtag'>#</button>\n\
+    \                </button>\n              </ViewGroup>\n              <button\
+    \ id='55' resource_id='dialpad_call_button' alt='Call number'></button>\n    \
+    \        </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 7653c18bd1ec273f69742c10e68cdf1d94d6853a17c436e4c0c08fd80bad2a29
+  state_str: '8'
+  tag: 2023-07-02_113405
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 55
+  Choice: 55
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='dialpad_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='dialpad_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>Dialpad</p>\n              <LinearLayoutCompat\
+    \ id='9'>\n                <button id='10' resource_id='add_number_to_contact'\
+    \ alt='Add number to contact'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <ViewGroup id='11' resource_id='dialpad_holder'>\n\
+    \              <p id='12' resource_id='dialpad_placeholder'>No contacts found</p>\n\
+    \              <ViewGroup id='13' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \              <LinearLayout id='17' resource_id='letter_fastscroller'></LinearLayout>\n\
+    \              <TextView id='18' resource_id='dialpad_divider'></TextView>\n \
+    \             <input id='19' resource_id='dialpad_input'>911</input>\n       \
+    \       <ImageView id='20' resource_id='dialpad_clear_char'></ImageView>\n   \
+    \           <ViewGroup id='21' resource_id='dialpad_wrapper'>\n              \
+    \  <button id='22' resource_id='dialpad_1_holder' alt='One'>\n               \
+    \   <button id='23' resource_id='dialpad_1'>1</button>\n                </button>\n\
+    \                <button id='24' resource_id='dialpad_2_holder' alt='Two'>\n \
+    \                 <button id='25' resource_id='dialpad_2'>2</button>\n       \
+    \           <button id='26' resource_id='dialpad_2_letters'>ABC</button>\n   \
+    \             </button>\n                <button id='27' resource_id='dialpad_3_holder'\
+    \ alt='Three'>\n                  <button id='28' resource_id='dialpad_3'>3</button>\n\
+    \                  <button id='29' resource_id='dialpad_3_letters'>DEF</button>\n\
+    \                </button>\n                <button id='30' resource_id='dialpad_4_holder'\
+    \ alt='Four'>\n                  <button id='31' resource_id='dialpad_4'>4</button>\n\
+    \                  <button id='32' resource_id='dialpad_4_letters'>GHI</button>\n\
+    \                </button>\n                <button id='33' resource_id='dialpad_5_holder'\
+    \ alt='Five'>\n                  <button id='34' resource_id='dialpad_5'>5</button>\n\
+    \                  <button id='35' resource_id='dialpad_5_letters'>JKL</button>\n\
+    \                </button>\n                <button id='36' resource_id='dialpad_6_holder'\
+    \ alt='Six'>\n                  <button id='37' resource_id='dialpad_6'>6</button>\n\
+    \                  <button id='38' resource_id='dialpad_6_letters'>MNO</button>\n\
+    \                </button>\n                <button id='39' resource_id='dialpad_7_holder'\
+    \ alt='Seven'>\n                  <button id='40' resource_id='dialpad_7'>7</button>\n\
+    \                  <button id='41' resource_id='dialpad_7_letters'>PQRS</button>\n\
+    \                </button>\n                <button id='42' resource_id='dialpad_8_holder'\
+    \ alt='Eight'>\n                  <button id='43' resource_id='dialpad_8'>8</button>\n\
+    \                  <button id='44' resource_id='dialpad_8_letters'>TUV</button>\n\
+    \                </button>\n                <button id='45' resource_id='dialpad_9_holder'\
+    \ alt='Nine'>\n                  <button id='46' resource_id='dialpad_9'>9</button>\n\
+    \                  <button id='47' resource_id='dialpad_9_letters'>WXYZ</button>\n\
+    \                </button>\n                <button id='48' resource_id='dialpad_asterisk_holder'\
+    \ alt='Asterisk'>\n                  <button id='49' resource_id='dialpad_asterisk'>*</button>\n\
+    \                </button>\n                <button id='50' resource_id='dialpad_0_holder'\
+    \ alt='Zero'>\n                  <button id='51' resource_id='dialpad_0'>0</button>\n\
+    \                  <button id='52' resource_id='dialpad_plus_letters'>+</button>\n\
+    \                </button>\n                <button id='53' resource_id='dialpad_hashtag_holder'\
+    \ alt='Hashtag'>\n                  <button id='54' resource_id='dialpad_hashtag'>#</button>\n\
+    \                </button>\n              </ViewGroup>\n              <button\
+    \ id='55' resource_id='dialpad_call_button' alt='Call number'></button>\n    \
+    \        </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 3eb56ef10736bd909656274aaf3e0a8a42b5859ed3d8827ca6a4a98a5a6f0cdf
+  state_str: '6'
+  tag: 2023-07-02_113413
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <FrameLayout id='3'>\n        <FrameLayout id='4' resource_id='main'>\n\
+    \          <FrameLayout id='5'>\n            <RelativeLayout id='7' resource_id='incall_ui_container'>\n\
+    \              <LinearLayout id='8' resource_id='incall_contact_grid'>\n     \
+    \           <ImageView id='9' resource_id='contactgrid_avatar'></ImageView>\n\
+    \                <LinearLayout id='10'>\n                  <p id='11' resource_id='contactgrid_status_text'\
+    \ status='selected'>Calling\u2026</p>\n                </LinearLayout>\n     \
+    \           <p id='12' resource_id='contactgrid_contact_name'>Emergency number</p>\n\
+    \                <p id='17' resource_id='contactgrid_device_number_text'>This\
+    \ phone&apos;s number: +1 555-521-5554</p>\n              </LinearLayout>\n  \
+    \            <ViewPager id='18' resource_id='incall_pager'>\n                <FrameLayout\
+    \ id='19'>\n                  <GridLayout id='20'>\n                    <button\
+    \ id='21' resource_id='incall_first_button' alt='Keypad'>\n                  \
+    \    <ImageView id='22'></ImageView>\n                      <button id='23'>Keypad</button>\n\
+    \                    </button>\n                    <button id='24' resource_id='incall_second_button'\
+    \ alt='Speaker, is on'>\n                      <ImageView id='25'></ImageView>\n\
+    \                      <button id='26'>Speaker</button>\n                    </button>\n\
+    \                    <button id='27' resource_id='incall_third_button' alt='Add\
+    \ call'>\n                      <ImageView id='28'></ImageView>\n            \
+    \          <button id='29'>Add call</button>\n                    </button>\n\
+    \                  </GridLayout>\n                </FrameLayout>\n           \
+    \   </ViewPager>\n              <FrameLayout id='30' resource_id='incall_dialpad_container'></FrameLayout>\n\
+    \              <button id='31' resource_id='incall_end_call' alt='End call'></button>\n\
+    \            </RelativeLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: f2bf6ead204052af0309a6b8e5206b9b28d45a3ab2d635ec06620bcf6d8c4314
+  state_str: '3'
+  tag: 2023-07-02_113441
+step_num: 6
+task_name: call 911

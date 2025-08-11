@@ -1,0 +1,112 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 33
+  Choice: 33
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <FrameLayout id='6' resource_id='container'>\n              <FrameLayout\
+    \ id='7' resource_id='container'>\n                <scrollbar id='8' resource_id='homeLayout'>\n\
+    \                  <LinearLayout id='9' resource_id='homeAppBar'>\n          \
+    \          <FrameLayout id='10'>\n                      <LinearLayout id='11'\
+    \ resource_id='wordmark'></LinearLayout>\n                      <button id='14'\
+    \ resource_id='privateBrowsingButton' alt='Enable private browsing'></button>\n\
+    \                    </FrameLayout>\n                  </LinearLayout>\n     \
+    \             <scrollbar id='15' resource_id='sessionControlRecyclerView'></scrollbar>\n\
+    \                  <ViewGroup id='18' resource_id='toolbarLayout'>\n         \
+    \           <View id='19' resource_id='bottomBarShadow'></View>\n            \
+    \        <View id='20' resource_id='bottom_bar'></View>\n                    <p\
+    \ id='21' resource_id='toolbar_wrapper' alt='Search or enter address'>\n     \
+    \                 <RelativeLayout id='22' resource_id='search_selector_button'>\n\
+    \                        <CardView id='23' resource_id='search_selector'>\n  \
+    \                        <ViewGroup id='24' resource_id='tab_item'>\n        \
+    \                    <button id='25' resource_id='icon' alt='Google'></button>\n\
+    \                            <ImageView id='26' resource_id='arrow'></ImageView>\n\
+    \                          </ViewGroup>\n                        </CardView>\n\
+    \                      </RelativeLayout>\n                      <p id='27' resource_id='toolbar'>Search\
+    \ or enter address</p>\n                    </p>\n                    <RelativeLayout\
+    \ id='28' resource_id='tab_button'>\n                      <button id='29' resource_id='counter_root'\
+    \ alt='0 open tabs. Tap to switch tabs.'>\n                        <button id='30'\
+    \ resource_id='counter_box' alt='The tab counter toolbar button.'></button>\n\
+    \                        <button id='31' resource_id='counter_text'>0</button>\n\
+    \                      </button>\n                    </RelativeLayout>\n    \
+    \                <FrameLayout id='32' resource_id='menuButton'>\n            \
+    \          <button id='33' resource_id='icon' alt='Menu'></button>\n         \
+    \             <button id='34' resource_id='notification_dot' alt='Highlighted'></button>\n\
+    \                    </FrameLayout>\n                  </ViewGroup>\n        \
+    \        </scrollbar>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </LinearLayout>\n  \
+    \  </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8296582e793e9f504816578383d9d54e13b7fac650c9089e45589743940ebf27
+  state_str: a3cb8fb13bd7c9669e226f206b603089b175e197100a1cf07bb1db68002a0d16
+  tag: 2023-07-12_220314
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <FrameLayout id='2' resource_id='mozac_browser_menu_menuView'>\n\
+    \      <RecyclerView id='3' resource_id='mozac_browser_menu_recyclerView'>\n \
+    \       <LinearLayout id='4'>\n          <ImageView id='5' resource_id='image'></ImageView>\n\
+    \          <button id='6' resource_id='text'>Bookmarks</button>\n          <View\
+    \ id='7'></View>\n        </LinearLayout>\n        <LinearLayout id='8'>\n   \
+    \       <ImageView id='9' resource_id='image'></ImageView>\n          <button\
+    \ id='10' resource_id='text'>History</button>\n          <View id='11'></View>\n\
+    \        </LinearLayout>\n        <LinearLayout id='12'>\n          <ImageView\
+    \ id='13' resource_id='image'></ImageView>\n          <button id='14' resource_id='text'>Downloads</button>\n\
+    \          <View id='15'></View>\n        </LinearLayout>\n        <LinearLayout\
+    \ id='16'>\n          <ImageView id='17' resource_id='image'></ImageView>\n  \
+    \        <button id='18' resource_id='text'>Add-ons</button>\n          <View\
+    \ id='19'></View>\n        </LinearLayout>\n        <LinearLayout id='20'>\n \
+    \         <ImageView id='21' resource_id='image'></ImageView>\n          <button\
+    \ id='22' resource_id='text'>Sync and save data</button>\n          <View id='23'></View>\n\
+    \        </LinearLayout>\n        <button id='24' resource_id='simple_text'>Manage\
+    \ Account and Devices</button>\n        <View id='25'></View>\n        <checkbox\
+    \ id='26' resource_id='switch_widget'>Desktop site</checkbox>\n        <View id='27'></View>\n\
+    \        <button id='28' alt='Highlighted, What\u2019s new'>\n          <ImageView\
+    \ id='29' resource_id='image'></ImageView>\n          <button id='30' resource_id='notification_dot'\
+    \ alt='Highlighted'></button>\n          <button id='31' resource_id='highlight_text'>What\u2019\
+    s new</button>\n          <ImageView id='32' resource_id='end_image'></ImageView>\n\
+    \        </button>\n        <LinearLayout id='33'>\n          <ImageView id='34'\
+    \ resource_id='image'></ImageView>\n          <button id='35' resource_id='text'>Help</button>\n\
+    \          <View id='36'></View>\n        </LinearLayout>\n        <LinearLayout\
+    \ id='37'>\n          <ImageView id='38' resource_id='image'></ImageView>\n  \
+    \        <button id='39' resource_id='text'>Customize homepage</button>\n    \
+    \    </LinearLayout>\n        <LinearLayout id='41'>\n          <ImageView id='42'\
+    \ resource_id='image'></ImageView>\n          <button id='43' resource_id='text'>Settings</button>\n\
+    \          <View id='44'></View>\n        </LinearLayout>\n      </RecyclerView>\n\
+    \    </FrameLayout>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 39180632bed6820472c6b99209b673b6fc599e7f661164ee753d0964854383bf
+  state_str: '9'
+  tag: 2023-07-12_220454
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Downloads</p>\n\
+    \              <LinearLayoutCompat id='9'>\n                <button id='10' resource_id='close_history'\
+    \ alt='Close'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <FrameLayout id='11' resource_id='container'>\n              <FrameLayout\
+    \ id='12' resource_id='container'>\n                <FrameLayout id='13' resource_id='downloadsLayout'>\n\
+    \                  <ViewGroup id='14' resource_id='download_wrapper'>\n      \
+    \              <p id='15' resource_id='download_empty_view'>No downloaded files</p>\n\
+    \                    <ViewGroup id='16' resource_id='swipe_refresh'></ViewGroup>\n\
+    \                  </ViewGroup>\n                </FrameLayout>\n            \
+    \  </FrameLayout>\n            </FrameLayout>\n          </LinearLayout>\n   \
+    \     </FrameLayout>\n      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 0c93dc1459af0daa90156ba17264816e789a9755e12d45240bef26020ef0fa56
+  state_str: e
+  tag: 2023-07-12_214658
+step_num: 3
+task_name: view files dowloaded through firefox

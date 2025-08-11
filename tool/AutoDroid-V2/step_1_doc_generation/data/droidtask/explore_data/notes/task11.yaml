@@ -1,0 +1,256 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='open_search' alt='Search'></button>\n\
+    \                <button id='9' resource_id='open_note' alt='Open note'></button>\n\
+    \                <button id='10' resource_id='new_note' alt='Create a new note'></button>\n\
+    \                <button id='11' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <LinearLayout id='12' resource_id='main_linear_layout'>\n\
+    \              <scrollbar id='13' resource_id='view_pager'>\n                <ViewGroup\
+    \ id='14' resource_id='pager_tab_strip'>\n                  <p id='16'>Diary</p>\n\
+    \                  <button id='17'>General note</button>\n                </ViewGroup>\n\
+    \                <RelativeLayout id='18' resource_id='note_fragment_holder'>\n\
+    \                  <ScrollView id='19' resource_id='notes_scrollview'>\n     \
+    \               <RelativeLayout id='20' resource_id='notes_relative_layout'>\n\
+    \                      <input id='21' resource_id='text_note_view'>2023.6.10 Sunny</input>\n\
+    \                    </RelativeLayout>\n                  </ScrollView>\n    \
+    \            </RelativeLayout>\n              </scrollbar>\n            </LinearLayout>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str: 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+  tag: 2023-07-08_210440
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Add a new note</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <LinearLayout id='10' resource_id='dialog_holder'>\n\
+    \                  <LinearLayout id='11' resource_id='note_title_hint'>\n    \
+    \                <FrameLayout id='12'>\n                      <input id='13' resource_id='locked_note_title'>Label</input>\n\
+    \                    </FrameLayout>\n                  </LinearLayout>\n     \
+    \             <p id='14' resource_id='new_note_type_label'>New note type:</p>\n\
+    \                  <RadioGroup id='15' resource_id='new_note_type'>\n        \
+    \            <checkbox id='16' resource_id='type_text_note' status='selected'>Text\
+    \ note</checkbox>\n                    <checkbox id='17' resource_id='type_checklist'>Checklist</checkbox>\n\
+    \                  </RadioGroup>\n                </LinearLayout>\n          \
+    \    </FrameLayout>\n            </FrameLayout>\n            <ScrollView id='18'\
+    \ resource_id='buttonPanel'>\n              <LinearLayout id='19'>\n         \
+    \       <button id='20' resource_id='button2'>Cancel</button>\n              \
+    \  <button id='21' resource_id='button1'>OK</button>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </LinearLayoutCompat>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 67f3b94e0e34c3430a429ef07289bd7b94c6e3b80719e6fc9d839c0f23ad3b4f
+  state_str: d
+  tag: 2023-07-08_210516
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 13
+    text: test
+  Choice: 13
+  Input: test
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Add a new note</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <LinearLayout id='10' resource_id='dialog_holder'>\n\
+    \                  <LinearLayout id='11' resource_id='note_title_hint'>\n    \
+    \                <FrameLayout id='12'>\n                      <input id='13' resource_id='locked_note_title'>Label</input>\n\
+    \                    </FrameLayout>\n                  </LinearLayout>\n     \
+    \             <p id='14' resource_id='new_note_type_label'>New note type:</p>\n\
+    \                  <RadioGroup id='15' resource_id='new_note_type'>\n        \
+    \            <checkbox id='16' resource_id='type_text_note' status='selected'>Text\
+    \ note</checkbox>\n                    <checkbox id='17' resource_id='type_checklist'>Checklist</checkbox>\n\
+    \                  </RadioGroup>\n                </LinearLayout>\n          \
+    \    </FrameLayout>\n            </FrameLayout>\n            <ScrollView id='18'\
+    \ resource_id='buttonPanel'>\n              <LinearLayout id='19'>\n         \
+    \       <button id='20' resource_id='button2'>Cancel</button>\n              \
+    \  <button id='21' resource_id='button1'>OK</button>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </LinearLayoutCompat>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 67f3b94e0e34c3430a429ef07289bd7b94c6e3b80719e6fc9d839c0f23ad3b4f
+  state_str: d
+  tag: 2023-07-08_210516_2
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 21
+  Choice: 21
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Add a new note</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <LinearLayout id='10' resource_id='dialog_holder'>\n\
+    \                  <LinearLayout id='11' resource_id='note_title_hint'>\n    \
+    \                <FrameLayout id='12'>\n                      <input id='13' resource_id='locked_note_title'>test</input>\n\
+    \                    </FrameLayout>\n                  </LinearLayout>\n     \
+    \             <p id='14' resource_id='new_note_type_label'>New note type:</p>\n\
+    \                  <RadioGroup id='15' resource_id='new_note_type'>\n        \
+    \            <checkbox id='16' resource_id='type_text_note' status='selected'>Text\
+    \ note</checkbox>\n                    <checkbox id='17' resource_id='type_checklist'>Checklist</checkbox>\n\
+    \                  </RadioGroup>\n                </LinearLayout>\n          \
+    \    </FrameLayout>\n            </FrameLayout>\n            <ScrollView id='18'\
+    \ resource_id='buttonPanel'>\n              <LinearLayout id='19'>\n         \
+    \       <button id='20' resource_id='button2'>Cancel</button>\n              \
+    \  <button id='21' resource_id='button1'>OK</button>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </LinearLayoutCompat>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 2476c9220a98efe3e81ef3f1d74ff68bce4a453506896d7d195469b888ca66d5
+  state_str: '8'
+  tag: 2023-07-03_235543
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 25
+    text: '123456'
+  Choice: 25
+  Input: '123456'
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='open_search' alt='Search'></button>\n\
+    \                <button id='9' resource_id='open_note' alt='Open note'></button>\n\
+    \                <button id='10' resource_id='new_note' alt='Create a new note'></button>\n\
+    \                <button id='11' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <LinearLayout id='12' resource_id='main_linear_layout'>\n\
+    \              <scrollbar id='13' resource_id='view_pager'>\n                <ViewGroup\
+    \ id='14' resource_id='pager_tab_strip'>\n                  <button id='15'>General\
+    \ note</button>\n                  <p id='16'>test</p>\n                </ViewGroup>\n\
+    \                <RelativeLayout id='22' resource_id='note_fragment_holder'>\n\
+    \                  <ScrollView id='23' resource_id='notes_scrollview'>\n     \
+    \               <RelativeLayout id='24' resource_id='notes_relative_layout'>\n\
+    \                      <input id='25' resource_id='text_note_view'>Insert text\
+    \ here</input>\n                    </RelativeLayout>\n                  </ScrollView>\n\
+    \                </RelativeLayout>\n              </scrollbar>\n            </LinearLayout>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: d80b5590e20ee4f1cfa5ead6305051272ec838ef0c852f9ccface63d47f4d130
+  state_str: 314bbe9ac7c9179594055a45533a687e6f19c9ec76cbf4062f8b303c20f853e3
+  tag: 2023-07-03_224739
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 8
+  Choice: 8
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='open_search' alt='Search'></button>\n\
+    \                <button id='9' resource_id='open_note' alt='Open note'></button>\n\
+    \                <button id='10' resource_id='new_note' alt='Create a new note'></button>\n\
+    \                <button id='11' resource_id='undo' alt='Undo'></button>\n   \
+    \             <button id='12' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <LinearLayout id='13' resource_id='main_linear_layout'>\n\
+    \              <scrollbar id='14' resource_id='view_pager'>\n                <ViewGroup\
+    \ id='15' resource_id='pager_tab_strip'>\n                  <button id='16'>General\
+    \ note</button>\n                  <p id='17'>test</p>\n                </ViewGroup>\n\
+    \                <RelativeLayout id='23' resource_id='note_fragment_holder'>\n\
+    \                  <ScrollView id='24' resource_id='notes_scrollview'>\n     \
+    \               <RelativeLayout id='25' resource_id='notes_relative_layout'>\n\
+    \                      <input id='26' resource_id='text_note_view'>123456</input>\n\
+    \                    </RelativeLayout>\n                  </ScrollView>\n    \
+    \            </RelativeLayout>\n              </scrollbar>\n            </LinearLayout>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 2ae0ba1369deb653432f916b42f2a3bcd22f346066073d396e8d77dca0000b49
+  state_str: 559c1db140507325694890ad23089fa6ed36de56e0d00c1ececcff2a9c30dff9
+  tag: 2023-07-03_224803
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 16
+    text: '234'
+  Choice: 16
+  Input: '234'
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='open_search' alt='Search'></button>\n\
+    \                <button id='9' resource_id='open_note' alt='Open note'></button>\n\
+    \                <button id='10' resource_id='new_note' alt='Create a new note'></button>\n\
+    \                <button id='11' resource_id='undo' alt='Undo'></button>\n   \
+    \             <button id='12' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <LinearLayout id='13' resource_id='main_linear_layout'>\n\
+    \              <FrameLayout id='14' resource_id='search_wrapper'>\n          \
+    \      <LinearLayout id='15' resource_id='search_layout'>\n                  <input\
+    \ id='16' resource_id='search_query'>Search</input>\n                  <ImageView\
+    \ id='17' resource_id='search_previous'></ImageView>\n                  <ImageView\
+    \ id='18' resource_id='search_next'></ImageView>\n                  <ImageView\
+    \ id='19' resource_id='search_clear'></ImageView>\n                </LinearLayout>\n\
+    \              </FrameLayout>\n              <scrollbar id='20' resource_id='view_pager'>\n\
+    \                <ViewGroup id='21' resource_id='pager_tab_strip'>\n         \
+    \         <button id='22'>General note</button>\n                  <p id='23'>test</p>\n\
+    \                </ViewGroup>\n                <RelativeLayout id='29' resource_id='note_fragment_holder'>\n\
+    \                  <ScrollView id='30' resource_id='notes_scrollview'>\n     \
+    \               <RelativeLayout id='31' resource_id='notes_relative_layout'>\n\
+    \                      <input id='32' resource_id='text_note_view'>123456</input>\n\
+    \                    </RelativeLayout>\n                  </ScrollView>\n    \
+    \            </RelativeLayout>\n              </scrollbar>\n            </LinearLayout>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: a25fa417b810515701b2be4f0efc5f13af79d2a2ed7adbb8b194ce37f0abf0d9
+  state_str: 446defab84b879fed17cb9c068c9689d24db859f8a0b70a82a6aeeae2352e63d
+  tag: 2023-07-03_224819
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='open_search' alt='Search'></button>\n\
+    \                <button id='9' resource_id='open_note' alt='Open note'></button>\n\
+    \                <button id='10' resource_id='new_note' alt='Create a new note'></button>\n\
+    \                <button id='11' resource_id='undo' alt='Undo'></button>\n   \
+    \             <button id='12' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <LinearLayout id='13' resource_id='main_linear_layout'>\n\
+    \              <FrameLayout id='14' resource_id='search_wrapper'>\n          \
+    \      <LinearLayout id='15' resource_id='search_layout'>\n                  <input\
+    \ id='16' resource_id='search_query'>234</input>\n                  <ImageView\
+    \ id='17' resource_id='search_previous'></ImageView>\n                  <ImageView\
+    \ id='18' resource_id='search_next'></ImageView>\n                  <ImageView\
+    \ id='19' resource_id='search_clear'></ImageView>\n                </LinearLayout>\n\
+    \              </FrameLayout>\n              <scrollbar id='20' resource_id='view_pager'>\n\
+    \                <ViewGroup id='21' resource_id='pager_tab_strip'>\n         \
+    \         <button id='22'>General note</button>\n                  <p id='23'>test</p>\n\
+    \                </ViewGroup>\n                <RelativeLayout id='29' resource_id='note_fragment_holder'>\n\
+    \                  <ScrollView id='30' resource_id='notes_scrollview'>\n     \
+    \               <RelativeLayout id='31' resource_id='notes_relative_layout'>\n\
+    \                      <input id='32' resource_id='text_note_view'>123456</input>\n\
+    \                    </RelativeLayout>\n                  </ScrollView>\n    \
+    \            </RelativeLayout>\n              </scrollbar>\n            </LinearLayout>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 6962b14932bf852ecf8a6c3a7dce89dd0019cf2bd14730961b37fdde8b8c1e6e
+  state_str: 17478af7154c4df444cb5043f9804ca5a34f0c155104762bb38f2408a025da54
+  tag: 2023-07-03_224842
+step_num: 10
+task_name: Create a text note called 'test', type '12345678', and search for '234'

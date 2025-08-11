@@ -1,0 +1,1950 @@
+records:
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 50
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <scrollbar id='9'>\n       \
+    \             <scrollbar id='10'>\n                      <View id='11'>\n    \
+    \                    <button id='12'>\n                          <View id='14'>\n\
+    \                            <button id='15'>Save 25% off two months of UFC Fight\
+    \ Pass with UFC</button>\n                          </View>\n                \
+    \          <button id='16'>Expires in 6 days</button>\n                      \
+    \  </button>\n                        <button id='17'>\n                     \
+    \     <button id='18' alt='UFC\nUFC\xAE - The Ultimate Fighting Championship\xAE\
+    \nStar rating: 4.8\nParental guidance\n'></button>\n                         \
+    \ <button id='19'>\n                            <button id='20' alt='Install'>Install</button>\n\
+    \                            <button id='21' alt='Install on more devices'></button>\n\
+    \                          </button>\n                          <button id='23'>In-app\
+    \ purchases</button>\n                        </button>\n                    \
+    \  </View>\n                      <View id='24'>\n                        <button\
+    \ id='25'>\n                          <button id='27'>Update available</button>\n\
+    \                        </button>\n                      </View>\n          \
+    \          </scrollbar>\n                    <p id='28'>Sponsored</p>\n      \
+    \              <p id='29'>Suggested for you</p>\n                    <button id='30'\
+    \ alt='About this ad'></button>\n                    <scrollbar id='31'>\n   \
+    \                   <button id='32'>\n                        <button id='33'\
+    \ alt='Booking.com: Hotels and more\nTravel &amp; Local\nAccommodation\nFlights\n\
+    Star rating: 4.7\n'></button>\n                      </button>\n             \
+    \         <button id='34'>\n                        <button id='35' alt='GetYourGuide:\
+    \ Travel &amp; Tickets\nTravel &amp; Local\nPlace of interest\nStar rating: 4.9\n\
+    '></button>\n                      </button>\n                      <button id='36'>\n\
+    \                        <button id='37' alt='Hearthstone\nCard\nCard battler\n\
+    Casual\nCompetitive\nStar rating: 4.4\n'></button>\n                      </button>\n\
+    \                      <button id='38'></button>\n                      <button\
+    \ id='39'></button>\n                      <button id='40'></button>\n       \
+    \             </scrollbar>\n                    <button id='41'>\n           \
+    \           <button id='42'>Recommended for you</button>\n                   \
+    \   <button id='43' alt='More results for Recommended for you'></button>\n   \
+    \                 </button>\n                  </scrollbar>\n                \
+    \  <button id='44'></button>\n                  <button id='45'>\n           \
+    \         <button id='46' alt='Show notifications and offers.'></button>\n   \
+    \               </button>\n                  <button id='48'>\n              \
+    \      <button id='50' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                      <FrameLayout id='51' resource_id='0_resource_name_obfuscated'></FrameLayout>\n\
+    \                    </button>\n                  </button>\n                \
+    \  <View id='54'>\n                    <View id='55'>\n                      <View\
+    \ id='56'>\n                        <p id='57'>For you</p>\n                 \
+    \     </View>\n                      <button id='59'>\n                      \
+    \  <button id='60'>Top charts</button>\n                      </button>\n    \
+    \                  <button id='62'>\n                        <button id='63'>Kids</button>\n\
+    \                      </button>\n                      <button id='65'>\n   \
+    \                     <button id='66'>Categories</button>\n                  \
+    \    </button>\n                    </View>\n                  </View>\n     \
+    \             <View id='68'>\n                    <View id='69'>\n           \
+    \           <button id='70'>\n                        <button id='73'>Games</button>\n\
+    \                      </button>\n                      <View id='75'>\n     \
+    \                   <p id='78'>Apps</p>\n                      </View>\n     \
+    \                 <button id='80'>\n                        <button id='83'>Search</button>\n\
+    \                      </button>\n                    </View>\n              \
+    \    </View>\n                </View>\n              </ComposeView>\n        \
+    \    </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: f3ab5e
+  structure_str: 6cfa0f
+  tag: 2024-11-11_204345
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 89
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5'>\n\
+    \            <FrameLayout id='6'>\n              <ViewGroup id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <FrameLayout id='9' resource_id='0_resource_name_obfuscated'>\n\
+    \                  <button id='10' resource_id='0_resource_name_obfuscated' alt='Close'></button>\n\
+    \                  <FrameLayout id='11' resource_id='0_resource_name_obfuscated'></FrameLayout>\n\
+    \                </FrameLayout>\n                <ScrollView id='13' resource_id='0_resource_name_obfuscated'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='0_resource_name_obfuscated'>\n                      <FrameLayout\
+    \ id='16' resource_id='0_resource_name_obfuscated'>\n                        <LinearLayout\
+    \ id='17' resource_id='0_resource_name_obfuscated'>\n                        \
+    \  <CardView id='18'>\n                            <LinearLayout id='19'>\n  \
+    \                            <button id='20' resource_id='0_resource_name_obfuscated'>\n\
+    \                                <FrameLayout id='21' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='22' resource_id='0_resource_name_obfuscated'\
+    \ alt='Change profile picture.'></button>\n                                </FrameLayout>\n\
+    \                                <button id='26' resource_id='0_resource_name_obfuscated'\
+    \ alt='Signed in as Agent Test\ntestmobileagent11@gmail.com'>Agent Test</button>\n\
+    \                                <button id='27' resource_id='0_resource_name_obfuscated'>testmobileagent11@gmail.com</button>\n\
+    \                                <FrameLayout id='28' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='29' resource_id='0_resource_name_obfuscated'\
+    \ alt='Expand account list.'></button>\n                                </FrameLayout>\n\
+    \                              </button>\n                              <FrameLayout\
+    \ id='30'>\n                                <button id='31' resource_id='0_resource_name_obfuscated'>Manage\
+    \ your Google Account</button>\n                              </FrameLayout>\n\
+    \                              <RecyclerView id='33' resource_id='0_resource_name_obfuscated'>\n\
+    \                                <button id='34' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <FrameLayout id='35' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <FrameLayout id='36' resource_id='0_resource_name_obfuscated'>\n\
+    \                                      <ViewGroup id='37' resource_id='0_resource_name_obfuscated'>\n\
+    \                                        <button id='39' resource_id='0_resource_name_obfuscated'>Manage\
+    \ apps &amp; device</button>\n                                      </ViewGroup>\n\
+    \                                    </FrameLayout>\n                        \
+    \          </FrameLayout>\n                                </button>\n       \
+    \                         <button id='41' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <FrameLayout id='42' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <FrameLayout id='43' resource_id='0_resource_name_obfuscated'>\n\
+    \                                      <ViewGroup id='44' resource_id='0_resource_name_obfuscated'>\n\
+    \                                        <button id='46' resource_id='0_resource_name_obfuscated'>Notifications\
+    \ &amp; offers</button>\n                                      </ViewGroup>\n\
+    \                                    </FrameLayout>\n                        \
+    \          </FrameLayout>\n                                </button>\n       \
+    \                         <button id='48' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <FrameLayout id='49' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <FrameLayout id='50' resource_id='0_resource_name_obfuscated'>\n\
+    \                                      <ViewGroup id='51' resource_id='0_resource_name_obfuscated'>\n\
+    \                                        <button id='53' resource_id='0_resource_name_obfuscated'>Payments\
+    \ &amp; subscriptions</button>\n                                      </ViewGroup>\n\
+    \                                    </FrameLayout>\n                        \
+    \          </FrameLayout>\n                                </button>\n       \
+    \                         <button id='55' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <FrameLayout id='56' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <FrameLayout id='57' resource_id='0_resource_name_obfuscated'>\n\
+    \                                      <ViewGroup id='58' resource_id='0_resource_name_obfuscated'>\n\
+    \                                        <button id='60' resource_id='0_resource_name_obfuscated'>Play\
+    \ Protect</button>\n                                      </ViewGroup>\n     \
+    \                               </FrameLayout>\n                             \
+    \     </FrameLayout>\n                                </button>\n            \
+    \                    <button id='62' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <FrameLayout id='63' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <FrameLayout id='64' resource_id='0_resource_name_obfuscated'>\n\
+    \                                      <ViewGroup id='65' resource_id='0_resource_name_obfuscated'>\n\
+    \                                        <button id='67' resource_id='0_resource_name_obfuscated'>Library</button>\n\
+    \                                      </ViewGroup>\n                        \
+    \            </FrameLayout>\n                                  </FrameLayout>\n\
+    \                                </button>\n                                <button\
+    \ id='69' resource_id='0_resource_name_obfuscated'>\n                        \
+    \          <FrameLayout id='70' resource_id='0_resource_name_obfuscated'>\n  \
+    \                                  <FrameLayout id='71' resource_id='0_resource_name_obfuscated'>\n\
+    \                                      <ViewGroup id='72' resource_id='0_resource_name_obfuscated'>\n\
+    \                                        <button id='74' resource_id='0_resource_name_obfuscated'>Play\
+    \ Pass</button>\n                                      </ViewGroup>\n        \
+    \                            </FrameLayout>\n                                \
+    \  </FrameLayout>\n                                </button>\n               \
+    \               </RecyclerView>\n                            </LinearLayout>\n\
+    \                          </CardView>\n                          <RecyclerView\
+    \ id='76' resource_id='0_resource_name_obfuscated'>\n                        \
+    \    <button id='77' resource_id='0_resource_name_obfuscated'>\n             \
+    \                 <FrameLayout id='78' resource_id='0_resource_name_obfuscated'>\n\
+    \                                <FrameLayout id='79' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <ViewGroup id='80' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <button id='82' resource_id='0_resource_name_obfuscated'>Personalization\
+    \ in Play</button>\n                                  </ViewGroup>\n         \
+    \                       </FrameLayout>\n                              </FrameLayout>\n\
+    \                            </button>\n                            <button id='84'\
+    \ resource_id='0_resource_name_obfuscated'>\n                              <FrameLayout\
+    \ id='85' resource_id='0_resource_name_obfuscated'>\n                        \
+    \        <FrameLayout id='86' resource_id='0_resource_name_obfuscated'>\n    \
+    \                              <ViewGroup id='87' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <button id='89' resource_id='0_resource_name_obfuscated'>Settings</button>\n\
+    \                                  </ViewGroup>\n                            \
+    \    </FrameLayout>\n                              </FrameLayout>\n          \
+    \                  </button>\n                            <button id='91' resource_id='0_resource_name_obfuscated'>\n\
+    \                              <FrameLayout id='92' resource_id='0_resource_name_obfuscated'>\n\
+    \                                <FrameLayout id='93' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <ViewGroup id='94' resource_id='0_resource_name_obfuscated'>\n\
+    \                                    <button id='96' resource_id='0_resource_name_obfuscated'>Help\
+    \ &amp; feedback</button>\n                                  </ViewGroup>\n  \
+    \                              </FrameLayout>\n                              </FrameLayout>\n\
+    \                            </button>\n                          </RecyclerView>\n\
+    \                        </LinearLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='99' resource_id='0_resource_name_obfuscated'>\n\
+    \                        <ViewGroup id='100'>\n                          <button\
+    \ id='101' resource_id='0_resource_name_obfuscated'>Privacy Policy</button>\n\
+    \                          <button id='103' resource_id='0_resource_name_obfuscated'>Terms\
+    \ of Service</button>\n                          <button id='105' resource_id='0_resource_name_obfuscated'>About\
+    \ Google Play</button>\n                        </ViewGroup>\n               \
+    \       </FrameLayout>\n                    </LinearLayout>\n                \
+    \  </FrameLayout>\n                </ScrollView>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 83c8ef
+  structure_str: 01cef1
+  tag: 2024-11-11_204436
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <button id='10'>\n                      <button id='11'>General</button>\n\
+    \                      <button id='12'>Account preferences, notifications</button>\n\
+    \                      <button id='13' alt='Click to expand the General settings\
+    \ section'></button>\n                    </button>\n                    <button\
+    \ id='14'>\n                      <button id='15'>Network preferences</button>\n\
+    \                      <button id='16'>Data usage for downloads, auto-updates</button>\n\
+    \                      <button id='17' alt='Click to expand the Network preferences\
+    \ settings section'></button>\n                    </button>\n               \
+    \     <button id='18'>\n                      <button id='19'>Purchase verification</button>\n\
+    \                      <button id='20'>Applies to purchases through Google Play\
+    \ for this </button>\n                      <button id='21' alt='Click to expand\
+    \ the Purchase verification settings section'></button>\n                    </button>\n\
+    \                    <button id='22'>\n                      <button id='23'>Family</button>\n\
+    \                      <button id='24'>Parental control, parent guide</button>\n\
+    \                      <button id='25' alt='Click to expand the Family settings\
+    \ section'></button>\n                    </button>\n                    <button\
+    \ id='26'>\n                      <button id='27'>About</button>\n           \
+    \           <button id='28'>Play store, build version, device certification</button>\n\
+    \                      <button id='29' alt='Click to expand the About settings\
+    \ section'></button>\n                    </button>\n                  </View>\n\
+    \                  <View id='30'>\n                    <View id='31'>\n      \
+    \                <button id='32'>\n                        <button id='33' alt='Navigate\
+    \ up'></button>\n                      </button>\n                    </View>\n\
+    \                    <p id='35'>Settings</p>\n                  </View>\n    \
+    \            </View>\n              </ComposeView>\n            </FrameLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 48b18c
+  structure_str: 9971ba
+  tag: 2024-11-11_204457
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <scrollbar id='9'>\n       \
+    \             <button id='10'>\n                      <button id='11'>General</button>\n\
+    \                      <button id='12'>Account preferences, notifications</button>\n\
+    \                      <button id='13' alt='Click to collapse the General settings\
+    \ section'></button>\n                    </button>\n                    <button\
+    \ id='14'>\n                      <button id='15'>Account and device preferences</button>\n\
+    \                      <button id='16'>Account, country, &amp; history</button>\n\
+    \                    </button>\n                    <button id='17'>\n       \
+    \               <button id='18'>Notifications</button>\n                     \
+    \ <button id='19'>Manage notification settings</button>\n                    </button>\n\
+    \                    <button id='20'>\n                      <button id='21'>Theme</button>\n\
+    \                      <button id='22'>System default</button>\n             \
+    \       </button>\n                    <button id='23'>\n                    \
+    \  <button id='24'>Google Play Instant</button>\n                      <button\
+    \ id='25'>Use apps and games without installation</button>\n                 \
+    \   </button>\n                    <button id='26'>\n                      <button\
+    \ id='27'>Google Play Store Feedback</button>\n                      <button id='28'>Control\
+    \ surveys and responses</button>\n                    </button>\n            \
+    \        <button id='29'>\n                      <button id='30'>Automatically\
+    \ archive apps</button>\n                      <button id='31'>Apps you use rarely\
+    \ will be archived when your sto</button>\n                    </button>\n   \
+    \                 <checkbox id='32' alt='Automatically archive apps'></checkbox>\n\
+    \                    <button id='33'>\n                      <button id='34'>Interests</button>\n\
+    \                      <button id='35'>Change what you want to see on Play</button>\n\
+    \                    </button>\n                    <button id='36'>\n       \
+    \               <button id='37'>Network preferences</button>\n               \
+    \       <button id='38'>Data usage for downloads, auto-updates</button>\n    \
+    \                  <button id='39' alt='Click to expand the Network preferences\
+    \ settings section'></button>\n                    </button>\n               \
+    \     <button id='40'>\n                      <button id='41'>Purchase verification</button>\n\
+    \                    </button>\n                  </scrollbar>\n             \
+    \     <View id='42'>\n                    <View id='43'>\n                   \
+    \   <button id='44'>\n                        <button id='45' alt='Navigate up'></button>\n\
+    \                      </button>\n                    </View>\n              \
+    \      <p id='47'>Settings</p>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: '321371'
+  structure_str: 9971ba
+  tag: 2024-11-11_204518
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 38
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <FrameLayout id='10'>\n    \
+    \                <FrameLayout id='11' resource_id='0_resource_name_obfuscated'>\n\
+    \                      <scrollbar id='12' resource_id='0_resource_name_obfuscated'>\n\
+    \                        <LinearLayout id='13' resource_id='0_resource_name_obfuscated'>\n\
+    \                          <FrameLayout id='14' resource_id='0_resource_name_obfuscated'>\n\
+    \                            <p id='15' alt='Notification settings'>\n       \
+    \                       <button id='16' alt='Navigate up'></button>\n        \
+    \                      <p id='17'>Notification settings</p>\n                \
+    \            </p>\n                          </FrameLayout>\n                \
+    \        </LinearLayout>\n                        <FrameLayout id='19' resource_id='0_resource_name_obfuscated'>\n\
+    \                          <FrameLayout id='20' resource_id='0_resource_name_obfuscated'>\n\
+    \                            <RecyclerView id='21' resource_id='0_resource_name_obfuscated'>\n\
+    \                              <LinearLayout id='22' resource_id='0_resource_name_obfuscated'>\n\
+    \                                <p id='23' resource_id='0_resource_name_obfuscated'>For\
+    \ this device only</p>\n                              </LinearLayout>\n      \
+    \                        <button id='24'>\n                                <LinearLayout\
+    \ id='25' resource_id='0_resource_name_obfuscated'>\n                        \
+    \          <button id='26' resource_id='0_resource_name_obfuscated'>Account</button>\n\
+    \                                  <button id='27' resource_id='0_resource_name_obfuscated'>Notify\
+    \ about upcoming charges or problems with pay</button>\n                     \
+    \           </LinearLayout>\n                                <checkbox id='28'\
+    \ resource_id='0_resource_name_obfuscated' status='selected'></checkbox>\n   \
+    \                           </button>\n                              <button id='29'>\n\
+    \                                <LinearLayout id='30' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='31' resource_id='0_resource_name_obfuscated'>Updates\
+    \ available</button>\n                                  <button id='32' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when updates are available for apps</button>\n                             \
+    \   </LinearLayout>\n                                <checkbox id='33' resource_id='0_resource_name_obfuscated'\
+    \ status='selected'></checkbox>\n                              </button>\n   \
+    \                           <button id='34'>\n                               \
+    \ <LinearLayout id='35' resource_id='0_resource_name_obfuscated'>\n          \
+    \                        <button id='36' resource_id='0_resource_name_obfuscated'>Updates\
+    \ completed</button>\n                                  <button id='37' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when an app is finished updating</button>\n                                </LinearLayout>\n\
+    \                                <checkbox id='38' resource_id='0_resource_name_obfuscated'></checkbox>\n\
+    \                              </button>\n                              <FrameLayout\
+    \ id='39'></FrameLayout>\n                              <LinearLayout id='41'\
+    \ resource_id='0_resource_name_obfuscated'>\n                                <p\
+    \ id='42' resource_id='0_resource_name_obfuscated'>For your account (testmobileagent11@gmail.com)</p>\n\
+    \                              </LinearLayout>\n                             \
+    \ <button id='43'>\n                                <LinearLayout id='44' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='45' resource_id='0_resource_name_obfuscated'>Pre-registration</button>\n\
+    \                                  <button id='46' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when you can pre-register for new games we </button>\n                     \
+    \           </LinearLayout>\n                                <checkbox id='47'\
+    \ resource_id='0_resource_name_obfuscated'></checkbox>\n                     \
+    \         </button>\n                              <button id='48'>\n        \
+    \                        <LinearLayout id='49' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='50' resource_id='0_resource_name_obfuscated'>Deals\
+    \ and promotions</button>\n                                  <button id='51' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when there are offers we think you&apos;ll like</button>\n                 \
+    \               </LinearLayout>\n                                <checkbox id='52'\
+    \ resource_id='0_resource_name_obfuscated'></checkbox>\n                     \
+    \         </button>\n                            </RecyclerView>\n           \
+    \               </FrameLayout>\n                        </FrameLayout>\n     \
+    \                 </scrollbar>\n                    </FrameLayout>\n         \
+    \         </FrameLayout>\n                </View>\n              </ComposeView>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: feb069
+  structure_str: 62faf0
+  tag: 2024-11-11_204545
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 29
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <ViewGroup id='3' resource_id='content_parent'>\n        <LinearLayout\
+    \ id='4' resource_id='app_bar'>\n          <p id='5' resource_id='collapsing_toolbar'\
+    \ alt='Updates completed'>\n            <ViewGroup id='6' resource_id='action_bar'>\n\
+    \              <button id='7' alt='Navigate up'></button>\n            </ViewGroup>\n\
+    \          </p>\n        </LinearLayout>\n        <FrameLayout id='11' resource_id='content_frame'>\n\
+    \          <LinearLayout id='12'>\n            <FrameLayout id='13' resource_id='main_content'>\n\
+    \              <LinearLayout id='14' resource_id='container_material'>\n     \
+    \           <FrameLayout id='15' resource_id='list_container'>\n             \
+    \     <RecyclerView id='16' resource_id='recycler_view'>\n                   \
+    \ <button id='17'>\n                      <RelativeLayout id='18' resource_id='entity_header'>\n\
+    \                        <button id='19' resource_id='entity_header_content'>\n\
+    \                          <button id='21' resource_id='entity_header_title'>Updates\
+    \ completed</button>\n                          <button id='22' resource_id='entity_header_summary'>Google\
+    \ Play Store \u2022 Alerts</button>\n                        </button>\n     \
+    \                 </RelativeLayout>\n                    </button>\n         \
+    \           <button id='24'>\n                      <button id='25' resource_id='main_switch_bar'>\n\
+    \                        <LinearLayout id='26'>\n                          <LinearLayout\
+    \ id='27' resource_id='frame'>\n                            <button id='28' resource_id='switch_text'>Show\
+    \ notifications</button>\n                            <checkbox id='29' resource_id='switch_widget'></checkbox>\n\
+    \                          </LinearLayout>\n                        </LinearLayout>\n\
+    \                      </button>\n                    </button>\n            \
+    \        <LinearLayout id='30'>\n                      <LinearLayout id='31' resource_id='icon_frame'></LinearLayout>\n\
+    \                      <LinearLayout id='33'>\n                        <p id='34'\
+    \ resource_id='title'>At your request, Android is blocking this category</p>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                  </RecyclerView>\n                </FrameLayout>\n         \
+    \     </LinearLayout>\n            </FrameLayout>\n          </LinearLayout>\n\
+    \        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: c4ed3f
+  structure_str: '994260'
+  tag: 2024-11-11_204640
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 7
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <ViewGroup id='3' resource_id='content_parent'>\n        <LinearLayout\
+    \ id='4' resource_id='app_bar'>\n          <p id='5' resource_id='collapsing_toolbar'\
+    \ alt='Updates completed'>\n            <ViewGroup id='6' resource_id='action_bar'>\n\
+    \              <button id='7' alt='Navigate up'></button>\n            </ViewGroup>\n\
+    \          </p>\n        </LinearLayout>\n        <FrameLayout id='11' resource_id='content_frame'>\n\
+    \          <LinearLayout id='12'>\n            <FrameLayout id='13' resource_id='main_content'>\n\
+    \              <LinearLayout id='14' resource_id='container_material'>\n     \
+    \           <FrameLayout id='15' resource_id='list_container'>\n             \
+    \     <RecyclerView id='16' resource_id='recycler_view'>\n                   \
+    \ <button id='17'>\n                      <RelativeLayout id='18' resource_id='entity_header'>\n\
+    \                        <button id='19' resource_id='entity_header_content'>\n\
+    \                          <button id='21' resource_id='entity_header_title'>Updates\
+    \ completed</button>\n                          <button id='22' resource_id='entity_header_summary'>Google\
+    \ Play Store \u2022 Alerts</button>\n                        </button>\n     \
+    \                 </RelativeLayout>\n                    </button>\n         \
+    \           <button id='24'>\n                      <button id='25' resource_id='main_switch_bar'>\n\
+    \                        <LinearLayout id='26'>\n                          <LinearLayout\
+    \ id='27' resource_id='frame'>\n                            <button id='28' resource_id='switch_text'>Show\
+    \ notifications</button>\n                            <checkbox id='29' resource_id='switch_widget'\
+    \ status='selected'></checkbox>\n                          </LinearLayout>\n \
+    \                       </LinearLayout>\n                      </button>\n   \
+    \                 </button>\n                    <LinearLayout id='30'>\n    \
+    \                  <button id='31' resource_id='alert'>\n                    \
+    \    <button id='33' resource_id='alert_label'>Default</button>\n            \
+    \          </button>\n                      <button id='34' resource_id='silence'\
+    \ status='selected'>\n                        <button id='36' resource_id='silence_label'\
+    \ status='selected'>Silent</button>\n                        <button id='37' resource_id='silence_summary'\
+    \ status='selected'>No sound or vibration</button>\n                      </button>\n\
+    \                    </LinearLayout>\n                    <button id='38'>\n \
+    \                     <LinearLayout id='39' resource_id='icon_frame'></LinearLayout>\n\
+    \                      <RelativeLayout id='41'>\n                        <button\
+    \ id='42' resource_id='title'>Minimize</button>\n                        <button\
+    \ id='43' resource_id='summary'>In the pull-down shade, collapse notifications\
+    \ to </button>\n                      </RelativeLayout>\n                    \
+    \  <LinearLayout id='44' resource_id='widget_frame'>\n                       \
+    \ <checkbox id='45' resource_id='switch_widget'></checkbox>\n                \
+    \      </LinearLayout>\n                    </button>\n                    <button\
+    \ id='46'>\n                      <LinearLayout id='47' resource_id='icon_frame'></LinearLayout>\n\
+    \                      <RelativeLayout id='49'>\n                        <button\
+    \ id='50' resource_id='title'>Show notification dot</button>\n               \
+    \       </RelativeLayout>\n                      <LinearLayout id='51' resource_id='widget_frame'>\n\
+    \                        <checkbox id='52' resource_id='switch_widget' status='selected'></checkbox>\n\
+    \                      </LinearLayout>\n                    </button>\n      \
+    \              <button id='53'>\n                      <LinearLayout id='54' resource_id='icon_frame'></LinearLayout>\n\
+    \                      <RelativeLayout id='56'>\n                        <button\
+    \ id='57' resource_id='title'>Override Do Not Disturb</button>\n             \
+    \           <button id='58' resource_id='summary'>Let these notifications continue\
+    \ to interrupt when</button>\n                      </RelativeLayout>\n      \
+    \                <LinearLayout id='59' resource_id='widget_frame'>\n         \
+    \               <checkbox id='60' resource_id='switch_widget'></checkbox>\n  \
+    \                    </LinearLayout>\n                    </button>\n        \
+    \          </RecyclerView>\n                </FrameLayout>\n              </LinearLayout>\n\
+    \            </FrameLayout>\n          </LinearLayout>\n        </FrameLayout>\n\
+    \      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e4f9b9
+  structure_str: c32df0
+  tag: 2024-11-11_204658
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 16
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <FrameLayout id='10'>\n    \
+    \                <FrameLayout id='11' resource_id='0_resource_name_obfuscated'>\n\
+    \                      <scrollbar id='12' resource_id='0_resource_name_obfuscated'>\n\
+    \                        <LinearLayout id='13' resource_id='0_resource_name_obfuscated'>\n\
+    \                          <FrameLayout id='14' resource_id='0_resource_name_obfuscated'>\n\
+    \                            <p id='15' alt='Notification settings'>\n       \
+    \                       <button id='16' alt='Navigate up'></button>\n        \
+    \                      <p id='17'>Notification settings</p>\n                \
+    \            </p>\n                          </FrameLayout>\n                \
+    \        </LinearLayout>\n                        <FrameLayout id='19' resource_id='0_resource_name_obfuscated'>\n\
+    \                          <FrameLayout id='20' resource_id='0_resource_name_obfuscated'>\n\
+    \                            <RecyclerView id='21' resource_id='0_resource_name_obfuscated'>\n\
+    \                              <LinearLayout id='22' resource_id='0_resource_name_obfuscated'>\n\
+    \                                <p id='23' resource_id='0_resource_name_obfuscated'>For\
+    \ this device only</p>\n                              </LinearLayout>\n      \
+    \                        <button id='24'>\n                                <LinearLayout\
+    \ id='25' resource_id='0_resource_name_obfuscated'>\n                        \
+    \          <button id='26' resource_id='0_resource_name_obfuscated'>Account</button>\n\
+    \                                  <button id='27' resource_id='0_resource_name_obfuscated'>Notify\
+    \ about upcoming charges or problems with pay</button>\n                     \
+    \           </LinearLayout>\n                                <checkbox id='28'\
+    \ resource_id='0_resource_name_obfuscated' status='selected'></checkbox>\n   \
+    \                           </button>\n                              <button id='29'>\n\
+    \                                <LinearLayout id='30' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='31' resource_id='0_resource_name_obfuscated'>Updates\
+    \ available</button>\n                                  <button id='32' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when updates are available for apps</button>\n                             \
+    \   </LinearLayout>\n                                <checkbox id='33' resource_id='0_resource_name_obfuscated'\
+    \ status='selected'></checkbox>\n                              </button>\n   \
+    \                           <button id='34'>\n                               \
+    \ <LinearLayout id='35' resource_id='0_resource_name_obfuscated'>\n          \
+    \                        <button id='36' resource_id='0_resource_name_obfuscated'>Updates\
+    \ completed</button>\n                                  <button id='37' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when an app is finished updating</button>\n                                </LinearLayout>\n\
+    \                                <checkbox id='38' resource_id='0_resource_name_obfuscated'></checkbox>\n\
+    \                              </button>\n                              <FrameLayout\
+    \ id='39'></FrameLayout>\n                              <LinearLayout id='41'\
+    \ resource_id='0_resource_name_obfuscated'>\n                                <p\
+    \ id='42' resource_id='0_resource_name_obfuscated'>For your account (testmobileagent11@gmail.com)</p>\n\
+    \                              </LinearLayout>\n                             \
+    \ <button id='43'>\n                                <LinearLayout id='44' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='45' resource_id='0_resource_name_obfuscated'>Pre-registration</button>\n\
+    \                                  <button id='46' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when you can pre-register for new games we </button>\n                     \
+    \           </LinearLayout>\n                                <checkbox id='47'\
+    \ resource_id='0_resource_name_obfuscated'></checkbox>\n                     \
+    \         </button>\n                              <button id='48'>\n        \
+    \                        <LinearLayout id='49' resource_id='0_resource_name_obfuscated'>\n\
+    \                                  <button id='50' resource_id='0_resource_name_obfuscated'>Deals\
+    \ and promotions</button>\n                                  <button id='51' resource_id='0_resource_name_obfuscated'>Notify\
+    \ when there are offers we think you&apos;ll like</button>\n                 \
+    \               </LinearLayout>\n                                <checkbox id='52'\
+    \ resource_id='0_resource_name_obfuscated'></checkbox>\n                     \
+    \         </button>\n                            </RecyclerView>\n           \
+    \               </FrameLayout>\n                        </FrameLayout>\n     \
+    \                 </scrollbar>\n                    </FrameLayout>\n         \
+    \         </FrameLayout>\n                </View>\n              </ComposeView>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: feb069
+  structure_str: 62faf0
+  tag: 2024-11-11_204717
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 45
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <scrollbar id='9'>\n       \
+    \             <button id='10'>\n                      <button id='11'>General</button>\n\
+    \                      <button id='12'>Account preferences, notifications</button>\n\
+    \                      <button id='13' alt='Click to collapse the General settings\
+    \ section'></button>\n                    </button>\n                    <button\
+    \ id='14'>\n                      <button id='15'>Account and device preferences</button>\n\
+    \                      <button id='16'>Account, country, &amp; history</button>\n\
+    \                    </button>\n                    <button id='17'>\n       \
+    \               <button id='18'>Notifications</button>\n                     \
+    \ <button id='19'>Manage notification settings</button>\n                    </button>\n\
+    \                    <button id='20'>\n                      <button id='21'>Theme</button>\n\
+    \                      <button id='22'>System default</button>\n             \
+    \       </button>\n                    <button id='23'>\n                    \
+    \  <button id='24'>Google Play Instant</button>\n                      <button\
+    \ id='25'>Use apps and games without installation</button>\n                 \
+    \   </button>\n                    <button id='26'>\n                      <button\
+    \ id='27'>Google Play Store Feedback</button>\n                      <button id='28'>Control\
+    \ surveys and responses</button>\n                    </button>\n            \
+    \        <button id='29'>\n                      <button id='30'>Automatically\
+    \ archive apps</button>\n                      <button id='31'>Apps you use rarely\
+    \ will be archived when your sto</button>\n                    </button>\n   \
+    \                 <checkbox id='32' alt='Automatically archive apps'></checkbox>\n\
+    \                    <button id='33'>\n                      <button id='34'>Interests</button>\n\
+    \                      <button id='35'>Change what you want to see on Play</button>\n\
+    \                    </button>\n                    <button id='36'>\n       \
+    \               <button id='37'>Network preferences</button>\n               \
+    \       <button id='38'>Data usage for downloads, auto-updates</button>\n    \
+    \                  <button id='39' alt='Click to expand the Network preferences\
+    \ settings section'></button>\n                    </button>\n               \
+    \     <button id='40'>\n                      <button id='41'>Purchase verification</button>\n\
+    \                    </button>\n                  </scrollbar>\n             \
+    \     <View id='42'>\n                    <View id='43'>\n                   \
+    \   <button id='44'>\n                        <button id='45' alt='Navigate up'></button>\n\
+    \                      </button>\n                    </View>\n              \
+    \      <p id='47'>Settings</p>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: '321371'
+  structure_str: 9971ba
+  tag: 2024-11-11_204734
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 83
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <scrollbar id='9'>\n       \
+    \             <scrollbar id='10'>\n                      <View id='11'>\n    \
+    \                    <button id='12'>\n                          <View id='14'>\n\
+    \                            <button id='15'>Save 25% off two months of UFC Fight\
+    \ Pass with UFC</button>\n                          </View>\n                \
+    \          <button id='16'>Expires in 6 days</button>\n                      \
+    \  </button>\n                        <button id='17'>\n                     \
+    \     <button id='18' alt='UFC\nUFC\xAE - The Ultimate Fighting Championship\xAE\
+    \nStar rating: 4.8\nParental guidance\n'></button>\n                         \
+    \ <button id='19'>\n                            <button id='20' alt='Install'>Install</button>\n\
+    \                            <button id='21' alt='Install on more devices'></button>\n\
+    \                          </button>\n                          <button id='23'>In-app\
+    \ purchases</button>\n                        </button>\n                    \
+    \  </View>\n                      <View id='24'>\n                        <button\
+    \ id='25'>\n                          <button id='27'>Update available</button>\n\
+    \                        </button>\n                      </View>\n          \
+    \          </scrollbar>\n                    <p id='28'>Sponsored</p>\n      \
+    \              <p id='29'>Suggested for you</p>\n                    <button id='30'\
+    \ alt='About this ad'></button>\n                    <scrollbar id='31'>\n   \
+    \                   <button id='32'>\n                        <button id='33'\
+    \ alt='Booking.com: Hotels and more\nTravel &amp; Local\nAccommodation\nFlights\n\
+    Star rating: 4.7\n'></button>\n                      </button>\n             \
+    \         <button id='34'>\n                        <button id='35' alt='GetYourGuide:\
+    \ Travel &amp; Tickets\nTravel &amp; Local\nPlace of interest\nStar rating: 4.9\n\
+    '></button>\n                      </button>\n                      <button id='36'>\n\
+    \                        <button id='37' alt='Hearthstone\nCard\nCard battler\n\
+    Casual\nCompetitive\nStar rating: 4.4\n'></button>\n                      </button>\n\
+    \                      <button id='38'></button>\n                      <button\
+    \ id='39'></button>\n                      <button id='40'></button>\n       \
+    \             </scrollbar>\n                    <button id='41'>\n           \
+    \           <button id='42'>Recommended for you</button>\n                   \
+    \   <button id='43' alt='More results for Recommended for you'></button>\n   \
+    \                 </button>\n                  </scrollbar>\n                \
+    \  <button id='44'></button>\n                  <button id='45'>\n           \
+    \         <button id='46' alt='Show notifications and offers.'></button>\n   \
+    \               </button>\n                  <button id='48'>\n              \
+    \      <button id='50' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                      <FrameLayout id='51' resource_id='0_resource_name_obfuscated'></FrameLayout>\n\
+    \                    </button>\n                  </button>\n                \
+    \  <View id='54'>\n                    <View id='55'>\n                      <View\
+    \ id='56'>\n                        <p id='57'>For you</p>\n                 \
+    \     </View>\n                      <button id='59'>\n                      \
+    \  <button id='60'>Top charts</button>\n                      </button>\n    \
+    \                  <button id='62'>\n                        <button id='63'>Kids</button>\n\
+    \                      </button>\n                      <button id='65'>\n   \
+    \                     <button id='66'>Categories</button>\n                  \
+    \    </button>\n                    </View>\n                  </View>\n     \
+    \             <View id='68'>\n                    <View id='69'>\n           \
+    \           <button id='70'>\n                        <button id='73'>Games</button>\n\
+    \                      </button>\n                      <View id='75'>\n     \
+    \                   <p id='78'>Apps</p>\n                      </View>\n     \
+    \                 <button id='80'>\n                        <button id='83'>Search</button>\n\
+    \                      </button>\n                    </View>\n              \
+    \    </View>\n                </View>\n              </ComposeView>\n        \
+    \    </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: f3ab5e
+  structure_str: 6cfa0f
+  tag: 2024-11-11_204749
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 45
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <scrollbar id='9'>\n       \
+    \             <p id='10'>Explore games</p>\n                    <button id='11'>\n\
+    \                      <button id='12' alt='action'>Action</button>\n        \
+    \            </button>\n                    <button id='13'>\n               \
+    \       <button id='14' alt='simulation'>Simulation</button>\n               \
+    \     </button>\n                    <button id='15'>\n                      <button\
+    \ id='16' alt='puzzle'>Puzzle</button>\n                    </button>\n      \
+    \              <button id='17'>\n                      <button id='18' alt='adventure'>Adventure</button>\n\
+    \                    </button>\n                    <button id='19'>\n       \
+    \               <button id='20' alt='racing'>Racing</button>\n               \
+    \     </button>\n                    <button id='21'>\n                      <button\
+    \ id='22' alt='role playing'>Role Playing</button>\n                    </button>\n\
+    \                    <button id='23'>\n                      <button id='24' alt='strategy'>Strategy</button>\n\
+    \                    </button>\n                    <button id='25'>\n       \
+    \               <button id='26' alt='sports'>Sports</button>\n               \
+    \     </button>\n                    <button id='27'>\n                      <button\
+    \ id='28' alt='card'>Card</button>\n                    </button>\n          \
+    \          <button id='29'>\n                      <button id='30' alt='board'>Board</button>\n\
+    \                    </button>\n                    <button id='31'>\n       \
+    \               <button id='32' alt='educational'>Educational</button>\n     \
+    \               </button>\n                    <button id='33'>\n            \
+    \          <button id='34' alt='word'>Word</button>\n                    </button>\n\
+    \                    <p id='35'>Sponsored</p>\n                    <p id='36'>Suggested\
+    \ for you</p>\n                    <button id='37' alt='About this ad'></button>\n\
+    \                    <button id='38'>\n                      <button id='39' alt='Booking.com:\
+    \ Hotels and more\nBooking.com Hotels &amp; Vacation Rentals\nTravel &amp; Local\n\
+    Star rating: 4.7\nDownloaded 500 million plus times\n'></button>\n           \
+    \         </button>\n                  </scrollbar>\n                  <button\
+    \ id='41'>\n                    <button id='42'>\n                      <button\
+    \ id='43' alt='Search Google Play'></button>\n                    </button>\n\
+    \                    <button id='45'>Search apps &amp; games</button>\n      \
+    \              <button id='46'>\n                      <button id='47' alt='Voice\
+    \ Search'></button>\n                    </button>\n                  </button>\n\
+    \                  <button id='49'>\n                    <button id='51' alt='Signed\
+    \ in as Agent Test testmobileagent11@gmail.com\nAccount and settings.'>\n    \
+    \                  <FrameLayout id='52' resource_id='0_resource_name_obfuscated'></FrameLayout>\n\
+    \                    </button>\n                  </button>\n                \
+    \  <View id='55'>\n                    <View id='56'>\n                      <button\
+    \ id='57'>\n                        <button id='60'>Games</button>\n         \
+    \             </button>\n                      <View id='62'>\n              \
+    \          <p id='65'>Apps</p>\n                      </View>\n              \
+    \        <button id='67'>\n                        <button id='70'>Search</button>\n\
+    \                      </button>\n                    </View>\n              \
+    \    </View>\n                </View>\n              </ComposeView>\n        \
+    \    </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: aad687
+  structure_str: b1155b
+  tag: 2024-11-11_204837
+  width: 1080
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    text: ebay
+  Choice: 15
+  Input: ebay
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>\n                        <button id='16'>Search\
+    \ apps &amp; games</button>\n                      </input>\n                \
+    \      <View id='18'>\n                        <button id='19'>\n            \
+    \              <button id='20' alt='Voice Search'></button>\n                \
+    \        </button>\n                      </View>\n                    </View>\n\
+    \                    <View id='22'>\n                      <p id='23'>Events happening\
+    \ now</p>\n                      <button id='24'>\n                        <button\
+    \ id='25' alt='Color Switch: Endless Play Fun\nMajor Update\nStar rating: 4.6\n\
+    Downloaded 50 million plus times\n'></button>\n                      </button>\n\
+    \                      <button id='26'>\n                        <button id='27'\
+    \ alt='Magic Tiles 3\nAMANOTES PTE LTD\nStar rating: 3.9\nDownloaded 500 million\
+    \ plus times\n'></button>\n                      </button>\n                 \
+    \     <p id='28'>Sponsored</p>\n                      <p id='29'>Suggested for\
+    \ you</p>\n                      <button id='30' alt='About this ad'></button>\n\
+    \                      <button id='31'>\n                        <button id='32'\
+    \ alt='Booking.com: Hotels and more\nBooking.com Hotels &amp; Vacation Rentals\n\
+    Star rating: 4.7\nDownloaded 500 million plus times\n'></button>\n           \
+    \           </button>\n                    </View>\n                  </View>\n\
+    \                </View>\n              </ComposeView>\n            </FrameLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: '721832'
+  structure_str: e31479
+  tag: 2024-11-11_204906
+  width: 1080
+- Action: enter
+  ActionDetails:
+    action_type: enter
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>ebay</input>\n                      <View\
+    \ id='17'>\n                        <button id='18'>\n                       \
+    \   <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;ebay&quot; '></button>\n      \
+    \                  <button id='25' alt='Refine search to &quot;ebay&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;ebay motors&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;ebay\
+    \ motors&quot;'></button>\n                      </button>\n                 \
+    \     <button id='30'>\n                        <button id='31' alt='Search for\
+    \ &quot;ebay kleinanzeigen&quot; '></button>\n                        <button\
+    \ id='33' alt='Refine search to &quot;ebay kleinanzeigen&quot;'></button>\n  \
+    \                    </button>\n                      <button id='34'>\n     \
+    \                   <button id='35' alt='Search for &quot;ebay malaysia seller&quot;\
+    \ '></button>\n                        <button id='37' alt='Refine search to &quot;ebay\
+    \ malaysia seller&quot;'></button>\n                      </button>\n        \
+    \              <button id='38'>\n                        <button id='39' alt='Search\
+    \ for &quot;ebay uk free app download&quot; '></button>\n                    \
+    \    <button id='41' alt='Refine search to &quot;ebay uk free app download&quot;'></button>\n\
+    \                      </button>\n                    </View>\n              \
+    \    </View>\n                </View>\n              </ComposeView>\n        \
+    \    </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 86e9c4
+  structure_str: cdb186
+  tag: 2024-11-11_204945
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 27
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <button id='11'>\n       \
+    \                 <button id='12'>About these results\_[Icon]</button>\n     \
+    \                 </button>\n                      <p id='13'>Sponsored</p>\n\
+    \                      <button id='14' alt='About this ad'></button>\n       \
+    \               <button id='15'>\n                        <button id='16' alt='Pindo\
+    \ | \u067E\u06CC\u0646\u062F\u0648\nPindo\nShopping\nDownloaded 500 thousand plus\
+    \ times\nPEGI 3\n'></button>\n                        <button id='17'>\n     \
+    \                     <button id='18' alt='Install'>Install</button>\n       \
+    \                   <button id='19' alt='Install on more devices'></button>\n\
+    \                        </button>\n                        <View id='21'>\n \
+    \                         <button id='22'>\u0641\u0631\u0648\u0634 \u0645\u062D\
+    \u0635\u0648\u0644\u0627\u062A \u0628\u062F\u0648\u0646 \u0648\u0627\u0633\u0637\
+    \u0647</button>\n                          <button id='23'>\u062E\u0631\u06CC\u062F\
+    \ \u0648 \u0641\u0631\u0648\u0634 \u0628\u062F\u0648\u0646 \u0633\u0648\u062F\
+    \ \u0628\u0627 \u0642\u06CC\u0645\u062A \u0631\u0642\u0627\u0628\u062A\u06CC \u0628\
+    \u0627 \u0646\u0635\u0628 \u0631\u0627\u06CC\u06AF\u0627\u0646 </button>\n   \
+    \                     </View>\n                      </button>\n             \
+    \         <button id='24'>\n                        <button id='25' alt='eBay\
+    \ online shopping &amp; selling\neBay Mobile\nContains ads\n'></button>\n    \
+    \                    <button id='26'>\n                          <button id='27'\
+    \ alt='Install'>Install</button>\n                          <button id='28' alt='Install\
+    \ on more devices'></button>\n                        </button>\n            \
+    \            <button id='30' alt='Average rating 4.7 stars in 4 million reviews'></button>\n\
+    \                        <button id='31' alt='Downloaded 100 million plus times'></button>\n\
+    \                        <button id='32' alt='Content rating Parental guidance'></button>\n\
+    \                        <button id='33'>\n                          <View id='34'>\n\
+    \                            <button id='35' alt='Play trailer for &quot;eBay\
+    \ online shopping &amp; selling&quot;'></button>\n                           \
+    \ <button id='36' alt='Play trailer for &quot;eBay online shopping &amp; selling&quot;'></button>\n\
+    \                            <button id='37' alt='Play Trailer'></button>\n  \
+    \                        </View>\n                          <button id='38' alt='Screenshot\
+    \ &quot;1&quot; of &quot;8&quot;'></button>\n                        </button>\n\
+    \                        <button id='39' alt='buy, sell &amp; resell marketplace.\
+    \ pre-loved clothes, car parts, tech. download now'>Buy, sell &amp; resell marketplace.\
+    \ Pre-loved clothes,</button>\n                      </button>\n             \
+    \         <p id='40'>Limited-time events</p>\n                    </scrollbar>\n\
+    \                    <View id='41'>\n                      <View id='42'>\n  \
+    \                      <button id='43'>\n                          <button id='44'\
+    \ alt='Navigate up'></button>\n                        </button>\n           \
+    \           </View>\n                      <button id='46'>\n                \
+    \        <button id='47'>ebay</button>\n                      </button>\n    \
+    \                  <View id='48'>\n                        <button id='49'>\n\
+    \                          <button id='50' alt='Search Google Play'></button>\n\
+    \                        </button>\n                      </View>\n          \
+    \            <View id='52'>\n                        <button id='53'>\n      \
+    \                    <button id='54' alt='Voice Search'></button>\n          \
+    \              </button>\n                      </View>\n                    </View>\n\
+    \                  </View>\n                  <View id='56'>\n               \
+    \     <View id='57'>\n                      <button id='58'>\n               \
+    \         <button id='61'>Games</button>\n                      </button>\n  \
+    \                    <button id='63'>\n                        <button id='66'>Apps</button>\n\
+    \                      </button>\n                      <View id='68'>\n     \
+    \                   <p id='71'>Search</p>\n                      </View>\n   \
+    \                 </View>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 9c259b
+  structure_str: b876ce
+  tag: 2024-11-11_205000
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 54
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <button id='11'>\n       \
+    \                 <button id='12'>About these results\_[Icon]</button>\n     \
+    \                 </button>\n                      <p id='13'>Sponsored</p>\n\
+    \                      <button id='14' alt='About this ad'></button>\n       \
+    \               <button id='15'>\n                        <button id='16' alt='Pindo\
+    \ | \u067E\u06CC\u0646\u062F\u0648\nPindo\nShopping\nDownloaded 500 thousand plus\
+    \ times\nPEGI 3\n'></button>\n                        <button id='17'>\n     \
+    \                     <button id='18' alt='Install'>Install</button>\n       \
+    \                   <button id='19' alt='Install on more devices'></button>\n\
+    \                        </button>\n                        <View id='21'>\n \
+    \                         <button id='22'>\u0641\u0631\u0648\u0634 \u0645\u062D\
+    \u0635\u0648\u0644\u0627\u062A \u0628\u062F\u0648\u0646 \u0648\u0627\u0633\u0637\
+    \u0647</button>\n                          <button id='23'>\u062E\u0631\u06CC\u062F\
+    \ \u0648 \u0641\u0631\u0648\u0634 \u0628\u062F\u0648\u0646 \u0633\u0648\u062F\
+    \ \u0628\u0627 \u0642\u06CC\u0645\u062A \u0631\u0642\u0627\u0628\u062A\u06CC \u0628\
+    \u0627 \u0646\u0635\u0628 \u0631\u0627\u06CC\u06AF\u0627\u0646 </button>\n   \
+    \                     </View>\n                      </button>\n             \
+    \         <button id='24'>\n                        <button id='26' alt='eBay\
+    \ online shopping &amp; selling\n'></button>\n                        <button\
+    \ id='27'>\n                          <button id='28' alt='Cancel'>Cancel</button>\n\
+    \                        </button>\n                        <button id='30'>\n\
+    \                          <button id='31'>Available on more devices</button>\n\
+    \                          <button id='32' alt='Collapse'></button>\n        \
+    \                </button>\n                        <View id='33'>\n         \
+    \                 <button id='34'>Google Sdk_gphone64_arm64</button>\n       \
+    \                   <button id='35'>Phone</button>\n                         \
+    \ <button id='36'>\n                            <button id='37' alt='Install'>Install</button>\n\
+    \                          </button>\n                        </View>\n      \
+    \                  <button id='39'>Sponsored</button>\n                      \
+    \  <button id='40'>Suggested for you</button>\n                        <button\
+    \ id='41' alt='About this ad'></button>\n                        <button id='42'>\n\
+    \                          <button id='43'>\n                            <button\
+    \ id='44' alt='Alison: Online Education App\nStar rating: 4.2\n'></button>\n \
+    \                         </button>\n                          <button id='45'>\n\
+    \                            <button id='46' alt='CryptoTab Farm PRO\nStar rating:\
+    \ 4.1\n'></button>\n                          </button>\n                    \
+    \      <button id='47'>\n                            <button id='48' alt='SheFit:\
+    \ Lazy Workout at Home\n'></button>\n                          </button>\n   \
+    \                       <button id='49'>\n                            <button\
+    \ id='50' alt='Learna: Speak &amp; Learn English\nStar rating: 4.4\n'></button>\n\
+    \                          </button>\n                        </button>\n    \
+    \                  </button>\n                    </scrollbar>\n             \
+    \       <View id='51'>\n                      <View id='52'>\n               \
+    \         <button id='53'>\n                          <button id='54' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <button id='56'>\n                        <button id='57'>ebay</button>\n\
+    \                      </button>\n                      <View id='58'>\n     \
+    \                   <button id='59'>\n                          <button id='60'\
+    \ alt='Search Google Play'></button>\n                        </button>\n    \
+    \                  </View>\n                      <View id='62'>\n           \
+    \             <button id='63'>\n                          <button id='64' alt='Voice\
+    \ Search'></button>\n                        </button>\n                     \
+    \ </View>\n                    </View>\n                  </View>\n          \
+    \        <View id='66'>\n                    <View id='67'>\n                \
+    \      <button id='68'>\n                        <button id='71'>Games</button>\n\
+    \                      </button>\n                      <button id='73'>\n   \
+    \                     <button id='76'>Apps</button>\n                      </button>\n\
+    \                      <View id='78'>\n                        <p id='81'>Search</p>\n\
+    \                      </View>\n                    </View>\n                \
+    \  </View>\n                </View>\n              </ComposeView>\n          \
+    \  </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: a7aec7
+  structure_str: 477f70
+  tag: 2024-11-11_205040
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 47
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <scrollbar id='9'>\n       \
+    \             <p id='10'>Explore games</p>\n                    <button id='11'>\n\
+    \                      <button id='12' alt='action'>Action</button>\n        \
+    \            </button>\n                    <button id='13'>\n               \
+    \       <button id='14' alt='simulation'>Simulation</button>\n               \
+    \     </button>\n                    <button id='15'>\n                      <button\
+    \ id='16' alt='puzzle'>Puzzle</button>\n                    </button>\n      \
+    \              <button id='17'>\n                      <button id='18' alt='adventure'>Adventure</button>\n\
+    \                    </button>\n                    <button id='19'>\n       \
+    \               <button id='20' alt='racing'>Racing</button>\n               \
+    \     </button>\n                    <button id='21'>\n                      <button\
+    \ id='22' alt='role playing'>Role Playing</button>\n                    </button>\n\
+    \                    <button id='23'>\n                      <button id='24' alt='strategy'>Strategy</button>\n\
+    \                    </button>\n                    <button id='25'>\n       \
+    \               <button id='26' alt='sports'>Sports</button>\n               \
+    \     </button>\n                    <button id='27'>\n                      <button\
+    \ id='28' alt='card'>Card</button>\n                    </button>\n          \
+    \          <button id='29'>\n                      <button id='30' alt='board'>Board</button>\n\
+    \                    </button>\n                    <button id='31'>\n       \
+    \               <button id='32' alt='educational'>Educational</button>\n     \
+    \               </button>\n                    <button id='33'>\n            \
+    \          <button id='34' alt='word'>Word</button>\n                    </button>\n\
+    \                    <p id='35'>Sponsored</p>\n                    <p id='36'>Suggested\
+    \ for you</p>\n                    <button id='37' alt='About this ad'></button>\n\
+    \                    <button id='38'>\n                      <button id='39' alt='Booking.com:\
+    \ Hotels and more\nBooking.com Hotels &amp; Vacation Rentals\nTravel &amp; Local\n\
+    Star rating: 4.7\nDownloaded 500 million plus times\n'></button>\n           \
+    \         </button>\n                    <p id='40'>Explore apps</p>\n       \
+    \             <button id='41'></button>\n                    <button id='42'></button>\n\
+    \                  </scrollbar>\n                  <button id='43'>\n        \
+    \            <button id='44'>\n                      <button id='45' alt='Search\
+    \ Google Play'></button>\n                    </button>\n                    <button\
+    \ id='47'>Search apps &amp; games</button>\n                    <button id='48'>\n\
+    \                      <button id='49' alt='Voice Search'></button>\n        \
+    \            </button>\n                  </button>\n                  <button\
+    \ id='51'>\n                    <button id='53' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                      <FrameLayout id='54' resource_id='0_resource_name_obfuscated'></FrameLayout>\n\
+    \                    </button>\n                  </button>\n                \
+    \  <View id='57'>\n                    <View id='58'>\n                      <button\
+    \ id='59'>\n                        <button id='62'>Games</button>\n         \
+    \             </button>\n                      <button id='64'>\n            \
+    \            <button id='67'>Apps</button>\n                      </button>\n\
+    \                      <View id='69'>\n                        <p id='72'>Search</p>\n\
+    \                      </View>\n                    </View>\n                \
+    \  </View>\n                </View>\n              </ComposeView>\n          \
+    \  </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 3ebf00
+  structure_str: 61b454
+  tag: 2024-11-11_205337
+  width: 1080
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    text: youtube kids
+  Choice: 15
+  Input: youtube kids
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>\n                        <button id='16'>Search\
+    \ apps &amp; games</button>\n                      </input>\n                \
+    \      <View id='18'>\n                        <button id='19'>\n            \
+    \              <button id='20' alt='Voice Search'></button>\n                \
+    \        </button>\n                      </View>\n                    </View>\n\
+    \                    <View id='22'>\n                      <p id='23'>Events happening\
+    \ now</p>\n                      <button id='24'>\n                        <button\
+    \ id='25' alt='Color Switch: Endless Play Fun\nMajor Update\nStar rating: 4.6\n\
+    Downloaded 50 million plus times\n'></button>\n                      </button>\n\
+    \                      <button id='26'>\n                        <button id='27'\
+    \ alt='Magic Tiles 3\nAMANOTES PTE LTD\nStar rating: 3.9\nDownloaded 500 million\
+    \ plus times\n'></button>\n                      </button>\n                 \
+    \     <p id='28'>Sponsored</p>\n                      <p id='29'>Suggested for\
+    \ you</p>\n                      <button id='30' alt='About this ad'></button>\n\
+    \                      <button id='31'>\n                        <button id='32'\
+    \ alt='Booking.com: Hotels and more\nBooking.com Hotels &amp; Vacation Rentals\n\
+    Star rating: 4.7\nDownloaded 500 million plus times\n'></button>\n           \
+    \           </button>\n                      <p id='33'>Recent searches</p>\n\
+    \                      <button id='34'>\n                        <button id='35'\
+    \ alt='Search for &quot;ebay&quot; '></button>\n                        <button\
+    \ id='37' alt='Refine search to &quot;ebay&quot;'></button>\n                \
+    \      </button>\n                    </View>\n                  </View>\n   \
+    \             </View>\n              </ComposeView>\n            </FrameLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e02e8e
+  structure_str: e31479
+  tag: 2024-11-11_205617
+  width: 1080
+- Action: enter
+  ActionDetails:
+    action_type: enter
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>youtube kids</input>\n                 \
+    \     <View id='17'>\n                        <button id='18'>\n             \
+    \             <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;youtube kids&quot; '></button>\n\
+    \                        <button id='25' alt='Refine search to &quot;youtube kids&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;youtube kids youtube&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;youtube\
+    \ kids youtube&quot;'></button>\n                      </button>\n           \
+    \           <button id='30'>\n                        <button id='31' alt='Search\
+    \ for &quot;youtube kids offline videos&quot; '></button>\n                  \
+    \      <button id='33' alt='Refine search to &quot;youtube kids offline videos&quot;'></button>\n\
+    \                      </button>\n                      <button id='34'>\n   \
+    \                     <button id='35' alt='Search for &quot;youtube kids apps\
+    \ free&quot; '></button>\n                        <button id='37' alt='Refine\
+    \ search to &quot;youtube kids apps free&quot;'></button>\n                  \
+    \    </button>\n                      <button id='38'>\n                     \
+    \   <button id='39' alt='Search for &quot;youtube kids downloading apps&quot;\
+    \ '></button>\n                        <button id='41' alt='Refine search to &quot;youtube\
+    \ kids downloading apps&quot;'></button>\n                      </button>\n  \
+    \                  </View>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 8fb6e5
+  structure_str: cdb186
+  tag: 2024-11-11_205702
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 17
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='11'>\n                      <View id='12'>\n              \
+    \          <button id='13'>\n                          <button id='14' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <button id='16'>\n                        <button id='17'>youtube\
+    \ kids</button>\n                      </button>\n                      <View\
+    \ id='18'>\n                        <button id='19'>\n                       \
+    \   <button id='20' alt='Search Google Play'></button>\n                     \
+    \   </button>\n                      </View>\n                      <View id='22'>\n\
+    \                        <button id='23'>\n                          <button id='24'\
+    \ alt='Voice Search'></button>\n                        </button>\n          \
+    \            </View>\n                    </View>\n                  </View>\n\
+    \                  <View id='26'>\n                    <View id='27'>\n      \
+    \                <button id='28'>\n                        <button id='31'>Games</button>\n\
+    \                      </button>\n                      <button id='33'>\n   \
+    \                     <button id='36'>Apps</button>\n                      </button>\n\
+    \                      <View id='38'>\n                        <p id='41'>Search</p>\n\
+    \                      </View>\n                    </View>\n                \
+    \  </View>\n                </View>\n              </ComposeView>\n          \
+    \  </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: '636992'
+  structure_str: b876ce
+  tag: 2024-11-11_205753
+  width: 1080
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    text: facebook
+  Choice: 15
+  Input: facebook
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>youtube kids</input>\n                 \
+    \     <View id='17'>\n                        <button id='18'>\n             \
+    \             <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;youtube kids&quot; '></button>\n\
+    \                        <button id='25' alt='Refine search to &quot;youtube kids&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;youtube kids youtube&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;youtube\
+    \ kids youtube&quot;'></button>\n                      </button>\n           \
+    \           <button id='30'>\n                        <button id='31' alt='Search\
+    \ for &quot;youtube kids offline videos&quot; '></button>\n                  \
+    \      <button id='33' alt='Refine search to &quot;youtube kids offline videos&quot;'></button>\n\
+    \                      </button>\n                      <button id='34'>\n   \
+    \                     <button id='35' alt='Search for &quot;youtube kids apps\
+    \ free&quot; '></button>\n                        <button id='37' alt='Refine\
+    \ search to &quot;youtube kids apps free&quot;'></button>\n                  \
+    \    </button>\n                      <button id='38'>\n                     \
+    \   <button id='39' alt='Search for &quot;youtube kids downloading apps&quot;\
+    \ '></button>\n                        <button id='41' alt='Refine search to &quot;youtube\
+    \ kids downloading apps&quot;'></button>\n                      </button>\n  \
+    \                  </View>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 8fb6e5
+  structure_str: cdb186
+  tag: 2024-11-11_205818
+  width: 1080
+- Action: enter
+  ActionDetails:
+    action_type: enter
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>facebook</input>\n                     \
+    \ <View id='17'>\n                        <button id='18'>\n                 \
+    \         <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;facebook&quot; '></button>\n  \
+    \                      <button id='25' alt='Refine search to &quot;facebook&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;facebook lite&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;facebook\
+    \ lite&quot;'></button>\n                      </button>\n                   \
+    \   <button id='30'>\n                        <button id='31' alt='Search for\
+    \ &quot;facebook messenger&quot; '></button>\n                        <button\
+    \ id='33' alt='Refine search to &quot;facebook messenger&quot;'></button>\n  \
+    \                    </button>\n                      <button id='34'>\n     \
+    \                   <button id='35' alt='Search for &quot;facebook video downloader&quot;\
+    \ '></button>\n                        <button id='37' alt='Refine search to &quot;facebook\
+    \ video downloader&quot;'></button>\n                      </button>\n       \
+    \               <button id='38'>\n                        <button id='39' alt='Search\
+    \ for &quot;facebook whatsapp&quot; '></button>\n                        <button\
+    \ id='41' alt='Refine search to &quot;facebook whatsapp&quot;'></button>\n   \
+    \                   </button>\n                    </View>\n                 \
+    \ </View>\n                </View>\n              </ComposeView>\n           \
+    \ </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 206ed0
+  structure_str: cdb186
+  tag: 2024-11-11_205840
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 16
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <button id='11'>\n       \
+    \                 <button id='12'>About these results\_[Icon]</button>\n     \
+    \                 </button>\n                      <button id='13'>\n        \
+    \                <button id='14' alt='Facebook\nUpdate available\n'></button>\n\
+    \                        <button id='15'>\n                          <button id='16'\
+    \ alt='See details'>See details</button>\n                        </button>\n\
+    \                        <button id='18'>\n                          <button id='19'>Available\
+    \ on more devices</button>\n                          <button id='20' alt='Collapse'></button>\n\
+    \                        </button>\n                        <View id='21'>\n \
+    \                         <button id='22'>Google Sdk_gphone64_arm64</button>\n\
+    \                          <button id='23'>Phone</button>\n                  \
+    \        <button id='24'>\n                            <button id='25' alt='Install'>Install</button>\n\
+    \                          </button>\n                        </View>\n      \
+    \                  <button id='27' alt='Average rating 4.6 stars in 150 million\
+    \ reviews'></button>\n                        <button id='28' alt='Downloaded\
+    \ 10 billion plus times'></button>\n                        <button id='29' alt='Content\
+    \ rating Parental guidance'></button>\n                        <button id='30'>\n\
+    \                          <View id='31'>\n                            <button\
+    \ id='32' alt='Play trailer for &quot;Facebook&quot;'></button>\n            \
+    \                <button id='33' alt='Play trailer for &quot;Facebook&quot;'></button>\n\
+    \                            <button id='34' alt='Play Trailer'></button>\n  \
+    \                        </View>\n                          <button id='35' alt='Screenshot\
+    \ &quot;1&quot; of &quot;8&quot;'></button>\n                        </button>\n\
+    \                        <button id='36' alt='explore the things you love'>Explore\
+    \ the things you love</button>\n                      </button>\n            \
+    \          <p id='37'>Sponsored</p>\n                      <p id='38'>Related\
+    \ to your search</p>\n                      <button id='39' alt='About this ad'></button>\n\
+    \                      <scrollbar id='40'>\n                        <button id='41'>\n\
+    \                          <button id='42' alt='Boo: Dating. Friends. Chat.\n\
+    Star rating: 4.4\n'></button>\n                        </button>\n           \
+    \             <button id='43'>\n                          <button id='44' alt='Tickz\
+    \ - Trends with Friends!\n'></button>\n                        </button>\n   \
+    \                     <button id='45'>\n                          <button id='46'\
+    \ alt='Bigo Live\u2013Live Stream, Go Live\nStar rating: 4.4\n'></button>\n  \
+    \                      </button>\n                        <button id='47'>\n \
+    \                         <button id='48' alt='Omega - Live video call &amp; chat\n\
+    Star rating: 4.0\n'></button>\n                        </button>\n           \
+    \           </scrollbar>\n                    </scrollbar>\n                 \
+    \   <View id='49'>\n                      <View id='50'>\n                   \
+    \     <button id='51'>\n                          <button id='52' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <button id='54'>\n                        <button id='55'>facebook</button>\n\
+    \                      </button>\n                      <View id='56'>\n     \
+    \                   <button id='57'>\n                          <button id='58'\
+    \ alt='Search Google Play'></button>\n                        </button>\n    \
+    \                  </View>\n                      <View id='60'>\n           \
+    \             <button id='61'>\n                          <button id='62' alt='Voice\
+    \ Search'></button>\n                        </button>\n                     \
+    \ </View>\n                    </View>\n                  </View>\n          \
+    \        <View id='64'>\n                    <View id='65'>\n                \
+    \      <button id='66'>\n                        <button id='69'>Games</button>\n\
+    \                      </button>\n                      <button id='71'>\n   \
+    \                     <button id='74'>Apps</button>\n                      </button>\n\
+    \                      <View id='76'>\n                        <p id='79'>Search</p>\n\
+    \                      </View>\n                    </View>\n                \
+    \  </View>\n                </View>\n              </ComposeView>\n          \
+    \  </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 777ed0
+  structure_str: b876ce
+  tag: 2024-11-11_205852
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 51
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <View id='11'>\n         \
+    \               <p id='13'>Facebook</p>\n                        <button id='14'>Meta\
+    \ Platforms, Inc.</button>\n                        <p id='15'>Contains ads</p>\n\
+    \                        <p id='16'>In-app purchases</p>\n                   \
+    \   </View>\n                      <button id='17'>\n                        <button\
+    \ id='18' alt='Uninstall'>Uninstall</button>\n                      </button>\n\
+    \                      <button id='20'>\n                        <button id='21'\
+    \ alt='Update from Play'>Update from Play</button>\n                      </button>\n\
+    \                      <button id='23'>\n                        <button id='24'>Available\
+    \ on more devices</button>\n                        <button id='25' alt='Collapse'></button>\n\
+    \                      </button>\n                      <View id='26'>\n     \
+    \                   <p id='27'>Google Sdk_gphone64_arm64</p>\n               \
+    \         <p id='28'>Phone</p>\n                        <button id='29'>\n   \
+    \                       <button id='30' alt='Install'>Install</button>\n     \
+    \                   </button>\n                      </View>\n               \
+    \       <p id='32'>Similar app available</p>\n                      <p id='33'>Facebook\
+    \ Lite (2.5 MB)</p>\n                      <p id='34'>View</p>\n             \
+    \         <p id='35' alt='Warning'></p>\n                      <p id='36'>The\
+    \ app installed on your device didn&apos;t come from </p>\n                  \
+    \    <button id='37'>\n                        <button id='38'>App support</button>\n\
+    \                        <button id='39' alt='Expand'></button>\n            \
+    \          </button>\n                      <p id='40'>Join the beta</p>\n   \
+    \                   <p id='41'>Try new features before they\u2019re officially\
+    \ release</p>\n                      <button id='42'>\n                      \
+    \  <button id='43' alt='Join'>Join</button>\n                      </button>\n\
+    \                      <button id='45'>\n                        <button id='46'\
+    \ alt='Learn more'>Learn more</button>\n                      </button>\n    \
+    \                </scrollbar>\n                    <View id='48'>\n          \
+    \            <View id='49'>\n                        <button id='50'>\n      \
+    \                    <button id='51' alt='Navigate up'></button>\n           \
+    \             </button>\n                      </View>\n                     \
+    \ <View id='53'>\n                        <button id='54'>\n                 \
+    \         <button id='55' alt='More Options'></button>\n                     \
+    \   </button>\n                      </View>\n                    </View>\n  \
+    \                </View>\n                  <View id='57'>\n                 \
+    \   <View id='58'>\n                      <button id='59'>\n                 \
+    \       <button id='62'>Games</button>\n                      </button>\n    \
+    \                  <button id='64'>\n                        <button id='67'>Apps</button>\n\
+    \                      </button>\n                      <View id='69'>\n     \
+    \                   <p id='72'>Search</p>\n                      </View>\n   \
+    \                 </View>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: f5ed08
+  structure_str: ce4f6b
+  tag: 2024-11-11_205920
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 55
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <button id='11'>\n       \
+    \                 <button id='12'>About these results\_[Icon]</button>\n     \
+    \                 </button>\n                      <button id='13'>\n        \
+    \                <button id='14' alt='Facebook\nUpdate available\n'></button>\n\
+    \                        <button id='15'>\n                          <button id='16'\
+    \ alt='See details'>See details</button>\n                        </button>\n\
+    \                        <button id='18'>\n                          <button id='19'>Available\
+    \ on more devices</button>\n                          <button id='20' alt='Collapse'></button>\n\
+    \                        </button>\n                        <View id='21'>\n \
+    \                         <button id='22'>Google Sdk_gphone64_arm64</button>\n\
+    \                          <button id='23'>Phone</button>\n                  \
+    \        <button id='24'>\n                            <button id='25' alt='Install'>Install</button>\n\
+    \                          </button>\n                        </View>\n      \
+    \                  <button id='27' alt='Average rating 4.6 stars in 150 million\
+    \ reviews'></button>\n                        <button id='28' alt='Downloaded\
+    \ 10 billion plus times'></button>\n                        <button id='29' alt='Content\
+    \ rating Parental guidance'></button>\n                        <button id='30'>\n\
+    \                          <View id='31'>\n                            <button\
+    \ id='32' alt='Play trailer for &quot;Facebook&quot;'></button>\n            \
+    \                <button id='33' alt='Play trailer for &quot;Facebook&quot;'></button>\n\
+    \                            <button id='34' alt='Play Trailer'></button>\n  \
+    \                        </View>\n                          <button id='35' alt='Screenshot\
+    \ &quot;1&quot; of &quot;8&quot;'></button>\n                        </button>\n\
+    \                        <button id='36' alt='explore the things you love'>Explore\
+    \ the things you love</button>\n                      </button>\n            \
+    \          <p id='37'>Sponsored</p>\n                      <p id='38'>Related\
+    \ to your search</p>\n                      <button id='39' alt='About this ad'></button>\n\
+    \                      <scrollbar id='40'>\n                        <button id='41'>\n\
+    \                          <button id='42' alt='Boo: Dating. Friends. Chat.\n\
+    Star rating: 4.4\n'></button>\n                        </button>\n           \
+    \             <button id='43'>\n                          <button id='44' alt='Tickz\
+    \ - Trends with Friends!\n'></button>\n                        </button>\n   \
+    \                     <button id='45'>\n                          <button id='46'\
+    \ alt='Bigo Live\u2013Live Stream, Go Live\nStar rating: 4.4\n'></button>\n  \
+    \                      </button>\n                        <button id='47'>\n \
+    \                         <button id='48' alt='Omega - Live video call &amp; chat\n\
+    Star rating: 4.0\n'></button>\n                        </button>\n           \
+    \           </scrollbar>\n                    </scrollbar>\n                 \
+    \   <View id='49'>\n                      <View id='50'>\n                   \
+    \     <button id='51'>\n                          <button id='52' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <button id='54'>\n                        <button id='55'>facebook</button>\n\
+    \                      </button>\n                      <View id='56'>\n     \
+    \                   <button id='57'>\n                          <button id='58'\
+    \ alt='Search Google Play'></button>\n                        </button>\n    \
+    \                  </View>\n                      <View id='60'>\n           \
+    \             <button id='61'>\n                          <button id='62' alt='Voice\
+    \ Search'></button>\n                        </button>\n                     \
+    \ </View>\n                    </View>\n                  </View>\n          \
+    \        <View id='64'>\n                    <View id='65'>\n                \
+    \      <button id='66'>\n                        <button id='69'>Games</button>\n\
+    \                      </button>\n                      <button id='71'>\n   \
+    \                     <button id='74'>Apps</button>\n                      </button>\n\
+    \                      <View id='76'>\n                        <p id='79'>Search</p>\n\
+    \                      </View>\n                    </View>\n                \
+    \  </View>\n                </View>\n              </ComposeView>\n          \
+    \  </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 777ed0
+  structure_str: b876ce
+  tag: 2024-11-11_205946
+  width: 1080
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    text: duolingo
+  Choice: 15
+  Input: duolingo
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>facebook</input>\n                     \
+    \ <View id='17'>\n                        <button id='18'>\n                 \
+    \         <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;facebook&quot; '></button>\n  \
+    \                      <button id='25' alt='Refine search to &quot;facebook&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;facebook lite&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;facebook\
+    \ lite&quot;'></button>\n                      </button>\n                   \
+    \   <button id='30'>\n                        <button id='31' alt='Search for\
+    \ &quot;facebook messenger&quot; '></button>\n                        <button\
+    \ id='33' alt='Refine search to &quot;facebook messenger&quot;'></button>\n  \
+    \                    </button>\n                      <button id='34'>\n     \
+    \                   <button id='35' alt='Search for &quot;facebook video downloader&quot;\
+    \ '></button>\n                        <button id='37' alt='Refine search to &quot;facebook\
+    \ video downloader&quot;'></button>\n                      </button>\n       \
+    \               <button id='38'>\n                        <button id='39' alt='Search\
+    \ for &quot;facebook whatsapp&quot; '></button>\n                        <button\
+    \ id='41' alt='Refine search to &quot;facebook whatsapp&quot;'></button>\n   \
+    \                   </button>\n                    </View>\n                 \
+    \ </View>\n                </View>\n              </ComposeView>\n           \
+    \ </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 206ed0
+  structure_str: cdb186
+  tag: 2024-11-11_210014
+  width: 1080
+- Action: enter
+  ActionDetails:
+    action_type: enter
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>duolingo</input>\n                     \
+    \ <View id='17'>\n                        <button id='18'>\n                 \
+    \         <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;duolingo&quot; '></button>\n  \
+    \                      <button id='25' alt='Refine search to &quot;duolingo&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;duolingo abc&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;duolingo\
+    \ abc&quot;'></button>\n                      </button>\n                    \
+    \  <button id='30'>\n                        <button id='31' alt='Search for &quot;duolingo\
+    \ english test&quot; '></button>\n                        <button id='33' alt='Refine\
+    \ search to &quot;duolingo english test&quot;'></button>\n                   \
+    \   </button>\n                      <button id='34'>\n                      \
+    \  <button id='35' alt='Search for &quot;duolingo for kids&quot; '></button>\n\
+    \                        <button id='37' alt='Refine search to &quot;duolingo\
+    \ for kids&quot;'></button>\n                      </button>\n               \
+    \       <button id='38'>\n                        <button id='39' alt='Search\
+    \ for &quot;duolingo english test practice app&quot; '></button>\n           \
+    \             <button id='41' alt='Refine search to &quot;duolingo english test\
+    \ practice app&quot;'></button>\n                      </button>\n           \
+    \         </View>\n                  </View>\n                </View>\n      \
+    \        </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: f265f4
+  structure_str: cdb186
+  tag: 2024-11-11_210036
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 55
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <button id='11'>\n       \
+    \                 <button id='12'>About these results\_[Icon]</button>\n     \
+    \                 </button>\n                      <p id='13'>Sponsored</p>\n\
+    \                      <button id='14' alt='About this ad'></button>\n       \
+    \               <button id='15'>\n                        <button id='16' alt='Learn\
+    \ Chinese - SuperChinese\nSuperChinese\nEducation\nAI Chinese learning app\nStar\
+    \ rating: 4.8\nDownloaded 1 million plus times\nPEGI 3\n'></button>\n        \
+    \                <button id='17'>\n                          <button id='18' alt='Install'>Install</button>\n\
+    \                          <button id='19' alt='Install on more devices'></button>\n\
+    \                        </button>\n                        <button id='21'>In-app\
+    \ purchases</button>\n                      </button>\n                      <button\
+    \ id='22'>\n                        <button id='23' alt='Duolingo: Language Lessons\n\
+    Update available\n'></button>\n                        <button id='24'>\n    \
+    \                      <button id='25' alt='See details'>See details</button>\n\
+    \                        </button>\n                        <button id='27'>\n\
+    \                          <button id='28'>Available on more devices</button>\n\
+    \                          <button id='29' alt='Collapse'></button>\n        \
+    \                </button>\n                        <View id='30'>\n         \
+    \                 <button id='31'>Google Sdk_gphone64_arm64</button>\n       \
+    \                   <button id='32'>Phone</button>\n                         \
+    \ <button id='33'>\n                            <button id='34' alt='Install'>Install</button>\n\
+    \                          </button>\n                        </View>\n      \
+    \                  <button id='36' alt='Average rating 4.8 stars in 27 million\
+    \ reviews'></button>\n                        <button id='37' alt='Downloaded\
+    \ 500 million plus times'></button>\n                        <button id='38' alt='Content\
+    \ rating PEGI 3'></button>\n                        <button id='39'>\n       \
+    \                   <View id='40'>\n                            <button id='41'>\n\
+    \                              <button id='42'>Update available</button>\n   \
+    \                           <button id='43'>Duolingo hit a milestone</button>\n\
+    \                            </button>\n                          </View>\n  \
+    \                        <button id='44' alt='Screenshot &quot;1&quot; of &quot;6&quot;'></button>\n\
+    \                        </button>\n                        <button id='45' alt='learn\
+    \ english, spanish, french, german, italian, and more languages for free.'>Learn\
+    \ English, Spanish, French, German, Italian, a</button>\n                    \
+    \  </button>\n                      <p id='46'>Sponsored</p>\n               \
+    \       <p id='47'>Related to your search</p>\n                      <button id='48'\
+    \ alt='About this ad'></button>\n                    </scrollbar>\n          \
+    \          <View id='49'>\n                      <View id='50'>\n            \
+    \            <button id='51'>\n                          <button id='52' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <button id='54'>\n                        <button id='55'>duolingo</button>\n\
+    \                      </button>\n                      <View id='56'>\n     \
+    \                   <button id='57'>\n                          <button id='58'\
+    \ alt='Search Google Play'></button>\n                        </button>\n    \
+    \                  </View>\n                      <View id='60'>\n           \
+    \             <button id='61'>\n                          <button id='62' alt='Voice\
+    \ Search'></button>\n                        </button>\n                     \
+    \ </View>\n                    </View>\n                  </View>\n          \
+    \        <View id='64'>\n                    <View id='65'>\n                \
+    \      <button id='66'>\n                        <button id='69'>Games</button>\n\
+    \                      </button>\n                      <button id='71'>\n   \
+    \                     <button id='74'>Apps</button>\n                      </button>\n\
+    \                      <View id='76'>\n                        <p id='79'>Search</p>\n\
+    \                      </View>\n                    </View>\n                \
+    \  </View>\n                </View>\n              </ComposeView>\n          \
+    \  </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 5590f7
+  structure_str: b876ce
+  tag: 2024-11-11_210047
+  width: 1080
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    text: messages
+  Choice: 15
+  Input: messages
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>duolingo</input>\n                     \
+    \ <View id='17'>\n                        <button id='18'>\n                 \
+    \         <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;duolingo&quot; '></button>\n  \
+    \                      <button id='25' alt='Refine search to &quot;duolingo&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;duolingo abc&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;duolingo\
+    \ abc&quot;'></button>\n                      </button>\n                    \
+    \  <button id='30'>\n                        <button id='31' alt='Search for &quot;duolingo\
+    \ english test&quot; '></button>\n                        <button id='33' alt='Refine\
+    \ search to &quot;duolingo english test&quot;'></button>\n                   \
+    \   </button>\n                      <button id='34'>\n                      \
+    \  <button id='35' alt='Search for &quot;duolingo for kids&quot; '></button>\n\
+    \                        <button id='37' alt='Refine search to &quot;duolingo\
+    \ for kids&quot;'></button>\n                      </button>\n               \
+    \       <button id='38'>\n                        <button id='39' alt='Search\
+    \ for &quot;duolingo english test practice app&quot; '></button>\n           \
+    \             <button id='41' alt='Refine search to &quot;duolingo english test\
+    \ practice app&quot;'></button>\n                      </button>\n           \
+    \         </View>\n                  </View>\n                </View>\n      \
+    \        </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: f265f4
+  structure_str: cdb186
+  tag: 2024-11-11_210205
+  width: 1080
+- Action: enter
+  ActionDetails:
+    action_type: enter
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <View id='10'>\n                      <View id='11'>\n              \
+    \          <button id='12'>\n                          <button id='13' alt='Navigate\
+    \ up'></button>\n                        </button>\n                      </View>\n\
+    \                      <input id='15'>messages</input>\n                     \
+    \ <View id='17'>\n                        <button id='18'>\n                 \
+    \         <button id='19' alt='Clear'></button>\n                        </button>\n\
+    \                      </View>\n                    </View>\n                \
+    \    <View id='21'>\n                      <button id='22'>\n                \
+    \        <button id='23' alt='Search for &quot;messages&quot; '></button>\n  \
+    \                      <button id='25' alt='Refine search to &quot;messages&quot;'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Search for &quot;messages app&quot;\
+    \ '></button>\n                        <button id='29' alt='Refine search to &quot;messages\
+    \ app&quot;'></button>\n                      </button>\n                    \
+    \  <button id='30'>\n                        <button id='31' alt='Search for &quot;messages\
+    \ backup&quot; '></button>\n                        <button id='33' alt='Refine\
+    \ search to &quot;messages backup&quot;'></button>\n                      </button>\n\
+    \                      <button id='34'>\n                        <button id='35'\
+    \ alt='Search for &quot;messages text messages&quot; '></button>\n           \
+    \             <button id='37' alt='Refine search to &quot;messages text messages&quot;'></button>\n\
+    \                      </button>\n                      <button id='38'>\n   \
+    \                     <button id='39' alt='Search for &quot;messages update 2024&quot;\
+    \ '></button>\n                        <button id='41' alt='Refine search to &quot;messages\
+    \ update 2024&quot;'></button>\n                      </button>\n            \
+    \        </View>\n                  </View>\n                </View>\n       \
+    \       </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 6d36aa
+  structure_str: cdb186
+  tag: 2024-11-11_210328
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <button id='11'>\n       \
+    \                 <button id='12'>About these results\_[Icon]</button>\n     \
+    \                 </button>\n                      <p id='13'>Sponsored</p>\n\
+    \                      <button id='14' alt='About this ad'></button>\n       \
+    \               <button id='15'>\n                        <button id='16' alt='Messages\n\
+    Messages SMS\nCommunication\nGroup messaging\nDownloaded 1 million plus times\n\
+    '></button>\n                      </button>\n                      <button id='17'>\n\
+    \                        <button id='18' alt='Google Messages\nGoogle LLC\nCommunication\n\
+    Messaging\nInstalled\n'></button>\n                        <button id='19' alt='Expand\
+    \ content for Google Messages'></button>\n                      </button>\n  \
+    \                    <button id='20'>\n                        <button id='21'\
+    \ alt='Messenger\nMeta Platforms, Inc.\nCommunication\nMessaging\nStar rating:\
+    \ 4.2\nDownloaded 5 billion plus times\n'></button>\n                        <button\
+    \ id='22' alt='Expand content for Messenger'></button>\n                     \
+    \ </button>\n                      <button id='23'>\n                        <button\
+    \ id='24' alt='WhatsApp Messenger\nWhatsApp LLC\nCommunication\nMessaging\nStar\
+    \ rating: 4.5\nDownloaded 5 billion plus times\n'></button>\n                \
+    \        <button id='25' alt='Expand content for WhatsApp Messenger'></button>\n\
+    \                      </button>\n                      <button id='26'>\n   \
+    \                     <button id='27' alt='Telegram\nTelegram FZ-LLC\nCommunication\n\
+    Messaging\nStar rating: 4.0\nDownloaded 1 billion plus times\n'></button>\n  \
+    \                      <button id='28' alt='Expand content for Telegram'></button>\n\
+    \                      </button>\n                      <button id='29'>\n   \
+    \                     <button id='30' alt='Textra SMS\nDelicious\nCommunication\n\
+    Messaging\nStar rating: 4.7\nDownloaded 10 million plus times\n'></button>\n \
+    \                       <button id='31' alt='Expand content for Textra SMS'></button>\n\
+    \                      </button>\n                      <button id='32'>\n   \
+    \                     <button id='33' alt='Discord - Talk, Play, Hang Out\nDiscord\
+    \ Inc.\nCommunication\nSocial\nMessaging\nInstalled\n'></button>\n           \
+    \             <button id='34' alt='Expand content for Discord - Talk, Play, Hang\
+    \ Out'></button>\n                      </button>\n                    </scrollbar>\n\
+    \                    <View id='35'>\n                      <View id='36'>\n  \
+    \                      <button id='37'>\n                          <button id='38'\
+    \ alt='Navigate up'></button>\n                        </button>\n           \
+    \           </View>\n                      <button id='40'>\n                \
+    \        <button id='41'>messages</button>\n                      </button>\n\
+    \                      <View id='42'>\n                        <button id='43'>\n\
+    \                          <button id='44' alt='Search Google Play'></button>\n\
+    \                        </button>\n                      </View>\n          \
+    \            <View id='46'>\n                        <button id='47'>\n      \
+    \                    <button id='48' alt='Voice Search'></button>\n          \
+    \              </button>\n                      </View>\n                    </View>\n\
+    \                    <HorizontalScrollView id='50'>\n                      <checkbox\
+    \ id='51'>\n                        <checkbox id='52' alt='Rating'></checkbox>\n\
+    \                      </checkbox>\n                      <checkbox id='55'>\n\
+    \                        <checkbox id='56' alt='Family'></checkbox>\n        \
+    \              </checkbox>\n                      <checkbox id='59'>\n       \
+    \                 <checkbox id='60' alt='Premium'></checkbox>\n              \
+    \        </checkbox>\n                    </HorizontalScrollView>\n          \
+    \        </View>\n                  <View id='63'>\n                    <View\
+    \ id='64'>\n                      <button id='65'>\n                        <button\
+    \ id='68'>Games</button>\n                      </button>\n                  \
+    \    <button id='70'>\n                        <button id='73'>Apps</button>\n\
+    \                      </button>\n                      <View id='75'>\n     \
+    \                   <p id='78'>Search</p>\n                      </View>\n   \
+    \                 </View>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: '413136'
+  structure_str: b0ba11
+  tag: 2024-11-11_210405
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 55
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='0_resource_name_obfuscated'>\n       \
+    \ <FrameLayout id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='0_resource_name_obfuscated'>\n\
+    \            <FrameLayout id='6' resource_id='0_resource_name_obfuscated'>\n \
+    \             <ComposeView id='7' resource_id='0_resource_name_obfuscated'>\n\
+    \                <View id='8'>\n                  <View id='9'>\n            \
+    \        <scrollbar id='10'>\n                      <View id='11'>\n         \
+    \               <p id='13'>Google Messages</p>\n                        <button\
+    \ id='14'>Google LLC</button>\n                      </View>\n               \
+    \       <button id='15'>\n                        <button id='16' alt='Update'>Update</button>\n\
+    \                      </button>\n                      <button id='18'>\n   \
+    \                     <button id='19' alt='Open'>Open</button>\n             \
+    \         </button>\n                      <button id='21'>\n                \
+    \        <button id='22'>Installed on all devices</button>\n                 \
+    \       <button id='23' alt='Collapse'></button>\n                      </button>\n\
+    \                      <View id='24'>\n                        <p id='25'>Google\
+    \ Sdk_gphone64_arm64</p>\n                        <p id='26'>Installed</p>\n \
+    \                     </View>\n                      <button id='27'>\n      \
+    \                  <button id='28'>What&apos;s new</button>\n                \
+    \        <button id='29'>Last updated Oct 31, 2024</button>\n                \
+    \        <button id='30' alt='More results for What&apos;s new'></button>\n  \
+    \                    </button>\n                      <p id='31'>\u2022 Bug fixes\
+    \ and stability improvements.</p>\n                      <p id='32'>Rate this\
+    \ app</p>\n                      <p id='33'>Tell others what you think</p>\n \
+    \                     <button id='34'></button>\n                      <button\
+    \ id='40'>\n                        <button id='41' alt='Write a review'>Write\
+    \ a review</button>\n                      </button>\n                      <button\
+    \ id='43'>\n                        <button id='44'>App support</button>\n   \
+    \                     <button id='45' alt='Expand'></button>\n               \
+    \       </button>\n                      <p id='46'>Join the beta</p>\n      \
+    \                <p id='47'>Try new features before they\u2019re officially release</p>\n\
+    \                    </scrollbar>\n                    <View id='48'>\n      \
+    \                <View id='49'>\n                        <button id='50'>\n  \
+    \                        <button id='51' alt='Navigate up'></button>\n       \
+    \                 </button>\n                      </View>\n                 \
+    \     <View id='53'>\n                        <button id='54'>\n             \
+    \             <button id='55' alt='More Options'></button>\n                 \
+    \       </button>\n                      </View>\n                    </View>\n\
+    \                  </View>\n                  <View id='57'>\n               \
+    \     <View id='58'>\n                      <button id='59'>\n               \
+    \         <button id='62'>Games</button>\n                      </button>\n  \
+    \                    <button id='64'>\n                        <button id='67'>Apps</button>\n\
+    \                      </button>\n                      <View id='69'>\n     \
+    \                   <p id='72'>Search</p>\n                      </View>\n   \
+    \                 </View>\n                  </View>\n                </View>\n\
+    \              </ComposeView>\n            </FrameLayout>\n          </FrameLayout>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 24867a
+  structure_str: e673a5
+  tag: 2024-11-11_210434
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 11
+  Input: null
+  State: "<ViewGroup id='0' resource_id='content'>\n  <View id='1'>\n    <View id='2'>\n\
+    \      <View id='3'>\n        <ScrollView id='4'>\n          <button id='5'>\n\
+    \            <button id='6'>Share</button>\n          </button>\n          <button\
+    \ id='7'>\n            <button id='8'>Flag as inappropriate</button>\n       \
+    \   </button>\n          <button id='9'>\n            <button id='10' alt='Checked'></button>\n\
+    \            <button id='11'>Enable auto update</button>\n          </button>\n\
+    \        </ScrollView>\n      </View>\n    </View>\n  </View>\n</ViewGroup>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 24867a/7cce4d
+  structure_str: e673a5/10fbf3
+  tag: 2024-11-11_210506
+  width: 1080
+step_num: 32

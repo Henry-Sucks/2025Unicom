@@ -1,0 +1,194 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 15
+  Choice: 15
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='equalizer' alt='Equalizer'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_holder'>\n                <scrollbar id='18' resource_id='view_pager'>\n\
+    \                  <RelativeLayout id='58' resource_id='tracks_fragment_holder'>\n\
+    \                    <RelativeLayout id='59' resource_id='tracks_fastscroller'>\n\
+    \                      <RecyclerView id='60' resource_id='tracks_list'>\n    \
+    \                    <ViewGroup id='61' resource_id='track_frame'>\n         \
+    \                 <ImageView id='62' resource_id='track_image'></ImageView>\n\
+    \                          <button id='63' resource_id='track_title'>test1</button>\n\
+    \                          <button id='64' resource_id='track_duration'>00:10</button>\n\
+    \                        </ViewGroup>\n                        <ViewGroup id='65'\
+    \ resource_id='track_frame'>\n                          <ImageView id='66' resource_id='track_image'></ImageView>\n\
+    \                          <button id='67' resource_id='track_title'>test2</button>\n\
+    \                          <button id='68' resource_id='track_duration'>00:07</button>\n\
+    \                        </ViewGroup>\n                      </RecyclerView>\n\
+    \                      <LinearLayout id='70' resource_id='trackView'></LinearLayout>\n\
+    \                    </RelativeLayout>\n                  </RelativeLayout>\n\
+    \                </scrollbar>\n                <RelativeLayout id='72' resource_id='current_track_bar'>\n\
+    \                  <ImageView id='73' resource_id='current_track_divider'></ImageView>\n\
+    \                  <ImageView id='74' resource_id='current_track_image'></ImageView>\n\
+    \                  <p id='75' resource_id='current_track_label' status='selected'>test1</p>\n\
+    \                  <ImageView id='76' resource_id='current_track_play_pause'></ImageView>\n\
+    \                </RelativeLayout>\n                <HorizontalScrollView id='77'\
+    \ resource_id='main_tabs_holder'>\n                  <LinearLayout id='78'>\n\
+    \                    <LinearLayout id='79'>\n                      <LinearLayout\
+    \ id='80' resource_id='tab_item_holder'>\n                        <ImageView id='81'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='82'\
+    \ resource_id='tab_item_label'>Playlists</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='83'>\n\
+    \                      <LinearLayout id='84' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='85' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='86' resource_id='tab_item_label'>Folders</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='87'>\n                      <LinearLayout\
+    \ id='88' resource_id='tab_item_holder'>\n                        <ImageView id='89'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='90'\
+    \ resource_id='tab_item_label'>Artists</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='91'>\n\
+    \                      <LinearLayout id='92' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='93' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='94' resource_id='tab_item_label'>Albums</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='95'>\n                      <LinearLayout\
+    \ id='96' resource_id='tab_item_holder'>\n                        <ImageView id='97'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <p id='98'\
+    \ resource_id='tab_item_label' status='selected'>Tracks</p>\n                \
+    \      </LinearLayout>\n                    </LinearLayout>\n                \
+    \  </LinearLayout>\n                </HorizontalScrollView>\n              </ViewGroup>\n\
+    \            </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 544f10c0bdcf7341ab3efd68404c9cf33b18d33f737acc636385e27291d0ebc8
+  state_str: eca7a1a7d4a3a9e1355b3e528fe877cf33c4ce35d37fda2ad04107e06fea5b35
+  tag: 2023-07-02_222618
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 22
+  Choice: 22
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Create\
+    \ new playlist</button>\n          </RelativeLayout>\n        </LinearLayout>\n\
+    \      </LinearLayout>\n      <LinearLayout id='7'>\n        <LinearLayout id='8'\
+    \ resource_id='content'>\n          <RelativeLayout id='9'>\n            <button\
+    \ id='10' resource_id='title'>Create new playlist from folder</button>\n     \
+    \     </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n    \
+    \  <LinearLayout id='11'>\n        <LinearLayout id='12' resource_id='content'>\n\
+    \          <RelativeLayout id='13'>\n            <button id='14' resource_id='title'>Import\
+    \ playlist</button>\n          </RelativeLayout>\n        </LinearLayout>\n  \
+    \    </LinearLayout>\n      <LinearLayout id='15'>\n        <LinearLayout id='16'\
+    \ resource_id='content'>\n          <RelativeLayout id='17'>\n            <button\
+    \ id='18' resource_id='title'>Sleep timer</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n      <LinearLayout id='19'>\n\
+    \        <LinearLayout id='20' resource_id='content'>\n          <RelativeLayout\
+    \ id='21'>\n            <button id='22' resource_id='title'>Settings</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='23'>\n        <LinearLayout id='24' resource_id='content'>\n\
+    \          <RelativeLayout id='25'>\n            <button id='26' resource_id='title'>About</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: f057ab1d8ea28cccf9a5659bdbc494f12428a9a4034642c6440db0f387d25dbd
+  state_str: b
+  tag: 2023-07-15_143625
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 31
+  Choice: 31
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <ScrollView id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ViewGroup id='15'\
+    \ resource_id='settings_widget_color_customization_holder'>\n                \
+    \  <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_manage_excluded_folders_holder'>\n\
+    \                  <button id='20' resource_id='settings_manage_excluded_folders'>Manage\
+    \ excluded folders</button>\n                </RelativeLayout>\n             \
+    \   <RelativeLayout id='21' resource_id='settings_manage_shown_tabs_holder'>\n\
+    \                  <button id='22' resource_id='settings_manage_shown_tabs_label'>Manage\
+    \ shown tabs</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='23' resource_id='settings_swap_prev_next_holder'>\n                  <checkbox\
+    \ id='24' resource_id='settings_swap_prev_next'>Swap previous/next headphone buttons</checkbox>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='25' resource_id='settings_show_filename_holder'>\n\
+    \                  <button id='26' resource_id='settings_show_filename_label'>Show\
+    \ filename as song title</button>\n                  <button id='27' resource_id='settings_show_filename'>If\
+    \ title is not available</button>\n                </RelativeLayout>\n       \
+    \         <ImageView id='28' resource_id='settings_general_divider'></ImageView>\n\
+    \                <p id='29' resource_id='settings_playback_section_label'>AUDIO</p>\n\
+    \                <RelativeLayout id='30' resource_id='settings_gapless_playback_holder'>\n\
+    \                  <checkbox id='31' resource_id='settings_gapless_playback'>Gapless\
+    \ playback</checkbox>\n                </RelativeLayout>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </ViewGroup>\n        </FrameLayout>\n \
+    \     </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: d0ed9caef9a21951bf20233048d4c9f49419bff6408409bde7a41eae8755112e
+  state_str: '1'
+  tag: 2023-07-15_143813
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <ScrollView id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ViewGroup id='15'\
+    \ resource_id='settings_widget_color_customization_holder'>\n                \
+    \  <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_manage_excluded_folders_holder'>\n\
+    \                  <button id='20' resource_id='settings_manage_excluded_folders'>Manage\
+    \ excluded folders</button>\n                </RelativeLayout>\n             \
+    \   <RelativeLayout id='21' resource_id='settings_manage_shown_tabs_holder'>\n\
+    \                  <button id='22' resource_id='settings_manage_shown_tabs_label'>Manage\
+    \ shown tabs</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='23' resource_id='settings_swap_prev_next_holder'>\n                  <checkbox\
+    \ id='24' resource_id='settings_swap_prev_next'>Swap previous/next headphone buttons</checkbox>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='25' resource_id='settings_show_filename_holder'>\n\
+    \                  <button id='26' resource_id='settings_show_filename_label'>Show\
+    \ filename as song title</button>\n                  <button id='27' resource_id='settings_show_filename'>If\
+    \ title is not available</button>\n                </RelativeLayout>\n       \
+    \         <ImageView id='28' resource_id='settings_general_divider'></ImageView>\n\
+    \                <p id='29' resource_id='settings_playback_section_label'>AUDIO</p>\n\
+    \                <RelativeLayout id='30' resource_id='settings_gapless_playback_holder'>\n\
+    \                  <checkbox id='31' resource_id='settings_gapless_playback' status='selected'>Gapless\
+    \ playback</checkbox>\n                </RelativeLayout>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </ViewGroup>\n        </FrameLayout>\n \
+    \     </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4736a91ef013aa052da09f09f59ab864785f4e3ef1a635f14ba15503551ab47e
+  state_str: '6'
+  tag: 2023-07-15_144028
+step_num: 4
+task_name: set the song to gapless playback

@@ -1,0 +1,148 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 21
+  Choice: 21
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <FrameLayout id='6' resource_id='preview_view'></FrameLayout>\n \
+    \           <ViewGroup id='9'></ViewGroup>\n            <FrameLayout id='10' resource_id='top_options'>\n\
+    \              <LinearLayout id='11' resource_id='default_icons'>\n          \
+    \      <button id='12' resource_id='toggle_timer' alt='Toggle the timer mode'></button>\n\
+    \                <button id='13' resource_id='change_resolution' alt='Resolution'></button>\n\
+    \                <button id='14' resource_id='settings' alt='Settings'></button>\n\
+    \              </LinearLayout>\n            </FrameLayout>\n            <View\
+    \ id='17' resource_id='bottom_overlay'></View>\n            <RelativeLayout id='18'\
+    \ resource_id='camera_mode_holder'>\n              <HorizontalScrollView id='19'\
+    \ resource_id='camera_mode_tab'>\n                <LinearLayout id='20'>\n   \
+    \               <button id='21' alt='Video'>\n                    <button id='22'>Video</button>\n\
+    \                  </button>\n                  <p id='23' alt='Photo' status='selected'>\n\
+    \                    <p id='24' status='selected'>Photo</p>\n                \
+    \  </p>\n                </LinearLayout>\n              </HorizontalScrollView>\n\
+    \            </RelativeLayout>\n            <button id='25' resource_id='toggle_camera'\
+    \ alt='Toggle front/back camera'></button>\n            <button id='26' resource_id='shutter'\
+    \ alt='Shutter'></button>\n            <button id='27' resource_id='last_photo_video_preview'\
+    \ alt='View last captured media'></button>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: '5'
+  tag: 2023-07-06_234540
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 22
+  Choice: 22
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <ViewGroup id='7'></ViewGroup>\n            <FrameLayout id='8' resource_id='preview_view'></FrameLayout>\n\
+    \            <FrameLayout id='10' resource_id='top_options'>\n              <LinearLayout\
+    \ id='11' resource_id='default_icons'>\n                <button id='12' resource_id='change_resolution'\
+    \ alt='Resolution'></button>\n                <button id='13' resource_id='settings'\
+    \ alt='Settings'></button>\n              </LinearLayout>\n            </FrameLayout>\n\
+    \            <View id='14' resource_id='bottom_overlay'></View>\n            <RelativeLayout\
+    \ id='15' resource_id='camera_mode_holder'>\n              <HorizontalScrollView\
+    \ id='16' resource_id='camera_mode_tab'>\n                <LinearLayout id='17'>\n\
+    \                  <p id='18' alt='Video' status='selected'>\n               \
+    \     <p id='19' status='selected'>Video</p>\n                  </p>\n       \
+    \           <button id='20' alt='Photo'>\n                    <button id='21'>Photo</button>\n\
+    \                  </button>\n                </LinearLayout>\n              </HorizontalScrollView>\n\
+    \            </RelativeLayout>\n            <button id='22' resource_id='toggle_camera'\
+    \ alt='Toggle front/back camera'></button>\n            <button id='23' resource_id='shutter'\
+    \ alt='Shutter'></button>\n            <button id='24' resource_id='last_photo_video_preview'\
+    \ alt='View last captured media'></button>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: de630b21122c64a3fe10ecfaed57c4f75aa0ccc034c0d4f0829a1eceee1cd316
+  state_str: c
+  tag: 2023-07-06_234835
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 26
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <ViewGroup id='7'></ViewGroup>\n            <FrameLayout id='8' resource_id='preview_view'></FrameLayout>\n\
+    \            <FrameLayout id='10' resource_id='top_options'>\n              <LinearLayout\
+    \ id='11' resource_id='default_icons'>\n                <button id='12' resource_id='toggle_flash'\
+    \ alt='Toggle the flashlight mode'></button>\n                <button id='13'\
+    \ resource_id='change_resolution' alt='Resolution'></button>\n               \
+    \ <button id='14' resource_id='settings' alt='Settings'></button>\n          \
+    \    </LinearLayout>\n            </FrameLayout>\n            <View id='17' resource_id='bottom_overlay'></View>\n\
+    \            <RelativeLayout id='18' resource_id='camera_mode_holder'>\n     \
+    \         <HorizontalScrollView id='19' resource_id='camera_mode_tab'>\n     \
+    \           <LinearLayout id='20'>\n                  <p id='21' alt='Video' status='selected'>\n\
+    \                    <p id='22' status='selected'>Video</p>\n                \
+    \  </p>\n                  <button id='23' alt='Photo'>\n                    <button\
+    \ id='24'>Photo</button>\n                  </button>\n                </LinearLayout>\n\
+    \              </HorizontalScrollView>\n            </RelativeLayout>\n      \
+    \      <button id='25' resource_id='toggle_camera' alt='Toggle front/back camera'></button>\n\
+    \            <button id='26' resource_id='shutter' alt='Shutter'></button>\n \
+    \           <button id='27' resource_id='last_photo_video_preview' alt='View last\
+    \ captured media'></button>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4efb6855525e12ad12e51ee7417101fcd8de50baea1f327ec5aab2909412c090
+  state_str: e
+  tag: 2023-07-04_003222
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 20
+  Choice: 20
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <ViewGroup id='7'></ViewGroup>\n            <FrameLayout id='8' resource_id='preview_view'></FrameLayout>\n\
+    \            <FrameLayout id='10' resource_id='top_options'>\n              <LinearLayout\
+    \ id='11' resource_id='default_icons'>\n                <button id='12' resource_id='toggle_flash'\
+    \ alt='Toggle the flashlight mode'></button>\n                <button id='13'\
+    \ resource_id='change_resolution' alt='Resolution'></button>\n               \
+    \ <button id='14' resource_id='settings' alt='Settings'></button>\n          \
+    \    </LinearLayout>\n            </FrameLayout>\n            <View id='17' resource_id='bottom_overlay'></View>\n\
+    \            <p id='18' resource_id='video_rec_curr_timer'>00:00</p>\n       \
+    \     <button id='20' resource_id='shutter' alt='Shutter' status='selected'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 5947a524a536832ec1a9e3193d3dcd756b53af588edf4d501a0ecf96dca6e154
+  state_str: '1'
+  tag: 2023-07-04_003230
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <ViewGroup id='7'></ViewGroup>\n            <FrameLayout id='8' resource_id='preview_view'></FrameLayout>\n\
+    \            <FrameLayout id='10' resource_id='top_options'>\n              <LinearLayout\
+    \ id='11' resource_id='default_icons'>\n                <button id='12' resource_id='toggle_flash'\
+    \ alt='Toggle the flashlight mode'></button>\n                <button id='13'\
+    \ resource_id='change_resolution' alt='Resolution'></button>\n               \
+    \ <button id='14' resource_id='settings' alt='Settings'></button>\n          \
+    \    </LinearLayout>\n            </FrameLayout>\n            <View id='17' resource_id='bottom_overlay'></View>\n\
+    \            <RelativeLayout id='18' resource_id='camera_mode_holder'>\n     \
+    \         <HorizontalScrollView id='19' resource_id='camera_mode_tab'>\n     \
+    \           <LinearLayout id='20'>\n                  <p id='21' alt='Video' status='selected'>\n\
+    \                    <p id='22' status='selected'>Video</p>\n                \
+    \  </p>\n                  <button id='23' alt='Photo'>\n                    <button\
+    \ id='24'>Photo</button>\n                  </button>\n                </LinearLayout>\n\
+    \              </HorizontalScrollView>\n            </RelativeLayout>\n      \
+    \      <button id='25' resource_id='toggle_camera' alt='Toggle front/back camera'></button>\n\
+    \            <button id='26' resource_id='shutter' alt='Shutter'></button>\n \
+    \           <button id='27' resource_id='last_photo_video_preview' alt='View last\
+    \ captured media'></button>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4efb6855525e12ad12e51ee7417101fcd8de50baea1f327ec5aab2909412c090
+  state_str: e
+  tag: 2023-07-04_003222_2
+step_num: 5
+task_name: take a short selfie video

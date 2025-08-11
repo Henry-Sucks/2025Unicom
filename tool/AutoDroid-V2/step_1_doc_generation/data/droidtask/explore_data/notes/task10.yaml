@@ -1,0 +1,223 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 11
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='open_search' alt='Search'></button>\n\
+    \                <button id='9' resource_id='open_note' alt='Open note'></button>\n\
+    \                <button id='10' resource_id='new_note' alt='Create a new note'></button>\n\
+    \                <button id='11' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <LinearLayout id='12' resource_id='main_linear_layout'>\n\
+    \              <scrollbar id='13' resource_id='view_pager'>\n                <ViewGroup\
+    \ id='14' resource_id='pager_tab_strip'>\n                  <p id='16'>Diary</p>\n\
+    \                  <button id='17'>General note</button>\n                </ViewGroup>\n\
+    \                <RelativeLayout id='18' resource_id='note_fragment_holder'>\n\
+    \                  <ScrollView id='19' resource_id='notes_scrollview'>\n     \
+    \               <RelativeLayout id='20' resource_id='notes_relative_layout'>\n\
+    \                      <input id='21' resource_id='text_note_view'>2023.6.10 Sunny</input>\n\
+    \                    </RelativeLayout>\n                  </ScrollView>\n    \
+    \            </RelativeLayout>\n              </scrollbar>\n            </LinearLayout>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8dea304280d163f83acfaf5361f23bd69f0ee73b1e8d49e8b209e51e2f701476
+  state_str: 7dd599d9b413a75be1c426d9601dea75356fae2f5064cf4377daf3cb209125a6
+  tag: 2023-07-08_210440
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 46
+  Choice: 46
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Rename\
+    \ note</button>\n          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='7'>\n        <LinearLayout id='8' resource_id='content'>\n\
+    \          <RelativeLayout id='9'>\n            <button id='10' resource_id='title'>Share</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='11'>\n        <LinearLayout id='12' resource_id='content'>\n\
+    \          <RelativeLayout id='13'>\n            <button id='14' resource_id='title'>Create\
+    \ shortcut</button>\n          </RelativeLayout>\n        </LinearLayout>\n  \
+    \    </LinearLayout>\n      <LinearLayout id='15'>\n        <LinearLayout id='16'\
+    \ resource_id='content'>\n          <RelativeLayout id='17'>\n            <button\
+    \ id='18' resource_id='title'>Lock note</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n      <LinearLayout id='19'>\n\
+    \        <LinearLayout id='20' resource_id='content'>\n          <RelativeLayout\
+    \ id='21'>\n            <button id='22' resource_id='title'>Open file</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='23'>\n        <LinearLayout id='24' resource_id='content'>\n\
+    \          <RelativeLayout id='25'>\n            <button id='26' resource_id='title'>Import\
+    \ notes</button>\n          </RelativeLayout>\n        </LinearLayout>\n     \
+    \ </LinearLayout>\n      <LinearLayout id='27'>\n        <LinearLayout id='28'\
+    \ resource_id='content'>\n          <RelativeLayout id='29'>\n            <button\
+    \ id='30' resource_id='title'>Export as file</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n      <LinearLayout id='31'>\n\
+    \        <LinearLayout id='32' resource_id='content'>\n          <RelativeLayout\
+    \ id='33'>\n            <button id='34' resource_id='title'>Export all notes</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='35'>\n        <LinearLayout id='36' resource_id='content'>\n\
+    \          <RelativeLayout id='37'>\n            <button id='38' resource_id='title'>Print</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='39'>\n        <LinearLayout id='40' resource_id='content'>\n\
+    \          <RelativeLayout id='41'>\n            <button id='42' resource_id='title'>Delete\
+    \ note</button>\n          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='43'>\n        <LinearLayout id='44' resource_id='content'>\n\
+    \          <RelativeLayout id='45'>\n            <button id='46' resource_id='title'>Settings</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='47'>\n        <LinearLayout id='48' resource_id='content'>\n\
+    \          <RelativeLayout id='49'>\n            <button id='50' resource_id='title'>About</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: d30d629d793bfe53cdcfb3f2984315c78089bafee2ba0f45ef8bc2c0dcf7909a
+  state_str: '4'
+  tag: 2023-07-08_210825
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '10'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ViewGroup id='15'\
+    \ resource_id='settings_widget_color_customization_holder'>\n                \
+    \  <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_font_size_holder'>\n\
+    \                  <button id='20' resource_id='settings_font_size_label'>Font\
+    \ size</button>\n                  <button id='21' resource_id='settings_font_size'>100%</button>\n\
+    \                </RelativeLayout>\n                <ImageView id='22' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='23' resource_id='settings_text_label'>TEXT</p>\n     \
+    \           <RelativeLayout id='24' resource_id='settings_show_word_count_holder'>\n\
+    \                  <checkbox id='25' resource_id='settings_show_word_count'>Show\
+    \ word count</checkbox>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='26' resource_id='settings_clickable_links_holder'>\n                  <checkbox\
+    \ id='27' resource_id='settings_clickable_links'>Make links and emails clickable</checkbox>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='28' resource_id='settings_monospaced_font_holder'>\n\
+    \                  <checkbox id='29' resource_id='settings_monospaced_font'>Use\
+    \ monospaced font</checkbox>\n                </RelativeLayout>\n            \
+    \    <RelativeLayout id='30' resource_id='settings_use_incognito_mode_holder'>\n\
+    \                  <checkbox id='31' resource_id='settings_use_incognito_mode'>Use\
+    \ Incognito mode of keyboards</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='32' resource_id='settings_enable_line_wrap_holder'>\n\
+    \                  <checkbox id='33' resource_id='settings_enable_line_wrap' status='selected'>Enable\
+    \ line wrap</checkbox>\n                </RelativeLayout>\n              </LinearLayout>\n\
+    \            </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n  \
+    \    </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8b1898f69cd76af3a92398911eaa47fa62fd64ac5c12cbf3b48eadd5a807d499
+  state_str: 39b01c276cdb4bbfcd2599eb4911fa70d30685d0ec6786436e43e04002b142dd
+  tag: 2023-07-08_211209
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 48
+  Choice: 48
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <RelativeLayout id='28' resource_id='settings_monospaced_font_holder'>\n\
+    \                  <checkbox id='29' resource_id='settings_monospaced_font'>Use\
+    \ monospaced font</checkbox>\n                </RelativeLayout>\n            \
+    \    <RelativeLayout id='30' resource_id='settings_use_incognito_mode_holder'>\n\
+    \                  <checkbox id='31' resource_id='settings_use_incognito_mode'>Use\
+    \ Incognito mode of keyboards</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='32' resource_id='settings_enable_line_wrap_holder'>\n\
+    \                  <checkbox id='33' resource_id='settings_enable_line_wrap' status='selected'>Enable\
+    \ line wrap</checkbox>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='34' resource_id='settings_gravity_holder'>\n                  <button id='35'\
+    \ resource_id='settings_gravity_label'>Alignment</button>\n                  <button\
+    \ id='36' resource_id='settings_gravity'>Left</button>\n                </RelativeLayout>\n\
+    \                <ImageView id='37' resource_id='settings_text_divider'></ImageView>\n\
+    \                <p id='38' resource_id='settings_startup_label'>STARTUP</p>\n\
+    \                <RelativeLayout id='39' resource_id='settings_cursor_placement_holder'>\n\
+    \                  <checkbox id='40' resource_id='settings_cursor_placement' status='selected'>Place\
+    \ cursor to the end of note</checkbox>\n                </RelativeLayout>\n  \
+    \              <RelativeLayout id='41' resource_id='settings_show_keyboard_holder'>\n\
+    \                  <checkbox id='42' resource_id='settings_show_keyboard' status='selected'>Show\
+    \ keyboard on startup</checkbox>\n                </RelativeLayout>\n        \
+    \        <RelativeLayout id='43' resource_id='settings_show_note_picker_holder'>\n\
+    \                  <checkbox id='44' resource_id='settings_show_note_picker'>Show\
+    \ a note picker on startup</checkbox>\n                </RelativeLayout>\n   \
+    \             <ImageView id='45' resource_id='settings_startup_divider'></ImageView>\n\
+    \                <p id='46' resource_id='settings_saving_label'>SAVING</p>\n \
+    \               <RelativeLayout id='47' resource_id='settings_autosave_notes_holder'>\n\
+    \                  <checkbox id='48' resource_id='settings_autosave_notes' status='selected'>Autosave\
+    \ notes</checkbox>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='49' resource_id='settings_display_success_holder'>\n                  <checkbox\
+    \ id='50' resource_id='settings_display_success'>Display save success messages</checkbox>\n\
+    \                </RelativeLayout>\n              </LinearLayout>\n          \
+    \  </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 10bac2bd974bd90c0972427b375edb6ede4f05a45723e57273aa11236e226809
+  state_str: 8b1898f69cd76af3a92398911eaa47fa62fd64ac5c12cbf3b48eadd5a807d499
+  tag: 2023-07-08_211209_2
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ViewGroup id='15'\
+    \ resource_id='settings_widget_color_customization_holder'>\n                \
+    \  <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_font_size_holder'>\n\
+    \                  <button id='20' resource_id='settings_font_size_label'>Font\
+    \ size</button>\n                  <button id='21' resource_id='settings_font_size'>100%</button>\n\
+    \                </RelativeLayout>\n                <ImageView id='22' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='23' resource_id='settings_text_label'>TEXT</p>\n     \
+    \           <RelativeLayout id='24' resource_id='settings_show_word_count_holder'>\n\
+    \                  <checkbox id='25' resource_id='settings_show_word_count'>Show\
+    \ word count</checkbox>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='26' resource_id='settings_clickable_links_holder'>\n                  <checkbox\
+    \ id='27' resource_id='settings_clickable_links'>Make links and emails clickable</checkbox>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='28' resource_id='settings_monospaced_font_holder'>\n\
+    \                  <checkbox id='29' resource_id='settings_monospaced_font'>Use\
+    \ monospaced font</checkbox>\n                </RelativeLayout>\n            \
+    \    <RelativeLayout id='30' resource_id='settings_use_incognito_mode_holder'>\n\
+    \                  <checkbox id='31' resource_id='settings_use_incognito_mode'>Use\
+    \ Incognito mode of keyboards</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='32' resource_id='settings_enable_line_wrap_holder'>\n\
+    \                  <checkbox id='33' resource_id='settings_enable_line_wrap' status='selected'>Enable\
+    \ line wrap</checkbox>\n                </RelativeLayout>\n              </LinearLayout>\n\
+    \            </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n  \
+    \    </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 5d7593c56d9cba2ce5c59dd8b091e6f4d016528872b0067da2946f9fc99926d9
+  state_str: 39b01c276cdb4bbfcd2599eb4911fa70d30685d0ec6786436e43e04002b142dd
+  tag: 2023-07-08_211203
+step_num: 4
+task_name: disable autosave notes

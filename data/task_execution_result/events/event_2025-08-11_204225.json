@@ -1,0 +1,12 @@
+{
+  "tag": "2025-08-11_204225",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.sinovatech.unicom.ui"
+  },
+  "start_state": "0686df4e1c1b0c380c191818292d66c659b3fde2282fbde07ca3648b2cad8c98",
+  "stop_state": "11678d80e4aa8f2affd2e22c134b33a1ee8790ed5aaf09df0929eed9ccec41b6",
+  "event_str": "KillAppEvent()"
+}

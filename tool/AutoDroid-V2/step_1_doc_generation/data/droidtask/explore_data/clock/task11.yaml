@@ -1,0 +1,177 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 9
+  Choice: 9
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='more_apps_from_us' alt='More\
+    \ apps from us'></button>\n                <button id='9' resource_id='settings'\
+    \ alt='Settings'></button>\n                <button id='10' resource_id='about'\
+    \ alt='About'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <RelativeLayout id='11' resource_id='main_holder'>\n            \
+    \  <scrollbar id='12' resource_id='view_pager'>\n                <ViewGroup id='36'\
+    \ resource_id='timer_fragment'>\n                  <RecyclerView id='37' resource_id='timers_list'>\n\
+    \                    <FrameLayout id='38' resource_id='timer_frame'>\n       \
+    \               <ViewGroup id='39'>\n                        <button id='40' resource_id='timer_time'>05:00</button>\n\
+    \                        <TextView id='41' resource_id='timer_label'></TextView>\n\
+    \                        <ImageView id='42' resource_id='timer_play_pause'></ImageView>\n\
+    \                      </ViewGroup>\n                    </FrameLayout>\n    \
+    \              </RecyclerView>\n                  <button id='43' resource_id='timer_add'\
+    \ alt='New Timer'></button>\n                </ViewGroup>\n              </scrollbar>\n\
+    \              <HorizontalScrollView id='44' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='45'>\n                  <LinearLayout id='46'>\n\
+    \                    <LinearLayout id='47' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='48' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='49' resource_id='tab_item_label'>Clock</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='50'>\n                    <LinearLayout id='51'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='52' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='53' resource_id='tab_item_label'>Alarm</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='54'>\n                    <LinearLayout id='55'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='56' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='57' resource_id='tab_item_label'>Stopwatch</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='58'>\n                    <LinearLayout id='59'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='60' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='61' resource_id='tab_item_label' status='selected'>Timer</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str: 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+  tag: 2023-07-08_180333
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 28
+  Choice: 28
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors (Locked)</button>\n                </ViewGroup>\n                <ViewGroup\
+    \ id='15' resource_id='settings_widget_color_customization_holder'>\n        \
+    \          <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_purchase_thank_you_holder'>\n\
+    \                  <button id='20' resource_id='settings_purchase_thank_you_label'>Purchase\
+    \ Simple Thank You</button>\n                </RelativeLayout>\n             \
+    \   <RelativeLayout id='21' resource_id='settings_prevent_phone_from_sleeping_holder'>\n\
+    \                  <checkbox id='22' resource_id='settings_prevent_phone_from_sleeping'\
+    \ status='selected'>Prevent phone from sleeping while the app is in fo</checkbox>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='23' resource_id='settings_sunday_first_holder'>\n\
+    \                  <checkbox id='24' resource_id='settings_sunday_first' status='selected'>Start\
+    \ week on Sunday</checkbox>\n                </RelativeLayout>\n             \
+    \   <ImageView id='25' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='26' resource_id='settings_alarm_tab_label'>ALARM TAB</p>\n\
+    \                <RelativeLayout id='27' resource_id='settings_alarm_max_reminder_holder'>\n\
+    \                  <button id='28' resource_id='settings_alarm_max_reminder_label'>Max\
+    \ reminder duration</button>\n                  <button id='29' resource_id='settings_alarm_max_reminder'>5\
+    \ minutes</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='30' resource_id='settings_increase_volume_gradually_holder'>\n         \
+    \         <checkbox id='31' resource_id='settings_increase_volume_gradually' status='selected'>Increase\
+    \ volume gradually</checkbox>\n                </RelativeLayout>\n           \
+    \     <RelativeLayout id='32' resource_id='settings_use_same_snooze_holder'>\n\
+    \                  <checkbox id='33' resource_id='settings_use_same_snooze' status='selected'>Always\
+    \ use same snooze time</checkbox>\n                </RelativeLayout>\n       \
+    \         <RelativeLayout id='34' resource_id='settings_snooze_time_holder'></RelativeLayout>\n\
+    \              </LinearLayout>\n            </scrollbar>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: c6da5bca26734434e32e38c9887040ed4b3cd739dcc3901924cf5435d5889de3
+  state_str: 8ca1a7f61e2e262def087258691c8087fe61d29b65f13d858b951a26a4f60508
+  tag: 2023-07-08_175440
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 11
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10' status='selected'>1 minute</checkbox>\n   \
+    \                 <checkbox id='11'>5 minutes</checkbox>\n                   \
+    \ <checkbox id='12'>10 minutes</checkbox>\n                    <checkbox id='13'>30\
+    \ minutes</checkbox>\n                    <checkbox id='14'>1 hour</checkbox>\n\
+    \                    <checkbox id='15'>Custom</checkbox>\n                  </RadioGroup>\n\
+    \                </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='16' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='17'>\n                <button id='18' resource_id='button1'>OK</button>\n\
+    \              </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 88b83f316a333199154fb1ad50c83943aea478deaf68b4f778cbfd3e257f7713
+  state_str: c
+  tag: 2023-07-08_175630
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors (Locked)</button>\n                </ViewGroup>\n                <ViewGroup\
+    \ id='15' resource_id='settings_widget_color_customization_holder'>\n        \
+    \          <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_purchase_thank_you_holder'>\n\
+    \                  <button id='20' resource_id='settings_purchase_thank_you_label'>Purchase\
+    \ Simple Thank You</button>\n                </RelativeLayout>\n             \
+    \   <RelativeLayout id='21' resource_id='settings_prevent_phone_from_sleeping_holder'>\n\
+    \                  <checkbox id='22' resource_id='settings_prevent_phone_from_sleeping'\
+    \ status='selected'>Prevent phone from sleeping while the app is in fo</checkbox>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='23' resource_id='settings_sunday_first_holder'>\n\
+    \                  <checkbox id='24' resource_id='settings_sunday_first' status='selected'>Start\
+    \ week on Sunday</checkbox>\n                </RelativeLayout>\n             \
+    \   <ImageView id='25' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='26' resource_id='settings_alarm_tab_label'>ALARM TAB</p>\n\
+    \                <RelativeLayout id='27' resource_id='settings_alarm_max_reminder_holder'>\n\
+    \                  <button id='28' resource_id='settings_alarm_max_reminder_label'>Max\
+    \ reminder duration</button>\n                  <button id='29' resource_id='settings_alarm_max_reminder'>5\
+    \ minutes</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='30' resource_id='settings_increase_volume_gradually_holder'>\n         \
+    \         <checkbox id='31' resource_id='settings_increase_volume_gradually' status='selected'>Increase\
+    \ volume gradually</checkbox>\n                </RelativeLayout>\n           \
+    \     <RelativeLayout id='32' resource_id='settings_use_same_snooze_holder'>\n\
+    \                  <checkbox id='33' resource_id='settings_use_same_snooze' status='selected'>Always\
+    \ use same snooze time</checkbox>\n                </RelativeLayout>\n       \
+    \         <RelativeLayout id='34' resource_id='settings_snooze_time_holder'></RelativeLayout>\n\
+    \              </LinearLayout>\n            </scrollbar>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 940cbc2e8f2de4565bc1411b36f466f5d4a36474e6a04f94848eef0969d3e21e
+  state_str: 8ca1a7f61e2e262def087258691c8087fe61d29b65f13d858b951a26a4f60508
+  tag: 2023-07-08_175440_2
+step_num: 4
+task_name: change timer max reminder duration to 5 minutes

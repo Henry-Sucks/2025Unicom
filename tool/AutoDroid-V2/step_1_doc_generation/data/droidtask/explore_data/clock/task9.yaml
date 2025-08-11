@@ -1,0 +1,144 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='more_apps_from_us' alt='More\
+    \ apps from us'></button>\n                <button id='9' resource_id='settings'\
+    \ alt='Settings'></button>\n                <button id='10' resource_id='about'\
+    \ alt='About'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <RelativeLayout id='11' resource_id='main_holder'>\n            \
+    \  <scrollbar id='12' resource_id='view_pager'>\n                <ViewGroup id='36'\
+    \ resource_id='timer_fragment'>\n                  <RecyclerView id='37' resource_id='timers_list'>\n\
+    \                    <FrameLayout id='38' resource_id='timer_frame'>\n       \
+    \               <ViewGroup id='39'>\n                        <button id='40' resource_id='timer_time'>05:00</button>\n\
+    \                        <TextView id='41' resource_id='timer_label'></TextView>\n\
+    \                        <ImageView id='42' resource_id='timer_play_pause'></ImageView>\n\
+    \                      </ViewGroup>\n                    </FrameLayout>\n    \
+    \              </RecyclerView>\n                  <button id='43' resource_id='timer_add'\
+    \ alt='New Timer'></button>\n                </ViewGroup>\n              </scrollbar>\n\
+    \              <HorizontalScrollView id='44' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='45'>\n                  <LinearLayout id='46'>\n\
+    \                    <LinearLayout id='47' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='48' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='49' resource_id='tab_item_label'>Clock</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='50'>\n                    <LinearLayout id='51'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='52' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='53' resource_id='tab_item_label'>Alarm</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='54'>\n                    <LinearLayout id='55'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='56' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='57' resource_id='tab_item_label'>Stopwatch</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='58'>\n                    <LinearLayout id='59'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='60' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='61' resource_id='tab_item_label' status='selected'>Timer</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str: 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+  tag: 2023-07-08_180333
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 16
+  Choice: 16
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='about_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='about_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>About</p>\n            </ViewGroup>\n\
+    \            <scrollbar id='10' resource_id='about_nested_scrollview'>\n     \
+    \         <LinearLayout id='11' resource_id='about_holder'>\n                <p\
+    \ id='12' resource_id='about_support'>SUPPORT</p>\n                <LinearLayout\
+    \ id='13' resource_id='about_support_layout'>\n                  <ViewGroup id='14'\
+    \ resource_id='about_item_holder'>\n                    <ImageView id='15' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='16' resource_id='about_item_label'>Frequently\
+    \ asked questions</button>\n                  </ViewGroup>\n                 \
+    \ <ViewGroup id='17' resource_id='about_item_holder'>\n                    <ImageView\
+    \ id='18' resource_id='about_item_icon'></ImageView>\n                    <button\
+    \ id='19' resource_id='about_item_label'>hello@simplemobiletools.com</button>\n\
+    \                  </ViewGroup>\n                </LinearLayout>\n           \
+    \     <ImageView id='20' resource_id='about_support_divider'></ImageView>\n  \
+    \              <p id='21' resource_id='about_help_us'>HELP US</p>\n          \
+    \      <LinearLayout id='22' resource_id='about_help_us_layout'>\n           \
+    \       <ViewGroup id='23' resource_id='about_item_holder'>\n                \
+    \    <ImageView id='24' resource_id='about_item_icon'></ImageView>\n         \
+    \           <button id='25' resource_id='about_item_label'>Rate us</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='26' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='27' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='28' resource_id='about_item_label'>Invite friends</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='29' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='30' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='31' resource_id='about_item_label'>Contributors</button>\n\
+    \                  </ViewGroup>\n                </LinearLayout>\n           \
+    \     <ImageView id='32' resource_id='about_help_us_divider'></ImageView>\n  \
+    \              <p id='33' resource_id='about_social'>SOCIAL</p>\n            \
+    \    <LinearLayout id='34' resource_id='about_social_layout'>\n              \
+    \    <ViewGroup id='35' resource_id='about_item_holder'>\n                   \
+    \ <ImageView id='36' resource_id='about_item_icon'></ImageView>\n            \
+    \        <button id='37' resource_id='about_item_label'>Facebook</button>\n  \
+    \                </ViewGroup>\n                  <ViewGroup id='38' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='39' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='40' resource_id='about_item_label'>GitHub</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='41' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='42' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='43' resource_id='about_item_label'>Reddit</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='44' resource_id='about_item_holder'></ViewGroup>\n\
+    \                </LinearLayout>\n              </LinearLayout>\n            </scrollbar>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 347b2a75fbaaa88aa6a79505f82e9a9b5758cc2998ec7c4a09309e530af8d363
+  state_str: fcd60aa1eac658e068b6a043d6160c1f71672ce87a5ec75c235b51afa5f0d188
+  tag: 2023-07-03_114020
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='faq_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='faq_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>Frequently asked questions</p>\n\
+    \            </ViewGroup>\n            <scrollbar id='10' resource_id='faq_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='faq_holder'>\n             \
+    \   <CardView id='12' resource_id='faq_card'>\n                  <LinearLayout\
+    \ id='13' resource_id='faq_layout'>\n                    <p id='14' resource_id='faq_title'>How\
+    \ can I change lap sorting at the stopwatch tab?</p>\n                    <p id='15'\
+    \ resource_id='faq_text'>Just click on any of the columns, that will make t</p>\n\
+    \                  </LinearLayout>\n                </CardView>\n            \
+    \    <CardView id='16' resource_id='faq_card'>\n                  <LinearLayout\
+    \ id='17' resource_id='faq_layout'>\n                    <p id='18' resource_id='faq_title'>How\
+    \ come I don&apos;t see this apps widget on the list </p>\n                  \
+    \  <p id='19' resource_id='faq_text'>It is most likely because you moved the app\
+    \ on an </p>\n                  </LinearLayout>\n                </CardView>\n\
+    \                <CardView id='20' resource_id='faq_card'>\n                 \
+    \ <LinearLayout id='21' resource_id='faq_layout'>\n                    <p id='22'\
+    \ resource_id='faq_title'>I don&apos;t like the widget colors, can I change them?</p>\n\
+    \                    <p id='23' resource_id='faq_text'>Yep, as you drag a widget\
+    \ on your home screen a wi</p>\n                  </LinearLayout>\n          \
+    \      </CardView>\n                <CardView id='24' resource_id='faq_card'>\n\
+    \                  <LinearLayout id='25' resource_id='faq_layout'>\n         \
+    \           <p id='26' resource_id='faq_title'>How can I select multiple items\
+    \ at once?</p>\n                    <p id='27' resource_id='faq_text'>There are\
+    \ multiple ways of doing that. The first o</p>\n                  </LinearLayout>\n\
+    \                </CardView>\n              </LinearLayout>\n            </scrollbar>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 1016fa879fa8a66f7c0e847566109ed3d87b60b0407548c4b6bd38fb456598d0
+  state_str: 5868531de2cb79b4ef6a0600d2c5908659082b78f2c5f4b613ec23ba98331e73
+  tag: 2023-07-03_114052
+step_num: 3
+task_name: check the frequently asked questions

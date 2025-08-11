@@ -45,16 +45,19 @@ class Agent2TaskExecutor:
         os.makedirs(self.output_dir, exist_ok=True)
 
         cmd = [
-            "python", "start.py",
+            "python", "-m", "tool.droidbot_execute.start",
             "-a", self.apk_path,
             "-o", self.output_dir,
             "-adaptive_policy",
-            "-adaptive_instructions", self.instruction_path,
+            # "-adaptive_instructions", self.instruction_path,
+            "-adaptive_instructions", r"C:\Projects\2025Unicom\data\planned_task\Book_a_flight_ticket_unicom_20250811_0433_processed.json",
             "-task", self.task_str,
             "-keep_app",
             "-keep_env",
             "-is_emulator"
         ]
+
+        print(cmd)
 
         log_file = self._generate_log_filename()
         

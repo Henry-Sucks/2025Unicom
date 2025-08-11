@@ -1,0 +1,101 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 8
+  Choice: 8
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 11
+    text: homework
+  Choice: 11
+  Input: homework
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Collapse'></button>\n            <aq id='7' resource_id='search'>\n\
+    \              <LinearLayout id='8' resource_id='search_bar'>\n              \
+    \  <LinearLayout id='9' resource_id='search_edit_frame'>\n                  <LinearLayout\
+    \ id='10' resource_id='search_plate'>\n                    <input id='11' resource_id='search_src_text'>Search\u2026\
+    </input>\n                  </LinearLayout>\n                </LinearLayout>\n\
+    \              </LinearLayout>\n            </aq>\n            <aq id='12'>\n\
+    \              <button id='13' resource_id='change_view' alt='Change view'></button>\n\
+    \              <button id='14' alt='More options'></button>\n            </aq>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n        <FrameLayout id='15'\
+    \ resource_id='content'>\n          <ViewGroup id='16' resource_id='calendar_coordinator'>\n\
+    \            <FrameLayout id='17' resource_id='fragments_holder'>\n          \
+    \    <scrollbar id='18'>\n                <RelativeLayout id='67' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='68' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='69' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='70' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='71' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </scrollbar>\n            </FrameLayout>\n\
+    \            <RelativeLayout id='163' resource_id='search_holder'>\n         \
+    \     <button id='164' resource_id='search_placeholder'>No items found.</button>\n\
+    \              <button id='165' resource_id='search_placeholder_2'>Type in at\
+    \ least 2 characters to start the search.</button>\n            </RelativeLayout>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: a0580636289877f1e38e3d0fb2dc819e0bafcdaa9cfe463ed66522d8f283685a
+  state_str: c1af3fc254b0fefdd4e361840868dc226dcffcea9154b3a62dbc7d2e7163fca6
+  tag: 2023-07-03_211227
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Collapse'></button>\n            <aq id='7' resource_id='search'>\n\
+    \              <LinearLayout id='8' resource_id='search_bar'>\n              \
+    \  <LinearLayout id='9' resource_id='search_edit_frame'>\n                  <LinearLayout\
+    \ id='10' resource_id='search_plate'>\n                    <input id='11' resource_id='search_src_text'>homework</input>\n\
+    \                    <button id='12' resource_id='search_close_btn' alt='Clear\
+    \ query'></button>\n                  </LinearLayout>\n                </LinearLayout>\n\
+    \              </LinearLayout>\n            </aq>\n            <aq id='13'>\n\
+    \              <button id='14' resource_id='change_view' alt='Change view'></button>\n\
+    \              <button id='15' alt='More options'></button>\n            </aq>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n        <FrameLayout id='16'\
+    \ resource_id='content'>\n          <ViewGroup id='17' resource_id='calendar_coordinator'>\n\
+    \            <FrameLayout id='18' resource_id='fragments_holder'>\n          \
+    \    <scrollbar id='19'>\n                <RelativeLayout id='68' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='69' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='70' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='71' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='72' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </scrollbar>\n            </FrameLayout>\n\
+    \            <RelativeLayout id='164' resource_id='search_holder'>\n         \
+    \     <button id='165' resource_id='search_placeholder'>No items found.</button>\n\
+    \            </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 31e3de127aad86f894e32416403c0c384493f6631dc80f2f969384255486f79f
+  state_str: 466a2fa64b6408c33077de33c9df6e8d1848fce42a9a42b53d5109eae9fa7153
+  tag: 2023-07-03_211251
+step_num: 4
+task_name: search the task 'homework'

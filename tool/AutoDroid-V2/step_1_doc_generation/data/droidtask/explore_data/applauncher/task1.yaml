@@ -1,0 +1,135 @@
+records:
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 10
+    text: Clock
+  Choice: 10
+  Input: Clock
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='toggle_app_name' alt='Toggle app name visibility'></button>\n \
+    \                     <button id='15' alt='More options'></button>\n         \
+    \           </LinearLayoutCompat>\n                  </ViewGroup>\n          \
+    \      </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <RelativeLayout id='16' resource_id='main_relative_layout'>\n   \
+    \           <ViewGroup id='17' resource_id='coordinator_layout'>\n           \
+    \     <RelativeLayout id='18' resource_id='launchers_holder'>\n              \
+    \    <RelativeLayout id='19' resource_id='launchers_fastscroller'>\n         \
+    \           <RecyclerView id='20' resource_id='launchers_grid'>\n            \
+    \          <RelativeLayout id='21' resource_id='launcher_holder'>\n          \
+    \              <ImageView id='22' resource_id='launcher_icon'></ImageView>\n \
+    \                       <button id='23' resource_id='launcher_label'>Calendar</button>\n\
+    \                      </RelativeLayout>\n                      <RelativeLayout\
+    \ id='24' resource_id='launcher_holder'>\n                        <ImageView id='25'\
+    \ resource_id='launcher_icon'></ImageView>\n                        <button id='26'\
+    \ resource_id='launcher_label'>Camera</button>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='27' resource_id='launcher_holder'>\n\
+    \                        <ImageView id='28' resource_id='launcher_icon'></ImageView>\n\
+    \                        <button id='29' resource_id='launcher_label'>Clock</button>\n\
+    \                      </RelativeLayout>\n                    </RecyclerView>\n\
+    \                    <LinearLayout id='31' resource_id='trackView'></LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \            <ImageButton id='33' resource_id='fab'></ImageButton>\n         \
+    \     </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n  \
+    \      </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: c
+  tag: 2023-07-15_164218
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 23
+  Choice: 23
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Clock</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='toggle_app_name' alt='Toggle app name visibility'></button>\n \
+    \                     <button id='15' alt='More options'></button>\n         \
+    \           </LinearLayoutCompat>\n                  </ViewGroup>\n          \
+    \      </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <RelativeLayout id='16' resource_id='main_relative_layout'>\n   \
+    \           <ViewGroup id='17' resource_id='coordinator_layout'>\n           \
+    \     <RelativeLayout id='18' resource_id='launchers_holder'>\n              \
+    \    <RelativeLayout id='19' resource_id='launchers_fastscroller'>\n         \
+    \           <RecyclerView id='20' resource_id='launchers_grid'>\n            \
+    \          <RelativeLayout id='21' resource_id='launcher_holder'>\n          \
+    \              <ImageView id='22' resource_id='launcher_icon'></ImageView>\n \
+    \                       <button id='23' resource_id='launcher_label'>Clock</button>\n\
+    \                      </RelativeLayout>\n                    </RecyclerView>\n\
+    \                    <LinearLayout id='25' resource_id='trackView'></LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \            <ImageButton id='27' resource_id='fab'></ImageButton>\n         \
+    \     </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n  \
+    \      </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: ef4cb2b7f5b1e85ac7426d6f120709e1a0e67a7c8b0bc90bdd9a90ed3beb1f60
+  state_str: a
+  tag: 2023-07-15_164229
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='more_apps_from_us' alt='More\
+    \ apps from us'></button>\n                <button id='9' resource_id='settings'\
+    \ alt='Settings'></button>\n                <button id='10' resource_id='about'\
+    \ alt='About'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <RelativeLayout id='11' resource_id='main_holder'>\n            \
+    \  <scrollbar id='12' resource_id='view_pager'>\n                <ViewGroup id='36'\
+    \ resource_id='timer_fragment'>\n                  <RecyclerView id='37' resource_id='timers_list'>\n\
+    \                    <FrameLayout id='38' resource_id='timer_frame'>\n       \
+    \               <ViewGroup id='39'>\n                        <button id='40' resource_id='timer_time'>05:00</button>\n\
+    \                        <TextView id='41' resource_id='timer_label'></TextView>\n\
+    \                        <ImageView id='42' resource_id='timer_play_pause'></ImageView>\n\
+    \                      </ViewGroup>\n                    </FrameLayout>\n    \
+    \              </RecyclerView>\n                  <button id='43' resource_id='timer_add'\
+    \ alt='New Timer'></button>\n                </ViewGroup>\n              </scrollbar>\n\
+    \              <HorizontalScrollView id='44' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='45'>\n                  <LinearLayout id='46'>\n\
+    \                    <LinearLayout id='47' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='48' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='49' resource_id='tab_item_label'>Clock</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='50'>\n                    <LinearLayout id='51'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='52' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='53' resource_id='tab_item_label'>Alarm</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='54'>\n                    <LinearLayout id='55'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='56' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='57' resource_id='tab_item_label'>Stopwatch</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='58'>\n                    <LinearLayout id='59'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='60' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='61' resource_id='tab_item_label' status='selected'>Timer</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str: 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+  tag: 2023-07-15_164237
+step_num: 4
+task_name: search 'Clock' app and open it

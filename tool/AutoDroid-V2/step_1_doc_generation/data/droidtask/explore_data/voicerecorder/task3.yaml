@@ -1,0 +1,125 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='15' resource_id='main_holder'>\n              <scrollbar id='16' resource_id='view_pager'>\n\
+    \                <ViewGroup id='17' resource_id='recorder_holder'>\n         \
+    \         <View id='18' resource_id='recorder_visualizer'></View>\n          \
+    \        <p id='19' resource_id='recording_duration'>00:00</p>\n             \
+    \     <ImageView id='20' resource_id='toggle_recording_button'></ImageView>\n\
+    \                </ViewGroup>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='51' resource_id='main_tabs_holder'>\n                <LinearLayout id='52'>\n\
+    \                  <LinearLayout id='53'>\n                    <LinearLayout id='54'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='55' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='56' resource_id='tab_item_label' status='selected'>Recorder</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='57'>\n                    <LinearLayout id='58'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='59' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='60' resource_id='tab_item_label'>Player</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: ebc3c7ccc0dfade1d397a93599b9919dc50a79323f6b8302b99aff76932e937f
+  state_str: 2039f11abe6aae0cfd2fe2521c6aeb8b2e817800e5de6dc194b69148b9aa0d06
+  tag: 2023-07-15_182759
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 16
+  Choice: 16
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='about_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='about_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>About</p>\n            </ViewGroup>\n\
+    \            <scrollbar id='10' resource_id='about_nested_scrollview'>\n     \
+    \         <LinearLayout id='11' resource_id='about_holder'>\n                <p\
+    \ id='12' resource_id='about_support'>SUPPORT</p>\n                <LinearLayout\
+    \ id='13' resource_id='about_support_layout'>\n                  <ViewGroup id='14'\
+    \ resource_id='about_item_holder'>\n                    <ImageView id='15' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='16' resource_id='about_item_label'>Frequently\
+    \ asked questions</button>\n                  </ViewGroup>\n                 \
+    \ <ViewGroup id='17' resource_id='about_item_holder'>\n                    <ImageView\
+    \ id='18' resource_id='about_item_icon'></ImageView>\n                    <button\
+    \ id='19' resource_id='about_item_label'>hello@simplemobiletools.com</button>\n\
+    \                  </ViewGroup>\n                </LinearLayout>\n           \
+    \     <ImageView id='20' resource_id='about_support_divider'></ImageView>\n  \
+    \              <p id='21' resource_id='about_help_us'>HELP US</p>\n          \
+    \      <LinearLayout id='22' resource_id='about_help_us_layout'>\n           \
+    \       <ViewGroup id='23' resource_id='about_item_holder'>\n                \
+    \    <ImageView id='24' resource_id='about_item_icon'></ImageView>\n         \
+    \           <button id='25' resource_id='about_item_label'>Contributors</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='26' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='27' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='28' resource_id='about_item_label'>Donate</button>\n\
+    \                  </ViewGroup>\n                </LinearLayout>\n           \
+    \     <ImageView id='29' resource_id='about_help_us_divider'></ImageView>\n  \
+    \              <p id='30' resource_id='about_social'>SOCIAL</p>\n            \
+    \    <LinearLayout id='31' resource_id='about_social_layout'>\n              \
+    \    <ViewGroup id='32' resource_id='about_item_holder'>\n                   \
+    \ <ImageView id='33' resource_id='about_item_icon'></ImageView>\n            \
+    \        <button id='34' resource_id='about_item_label'>Facebook</button>\n  \
+    \                </ViewGroup>\n                  <ViewGroup id='35' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='36' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='37' resource_id='about_item_label'>GitHub</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='38' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='39' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='40' resource_id='about_item_label'>Reddit</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='41' resource_id='about_item_holder'>\n\
+    \                    <ImageView id='42' resource_id='about_item_icon'></ImageView>\n\
+    \                    <button id='43' resource_id='about_item_label'>Telegram</button>\n\
+    \                  </ViewGroup>\n                </LinearLayout>\n           \
+    \   </LinearLayout>\n            </scrollbar>\n          </ViewGroup>\n      \
+    \  </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 01761c55c458560c451ae5ab946cb58da6702f4ce6f72f6221b0d3ce78e138be
+  state_str: 9e872d9e8106b8559eda4685643675158b10c4ce89f51fea4ec7d8ac59969a4b
+  tag: 2023-07-15_183646
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='faq_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='faq_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>Frequently asked questions</p>\n\
+    \            </ViewGroup>\n            <ScrollView id='10' resource_id='faq_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='faq_holder'>\n             \
+    \   <CardView id='12' resource_id='faq_card'>\n                  <LinearLayout\
+    \ id='13' resource_id='faq_layout'>\n                    <p id='14' resource_id='faq_title'>Can\
+    \ I hide the notification icon during recording?</p>\n                    <p id='15'\
+    \ resource_id='faq_text'>Well, it depends. While you use your device it is </p>\n\
+    \                  </LinearLayout>\n                </CardView>\n            \
+    \    <CardView id='16' resource_id='faq_card'>\n                  <LinearLayout\
+    \ id='17' resource_id='faq_layout'>\n                    <p id='18' resource_id='faq_title'>How\
+    \ can I select multiple items at once?</p>\n                    <p id='19' resource_id='faq_text'>There\
+    \ are multiple ways of doing that. The first o</p>\n                  </LinearLayout>\n\
+    \                </CardView>\n              </LinearLayout>\n            </ScrollView>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: e8480ecab5acbe5d2c76e1c22baf5fcfdad8eaa14bed4dd504d2ec5ea576c288
+  state_str: d
+  tag: 2023-07-03_101910
+step_num: 3
+task_name: open 'frequently asked questions'

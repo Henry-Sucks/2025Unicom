@@ -1,0 +1,181 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 60
+  Choice: 60
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='15' resource_id='main_holder'>\n              <scrollbar id='16' resource_id='view_pager'>\n\
+    \                <ViewGroup id='17' resource_id='recorder_holder'>\n         \
+    \         <View id='18' resource_id='recorder_visualizer'></View>\n          \
+    \        <p id='19' resource_id='recording_duration'>00:00</p>\n             \
+    \     <ImageView id='20' resource_id='toggle_recording_button'></ImageView>\n\
+    \                </ViewGroup>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='51' resource_id='main_tabs_holder'>\n                <LinearLayout id='52'>\n\
+    \                  <LinearLayout id='53'>\n                    <LinearLayout id='54'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='55' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='56' resource_id='tab_item_label' status='selected'>Recorder</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='57'>\n                    <LinearLayout id='58'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='59' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='60' resource_id='tab_item_label'>Player</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: ebc3c7ccc0dfade1d397a93599b9919dc50a79323f6b8302b99aff76932e937f
+  state_str: 2039f11abe6aae0cfd2fe2521c6aeb8b2e817800e5de6dc194b69148b9aa0d06
+  tag: 2023-07-15_182759
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 33
+  Choice: 33
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='15' resource_id='main_holder'>\n              <scrollbar id='16' resource_id='view_pager'>\n\
+    \                <ViewGroup id='21' resource_id='player_holder'>\n           \
+    \       <RelativeLayout id='22' resource_id='recordings_fastscroller'>\n     \
+    \               <RecyclerView id='23' resource_id='recordings_list'>\n       \
+    \               <FrameLayout id='24' resource_id='recording_frame'>\n        \
+    \                <RelativeLayout id='25' resource_id='item_holder'>\n        \
+    \                  <button id='26' resource_id='recording_title'>test1.m4a</button>\n\
+    \                          <button id='27' resource_id='recording_duration'>00:10</button>\n\
+    \                          <button id='28' resource_id='recording_date'>30.06.2023,\
+    \ 12:26 PM</button>\n                          <button id='29' resource_id='recording_size'>124\
+    \ kB</button>\n                          <ImageView id='30' resource_id='overflow_menu_icon'></ImageView>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='31' resource_id='recording_frame'>\n \
+    \                       <RelativeLayout id='32' resource_id='item_holder'>\n \
+    \                         <button id='33' resource_id='recording_title'>test2.m4a</button>\n\
+    \                          <button id='34' resource_id='recording_duration'>00:07</button>\n\
+    \                          <button id='35' resource_id='recording_date'>30.06.2023,\
+    \ 12:26 PM</button>\n                          <button id='36' resource_id='recording_size'>86.1\
+    \ kB</button>\n                          <ImageView id='37' resource_id='overflow_menu_icon'></ImageView>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <LinearLayout id='39'\
+    \ resource_id='trackView'></LinearLayout>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='41' resource_id='player_controls_wrapper'>\n\
+    \                    <View id='42' resource_id='player_divider'></View>\n    \
+    \                <TextView id='43' resource_id='player_title'></TextView>\n  \
+    \                  <button id='44' resource_id='player_progress_current'>00:00</button>\n\
+    \                    <SeekBar id='45' resource_id='player_progressbar'></SeekBar>\n\
+    \                    <button id='46' resource_id='player_progress_max'>00:00</button>\n\
+    \                    <RelativeLayout id='47' resource_id='player_controls'>\n\
+    \                      <button id='48' resource_id='previous_btn' alt='Previous'></button>\n\
+    \                      <button id='49' resource_id='play_pause_btn' alt='Play\
+    \ / Pause'></button>\n                      <button id='50' resource_id='next_btn'\
+    \ alt='Next'></button>\n                    </RelativeLayout>\n              \
+    \    </RelativeLayout>\n                </ViewGroup>\n              </scrollbar>\n\
+    \              <HorizontalScrollView id='51' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='52'>\n                  <LinearLayout id='53'>\n\
+    \                    <LinearLayout id='54' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='55' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='56' resource_id='tab_item_label'>Recorder</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='57'>\n                    <LinearLayout id='58'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='59' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='60' resource_id='tab_item_label' status='selected'>Player</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 41f3305e06df4df3ac8ee3f17ad17a40a34230880a4a372f4cdaa288d55541b8
+  state_str: 2a3bee6c8d378b07a902501cb4ae14da1958fffb0a48042b594942952460e734
+  tag: 2023-07-15_183721
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='15' resource_id='main_holder'>\n              <scrollbar id='16' resource_id='view_pager'>\n\
+    \                <ViewGroup id='21' resource_id='player_holder'>\n           \
+    \       <RelativeLayout id='22' resource_id='recordings_fastscroller'>\n     \
+    \               <RecyclerView id='23' resource_id='recordings_list'>\n       \
+    \               <FrameLayout id='24' resource_id='recording_frame'>\n        \
+    \                <RelativeLayout id='25' resource_id='item_holder'>\n        \
+    \                  <p id='26' resource_id='recording_title'>test1.m4a</p>\n  \
+    \                        <p id='27' resource_id='recording_duration'>00:10</p>\n\
+    \                          <p id='28' resource_id='recording_date'>30.06.2023,\
+    \ 12:26 PM</p>\n                          <p id='29' resource_id='recording_size'>124\
+    \ kB</p>\n                          <ImageView id='30' resource_id='overflow_menu_icon'></ImageView>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='31' resource_id='recording_frame'>\n \
+    \                       <RelativeLayout id='32' resource_id='item_holder'>\n \
+    \                         <p id='33' resource_id='recording_title'>test2.m4a</p>\n\
+    \                          <p id='34' resource_id='recording_duration'>00:07</p>\n\
+    \                          <p id='35' resource_id='recording_date'>30.06.2023,\
+    \ 12:26 PM</p>\n                          <p id='36' resource_id='recording_size'>86.1\
+    \ kB</p>\n                          <ImageView id='37' resource_id='overflow_menu_icon'></ImageView>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <LinearLayout id='39'\
+    \ resource_id='trackView'></LinearLayout>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='41' resource_id='player_controls_wrapper'>\n\
+    \                    <View id='42' resource_id='player_divider'></View>\n    \
+    \                <p id='43' resource_id='player_title'>test2.m4a</p>\n       \
+    \             <button id='44' resource_id='player_progress_current'>00:01</button>\n\
+    \                    <SeekBar id='45' resource_id='player_progressbar'></SeekBar>\n\
+    \                    <button id='46' resource_id='player_progress_max'>00:07</button>\n\
+    \                    <RelativeLayout id='47' resource_id='player_controls'>\n\
+    \                      <button id='48' resource_id='previous_btn' alt='Previous'></button>\n\
+    \                      <button id='49' resource_id='play_pause_btn' alt='Play\
+    \ / Pause'></button>\n                      <button id='50' resource_id='next_btn'\
+    \ alt='Next'></button>\n                    </RelativeLayout>\n              \
+    \    </RelativeLayout>\n                </ViewGroup>\n              </scrollbar>\n\
+    \              <HorizontalScrollView id='51' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='52'>\n                  <LinearLayout id='53'>\n\
+    \                    <LinearLayout id='54' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='55' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='56' resource_id='tab_item_label'>Recorder</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='57'>\n                    <LinearLayout id='58'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='59' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='60' resource_id='tab_item_label' status='selected'>Player</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: dd543c69fde1dcdb416912bf2b51e81268cad2f3d48efcbf6fb7aa837a81d866
+  state_str: a65ca6361bd2ddbcdb56edb5864266680d9a203096736f96d82775b8bfbbb4e0
+  tag: 2023-07-03_105144
+step_num: 3
+task_name: use player to play 'test2.m4a'

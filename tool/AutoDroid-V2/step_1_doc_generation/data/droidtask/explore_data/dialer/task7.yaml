@@ -1,0 +1,116 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 73
+  Choice: 73
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='filter' alt='Filter'></button>\n                      <button id='15'\
+    \ resource_id='create_new_contact' alt='Create new contact'></button>\n      \
+    \                <button id='16' alt='More options'></button>\n              \
+    \      </LinearLayoutCompat>\n                  </ViewGroup>\n               \
+    \ </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <ViewGroup id='17' resource_id='main_holder'>\n              <scrollbar\
+    \ id='18' resource_id='view_pager'>\n                <RelativeLayout id='19' resource_id='contacts_fragment'>\n\
+    \                  <RelativeLayout id='20' resource_id='fragment_wrapper'>\n \
+    \                   <RecyclerView id='21' resource_id='fragment_list'>\n     \
+    \                 <FrameLayout id='22' resource_id='item_contact_frame'>\n   \
+    \                     <RelativeLayout id='23' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='24' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='25' resource_id='item_contact_name'>Alice</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='26' resource_id='item_contact_frame'>\n\
+    \                        <RelativeLayout id='27' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='28' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='29' resource_id='item_contact_name'>Bob</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='30' resource_id='item_contact_frame'>\n\
+    \                        <RelativeLayout id='31' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='32' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='33' resource_id='item_contact_name'>Jack</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <ViewGroup id='34' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \                    <LinearLayout id='38' resource_id='letter_fastscroller'>\n\
+    \                      <button id='39'>A\nB\nJ</button>\n                    </LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \          </scrollbar>\n              <button id='63' resource_id='main_dialpad_button'\
+    \ alt='Dialpad'></button>\n              <HorizontalScrollView id='64' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='65'>\n                  <LinearLayout id='66'>\n\
+    \                    <LinearLayout id='67' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='68' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='69' resource_id='tab_item_label' status='selected'>Contacts</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='70'>\n                    <LinearLayout id='71'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='72' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='73' resource_id='tab_item_label'>Favorites</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='74'>\n                    <LinearLayout id='75'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='76' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='77' resource_id='tab_item_label'>Call History</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 36d9d3b201880926045a3f8ce61c43793956327bde63025e6ebeb56aacd079e4
+  state_str: a235dae46751ea44d05ec84dfef1d3fa054bc40c2ec9975dcf887189fe402cdd
+  tag: 2023-07-07_174450
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='filter' alt='Filter'></button>\n                      <button id='15'\
+    \ alt='More options'></button>\n                    </LinearLayoutCompat>\n  \
+    \                </ViewGroup>\n                </RelativeLayout>\n           \
+    \   </LinearLayout>\n            </LinearLayout>\n            <ViewGroup id='16'\
+    \ resource_id='main_holder'>\n              <scrollbar id='17' resource_id='view_pager'>\n\
+    \                <RelativeLayout id='39' resource_id='favorites_fragment'>\n \
+    \                 <RelativeLayout id='40' resource_id='fragment_wrapper'>\n  \
+    \                  <p id='41' resource_id='fragment_placeholder'>No contacts found</p>\n\
+    \                    <ViewGroup id='42' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \                    <LinearLayout id='46' resource_id='letter_fastscroller'></LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \          </scrollbar>\n              <button id='69' resource_id='main_dialpad_button'\
+    \ alt='Dialpad'></button>\n              <HorizontalScrollView id='70' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='71'>\n                  <LinearLayout id='72'>\n\
+    \                    <LinearLayout id='73' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='74' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='75' resource_id='tab_item_label'>Contacts</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='76'>\n                    <LinearLayout id='77'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='78' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='79' resource_id='tab_item_label' status='selected'>Favorites</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='80'>\n                    <LinearLayout id='81'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='82' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='83' resource_id='tab_item_label'>Call History</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 52a5299065b902fc4c15bdb017cc11e6f7016b4f196812630def508dd44cf179
+  state_str: c6000785747bf9c1445e40c2299c8cbb339d0f85347362af488022045bf90eac
+  tag: 2023-07-07_181411
+step_num: 2
+task_name: view favorite contacts

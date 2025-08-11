@@ -1,0 +1,211 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 53
+  Choice: 53
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='equalizer' alt='Equalizer'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_holder'>\n                <scrollbar id='18' resource_id='view_pager'>\n\
+    \                  <RelativeLayout id='47' resource_id='albums_fragment_holder'>\n\
+    \                    <RelativeLayout id='48' resource_id='albums_fastscroller'>\n\
+    \                      <RecyclerView id='49' resource_id='albums_list'>\n    \
+    \                    <FrameLayout id='50' resource_id='album_frame'>\n       \
+    \                   <ViewGroup id='51' resource_id='album_holder'>\n         \
+    \                   <ImageView id='52' resource_id='album_image'></ImageView>\n\
+    \                            <button id='53' resource_id='album_title'>Recordings</button>\n\
+    \                            <button id='54' resource_id='album_tracks'>2 Tracks</button>\n\
+    \                          </ViewGroup>\n                        </FrameLayout>\n\
+    \                      </RecyclerView>\n                      <LinearLayout id='56'\
+    \ resource_id='trackView'></LinearLayout>\n                    </RelativeLayout>\n\
+    \                  </RelativeLayout>\n                </scrollbar>\n         \
+    \       <HorizontalScrollView id='72' resource_id='main_tabs_holder'>\n      \
+    \            <LinearLayout id='73'>\n                    <LinearLayout id='74'>\n\
+    \                      <LinearLayout id='75' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='76' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='77' resource_id='tab_item_label'>Playlists</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='78'>\n                      <LinearLayout\
+    \ id='79' resource_id='tab_item_holder'>\n                        <ImageView id='80'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='81'\
+    \ resource_id='tab_item_label'>Folders</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='82'>\n\
+    \                      <LinearLayout id='83' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='84' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='85' resource_id='tab_item_label'>Artists</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='86'>\n                      <LinearLayout\
+    \ id='87' resource_id='tab_item_holder'>\n                        <ImageView id='88'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <p id='89'\
+    \ resource_id='tab_item_label' status='selected'>Albums</p>\n                \
+    \      </LinearLayout>\n                    </LinearLayout>\n                \
+    \    <LinearLayout id='90'>\n                      <LinearLayout id='91' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='92' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='93' resource_id='tab_item_label'>Tracks</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                  </LinearLayout>\n                </HorizontalScrollView>\n\
+    \              </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 1d95cbcd7dfc4f519d40580f64f2c37d4879e42d30f8efcb989a3d7ade346a6b
+  state_str: ae5d7b182e022aa306df0bf3adf6646faee77667efe7cfa30a7dd1cef269465a
+  tag: 2023-07-15_145414
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 19
+  Choice: 19
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='tracks_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='tracks_toolbar'>\n              <ImageButton\
+    \ id='7'></ImageButton>\n              <p id='8'>Recordings</p>\n            </ViewGroup>\n\
+    \            <RelativeLayout id='10' resource_id='tracks_holder'>\n          \
+    \    <RelativeLayout id='11' resource_id='tracks_fastscroller'>\n            \
+    \    <RecyclerView id='12' resource_id='tracks_list'>\n                  <ViewGroup\
+    \ id='13' resource_id='album_header_holder'>\n                    <ImageView id='14'\
+    \ resource_id='album_image'></ImageView>\n                    <button id='15'\
+    \ resource_id='album_title'>Recordings</button>\n                    <button id='16'\
+    \ resource_id='album_artist'>&lt;unknown&gt;</button>\n                    <button\
+    \ id='17' resource_id='album_meta'>2 Tracks \u2022 0:00:17</button>\n        \
+    \          </ViewGroup>\n                  <ViewGroup id='18' resource_id='track_frame'>\n\
+    \                    <button id='19' resource_id='track_id'>0</button>\n     \
+    \               <button id='20' resource_id='track_title'>test1</button>\n   \
+    \                 <button id='21' resource_id='track_duration'>00:10</button>\n\
+    \                  </ViewGroup>\n                  <ViewGroup id='22' resource_id='track_frame'>\n\
+    \                    <button id='23' resource_id='track_id'>0</button>\n     \
+    \               <button id='24' resource_id='track_title'>test2</button>\n   \
+    \                 <button id='25' resource_id='track_duration'>00:07</button>\n\
+    \                  </ViewGroup>\n                </RecyclerView>\n           \
+    \     <LinearLayout id='27' resource_id='trackView'></LinearLayout>\n        \
+    \      </RelativeLayout>\n            </RelativeLayout>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 631930242f8d8db76296db1c59637a2b3369e36d202946afd77c5a48fb70bd9d
+  state_str: '6'
+  tag: 2023-07-15_145430
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 24
+  Choice: 24
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ScrollView id='5' resource_id='activity_track_Scrollview'>\n\
+    \            <ViewGroup id='6' resource_id='activity_track_holder'>\n        \
+    \      <p id='7' resource_id='activity_track_image' alt='Album'></p>\n       \
+    \       <ImageView id='8' resource_id='activity_track_top_shadow'></ImageView>\n\
+    \              <LinearLayout id='9' resource_id='activity_track_appbar'></LinearLayout>\n\
+    \              <SeekBar id='12' resource_id='activity_track_progressbar'></SeekBar>\n\
+    \              <button id='13' resource_id='activity_track_progress_current'>00:00</button>\n\
+    \              <ImageView id='14' resource_id='activity_track_speed_icon'></ImageView>\n\
+    \              <ImageView id='15' resource_id='activity_track_speed_click_area'></ImageView>\n\
+    \              <p id='16' resource_id='activity_track_speed'>1x</p>\n        \
+    \      <button id='17' resource_id='activity_track_progress_max'>00:10</button>\n\
+    \              <p id='18' resource_id='activity_track_title' status='selected'>test1</p>\n\
+    \              <p id='19' resource_id='activity_track_artist' status='selected'>&lt;unknown&gt;</p>\n\
+    \              <button id='20' resource_id='activity_track_toggle_shuffle' alt='Disable\
+    \ shuffle'></button>\n              <button id='21' resource_id='activity_track_previous'\
+    \ alt='Previous'></button>\n              <button id='22' resource_id='activity_track_play_pause'\
+    \ alt='Play / Pause'></button>\n              <button id='23' resource_id='activity_track_next'\
+    \ alt='Next'></button>\n              <button id='24' resource_id='activity_track_playback_setting'\
+    \ alt='Repeat all'></button>\n              <RelativeLayout id='25' resource_id='next_track_holder'>\n\
+    \                <ImageView id='26' resource_id='next_track_divider'></ImageView>\n\
+    \                <ImageView id='27' resource_id='next_track_image'></ImageView>\n\
+    \                <button id='28' resource_id='next_track_label'>Next: test2</button>\n\
+    \              </RelativeLayout>\n            </ViewGroup>\n          </ScrollView>\n\
+    \        </FrameLayout>\n      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 55ce8a4ed3df4ef00b18c288ef6a737a6e5502659f1b884cc308144286d54f58
+  state_str: f
+  tag: 2023-07-15_145436
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 24
+  Choice: 24
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ScrollView id='5' resource_id='activity_track_Scrollview'>\n\
+    \            <ViewGroup id='6' resource_id='activity_track_holder'>\n        \
+    \      <p id='7' resource_id='activity_track_image' alt='Album'></p>\n       \
+    \       <ImageView id='8' resource_id='activity_track_top_shadow'></ImageView>\n\
+    \              <LinearLayout id='9' resource_id='activity_track_appbar'></LinearLayout>\n\
+    \              <SeekBar id='12' resource_id='activity_track_progressbar'></SeekBar>\n\
+    \              <button id='13' resource_id='activity_track_progress_current'>00:00</button>\n\
+    \              <ImageView id='14' resource_id='activity_track_speed_icon'></ImageView>\n\
+    \              <ImageView id='15' resource_id='activity_track_speed_click_area'></ImageView>\n\
+    \              <p id='16' resource_id='activity_track_speed'>1x</p>\n        \
+    \      <button id='17' resource_id='activity_track_progress_max'>00:10</button>\n\
+    \              <p id='18' resource_id='activity_track_title' status='selected'>test1</p>\n\
+    \              <p id='19' resource_id='activity_track_artist' status='selected'>&lt;unknown&gt;</p>\n\
+    \              <button id='20' resource_id='activity_track_toggle_shuffle' alt='Disable\
+    \ shuffle'></button>\n              <button id='21' resource_id='activity_track_previous'\
+    \ alt='Previous'></button>\n              <button id='22' resource_id='activity_track_play_pause'\
+    \ alt='Play / Pause'></button>\n              <button id='23' resource_id='activity_track_next'\
+    \ alt='Next'></button>\n              <button id='24' resource_id='activity_track_playback_setting'\
+    \ alt='Repeat current song'></button>\n              <RelativeLayout id='25' resource_id='next_track_holder'>\n\
+    \                <ImageView id='26' resource_id='next_track_divider'></ImageView>\n\
+    \                <ImageView id='27' resource_id='next_track_image'></ImageView>\n\
+    \                <button id='28' resource_id='next_track_label'>Next: test2</button>\n\
+    \              </RelativeLayout>\n            </ViewGroup>\n          </ScrollView>\n\
+    \        </FrameLayout>\n      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 500a7062c6d00ccc304dec7bd680ba82df11b5223b928efe40076bce90a93ff9
+  state_str: '9'
+  tag: 2023-07-15_145458
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ScrollView id='5' resource_id='activity_track_Scrollview'>\n\
+    \            <ViewGroup id='6' resource_id='activity_track_holder'>\n        \
+    \      <p id='7' resource_id='activity_track_image' alt='Album'></p>\n       \
+    \       <ImageView id='8' resource_id='activity_track_top_shadow'></ImageView>\n\
+    \              <LinearLayout id='9' resource_id='activity_track_appbar'></LinearLayout>\n\
+    \              <SeekBar id='12' resource_id='activity_track_progressbar'></SeekBar>\n\
+    \              <button id='13' resource_id='activity_track_progress_current'>00:00</button>\n\
+    \              <ImageView id='14' resource_id='activity_track_speed_icon'></ImageView>\n\
+    \              <ImageView id='15' resource_id='activity_track_speed_click_area'></ImageView>\n\
+    \              <p id='16' resource_id='activity_track_speed'>1x</p>\n        \
+    \      <button id='17' resource_id='activity_track_progress_max'>00:10</button>\n\
+    \              <p id='18' resource_id='activity_track_title' status='selected'>test1</p>\n\
+    \              <p id='19' resource_id='activity_track_artist' status='selected'>&lt;unknown&gt;</p>\n\
+    \              <button id='20' resource_id='activity_track_toggle_shuffle' alt='Disable\
+    \ shuffle'></button>\n              <button id='21' resource_id='activity_track_previous'\
+    \ alt='Previous'></button>\n              <button id='22' resource_id='activity_track_play_pause'\
+    \ alt='Play / Pause'></button>\n              <button id='23' resource_id='activity_track_next'\
+    \ alt='Next'></button>\n              <button id='24' resource_id='activity_track_playback_setting'\
+    \ alt='Stop playback after current song'></button>\n              <RelativeLayout\
+    \ id='25' resource_id='next_track_holder'>\n                <ImageView id='26'\
+    \ resource_id='next_track_divider'></ImageView>\n                <ImageView id='27'\
+    \ resource_id='next_track_image'></ImageView>\n                <button id='28'\
+    \ resource_id='next_track_label'>Next: test2</button>\n              </RelativeLayout>\n\
+    \            </ViewGroup>\n          </ScrollView>\n        </FrameLayout>\n \
+    \     </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4c4015177e901f6d873e0e6dca28e22301c4a79558c19cee7e22fb588419d689
+  state_str: '6'
+  tag: 2023-07-15_145506
+step_num: 5
+task_name: play 'test1' in recordings and set the loop mode to 'loop the current song'

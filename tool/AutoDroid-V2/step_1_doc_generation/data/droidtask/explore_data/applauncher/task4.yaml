@@ -1,0 +1,239 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 15
+  Choice: 15
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='toggle_app_name' alt='Toggle app name visibility'></button>\n \
+    \                     <button id='15' alt='More options'></button>\n         \
+    \           </LinearLayoutCompat>\n                  </ViewGroup>\n          \
+    \      </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <RelativeLayout id='16' resource_id='main_relative_layout'>\n   \
+    \           <ViewGroup id='17' resource_id='coordinator_layout'>\n           \
+    \     <RelativeLayout id='18' resource_id='launchers_holder'>\n              \
+    \    <RelativeLayout id='19' resource_id='launchers_fastscroller'>\n         \
+    \           <RecyclerView id='20' resource_id='launchers_grid'>\n            \
+    \          <RelativeLayout id='21' resource_id='launcher_holder'>\n          \
+    \              <ImageView id='22' resource_id='launcher_icon'></ImageView>\n \
+    \                       <button id='23' resource_id='launcher_label'>Calendar</button>\n\
+    \                      </RelativeLayout>\n                      <RelativeLayout\
+    \ id='24' resource_id='launcher_holder'>\n                        <ImageView id='25'\
+    \ resource_id='launcher_icon'></ImageView>\n                        <button id='26'\
+    \ resource_id='launcher_label'>Camera</button>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='27' resource_id='launcher_holder'>\n\
+    \                        <ImageView id='28' resource_id='launcher_icon'></ImageView>\n\
+    \                        <button id='29' resource_id='launcher_label'>Clock</button>\n\
+    \                      </RelativeLayout>\n                    </RecyclerView>\n\
+    \                    <LinearLayout id='31' resource_id='trackView'></LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \            <ImageButton id='33' resource_id='fab'></ImageButton>\n         \
+    \     </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n  \
+    \      </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: c
+  tag: 2023-07-15_164218
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Column\
+    \ count</button>\n          </RelativeLayout>\n        </LinearLayout>\n     \
+    \ </LinearLayout>\n      <LinearLayout id='7'>\n        <LinearLayout id='8' resource_id='content'>\n\
+    \          <RelativeLayout id='9'>\n            <button id='10' resource_id='title'>Settings</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='11'>\n        <LinearLayout id='12' resource_id='content'>\n\
+    \          <RelativeLayout id='13'>\n            <button id='14' resource_id='title'>About</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: ca19303f69337e3b0304675f3593b6929a8f5e20f11c851c7caa0c01e2149f4c
+  state_str: '4'
+  tag: 2023-07-08_212438
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <ScrollView id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_close_app_holder'>\n\
+    \                  <checkbox id='18' resource_id='settings_close_app' status='selected'>Close\
+    \ this app at launching a different one</checkbox>\n                </RelativeLayout>\n\
+    \              </LinearLayout>\n            </ScrollView>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: c1b06bce7e23dd13a3288977fbdd55b3d1962a9bb93432a712321fd371f52bb7
+  state_str: a
+  tag: 2023-07-08_212516
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='customization_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='customization_toolbar'>\n        \
+    \      <ImageButton id='7'></ImageButton>\n              <p id='8'>Customize colors</p>\n\
+    \            </ViewGroup>\n            <ScrollView id='10' resource_id='customization_nested_scrollview'>\n\
+    \              <RelativeLayout id='11' resource_id='customization_holder'>\n \
+    \               <RelativeLayout id='12' resource_id='customization_theme_holder'>\n\
+    \                  <button id='13' resource_id='customization_theme_label'>Theme</button>\n\
+    \                  <button id='14' resource_id='customization_theme'>Dark</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='15' resource_id='customization_text_color_holder'>\n\
+    \                  <button id='16' resource_id='customization_text_color_label'>Text\
+    \ color</button>\n                  <ImageView id='17' resource_id='customization_text_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='18' resource_id='customization_background_color_holder'>\n\
+    \                  <button id='19' resource_id='customization_background_color_label'>Background\
+    \ color</button>\n                  <ImageView id='20' resource_id='customization_background_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='21' resource_id='customization_primary_color_holder'>\n\
+    \                  <button id='22' resource_id='customization_primary_color_label'>Primary\
+    \ color</button>\n                  <ImageView id='23' resource_id='customization_primary_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='24' resource_id='customization_app_icon_color_holder'>\n\
+    \                  <button id='25' resource_id='customization_app_icon_color_label'>App\
+    \ icon color</button>\n                  <ImageView id='26' resource_id='customization_app_icon_color'></ImageView>\n\
+    \                </RelativeLayout>\n              </RelativeLayout>\n        \
+    \    </ScrollView>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 06d12a81a984d165f6107d52300085d901815170a2c6546fc7129a5ff30b88da
+  state_str: '3'
+  tag: 2023-07-08_212524
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 12
+  Choice: 12
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='message_scrollview'>\n\
+    \                  <p id='9' resource_id='message'>WARNING: Some launchers do\
+    \ not handle app icon cus</p>\n                </ScrollView>\n              </FrameLayout>\n\
+    \            </FrameLayout>\n            <ScrollView id='10' resource_id='buttonPanel'>\n\
+    \              <LinearLayout id='11'>\n                <button id='12' resource_id='button1'>OK</button>\n\
+    \              </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: db8da4c4aed69c1ee76c3c58386edc9a9b8924ab9d096893dc87ae36659c73bb
+  state_str: '1'
+  tag: 2023-07-08_212530
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 11
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10'>Auto light / dark</checkbox>\n            \
+    \        <checkbox id='11'>Light</checkbox>\n                    <checkbox id='12'\
+    \ status='selected'>Dark</checkbox>\n                    <checkbox id='13'>Dark\
+    \ red</checkbox>\n                    <checkbox id='14'>White</checkbox>\n   \
+    \                 <checkbox id='15'>Black &amp; White</checkbox>\n           \
+    \         <checkbox id='16'>Custom</checkbox>\n                  </RadioGroup>\n\
+    \                </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayoutCompat>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: ee4bc85165d8e30eb0e6662bbd800d46bbbc7663b2262c79288c29040a6fb67d
+  state_str: f
+  tag: 2023-07-08_212539
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='customization_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='customization_toolbar'>\n        \
+    \      <ImageButton id='7'></ImageButton>\n              <p id='8'>Customize colors</p>\n\
+    \              <LinearLayoutCompat id='9'>\n                <button id='10' resource_id='save'\
+    \ alt='Save'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <ScrollView id='11' resource_id='customization_nested_scrollview'>\n\
+    \              <RelativeLayout id='12' resource_id='customization_holder'>\n \
+    \               <RelativeLayout id='13' resource_id='customization_theme_holder'>\n\
+    \                  <button id='14' resource_id='customization_theme_label'>Theme</button>\n\
+    \                  <button id='15' resource_id='customization_theme'>Light</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='16' resource_id='customization_text_color_holder'>\n\
+    \                  <button id='17' resource_id='customization_text_color_label'>Text\
+    \ color</button>\n                  <ImageView id='18' resource_id='customization_text_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='19' resource_id='customization_background_color_holder'>\n\
+    \                  <button id='20' resource_id='customization_background_color_label'>Background\
+    \ color</button>\n                  <ImageView id='21' resource_id='customization_background_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='22' resource_id='customization_primary_color_holder'>\n\
+    \                  <button id='23' resource_id='customization_primary_color_label'>Primary\
+    \ color</button>\n                  <ImageView id='24' resource_id='customization_primary_color'></ImageView>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='25' resource_id='customization_app_icon_color_holder'>\n\
+    \                  <button id='26' resource_id='customization_app_icon_color_label'>App\
+    \ icon color</button>\n                  <ImageView id='27' resource_id='customization_app_icon_color'></ImageView>\n\
+    \                </RelativeLayout>\n              </RelativeLayout>\n        \
+    \    </ScrollView>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 1b233e6d1cbf98943343817ef79284ef3921b2df45da09f3965f46f18c506726
+  state_str: '3'
+  tag: 2023-07-02_182021
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <ScrollView id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_close_app_holder'>\n\
+    \                  <checkbox id='18' resource_id='settings_close_app' status='selected'>Close\
+    \ this app at launching a different one</checkbox>\n                </RelativeLayout>\n\
+    \              </LinearLayout>\n            </ScrollView>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: c1b06bce7e23dd13a3288977fbdd55b3d1962a9bb93432a712321fd371f52bb7
+  state_str: a
+  tag: 2023-07-08_212516_2
+step_num: 8
+task_name: Change theme color to light

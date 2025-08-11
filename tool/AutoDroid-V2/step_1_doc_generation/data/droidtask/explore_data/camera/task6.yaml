@@ -1,0 +1,148 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <FrameLayout id='6' resource_id='preview_view'></FrameLayout>\n \
+    \           <ViewGroup id='9'></ViewGroup>\n            <FrameLayout id='10' resource_id='top_options'>\n\
+    \              <LinearLayout id='11' resource_id='default_icons'>\n          \
+    \      <button id='12' resource_id='toggle_timer' alt='Toggle the timer mode'></button>\n\
+    \                <button id='13' resource_id='change_resolution' alt='Resolution'></button>\n\
+    \                <button id='14' resource_id='settings' alt='Settings'></button>\n\
+    \              </LinearLayout>\n            </FrameLayout>\n            <View\
+    \ id='17' resource_id='bottom_overlay'></View>\n            <RelativeLayout id='18'\
+    \ resource_id='camera_mode_holder'>\n              <HorizontalScrollView id='19'\
+    \ resource_id='camera_mode_tab'>\n                <LinearLayout id='20'>\n   \
+    \               <button id='21' alt='Video'>\n                    <button id='22'>Video</button>\n\
+    \                  </button>\n                  <p id='23' alt='Photo' status='selected'>\n\
+    \                    <p id='24' status='selected'>Photo</p>\n                \
+    \  </p>\n                </LinearLayout>\n              </HorizontalScrollView>\n\
+    \            </RelativeLayout>\n            <button id='25' resource_id='toggle_camera'\
+    \ alt='Toggle front/back camera'></button>\n            <button id='26' resource_id='shutter'\
+    \ alt='Shutter'></button>\n            <button id='27' resource_id='last_photo_video_preview'\
+    \ alt='View last captured media'></button>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: '5'
+  tag: 2023-07-06_234540
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 26
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <LinearLayoutCompat id='9'>\n\
+    \                <button id='10' resource_id='about' alt='About'></button>\n \
+    \               <button id='11' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <scrollbar id='12' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='13' resource_id='settings_holder'>\n        \
+    \        <p id='14' resource_id='settings_color_customization_label'>COLOR CUSTOMIZATION</p>\n\
+    \                <ViewGroup id='15' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='16' resource_id='settings_customize_colors_label'>Customize\
+    \ colors (Locked)</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <LinearLayout id='19' resource_id='settings_general_settings_holder'>\n\
+    \                  <RelativeLayout id='20' resource_id='settings_purchase_thank_you_holder'>\n\
+    \                    <button id='21' resource_id='settings_purchase_thank_you'>Purchase\
+    \ Simple Thank You</button>\n                  </RelativeLayout>\n           \
+    \     </LinearLayout>\n                <ImageView id='22' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='23' resource_id='settings_shutter_label'>SHUTTER</p>\n\
+    \                <LinearLayout id='24' resource_id='settings_shutter_holder'>\n\
+    \                  <RelativeLayout id='25' resource_id='settings_sound_holder'>\n\
+    \                    <checkbox id='26' resource_id='settings_sound' status='selected'>Shutter\
+    \ sound</checkbox>\n                  </RelativeLayout>\n                  <RelativeLayout\
+    \ id='27' resource_id='settings_volume_buttons_as_shutter_holder'>\n         \
+    \           <checkbox id='28' resource_id='settings_volume_buttons_as_shutter'>Use\
+    \ volume buttons as shutter</checkbox>\n                  </RelativeLayout>\n\
+    \                </LinearLayout>\n                <ImageView id='29' resource_id='settings_shutter_divider'></ImageView>\n\
+    \                <p id='30' resource_id='settings_saving_label'>SAVING</p>\n \
+    \               <LinearLayout id='31' resource_id='settings_saving_holder'>\n\
+    \                  <RelativeLayout id='32' resource_id='settings_save_photo_metadata_holder'>\n\
+    \                    <checkbox id='33' resource_id='settings_save_photo_metadata'\
+    \ status='selected'>Save photo exif metadata</checkbox>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='34' resource_id='settings_flip_photos_holder'>\n\
+    \                    <checkbox id='35' resource_id='settings_flip_photos' status='selected'>Flip\
+    \ front camera photos horizontally</checkbox>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='36' resource_id='settings_save_photos_holder'>\n\
+    \                    <button id='37' resource_id='settings_save_photos_label'>Save\
+    \ photos and videos to (Locked)</button>\n                    <button id='38'\
+    \ resource_id='settings_save_photos'>DCIM</button>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='39' resource_id='settings_photo_quality_holder'>\n\
+    \                    <button id='40' resource_id='settings_photo_quality_label'>Photo\
+    \ compression quality</button>\n                    <button id='41' resource_id='settings_photo_quality'>80%</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \        </LinearLayout>\n            </scrollbar>\n          </ViewGroup>\n \
+    \       </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: be4494fd25abe78afe86c224e86b0aba60534f39525371c837a1d3bedff9919f
+  state_str: f55f1d91388cb111d4a14a982462962845bf4fabda611f347376c4ee6609d74b
+  tag: 2023-07-06_234546
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <LinearLayoutCompat id='9'>\n\
+    \                <button id='10' resource_id='about' alt='About'></button>\n \
+    \               <button id='11' alt='More options'></button>\n              </LinearLayoutCompat>\n\
+    \            </ViewGroup>\n            <scrollbar id='12' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='13' resource_id='settings_holder'>\n        \
+    \        <p id='14' resource_id='settings_color_customization_label'>COLOR CUSTOMIZATION</p>\n\
+    \                <ViewGroup id='15' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='16' resource_id='settings_customize_colors_label'>Customize\
+    \ colors (Locked)</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <LinearLayout id='19' resource_id='settings_general_settings_holder'>\n\
+    \                  <RelativeLayout id='20' resource_id='settings_purchase_thank_you_holder'>\n\
+    \                    <button id='21' resource_id='settings_purchase_thank_you'>Purchase\
+    \ Simple Thank You</button>\n                  </RelativeLayout>\n           \
+    \     </LinearLayout>\n                <ImageView id='22' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='23' resource_id='settings_shutter_label'>SHUTTER</p>\n\
+    \                <LinearLayout id='24' resource_id='settings_shutter_holder'>\n\
+    \                  <RelativeLayout id='25' resource_id='settings_sound_holder'>\n\
+    \                    <checkbox id='26' resource_id='settings_sound'>Shutter sound</checkbox>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='27'\
+    \ resource_id='settings_volume_buttons_as_shutter_holder'>\n                 \
+    \   <checkbox id='28' resource_id='settings_volume_buttons_as_shutter'>Use volume\
+    \ buttons as shutter</checkbox>\n                  </RelativeLayout>\n       \
+    \         </LinearLayout>\n                <ImageView id='29' resource_id='settings_shutter_divider'></ImageView>\n\
+    \                <p id='30' resource_id='settings_saving_label'>SAVING</p>\n \
+    \               <LinearLayout id='31' resource_id='settings_saving_holder'>\n\
+    \                  <RelativeLayout id='32' resource_id='settings_save_photo_metadata_holder'>\n\
+    \                    <checkbox id='33' resource_id='settings_save_photo_metadata'\
+    \ status='selected'>Save photo exif metadata</checkbox>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='34' resource_id='settings_flip_photos_holder'>\n\
+    \                    <checkbox id='35' resource_id='settings_flip_photos' status='selected'>Flip\
+    \ front camera photos horizontally</checkbox>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='36' resource_id='settings_save_photos_holder'>\n\
+    \                    <button id='37' resource_id='settings_save_photos_label'>Save\
+    \ photos and videos to (Locked)</button>\n                    <button id='38'\
+    \ resource_id='settings_save_photos'>DCIM</button>\n                  </RelativeLayout>\n\
+    \                  <RelativeLayout id='39' resource_id='settings_photo_quality_holder'>\n\
+    \                    <button id='40' resource_id='settings_photo_quality_label'>Photo\
+    \ compression quality</button>\n                    <button id='41' resource_id='settings_photo_quality'>80%</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \        </LinearLayout>\n            </scrollbar>\n          </ViewGroup>\n \
+    \       </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: ef1825a5822ac67595c6237bed13dda2a6c8f75e891a0bf7d604fef742374f3c
+  state_str: c6faff27538204f59a43eb836e70e39755f2c678a1639e3491fe9afe8e286cdb
+  tag: 2023-07-04_001625
+step_num: 3
+task_name: close the shutter sound

@@ -1,5 +1,5 @@
 {
-    "task": "Book a flight ticket for a trip to Beijing 3 days from now",
+    "task": "Book a flight ticket from Beijing to Haikou in August 12nd",
     "instructions": [
         {
             "explanation": "Touch event to activate the menu bar on the main page",

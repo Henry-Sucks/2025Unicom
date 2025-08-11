@@ -1,0 +1,211 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 56
+  Choice: 56
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='add_favorite' alt='Add to favorites'></button>\n              \
+    \        <button id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_holder'>\n              <scrollbar id='17' resource_id='main_view_pager'>\n\
+    \                <RelativeLayout id='18' resource_id='items_fragment'>\n     \
+    \             <ViewGroup id='19' resource_id='items_coordinator'>\n          \
+    \          <RelativeLayout id='20' resource_id='items_wrapper'>\n            \
+    \          <HorizontalScrollView id='21' resource_id='breadcrumbs'>\n        \
+    \                <LinearLayout id='22'>\n                          <FrameLayout\
+    \ id='23'>\n                            <button id='24' resource_id='breadcrumb_text'>Internal</button>\n\
+    \                          </FrameLayout>\n                        </LinearLayout>\n\
+    \                      </HorizontalScrollView>\n                      <ViewGroup\
+    \ id='25' resource_id='items_swipe_refresh'>\n                        <RelativeLayout\
+    \ id='26' resource_id='items_fastscroller'>\n                          <scrollbar\
+    \ id='27' resource_id='items_list'>\n                            <FrameLayout\
+    \ id='28' resource_id='item_frame'>\n                              <RelativeLayout\
+    \ id='29' resource_id='item_holder'>\n                                <ImageView\
+    \ id='30' resource_id='item_icon'></ImageView>\n                             \
+    \   <button id='31' resource_id='item_name'>Alarms</button>\n                \
+    \                <button id='32' resource_id='item_details'>0 items</button>\n\
+    \                              </RelativeLayout>\n                           \
+    \ </FrameLayout>\n                            <FrameLayout id='33' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='34' resource_id='item_holder'>\n\
+    \                                <ImageView id='35' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='36' resource_id='item_name'>Android</button>\n\
+    \                                <button id='37' resource_id='item_details'>3\
+    \ items</button>\n                              </RelativeLayout>\n          \
+    \                  </FrameLayout>\n                            <FrameLayout id='38'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='39'\
+    \ resource_id='item_holder'>\n                                <ImageView id='40'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='41' resource_id='item_name'>Audiobooks</button>\n                      \
+    \          <button id='42' resource_id='item_details'>0 items</button>\n     \
+    \                         </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='43' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='44' resource_id='item_holder'>\n\
+    \                                <ImageView id='45' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='46' resource_id='item_name'>DCIM</button>\n\
+    \                                <button id='47' resource_id='item_details'>6\
+    \ items</button>\n                              </RelativeLayout>\n          \
+    \                  </FrameLayout>\n                            <FrameLayout id='48'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='49'\
+    \ resource_id='item_holder'>\n                                <ImageView id='50'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='51' resource_id='item_name'>Documents</button>\n                       \
+    \         <button id='52' resource_id='item_details'>0 items</button>\n      \
+    \                        </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='53' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='54' resource_id='item_holder'>\n\
+    \                                <ImageView id='55' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='56' resource_id='item_name'>Download</button>\n\
+    \                                <button id='57' resource_id='item_details'>1\
+    \ item</button>\n                              </RelativeLayout>\n           \
+    \                 </FrameLayout>\n                            <FrameLayout id='58'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='59'\
+    \ resource_id='item_holder'>\n                                <ImageView id='60'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='61' resource_id='item_name'>Movies</button>\n                          \
+    \      <button id='62' resource_id='item_details'>0 items</button>\n         \
+    \                     </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='63' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='64' resource_id='item_holder'>\n\
+    \                                <ImageView id='65' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='66' resource_id='item_name'>Music</button>\n\
+    \                                <button id='67' resource_id='item_details'>1\
+    \ item</button>\n                              </RelativeLayout>\n           \
+    \                 </FrameLayout>\n                            <FrameLayout id='68'\
+    \ resource_id='item_frame'>\n                              <RelativeLayout id='69'\
+    \ resource_id='item_holder'>\n                                <ImageView id='70'\
+    \ resource_id='item_icon'></ImageView>\n                                <button\
+    \ id='71' resource_id='item_name'>Notifications</button>\n                   \
+    \             <button id='72' resource_id='item_details'>0 items</button>\n  \
+    \                            </RelativeLayout>\n                            </FrameLayout>\n\
+    \                            <FrameLayout id='73' resource_id='item_frame'>\n\
+    \                              <RelativeLayout id='74' resource_id='item_holder'>\n\
+    \                                <ImageView id='75' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='76' resource_id='item_name'>Pictures</button>\n\
+    \                              </RelativeLayout>\n                           \
+    \ </FrameLayout>\n                          </scrollbar>\n                   \
+    \       <LinearLayout id='79' resource_id='trackView'></LinearLayout>\n      \
+    \                  </RelativeLayout>\n                      </ViewGroup>\n   \
+    \                 </RelativeLayout>\n                    <ImageButton id='81'\
+    \ resource_id='items_fab'></ImageButton>\n                  </ViewGroup>\n   \
+    \             </RelativeLayout>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='171' resource_id='main_tabs_holder'>\n                <LinearLayout id='172'>\n\
+    \                  <LinearLayout id='173'>\n                    <LinearLayout\
+    \ id='174' resource_id='tab_item_holder'>\n                      <ImageView id='175'\
+    \ resource_id='tab_item_icon'></ImageView>\n                      <p id='176'\
+    \ resource_id='tab_item_label' status='selected'>Files</p>\n                 \
+    \   </LinearLayout>\n                  </LinearLayout>\n                  <LinearLayout\
+    \ id='177'>\n                    <LinearLayout id='178' resource_id='tab_item_holder'>\n\
+    \                      <ImageView id='179' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='180' resource_id='tab_item_label'>Recents</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='181'>\n                    <LinearLayout id='182'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='183' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='184' resource_id='tab_item_label'>Storage</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4ab22c498122e2ee239fea7ea030f4f60c03229f1e8e59353d5d52832a2837f1
+  state_str: d79cfad652e218cd5a30b834bc83e933482c182c11318b890e0d68fbab50f65b
+  tag: 2023-07-07_000342
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 32
+  Choice: 32
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='go_home' alt='Go to home folder'></button>\n                  \
+    \    <button id='14' resource_id='sort' alt='Sort by'></button>\n            \
+    \          <button id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_holder'>\n              <scrollbar id='17' resource_id='main_view_pager'>\n\
+    \                <RelativeLayout id='18' resource_id='items_fragment'>\n     \
+    \             <ViewGroup id='19' resource_id='items_coordinator'>\n          \
+    \          <RelativeLayout id='20' resource_id='items_wrapper'>\n            \
+    \          <HorizontalScrollView id='21' resource_id='breadcrumbs'>\n        \
+    \                <LinearLayout id='22'>\n                          <FrameLayout\
+    \ id='23'>\n                            <button id='24' resource_id='breadcrumb_text'>Internal</button>\n\
+    \                          </FrameLayout>\n                          <button id='25'\
+    \ resource_id='breadcrumb_text'>&gt; Download</button>\n                     \
+    \   </LinearLayout>\n                      </HorizontalScrollView>\n         \
+    \             <ViewGroup id='26' resource_id='items_swipe_refresh'>\n        \
+    \                <RelativeLayout id='27' resource_id='items_fastscroller'>\n \
+    \                         <RecyclerView id='28' resource_id='items_list'>\n  \
+    \                          <FrameLayout id='29' resource_id='item_frame'>\n  \
+    \                            <RelativeLayout id='30' resource_id='item_holder'>\n\
+    \                                <ImageView id='31' resource_id='item_icon'></ImageView>\n\
+    \                                <button id='32' resource_id='item_name'>Diary.pdf</button>\n\
+    \                                <button id='33' resource_id='item_details'>6.1\
+    \ kB</button>\n                                <button id='34' resource_id='item_date'>30.06.2023,\
+    \ 12:22 PM</button>\n                              </RelativeLayout>\n       \
+    \                     </FrameLayout>\n                          </RecyclerView>\n\
+    \                          <LinearLayout id='36' resource_id='trackView'></LinearLayout>\n\
+    \                        </RelativeLayout>\n                      </ViewGroup>\n\
+    \                    </RelativeLayout>\n                    <ImageButton id='38'\
+    \ resource_id='items_fab'></ImageButton>\n                  </ViewGroup>\n   \
+    \             </RelativeLayout>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='128' resource_id='main_tabs_holder'>\n                <LinearLayout id='129'>\n\
+    \                  <LinearLayout id='130'>\n                    <LinearLayout\
+    \ id='131' resource_id='tab_item_holder'>\n                      <ImageView id='132'\
+    \ resource_id='tab_item_icon'></ImageView>\n                      <p id='133'\
+    \ resource_id='tab_item_label' status='selected'>Files</p>\n                 \
+    \   </LinearLayout>\n                  </LinearLayout>\n                  <LinearLayout\
+    \ id='134'>\n                    <LinearLayout id='135' resource_id='tab_item_holder'>\n\
+    \                      <ImageView id='136' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='137' resource_id='tab_item_label'>Recents</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='138'>\n                    <LinearLayout id='139'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='140' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='141' resource_id='tab_item_label'>Storage</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: a6f3f975ec008376b10fdf32bf9a997676bb05e3fe04693975364ef4123c7b8d
+  state_str: 2003f97eb223bc0f4456470aa662d82d3218bce1a40652336d19937faa72a0fe
+  tag: 2023-06-30_204430
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='pdf_viewer_wrapper'>\n\
+    \            <scrollbar id='6' resource_id='pdf_viewer'></scrollbar>\n       \
+    \     <ImageView id='12' resource_id='top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='13' resource_id='pdf_viewer_appbar'>\n              <ViewGroup id='14' resource_id='pdf_viewer_toolbar'>\n\
+    \                <ImageButton id='15'></ImageButton>\n                <p id='16'>Diary.pdf</p>\n\
+    \                <LinearLayoutCompat id='17'>\n                  <button id='18'\
+    \ resource_id='menu_print' alt='Print'></button>\n                </LinearLayoutCompat>\n\
+    \              </ViewGroup>\n            </LinearLayout>\n            <p id='19'\
+    \ resource_id='page_counter'>1 / 1</p>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 416ae0a1602398e767edb86f73f511ddd12dad6d11a890c7e67324c704667121
+  state_str: 259d9051f0b9e7bbce38ed23823579cead64c274bf8e6a967557516a4c8b8a0b
+  tag: 2023-06-30_204448
+step_num: 3
+task_name: go to 'download' folder and open Diary.pdf

@@ -1,0 +1,10 @@
+def autodroidv2_task_solution_code(verifier):
+	settings_screen__notifications_button = ElementList('settings_screen__notifications_button', None, verifier)
+	server_overview_screen__you_button = ElementList('server_overview_screen__you_button', None, verifier)
+	personal_profile_screen__settings_button = ElementList('personal_profile_screen__settings_button', None, verifier)
+	
+	server_overview_screen__you_button.tap()
+	personal_profile_screen__settings_button.tap()
+	settings_screen__notifications_button.tap()
+	
+autodroidv2_task_solution_code(verifier)

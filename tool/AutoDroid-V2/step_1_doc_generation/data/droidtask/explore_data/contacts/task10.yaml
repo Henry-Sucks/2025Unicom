@@ -1,0 +1,209 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 15
+  Choice: 15
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='filter' alt='Filter'></button>\n                      <button id='15'\
+    \ alt='More options'></button>\n                    </LinearLayoutCompat>\n  \
+    \                </ViewGroup>\n                </RelativeLayout>\n           \
+    \   </LinearLayout>\n            </LinearLayout>\n            <ViewGroup id='16'\
+    \ resource_id='main_holder'>\n              <scrollbar id='17' resource_id='view_pager'>\n\
+    \                <ViewGroup id='18' resource_id='contacts_fragment'>\n       \
+    \           <RelativeLayout id='19' resource_id='fragment_wrapper'>\n        \
+    \            <RecyclerView id='20' resource_id='fragment_list'>\n            \
+    \          <FrameLayout id='21' resource_id='item_contact_frame'>\n          \
+    \              <RelativeLayout id='22' resource_id='item_contact_holder'>\n  \
+    \                        <ImageView id='23' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='24' resource_id='item_contact_name'>Alice</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='25' resource_id='item_contact_frame'>\n\
+    \                        <RelativeLayout id='26' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='27' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='28' resource_id='item_contact_name'>Bob</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='29' resource_id='item_contact_frame'>\n\
+    \                        <RelativeLayout id='30' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='31' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='32' resource_id='item_contact_name'>Jack</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <ViewGroup id='33' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \                    <LinearLayout id='37' resource_id='letter_fastscroller'>\n\
+    \                      <button id='38'>A\nB\nJ</button>\n                    </LinearLayout>\n\
+    \                  </RelativeLayout>\n                  <button id='39' resource_id='fragment_fab'\
+    \ alt='Create new contact'></button>\n                </ViewGroup>\n         \
+    \     </scrollbar>\n              <button id='55' resource_id='main_dialpad_button'\
+    \ alt='Dialpad'></button>\n              <HorizontalScrollView id='56' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='57'>\n                  <LinearLayout id='58'>\n\
+    \                    <LinearLayout id='59' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='60' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='61' resource_id='tab_item_label' status='selected'>Contacts</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='62'>\n                    <LinearLayout id='63'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='64' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='65' resource_id='tab_item_label'>Favorites</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='66'>\n                    <LinearLayout id='67'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='68' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='69' resource_id='tab_item_label'>Groups</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: f89cc7584a3df5e0784713cb5191c2ef1607011f608b524d4625a88fb579f04b
+  state_str: 628850cbdf97da3b4abe1c5bcc95534fb9505853792858ed57cd8394ea5b4bf9
+  tag: 2023-07-10_160821
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Import\
+    \ contacts from a .vcf file</button>\n          </RelativeLayout>\n        </LinearLayout>\n\
+    \      </LinearLayout>\n      <LinearLayout id='7'>\n        <LinearLayout id='8'\
+    \ resource_id='content'>\n          <RelativeLayout id='9'>\n            <button\
+    \ id='10' resource_id='title'>Export contacts to a .vcf file</button>\n      \
+    \    </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n     \
+    \ <LinearLayout id='11'>\n        <LinearLayout id='12' resource_id='content'>\n\
+    \          <RelativeLayout id='13'>\n            <button id='14' resource_id='title'>Settings</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='15'>\n        <LinearLayout id='16' resource_id='content'>\n\
+    \          <RelativeLayout id='17'>\n            <button id='18' resource_id='title'>About</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 519dcdd3d48aae92a24073b13b3e0d2704cfa3f644d023807b499013745623a0
+  state_str: '6'
+  tag: 2023-07-07_200315
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 18
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_font_size_holder'>\n\
+    \                  <button id='18' resource_id='settings_font_size_label'>Font\
+    \ size</button>\n                  <button id='19' resource_id='settings_font_size'>Large</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='20' resource_id='settings_manage_contact_fields_holder'>\n\
+    \                  <button id='21' resource_id='settings_manage_contact_fields_label'>Manage\
+    \ shown contact fields</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='22' resource_id='settings_merge_duplicate_contacts_holder'>\n\
+    \                  <checkbox id='23' resource_id='settings_merge_duplicate_contacts'\
+    \ status='selected'>Merge duplicate contacts</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='24' resource_id='settings_show_call_confirmation_holder'>\n\
+    \                  <checkbox id='25' resource_id='settings_show_call_confirmation'>Show\
+    \ a call confirmation dialog before initiating </checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='26' resource_id='settings_show_private_contacts_holder'>\n\
+    \                  <checkbox id='27' resource_id='settings_show_private_contacts'\
+    \ status='selected'>Show private contacts to Simple Dialer, Simple SMS</checkbox>\n\
+    \                </RelativeLayout>\n                <ImageView id='28' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='29' resource_id='settings_main_screen_label'>MAIN SCREEN</p>\n\
+    \                <RelativeLayout id='30' resource_id='settings_manage_shown_tabs_holder'>\n\
+    \                  <button id='31' resource_id='settings_manage_shown_tabs_label'>Manage\
+    \ shown tabs</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='32' resource_id='settings_default_tab_holder'>\n                  <button\
+    \ id='33' resource_id='settings_default_tab_label'>Tab to open at app start</button>\n\
+    \                  <button id='34' resource_id='settings_default_tab'>Last used\
+    \ one</button>\n                </RelativeLayout>\n              </LinearLayout>\n\
+    \            </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n  \
+    \    </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8b528df166c868ad9622db32da094e4f8ffa12ba1f3b3ccc8bd32315b24eeb06
+  state_str: e89dc181eb0bcf38b4e49c2d8f09e8a6292ef80669515c3915879f71a35dbebc
+  tag: 2023-07-07_200418
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 11
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10'>Small</checkbox>\n                    <checkbox\
+    \ id='11'>Medium</checkbox>\n                    <checkbox id='12' status='selected'>Large</checkbox>\n\
+    \                    <checkbox id='13'>Extra large</checkbox>\n              \
+    \    </RadioGroup>\n                </ScrollView>\n              </FrameLayout>\n\
+    \            </FrameLayout>\n          </LinearLayoutCompat>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 0c705b9a74f692e6c4feab6b9d9f9b1b992876e5272ee28d4c03a00597b4ae41
+  state_str: '0'
+  tag: 2023-07-07_200703
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ImageView id='15'\
+    \ resource_id='settings_color_customization_divider'></ImageView>\n          \
+    \      <p id='16' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='17' resource_id='settings_font_size_holder'>\n\
+    \                  <button id='18' resource_id='settings_font_size_label'>Font\
+    \ size</button>\n                  <button id='19' resource_id='settings_font_size'>Medium</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='20' resource_id='settings_manage_contact_fields_holder'>\n\
+    \                  <button id='21' resource_id='settings_manage_contact_fields_label'>Manage\
+    \ shown contact fields</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='22' resource_id='settings_merge_duplicate_contacts_holder'>\n\
+    \                  <checkbox id='23' resource_id='settings_merge_duplicate_contacts'\
+    \ status='selected'>Merge duplicate contacts</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='24' resource_id='settings_show_call_confirmation_holder'>\n\
+    \                  <checkbox id='25' resource_id='settings_show_call_confirmation'>Show\
+    \ a call confirmation dialog before initiating </checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='26' resource_id='settings_show_private_contacts_holder'>\n\
+    \                  <checkbox id='27' resource_id='settings_show_private_contacts'\
+    \ status='selected'>Show private contacts to Simple Dialer, Simple SMS</checkbox>\n\
+    \                </RelativeLayout>\n                <ImageView id='28' resource_id='settings_general_settings_divider'></ImageView>\n\
+    \                <p id='29' resource_id='settings_main_screen_label'>MAIN SCREEN</p>\n\
+    \                <RelativeLayout id='30' resource_id='settings_manage_shown_tabs_holder'>\n\
+    \                  <button id='31' resource_id='settings_manage_shown_tabs_label'>Manage\
+    \ shown tabs</button>\n                </RelativeLayout>\n                <RelativeLayout\
+    \ id='32' resource_id='settings_default_tab_holder'>\n                  <button\
+    \ id='33' resource_id='settings_default_tab_label'>Tab to open at app start</button>\n\
+    \                  <button id='34' resource_id='settings_default_tab'>Last used\
+    \ one</button>\n                </RelativeLayout>\n              </LinearLayout>\n\
+    \            </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n  \
+    \    </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b190012c2ea79c7b1f499e93e1d8503f66449b264ca44ca85760ba299c353158
+  state_str: 2f5c4ab68b7820efd83686c38fc035fd032e36f58a3b6dde9b47a037b72058b9
+  tag: 2023-07-02_153155
+step_num: 5
+task_name: Change the font size of the Contacts app to medium

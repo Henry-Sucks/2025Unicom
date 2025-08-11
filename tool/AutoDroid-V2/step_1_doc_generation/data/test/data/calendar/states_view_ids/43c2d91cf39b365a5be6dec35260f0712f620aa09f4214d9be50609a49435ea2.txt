@@ -1,0 +1,1 @@
+[['Calendar', 6], ["This app was built for an older version of Android. It might not work properly and doesn't include the latest security and privacy protections. Check for an update, or contact the app's developer.", 11], ['OK', 14]]

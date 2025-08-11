@@ -1,0 +1,221 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 53
+  Choice: 53
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='more_apps_from_us' alt='More\
+    \ apps from us'></button>\n                <button id='9' resource_id='settings'\
+    \ alt='Settings'></button>\n                <button id='10' resource_id='about'\
+    \ alt='About'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <RelativeLayout id='11' resource_id='main_holder'>\n            \
+    \  <scrollbar id='12' resource_id='view_pager'>\n                <ViewGroup id='36'\
+    \ resource_id='timer_fragment'>\n                  <RecyclerView id='37' resource_id='timers_list'>\n\
+    \                    <FrameLayout id='38' resource_id='timer_frame'>\n       \
+    \               <ViewGroup id='39'>\n                        <button id='40' resource_id='timer_time'>05:00</button>\n\
+    \                        <TextView id='41' resource_id='timer_label'></TextView>\n\
+    \                        <ImageView id='42' resource_id='timer_play_pause'></ImageView>\n\
+    \                      </ViewGroup>\n                    </FrameLayout>\n    \
+    \              </RecyclerView>\n                  <button id='43' resource_id='timer_add'\
+    \ alt='New Timer'></button>\n                </ViewGroup>\n              </scrollbar>\n\
+    \              <HorizontalScrollView id='44' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='45'>\n                  <LinearLayout id='46'>\n\
+    \                    <LinearLayout id='47' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='48' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='49' resource_id='tab_item_label'>Clock</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='50'>\n                    <LinearLayout id='51'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='52' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='53' resource_id='tab_item_label'>Alarm</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='54'>\n                    <LinearLayout id='55'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='56' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='57' resource_id='tab_item_label'>Stopwatch</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='58'>\n                    <LinearLayout id='59'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='60' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='61' resource_id='tab_item_label' status='selected'>Timer</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: fb78df2efd2d0dae6fe2d27fc76d3c48cf2944110abca15ccb49178d2e962f30
+  state_str: 8fe6b1742232194edf2780f0ef572fa72b1403eda181620060b0c46061a21ef7
+  tag: 2023-07-08_180333
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 8
+  Choice: 8
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='sort' alt='Sort by'></button>\n\
+    \                <button id='9' resource_id='more_apps_from_us' alt='More apps\
+    \ from us'></button>\n                <button id='10' resource_id='settings' alt='Settings'></button>\n\
+    \                <button id='11' resource_id='about' alt='About'></button>\n \
+    \             </LinearLayoutCompat>\n            </ViewGroup>\n            <RelativeLayout\
+    \ id='12' resource_id='main_holder'>\n              <scrollbar id='13' resource_id='view_pager'>\n\
+    \                <ViewGroup id='19' resource_id='alarm_fragment'>\n          \
+    \        <RelativeLayout id='20' resource_id='alarm_holder'>\n               \
+    \     <RecyclerView id='21' resource_id='alarms_list'>\n                     \
+    \ <FrameLayout id='22' resource_id='alarm_frame'>\n                        <RelativeLayout\
+    \ id='23' resource_id='alarm_holder'>\n                          <button id='24'\
+    \ resource_id='alarm_time'>7:00 am</button>\n                          <button\
+    \ id='25' resource_id='alarm_days'>Mon, Tue, Wed, Thu, Fri</button>\n        \
+    \                  <CheckBox id='26' resource_id='alarm_switch'></CheckBox>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='27' resource_id='alarm_frame'>\n     \
+    \                   <RelativeLayout id='28' resource_id='alarm_holder'>\n    \
+    \                      <button id='29' resource_id='alarm_time'>9:00 am</button>\n\
+    \                          <button id='30' resource_id='alarm_days'>Sun, Sat</button>\n\
+    \                          <CheckBox id='31' resource_id='alarm_switch'></CheckBox>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                  </RelativeLayout>\n  \
+    \                <ImageButton id='32' resource_id='alarm_fab'></ImageButton>\n\
+    \                </ViewGroup>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='45' resource_id='main_tabs_holder'>\n                <LinearLayout id='46'>\n\
+    \                  <LinearLayout id='47'>\n                    <LinearLayout id='48'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='49' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='50' resource_id='tab_item_label'>Clock</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='51'>\n                    <LinearLayout id='52'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='53' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='54' resource_id='tab_item_label' status='selected'>Alarm</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='55'>\n                    <LinearLayout id='56'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='57' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='58' resource_id='tab_item_label'>Stopwatch</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='59'>\n                    <LinearLayout id='60'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='61' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='62' resource_id='tab_item_label'>Timer</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 0fe4d8ae84dc5fed6fb0db2cfae8801722cc0594525a17b91585a9bb6658f07d
+  state_str: 9c8b7368c467d8fbe3e7eb2c100ef13cc72a98fccaaf829837c42bc9d7e2ed66
+  tag: 2023-07-08_180700
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Sort by</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='sorting_dialog_scrollview'>\n\
+    \                  <RadioGroup id='11' resource_id='sorting_dialog_radio_sorting'>\n\
+    \                    <checkbox id='12' resource_id='sorting_dialog_radio_creation_order'\
+    \ status='selected'>Creation order</checkbox>\n                    <checkbox id='13'\
+    \ resource_id='sorting_dialog_radio_alarm_time'>Alarm time</checkbox>\n      \
+    \              <checkbox id='14' resource_id='sorting_dialog_radio_day_and_time'>Day\
+    \ and Alarm time</checkbox>\n                  </RadioGroup>\n               \
+    \ </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n  \
+    \          <ScrollView id='15' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='16'>\n                <button id='17' resource_id='button2'>Cancel</button>\n\
+    \                <button id='18' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: d4748946837f7b34545b4acf6186cad9c2a3185555418d6e319705f15255a697
+  state_str: '9'
+  tag: 2023-07-03_112554
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 18
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Sort by</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='sorting_dialog_scrollview'>\n\
+    \                  <RadioGroup id='11' resource_id='sorting_dialog_radio_sorting'>\n\
+    \                    <checkbox id='12' resource_id='sorting_dialog_radio_creation_order'>Creation\
+    \ order</checkbox>\n                    <checkbox id='13' resource_id='sorting_dialog_radio_alarm_time'>Alarm\
+    \ time</checkbox>\n                    <checkbox id='14' resource_id='sorting_dialog_radio_day_and_time'\
+    \ status='selected'>Day and Alarm time</checkbox>\n                  </RadioGroup>\n\
+    \                </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='15' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='16'>\n                <button id='17' resource_id='button2'>Cancel</button>\n\
+    \                <button id='18' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: f323181bdfb39f4d8f63b26f4f338fb128a1563f8b30160c5d5313e474e8fb37
+  state_str: '3'
+  tag: 2023-07-03_112620
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='main_toolbar'>\n              <LinearLayoutCompat\
+    \ id='7'>\n                <button id='8' resource_id='sort' alt='Sort by'></button>\n\
+    \                <button id='9' resource_id='more_apps_from_us' alt='More apps\
+    \ from us'></button>\n                <button id='10' resource_id='settings' alt='Settings'></button>\n\
+    \                <button id='11' resource_id='about' alt='About'></button>\n \
+    \             </LinearLayoutCompat>\n            </ViewGroup>\n            <RelativeLayout\
+    \ id='12' resource_id='main_holder'>\n              <scrollbar id='13' resource_id='view_pager'>\n\
+    \                <ViewGroup id='19' resource_id='alarm_fragment'>\n          \
+    \        <RelativeLayout id='20' resource_id='alarm_holder'>\n               \
+    \     <RecyclerView id='21' resource_id='alarms_list'>\n                     \
+    \ <FrameLayout id='22' resource_id='alarm_frame'>\n                        <RelativeLayout\
+    \ id='23' resource_id='alarm_holder'>\n                          <p id='24' resource_id='alarm_time'>9:00\
+    \ am</p>\n                          <p id='25' resource_id='alarm_days'>Sun, Sat</p>\n\
+    \                          <CheckBox id='26' resource_id='alarm_switch'></CheckBox>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='27' resource_id='alarm_frame'>\n     \
+    \                   <RelativeLayout id='28' resource_id='alarm_holder'>\n    \
+    \                      <p id='29' resource_id='alarm_time'>7:00 am</p>\n     \
+    \                     <p id='30' resource_id='alarm_days'>Mon, Tue, Wed, Thu,\
+    \ Fri</p>\n                          <CheckBox id='31' resource_id='alarm_switch'></CheckBox>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                  </RelativeLayout>\n  \
+    \                <ImageButton id='32' resource_id='alarm_fab'></ImageButton>\n\
+    \                </ViewGroup>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='45' resource_id='main_tabs_holder'>\n                <LinearLayout id='46'>\n\
+    \                  <LinearLayout id='47'>\n                    <LinearLayout id='48'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='49' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='50' resource_id='tab_item_label'>Clock</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='51'>\n                    <LinearLayout id='52'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='53' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='54' resource_id='tab_item_label' status='selected'>Alarm</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='55'>\n                    <LinearLayout id='56'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='57' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='58' resource_id='tab_item_label'>Stopwatch</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='59'>\n                    <LinearLayout id='60'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='61' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='62' resource_id='tab_item_label'>Timer</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8357b4ee7c8ecbf9246c1ddf0e5ef4999645b740e1b271960070e1285f8a2929
+  state_str: b6003a9ced86aab10b6a1a4ceb8cf8c0abccfbc5e077949d55b6c92d8443d376
+  tag: 2023-07-03_112629
+step_num: 5
+task_name: Set the sorting order for alarms by 'Day and Alarm time'

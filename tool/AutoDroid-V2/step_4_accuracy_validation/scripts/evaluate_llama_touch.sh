@@ -1,0 +1,5 @@
+python evaluation/llama_touch/evaluator/run.py -a "autodroidv2"
+# python evaluation/llama_touch/evaluator/run.py -a "autodroid"
+# python evaluation/llama_touch/evaluator/run.py -a "seeclick"
+# python evaluation/llama_touch/evaluator/run.py -a "cogagent"
+# python evaluation/llama_touch/evaluator/run.py -a "mind2web"

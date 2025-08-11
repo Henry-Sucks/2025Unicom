@@ -1,0 +1,428 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 33
+  Choice: 33
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <FrameLayout id='6' resource_id='container'>\n              <FrameLayout\
+    \ id='7' resource_id='container'>\n                <scrollbar id='8' resource_id='homeLayout'>\n\
+    \                  <LinearLayout id='9' resource_id='homeAppBar'>\n          \
+    \          <FrameLayout id='10'>\n                      <LinearLayout id='11'\
+    \ resource_id='wordmark'></LinearLayout>\n                      <button id='14'\
+    \ resource_id='privateBrowsingButton' alt='Enable private browsing'></button>\n\
+    \                    </FrameLayout>\n                  </LinearLayout>\n     \
+    \             <scrollbar id='15' resource_id='sessionControlRecyclerView'></scrollbar>\n\
+    \                  <ViewGroup id='18' resource_id='toolbarLayout'>\n         \
+    \           <View id='19' resource_id='bottomBarShadow'></View>\n            \
+    \        <View id='20' resource_id='bottom_bar'></View>\n                    <p\
+    \ id='21' resource_id='toolbar_wrapper' alt='Search or enter address'>\n     \
+    \                 <RelativeLayout id='22' resource_id='search_selector_button'>\n\
+    \                        <CardView id='23' resource_id='search_selector'>\n  \
+    \                        <ViewGroup id='24' resource_id='tab_item'>\n        \
+    \                    <button id='25' resource_id='icon' alt='Google'></button>\n\
+    \                            <ImageView id='26' resource_id='arrow'></ImageView>\n\
+    \                          </ViewGroup>\n                        </CardView>\n\
+    \                      </RelativeLayout>\n                      <p id='27' resource_id='toolbar'>Search\
+    \ or enter address</p>\n                    </p>\n                    <RelativeLayout\
+    \ id='28' resource_id='tab_button'>\n                      <button id='29' resource_id='counter_root'\
+    \ alt='0 open tabs. Tap to switch tabs.'>\n                        <button id='30'\
+    \ resource_id='counter_box' alt='The tab counter toolbar button.'></button>\n\
+    \                        <button id='31' resource_id='counter_text'>0</button>\n\
+    \                      </button>\n                    </RelativeLayout>\n    \
+    \                <FrameLayout id='32' resource_id='menuButton'>\n            \
+    \          <button id='33' resource_id='icon' alt='Menu'></button>\n         \
+    \             <button id='34' resource_id='notification_dot' alt='Highlighted'></button>\n\
+    \                    </FrameLayout>\n                  </ViewGroup>\n        \
+    \        </scrollbar>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </LinearLayout>\n  \
+    \  </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8296582e793e9f504816578383d9d54e13b7fac650c9089e45589743940ebf27
+  state_str: a3cb8fb13bd7c9669e226f206b603089b175e197100a1cf07bb1db68002a0d16
+  tag: 2023-07-12_220314
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 43
+  Choice: 43
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <FrameLayout id='2' resource_id='mozac_browser_menu_menuView'>\n\
+    \      <RecyclerView id='3' resource_id='mozac_browser_menu_recyclerView'>\n \
+    \       <LinearLayout id='4'>\n          <ImageView id='5' resource_id='image'></ImageView>\n\
+    \          <button id='6' resource_id='text'>Bookmarks</button>\n          <View\
+    \ id='7'></View>\n        </LinearLayout>\n        <LinearLayout id='8'>\n   \
+    \       <ImageView id='9' resource_id='image'></ImageView>\n          <button\
+    \ id='10' resource_id='text'>History</button>\n          <View id='11'></View>\n\
+    \        </LinearLayout>\n        <LinearLayout id='12'>\n          <ImageView\
+    \ id='13' resource_id='image'></ImageView>\n          <button id='14' resource_id='text'>Downloads</button>\n\
+    \          <View id='15'></View>\n        </LinearLayout>\n        <LinearLayout\
+    \ id='16'>\n          <ImageView id='17' resource_id='image'></ImageView>\n  \
+    \        <button id='18' resource_id='text'>Add-ons</button>\n          <View\
+    \ id='19'></View>\n        </LinearLayout>\n        <LinearLayout id='20'>\n \
+    \         <ImageView id='21' resource_id='image'></ImageView>\n          <button\
+    \ id='22' resource_id='text'>Sync and save data</button>\n          <View id='23'></View>\n\
+    \        </LinearLayout>\n        <button id='24' resource_id='simple_text'>Manage\
+    \ Account and Devices</button>\n        <View id='25'></View>\n        <checkbox\
+    \ id='26' resource_id='switch_widget'>Desktop site</checkbox>\n        <View id='27'></View>\n\
+    \        <button id='28' alt='Highlighted, What\u2019s new'>\n          <ImageView\
+    \ id='29' resource_id='image'></ImageView>\n          <button id='30' resource_id='notification_dot'\
+    \ alt='Highlighted'></button>\n          <button id='31' resource_id='highlight_text'>What\u2019\
+    s new</button>\n          <ImageView id='32' resource_id='end_image'></ImageView>\n\
+    \        </button>\n        <LinearLayout id='33'>\n          <ImageView id='34'\
+    \ resource_id='image'></ImageView>\n          <button id='35' resource_id='text'>Help</button>\n\
+    \          <View id='36'></View>\n        </LinearLayout>\n        <LinearLayout\
+    \ id='37'>\n          <ImageView id='38' resource_id='image'></ImageView>\n  \
+    \        <button id='39' resource_id='text'>Customize homepage</button>\n    \
+    \    </LinearLayout>\n        <LinearLayout id='41'>\n          <ImageView id='42'\
+    \ resource_id='image'></ImageView>\n          <button id='43' resource_id='text'>Settings</button>\n\
+    \          <View id='44'></View>\n        </LinearLayout>\n      </RecyclerView>\n\
+    \    </FrameLayout>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 39180632bed6820472c6b99209b673b6fc599e7f661164ee753d0964854383bf
+  state_str: '9'
+  tag: 2023-07-12_220454
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '14'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Settings</p>\n\
+    \            </ViewGroup>\n            <FrameLayout id='10' resource_id='container'>\n\
+    \              <FrameLayout id='11' resource_id='container'>\n               \
+    \ <LinearLayout id='12'>\n                  <FrameLayout id='13' resource_id='list_container'>\n\
+    \                    <scrollbar id='14' resource_id='recycler_view'>\n       \
+    \               <ViewGroup id='15'>\n                        <ImageView id='16'\
+    \ resource_id='imageView'></ImageView>\n                        <button id='17'\
+    \ resource_id='title'>Sync and save your data</button>\n                     \
+    \   <button id='18' resource_id='summary'>Sign in to sync tabs, bookmarks, passwords,\
+    \ and mo</button>\n                      </ViewGroup>\n                      <LinearLayout\
+    \ id='19'>\n                        <RelativeLayout id='20'>\n               \
+    \           <button id='21' resource_id='title'>Use domestic China service</button>\n\
+    \                        </RelativeLayout>\n                        <LinearLayout\
+    \ id='22' resource_id='widget_frame'></LinearLayout>\n                      </LinearLayout>\n\
+    \                      <p id='24'>General</p>\n                      <LinearLayout\
+    \ id='25'>\n                        <RelativeLayout id='26'>\n               \
+    \           <button id='27' resource_id='title'>Search</button>\n            \
+    \              <button id='28' resource_id='summary'>Google</button>\n       \
+    \                 </RelativeLayout>\n                      </LinearLayout>\n \
+    \                     <LinearLayout id='29'>\n                        <RelativeLayout\
+    \ id='30'>\n                          <button id='31' resource_id='title'>Tabs</button>\n\
+    \                          <button id='32' resource_id='summary'>Close manually</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='33'>\n                        <RelativeLayout\
+    \ id='34'>\n                          <button id='35' resource_id='title'>Homepage</button>\n\
+    \                          <button id='36' resource_id='summary'>Open on homepage\
+    \ after four hours</button>\n                        </RelativeLayout>\n     \
+    \                 </LinearLayout>\n                      <LinearLayout id='37'>\n\
+    \                        <RelativeLayout id='38'>\n                          <button\
+    \ id='39' resource_id='title'>Customize</button>\n                        </RelativeLayout>\n\
+    \                      </LinearLayout>\n                      <LinearLayout id='40'>\n\
+    \                        <RelativeLayout id='41'>\n                          <button\
+    \ id='42' resource_id='title'>Logins and passwords</button>\n                \
+    \        </RelativeLayout>\n                      </LinearLayout>\n          \
+    \            <LinearLayout id='43'>\n                        <RelativeLayout id='44'>\n\
+    \                          <button id='45' resource_id='title'>Autofill</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='46'>\n                        <RelativeLayout\
+    \ id='47'>\n                          <button id='48' resource_id='title'>Accessibility</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='49'></LinearLayout>\n               \
+    \     </scrollbar>\n                  </FrameLayout>\n                </LinearLayout>\n\
+    \              </FrameLayout>\n            </FrameLayout>\n          </LinearLayout>\n\
+    \        </FrameLayout>\n      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: aaed14718841d25f2c417698fbcee833b7a7f7ece9ade9bd412cc07b5c8776b5
+  state_str: 411d8b61b5b9dd76b97e389b3169497abbad10387a64572e381574e059a452ae
+  tag: 2023-07-12_220506
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 26
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Settings</p>\n\
+    \            </ViewGroup>\n            <FrameLayout id='10' resource_id='container'>\n\
+    \              <FrameLayout id='11' resource_id='container'>\n               \
+    \ <LinearLayout id='12'>\n                  <FrameLayout id='13' resource_id='list_container'>\n\
+    \                    <scrollbar id='14' resource_id='recycler_view'>\n       \
+    \               <LinearLayout id='15'>\n                        <RelativeLayout\
+    \ id='16'>\n                          <button id='17' resource_id='title'>Logins\
+    \ and passwords</button>\n                        </RelativeLayout>\n        \
+    \              </LinearLayout>\n                      <LinearLayout id='18'>\n\
+    \                        <RelativeLayout id='19'>\n                          <button\
+    \ id='20' resource_id='title'>Autofill</button>\n                        </RelativeLayout>\n\
+    \                      </LinearLayout>\n                      <LinearLayout id='21'>\n\
+    \                        <RelativeLayout id='22'>\n                          <button\
+    \ id='23' resource_id='title'>Accessibility</button>\n                       \
+    \ </RelativeLayout>\n                      </LinearLayout>\n                 \
+    \     <LinearLayout id='24'>\n                        <RelativeLayout id='25'>\n\
+    \                          <button id='26' resource_id='title'>Language</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='27'>\n                        <RelativeLayout\
+    \ id='28'>\n                          <button id='29' resource_id='title'>Set\
+    \ as default browser</button>\n                        </RelativeLayout>\n   \
+    \                     <LinearLayout id='30' resource_id='widget_frame'></LinearLayout>\n\
+    \                      </LinearLayout>\n                      <p id='32'>Privacy\
+    \ and security</p>\n                      <LinearLayout id='33'>\n           \
+    \             <RelativeLayout id='34'>\n                          <button id='35'\
+    \ resource_id='title'>Private browsing</button>\n                        </RelativeLayout>\n\
+    \                      </LinearLayout>\n                      <LinearLayout id='36'>\n\
+    \                        <RelativeLayout id='37'>\n                          <button\
+    \ id='38' resource_id='title'>HTTPS-Only Mode</button>\n                     \
+    \     <button id='39' resource_id='summary'>Off</button>\n                   \
+    \     </RelativeLayout>\n                      </LinearLayout>\n             \
+    \         <LinearLayout id='40'>\n                        <RelativeLayout id='41'>\n\
+    \                          <button id='42' resource_id='title'>Enhanced Tracking\
+    \ Protection</button>\n                          <button id='43' resource_id='summary'>Standard</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='44'>\n                        <RelativeLayout\
+    \ id='45'>\n                          <button id='46' resource_id='title'>Site\
+    \ permissions</button>\n                        </RelativeLayout>\n          \
+    \            </LinearLayout>\n                      <LinearLayout id='47'>\n \
+    \                       <RelativeLayout id='48'>\n                          <button\
+    \ id='49' resource_id='title'>Delete browsing data</button>\n                \
+    \        </RelativeLayout>\n                      </LinearLayout>\n          \
+    \            <LinearLayout id='50'>\n                        <RelativeLayout id='51'>\n\
+    \                          <button id='52' resource_id='title'>Delete browsing\
+    \ data on quit</button>\n                          <button id='53' resource_id='summary'>Off</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                    </scrollbar>\n                  </FrameLayout>\n        \
+    \        </LinearLayout>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </LinearLayout>\n  \
+    \  </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 7a817b721d1abfd6c27bfde5f105932dcea6ae150b78ccd945861b17390b83b9
+  state_str: aaed14718841d25f2c417698fbcee833b7a7f7ece9ade9bd412cc07b5c8776b5
+  tag: 2023-07-12_220506_2
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '16'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Language</p>\n\
+    \              <LinearLayoutCompat id='9'>\n                <button id='10' resource_id='search'\
+    \ alt='Search language'></button>\n              </LinearLayoutCompat>\n     \
+    \       </ViewGroup>\n            <FrameLayout id='11' resource_id='container'>\n\
+    \              <FrameLayout id='12' resource_id='container'>\n               \
+    \ <ViewGroup id='13'>\n                  <FrameLayout id='14' resource_id='locale_container'></FrameLayout>\n\
+    \                  <ViewGroup id='15'>\n                    <scrollbar id='16'\
+    \ resource_id='locale_list'>\n                      <ViewGroup id='17'>\n    \
+    \                    <button id='18' resource_id='locale_selected_icon' alt='Selected\
+    \ language'></button>\n                        <button id='19' resource_id='locale_title_text'>Follow\
+    \ device language</button>\n                        <button id='20' resource_id='locale_subtitle_text'>English\
+    \ (United States)</button>\n                      </ViewGroup>\n             \
+    \         <ViewGroup id='21'>\n                        <button id='22' resource_id='locale_title_text'>Shqip</button>\n\
+    \                        <button id='23' resource_id='locale_subtitle_text'>Albanian</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='24'>\n\
+    \                        <button id='25' resource_id='locale_title_text'>\u12A0\
+    \u121B\u122D\u129B</button>\n                        <button id='26' resource_id='locale_subtitle_text'>Amharic</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='27'>\n\
+    \                        <button id='28' resource_id='locale_title_text'>\u0627\
+    \u0644\u0639\u0631\u0628\u064A\u0629</button>\n                        <button\
+    \ id='29' resource_id='locale_subtitle_text'>Arabic</button>\n               \
+    \       </ViewGroup>\n                      <ViewGroup id='30'>\n            \
+    \            <button id='31' resource_id='locale_title_text'>Aragonese</button>\n\
+    \                        <button id='32' resource_id='locale_subtitle_text'>Aragonese</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='33'>\n\
+    \                        <button id='34' resource_id='locale_title_text'>\u0540\
+    \u0561\u0575\u0565\u0580\u0565\u0576 (\u0540\u0561\u0575\u0561\u057D\u057F\u0561\
+    \u0576)</button>\n                        <button id='35' resource_id='locale_subtitle_text'>Armenian\
+    \ (Armenia)</button>\n                      </ViewGroup>\n                   \
+    \   <ViewGroup id='36'>\n                        <button id='37' resource_id='locale_title_text'>Asturianu</button>\n\
+    \                        <button id='38' resource_id='locale_subtitle_text'>Asturian</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='39'>\n\
+    \                        <button id='40' resource_id='locale_title_text'>Az\u0259\
+    rbaycan</button>\n                        <button id='41' resource_id='locale_subtitle_text'>Azerbaijani</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='42'>\n\
+    \                        <button id='43' resource_id='locale_title_text'>Balinese</button>\n\
+    \                        <button id='44' resource_id='locale_subtitle_text'>Balinese</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='45'>\n\
+    \                        <button id='46' resource_id='locale_title_text'>\u09AC\
+    \u09BE\u0982\u09B2\u09BE</button>\n                        <button id='47' resource_id='locale_subtitle_text'>Bangla</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='48'>\n\
+    \                        <button id='49' resource_id='locale_title_text'>Euskara</button>\n\
+    \                        <button id='50' resource_id='locale_subtitle_text'>Basque</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='51'>\n\
+    \                        <button id='52' resource_id='locale_title_text'>\u0411\
+    \u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F</button>\n            \
+    \            <button id='53' resource_id='locale_subtitle_text'>Belarusian</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='54'>\n\
+    \                        <button id='55' resource_id='locale_title_text'>Bosanski</button>\n\
+    \                        <button id='56' resource_id='locale_subtitle_text'>Bosnian</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='57'>\n\
+    \                        <button id='58' resource_id='locale_title_text'>Brezhoneg</button>\n\
+    \                        <button id='59' resource_id='locale_subtitle_text'>Breton</button>\n\
+    \                      </ViewGroup>\n                    </scrollbar>\n      \
+    \            </ViewGroup>\n                </ViewGroup>\n              </FrameLayout>\n\
+    \            </FrameLayout>\n          </LinearLayout>\n        </FrameLayout>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b01e9c9cf6debccd83910fc4a6096cfdbaacc82b3e4eae8cf25041fdd0b88ce6
+  state_str: 5adf4da53ee9de918c755c2418a4120b5c018296a127999dd6d41726db2b1b9a
+  tag: 2023-07-12_220643
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 48
+  Choice: 48
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Language</p>\n\
+    \              <LinearLayoutCompat id='9'>\n                <button id='10' resource_id='search'\
+    \ alt='Search language'></button>\n              </LinearLayoutCompat>\n     \
+    \       </ViewGroup>\n            <FrameLayout id='11' resource_id='container'>\n\
+    \              <FrameLayout id='12' resource_id='container'>\n               \
+    \ <ViewGroup id='13'>\n                  <FrameLayout id='14' resource_id='locale_container'></FrameLayout>\n\
+    \                  <ViewGroup id='15'>\n                    <scrollbar id='16'\
+    \ resource_id='locale_list'>\n                      <ViewGroup id='17'>\n    \
+    \                    <button id='19' resource_id='locale_subtitle_text'>Basque</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='20'>\n\
+    \                        <button id='21' resource_id='locale_title_text'>\u0411\
+    \u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F</button>\n            \
+    \            <button id='22' resource_id='locale_subtitle_text'>Belarusian</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='23'>\n\
+    \                        <button id='24' resource_id='locale_title_text'>Bosanski</button>\n\
+    \                        <button id='25' resource_id='locale_subtitle_text'>Bosnian</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='26'>\n\
+    \                        <button id='27' resource_id='locale_title_text'>Brezhoneg</button>\n\
+    \                        <button id='28' resource_id='locale_subtitle_text'>Breton</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='29'>\n\
+    \                        <button id='30' resource_id='locale_title_text'>\u0411\
+    \u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438</button>\n                  \
+    \      <button id='31' resource_id='locale_subtitle_text'>Bulgarian</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='32'>\n\
+    \                        <button id='33' resource_id='locale_title_text'>\u1019\
+    \u103C\u1014\u103A\u1019\u102C</button>\n                        <button id='34'\
+    \ resource_id='locale_subtitle_text'>Burmese</button>\n                      </ViewGroup>\n\
+    \                      <ViewGroup id='35'>\n                        <button id='36'\
+    \ resource_id='locale_title_text'>Catal\xE0</button>\n                       \
+    \ <button id='37' resource_id='locale_subtitle_text'>Catalan</button>\n      \
+    \                </ViewGroup>\n                      <ViewGroup id='38'>\n   \
+    \                     <button id='39' resource_id='locale_title_text'>Binisaya</button>\n\
+    \                        <button id='40' resource_id='locale_subtitle_text'>Cebuano</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='41'>\n\
+    \                        <button id='42' resource_id='locale_title_text'>Tamazi\u0263\
+    t n la\u1E6Dla\u1E63</button>\n                        <button id='43' resource_id='locale_subtitle_text'>Central\
+    \ Atlas Tamazight</button>\n                      </ViewGroup>\n             \
+    \         <ViewGroup id='44'>\n                        <button id='45' resource_id='locale_title_text'>\u06A9\
+    \u0648\u0631\u062F\u06CC\u06CC \u0646\u0627\u0648\u06D5\u0646\u062F\u06CC</button>\n\
+    \                        <button id='46' resource_id='locale_subtitle_text'>Central\
+    \ Kurdish</button>\n                      </ViewGroup>\n                     \
+    \ <ViewGroup id='47'>\n                        <button id='48' resource_id='locale_title_text'>\u4E2D\
+    \u6587 (\u7B80\u4F53\u4E2D\u6587)</button>\n                        <button id='49'\
+    \ resource_id='locale_subtitle_text'>Chinese (Simplified Han)</button>\n     \
+    \                 </ViewGroup>\n                      <ViewGroup id='50'>\n  \
+    \                      <button id='51' resource_id='locale_title_text'>\u4E2D\u6587\
+    \ (\u7E41\u9AD4\u4E2D\u6587)</button>\n                        <button id='52'\
+    \ resource_id='locale_subtitle_text'>Chinese (Traditional Han)</button>\n    \
+    \                  </ViewGroup>\n                      <ViewGroup id='53'>\n \
+    \                       <button id='54' resource_id='locale_title_text'>Kernewek</button>\n\
+    \                        <button id='55' resource_id='locale_subtitle_text'>Cornish</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='56'>\n\
+    \                        <button id='57' resource_id='locale_title_text'>Corsican</button>\n\
+    \                        <button id='58' resource_id='locale_subtitle_text'>Corsican</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='59'>\n\
+    \                        <button id='60' resource_id='locale_title_text'>Hrvatski</button>\n\
+    \                        <button id='61' resource_id='locale_subtitle_text'>Croatian</button>\n\
+    \                      </ViewGroup>\n                    </scrollbar>\n      \
+    \            </ViewGroup>\n                </ViewGroup>\n              </FrameLayout>\n\
+    \            </FrameLayout>\n          </LinearLayout>\n        </FrameLayout>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: d4a484ae38f819313c60ed23a47ed515ccbe36cf56aa21b4c904814c028e48d1
+  state_str: b01e9c9cf6debccd83910fc4a6096cfdbaacc82b3e4eae8cf25041fdd0b88ce6
+  tag: 2023-07-12_220643_2
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='\u5411\u4E0A\u5BFC\u822A'></button>\n              <p id='8'>\u8BED\
+    \u8A00</p>\n              <LinearLayoutCompat id='9'>\n                <button\
+    \ id='10' resource_id='search' alt='\u641C\u7D22\u8BED\u8A00'></button>\n    \
+    \          </LinearLayoutCompat>\n            </ViewGroup>\n            <FrameLayout\
+    \ id='11' resource_id='container'>\n              <FrameLayout id='12' resource_id='container'>\n\
+    \                <ViewGroup id='13'>\n                  <FrameLayout id='14' resource_id='locale_container'></FrameLayout>\n\
+    \                  <ViewGroup id='15'>\n                    <scrollbar id='16'\
+    \ resource_id='locale_list'>\n                      <ViewGroup id='17'>\n    \
+    \                    <button id='18' resource_id='locale_title_text'>\u4F9D\u7167\
+    \u8BBE\u5907\u8BED\u8A00\u663E\u793A (ISO 3166/639)</button>\n               \
+    \         <button id='19' resource_id='locale_subtitle_text'>English (United States)</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='20'>\n\
+    \                        <button id='21' resource_id='locale_title_text'>Shqip</button>\n\
+    \                        <button id='22' resource_id='locale_subtitle_text'>\u963F\
+    \u5C14\u5DF4\u5C3C\u4E9A\u8BED</button>\n                      </ViewGroup>\n\
+    \                      <ViewGroup id='23'>\n                        <button id='24'\
+    \ resource_id='locale_title_text'>\u12A0\u121B\u122D\u129B</button>\n        \
+    \                <button id='25' resource_id='locale_subtitle_text'>\u963F\u59C6\
+    \u54C8\u62C9\u8BED</button>\n                      </ViewGroup>\n            \
+    \          <ViewGroup id='26'>\n                        <button id='27' resource_id='locale_title_text'>\u0627\
+    \u0644\u0639\u0631\u0628\u064A\u0629</button>\n                        <button\
+    \ id='28' resource_id='locale_subtitle_text'>\u963F\u62C9\u4F2F\u8BED</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='29'>\n\
+    \                        <button id='30' resource_id='locale_title_text'>\u963F\
+    \u62C9\u8D21\u8BED</button>\n                        <button id='31' resource_id='locale_subtitle_text'>\u963F\
+    \u62C9\u8D21\u8BED</button>\n                      </ViewGroup>\n            \
+    \          <ViewGroup id='32'>\n                        <button id='33' resource_id='locale_title_text'>\u0540\
+    \u0561\u0575\u0565\u0580\u0565\u0576 (\u0540\u0561\u0575\u0561\u057D\u057F\u0561\
+    \u0576)</button>\n                        <button id='34' resource_id='locale_subtitle_text'>\u4E9A\
+    \u7F8E\u5C3C\u4E9A\u8BED (\u4E9A\u7F8E\u5C3C\u4E9A)</button>\n               \
+    \       </ViewGroup>\n                      <ViewGroup id='35'>\n            \
+    \            <button id='36' resource_id='locale_title_text'>Asturianu</button>\n\
+    \                        <button id='37' resource_id='locale_subtitle_text'>\u963F\
+    \u65AF\u56FE\u91CC\u4E9A\u65AF\u8BED</button>\n                      </ViewGroup>\n\
+    \                      <ViewGroup id='38'>\n                        <button id='39'\
+    \ resource_id='locale_title_text'>Az\u0259rbaycan</button>\n                 \
+    \       <button id='40' resource_id='locale_subtitle_text'>\u963F\u585E\u62DC\u7586\
+    \u8BED</button>\n                      </ViewGroup>\n                      <ViewGroup\
+    \ id='41'>\n                        <button id='42' resource_id='locale_title_text'>\u5DF4\
+    \u5398\u8BED</button>\n                        <button id='43' resource_id='locale_subtitle_text'>\u5DF4\
+    \u5398\u8BED</button>\n                      </ViewGroup>\n                  \
+    \    <ViewGroup id='44'>\n                        <button id='45' resource_id='locale_title_text'>\u09AC\
+    \u09BE\u0982\u09B2\u09BE</button>\n                        <button id='46' resource_id='locale_subtitle_text'>\u5B5F\
+    \u52A0\u62C9\u8BED</button>\n                      </ViewGroup>\n            \
+    \          <ViewGroup id='47'>\n                        <button id='48' resource_id='locale_title_text'>Euskara</button>\n\
+    \                        <button id='49' resource_id='locale_subtitle_text'>\u5DF4\
+    \u65AF\u514B\u8BED</button>\n                      </ViewGroup>\n            \
+    \          <ViewGroup id='50'>\n                        <button id='51' resource_id='locale_title_text'>\u0411\
+    \u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F</button>\n            \
+    \            <button id='52' resource_id='locale_subtitle_text'>\u767D\u4FC4\u7F57\
+    \u65AF\u8BED</button>\n                      </ViewGroup>\n                  \
+    \    <ViewGroup id='53'>\n                        <button id='54' resource_id='locale_title_text'>Bosanski</button>\n\
+    \                        <button id='55' resource_id='locale_subtitle_text'>\u6CE2\
+    \u65AF\u5C3C\u4E9A\u8BED</button>\n                      </ViewGroup>\n      \
+    \                <ViewGroup id='56'>\n                        <button id='57'\
+    \ resource_id='locale_title_text'>Brezhoneg</button>\n                       \
+    \ <button id='58' resource_id='locale_subtitle_text'>\u5E03\u5217\u5854\u5C3C\u8BED\
+    </button>\n                      </ViewGroup>\n                    </scrollbar>\n\
+    \                  </ViewGroup>\n                </ViewGroup>\n              </FrameLayout>\n\
+    \            </FrameLayout>\n          </LinearLayout>\n        </FrameLayout>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b4ddf75bfde36e71660b34d8edf0fc712f13d9b2c7feadff14969d66cfbe8fbb
+  state_str: 7a1b197a0442b436c48cd2710a3738e87dbb16745e1517ac0087ec42dee2a9cf
+  tag: 2023-07-12_212821
+step_num: 5
+task_name: change language to Simplified Han

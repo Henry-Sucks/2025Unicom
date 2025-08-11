@@ -1,0 +1,385 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 159
+  Choice: 159
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 13
+    text: VisitParents
+  Choice: 13
+  Input: VisitParents
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Navigate up'></button>\n            <p id='7'>New\
+    \ Event</p>\n            <aq id='8'>\n              <button id='9' resource_id='save'\
+    \ alt='Save'></button>\n            </aq>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \        <FrameLayout id='10' resource_id='content'>\n          <ScrollView id='11'\
+    \ resource_id='event_scrollview'>\n            <RelativeLayout id='12' resource_id='event_holder'>\n\
+    \              <input id='13' resource_id='event_title'>Title</input>\n      \
+    \        <input id='14' resource_id='event_location'>Location</input>\n      \
+    \        <ImageView id='15' resource_id='event_show_on_map'></ImageView>\n   \
+    \           <input id='16' resource_id='event_description'>Description</input>\n\
+    \              <ImageView id='17' resource_id='event_description_divider'></ImageView>\n\
+    \              <ImageView id='18' resource_id='event_time_image'></ImageView>\n\
+    \              <checkbox id='19' resource_id='event_all_day'>All-day OFF</checkbox>\n\
+    \              <button id='20' resource_id='event_start_date'>July 1 (Sat)</button>\n\
+    \              <button id='21' resource_id='event_start_time'>12:00 PM</button>\n\
+    \              <button id='22' resource_id='event_end_date'>July 1 (Sat)</button>\n\
+    \              <button id='23' resource_id='event_end_time'>12:00 PM</button>\n\
+    \              <ImageView id='24' resource_id='event_date_time_divider'></ImageView>\n\
+    \              <ImageView id='25' resource_id='event_reminder_image'></ImageView>\n\
+    \              <button id='26' resource_id='event_reminder_1'>10 minutes before</button>\n\
+    \              <button id='27' resource_id='event_reminder_2'>Add another reminder</button>\n\
+    \              <ImageView id='28' resource_id='event_reminder_divider'></ImageView>\n\
+    \              <ImageView id='29' resource_id='event_repetition_image'></ImageView>\n\
+    \              <button id='30' resource_id='event_repetition'>No repetition</button>\n\
+    \              <ImageView id='31' resource_id='event_repetition_divider'></ImageView>\n\
+    \              <ImageView id='32' resource_id='event_caldav_calendar_divider'></ImageView>\n\
+    \              <ImageView id='33' resource_id='event_type_image'></ImageView>\n\
+    \              <RelativeLayout id='34' resource_id='event_type_holder'>\n    \
+    \            <button id='35' resource_id='event_type'>Regular event</button>\n\
+    \                <ImageView id='36' resource_id='event_type_color'></ImageView>\n\
+    \              </RelativeLayout>\n              <ImageView id='37' resource_id='event_type_divider'></ImageView>\n\
+    \            </RelativeLayout>\n          </ScrollView>\n        </FrameLayout>\n\
+    \      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 77dfea11565b42a31fee51cb52720d35ec189b30db4c597fd2ea88af5f833b2e
+  state_str: f
+  tag: 2023-07-07_113725
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 20
+  Choice: 20
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Navigate up'></button>\n            <p id='7'>New\
+    \ Event</p>\n            <aq id='8'>\n              <button id='9' resource_id='save'\
+    \ alt='Save'></button>\n            </aq>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \        <FrameLayout id='10' resource_id='content'>\n          <ScrollView id='11'\
+    \ resource_id='event_scrollview'>\n            <RelativeLayout id='12' resource_id='event_holder'>\n\
+    \              <input id='13' resource_id='event_title'>visit-parents</input>\n\
+    \              <input id='14' resource_id='event_location'>Location</input>\n\
+    \              <ImageView id='15' resource_id='event_show_on_map'></ImageView>\n\
+    \              <input id='16' resource_id='event_description'>Description</input>\n\
+    \              <ImageView id='17' resource_id='event_description_divider'></ImageView>\n\
+    \              <ImageView id='18' resource_id='event_time_image'></ImageView>\n\
+    \              <checkbox id='19' resource_id='event_all_day'>All-day OFF</checkbox>\n\
+    \              <button id='20' resource_id='event_start_date'>July 1 (Sat)</button>\n\
+    \              <button id='21' resource_id='event_start_time'>12:00 PM</button>\n\
+    \              <button id='22' resource_id='event_end_date'>July 1 (Sat)</button>\n\
+    \              <button id='23' resource_id='event_end_time'>12:00 PM</button>\n\
+    \              <ImageView id='24' resource_id='event_date_time_divider'></ImageView>\n\
+    \              <ImageView id='25' resource_id='event_reminder_image'></ImageView>\n\
+    \              <button id='26' resource_id='event_reminder_1'>10 minutes before</button>\n\
+    \              <button id='27' resource_id='event_reminder_2'>Add another reminder</button>\n\
+    \              <ImageView id='28' resource_id='event_reminder_divider'></ImageView>\n\
+    \              <ImageView id='29' resource_id='event_repetition_image'></ImageView>\n\
+    \              <button id='30' resource_id='event_repetition'>No repetition</button>\n\
+    \              <ImageView id='31' resource_id='event_repetition_divider'></ImageView>\n\
+    \              <ImageView id='32' resource_id='event_caldav_calendar_divider'></ImageView>\n\
+    \              <ImageView id='33' resource_id='event_type_image'></ImageView>\n\
+    \              <RelativeLayout id='34' resource_id='event_type_holder'>\n    \
+    \            <button id='35' resource_id='event_type'>Regular event</button>\n\
+    \                <ImageView id='36' resource_id='event_type_color'></ImageView>\n\
+    \              </RelativeLayout>\n              <ImageView id='37' resource_id='event_type_divider'></ImageView>\n\
+    \            </RelativeLayout>\n          </ScrollView>\n        </FrameLayout>\n\
+    \      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: de6ce3d08a8403e233be49a2409d6dc162897e6b312d37f3cf32cbc58062b8b5
+  state_str: '3'
+  tag: 2023-07-03_210604
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 77
+  Choice: 77
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <LinearLayout id='3' resource_id='parentPanel'>\n        <FrameLayout id='4'\
+    \ resource_id='customPanel'>\n          <FrameLayout id='5' resource_id='custom'>\n\
+    \            <DatePicker id='6' resource_id='datePicker'>\n              <LinearLayout\
+    \ id='7'>\n                <LinearLayout id='8' resource_id='date_picker_header'>\n\
+    \                  <LinearLayout id='9'>\n                    <button id='10'\
+    \ resource_id='date_picker_header_year'>2023</button>\n                    <button\
+    \ id='11' resource_id='date_picker_header_date'>Sat, Jul 1</button>\n        \
+    \          </LinearLayout>\n                </LinearLayout>\n                <ScrollView\
+    \ id='12'>\n                  <ViewAnimator id='13' resource_id='animator'>\n\
+    \                    <ViewGroup id='14' resource_id='date_picker_day_picker'>\n\
+    \                      <scrollbar id='15' resource_id='day_picker_view_pager'>\n\
+    \                        <View id='47' resource_id='month_view'>\n           \
+    \               <button id='48' alt='01 July 2023' status='selected'>1</button>\n\
+    \                          <button id='49' alt='02 July 2023'>2</button>\n   \
+    \                       <button id='50' alt='03 July 2023'>3</button>\n      \
+    \                    <button id='51' alt='04 July 2023'>4</button>\n         \
+    \                 <button id='52' alt='05 July 2023'>5</button>\n            \
+    \              <button id='53' alt='06 July 2023'>6</button>\n               \
+    \           <button id='54' alt='07 July 2023'>7</button>\n                  \
+    \        <button id='55' alt='08 July 2023'>8</button>\n                     \
+    \     <button id='56' alt='09 July 2023'>9</button>\n                        \
+    \  <button id='57' alt='10 July 2023'>10</button>\n                          <button\
+    \ id='58' alt='11 July 2023'>11</button>\n                          <button id='59'\
+    \ alt='12 July 2023'>12</button>\n                          <button id='60' alt='13\
+    \ July 2023'>13</button>\n                          <button id='61' alt='14 July\
+    \ 2023'>14</button>\n                          <button id='62' alt='15 July 2023'>15</button>\n\
+    \                          <button id='63' alt='16 July 2023'>16</button>\n  \
+    \                        <button id='64' alt='17 July 2023'>17</button>\n    \
+    \                      <button id='65' alt='18 July 2023'>18</button>\n      \
+    \                    <button id='66' alt='19 July 2023'>19</button>\n        \
+    \                  <button id='67' alt='20 July 2023'>20</button>\n          \
+    \                <button id='68' alt='21 July 2023'>21</button>\n            \
+    \              <button id='69' alt='22 July 2023'>22</button>\n              \
+    \            <button id='70' alt='23 July 2023'>23</button>\n                \
+    \          <button id='71' alt='24 July 2023'>24</button>\n                  \
+    \        <button id='72' alt='25 July 2023'>25</button>\n                    \
+    \      <button id='73' alt='26 July 2023'>26</button>\n                      \
+    \    <button id='74' alt='27 July 2023'>27</button>\n                        \
+    \  <button id='75' alt='28 July 2023'>28</button>\n                          <button\
+    \ id='76' alt='29 July 2023'>29</button>\n                          <button id='77'\
+    \ alt='30 July 2023'>30</button>\n                          <button id='78' alt='31\
+    \ July 2023'>31</button>\n                        </View>\n                  \
+    \    </scrollbar>\n                      <button id='111' resource_id='prev' alt='Previous\
+    \ month'></button>\n                      <button id='112' resource_id='next'\
+    \ alt='Next month'></button>\n                    </ViewGroup>\n             \
+    \     </ViewAnimator>\n                </ScrollView>\n              </LinearLayout>\n\
+    \            </DatePicker>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <ScrollView id='113' resource_id='buttonPanel'>\n          <LinearLayout\
+    \ id='114'>\n            <button id='115' resource_id='button2'>CANCEL</button>\n\
+    \            <button id='116' resource_id='button1'>OK</button>\n          </LinearLayout>\n\
+    \        </ScrollView>\n      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 1de405d94a0dc161d25004ddbf768abf707e415a63851c67ba42d90234788c52
+  state_str: 52a929faff48c2be31e0517c44c9247a6a16600cd3ed9d270acae946b787b7a7
+  tag: 2023-07-03_210633
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 116
+  Choice: 116
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <LinearLayout id='3' resource_id='parentPanel'>\n        <FrameLayout id='4'\
+    \ resource_id='customPanel'>\n          <FrameLayout id='5' resource_id='custom'>\n\
+    \            <DatePicker id='6' resource_id='datePicker'>\n              <LinearLayout\
+    \ id='7'>\n                <LinearLayout id='8' resource_id='date_picker_header'>\n\
+    \                  <LinearLayout id='9'>\n                    <button id='10'\
+    \ resource_id='date_picker_header_year'>2023</button>\n                    <button\
+    \ id='11' resource_id='date_picker_header_date'>Sun, Jul 30</button>\n       \
+    \           </LinearLayout>\n                </LinearLayout>\n               \
+    \ <ScrollView id='12'>\n                  <ViewAnimator id='13' resource_id='animator'>\n\
+    \                    <ViewGroup id='14' resource_id='date_picker_day_picker'>\n\
+    \                      <scrollbar id='15' resource_id='day_picker_view_pager'>\n\
+    \                        <View id='47' resource_id='month_view'>\n           \
+    \               <button id='48' alt='01 July 2023'>1</button>\n              \
+    \            <button id='49' alt='02 July 2023'>2</button>\n                 \
+    \         <button id='50' alt='03 July 2023'>3</button>\n                    \
+    \      <button id='51' alt='04 July 2023'>4</button>\n                       \
+    \   <button id='52' alt='05 July 2023'>5</button>\n                          <button\
+    \ id='53' alt='06 July 2023'>6</button>\n                          <button id='54'\
+    \ alt='07 July 2023'>7</button>\n                          <button id='55' alt='08\
+    \ July 2023'>8</button>\n                          <button id='56' alt='09 July\
+    \ 2023'>9</button>\n                          <button id='57' alt='10 July 2023'>10</button>\n\
+    \                          <button id='58' alt='11 July 2023'>11</button>\n  \
+    \                        <button id='59' alt='12 July 2023'>12</button>\n    \
+    \                      <button id='60' alt='13 July 2023'>13</button>\n      \
+    \                    <button id='61' alt='14 July 2023'>14</button>\n        \
+    \                  <button id='62' alt='15 July 2023'>15</button>\n          \
+    \                <button id='63' alt='16 July 2023'>16</button>\n            \
+    \              <button id='64' alt='17 July 2023'>17</button>\n              \
+    \            <button id='65' alt='18 July 2023'>18</button>\n                \
+    \          <button id='66' alt='19 July 2023'>19</button>\n                  \
+    \        <button id='67' alt='20 July 2023'>20</button>\n                    \
+    \      <button id='68' alt='21 July 2023'>21</button>\n                      \
+    \    <button id='69' alt='22 July 2023'>22</button>\n                        \
+    \  <button id='70' alt='23 July 2023'>23</button>\n                          <button\
+    \ id='71' alt='24 July 2023'>24</button>\n                          <button id='72'\
+    \ alt='25 July 2023'>25</button>\n                          <button id='73' alt='26\
+    \ July 2023'>26</button>\n                          <button id='74' alt='27 July\
+    \ 2023'>27</button>\n                          <button id='75' alt='28 July 2023'>28</button>\n\
+    \                          <button id='76' alt='29 July 2023'>29</button>\n  \
+    \                        <button id='77' alt='30 July 2023' status='selected'>30</button>\n\
+    \                          <button id='78' alt='31 July 2023'>31</button>\n  \
+    \                      </View>\n                      </scrollbar>\n         \
+    \             <button id='111' resource_id='prev' alt='Previous month'></button>\n\
+    \                      <button id='112' resource_id='next' alt='Next month'></button>\n\
+    \                    </ViewGroup>\n                  </ViewAnimator>\n       \
+    \         </ScrollView>\n              </LinearLayout>\n            </DatePicker>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n        <ScrollView id='113'\
+    \ resource_id='buttonPanel'>\n          <LinearLayout id='114'>\n            <button\
+    \ id='115' resource_id='button2'>CANCEL</button>\n            <button id='116'\
+    \ resource_id='button1'>OK</button>\n          </LinearLayout>\n        </ScrollView>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: abb3d0019a761e4c1120e933e86f2854aea11a533efccd16846cc30704909231
+  state_str: 3e79e06fd52e0d4132c19ffd48b8ebcf4d911abea24dcca36cb7e9d212fab42a
+  tag: 2023-07-03_210723
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 26
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Navigate up'></button>\n            <p id='7'>New\
+    \ Event</p>\n            <aq id='8'>\n              <button id='9' resource_id='save'\
+    \ alt='Save'></button>\n            </aq>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \        <FrameLayout id='10' resource_id='content'>\n          <ScrollView id='11'\
+    \ resource_id='event_scrollview'>\n            <RelativeLayout id='12' resource_id='event_holder'>\n\
+    \              <input id='13' resource_id='event_title'>visit-parents</input>\n\
+    \              <input id='14' resource_id='event_location'>Location</input>\n\
+    \              <ImageView id='15' resource_id='event_show_on_map'></ImageView>\n\
+    \              <input id='16' resource_id='event_description'>Description</input>\n\
+    \              <ImageView id='17' resource_id='event_description_divider'></ImageView>\n\
+    \              <ImageView id='18' resource_id='event_time_image'></ImageView>\n\
+    \              <checkbox id='19' resource_id='event_all_day'>All-day OFF</checkbox>\n\
+    \              <button id='20' resource_id='event_start_date'>July 30 (Sun)</button>\n\
+    \              <button id='21' resource_id='event_start_time'>12:00 PM</button>\n\
+    \              <button id='22' resource_id='event_end_date'>July 30 (Sun)</button>\n\
+    \              <button id='23' resource_id='event_end_time'>12:00 PM</button>\n\
+    \              <ImageView id='24' resource_id='event_date_time_divider'></ImageView>\n\
+    \              <ImageView id='25' resource_id='event_reminder_image'></ImageView>\n\
+    \              <button id='26' resource_id='event_reminder_1'>10 minutes before</button>\n\
+    \              <button id='27' resource_id='event_reminder_2'>Add another reminder</button>\n\
+    \              <ImageView id='28' resource_id='event_reminder_divider'></ImageView>\n\
+    \              <ImageView id='29' resource_id='event_repetition_image'></ImageView>\n\
+    \              <button id='30' resource_id='event_repetition'>No repetition</button>\n\
+    \              <ImageView id='31' resource_id='event_repetition_divider'></ImageView>\n\
+    \              <ImageView id='32' resource_id='event_caldav_calendar_divider'></ImageView>\n\
+    \              <ImageView id='33' resource_id='event_type_image'></ImageView>\n\
+    \              <RelativeLayout id='34' resource_id='event_type_holder'>\n    \
+    \            <button id='35' resource_id='event_type'>Regular event</button>\n\
+    \                <ImageView id='36' resource_id='event_type_color'></ImageView>\n\
+    \              </RelativeLayout>\n              <ImageView id='37' resource_id='event_type_divider'></ImageView>\n\
+    \            </RelativeLayout>\n          </ScrollView>\n        </FrameLayout>\n\
+    \      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 0ae21c5f73cab1373ab1190589818394971f3effd94c07e76dc1a7a822c1ac68
+  state_str: '4'
+  tag: 2023-07-03_210743
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 16
+  Choice: 16
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10'>No reminder</checkbox>\n                  \
+    \  <checkbox id='11'>At start</checkbox>\n                    <checkbox id='12'>1\
+    \ minute before</checkbox>\n                    <checkbox id='13'>5 minutes before</checkbox>\n\
+    \                    <checkbox id='14' status='selected'>10 minutes before</checkbox>\n\
+    \                    <checkbox id='15'>30 minutes before</checkbox>\n        \
+    \            <checkbox id='16'>1 hour before</checkbox>\n                    <checkbox\
+    \ id='17'>Custom</checkbox>\n                  </RadioGroup>\n               \
+    \ </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n  \
+    \        </aq>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 7be671f67b12a11b3a667b6780e9e80104be5d122c8a534c1584af702c2fd5f7
+  state_str: '1'
+  tag: 2023-07-03_210751
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 9
+  Choice: 9
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Navigate up'></button>\n            <p id='7'>New\
+    \ Event</p>\n            <aq id='8'>\n              <button id='9' resource_id='save'\
+    \ alt='Save'></button>\n            </aq>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \        <FrameLayout id='10' resource_id='content'>\n          <ScrollView id='11'\
+    \ resource_id='event_scrollview'>\n            <RelativeLayout id='12' resource_id='event_holder'>\n\
+    \              <input id='13' resource_id='event_title'>visit-parents</input>\n\
+    \              <input id='14' resource_id='event_location'>Location</input>\n\
+    \              <ImageView id='15' resource_id='event_show_on_map'></ImageView>\n\
+    \              <input id='16' resource_id='event_description'>Description</input>\n\
+    \              <ImageView id='17' resource_id='event_description_divider'></ImageView>\n\
+    \              <ImageView id='18' resource_id='event_time_image'></ImageView>\n\
+    \              <checkbox id='19' resource_id='event_all_day'>All-day OFF</checkbox>\n\
+    \              <button id='20' resource_id='event_start_date'>July 30 (Sun)</button>\n\
+    \              <button id='21' resource_id='event_start_time'>12:00 PM</button>\n\
+    \              <button id='22' resource_id='event_end_date'>July 30 (Sun)</button>\n\
+    \              <button id='23' resource_id='event_end_time'>12:00 PM</button>\n\
+    \              <ImageView id='24' resource_id='event_date_time_divider'></ImageView>\n\
+    \              <ImageView id='25' resource_id='event_reminder_image'></ImageView>\n\
+    \              <button id='26' resource_id='event_reminder_1'>1 hour before</button>\n\
+    \              <button id='27' resource_id='event_reminder_2'>Add another reminder</button>\n\
+    \              <ImageView id='28' resource_id='event_reminder_divider'></ImageView>\n\
+    \              <ImageView id='29' resource_id='event_repetition_image'></ImageView>\n\
+    \              <button id='30' resource_id='event_repetition'>No repetition</button>\n\
+    \              <ImageView id='31' resource_id='event_repetition_divider'></ImageView>\n\
+    \              <ImageView id='32' resource_id='event_caldav_calendar_divider'></ImageView>\n\
+    \              <ImageView id='33' resource_id='event_type_image'></ImageView>\n\
+    \              <RelativeLayout id='34' resource_id='event_type_holder'>\n    \
+    \            <button id='35' resource_id='event_type'>Regular event</button>\n\
+    \                <ImageView id='36' resource_id='event_type_color'></ImageView>\n\
+    \              </RelativeLayout>\n              <ImageView id='37' resource_id='event_type_divider'></ImageView>\n\
+    \            </RelativeLayout>\n          </ScrollView>\n        </FrameLayout>\n\
+    \      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 716a7c9171fb9806019774692e3dfc436aab61ca1936f83ceb69d34340172d8e
+  state_str: c
+  tag: 2023-07-03_210756
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258_2
+step_num: 10
+task_name: add the event of 'VisitParents' on july 30, remind me 1 hour before, save
+  it

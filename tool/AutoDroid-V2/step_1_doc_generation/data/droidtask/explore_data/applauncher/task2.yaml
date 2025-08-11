@@ -1,0 +1,160 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='toggle_app_name' alt='Toggle app name visibility'></button>\n \
+    \                     <button id='15' alt='More options'></button>\n         \
+    \           </LinearLayoutCompat>\n                  </ViewGroup>\n          \
+    \      </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <RelativeLayout id='16' resource_id='main_relative_layout'>\n   \
+    \           <ViewGroup id='17' resource_id='coordinator_layout'>\n           \
+    \     <RelativeLayout id='18' resource_id='launchers_holder'>\n              \
+    \    <RelativeLayout id='19' resource_id='launchers_fastscroller'>\n         \
+    \           <RecyclerView id='20' resource_id='launchers_grid'>\n            \
+    \          <RelativeLayout id='21' resource_id='launcher_holder'>\n          \
+    \              <ImageView id='22' resource_id='launcher_icon'></ImageView>\n \
+    \                       <button id='23' resource_id='launcher_label'>Calendar</button>\n\
+    \                      </RelativeLayout>\n                      <RelativeLayout\
+    \ id='24' resource_id='launcher_holder'>\n                        <ImageView id='25'\
+    \ resource_id='launcher_icon'></ImageView>\n                        <button id='26'\
+    \ resource_id='launcher_label'>Camera</button>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='27' resource_id='launcher_holder'>\n\
+    \                        <ImageView id='28' resource_id='launcher_icon'></ImageView>\n\
+    \                        <button id='29' resource_id='launcher_label'>Clock</button>\n\
+    \                      </RelativeLayout>\n                    </RecyclerView>\n\
+    \                    <LinearLayout id='31' resource_id='trackView'></LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \            <ImageButton id='33' resource_id='fab'></ImageButton>\n         \
+    \     </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n  \
+    \      </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 3f9adbf098ff69152b801042222f25ddd612674644e5d20b4c3617b4c9e33b3f
+  state_str: c
+  tag: 2023-07-15_164218
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 18
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Sort by</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='sorting_dialog_scrollview'>\n\
+    \                  <LinearLayout id='11' resource_id='sorting_dialog_holder'>\n\
+    \                    <RadioGroup id='12' resource_id='sorting_dialog_radio_sorting'>\n\
+    \                      <checkbox id='13' resource_id='sorting_dialog_radio_title'\
+    \ status='selected'>Title</checkbox>\n                      <checkbox id='14'\
+    \ resource_id='sorting_dialog_radio_custom'>Custom</checkbox>\n              \
+    \      </RadioGroup>\n                    <ImageView id='15' resource_id='sorting_dialog_divider'></ImageView>\n\
+    \                    <RadioGroup id='16' resource_id='sorting_dialog_radio_order'>\n\
+    \                      <checkbox id='17' resource_id='sorting_dialog_radio_ascending'\
+    \ status='selected'>Ascending</checkbox>\n                      <checkbox id='18'\
+    \ resource_id='sorting_dialog_radio_descending'>Descending</checkbox>\n      \
+    \              </RadioGroup>\n                  </LinearLayout>\n            \
+    \    </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='19' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='20'>\n                <button id='21' resource_id='button2'>Cancel</button>\n\
+    \                <button id='22' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 7bd9e2ded8ae3ec34dffeefb946dad82da73e3a8c7d983d8eed62b7ba2093beb
+  state_str: '7'
+  tag: 2023-07-08_212402
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 22
+  Choice: 22
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Sort by</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='sorting_dialog_scrollview'>\n\
+    \                  <LinearLayout id='11' resource_id='sorting_dialog_holder'>\n\
+    \                    <RadioGroup id='12' resource_id='sorting_dialog_radio_sorting'>\n\
+    \                      <checkbox id='13' resource_id='sorting_dialog_radio_title'\
+    \ status='selected'>Title</checkbox>\n                      <checkbox id='14'\
+    \ resource_id='sorting_dialog_radio_custom'>Custom</checkbox>\n              \
+    \      </RadioGroup>\n                    <ImageView id='15' resource_id='sorting_dialog_divider'></ImageView>\n\
+    \                    <RadioGroup id='16' resource_id='sorting_dialog_radio_order'>\n\
+    \                      <checkbox id='17' resource_id='sorting_dialog_radio_ascending'>Ascending</checkbox>\n\
+    \                      <checkbox id='18' resource_id='sorting_dialog_radio_descending'\
+    \ status='selected'>Descending</checkbox>\n                    </RadioGroup>\n\
+    \                  </LinearLayout>\n                </ScrollView>\n          \
+    \    </FrameLayout>\n            </FrameLayout>\n            <ScrollView id='19'\
+    \ resource_id='buttonPanel'>\n              <LinearLayout id='20'>\n         \
+    \       <button id='21' resource_id='button2'>Cancel</button>\n              \
+    \  <button id='22' resource_id='button1'>OK</button>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </LinearLayoutCompat>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 1d1c21762d4842a6f0e455ce1321480e39d0413cdda62f58f51f742bedf2f194
+  state_str: '3'
+  tag: 2023-07-02_180815
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='toggle_app_name' alt='Toggle app name visibility'></button>\n \
+    \                     <button id='15' alt='More options'></button>\n         \
+    \           </LinearLayoutCompat>\n                  </ViewGroup>\n          \
+    \      </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <RelativeLayout id='16' resource_id='main_relative_layout'>\n   \
+    \           <ViewGroup id='17' resource_id='coordinator_layout'>\n           \
+    \     <RelativeLayout id='18' resource_id='launchers_holder'>\n              \
+    \    <RelativeLayout id='19' resource_id='launchers_fastscroller'>\n         \
+    \           <RecyclerView id='20' resource_id='launchers_grid'>\n            \
+    \          <RelativeLayout id='21' resource_id='launcher_holder'>\n          \
+    \              <ImageView id='22' resource_id='launcher_icon'></ImageView>\n \
+    \                       <button id='23' resource_id='launcher_label'>Clock</button>\n\
+    \                      </RelativeLayout>\n                      <RelativeLayout\
+    \ id='24' resource_id='launcher_holder'>\n                        <ImageView id='25'\
+    \ resource_id='launcher_icon'></ImageView>\n                        <button id='26'\
+    \ resource_id='launcher_label'>Camera</button>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='27' resource_id='launcher_holder'>\n\
+    \                        <ImageView id='28' resource_id='launcher_icon'></ImageView>\n\
+    \                        <button id='29' resource_id='launcher_label'>Calendar</button>\n\
+    \                      </RelativeLayout>\n                    </RecyclerView>\n\
+    \                    <LinearLayout id='31' resource_id='trackView'></LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \            <ImageButton id='33' resource_id='fab'></ImageButton>\n         \
+    \     </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n  \
+    \      </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: b5327a6ca3fab812a0c123130a8dbab27a1168406851f9e1afc30a08ce631515
+  state_str: '9'
+  tag: 2023-07-02_180822
+step_num: 4
+task_name: Sort apps by title in descending order

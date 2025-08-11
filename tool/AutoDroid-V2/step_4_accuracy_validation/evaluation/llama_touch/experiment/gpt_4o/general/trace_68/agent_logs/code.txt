@@ -1,0 +1,4 @@
+
+$server_overview_screen__you_button.tap()
+$personal_profile_screen__settings_button.tap()
+$settings_screen__notifications_button.tap()

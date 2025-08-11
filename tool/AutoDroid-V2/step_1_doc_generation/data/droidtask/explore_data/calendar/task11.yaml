@@ -1,0 +1,326 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 17
+  Choice: 17
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <RelativeLayout id='4'>\n          <button\
+    \ id='5' resource_id='title'>Add holidays</button>\n        </RelativeLayout>\n\
+    \      </LinearLayout>\n      <LinearLayout id='6'>\n        <RelativeLayout id='7'>\n\
+    \          <button id='8' resource_id='title'>Add contact birthdays</button>\n\
+    \        </RelativeLayout>\n      </LinearLayout>\n      <LinearLayout id='9'>\n\
+    \        <RelativeLayout id='10'>\n          <button id='11' resource_id='title'>Add\
+    \ contact anniversaries</button>\n        </RelativeLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='12'>\n        <RelativeLayout id='13'>\n          <button\
+    \ id='14' resource_id='title'>Import events from an .ics file</button>\n     \
+    \   </RelativeLayout>\n      </LinearLayout>\n      <LinearLayout id='15'>\n \
+    \       <RelativeLayout id='16'>\n          <button id='17' resource_id='title'>Export\
+    \ events to an .ics file</button>\n        </RelativeLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='18'>\n        <RelativeLayout id='19'>\n          <button\
+    \ id='20' resource_id='title'>Settings</button>\n        </RelativeLayout>\n \
+    \     </LinearLayout>\n      <LinearLayout id='21'>\n        <RelativeLayout id='22'>\n\
+    \          <button id='23' resource_id='title'>About</button>\n        </RelativeLayout>\n\
+    \      </LinearLayout>\n    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 5534c66d5f37c0f29958ac89e66254fa62b5e261bf014a6fb71d9aa78a75d4b3
+  state_str: '2'
+  tag: 2023-07-16_121307
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 11
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <ScrollView id='3'>\n        <LinearLayout id='4' resource_id='grant_singleton'>\n\
+    \          <LinearLayout id='5' resource_id='grant_dialog'>\n            <LinearLayout\
+    \ id='6' resource_id='content_container'>\n              <LinearLayout id='7'>\n\
+    \                <ImageView id='8' resource_id='permission_icon'></ImageView>\n\
+    \                <p id='9' resource_id='permission_message'>Allow Calendar to\
+    \ access photos, media, and files </p>\n              </LinearLayout>\n      \
+    \      </LinearLayout>\n            <LinearLayout id='10'>\n              <button\
+    \ id='11' resource_id='permission_allow_button'>Allow</button>\n             \
+    \ <button id='12' resource_id='permission_deny_button'>Deny</button>\n       \
+    \     </LinearLayout>\n          </LinearLayout>\n        </LinearLayout>\n  \
+    \    </ScrollView>\n    </FrameLayout>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: ee9f0855b6686a9d0bd515c215315d215fa6d3438addbaf227d25e19eaa3185a
+  state_str: e
+  tag: 2023-07-03_204656
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 33
+  Choice: 33
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Select a folder</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ViewGroup id='10' resource_id='filepicker_coordinator'>\n\
+    \                  <RelativeLayout id='11' resource_id='filepicker_holder'>\n\
+    \                    <LinearLayout id='12' resource_id='filepicker_breadcrumbs'>\n\
+    \                      <button id='13' resource_id='breadcrumb_text'>Internal</button>\n\
+    \                    </LinearLayout>\n                    <scrollbar id='14' resource_id='filepicker_list'>\n\
+    \                      <RelativeLayout id='15' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='16' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='17'>\n                          <button\
+    \ id='18' resource_id='list_item_name'>Alarms</button>\n                     \
+    \     <button id='19' resource_id='list_item_details'>0 items</button>\n     \
+    \                   </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='20' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='21' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='22'>\n                          <button\
+    \ id='23' resource_id='list_item_name'>Android</button>\n                    \
+    \      <button id='24' resource_id='list_item_details'>3 items</button>\n    \
+    \                    </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='25' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='26' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='27'>\n                          <button\
+    \ id='28' resource_id='list_item_name'>Audiobooks</button>\n                 \
+    \         <button id='29' resource_id='list_item_details'>0 items</button>\n \
+    \                       </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='30' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='31' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='32'>\n                          <button\
+    \ id='33' resource_id='list_item_name'>DCIM</button>\n                       \
+    \   <button id='34' resource_id='list_item_details'>6 items</button>\n       \
+    \                 </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='35' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='36' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='37'>\n                          <button\
+    \ id='38' resource_id='list_item_name'>Documents</button>\n                  \
+    \        <button id='39' resource_id='list_item_details'>0 items</button>\n  \
+    \                      </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='40' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='41' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='42'>\n                          <button\
+    \ id='43' resource_id='list_item_name'>Download</button>\n                   \
+    \       <button id='44' resource_id='list_item_details'>1 item</button>\n    \
+    \                    </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='45' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='46' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='47'>\n                          <button\
+    \ id='48' resource_id='list_item_name'>Movies</button>\n                     \
+    \     <button id='49' resource_id='list_item_details'>0 items</button>\n     \
+    \                   </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='50' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='51' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='52'>\n                          <button\
+    \ id='53' resource_id='list_item_name'>Music</button>\n                      \
+    \    <button id='54' resource_id='list_item_details'>1 item</button>\n       \
+    \                 </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='55' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='56' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='57'>\n                          <button\
+    \ id='58' resource_id='list_item_name'>Notifications</button>\n              \
+    \            <button id='59' resource_id='list_item_details'>0 items</button>\n\
+    \                        </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='60' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='61' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='62'>\n                          <button\
+    \ id='63' resource_id='list_item_name'>Pictures</button>\n                   \
+    \       <button id='64' resource_id='list_item_details'>0 items</button>\n   \
+    \                     </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='65' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='66' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='67'>\n                          <button\
+    \ id='68' resource_id='list_item_name'>Podcasts</button>\n                   \
+    \       <button id='69' resource_id='list_item_details'>0 items</button>\n   \
+    \                     </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                    </scrollbar>\n                    <FrameLayout id='70' resource_id='filepicker_fastscroller'></FrameLayout>\n\
+    \                  </RelativeLayout>\n                  <ImageButton id='73' resource_id='filepicker_fab'></ImageButton>\n\
+    \                </ViewGroup>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='74' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='75'>\n                <button id='76' resource_id='button2'>CANCEL</button>\n\
+    \                <button id='77' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </aq>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 88f29884fb5eacc4d8ce762764b2b603ed48812c458991e3abd38bffb6201dff
+  state_str: 328080942cf32d39ebeae6df9ad2efa414227130baa16f58fd97a53bb0638f4f
+  tag: 2023-07-03_204701
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 53
+  Choice: 53
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Select a folder</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ViewGroup id='10' resource_id='filepicker_coordinator'>\n\
+    \                  <RelativeLayout id='11' resource_id='filepicker_holder'>\n\
+    \                    <LinearLayout id='12' resource_id='filepicker_breadcrumbs'>\n\
+    \                      <button id='13' resource_id='breadcrumb_text'>Internal</button>\n\
+    \                      <button id='14' resource_id='breadcrumb_text'>/ DCIM</button>\n\
+    \                    </LinearLayout>\n                    <RecyclerView id='15'\
+    \ resource_id='filepicker_list'>\n                      <RelativeLayout id='16'\
+    \ resource_id='list_item_holder'>\n                        <ImageView id='17'\
+    \ resource_id='list_item_icon'></ImageView>\n                        <RelativeLayout\
+    \ id='18'>\n                          <button id='19' resource_id='list_item_name'>pic1.jpg</button>\n\
+    \                          <button id='20' resource_id='list_item_details'>61.4\
+    \ kB</button>\n                        </RelativeLayout>\n                   \
+    \   </RelativeLayout>\n                      <RelativeLayout id='21' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='22' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='23'>\n                          <button\
+    \ id='24' resource_id='list_item_name'>pic2.jpg</button>\n                   \
+    \       <button id='25' resource_id='list_item_details'>22.9 kB</button>\n   \
+    \                     </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='26' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='27' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='28'>\n                          <button\
+    \ id='29' resource_id='list_item_name'>pic3.jpg</button>\n                   \
+    \       <button id='30' resource_id='list_item_details'>61.6 kB</button>\n   \
+    \                     </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='31' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='32' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='33'>\n                          <button\
+    \ id='34' resource_id='list_item_name'>video1.mp4</button>\n                 \
+    \         <button id='35' resource_id='list_item_details'>562.2 kB</button>\n\
+    \                        </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='36' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='37' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='38'>\n                          <button\
+    \ id='39' resource_id='list_item_name'>video2.mp4</button>\n                 \
+    \         <button id='40' resource_id='list_item_details'>46.4 MB</button>\n \
+    \                       </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                      <RelativeLayout id='41' resource_id='list_item_holder'>\n\
+    \                        <ImageView id='42' resource_id='list_item_icon'></ImageView>\n\
+    \                        <RelativeLayout id='43'>\n                          <button\
+    \ id='44' resource_id='list_item_name'>video3.mp4</button>\n                 \
+    \         <button id='45' resource_id='list_item_details'>7.9 MB</button>\n  \
+    \                      </RelativeLayout>\n                      </RelativeLayout>\n\
+    \                    </RecyclerView>\n                    <FrameLayout id='46'\
+    \ resource_id='filepicker_fastscroller'></FrameLayout>\n                  </RelativeLayout>\n\
+    \                  <ImageButton id='49' resource_id='filepicker_fab'></ImageButton>\n\
+    \                </ViewGroup>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='50' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='51'>\n                <button id='52' resource_id='button2'>CANCEL</button>\n\
+    \                <button id='53' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </aq>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 79aa0b971cebb384a00e7ddfefc470b387b290db98ad835aeee42e6e3487092b
+  state_str: '4'
+  tag: 2023-07-03_204718
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 15
+    text: test
+  Choice: 15
+  Input: test
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Export events</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='export_events_scrollview'>\n\
+    \                  <LinearLayout id='11' resource_id='export_events_holder'>\n\
+    \                    <p id='12' resource_id='export_events_folder_label'>Folder</p>\n\
+    \                    <p id='13' resource_id='export_events_folder'>Internal/DCIM</p>\n\
+    \                    <p id='14' resource_id='export_events_filename_label'>Filename\
+    \ (without .ics)</p>\n                    <input id='15' resource_id='export_events_filename'>events_2023-07-01_11-06</input>\n\
+    \                    <checkbox id='16' resource_id='export_events_checkbox'>Export\
+    \ past events too</checkbox>\n                  </LinearLayout>\n            \
+    \    </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='17' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='18'>\n                <button id='19' resource_id='button2'>CANCEL</button>\n\
+    \                <button id='20' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </aq>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 79b9c06c8ce3bc6a3afa788e6d3df7687645ebfda145d75986cdaac3c17e7566
+  state_str: c
+  tag: 2023-07-03_204727
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 20
+  Choice: 20
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Export events</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='export_events_scrollview'>\n\
+    \                  <LinearLayout id='11' resource_id='export_events_holder'>\n\
+    \                    <p id='12' resource_id='export_events_folder_label'>Folder</p>\n\
+    \                    <p id='13' resource_id='export_events_folder'>Internal/DCIM</p>\n\
+    \                    <p id='14' resource_id='export_events_filename_label'>Filename\
+    \ (without .ics)</p>\n                    <input id='15' resource_id='export_events_filename'>test</input>\n\
+    \                    <checkbox id='16' resource_id='export_events_checkbox'>Export\
+    \ past events too</checkbox>\n                  </LinearLayout>\n            \
+    \    </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \            <ScrollView id='17' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='18'>\n                <button id='19' resource_id='button2'>CANCEL</button>\n\
+    \                <button id='20' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </aq>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 9b21d47fc36c10e2f87ce29dd13fa70df974e721582b9a6cec9e9365e027f56b
+  state_str: b
+  tag: 2023-07-03_204801
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258_2
+step_num: 9
+task_name: export the events to test.ics under DCIM folder

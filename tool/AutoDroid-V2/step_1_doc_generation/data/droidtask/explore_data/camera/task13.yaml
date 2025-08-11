@@ -1,0 +1,115 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 27
+  Choice: 27
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <FrameLayout id='6' resource_id='preview_view'></FrameLayout>\n \
+    \           <ViewGroup id='9'></ViewGroup>\n            <FrameLayout id='10' resource_id='top_options'>\n\
+    \              <LinearLayout id='11' resource_id='default_icons'>\n          \
+    \      <button id='12' resource_id='toggle_timer' alt='Toggle the timer mode'></button>\n\
+    \                <button id='13' resource_id='change_resolution' alt='Resolution'></button>\n\
+    \                <button id='14' resource_id='settings' alt='Settings'></button>\n\
+    \              </LinearLayout>\n            </FrameLayout>\n            <View\
+    \ id='17' resource_id='bottom_overlay'></View>\n            <RelativeLayout id='18'\
+    \ resource_id='camera_mode_holder'>\n              <HorizontalScrollView id='19'\
+    \ resource_id='camera_mode_tab'>\n                <LinearLayout id='20'>\n   \
+    \               <button id='21' alt='Video'>\n                    <button id='22'>Video</button>\n\
+    \                  </button>\n                  <p id='23' alt='Photo' status='selected'>\n\
+    \                    <p id='24' status='selected'>Photo</p>\n                \
+    \  </p>\n                </LinearLayout>\n              </HorizontalScrollView>\n\
+    \            </RelativeLayout>\n            <button id='25' resource_id='toggle_camera'\
+    \ alt='Toggle front/back camera'></button>\n            <button id='26' resource_id='shutter'\
+    \ alt='Shutter'></button>\n            <button id='27' resource_id='last_photo_video_preview'\
+    \ alt='View last captured media'></button>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: '5'
+  tag: 2023-07-06_234540
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 42
+  Choice: 42
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <RelativeLayout id='5' resource_id='fragment_holder'>\n\
+    \            <scrollbar id='6' resource_id='view_pager'></scrollbar>\n       \
+    \     <ImageView id='35' resource_id='top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='36' resource_id='medium_viewer_appbar'>\n              <ViewGroup id='37'\
+    \ resource_id='medium_viewer_toolbar'>\n                <ImageButton id='38'></ImageButton>\n\
+    \                <p id='39'>pic3.jpg</p>\n                <LinearLayoutCompat\
+    \ id='40'>\n                  <button id='41' resource_id='menu_rotate' alt='Rotate'></button>\n\
+    \                  <button id='42' resource_id='menu_properties' alt='Properties'></button>\n\
+    \                  <button id='43' alt='More options'></button>\n            \
+    \    </LinearLayoutCompat>\n              </ViewGroup>\n            </LinearLayout>\n\
+    \            <ViewGroup id='44' resource_id='bottom_actions'>\n              <button\
+    \ id='45' resource_id='bottom_favorite' alt='Toggle favorite'></button>\n    \
+    \          <button id='46' resource_id='bottom_edit' alt='Edit'></button>\n  \
+    \            <button id='47' resource_id='bottom_share' alt='Share'></button>\n\
+    \              <button id='48' resource_id='bottom_delete' alt='Delete'></button>\n\
+    \            </ViewGroup>\n          </RelativeLayout>\n        </FrameLayout>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str: 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+  tag: 2023-07-06_234916
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <LinearLayout id='6' resource_id='topPanel'>\n              <p id='7'\
+    \ resource_id='dialog_title_textview'>Properties</p>\n            </LinearLayout>\n\
+    \            <FrameLayout id='8' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='9' resource_id='custom'>\n                <ScrollView id='10' resource_id='properties_scrollview'>\n\
+    \                  <LinearLayout id='11' resource_id='properties_holder'>\n  \
+    \                  <LinearLayout id='12' resource_id='property_holder'>\n    \
+    \                  <p id='13' resource_id='property_label'>Name</p>\n        \
+    \              <p id='14' resource_id='property_value'>pic3.jpg</p>\n        \
+    \            </LinearLayout>\n                    <LinearLayout id='15' resource_id='property_holder'>\n\
+    \                      <p id='16' resource_id='property_label'>Path</p>\n    \
+    \                  <p id='17' resource_id='property_value'>/storage/emulated/0/DCIM</p>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='18'\
+    \ resource_id='properties_size'>\n                      <p id='19' resource_id='property_label'>Size</p>\n\
+    \                      <p id='20' resource_id='property_value'>61.6 kB</p>\n \
+    \                   </LinearLayout>\n                    <LinearLayout id='21'\
+    \ resource_id='property_holder'>\n                      <p id='22' resource_id='property_label'>Resolution</p>\n\
+    \                      <p id='23' resource_id='property_value'>1280 x 606 (0.8MP)</p>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='24'\
+    \ resource_id='properties_last_modified'>\n                      <p id='25' resource_id='property_label'>Last\
+    \ modified</p>\n                      <p id='26' resource_id='property_value'>30.06.2023,\
+    \ 12:15 PM</p>\n                    </LinearLayout>\n                    <LinearLayout\
+    \ id='27' resource_id='property_holder'>\n                      <p id='28' resource_id='property_label'>Date\
+    \ taken</p>\n                      <p id='29' resource_id='property_value'>30.06.2023,\
+    \ 12:15 PM</p>\n                    </LinearLayout>\n                    <LinearLayout\
+    \ id='30' resource_id='property_holder'>\n                      <p id='31' resource_id='property_label'>Camera</p>\n\
+    \                      <p id='32' resource_id='property_value'>Google sdk_gphone_x86</p>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='33'\
+    \ resource_id='property_holder'>\n                      <p id='34' resource_id='property_label'>EXIF</p>\n\
+    \                      <p id='35' resource_id='property_value'>5.0mm  1/100s \
+    \ ISO-100</p>\n                    </LinearLayout>\n                    <LinearLayout\
+    \ id='36' resource_id='property_holder'>\n                      <button id='37'\
+    \ resource_id='property_label'>GPS coordinates</button>\n                    \
+    \  <button id='38' resource_id='property_value'>0.0, 0.0</button>\n          \
+    \          </LinearLayout>\n                  </LinearLayout>\n              \
+    \  </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n \
+    \           <ScrollView id='39' resource_id='buttonPanel'>\n              <LinearLayout\
+    \ id='40'>\n                <button id='41' resource_id='button3'>Remove EXIF</button>\n\
+    \                <button id='42' resource_id='button1'>OK</button>\n         \
+    \     </LinearLayout>\n            </ScrollView>\n          </LinearLayoutCompat>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 3cf22a42809e73155155da854a670a102223427b513185408059c5e9db2b5831
+  state_str: '7'
+  tag: 2023-07-06_234309
+step_num: 3
+task_name: check the size of the last photo I took

@@ -1,0 +1,1394 @@
+--------- beginning of kernel
+07-24 15:02:14.388     0     0 I logd    : logdr: UID=2000 GID=2000 PID=16105 b tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+07-24 15:02:14.432  1592  2427 I AiAiEcho: Settings changed for uri: content://settings/secure/enabled_input_methods
+07-24 15:02:14.432  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.432   749   881 I system_server: AssetManager2(0x7115266575b8) locale list changing from [] to [en-US]
+07-24 15:02:14.432  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.432  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.432  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.433  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.433  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.433  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.433  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.433  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.433  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.434  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-24 15:02:14.436  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-24 15:02:14.436 12071 12071 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+07-24 15:02:14.437 11685 11685 I SsBaseTemplateCard: Secondary card pane is null
+07-24 15:02:14.474  1592  2427 I AiAiEcho: Settings changed for uri: content://settings/secure/input_methods_subtype_history
+07-24 15:02:14.475  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.475  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.475  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.475  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.475  1592  2672 I AiAiEcho: Settings changed for uri: content://settings/secure/selected_input_method_subtype
+07-24 15:02:14.475  1592  2672 I AiAiEcho: Settings changed for uri: content://settings/secure/default_input_method
+07-24 15:02:14.476  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.476  1478  1478 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+07-24 15:02:14.476  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.476  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.476  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.476  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.476  1478  1478 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-24 15:02:14.477  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.477  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.477  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.477  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.477  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.478  1478  1478 I GoogleInputMethodService: GoogleInputMethodService.onDestroy():922 
+07-24 15:02:14.478  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ijp is unavailable
+07-24 15:02:14.478  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.479  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.479  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.479  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.479  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.480  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.480  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module jjw is unavailable
+07-24 15:02:14.480  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.481  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.481  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.481  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.481  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.481  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:14.482  1478  1478 I GlobeKeyExtension: GlobeKeyExtension.onDestroyExtension():120 
+07-24 15:02:14.482  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:14.482  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:14.482  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:14.482  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module jve is unavailable
+07-24 15:02:14.482  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020174, callback=buq@b9e078f, lastModifier=2, keyCodes=[47], actions=[0]}
+07-24 15:02:14.482  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dem is unavailable
+07-24 15:02:14.482  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ggq is unavailable
+07-24 15:02:14.482  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:14.482  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module khd is unavailable
+07-24 15:02:14.482  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-24 15:02:14.482  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module khh is unavailable
+07-24 15:02:14.482   749   873 W InputDispatcher: channel 'stylus-handwriting-event-receiver-0' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-24 15:02:14.483  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module khi is unavailable
+07-24 15:02:14.483   749   873 E InputDispatcher: channel 'stylus-handwriting-event-receiver-0' ~ Channel is unrecoverably broken and will be disposed!
+07-24 15:02:14.483  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module khj is unavailable
+07-24 15:02:14.483  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module khk is unavailable
+07-24 15:02:14.483  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module khm is unavailable
+07-24 15:02:14.483  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ktt is unavailable
+07-24 15:02:14.483  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=0, callback=jlb@5f69852, lastModifier=0, keyCodes=[204], actions=[0]}
+07-24 15:02:14.484  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ktw is unavailable
+07-24 15:02:14.484  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module lii is unavailable
+07-24 15:02:14.484  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module lwd is unavailable
+07-24 15:02:14.485  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-24 15:02:14.486  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module mgw is unavailable
+07-24 15:02:14.486  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module men is unavailable
+07-24 15:02:14.486  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module mfd is unavailable
+07-24 15:02:14.486  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module emv is unavailable
+07-24 15:02:14.486  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-24 15:02:14.487 12071 12071 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+07-24 15:02:14.488 11685 11685 I SsBaseTemplateCard: Secondary card pane is null
+07-24 15:02:14.488  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-24 15:02:14.488 11685 11685 I SsBaseTemplateCard: Secondary card pane is null
+07-24 15:02:14.488  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-24 15:02:14.489  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fba is unavailable
+07-24 15:02:14.489 12071 12071 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+07-24 15:02:14.490  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-24 15:02:14.490  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module drv is unavailable
+07-24 15:02:14.490 11685 11685 I SsBaseTemplateCard: Secondary card pane is null
+07-24 15:02:14.490 12071 12071 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+07-24 15:02:14.491  1478  1478 I EmojifyExtensionImpl: EmojifyExtensionImpl.onDestroy():607 Destroying Emojify extension dzw@2c54c76.
+07-24 15:02:14.491 12415 12415 I mit.droidbotapp: AssetManager2(0x71152661fe38) locale list changing from [] to [en-US]
+07-24 15:02:14.491  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dzi is unavailable
+07-24 15:02:14.491  1478  1478 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():537 Destroy existing keyboard group manager in eay
+07-24 15:02:14.491  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IExpressionMomentExtension is unavailable
+07-24 15:02:14.492  1478  1478 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():537 Destroy existing keyboard group manager in fve
+07-24 15:02:14.492  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module FastAccessBarExtension is unavailable
+07-24 15:02:14.492  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IBitmojiExtension is unavailable
+07-24 15:02:14.492 12415 12415 I mit.droidbotapp: AssetManager2(0x711526615ed8) locale list changing from [] to [en-US]
+07-24 15:02:14.492   488   556 I netd    : tetherGetStats() -> {[]} <0.35ms>
+07-24 15:02:14.493  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module eei is unavailable
+07-24 15:02:14.494  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dky is unavailable
+07-24 15:02:14.494  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ggw is unavailable
+07-24 15:02:14.495  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module der is unavailable
+07-24 15:02:14.495  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gla is unavailable
+07-24 15:02:14.495  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gqa is unavailable
+07-24 15:02:14.496  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132018682, callback=cbb@46dd616, lastModifier=2, keyCodes=[39], actions=[0]}
+07-24 15:02:14.496  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020164, callback=cbb@3f5d68f, lastModifier=2, keyCodes=[50], actions=[0]}
+07-24 15:02:14.496  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020169, callback=cbb@19dd1f0, lastModifier=2, keyCodes=[48], actions=[0]}
+07-24 15:02:14.496  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020167, callback=cbb@30ef3b4, lastModifier=2, keyCodes=[37], actions=[0]}
+07-24 15:02:14.496  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020168, callback=cbb@80b66a1, lastModifier=65536, keyCodes=[76], actions=[0]}
+07-24 15:02:14.497  1478  1478 W NotificationCenter: NotificationCenter.unregisterListener():480 Listener iik@2bb6468 was not registered for notification class ikh
+07-24 15:02:14.498  1478  1478 W NotificationCenter: NotificationCenter.unregisterListener():480 Listener iij@2d1a081 was not registered for notification class ikj
+07-24 15:02:14.498  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020173, callback=fjq@99b90bc, lastModifier=2, keyCodes=[62], actions=[0]}
+07-24 15:02:14.498 12415 12415 I mit.droidbotapp: AssetManager2(0x71152661c5f8) locale list changing from [] to [en-US]
+07-24 15:02:14.498  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020171, callback=null, lastModifier=2, keyCodes=[8], actions=[0]}
+07-24 15:02:14.499  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module iio is unavailable
+07-24 15:02:14.499  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module lsa is unavailable
+07-24 15:02:14.499  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module lsc is unavailable
+07-24 15:02:14.499  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module lyo is unavailable
+07-24 15:02:14.500  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gkz is unavailable
+07-24 15:02:14.502  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module jiq is unavailable
+07-24 15:02:14.503  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dvu is unavailable
+07-24 15:02:14.504  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dvo is unavailable
+07-24 15:02:14.504   749   777 I ImeTracker: system_server:10387816: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+07-24 15:02:14.505   749   788 I ImeTracker: system_server:10387816: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-24 15:02:14.506  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dwv is unavailable
+07-24 15:02:14.506  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dyl is unavailable
+07-24 15:02:14.506  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module erb is unavailable
+07-24 15:02:14.507  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module esv is unavailable
+07-24 15:02:14.507  1478  2433 I InputActionMetricsProcessor: InputActionMetricsProcessor.onDetached():107 Detached from metrics manager.
+07-24 15:02:14.508  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ezl is unavailable
+07-24 15:02:14.508  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fbb is unavailable
+07-24 15:02:14.508  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fcd is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fdw is unavailable
+07-24 15:02:14.509  1478  1478 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroy():52 
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fek is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fmb is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fpp is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IEmojiOrGifExtension is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IEmoticonExtension is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fud is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fxg is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module luq is unavailable
+07-24 15:02:14.509  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gqt is unavailable
+07-24 15:02:14.509  1478  1478 I UniversalDictationExtension: UniversalDictationExtension.onDestroyExtension():92 onDestroy [UD]
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gqv is unavailable
+07-24 15:02:14.510  1478  1478 I OnDevicePackDownloadModule: OnDevicePackDownloadModule.onDestroy():95 onDestroy()
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gvu is unavailable
+07-24 15:02:14.510  1478  1478 I NewS3RecognizerModule: NewS3RecognizerModule.onDestroy():21 onDestroy [news3]
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gxu is unavailable
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module iiq is unavailable
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ikw is unavailable
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module jny is unavailable
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IBannerExtension is unavailable
+07-24 15:02:14.510  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module mig is unavailable
+07-24 15:02:14.511  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gqg is unavailable
+07-24 15:02:14.511  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module lwj is unavailable
+07-24 15:02:14.512  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gql is unavailable
+07-24 15:02:14.512  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module miz is unavailable
+07-24 15:02:14.515  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fqs is unavailable
+07-24 15:02:14.515  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IUniversalMediaExtension is unavailable
+07-24 15:02:14.516  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module eqq is unavailable
+07-24 15:02:14.517  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module equ is unavailable
+07-24 15:02:14.518  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dgy is unavailable
+07-24 15:02:14.518  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gpc is unavailable
+07-24 15:02:14.519  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module die is unavailable
+07-24 15:02:14.519  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module dip is unavailable
+07-24 15:02:14.519  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module gpz is unavailable
+07-24 15:02:14.520  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ITranslateUIExtension is unavailable
+07-24 15:02:14.521  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ghc is unavailable
+07-24 15:02:14.522  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module fvv is unavailable
+07-24 15:02:14.522  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module eho is unavailable
+07-24 15:02:14.522  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IStickerExtension is unavailable
+07-24 15:02:14.523  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IGifKeyboardExtension is unavailable
+07-24 15:02:14.525  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module frk is unavailable
+07-24 15:02:14.525  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module frn is unavailable
+07-24 15:02:14.525  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module ktp is unavailable
+07-24 15:02:14.526  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=0, callback=fjq@7342498, lastModifier=0, keyCodes=[57, 57], actions=[1, 0]}
+07-24 15:02:14.526  1478  1478 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=0, callback=fjq@7f9a757, lastModifier=0, keyCodes=[58, 58], actions=[1, 0]}
+07-24 15:02:14.526  1478  1478 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():537 Destroy existing keyboard group manager in fso
+07-24 15:02:14.526  1478  1478 I ModuleManager: ModuleManager$ModuleInitListener.maybeUnloadModuleOnUnavailable():1350 module IEmojiSearchExtension is unavailable
+07-24 15:02:14.528  1478  1478 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, khz->lhf, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ilk->lhf, ilk->lhf, ilk->lhf, ilk->lhf, ilk->lhf, ilk->lhf, ilk->lhf, ilk->lhf, ilk->lhf, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy, ldz->ldy] takes 43ms
+07-24 15:02:14.530  1478  1478 I GoogleInputMethodService: GoogleInputMethodService.onDestroy():955 Maybe update OEM display config because of service destruction
+07-24 15:02:14.530  1478  1478 I DeviceModeModule: DeviceModeModule.calculateAndNotify():196 Window metrics is not available, fallback to app context.
+07-24 15:02:14.530  1478  1478 I DeviceModeModule: DeviceModeModule.calculateAndNotify():223 Device mode 'phone' from display metrics 'DisplayMetrics{density=0.0, width=1280, height=2856, scaledDensity=0.0, xdpi=480.0, ydpi=480.0}' or smallestScreenWidthDp: 427
+07-24 15:02:14.531  1478  1478 I GoogleInputMethodService: GoogleInputMethodService.clearInputMethodServiceData():1016 clearInputMethodServiceData for onDestroy
+07-24 15:02:14.531  1478  1478 I GoogleInputMethodService: GoogleInputMethodService.discardAllKeyboardViewAndInputView():1181 discardAllKeyboardViewAndInputView()
+07-24 15:02:14.532  1478  1478 I InputMethodEntryManager: InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():545 notifyCurrentInputMethodEntryOnContextChanged()
+07-24 15:02:14.532  1478  1478 I InputMethodEntryManager: InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():566 Notify current input method entry changed on context change
+07-24 15:02:14.533  1478  1478 I KeyboardThemeProvider: KeyboardThemeProvider.reset():39 Reset keyboard theme
+07-24 15:02:14.533  1478  1478 I KeyboardContextProvider: KeyboardContextProvider.setBaseContextAndInvalidKeyboardContextCache():88 setBaseContextAndInvalidKeyboardContextCache(): null
+--------- beginning of system
+07-24 15:02:14.534   749   777 W WindowManager: Cannot find window which accessibility connection is added to
+07-24 15:02:14.534   749   777 W WindowManager: Failed looking up window session=Session{5f0dcc6 1478:u0a10158} callers=com.android.server.wm.WindowManagerService.removeClientToken:2135 com.android.server.wm.Session.remove:270 android.view.IWindowSession$Stub.onTransact:696 
+07-24 15:02:14.537  1478  1478 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@21204ad
+07-24 15:02:14.538  1478  1478 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():555 KeyboardGroupManager destroyed in eay.
+07-24 15:02:14.538  1478  1478 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():555 KeyboardGroupManager destroyed in fve.
+07-24 15:02:14.538  1478  1478 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():555 KeyboardGroupManager destroyed in fso.
+07-24 15:02:14.547  1478  1478 I AppBase : AppBase.onTrimMemory():415 onTrimMemory(): 40
+07-24 15:02:14.547  1478  1478 I KeyboardDefCache: MemoryFileCache$1.onTrimMemory():126 clearMemory() for trim memory: 40
+07-24 15:02:14.547  1478  1478 I KeyboardDefCache: MemoryFileCache.clearMemory():410 evictAll()
+07-24 15:02:14.637 16127 16127 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:14.724 16135 16135 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:14.847   749  1956 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 85
+07-24 15:02:15.058 16172 16172 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+07-24 15:02:15.072 15204 15204 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~-zfTy5HCq6rZs60c5MUEKQ==/com.simplemobiletools.calendar-1-xGYJLNfM0gJEZF3zIzZw==/oat/x86_64/base.odex) is kOatUpToDate with filter 'verify' executable 'false'
+07-24 15:02:15.117 16177 16177 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:15.159 16180 16180 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:15.198 16184 16184 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:15.239 16187 16187 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:15.270   749  1976 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:15.270   749  1976 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:15.347 16190 16190 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:15.347 16190 16190 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:15.347 16190 16190 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:15.359   552   589 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:15.359   552   589 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:15.345     0     0 I servicemanager: Caller(pid=16190,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:15.347     0     0 I servicemanager: Caller(pid=16190,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:15.349     0     0 I servicemanager: Caller(pid=16190,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:15.408  1563  1825 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:15.483   749  1956 W ProcessStats: Tracking association SourceState{bc993c6 com.google.android.gms.persistent/10146 ImpBg #7330} whose proc state 6 is better than process ProcessState{669bd84 com.google.android.gms/10146 pkg=com.google.android.gms} proc state 14 (2 skipped)
+07-24 15:02:15.496  1396 15088 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 13252 [CONTEXT service_id=218 ]
+07-24 15:02:15.504  2035 16195 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+07-24 15:02:15.507  1396 16044 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 61 uptime_millis: 61 exec_start_elapsed_seconds: 13252 [CONTEXT service_id=218 ]
+07-24 15:02:15.615   749   777 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:15.616   749   777 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:15.617   749  1956 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:15.622   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:15.622  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:15.627  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:15.709  1563  2333 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:15.712  1563  2333 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:15.712  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8914 [CONTEXT service_id=218 ]
+07-24 15:02:15.822 16205 16205 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:15.912 16213 16213 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:16.037   749   777 I ActivityManager: Force stopping com.simplemobiletools.calendar appid=10219 user=0: from pid 16222
+07-24 15:02:16.039   749   777 I ActivityManager: Killing 15901:com.simplemobiletools.calendar/u0a219 (adj 0): stop com.simplemobiletools.calendar due to from pid 16222
+07-24 15:02:16.041   749   777 W ActivityTaskManager: Force removing ActivityRecord{172110616 u0 com.simplemobiletools.calendar/.activities.MainActivity t49 f}}: app died, no saved state
+07-24 15:02:16.048   552   589 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:16.053   749   873 W InputDispatcher: channel 'eeec9fd PopupWindow:d35aaef' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-24 15:02:16.053   749   873 E InputDispatcher: channel 'eeec9fd PopupWindow:d35aaef' ~ Channel is unrecoverably broken and will be disposed!
+07-24 15:02:16.054   749   873 I WindowManager: WINDOW DIED Window{eeec9fd u0 PopupWindow:d35aaef}
+07-24 15:02:16.055   749   873 W InputDispatcher: channel 'b7b6606 com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.MainActivity' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-24 15:02:16.055   749   873 E InputDispatcher: channel 'b7b6606 com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.MainActivity' ~ Channel is unrecoverably broken and will be disposed!
+07-24 15:02:16.055   749   873 I WindowManager: WINDOW DIED Window{b7b6606 u0 com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.MainActivity}
+07-24 15:02:16.056   749  1976 I AppWidgetServiceImpl: startListening() 0
+07-24 15:02:16.056   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.057   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.057   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.057   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.057   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.059   491   491 I Zygote  : Process 15901 exited due to signal 9 (Killed)
+07-24 15:02:16.059   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.059   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.059   488   556 I netd    : tetherGetStats() -> {[]} <2.59ms>
+07-24 15:02:16.059   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.060   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.060   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.060   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.060   749   776 I ImeTracker: com.simplemobiletools.calendar:d06d6e19: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+07-24 15:02:16.061   749  1955 I WindowManager: WIN DEATH: Window{eeec9fd u0 PopupWindow:d35aaef EXITING}
+07-24 15:02:16.061   749   776 I ImeTracker: com.simplemobiletools.calendar:d06d6e19: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-24 15:02:16.061   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.062   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.062   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.062   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.063   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.063   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.063   749  1955 I WindowManager: WIN DEATH: Window{b7b6606 u0 com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.MainActivity EXITING}
+07-24 15:02:16.063   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.063   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.063   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.063   552   552 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:16.063   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.063   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.064   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.065   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.065   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.065   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.065   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.065   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.065   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.066   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.066   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.066   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.066   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.066   749   777 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:16.070   749   777 I AppsFilter: interaction: PackageSetting{b41e741 com.android.microdroid.empty_payload/10204} -> PackageSetting{b27725f com.simplemobiletools.calendar/10219} BLOCKED
+07-24 15:02:16.073   749   796 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10219/pid_15901
+07-24 15:02:16.079   749   788 W ActivityManager: setHasOverlayUi called on unknown pid: 15901
+07-24 15:02:16.084   749   789 W ActivityTaskManager: Unable to send transaction to client proc com.simplemobiletools.calendar: no app thread
+07-24 15:02:16.084   749   789 W ActivityTaskManager: Unable to send transaction to client proc com.simplemobiletools.calendar: no app thread
+07-24 15:02:16.088  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:16.089  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:16.089  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:16.089  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:16.089  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:16.091  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-24 15:02:16.097   749   951 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_RESTARTED on user 0
+07-24 15:02:16.105   749   951 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10219 package com.simplemobiletools.calendar isStopped true
+07-24 15:02:16.106   749   951 I AppWidgetServiceImpl: cancelBroadcastsLocked() for Provider{ProviderId{user:0, app:10219, cmp:ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.helpers.MyWidgetMonthlyProvider}}}
+07-24 15:02:16.106   749   951 I AppWidgetServiceImpl: cancelBroadcastsLocked() for Provider{ProviderId{user:0, app:10219, cmp:ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.helpers.MyWidgetListProvider}}}
+07-24 15:02:16.112 11685 11685 I NotificationListener: Handling notification state refresh for com.android.systemui#0
+07-24 15:02:16.113 11685 11685 I NotificationListener: Handling notification state refresh for android#0
+07-24 15:02:16.124 11685 11685 I s.nexuslauncher: AssetManager2(0x71152663f878) locale list changing from [] to [en-US]
+07-24 15:02:16.128 11685 11685 I SsBaseTemplateCard: Secondary card pane is null
+07-24 15:02:16.135 11685 11705 I s.nexuslauncher: AssetManager2(0x71152661fe38) locale list changing from [] to [en-US]
+07-24 15:02:16.153 12071 12088 W Looper  : Slow dispatch took 30ms wmshell.main app=com.android.systemui main=false group=FOREGROUND h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda0@fa0f143 m=0
+07-24 15:02:16.155   749   786 E IPCThreadState: Binder transaction failure. id: 2292642, BR_*: 29189, error: -22 (Invalid argument)
+07-24 15:02:16.155   749   786 W ActivityManager: pid 749 system sent binder code 9 with flags 1 to frozen apps and got error -32
+07-24 15:02:16.138     0     0 I binder  : 786:749 cannot find target node
+07-24 15:02:16.139     0     0 I binder  : 749:786 transaction async to 0:0 failed 2292642/29189/-22, size 80-0 line 3348
+07-24 15:02:16.158   749   786 E IPCThreadState: Binder transaction failure. id: 2292652, BR_*: 29189, error: -22 (Invalid argument)
+07-24 15:02:16.158   749   786 W ActivityManager: pid 749 system sent binder code 9 with flags 1 to frozen apps and got error -32
+07-24 15:02:16.141     0     0 I binder  : 786:749 cannot find target node
+07-24 15:02:16.142     0     0 I binder  : 749:786 transaction async to 0:0 failed 2292652/29189/-22, size 80-0 line 3348
+07-24 15:02:16.163   552   552 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:16.165   749   786 W ActivityTaskManager: callingPackage for (uid=-1, pid=0) has no WPC
+07-24 15:02:16.165   749   786 W ActivityStartInterceptor: Starting home with component specified, uid=0
+07-24 15:02:16.168   749   786 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+07-24 15:02:16.168   749   786 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+07-24 15:02:16.168   749   786 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+07-24 15:02:16.169   749   786 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+07-24 15:02:16.169 12071 12071 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+07-24 15:02:16.172   749   786 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=3
+07-24 15:02:16.175   749   881 I ImeTracker: com.google.android.apps.nexuslauncher:7aec3a90: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-24 15:02:16.177 11685 11685 W SplitSelectStateCtor: Missing session instanceIds
+07-24 15:02:16.178 11685 11685 I ImeTracker: com.google.android.apps.nexuslauncher:7aec3a90: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+07-24 15:02:16.184   552   668 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:16.184 11685 11685 I NotificationListener: Handling notification state refresh for com.android.systemui#0
+07-24 15:02:16.185 11685 11685 I NotificationListener: Handling notification state refresh for android#0
+07-24 15:02:16.185  1592  2066 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-24 15:02:16.185  1592  2066 I AiAiEcho: EchoTargets: 
+07-24 15:02:16.185  1592  2066 I AiAiEcho: Filtered by AiAi flag check: 
+07-24 15:02:16.185  1592  2066 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-24 15:02:16.185  1592  2066 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-24 15:02:16.186  1592  2066 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-24 15:02:16.199 11685 11685 I SsBaseTemplateCard: Secondary card pane is null
+07-24 15:02:16.273   749  1942 I ImeTracker: system_server:3980046b: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+07-24 15:02:16.273   749   788 I ImeTracker: system_server:3980046b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-24 15:02:16.297   749   789 W ActivityTaskManager: Unable to send transaction to client proc com.simplemobiletools.calendar: no app thread
+07-24 15:02:16.624   749   788 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+07-24 15:02:17.082   749   788 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+07-24 15:02:17.133   749   776 W ActivityManager: pid 749 system sent binder code 7 with flags 1 to frozen apps and got error -32
+07-24 15:02:17.133   749   776 W WindowManager: Exception thrown during dispatchAppVisibility Window{eeec9fd u0 PopupWindow:d35aaef EXITING}
+07-24 15:02:17.133   749   776 W WindowManager: android.os.DeadObjectException
+07-24 15:02:17.133   749   776 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+07-24 15:02:17.133   749   776 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:592)
+07-24 15:02:17.133   749   776 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:557)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3151)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1311)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3138)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1311)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:389)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:6650)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5561)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1391)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:1029)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:496)
+07-24 15:02:17.133   749   776 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:261)
+07-24 15:02:17.133   749   776 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:223)
+07-24 15:02:17.133   749   776 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+07-24 15:02:17.133   749   776 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1365)
+07-24 15:02:17.134   749   776 W Process : Unable to open /proc/15901/status
+07-24 15:02:17.134   749   776 W ActivityManager: pid 749 system sent binder code 7 with flags 1 to frozen apps and got error -32
+07-24 15:02:17.134   749   776 W WindowManager: Exception thrown during dispatchAppVisibility Window{b7b6606 u0 com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.MainActivity EXITING}
+07-24 15:02:17.134   749   776 W WindowManager: android.os.DeadObjectException
+07-24 15:02:17.134   749   776 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+07-24 15:02:17.134   749   776 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:592)
+07-24 15:02:17.134   749   776 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:557)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3151)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1311)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:389)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:6650)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5561)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1391)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:1029)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:496)
+07-24 15:02:17.134   749   776 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:261)
+07-24 15:02:17.134   749   776 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:223)
+07-24 15:02:17.134   749   776 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+07-24 15:02:17.134   749   776 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1365)
+07-24 15:02:17.134   749   776 W Process : Unable to open /proc/15901/status
+07-24 15:02:17.137  1563  5563 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:02:17.138  1563  5563 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@b1438c6[Not completed, 1 dependents]. Future map: {3467f515-b984-4418-ac8e-8d8b0b09a356=java.util.concurrent.CompletableFuture@b1438c6[Not completed, 1 dependents]}
+07-24 15:02:17.142  1563  5563 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:17.145  1563  5563 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102567, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:17.145  1563  5563 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:17.150  1563  5563 E PickerDbFacade: Could not get first date taken millis for media id: 8914
+07-24 15:02:17.150  1563  5563 W PickerDbFacade: Unable to promote cloud media with localId: 8914
+07-24 15:02:17.153  1563  5563 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102567, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:17.153  1563  5563 I PickerSyncTracker: Marked sync future complete for work id: 3467f515-b984-4418-ac8e-8d8b0b09a356. Future map: {}
+07-24 15:02:17.153  1563  5563 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:02:17.154  1563  1821 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=3467f515-b984-4418-ac8e-8d8b0b09a356, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:02:17.180   552   552 E BpTransactionCompletedListener: Failed to transact (-32)
+07-24 15:02:17.180   552   552 E BpTransactionCompletedListener: Failed to transact (-32)
+07-24 15:02:17.189 16250 16250 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:17.234 16254 16254 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:17.276 16257 16257 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:17.317 16260 16260 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:17.425 16263 16263 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:17.425 16263 16263 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:17.425 16263 16263 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:17.440   552  1007 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:17.440   552  1007 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:17.428     0     0 I servicemanager: Caller(pid=16263,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:17.430     0     0 I servicemanager: Caller(pid=16263,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:17.432     0     0 I servicemanager: Caller(pid=16263,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:17.492  1563  2333 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:17.888   494 16148 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: File descriptor in bad state' (-1)
+07-24 15:02:17.888   494 16148 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-24 15:02:18.077   749  1119 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:18.079   749  1119 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:18.081   749  1942 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:18.088   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:18.089  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:18.110  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:18.195  1563  1826 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:18.198  1563  1826 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:18.199  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8915 [CONTEXT service_id=218 ]
+07-24 15:02:18.245 16275 16275 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:18.342 16283 16283 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:18.480 16290 16290 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:18.526 16293 16293 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:18.570 16296 16296 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:18.611 16299 16299 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:18.743 16302 16302 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:18.744 16302 16302 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:18.744 16302 16302 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:18.758   552  1007 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:18.758   552  1007 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:18.745     0     0 I servicemanager: Caller(pid=16302,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:18.747     0     0 I servicemanager: Caller(pid=16302,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:18.748     0     0 I servicemanager: Caller(pid=16302,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:18.808  1563  1826 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:19.479   749  1119 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:19.481   749  1119 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:19.483   749  1956 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:19.490   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:19.492  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:19.502  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:19.612  1563  1826 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:19.614  1563  1826 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:19.618  1563  5692 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:02:19.618  1563  5692 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@e6cfd02[Not completed, 1 dependents]. Future map: {93826f42-0dce-402c-ae65-78dbde64f247=java.util.concurrent.CompletableFuture@e6cfd02[Not completed, 1 dependents]}
+07-24 15:02:19.621  1563  5692 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:19.624  1563  5692 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102579, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:19.624  1563  5692 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:19.627  1563  5692 E PickerDbFacade: Could not get first date taken millis for media id: 8915
+07-24 15:02:19.627  1563  5692 W PickerDbFacade: Unable to promote cloud media with localId: 8915
+07-24 15:02:19.627  1563  5692 W PickerDbFacade: Unable to promote cloud media with localId: 8916
+07-24 15:02:19.629  1563  5692 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102579, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:19.629  1563  5692 I PickerSyncTracker: Marked sync future complete for work id: 93826f42-0dce-402c-ae65-78dbde64f247. Future map: {}
+07-24 15:02:19.629  1563  5692 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:02:19.630  1563  1821 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=93826f42-0dce-402c-ae65-78dbde64f247, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:02:19.659 16314 16314 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:19.757 16322 16322 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:20.040  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:02:20.142   749  1650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-24 15:02:22.909 16335 16335 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:22.954 16338 16338 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:23.005 16341 16341 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:23.047 16346 16346 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:23.158 16349 16349 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:23.159 16349 16349 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:23.159 16349 16349 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:23.169   552  1007 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:23.169   552  1007 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:23.156     0     0 I servicemanager: Caller(pid=16349,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:23.158     0     0 I servicemanager: Caller(pid=16349,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:23.160     0     0 I servicemanager: Caller(pid=16349,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:23.218  1563  1826 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:23.249   749   772 I system_server: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 145(3296KB) LOS objects, 40% free, 34MB/58MB, paused 1.711ms,2.020ms total 193.086ms
+07-24 15:02:23.253  1592  1592 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {65a6c0fc-57d2-48a8-8742-522bcd0bbf67}
+07-24 15:02:23.820   749  1954 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:23.821   749  1954 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:23.822   749  1942 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:23.827   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:23.829  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:23.838  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:23.930  1563  2333 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:23.932  1563  2333 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:23.934  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8917 [CONTEXT service_id=218 ]
+07-24 15:02:23.973 16360 16360 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:24.066 16368 16368 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:24.073   749  1954 I system_server: AssetManager2(0x711526658558) locale list changing from [] to [en-US]
+07-24 15:02:24.193   749  1954 W ActivityTaskManager: callingPackage for (uid=2000, pid=16379) has no WPC
+07-24 15:02:24.195   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+07-24 15:02:24.195   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+07-24 15:02:24.195   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+07-24 15:02:24.195   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+07-24 15:02:24.199   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+07-24 15:02:24.200   552   668 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:24.202   749  1954 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 xflg=0x4 cmp=com.simplemobiletools.calendar/.activities.SplashActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+07-24 15:02:24.205 11685 11685 W SplitSelectStateCtor: Missing session instanceIds
+07-24 15:02:24.208   749  1942 I AppsFilter: interaction: PackageSetting{b41e741 com.android.microdroid.empty_payload/10204} -> PackageSetting{9487aa8 com.simplemobiletools.calendar/10219} BLOCKED
+07-24 15:02:24.210   644   725 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.210   644   725 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.214   749   951 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+07-24 15:02:24.214   749   951 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10219 package com.simplemobiletools.calendar isStopped false
+07-24 15:02:24.215   552   552 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:24.222   749   882 I system_server: AssetManager2(0x711526654d18) locale list changing from [] to [en-US]
+07-24 15:02:24.229   749   882 I system_server: AssetManager2(0x7115266575b8) locale list changing from [] to [en-US]
+07-24 15:02:24.231   488   556 I netd    : tetherGetStats() -> {[]} <2.39ms>
+07-24 15:02:24.236   749   882 I system_server: AssetManager2(0x711526652478) locale list changing from [] to [en-US]
+07-24 15:02:24.244   749   795 I ActivityManager: Start proc 16382:com.simplemobiletools.calendar/u0a219 for next-top-activity {com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity}
+07-24 15:02:24.244   749   795 I ActivityManager: ProcessObserver broadcast disabled
+07-24 15:02:24.249 16382 16382 I etools.calendar: Using CollectorTypeCMC GC.
+07-24 15:02:24.250 16382 16382 W etools.calendar: Unexpected CPU variant for x86: x86_64.
+07-24 15:02:24.250 16382 16382 W etools.calendar: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+07-24 15:02:24.257 16382 16382 E etools.calendar: Not starting debugger since process cannot load the jdwp agent.
+07-24 15:02:24.277 16382 16382 I etools.calendar: AssetManager2(0x71152660fad8) locale list changing from [] to [en-US]
+07-24 15:02:24.285 16382 16382 I MultiDex: VM with version 2.1.0 has multidex support
+07-24 15:02:24.285 16382 16382 I MultiDex: Installing application
+07-24 15:02:24.285 16382 16382 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-24 15:02:24.290   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+07-24 15:02:24.293   749  1954 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:0 completeLatency:25 dispatchRealLatency:0 completeRealLatency:25 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+07-24 15:02:24.294 16382 16397 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+07-24 15:02:24.295 16382 16398 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+07-24 15:02:24.296 16382 16382 I etools.calendar: AssetManager2(0x711526615ed8) locale list changing from [] to [en-US]
+07-24 15:02:24.307   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+07-24 15:02:24.307   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+07-24 15:02:24.307   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+07-24 15:02:24.307   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+07-24 15:02:24.310   749  1954 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+07-24 15:02:24.312   552   667 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:24.314   749  1954 I ActivityTaskManager: START u0 {xflg=0x4 cmp=com.simplemobiletools.calendar/.activities.MainActivity} with LAUNCH_SINGLE_TASK from uid 10219 (sr=155822767) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+07-24 15:02:24.321 16382 16398 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+07-24 15:02:24.321 16382 16398 I EGL_emulation: Opening libGLESv2_emulation.so
+07-24 15:02:24.326   749  1956 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+07-24 15:02:24.326 16382 16398 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-24 15:02:24.326 16382 16398 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+07-24 15:02:24.338 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:24.341 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:24.349   749  1956 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_IGNORE_REQUESTED_ORIENTATION
+07-24 15:02:24.349   749  1956 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED
+07-24 15:02:24.360   749  1956 I AppWidgetServiceImpl: getAppWidgetIds() 0
+07-24 15:02:24.360   749  1942 I AppWidgetServiceImpl: getInstalledProvidersForProfiles() 0
+07-24 15:02:24.360   749  1954 I AppWidgetServiceImpl: getAppWidgetIds() 0
+07-24 15:02:24.362   749  1942 I AppWidgetServiceImpl: notifyProviderInheritance() 0
+07-24 15:02:24.365 16382 16382 W HWUI    : Unknown dataspace 0
+07-24 15:02:24.350     0     0 I servicemanager: Caller(pid=16382,uid=10219,sid=u:r:untrusted_app_27:s0:c512,c768) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:24.353     0     0 I servicemanager: Caller(pid=16382,uid=10219,sid=u:r:untrusted_app_27:s0:c512,c768) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:24.355     0     0 I servicemanager: Caller(pid=16382,uid=10219,sid=u:r:untrusted_app_27:s0:c512,c768) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:24.408 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:24.409 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:24.431   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.475   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.475   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.475   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.504   749   785 I ActivityTaskManager: Displayed com.simplemobiletools.calendar/.activities.MainActivity for user 0: +308ms
+07-24 15:02:24.508   749  1956 W Bundle  : Key android.app.default_searchable expected String but value was a java.lang.Integer.  The default value <null> was returned.
+07-24 15:02:24.508   749  1956 W Bundle  : Attempt to cast generated internal exception:
+07-24 15:02:24.508   749  1956 W Bundle  : java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+07-24 15:02:24.508   749  1956 W Bundle  : 	at android.os.BaseBundle.getString(BaseBundle.java:1448)
+07-24 15:02:24.508   749  1956 W Bundle  : 	at com.android.server.search.Searchables.getSearchableInfo(Searchables.java:165)
+07-24 15:02:24.508   749  1956 W Bundle  : 	at com.android.server.search.SearchManagerService.getSearchableInfo(SearchManagerService.java:309)
+07-24 15:02:24.508   749  1956 W Bundle  : 	at android.app.ISearchManager$Stub.onTransact(ISearchManager.java:129)
+07-24 15:02:24.508   749  1956 W Bundle  : 	at android.os.Binder.execTransactInternal(Binder.java:1421)
+07-24 15:02:24.508   749  1956 W Bundle  : 	at android.os.Binder.execTransact(Binder.java:1365)
+07-24 15:02:24.511 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:24.511 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:24.589   749   881 I ImeTracker: com.simplemobiletools.calendar:9e90104e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-24 15:02:24.593 16382 16382 I ImeTracker: com.simplemobiletools.calendar:9e90104e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+07-24 15:02:24.598   749  1942 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+07-24 15:02:24.620   749  1954 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.622 11685 11691 W System  : A resource failed to call release. 
+07-24 15:02:24.622 11685 11691 W System  : A resource failed to call release. 
+07-24 15:02:24.622 11685 11691 W System  : A resource failed to call release. 
+07-24 15:02:24.726   749   749 W AccessibilityManagerService:  wait for adding window timeout: 77
+07-24 15:02:24.949   644  2077 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.950   644  2077 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:24.951 12071 12095 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@62e05a1
+07-24 15:02:25.247 16425 16425 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:25.272   749  1119 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:25.272   749  1119 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:25.294 16429 16429 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:25.337 16432 16432 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:25.352  1563  5822 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:02:25.352  1563  5822 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@35f9226[Not completed, 1 dependents]. Future map: {2944f83d-bd9d-4f17-8fd3-0758023c2de0=java.util.concurrent.CompletableFuture@35f9226[Not completed, 1 dependents]}
+07-24 15:02:25.356  1563  5822 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:25.359  1563  5822 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102600, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:25.360  1563  5822 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:25.361  1563  5822 E PickerDbFacade: Could not get first date taken millis for media id: 8917
+07-24 15:02:25.362  1563  5822 W PickerDbFacade: Unable to promote cloud media with localId: 8917
+07-24 15:02:25.364  1563  5822 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102600, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:25.365  1563  5822 I PickerSyncTracker: Marked sync future complete for work id: 2944f83d-bd9d-4f17-8fd3-0758023c2de0. Future map: {}
+07-24 15:02:25.365  1563  5822 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:02:25.366  1563  1828 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=2944f83d-bd9d-4f17-8fd3-0758023c2de0, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:02:25.379 16436 16436 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:25.486 16439 16439 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:25.486 16439 16439 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:25.486 16439 16439 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:25.499   552   589 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:25.500   552   589 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:25.486     0     0 I servicemanager: Caller(pid=16439,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:25.488     0     0 I servicemanager: Caller(pid=16439,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:25.490     0     0 I servicemanager: Caller(pid=16439,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:25.553  1563  2216 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:25.596   749   776 I ImeTracker: system_server:447fcfb4: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+07-24 15:02:25.603   749   788 I ImeTracker: system_server:447fcfb4: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-24 15:02:25.718   749  1956 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:25.719   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:25.720   749  1956 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:25.722   749   776 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:25.728   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:25.730  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:25.742  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:25.830  1563  1825 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:25.838  1563  1825 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:25.891 16452 16452 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:25.991 16460 16460 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:26.010   488   556 I netd    : tetherGetStats() -> {[]} <1.38ms>
+07-24 15:02:26.011   488   556 I netd    : bandwidthSetGlobalAlert(2097152) <0.19ms>
+07-24 15:02:26.014   488   556 I netd    : bandwidthRemoveInterfaceQuota(eth0) <0.82ms>
+07-24 15:02:26.015   488   556 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <0.75ms>
+07-24 15:02:26.118 16467 16467 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:26.211 16470 16470 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:26.255 16475 16475 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:26.295 16478 16478 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:26.411 16481 16481 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:26.412 16481 16481 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:26.412 16481 16481 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:26.421   552   589 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:26.421   552   589 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:26.408     0     0 I servicemanager: Caller(pid=16481,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:26.410     0     0 I servicemanager: Caller(pid=16481,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:26.412     0     0 I servicemanager: Caller(pid=16481,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:26.469  1563  1825 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:26.630   749  1942 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:26.632   749  1942 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:26.635   749   776 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:26.642   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:26.644  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:26.651  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:26.738  1563  1826 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:26.739  1563  1826 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:26.741  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8919 [CONTEXT service_id=218 ]
+07-24 15:02:26.789 16491 16491 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:26.876 16499 16499 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:27.248  1563  5893 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:02:27.248  1563  5893 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@bc6d0d6[Not completed, 1 dependents]. Future map: {04b8a2eb-2728-4b8f-b6f4-d9825fe8539d=java.util.concurrent.CompletableFuture@bc6d0d6[Not completed, 1 dependents]}
+07-24 15:02:27.251  1563  5893 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:27.254  1563  5893 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102612, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:27.254  1563  5893 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:27.256  1563  5893 E PickerDbFacade: Could not get first date taken millis for media id: 8918
+07-24 15:02:27.256  1563  5893 W PickerDbFacade: Unable to promote cloud media with localId: 8918
+07-24 15:02:27.256  1563  5893 W PickerDbFacade: Unable to promote cloud media with localId: 8919
+07-24 15:02:27.259  1563  5893 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102612, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:27.259  1563  5893 I PickerSyncTracker: Marked sync future complete for work id: 04b8a2eb-2728-4b8f-b6f4-d9825fe8539d. Future map: {}
+07-24 15:02:27.259  1563  5893 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:02:27.260  1563  1737 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=04b8a2eb-2728-4b8f-b6f4-d9825fe8539d, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:02:27.975  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:02:28.204   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:28.208   749  1650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-24 15:02:29.626   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:33.945   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:35.272   749   776 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:35.272   749   776 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:35.453   749   776 W ProcessStats: Tracking association SourceState{7e2b0c9 com.google.android.gms/10146 ImpBg #7400} whose proc state 6 is better than process ProcessState{d935b61 com.google.android.gms.unstable/10146 pkg=com.google.android.gms} proc state 14 (6 skipped)
+07-24 15:02:35.454  1396 16044 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 13272 [CONTEXT service_id=218 ]
+07-24 15:02:35.460  1396 16197 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 21 uptime_millis: 21 exec_start_elapsed_seconds: 13272 [CONTEXT service_id=218 ]
+07-24 15:02:35.847   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:35.912  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:02:36.747   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:42.771 16539 16539 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:42.812 16542 16542 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:42.852 16545 16545 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:42.892 16548 16548 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:43.002 16551 16551 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:43.002 16551 16551 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:43.003 16551 16551 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:43.014   552   589 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:43.014   552   589 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:43.002     0     0 I servicemanager: Caller(pid=16551,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:43.004     0     0 I servicemanager: Caller(pid=16551,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:43.005     0     0 I servicemanager: Caller(pid=16551,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:43.062  1563  1826 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:43.218   749   776 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:43.221   749   776 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:43.224   749  1942 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:43.232   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:43.234  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:43.246  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:43.329  1563  2216 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:43.331  1563  2216 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:43.333  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8920 [CONTEXT service_id=218 ]
+07-24 15:02:43.378 16563 16563 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:43.470 16571 16571 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:43.587 16578 16578 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:43.674 16586 16586 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:43.786 16593 16593 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:43.813   749   919 I WifiScanningService: Registering listener= com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@fc51dda uid=1000 packageName=null workSource=WorkSource{1000}
+07-24 15:02:43.813   749   919 I WifiScanningService: start scan: ClientInfo[uid=1000, package=null, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@fc51dda] package null AttributionTag null
+07-24 15:02:43.814   749   919 I WifiScanningService: addSingleScanRequest: ClientInfo[uid=1000, package=null, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@fc51dda],WorkSource{1010}, ScanSettings {  type:HIGH ACCURACY band:unspecified ignoreLocationSettings:false period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 rnrSetting:2 6GhzPscOnlyEnabled:false channels:[ 2447  ]  } 
+07-24 15:02:43.873 16601 16601 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:43.881   749   919 I WifiScanningService: singleScanResults: ClientInfo[uid=1000, package=null, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@fc51dda],results=1
+07-24 15:02:43.881   749   919 I WifiScanningService: singleScanResults listener: ClientInfo[uid=1000, package=android, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@6cf4ce9],results=1
+07-24 15:02:43.881  1396  1422 I WifiScanner: onFullResults
+07-24 15:02:43.881   749   919 I WifiScanningService: singleScanResults listener: ClientInfo[uid=1000, package=android, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@8201a2b],results=1
+07-24 15:02:43.882   749   919 I WifiScanningService: singleScanResults listener: ClientInfo[uid=1000, package=android, attributionTag=null, com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@4cf6cd6],results=1
+07-24 15:02:43.882   749   919 I WifiScanningService: singleScanResults listener: ClientInfo[uid=10146, package=com.google.android.gms, attributionTag=network_location_provider, android.net.wifi.IWifiScannerListener$Stub$Proxy@415b6f3],results=1
+07-24 15:02:43.882   749   919 I WifiScanningService: Unregistering listener= com.android.server.wifi.scanner.WifiScannerInternal$ScanListener@fc51dda uid=1000 packageName=null workSource=WorkSource{1000}
+07-24 15:02:43.884   749   915 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+07-24 15:02:43.986 16609 16609 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:44.072 16617 16617 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:44.437   749  1119 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 85
+07-24 15:02:44.441   749   776 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+07-24 15:02:44.441   749   776 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+07-24 15:02:44.441   749   776 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+07-24 15:02:44.442   749   776 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+07-24 15:02:44.444   749   776 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+07-24 15:02:44.449   749   776 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x4 cmp=com.simplemobiletools.calendar/.activities.EventActivity (has extras)} with LAUNCH_MULTIPLE from uid 10219 (sr=174138188) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+07-24 15:02:44.449   552   589 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:44.456   749  1956 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+07-24 15:02:44.462   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.463   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.463   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.463   552   552 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:02:44.464   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.464   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.464   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.464   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.464   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.465   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.465   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.465   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.465   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.466   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.467   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.467   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.468   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.468   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.468   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.469   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.469   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.470   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.470   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.471   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.472   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.472   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.472   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.472   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.472   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.472   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.473   749   788 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:44.478 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.478 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.478 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.482 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.489 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.490 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.490 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.491 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.492 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.493 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.493 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.494 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.495 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.571   749   785 I ActivityTaskManager: Displayed com.simplemobiletools.calendar/.activities.EventActivity for user 0: +133ms
+07-24 15:02:44.574 16382 16382 W HWUI    : Image decoding logging dropped!
+07-24 15:02:44.588 16382 16382 I AssistStructure: Flattened final assist data: 4732 bytes, containing 1 windows, 26 views
+07-24 15:02:44.687   749   881 I ImeTracker: com.simplemobiletools.calendar:362debbb: onRequestShow at ORIGIN_SERVER reason SHOW_STATE_VISIBLE_FORWARD_NAV fromUser false
+07-24 15:02:44.691   749   777 I ImeTracker: com.simplemobiletools.calendar:362debbb: onFailed at PHASE_SERVER_UPDATE_CLIENT_VISIBILITY
+07-24 15:02:44.702  1396  1396 W Glide   : Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+07-24 15:02:44.726   749   749 W FillRequestEventLogger: Shouldn't be logging AutofillFillRequestReported again for same event
+07-24 15:02:44.726   749   749 W FillResponseEventLogger: Shouldn't be logging AutofillFillRequestReported again for same event
+07-24 15:02:44.726   749   749 W PresentationStatsEventLogger: Empty dataset. Autofill ignoring log
+07-24 15:02:44.732  1396  1422 I IPCThreadState: oneway function results for code 1 on binder at 0x71148664e130 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+07-24 15:02:44.755  1563  5970 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:02:44.756  1563  5970 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@56cddc[Not completed, 1 dependents]. Future map: {3a4247a2-aee3-4c2a-ab9b-65ca32661672=java.util.concurrent.CompletableFuture@56cddc[Not completed, 1 dependents]}
+07-24 15:02:44.760  1563  5970 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:44.767  1563  5970 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102633, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:44.767  1563  5970 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:44.770  1563  5970 E PickerDbFacade: Could not get first date taken millis for media id: 8920
+07-24 15:02:44.770  1563  5970 W PickerDbFacade: Unable to promote cloud media with localId: 8920
+07-24 15:02:44.772  1563  5970 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102633, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:44.772  1563  5970 I PickerSyncTracker: Marked sync future complete for work id: 3a4247a2-aee3-4c2a-ab9b-65ca32661672. Future map: {}
+07-24 15:02:44.772  1563  5970 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:02:44.773  1563  1821 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=3a4247a2-aee3-4c2a-ab9b-65ca32661672, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:02:44.862   749   777 I ImeTracker: system_server:62f1f1ad: onRequestShow at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+07-24 15:02:44.923 12415 12415 I ImeTracker: system_server:62f1f1ad: onFailed at PHASE_IME_ON_SHOW_SOFT_INPUT_TRUE
+07-24 15:02:45.132   749   788 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+07-24 15:02:45.271   749  1119 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:45.271   749  1119 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:45.471 16654 16654 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:45.509  2035 16659 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+07-24 15:02:45.511 16657 16657 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:45.552 16662 16662 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:45.592 16665 16665 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:45.701 16668 16668 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:45.702 16668 16668 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:45.702 16668 16668 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:45.715   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:45.715   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:45.701     0     0 I servicemanager: Caller(pid=16668,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:45.703     0     0 I servicemanager: Caller(pid=16668,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:45.705     0     0 I servicemanager: Caller(pid=16668,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:45.763  1563  2216 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:45.918   749   777 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:45.920   749   777 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:45.923   749  1119 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:45.930   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:45.931  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:45.940  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:46.029  1563  2333 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:46.031  1563  2333 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:46.033  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8921 [CONTEXT service_id=218 ]
+07-24 15:02:46.076 16678 16678 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:46.174 16686 16686 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:46.368 16695 16695 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:46.412 16698 16698 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:46.452 16701 16701 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:46.491 16704 16704 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:02:46.604 16707 16707 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:02:46.604 16707 16707 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:02:46.604 16707 16707 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:02:46.613   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:02:46.613   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:02:46.600     0     0 I servicemanager: Caller(pid=16707,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:46.602     0     0 I servicemanager: Caller(pid=16707,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:02:46.603     0     0 I servicemanager: Caller(pid=16707,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:02:46.658  1563  2333 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:02:46.823   749  1942 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:02:46.826   749  1942 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:02:46.828   749   777 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:02:46.835   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:02:46.836  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:46.845  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:02:46.929  1563  2333 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:02:46.931  1563  2333 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:02:46.932  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8922 [CONTEXT service_id=218 ]
+07-24 15:02:46.972 16717 16717 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:02:47.060 16725 16725 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:02:47.449  1563  6039 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:02:47.449  1563  6039 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@b57660c[Not completed, 1 dependents]. Future map: {db5a2b6b-5ad9-4b73-a4e2-aba1b610ded2=java.util.concurrent.CompletableFuture@b57660c[Not completed, 1 dependents]}
+07-24 15:02:47.454   749  1650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-24 15:02:47.455  1563  6039 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:47.458  1563  6039 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102645, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:47.458  1563  6039 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:02:47.461  1563  6039 E PickerDbFacade: Could not get first date taken millis for media id: 8921
+07-24 15:02:47.461  1563  6039 W PickerDbFacade: Unable to promote cloud media with localId: 8921
+07-24 15:02:47.462  1563  6039 W PickerDbFacade: Unable to promote cloud media with localId: 8922
+07-24 15:02:47.464  1563  6039 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102645, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:02:47.464  1563  6039 I PickerSyncTracker: Marked sync future complete for work id: db5a2b6b-5ad9-4b73-a4e2-aba1b610ded2. Future map: {}
+07-24 15:02:47.464  1563  6039 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:02:47.465  1563  1821 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=db5a2b6b-5ad9-4b73-a4e2-aba1b610ded2, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:02:47.480   494 16634 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: File descriptor in bad state' (-1)
+07-24 15:02:47.480   494 16634 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-24 15:02:49.739  1396  1415 I IPCThreadState: oneway function results for code 1 on binder at 0x7114866367f0 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+07-24 15:02:49.903   644   724 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:49.927   488   556 I netd    : tetherGetStats() -> {[]} <2.02ms>
+07-24 15:02:49.931  4210  4317 I mars::stn: [longlink_connect_monitor.cc:282, __IntervalConnect]:longlink_progress next connect interval: 604800000, process active state: false, process foreground: false
+07-24 15:02:49.951  4210  4317 I mars::stn: [longlink_connect_monitor.cc:118, __LongLinkStateToSystemLog]:longlink_progress longlink state: connecting time: 13286836
+07-24 15:02:49.956   488   556 I netd    : tetherGetStats() -> {[]} <0.51ms>
+07-24 15:02:49.965   644 11651 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:49.966   488   556 I netd    : bandwidthRemoveInterfaceQuota(eth0) <0.66ms>
+07-24 15:02:49.967   488   556 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <0.48ms>
+07-24 15:02:50.003  4210 16743 W libc    : Access denied finding property "net.dns1"
+07-24 15:02:50.003  4210 16743 W libc    : Access denied finding property "net.dns2"
+07-24 15:02:50.007   488 16745 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10215 0}
+07-24 15:02:50.008   488 16746 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:50.010   488 16747 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:50.012   488 16746 I resolv  : res_nsend: used send_dg 32 terrno: 0
+07-24 15:02:50.013   488 16746 I resolv  : doQuery: rcode=0, ancount=0, return value=32
+07-24 15:02:50.015   488 16747 I resolv  : res_nsend: used send_dg 48 terrno: 0
+07-24 15:02:50.016   488 16747 I resolv  : doQuery: rcode=0, ancount=1, return value=48
+07-24 15:02:50.016   488 16749 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:50.016   488 16749 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7403611c9a30
+07-24 15:02:50.016   488 16749 I resolv  : doQuery: rcode=0, ancount=1, return value=48
+07-24 15:02:50.017   488 16748 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:50.017   488 16748 I resolv  : res_nsend: used send_dg 32 terrno: 0
+07-24 15:02:50.017   488 16748 I resolv  : doQuery: rcode=0, ancount=0, return value=32
+07-24 15:02:50.027   749   804 I WifiService: isFeatureSupported uid=1000 returns [WIFI_FEATURE_INFRA, WIFI_FEATURE_P2P, WIFI_FEATURE_MOBILE_HOTSPOT, WIFI_FEATURE_WPA3_SAE, WIFI_FEATURE_WPA3_SUITE_B, WIFI_FEATURE_OWE, WIFI_FEATURE_DPP, WIFI_FEATURE_AP_RAND_MAC, WIFI_FEATURE_MBO, WIFI_FEATURE_FILS_SHA256, WIFI_FEATURE_FILS_SHA384, WIFI_FEATURE_SAE_PK, WIFI_FEATURE_DPP_ENROLLEE_RESPONDER, WIFI_FEATURE_PASSPOINT_TERMS_AND_CONDITIONS, WIFI_FEATURE_WFD_R2, WIFI_FEATURE_DECORATED_IDENTITY, WIFI_FEATURE_TRUST_ON_FIRST_USE, WIFI_FEATURE_SET_TLS_MINIMUM_VERSION, WIFI_FEATURE_TLS_V1_3, WIFI_FEATURE_WEP, WIFI_FEATURE_WPA_PERSONAL]
+07-24 15:02:50.088  3618  3645 I com.tencent.mm: Waiting for a blocking GC ProfileSaver
+07-24 15:02:50.146  4210  4216 W System  : A resource failed to call close. 
+07-24 15:02:50.146  4210  4216 W System  : A resource failed to call close. 
+07-24 15:02:50.147  4210  4216 W System  : A resource failed to call close. 
+07-24 15:02:50.148  4210  4216 W System  : A resource failed to call close. 
+07-24 15:02:50.148  4210  4216 W System  : A resource failed to call close. 
+07-24 15:02:50.150  3618  3626 W com.tencent.mm: Reducing the number of considered missed Gc histogram windows from 180 to 100
+07-24 15:02:50.151  3618  3645 I com.tencent.mm: WaitForGcToComplete blocked ProfileSaver on Background for 62.346ms
+07-24 15:02:50.154  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.155  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.155  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.156  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.156  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.157  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.157  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.158  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.158  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.158  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.159  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.160  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.160  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.161  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.161  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.162  3618  3628 W System  : A resource failed to call close. 
+07-24 15:02:50.663  4210 16755 W libc    : Access denied finding property "net.dns1"
+07-24 15:02:50.663  4210 16755 W libc    : Access denied finding property "net.dns2"
+07-24 15:02:50.665  4210 16756 W libc    : Access denied finding property "net.dns1"
+07-24 15:02:50.665  4210 16756 W libc    : Access denied finding property "net.dns2"
+07-24 15:02:50.667   488 16759 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10215 0}
+07-24 15:02:50.667   488 16760 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10215 0}
+07-24 15:02:50.667   488 16761 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:50.667   488 16762 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:50.667   488 16763 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:50.668   488 16764 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:50.668   488 16761 I resolv  : res_nsend: used send_dg 44 terrno: 0
+07-24 15:02:50.668   488 16762 I resolv  : res_nsend: used send_dg 38 terrno: 0
+07-24 15:02:50.668   488 16761 I resolv  : doQuery: rcode=0, ancount=0, return value=44
+07-24 15:02:50.668   488 16762 I resolv  : doQuery: rcode=0, ancount=0, return value=38
+07-24 15:02:50.671   488 16763 I resolv  : res_nsend: used send_dg 60 terrno: 0
+07-24 15:02:50.671   488 16763 I resolv  : doQuery: rcode=0, ancount=1, return value=60
+07-24 15:02:50.671   488 16764 I resolv  : res_nsend: used send_dg 54 terrno: 0
+07-24 15:02:50.671   488 16764 I resolv  : doQuery: rcode=0, ancount=1, return value=54
+07-24 15:02:50.671   488 16765 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:50.671   488 16766 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:50.671   488 16768 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:50.671   488 16766 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7401711cb5b0
+07-24 15:02:50.672   488 16767 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:50.672   488 16766 I resolv  : doQuery: rcode=0, ancount=1, return value=60
+07-24 15:02:50.672   488 16768 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7402011d4790
+07-24 15:02:50.672   488 16768 I resolv  : doQuery: rcode=0, ancount=1, return value=54
+07-24 15:02:50.672   488 16765 I resolv  : res_nsend: used send_dg 44 terrno: 0
+07-24 15:02:50.672   488 16765 I resolv  : doQuery: rcode=0, ancount=0, return value=44
+07-24 15:02:50.673   488 16767 I resolv  : res_nsend: used send_dg 38 terrno: 0
+07-24 15:02:50.673   488 16767 I resolv  : doQuery: rcode=0, ancount=0, return value=38
+07-24 15:02:50.676  4210 16740 W libc    : Access denied finding property "net.dns1"
+07-24 15:02:50.676  4210 16740 W libc    : Access denied finding property "net.dns2"
+07-24 15:02:50.672  4210  4210 W mars::16740: type=1400 audit(0.0:412): avc:  denied  { getattr } for  path="/proc/4210/net/route" dev="proc" ino=4026532045 scontext=u:r:untrusted_app:s0:c215,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=com.tencent.mm
+07-24 15:02:50.672  4210  4210 W mars::16740: type=1400 audit(0.0:413): avc:  denied  { getattr } for  path="/proc/4210/net/route" dev="proc" ino=4026532045 scontext=u:r:untrusted_app:s0:c215,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=com.tencent.mm
+07-24 15:02:50.672  4210  4210 W mars::16740: type=1400 audit(0.0:414): avc:  denied  { getattr } for  path="/proc/4210/net/route" dev="proc" ino=4026532045 scontext=u:r:untrusted_app:s0:c215,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=com.tencent.mm
+07-24 15:02:50.672  4210  4210 W mars::16740: type=1400 audit(0.0:415): avc:  denied  { read } for  name="route" dev="proc" ino=4026532045 scontext=u:r:untrusted_app:s0:c215,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=com.tencent.mm
+07-24 15:02:50.680 16769 16769 W ip      : type=1400 audit(0.0:416): avc:  denied  { bind } for  scontext=u:r:untrusted_app:s0:c215,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c215,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000
+07-24 15:02:50.787  4210  4317 I mars::stn: [longlink_connect_monitor.cc:118, __LongLinkStateToSystemLog]:longlink_progress longlink state: connected time: 13287672
+07-24 15:02:50.794  4210 16740 I mars::stn: [longlink_connect_monitor.cc:530, OnHeartbeatAlarmSet]:longlink_progress on_heartbeat_set, time: 13287679, time interval:210000
+07-24 15:02:50.796  4210 16740 I mars::stn: [longlink_connect_monitor.cc:530, OnHeartbeatAlarmSet]:longlink_progress on_heartbeat_set, time: 13287681, time interval:210000
+07-24 15:02:52.040  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:02:52.208  4210 16775 W libc    : Access denied finding property "net.dns1"
+07-24 15:02:52.209  4210 16775 W libc    : Access denied finding property "net.dns2"
+07-24 15:02:52.210   488 16777 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10215 0}
+07-24 15:02:52.210   488 16778 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:52.210   488 16779 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:52.211   488 16778 I resolv  : res_nsend: used send_dg 32 terrno: 0
+07-24 15:02:52.211   488 16778 I resolv  : doQuery: rcode=0, ancount=0, return value=32
+07-24 15:02:52.213   488 16779 I resolv  : res_nsend: used send_dg 48 terrno: 0
+07-24 15:02:52.213   488 16779 I resolv  : doQuery: rcode=0, ancount=1, return value=48
+07-24 15:02:52.214   488 16780 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:52.214   488 16781 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:52.214   488 16781 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7403611c9a30
+07-24 15:02:52.214   488 16781 I resolv  : doQuery: rcode=0, ancount=1, return value=48
+07-24 15:02:52.215   488 16780 I resolv  : res_nsend: used send_dg 32 terrno: 0
+07-24 15:02:52.215   488 16780 I resolv  : doQuery: rcode=0, ancount=0, return value=32
+07-24 15:02:52.783  4210 16785 W libc    : Access denied finding property "net.dns1"
+07-24 15:02:52.783  4210 16785 W libc    : Access denied finding property "net.dns2"
+07-24 15:02:52.784   488 16787 I resolv  : GetAddrInfoHandler::run: {100 262244 100 983140 10215 0}
+07-24 15:02:52.784   488 16789 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:52.784   488 16788 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:52.786   488 16788 I resolv  : res_nsend: used send_dg 44 terrno: 0
+07-24 15:02:52.786   488 16788 I resolv  : doQuery: rcode=0, ancount=0, return value=44
+07-24 15:02:52.788   488 16789 I resolv  : res_nsend: used send_dg 60 terrno: 0
+07-24 15:02:52.788   488 16789 I resolv  : doQuery: rcode=0, ancount=1, return value=60
+07-24 15:02:52.788   488 16790 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+07-24 15:02:52.788   488 16791 I resolv  : res_nmkquery: (QUERY, IN, A)
+07-24 15:02:52.788   488 16791 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7401711cb5b0
+07-24 15:02:52.788   488 16791 I resolv  : doQuery: rcode=0, ancount=1, return value=60
+07-24 15:02:52.789   488 16790 I resolv  : res_nsend: used send_dg 44 terrno: 0
+07-24 15:02:52.790   488 16790 I resolv  : doQuery: rcode=0, ancount=0, return value=44
+07-24 15:02:53.345   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:55.113   488   556 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.09ms>
+07-24 15:02:55.113   488   556 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.02ms>
+07-24 15:02:55.113   488   556 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.10ms>
+07-24 15:02:55.114   488   556 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.03ms>
+07-24 15:02:55.460  1396 16044 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 13292 [CONTEXT service_id=218 ]
+07-24 15:02:55.464  1396 16197 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 13292 [CONTEXT service_id=218 ]
+07-24 15:02:56.049   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:56.938   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:59.931  4210  4317 I mars::stn: [longlink_connect_monitor.cc:118, __LongLinkStateToSystemLog]:longlink_progress longlink state: disconnect reason Bad file descriptor, disconnected time: 13296816
+07-24 15:02:59.933   644 11651 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:59.935   644 11651 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:02:59.975  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:00.012   488   556 I netd    : tetherGetStats() -> {[]} <0.41ms>
+07-24 15:03:00.432  4210  4317 I mars::stn: [longlink_connect_monitor.cc:282, __IntervalConnect]:longlink_progress next connect interval: 604800000, process active state: false, process foreground: false
+07-24 15:03:00.434  4210  4317 I mars::stn: [longlink_connect_monitor.cc:360, __AutoIntervalConnect]:longlink_progress set rebuild alarm, reason: rebuild longlink alarm, current time: 13297319, next rebuild time interval: 589513
+07-24 15:03:00.911  1608  1833 I bbax    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+07-24 15:03:03.435 16816 16816 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:03.480 16819 16819 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:03.522 16822 16822 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:03.562 16825 16825 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:03.672 16828 16828 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:03.672 16828 16828 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:03.673 16828 16828 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:03.684   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:03.684   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:03.671     0     0 I servicemanager: Caller(pid=16828,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:03.673     0     0 I servicemanager: Caller(pid=16828,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:03.674     0     0 I servicemanager: Caller(pid=16828,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:03.738  1563  2333 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:03.893   749  1954 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:03.895   749  1954 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:03.898   749  1942 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:03.905   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:03.906  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:03.912  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:03.997  1563  2216 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:04.004  1563  2216 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:04.005  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8923 [CONTEXT service_id=218 ]
+07-24 15:03:04.050 16838 16838 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:04.146 16846 16846 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:04.208   749   772 I system_server: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 98(2660KB) LOS objects, 40% free, 35MB/59MB, paused 1.261ms,1.851ms total 155.435ms
+07-24 15:03:04.209   749   773 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-24 15:03:04.228 15204 15204 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+07-24 15:03:04.228 15204 15204 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+07-24 15:03:04.231 15204 15204 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+07-24 15:03:04.211     0     0 I servicemanager: Notifying artd they don't (previously: do) have clients when we now have no record of a client
+07-24 15:03:04.214     0     0 I servicemanager: Caller(pid=15204,uid=1082,sid=u:r:artd:s0) Unregistering artd
+07-24 15:03:04.215     0     0 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+07-24 15:03:04.219     0     0 I init    : Service 'artd' (pid 15204) exited with status 0 oneshot service took 267.309998 seconds in background
+07-24 15:03:04.220     0     0 I init    : Sending signal 9 to service 'artd' (pid 15204) process group...
+07-24 15:03:04.221     0     0 I libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1082/pid_15204
+07-24 15:03:04.273 16853 16853 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:04.359 16861 16861 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:04.363   749  1954 I system_server: AssetManager2(0x711526652478) locale list changing from [] to [en-US]
+07-24 15:03:04.471 16870 16870 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:04.560 16878 16878 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:04.672 16885 16885 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:04.764 16893 16893 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:05.114 16382 16382 I AutofillManager: showAutofillDialog() return false due to improve fill dialog
+07-24 15:03:05.115 16382 16382 I ImeTracker: com.simplemobiletools.calendar:43248237: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true
+07-24 15:03:05.116 16382 16382 I ImeTracker: com.simplemobiletools.calendar:43248237: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+07-24 15:03:05.159   749  1954 I ActivityManager: Broadcasting: Intent { act=DROIDBOT_INPUT_TEXT flg=0x400000 (has extras) }
+07-24 15:03:05.160   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:05.160   749  1954 I ActivityManager: Enqueued broadcast Intent { act=DROIDBOT_INPUT_TEXT flg=0x400000 (has extras) }: 0
+07-24 15:03:05.419  1563  6124 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:03:05.420  1563  6124 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@c802009[Not completed, 1 dependents]. Future map: {ca06fc9f-dca3-4d81-9ebe-700796c53fdc=java.util.concurrent.CompletableFuture@c802009[Not completed, 1 dependents]}
+07-24 15:03:05.422  1563  6124 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:05.426  1563  6124 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102666, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:05.426  1563  6124 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:05.428  1563  6124 E PickerDbFacade: Could not get first date taken millis for media id: 8923
+07-24 15:03:05.428  1563  6124 W PickerDbFacade: Unable to promote cloud media with localId: 8923
+07-24 15:03:05.430  1563  6124 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102666, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:05.430  1563  6124 I PickerSyncTracker: Marked sync future complete for work id: ca06fc9f-dca3-4d81-9ebe-700796c53fdc. Future map: {}
+07-24 15:03:05.430  1563  6124 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:03:05.431  1563  1737 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=ca06fc9f-dca3-4d81-9ebe-700796c53fdc, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:03:06.213 16915 16915 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:06.256 16918 16918 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:06.299 16921 16921 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:06.341 16924 16924 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:06.455 16927 16927 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:06.455 16927 16927 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:06.455 16927 16927 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:06.467   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:06.467   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:06.453     0     0 I servicemanager: Caller(pid=16927,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:06.455     0     0 I servicemanager: Caller(pid=16927,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:06.458     0     0 I servicemanager: Caller(pid=16927,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:06.521  1563  2216 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:06.712   749  1954 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:06.714   749  1954 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:06.716   749  1010 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:06.723   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:06.724  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:06.730  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:06.818  1563  1826 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:06.821  1563  1826 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:06.822  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8924 [CONTEXT service_id=218 ]
+07-24 15:03:06.863 16939 16939 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:06.957 16947 16947 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:07.092 16954 16954 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:07.137 16957 16957 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:07.178 16960 16960 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:07.219 16963 16963 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:07.338 16966 16966 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:07.338 16966 16966 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:07.338 16966 16966 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:07.348   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:07.348   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:07.335     0     0 I servicemanager: Caller(pid=16966,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:07.337     0     0 I servicemanager: Caller(pid=16966,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:07.338     0     0 I servicemanager: Caller(pid=16966,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:07.396  1563  1826 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:07.557   749  1954 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:07.559   749  1954 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:07.561   749  1942 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:07.568   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:07.569  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:07.581  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:07.677  1563  2216 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:07.679  1563  2216 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:07.681  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8925 [CONTEXT service_id=218 ]
+07-24 15:03:07.722 16978 16978 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:07.812 16986 16986 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:07.912  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:08.239  1563  6207 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:03:08.240  1563  6207 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@cf41d79[Not completed, 1 dependents]. Future map: {b0413341-d315-4a9b-80ee-b4a2fb0bce53=java.util.concurrent.CompletableFuture@cf41d79[Not completed, 1 dependents]}
+07-24 15:03:08.243  1563  6207 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:08.247  1563  6207 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102678, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:08.247  1563  6207 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:08.249  1563  6207 E PickerDbFacade: Could not get first date taken millis for media id: 8924
+07-24 15:03:08.249  1563  6207 W PickerDbFacade: Unable to promote cloud media with localId: 8924
+07-24 15:03:08.250  1563  6207 W PickerDbFacade: Unable to promote cloud media with localId: 8925
+07-24 15:03:08.252  1563  6207 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102678, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:08.252  1563  6207 I PickerSyncTracker: Marked sync future complete for work id: b0413341-d315-4a9b-80ee-b4a2fb0bce53. Future map: {}
+07-24 15:03:08.252  1563  6207 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:03:08.253  1563  1828 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b0413341-d315-4a9b-80ee-b4a2fb0bce53, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:03:14.038   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:14.545   749   804 I WifiService: isFeatureSupported uid=1000 returns [WIFI_FEATURE_INFRA, WIFI_FEATURE_P2P, WIFI_FEATURE_MOBILE_HOTSPOT, WIFI_FEATURE_WPA3_SAE, WIFI_FEATURE_WPA3_SUITE_B, WIFI_FEATURE_OWE, WIFI_FEATURE_DPP, WIFI_FEATURE_AP_RAND_MAC, WIFI_FEATURE_MBO, WIFI_FEATURE_FILS_SHA256, WIFI_FEATURE_FILS_SHA384, WIFI_FEATURE_SAE_PK, WIFI_FEATURE_DPP_ENROLLEE_RESPONDER, WIFI_FEATURE_PASSPOINT_TERMS_AND_CONDITIONS, WIFI_FEATURE_WFD_R2, WIFI_FEATURE_DECORATED_IDENTITY, WIFI_FEATURE_TRUST_ON_FIRST_USE, WIFI_FEATURE_SET_TLS_MINIMUM_VERSION, WIFI_FEATURE_TLS_V1_3, WIFI_FEATURE_WEP, WIFI_FEATURE_WPA_PERSONAL]
+07-24 15:03:15.085   749   804 I WifiService: isFeatureSupported uid=1000 returns [WIFI_FEATURE_INFRA, WIFI_FEATURE_P2P, WIFI_FEATURE_MOBILE_HOTSPOT, WIFI_FEATURE_WPA3_SAE, WIFI_FEATURE_WPA3_SUITE_B, WIFI_FEATURE_OWE, WIFI_FEATURE_DPP, WIFI_FEATURE_AP_RAND_MAC, WIFI_FEATURE_MBO, WIFI_FEATURE_FILS_SHA256, WIFI_FEATURE_FILS_SHA384, WIFI_FEATURE_SAE_PK, WIFI_FEATURE_DPP_ENROLLEE_RESPONDER, WIFI_FEATURE_PASSPOINT_TERMS_AND_CONDITIONS, WIFI_FEATURE_WFD_R2, WIFI_FEATURE_DECORATED_IDENTITY, WIFI_FEATURE_TRUST_ON_FIRST_USE, WIFI_FEATURE_SET_TLS_MINIMUM_VERSION, WIFI_FEATURE_TLS_V1_3, WIFI_FEATURE_WEP, WIFI_FEATURE_WPA_PERSONAL]
+07-24 15:03:15.273   749  1010 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:15.273   749  1010 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:15.469   749  1010 W ProcessStats: Tracking association SourceState{bc993c6 com.google.android.gms.persistent/10146 ImpBg #7481} whose proc state 6 is better than process ProcessState{669bd84 com.google.android.gms/10146 pkg=com.google.android.gms} proc state 14 (1 skipped)
+07-24 15:03:15.474  1396 16044 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 13312 [CONTEXT service_id=218 ]
+07-24 15:03:15.480  1396 16197 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 44 uptime_millis: 44 exec_start_elapsed_seconds: 13312 [CONTEXT service_id=218 ]
+07-24 15:03:16.104  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:16.839   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:17.687   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:24.039  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:24.449 17024 17024 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:24.490 17027 17027 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:24.529 17030 17030 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:24.569 17035 17035 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:24.731 17038 17038 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:24.732 17038 17038 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:24.732 17038 17038 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:24.742   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:24.742   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:24.729     0     0 I servicemanager: Caller(pid=17038,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:24.731     0     0 I servicemanager: Caller(pid=17038,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:24.732     0     0 I servicemanager: Caller(pid=17038,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:24.791  1563  1826 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:24.947   749  1954 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:24.949   749  1954 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:24.951   749  1942 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:24.957   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:24.958  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:24.965  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:25.050  1563  2333 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:25.052  1563  2333 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:25.053  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8926 [CONTEXT service_id=218 ]
+07-24 15:03:25.094 17048 17048 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:25.185 17056 17056 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:25.273   749  1954 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:25.273   749  1954 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:25.310 17063 17063 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:25.396 17071 17071 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:25.484  2035 17078 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+07-24 15:03:25.506 17080 17080 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:25.595 17088 17088 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:25.711 17097 17097 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:25.798 17105 17105 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:26.169   749  1119 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 85
+07-24 15:03:26.472  1563  6304 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:03:26.472  1563  6304 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@28cab17[Not completed, 1 dependents]. Future map: {f78796b5-0ade-4491-9de8-ef7a5f5e062a=java.util.concurrent.CompletableFuture@28cab17[Not completed, 1 dependents]}
+07-24 15:03:26.474  1563  6304 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:26.477  1563  6304 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102699, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:26.477  1563  6304 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:26.479  1563  6304 E PickerDbFacade: Could not get first date taken millis for media id: 8926
+07-24 15:03:26.479  1563  6304 W PickerDbFacade: Unable to promote cloud media with localId: 8926
+07-24 15:03:26.481  1563  6304 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102699, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:26.481  1563  6304 I PickerSyncTracker: Marked sync future complete for work id: f78796b5-0ade-4491-9de8-ef7a5f5e062a. Future map: {}
+07-24 15:03:26.481  1563  6304 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:03:26.483  1563  1737 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f78796b5-0ade-4491-9de8-ef7a5f5e062a, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:03:26.698   749   788 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+07-24 15:03:27.212 17127 17127 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:27.254 17130 17130 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:27.295 17133 17133 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:27.337 17136 17136 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:27.447 17139 17139 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:27.447 17139 17139 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:27.447 17139 17139 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:27.467   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:27.467   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:27.453     0     0 I servicemanager: Caller(pid=17139,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:27.455     0     0 I servicemanager: Caller(pid=17139,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:27.457     0     0 I servicemanager: Caller(pid=17139,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:27.513  1563  2333 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:27.681   749  1119 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:27.684   749  1119 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:27.686   749  1942 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:27.691   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:27.693  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:27.698  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:27.796  1563  1825 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:27.802  1563  1825 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:27.847 17151 17151 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:27.933 17159 17159 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:28.057 17166 17166 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:28.102 17169 17169 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:28.141 17172 17172 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:28.175 16382 16382 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@fd0f6e4
+07-24 15:03:28.182   749  1119 W NotificationService: Toast already killed. pkg=com.simplemobiletools.calendar token=android.os.BinderProxy@72c9786
+07-24 15:03:28.182 17175 17175 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:28.310 17178 17178 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:28.310 17178 17178 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:28.310 17178 17178 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:28.321   552  1007 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:28.321   552  1007 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:28.308     0     0 I servicemanager: Caller(pid=17178,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:28.310     0     0 I servicemanager: Caller(pid=17178,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:28.311     0     0 I servicemanager: Caller(pid=17178,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:28.369  1563  1825 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:28.536   749  1320 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:28.538   749  1320 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:28.540   749  1119 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:28.546   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:28.548  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:28.555  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:28.645  1563  2216 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:28.647  1563  2216 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:28.649  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8928 [CONTEXT service_id=218 ]
+07-24 15:03:28.683   749   788 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+07-24 15:03:28.690 17188 17188 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:28.779 17196 17196 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:29.206  1563  6387 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:03:29.206  1563  6387 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@4ac78d2[Not completed, 1 dependents]. Future map: {ea183601-bc5b-4df9-95ab-3df59682c562=java.util.concurrent.CompletableFuture@4ac78d2[Not completed, 1 dependents]}
+07-24 15:03:29.209  1563  6387 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:29.213  1563  6387 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102711, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:29.213  1563  6387 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:29.215  1563  6387 E PickerDbFacade: Could not get first date taken millis for media id: 8927
+07-24 15:03:29.215  1563  6387 W PickerDbFacade: Unable to promote cloud media with localId: 8927
+07-24 15:03:29.215  1563  6387 W PickerDbFacade: Unable to promote cloud media with localId: 8928
+07-24 15:03:29.217  1563  6387 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102711, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:29.217  1563  6387 I PickerSyncTracker: Marked sync future complete for work id: ea183601-bc5b-4df9-95ab-3df59682c562. Future map: {}
+07-24 15:03:29.217  1563  6387 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:03:29.218  1563  1828 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=ea183601-bc5b-4df9-95ab-3df59682c562, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:03:30.179   749   788 W WindowManager: Unable to start animation, surface is null or no children.
+07-24 15:03:31.975  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:35.062   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:35.272   749  1320 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:35.272   749  1320 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:35.447  1396 16197 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 13332 [CONTEXT service_id=218 ]
+07-24 15:03:35.451  1396 16044 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 13 uptime_millis: 13 exec_start_elapsed_seconds: 13332 [CONTEXT service_id=218 ]
+07-24 15:03:36.927  1516  1516 W TimedProcessReaper: Memory state is: 125
+07-24 15:03:37.812   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:38.660   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:39.912  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:44.145 17238 17238 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:44.186 17241 17241 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:44.227 17244 17244 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:44.267 17247 17247 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:44.381 17250 17250 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:44.381 17250 17250 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:44.381 17250 17250 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:44.393   552   667 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:44.393   552   667 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:44.380     0     0 I servicemanager: Caller(pid=17250,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:44.382     0     0 I servicemanager: Caller(pid=17250,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:44.383     0     0 I servicemanager: Caller(pid=17250,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:44.441  1563  2216 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:44.636   749  1010 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:44.638   749  1010 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:44.641   749  1320 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:44.648   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:44.649  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:44.659  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:44.749  1563  1825 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:44.752  1563  1825 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:44.753  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8929 [CONTEXT service_id=218 ]
+07-24 15:03:44.799 17262 17262 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:44.892 17270 17270 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:45.015 17277 17277 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:45.104 17285 17285 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:45.218 17292 17292 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:45.273   749  1119 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:45.273   749  1119 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:45.305 17300 17300 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:45.421 17307 17307 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:45.514 17315 17315 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:45.918   749  1320 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 85
+07-24 15:03:46.166  1563  6490 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:03:46.166  1563  6490 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@a7c3bb8[Not completed, 1 dependents]. Future map: {d0f077e1-4d24-43a5-860d-d765eaf6c381=java.util.concurrent.CompletableFuture@a7c3bb8[Not completed, 1 dependents]}
+07-24 15:03:46.170  1563  6490 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:46.175  1563  6490 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102732, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:46.175  1563  6490 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:46.179  1563  6490 E PickerDbFacade: Could not get first date taken millis for media id: 8929
+07-24 15:03:46.179  1563  6490 W PickerDbFacade: Unable to promote cloud media with localId: 8929
+07-24 15:03:46.181  1563  6490 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102732, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:46.181  1563  6490 I PickerSyncTracker: Marked sync future complete for work id: d0f077e1-4d24-43a5-860d-d765eaf6c381. Future map: {}
+07-24 15:03:46.181  1563  6490 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:03:46.182  1563  1821 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d0f077e1-4d24-43a5-860d-d765eaf6c381, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:03:46.465   749   788 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+07-24 15:03:46.966 17338 17338 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:47.012 17341 17341 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:47.055 17344 17344 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:47.097 17347 17347 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:47.214 17350 17350 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:47.215 17350 17350 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:47.215 17350 17350 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:47.225   552  1007 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:47.225   552  1007 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:47.212     0     0 I servicemanager: Caller(pid=17350,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:47.214     0     0 I servicemanager: Caller(pid=17350,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:47.216     0     0 I servicemanager: Caller(pid=17350,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:47.278  1563  1825 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:47.483   749  1119 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:47.485   749  1119 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:47.487   749  1954 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:47.494   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:47.495  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:47.508  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:47.598  1563  1826 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:47.601  1563  1826 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:47.602  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8930 [CONTEXT service_id=218 ]
+07-24 15:03:47.648 17360 17360 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:47.750 17368 17368 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:47.810   749   772 I system_server: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 99(3132KB) LOS objects, 40% free, 35MB/59MB, paused 1.356ms,2.227ms total 159.664ms
+07-24 15:03:47.878 17375 17375 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:47.920 16382 16382 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@4f25a81
+07-24 15:03:47.922 17378 17378 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:47.932   749  1119 W NotificationService: Toast already killed. pkg=com.simplemobiletools.calendar token=android.os.BinderProxy@63a0c30
+07-24 15:03:47.971 17383 17383 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:48.017 17386 17386 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+07-24 15:03:48.104  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:48.143 17389 17389 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-24 15:03:48.143 17389 17389 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-24 15:03:48.143 17389 17389 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-24 15:03:48.153   552  1007 E HwcComposer: getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-24 15:03:48.153   552  1007 E HWComposer: getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-24 15:03:48.142     0     0 I servicemanager: Caller(pid=17389,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:48.144     0     0 I servicemanager: Caller(pid=17389,uid=2000,sid=u:r:shell:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+07-24 15:03:48.146     0     0 I servicemanager: Caller(pid=17389,uid=2000,sid=u:r:shell:s0) Found mapper/ranchu in device VINTF manifest.
+07-24 15:03:48.209  1563  1826 W MediaProvider: isAppCloneUserPair for user 0: false
+07-24 15:03:48.387   749  1119 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+07-24 15:03:48.389   749  1119 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+07-24 15:03:48.392   749  1320 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+07-24 15:03:48.399   749   785 I ActivityManager: Broadcast completed: result=0
+07-24 15:03:48.401  1563  2082 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:48.409  1563  2082 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+07-24 15:03:48.433   749   788 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+07-24 15:03:48.503  1563  2333 W MediaProvider: Ignoring param:deletedata post U for external apps
+07-24 15:03:48.505  1563  2333 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+07-24 15:03:48.507  1396  2753 I UriTaskContentObserver: Throttling content uri change event for content://media/external/file/8931 [CONTEXT service_id=218 ]
+07-24 15:03:48.546 17399 17399 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: display
+07-24 15:03:48.636 17407 17407 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: input
+07-24 15:03:48.644   749  1320 I system_server: AssetManager2(0x711526652478) locale list changing from [] to [en-US]
+07-24 15:03:48.961   494 17332 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: File descriptor in bad state' (-1)
+07-24 15:03:48.961   494 17332 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+07-24 15:03:49.020  1563  6572 I PSyncWorker: Starting proactive picker sync from sync source: 1
+07-24 15:03:49.021  1563  6572 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@c5202e8[Not completed, 1 dependents]. Future map: {1be3aaa0-71eb-4148-b23e-edda6c9619bb=java.util.concurrent.CompletableFuture@c5202e8[Not completed, 1 dependents]}
+07-24 15:03:49.024  1563  6572 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:49.027  1563  6572 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102744, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:49.028  1563  6572 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+07-24 15:03:49.030  1563  6572 E PickerDbFacade: Could not get first date taken millis for media id: 8930
+07-24 15:03:49.030  1563  6572 W PickerDbFacade: Unable to promote cloud media with localId: 8930
+07-24 15:03:49.030  1563  6572 W PickerDbFacade: Unable to promote cloud media with localId: 8931
+07-24 15:03:49.032  1563  6572 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=102744, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+07-24 15:03:49.033  1563  6572 I PickerSyncTracker: Marked sync future complete for work id: 1be3aaa0-71eb-4148-b23e-edda6c9619bb. Future map: {}
+07-24 15:03:49.033  1563  6572 I PSyncWorker: Completed picker proactive sync complete from local provider.
+07-24 15:03:49.034  1563  1737 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=1be3aaa0-71eb-4148-b23e-edda6c9619bb, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+07-24 15:03:49.938   749   788 W WindowManager: Unable to start animation, surface is null or no children.
+07-24 15:03:54.762   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:55.272   749  1320 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:55.272   749  1320 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:55.472   749  1119 W ProcessStats: Tracking association SourceState{7e2b0c9 com.google.android.gms/10146 ImpBg #7535} whose proc state 6 is better than process ProcessState{d935b61 com.google.android.gms.unstable/10146 pkg=com.google.android.gms} proc state 14 (2 skipped)
+07-24 15:03:55.473  1396 16044 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 13352 [CONTEXT service_id=218 ]
+07-24 15:03:55.479  1396 17218 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 39 uptime_millis: 39 exec_start_elapsed_seconds: 13352 [CONTEXT service_id=218 ]
+07-24 15:03:56.039  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:03:57.619   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:03:58.513   749   793 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:04:00.912  1608  1833 I bbax    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+07-24 15:04:03.976  1004  1004 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-24 15:04:05.270   749  1954 W IPCThreadState: Sending oneway calls to frozen process.
+07-24 15:04:05.270   749  1954 W IPCThreadState: Sending oneway calls to frozen process.

@@ -1,0 +1,338 @@
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.dir/event:
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter 1fa4799
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/event"
+      text/calendar:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter d9d38c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "text/x-vcalendar"
+          StaticType: "text/calendar"
+      time/epoch:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter 5ee4d61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.calendar": -1
+          StaticType: "time/epoch"
+      text/x-vcalendar:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter d9d38c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "text/x-vcalendar"
+          StaticType: "text/calendar"
+      vnd.android.cursor.item/event:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter c10b086
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter f8058e0
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter 1fa4799
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/event"
+      vnd.android.cursor.item:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter c10b086
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter f8058e0
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+      text:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter d9d38c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "text/x-vcalendar"
+          StaticType: "text/calendar"
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter d9d38c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "text/x-vcalendar"
+          StaticType: "text/calendar"
+      time:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter 5ee4d61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.calendar": -1
+          StaticType: "time/epoch"
+
+  Schemes:
+      file:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter d9d38c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "text/x-vcalendar"
+          StaticType: "text/calendar"
+      content:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter d9d38c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "text/x-vcalendar"
+          StaticType: "text/calendar"
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter 5ee4d61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.calendar": -1
+          StaticType: "time/epoch"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        a684adc com.simplemobiletools.calendar/.activities.SplashActivity filter 75f17e5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        6882d47 com.simplemobiletools.calendar/.activities.WidgetMonthlyConfigureActivity filter 1b11974
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        1e15e9d com.simplemobiletools.calendar/.activities.WidgetListConfigureActivity filter 2374f12
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      android.intent.action.SEARCH:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter 726a56b
+          Action: "android.intent.action.SEARCH"
+
+  MIME Typed Actions:
+      android.intent.action.EDIT:
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter f8058e0
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter 1fa4799
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/event"
+      android.intent.action.VIEW:
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter d9d38c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Scheme: "file"
+          StaticType: "text/x-vcalendar"
+          StaticType: "text/calendar"
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter 5ee4d61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          Authority: "com.android.calendar": -1
+          StaticType: "time/epoch"
+        ce322ba com.simplemobiletools.calendar/.activities.MainActivity filter c10b086
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+      android.intent.action.INSERT:
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter f8058e0
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/event"
+        59056e3 com.simplemobiletools.calendar/.activities.EventActivity filter 1fa4799
+          Action: "android.intent.action.EDIT"
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/event"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.QUICKBOOT_POWERON:
+        4a9ae6a com.simplemobiletools.calendar/.receivers.BootCompletedReceiver filter f5fbf5b
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.htc.intent.action.QUICKBOOT_POWERON:
+        4a9ae6a com.simplemobiletools.calendar/.receivers.BootCompletedReceiver filter f5fbf5b
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.simplemobiletools.commons.SHARED_THEME_ACTIVATED:
+        37463f8 com.simplemobiletools.calendar/com.simplemobiletools.commons.receivers.SharedThemeReceiver filter 8d450d1
+          Action: "com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"
+          Action: "com.simplemobiletools.commons.SHARED_THEME_UPDATED"
+      android.intent.action.BOOT_COMPLETED:
+        4a9ae6a com.simplemobiletools.calendar/.receivers.BootCompletedReceiver filter f5fbf5b
+          Action: "android.intent.action.QUICKBOOT_POWERON"
+          Action: "com.htc.intent.action.QUICKBOOT_POWERON"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.simplemobiletools.commons.SHARED_THEME_UPDATED:
+        37463f8 com.simplemobiletools.calendar/com.simplemobiletools.commons.receivers.SharedThemeReceiver filter 8d450d1
+          Action: "com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"
+          Action: "com.simplemobiletools.commons.SHARED_THEME_UPDATED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        2b74a5e com.simplemobiletools.calendar/.helpers.MyWidgetMonthlyProvider filter 3677e3f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        f42230c com.simplemobiletools.calendar/.helpers.MyWidgetListProvider filter d1ec455
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.simplemobiletools.calendar/android.support.v4.content.FileProvider:
+    Provider{bfc6c12 com.simplemobiletools.calendar/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.simplemobiletools.calendar.provider]:
+    Provider{bfc6c12 com.simplemobiletools.calendar/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{812b916 com.simplemobiletools.calendar}
+
+Key Set Manager:
+  [com.simplemobiletools.calendar]
+      Signing KeySets: 72
+
+Packages:
+  Package [com.simplemobiletools.calendar] (c14351e):
+    appId=10219
+    pkg=Package{ecb3de0 com.simplemobiletools.calendar}
+    codePath=/data/app/~~-zfTy5HCq6rZs60c5MUEKQ==/com.simplemobiletools.calendar-1-xGYJLNfM0gJEZF3zIzZw==
+    resourcePath=/data/app/~~-zfTy5HCq6rZs60c5MUEKQ==/com.simplemobiletools.calendar-1-xGYJLNfM0gJEZF3zIzZw==
+    legacyNativeLibraryDir=/data/app/~~-zfTy5HCq6rZs60c5MUEKQ==/com.simplemobiletools.calendar-1-xGYJLNfM0gJEZF3zIzZw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=118 minSdk=16 targetSdk=27
+    minExtensionVersions=[]
+    versionName=3.4.2
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-07-24 14:44:59
+    lastUpdateTime=2025-07-24 14:44:59
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{4a3c899 version:2, signatures:[7a278a51], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.READ_CALENDAR
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.WRITE_CALENDAR
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=361773 deDataInode=57378 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.simplemobiletools.calendar
+      firstInstallTime=2025-07-24 14:44:59
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/EmulationPixel9Pro/EmulationPixel9ProOverlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-fOU5.frro
+        /data/resource-cache/com.android.systemui-accent-UmcY.frro
+        /data/resource-cache/com.android.systemui-dynamic-ihHU.frro
+      legacy overlay paths:
+        /product/overlay/EmulationPixel9Pro/EmulationPixel9ProOverlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.google.android.as:
+      com.simplemobiletools.calendar
+    com.google.android.settings.intelligence:
+      com.simplemobiletools.calendar
+    com.google.android.calendar:
+      com.simplemobiletools.calendar
+    com.google.android.apps.docs:
+      com.simplemobiletools.calendar
+    com.google.android.contacts:
+      com.simplemobiletools.calendar
+    com.google.android.gm:
+      com.simplemobiletools.calendar
+    com.tencent.mm:
+      com.simplemobiletools.calendar
+    com.xingin.xhs:
+      com.simplemobiletools.calendar
+  queryable via interaction:
+    User 0:
+      [com.android.dynsystem,com.android.server.telecom,com.android.localtransport,android,com.android.providers.settings,com.android.inputdevices,com.android.location.fused,com.android.keychain,com.android.emulator.multidisplay,com.android.settings,com.android.DeviceAsWebcam]:
+        com.simplemobiletools.calendar
+      com.google.android.inputmethod.latin:
+        com.simplemobiletools.calendar
+      io.github.ylimit.droidbotapp:
+        com.simplemobiletools.calendar
+  queryable via uses-library:
+
+Dexopt state:
+  [com.simplemobiletools.calendar]
+    path: /data/app/~~-zfTy5HCq6rZs60c5MUEKQ==/com.simplemobiletools.calendar-1-xGYJLNfM0gJEZF3zIzZw==/base.apk
+      x86_64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~-zfTy5HCq6rZs60c5MUEKQ==/com.simplemobiletools.calendar-1-xGYJLNfM0gJEZF3zIzZw==/oat/x86_64/base.odex]
+
+Compiler stats:
+  [com.simplemobiletools.calendar]
+     base.apk - 297

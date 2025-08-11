@@ -1,0 +1,116 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 9
+  Choice: 9
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10'>Daily view</checkbox>\n                   \
+    \ <checkbox id='11'>Weekly view</checkbox>\n                    <checkbox id='12'\
+    \ status='selected'>Monthly view</checkbox>\n                    <checkbox id='13'>Yearly\
+    \ view</checkbox>\n                    <checkbox id='14'>Simple event list</checkbox>\n\
+    \                  </RadioGroup>\n                </ScrollView>\n            \
+    \  </FrameLayout>\n            </FrameLayout>\n          </aq>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 41fab8a8229a01a4c4c0872b6e5932eaf07f8213f9a950020253a3a4f0f484b3
+  state_str: f
+  tag: 2023-07-03_203857
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar - 2023</p>\n            <aq id='7'>\n        \
+    \      <button id='8' resource_id='search' alt='Search'></button>\n          \
+    \    <button id='9' resource_id='change_view' alt='Change view'></button>\n  \
+    \            <button id='10' alt='More options'></button>\n            </aq>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n        <FrameLayout id='11'\
+    \ resource_id='content'>\n          <ViewGroup id='12' resource_id='calendar_coordinator'>\n\
+    \            <FrameLayout id='13' resource_id='fragments_holder'>\n          \
+    \    <scrollbar id='14'>\n                <TableLayout id='56' resource_id='calendar_holder'>\n\
+    \                  <TableRow id='57'>\n                    <RelativeLayout id='58'\
+    \ resource_id='month_1_holder'>\n                      <p id='59' resource_id='month_1_label'>JANUARY</p>\n\
+    \                      <View id='60' resource_id='month_1'></View>\n         \
+    \           </RelativeLayout>\n                    <RelativeLayout id='61' resource_id='month_2_holder'>\n\
+    \                      <p id='62' resource_id='month_2_label'>FEBRUARY</p>\n \
+    \                     <View id='63' resource_id='month_2'></View>\n          \
+    \          </RelativeLayout>\n                    <RelativeLayout id='64' resource_id='month_3_holder'>\n\
+    \                      <p id='65' resource_id='month_3_label'>MARCH</p>\n    \
+    \                  <View id='66' resource_id='month_3'></View>\n             \
+    \       </RelativeLayout>\n                  </TableRow>\n                  <TableRow\
+    \ id='67'>\n                    <RelativeLayout id='68' resource_id='month_4_holder'>\n\
+    \                      <p id='69' resource_id='month_4_label'>APRIL</p>\n    \
+    \                  <View id='70' resource_id='month_4'></View>\n             \
+    \       </RelativeLayout>\n                    <RelativeLayout id='71' resource_id='month_5_holder'>\n\
+    \                      <p id='72' resource_id='month_5_label'>MAY</p>\n      \
+    \                <View id='73' resource_id='month_5'></View>\n               \
+    \     </RelativeLayout>\n                    <RelativeLayout id='74' resource_id='month_6_holder'>\n\
+    \                      <p id='75' resource_id='month_6_label'>JUNE</p>\n     \
+    \                 <View id='76' resource_id='month_6'></View>\n              \
+    \      </RelativeLayout>\n                  </TableRow>\n                  <TableRow\
+    \ id='77'>\n                    <RelativeLayout id='78' resource_id='month_7_holder'>\n\
+    \                      <p id='79' resource_id='month_7_label'>JULY</p>\n     \
+    \                 <View id='80' resource_id='month_7'></View>\n              \
+    \      </RelativeLayout>\n                    <RelativeLayout id='81' resource_id='month_8_holder'>\n\
+    \                      <p id='82' resource_id='month_8_label'>AUGUST</p>\n   \
+    \                   <View id='83' resource_id='month_8'></View>\n            \
+    \        </RelativeLayout>\n                    <RelativeLayout id='84' resource_id='month_9_holder'>\n\
+    \                      <p id='85' resource_id='month_9_label'>SEPTEMBER</p>\n\
+    \                      <View id='86' resource_id='month_9'></View>\n         \
+    \           </RelativeLayout>\n                  </TableRow>\n               \
+    \   <TableRow id='87'>\n                    <RelativeLayout id='88' resource_id='month_10_holder'>\n\
+    \                      <p id='89' resource_id='month_10_label'>OCTOBER</p>\n \
+    \                     <View id='90' resource_id='month_10'></View>\n         \
+    \           </RelativeLayout>\n                    <RelativeLayout id='91' resource_id='month_11_holder'>\n\
+    \                      <p id='92' resource_id='month_11_label'>NOVEMBER</p>\n\
+    \                      <View id='93' resource_id='month_11'></View>\n        \
+    \            </RelativeLayout>\n                    <RelativeLayout id='94' resource_id='month_12_holder'>\n\
+    \                      <p id='95' resource_id='month_12_label'>DECEMBER</p>\n\
+    \                      <View id='96' resource_id='month_12'></View>\n        \
+    \            </RelativeLayout>\n                  </TableRow>\n              \
+    \  </TableLayout>\n              </scrollbar>\n            </FrameLayout>\n  \
+    \        </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 0ed19d027d8fdc936b197c48b8404f2133c8b4e7bb704aa43b291515f14a0716
+  state_str: 967906168e57214f55fdcc4a722a625b86678fe0c61a766dd23e5d596571085e
+  tag: 2023-07-03_202006
+step_num: 3
+task_name: change the view from monthly to yearly

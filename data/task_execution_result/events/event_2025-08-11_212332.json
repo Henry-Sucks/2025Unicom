@@ -1,0 +1,51 @@
+{
+  "tag": "2025-08-11_212332",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          387,
+          736
+        ],
+        [
+          1179,
+          820
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": " \u660e\u5929",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "792*84",
+      "signature": "[class]android.widget.EditText[resource_id][text] \u660e\u5929[enabled,,]",
+      "view_str": "70bf921be4705f6a77b555de8747ad08",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]"
+    },
+    "x": null,
+    "y": null,
+    "text": ""
+  },
+  "start_state": "f8aebd4011f0676e57b862d46aabc72fd82590629e792ad591fa0729aa287986",
+  "stop_state": "f8aebd4011f0676e57b862d46aabc72fd82590629e792ad591fa0729aa287986",
+  "event_str": "SetTextEvent(state=f8aebd4011f0676e57b862d46aabc72fd82590629e792ad591fa0729aa287986, view=70bf921be4705f6a77b555de8747ad08(WebDetailActivity/EditText- \u660e\u5929), text=)"
+}

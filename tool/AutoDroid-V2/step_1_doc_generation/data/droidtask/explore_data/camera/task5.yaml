@@ -1,0 +1,239 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 27
+  Choice: 27
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='view_holder'>\n\
+    \            <FrameLayout id='6' resource_id='preview_view'></FrameLayout>\n \
+    \           <ViewGroup id='9'></ViewGroup>\n            <FrameLayout id='10' resource_id='top_options'>\n\
+    \              <LinearLayout id='11' resource_id='default_icons'>\n          \
+    \      <button id='12' resource_id='toggle_timer' alt='Toggle the timer mode'></button>\n\
+    \                <button id='13' resource_id='change_resolution' alt='Resolution'></button>\n\
+    \                <button id='14' resource_id='settings' alt='Settings'></button>\n\
+    \              </LinearLayout>\n            </FrameLayout>\n            <View\
+    \ id='17' resource_id='bottom_overlay'></View>\n            <RelativeLayout id='18'\
+    \ resource_id='camera_mode_holder'>\n              <HorizontalScrollView id='19'\
+    \ resource_id='camera_mode_tab'>\n                <LinearLayout id='20'>\n   \
+    \               <button id='21' alt='Video'>\n                    <button id='22'>Video</button>\n\
+    \                  </button>\n                  <p id='23' alt='Photo' status='selected'>\n\
+    \                    <p id='24' status='selected'>Photo</p>\n                \
+    \  </p>\n                </LinearLayout>\n              </HorizontalScrollView>\n\
+    \            </RelativeLayout>\n            <button id='25' resource_id='toggle_camera'\
+    \ alt='Toggle front/back camera'></button>\n            <button id='26' resource_id='shutter'\
+    \ alt='Shutter'></button>\n            <button id='27' resource_id='last_photo_video_preview'\
+    \ alt='View last captured media'></button>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 863cb466e6a7b76e3579075348e7500c30d85b1deecbd22fd9bad4fcb02cdbfb
+  state_str: '5'
+  tag: 2023-07-06_234540
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 43
+  Choice: 43
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <RelativeLayout id='5' resource_id='fragment_holder'>\n\
+    \            <scrollbar id='6' resource_id='view_pager'></scrollbar>\n       \
+    \     <ImageView id='35' resource_id='top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='36' resource_id='medium_viewer_appbar'>\n              <ViewGroup id='37'\
+    \ resource_id='medium_viewer_toolbar'>\n                <ImageButton id='38'></ImageButton>\n\
+    \                <p id='39'>pic3.jpg</p>\n                <LinearLayoutCompat\
+    \ id='40'>\n                  <button id='41' resource_id='menu_rotate' alt='Rotate'></button>\n\
+    \                  <button id='42' resource_id='menu_properties' alt='Properties'></button>\n\
+    \                  <button id='43' alt='More options'></button>\n            \
+    \    </LinearLayoutCompat>\n              </ViewGroup>\n            </LinearLayout>\n\
+    \            <ViewGroup id='44' resource_id='bottom_actions'>\n              <button\
+    \ id='45' resource_id='bottom_favorite' alt='Toggle favorite'></button>\n    \
+    \          <button id='46' resource_id='bottom_edit' alt='Edit'></button>\n  \
+    \            <button id='47' resource_id='bottom_share' alt='Share'></button>\n\
+    \              <button id='48' resource_id='bottom_delete' alt='Delete'></button>\n\
+    \            </ViewGroup>\n          </RelativeLayout>\n        </FrameLayout>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str: 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+  tag: 2023-07-06_234916
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 39
+  Choice: 39
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Rename</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='7'>\n        <LinearLayout id='8' resource_id='content'>\n\
+    \          <RelativeLayout id='9'>\n            <button id='10' resource_id='title'>Hide</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='11'>\n        <LinearLayout id='12' resource_id='content'>\n\
+    \          <RelativeLayout id='13'>\n            <button id='14' resource_id='title'>Copy\
+    \ to</button>\n          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='15'>\n        <LinearLayout id='16' resource_id='content'>\n\
+    \          <RelativeLayout id='17'>\n            <button id='18' resource_id='title'>Move\
+    \ to</button>\n          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='19'>\n        <LinearLayout id='20' resource_id='content'>\n\
+    \          <RelativeLayout id='21'>\n            <button id='22' resource_id='title'>Create\
+    \ shortcut</button>\n          </RelativeLayout>\n        </LinearLayout>\n  \
+    \    </LinearLayout>\n      <LinearLayout id='23'>\n        <LinearLayout id='24'\
+    \ resource_id='content'>\n          <RelativeLayout id='25'>\n            <button\
+    \ id='26' resource_id='title'>Open with</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n      <LinearLayout id='27'>\n\
+    \        <LinearLayout id='28' resource_id='content'>\n          <RelativeLayout\
+    \ id='29'>\n            <button id='30' resource_id='title'>Set as</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='31'>\n        <LinearLayout id='32' resource_id='content'>\n\
+    \          <RelativeLayout id='33'>\n            <button id='34' resource_id='title'>Change\
+    \ orientation</button>\n          </RelativeLayout>\n          <ImageView id='35'\
+    \ resource_id='submenuarrow'></ImageView>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='36'>\n        <LinearLayout id='37' resource_id='content'>\n\
+    \          <RelativeLayout id='38'>\n            <button id='39' resource_id='title'>Print</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='40'>\n        <LinearLayout id='41' resource_id='content'>\n\
+    \          <RelativeLayout id='42'>\n            <button id='43' resource_id='title'>Resize</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='44'>\n        <LinearLayout id='45' resource_id='content'>\n\
+    \          <RelativeLayout id='46'>\n            <button id='47' resource_id='title'>Show\
+    \ on map</button>\n          </RelativeLayout>\n        </LinearLayout>\n    \
+    \  </LinearLayout>\n      <LinearLayout id='48'>\n        <LinearLayout id='49'\
+    \ resource_id='content'>\n          <RelativeLayout id='50'>\n            <button\
+    \ id='51' resource_id='title'>Slideshow</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n      <LinearLayout id='52'>\n\
+    \        <LinearLayout id='53' resource_id='content'>\n          <RelativeLayout\
+    \ id='54'>\n            <button id='55' resource_id='title'>Settings</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 90b09a315edf7d063855fd669828d16be6f1d47b81efdcf37319cc93dff0da22
+  state_str: '6'
+  tag: 2023-07-06_235446
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 26
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <ViewGroup id='3' resource_id='options_content'>\n        <LinearLayout\
+    \ id='4' resource_id='dynamic_content'></LinearLayout>\n        <FrameLayout id='7'\
+    \ resource_id='static_content'>\n          <button id='8' resource_id='destination_spinner'>\n\
+    \            <LinearLayout id='9'>\n              <ImageView id='10' resource_id='icon'></ImageView>\n\
+    \              <RelativeLayout id='11'>\n                <button id='12' resource_id='title'>Save\
+    \ as PDF</button>\n              </RelativeLayout>\n            </LinearLayout>\n\
+    \          </button>\n        </FrameLayout>\n        <button id='13' resource_id='summary_content'\
+    \ alt='Summary, copies 1, paper size Letter'>\n          <button id='14'>Copies:</button>\n\
+    \          <button id='15' resource_id='copies_count_summary'>1</button>\n   \
+    \       <button id='16'>Paper size:</button>\n          <button id='17' resource_id='paper_size_summary'>Letter</button>\n\
+    \        </button>\n        <FrameLayout id='18' resource_id='embedded_content_container'>\n\
+    \          <View id='19' resource_id='embedded_content_scrim'></View>\n      \
+    \    <RecyclerView id='20' resource_id='preview_content'>\n            <checkbox\
+    \ id='21' resource_id='preview_page' alt='Page 1 of 1' status='selected'>\n  \
+    \            <View id='22' resource_id='page_content'></View>\n              <RelativeLayout\
+    \ id='23' resource_id='page_footer'>\n                <checkbox id='24' resource_id='page_number'\
+    \ status='selected'>1/1</checkbox>\n                <ImageView id='25' resource_id='page_selector'></ImageView>\n\
+    \              </RelativeLayout>\n            </checkbox>\n          </RecyclerView>\n\
+    \        </FrameLayout>\n        <button id='26' resource_id='print_button' alt='Save\
+    \ to PDF'></button>\n      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: d8dc4abb0e56e5f4a2054cebed843fab68f8accaf9b3302aefe20c7e5204846d
+  state_str: '7'
+  tag: 2023-07-06_235921
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 59
+  Choice: 59
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='coordinator_layout'>\n\
+    \            <DrawerLayout id='6' resource_id='drawer_layout'>\n             \
+    \ <ViewGroup id='7'>\n                <LinearLayout id='8' resource_id='app_bar'>\n\
+    \                  <FrameLayout id='9' resource_id='collapsing_toolbar'>\n   \
+    \                 <ScrollView id='10'>\n                      <LinearLayout id='11'\
+    \ resource_id='directory_header'>\n                        <RecyclerView id='12'\
+    \ resource_id='horizontal_breadcrumb'>\n                          <LinearLayout\
+    \ id='13'>\n                            <p id='14' resource_id='breadcrumb_text'>Downloads</p>\n\
+    \                          </LinearLayout>\n                        </RecyclerView>\n\
+    \                        <LinearLayout id='18'>\n                          <p\
+    \ id='19' resource_id='header_title'>FILES IN DOWNLOADS</p>\n                \
+    \          <LinearLayoutCompat id='20' resource_id='sub_menu'>\n             \
+    \               <button id='21' resource_id='sub_menu_list' alt='List view'></button>\n\
+    \                          </LinearLayoutCompat>\n                        </LinearLayout>\n\
+    \                      </LinearLayout>\n                    </ScrollView>\n  \
+    \                  <View id='22' resource_id='toolbar_background_layout'></View>\n\
+    \                    <ViewGroup id='23' resource_id='toolbar'>\n             \
+    \         <button id='24' alt='Show roots'></button>\n                      <p\
+    \ id='25'>Downloads</p>\n                      <LinearLayoutCompat id='26'>\n\
+    \                        <button id='27' resource_id='option_menu_create_dir'\
+    \ alt='New folder'></button>\n                        <button id='28' alt='More\
+    \ options'></button>\n                      </LinearLayoutCompat>\n          \
+    \          </ViewGroup>\n                  </FrameLayout>\n                </LinearLayout>\n\
+    \                <FrameLayout id='29'>\n                  <FrameLayout id='30'\
+    \ resource_id='container_search_fragment'></FrameLayout>\n                  <LinearLayout\
+    \ id='31'>\n                    <FrameLayout id='32' resource_id='container_directory'>\n\
+    \                      <LinearLayout id='33'>\n                        <ViewGroup\
+    \ id='34' resource_id='refresh_layout'>\n                          <RecyclerView\
+    \ id='35' resource_id='dir_list'>\n                            <FrameLayout id='36'\
+    \ resource_id='item_root'>\n                              <View id='37'></View>\n\
+    \                              <MaterialCardView id='38'>\n                  \
+    \              <FrameLayout id='39'>\n                                  <RelativeLayout\
+    \ id='40'>\n                                    <FrameLayout id='41' resource_id='thumbnail'></FrameLayout>\n\
+    \                                    <LinearLayout id='44' resource_id='nameplate'>\n\
+    \                                      <FrameLayout id='45' resource_id='icon'></FrameLayout>\n\
+    \                                      <RelativeLayout id='48'>\n            \
+    \                            <p id='49' resource_id='title'>Diary.pdf</p>\n  \
+    \                                      <p id='50' resource_id='details'>6.24 kB</p>\n\
+    \                                        <p id='51' resource_id='date'>Jun 30</p>\n\
+    \                                      </RelativeLayout>\n                   \
+    \                 </LinearLayout>\n                                  </RelativeLayout>\n\
+    \                                </FrameLayout>\n                            \
+    \  </MaterialCardView>\n                            </FrameLayout>\n         \
+    \                 </RecyclerView>\n                        </ViewGroup>\n    \
+    \                  </LinearLayout>\n                    </FrameLayout>\n     \
+    \             </LinearLayout>\n                  <View id='52' resource_id='drawer_edge'></View>\n\
+    \                </FrameLayout>\n                <ViewGroup id='53' resource_id='container_save'>\n\
+    \                  <LinearLayout id='54'>\n                    <FrameLayout id='55'></FrameLayout>\n\
+    \                    <input id='57' resource_id='title'>pic3.jpg</input>\n   \
+    \                 <FrameLayout id='58'>\n                      <button id='59'\
+    \ resource_id='button1'>SAVE</button>\n                    </FrameLayout>\n  \
+    \                </LinearLayout>\n                </ViewGroup>\n             \
+    \ </ViewGroup>\n            </DrawerLayout>\n          </ViewGroup>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 7dbda301e5283dc4e2bd19349c209d758878021484254956b28096bf83dfa517
+  state_str: b
+  tag: 2023-07-06_235928
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <RelativeLayout id='5' resource_id='fragment_holder'>\n\
+    \            <scrollbar id='6' resource_id='view_pager'></scrollbar>\n       \
+    \     <ImageView id='35' resource_id='top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='36' resource_id='medium_viewer_appbar'>\n              <ViewGroup id='37'\
+    \ resource_id='medium_viewer_toolbar'>\n                <ImageButton id='38'></ImageButton>\n\
+    \                <p id='39'>pic3.jpg</p>\n                <LinearLayoutCompat\
+    \ id='40'>\n                  <button id='41' resource_id='menu_rotate' alt='Rotate'></button>\n\
+    \                  <button id='42' resource_id='menu_properties' alt='Properties'></button>\n\
+    \                  <button id='43' alt='More options'></button>\n            \
+    \    </LinearLayoutCompat>\n              </ViewGroup>\n            </LinearLayout>\n\
+    \            <ViewGroup id='44' resource_id='bottom_actions'>\n              <button\
+    \ id='45' resource_id='bottom_favorite' alt='Toggle favorite'></button>\n    \
+    \          <button id='46' resource_id='bottom_edit' alt='Edit'></button>\n  \
+    \            <button id='47' resource_id='bottom_share' alt='Share'></button>\n\
+    \              <button id='48' resource_id='bottom_delete' alt='Delete'></button>\n\
+    \            </ViewGroup>\n          </RelativeLayout>\n        </FrameLayout>\n\
+    \      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: f0c7d4f5cd80d174486b8bf80b9d8fdf9194087dba2597e5a56418705f1d28e1
+  state_str: 1d423634a7686aeb54dcd3e9084178d9176e4c73e2d71ccafb069c34f1aa46b0
+  tag: 2023-07-06_234916_2
+step_num: 6
+task_name: print the last picture I took as pdf

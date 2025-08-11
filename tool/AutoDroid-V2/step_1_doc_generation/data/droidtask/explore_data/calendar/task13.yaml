@@ -1,0 +1,225 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 20
+  Choice: 20
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <RelativeLayout id='4'>\n          <button\
+    \ id='5' resource_id='title'>Add holidays</button>\n        </RelativeLayout>\n\
+    \      </LinearLayout>\n      <LinearLayout id='6'>\n        <RelativeLayout id='7'>\n\
+    \          <button id='8' resource_id='title'>Add contact birthdays</button>\n\
+    \        </RelativeLayout>\n      </LinearLayout>\n      <LinearLayout id='9'>\n\
+    \        <RelativeLayout id='10'>\n          <button id='11' resource_id='title'>Add\
+    \ contact anniversaries</button>\n        </RelativeLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='12'>\n        <RelativeLayout id='13'>\n          <button\
+    \ id='14' resource_id='title'>Import events from an .ics file</button>\n     \
+    \   </RelativeLayout>\n      </LinearLayout>\n      <LinearLayout id='15'>\n \
+    \       <RelativeLayout id='16'>\n          <button id='17' resource_id='title'>Export\
+    \ events to an .ics file</button>\n        </RelativeLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='18'>\n        <RelativeLayout id='19'>\n          <button\
+    \ id='20' resource_id='title'>Settings</button>\n        </RelativeLayout>\n \
+    \     </LinearLayout>\n      <LinearLayout id='21'>\n        <RelativeLayout id='22'>\n\
+    \          <button id='23' resource_id='title'>About</button>\n        </RelativeLayout>\n\
+    \      </LinearLayout>\n    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 5534c66d5f37c0f29958ac89e66254fa62b5e261bf014a6fb71d9aa78a75d4b3
+  state_str: '2'
+  tag: 2023-07-16_121307
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 29
+  Choice: 29
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Navigate up'></button>\n            <p id='7'>Settings</p>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n        <FrameLayout id='9' resource_id='content'>\n\
+    \          <scrollbar id='10' resource_id='settings_scrollview'>\n           \
+    \ <LinearLayout id='11' resource_id='settings_holder'>\n              <RelativeLayout\
+    \ id='12' resource_id='settings_customize_colors_holder'>\n                <button\
+    \ id='13' resource_id='settings_customize_colors_label'>Customize colors</button>\n\
+    \              </RelativeLayout>\n              <RelativeLayout id='14' resource_id='settings_manage_event_types_holder'>\n\
+    \                <button id='15' resource_id='settings_manage_event_types_label'>Manage\
+    \ event types</button>\n              </RelativeLayout>\n              <RelativeLayout\
+    \ id='16' resource_id='settings_hour_format_holder'>\n                <checkbox\
+    \ id='17' resource_id='settings_hour_format'>Use 24-hour time format OFF</checkbox>\n\
+    \              </RelativeLayout>\n              <RelativeLayout id='18' resource_id='settings_sunday_first_holder'>\n\
+    \                <checkbox id='19' resource_id='settings_sunday_first' status='selected'>Start\
+    \ week on Sunday ON</checkbox>\n              </RelativeLayout>\n            \
+    \  <RelativeLayout id='20' resource_id='settings_avoid_whats_new_holder'>\n  \
+    \              <checkbox id='21' resource_id='settings_avoid_whats_new'>Avoid\
+    \ showing What&apos;s New on startup OFF</checkbox>\n              </RelativeLayout>\n\
+    \              <RelativeLayout id='22' resource_id='settings_delete_all_events_holder'>\n\
+    \                <button id='23' resource_id='settings_delete_all_events'>Delete\
+    \ all events</button>\n              </RelativeLayout>\n              <View id='24'\
+    \ resource_id='reminders_divider'></View>\n              <p id='25' resource_id='reminders_label'>EVENT\
+    \ REMINDERS</p>\n              <RelativeLayout id='26' resource_id='settings_vibrate_holder'>\n\
+    \                <checkbox id='27' resource_id='settings_vibrate'>Vibrate on reminder\
+    \ notification OFF</checkbox>\n              </RelativeLayout>\n             \
+    \ <RelativeLayout id='28' resource_id='settings_reminder_sound_holder'>\n    \
+    \            <button id='29' resource_id='settings_reminder_sound_label'>Reminder\
+    \ sound</button>\n                <button id='30' resource_id='settings_reminder_sound'>Default\
+    \ (Pixie Dust)</button>\n              </RelativeLayout>\n              <RelativeLayout\
+    \ id='31' resource_id='settings_use_same_snooze_holder'>\n                <checkbox\
+    \ id='32' resource_id='settings_use_same_snooze' status='selected'>Always use\
+    \ same snooze time ON</checkbox>\n              </RelativeLayout>\n          \
+    \    <RelativeLayout id='33' resource_id='settings_snooze_time_holder'>\n    \
+    \            <button id='34' resource_id='settings_snooze_time_label'>Snooze time</button>\n\
+    \                <button id='35' resource_id='settings_snooze_time'>10 minutes</button>\n\
+    \              </RelativeLayout>\n            </LinearLayout>\n          </scrollbar>\n\
+    \        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: e5bb0f7b3eb647b48936f7e4e35769d570c6ae713970b911aa4297f24275ca7f
+  state_str: 72b9118f038d2fed5d6bd657cb33cdc94704c73779faf260ddeecd2250c285ba
+  tag: 2023-07-16_121313
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 17
+  Choice: 17
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <scrollbar id='8' resource_id='dialog_select_alarm_scrollview'>\n\
+    \                  <LinearLayout id='9' resource_id='dialog_select_alarm_holder'>\n\
+    \                    <p id='10' resource_id='dialog_select_alarm_your_label'>Your\
+    \ sounds</p>\n                    <RadioGroup id='11' resource_id='dialog_select_alarm_your_radio'>\n\
+    \                      <checkbox id='12'>Add a new sound</checkbox>\n        \
+    \            </RadioGroup>\n                    <p id='13' resource_id='dialog_select_alarm_system_label'>System\
+    \ sounds</p>\n                    <RadioGroup id='14' resource_id='dialog_select_alarm_system_radio'>\n\
+    \                      <checkbox id='15'>No sound</checkbox>\n               \
+    \       <checkbox id='16' status='selected'>Default (Pixie Dust)</checkbox>\n\
+    \                      <checkbox id='17'>Adara</checkbox>\n                  \
+    \    <checkbox id='18'>Aldebaran</checkbox>\n                      <checkbox id='19'>Altair</checkbox>\n\
+    \                      <checkbox id='20'>Alya</checkbox>\n                   \
+    \   <checkbox id='21'>Antares</checkbox>\n                      <checkbox id='22'>Antimony</checkbox>\n\
+    \                      <checkbox id='23'>Arcturus</checkbox>\n               \
+    \       <checkbox id='24'>Argon</checkbox>\n                    </RadioGroup>\n\
+    \                  </LinearLayout>\n                </scrollbar>\n           \
+    \   </FrameLayout>\n            </FrameLayout>\n            <ScrollView id='90'\
+    \ resource_id='buttonPanel'>\n              <LinearLayout id='91'>\n         \
+    \       <button id='92' resource_id='button2'>CANCEL</button>\n              \
+    \  <button id='93' resource_id='button1'>OK</button>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </aq>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 1d37b5a0628f5da09a91909ab5aa8fb175ef4f5e000c8e7b2baa06df4938b113
+  state_str: 346a936f789495fdfd656fc7ca495fc13ddca5e39405c64a00d29036cc18d3e9
+  tag: 2023-07-03_205714
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 93
+  Choice: 93
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <scrollbar id='8' resource_id='dialog_select_alarm_scrollview'>\n\
+    \                  <LinearLayout id='9' resource_id='dialog_select_alarm_holder'>\n\
+    \                    <p id='10' resource_id='dialog_select_alarm_your_label'>Your\
+    \ sounds</p>\n                    <RadioGroup id='11' resource_id='dialog_select_alarm_your_radio'>\n\
+    \                      <checkbox id='12'>Add a new sound</checkbox>\n        \
+    \            </RadioGroup>\n                    <p id='13' resource_id='dialog_select_alarm_system_label'>System\
+    \ sounds</p>\n                    <RadioGroup id='14' resource_id='dialog_select_alarm_system_radio'>\n\
+    \                      <checkbox id='15'>No sound</checkbox>\n               \
+    \       <checkbox id='16'>Default (Pixie Dust)</checkbox>\n                  \
+    \    <checkbox id='17' status='selected'>Adara</checkbox>\n                  \
+    \    <checkbox id='18'>Aldebaran</checkbox>\n                      <checkbox id='19'>Altair</checkbox>\n\
+    \                      <checkbox id='20'>Alya</checkbox>\n                   \
+    \   <checkbox id='21'>Antares</checkbox>\n                      <checkbox id='22'>Antimony</checkbox>\n\
+    \                      <checkbox id='23'>Arcturus</checkbox>\n               \
+    \       <checkbox id='24'>Argon</checkbox>\n                    </RadioGroup>\n\
+    \                  </LinearLayout>\n                </scrollbar>\n           \
+    \   </FrameLayout>\n            </FrameLayout>\n            <ScrollView id='90'\
+    \ resource_id='buttonPanel'>\n              <LinearLayout id='91'>\n         \
+    \       <button id='92' resource_id='button2'>CANCEL</button>\n              \
+    \  <button id='93' resource_id='button1'>OK</button>\n              </LinearLayout>\n\
+    \            </ScrollView>\n          </aq>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 9888c83e7351b54bb56f2f0567b5250299c0b9c8d7e7921c8e638da5cf346b8d
+  state_str: 29d753aeb7275e575680035e78b2bd3a3df634030ace02aa30c8204883faff2b
+  tag: 2023-07-03_205749
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <button id='6' alt='Navigate up'></button>\n            <p id='7'>Settings</p>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n        <FrameLayout id='9' resource_id='content'>\n\
+    \          <scrollbar id='10' resource_id='settings_scrollview'>\n           \
+    \ <LinearLayout id='11' resource_id='settings_holder'>\n              <RelativeLayout\
+    \ id='12' resource_id='settings_customize_colors_holder'>\n                <button\
+    \ id='13' resource_id='settings_customize_colors_label'>Customize colors</button>\n\
+    \              </RelativeLayout>\n              <RelativeLayout id='14' resource_id='settings_manage_event_types_holder'>\n\
+    \                <button id='15' resource_id='settings_manage_event_types_label'>Manage\
+    \ event types</button>\n              </RelativeLayout>\n              <RelativeLayout\
+    \ id='16' resource_id='settings_hour_format_holder'>\n                <checkbox\
+    \ id='17' resource_id='settings_hour_format'>Use 24-hour time format OFF</checkbox>\n\
+    \              </RelativeLayout>\n              <RelativeLayout id='18' resource_id='settings_sunday_first_holder'>\n\
+    \                <checkbox id='19' resource_id='settings_sunday_first' status='selected'>Start\
+    \ week on Sunday ON</checkbox>\n              </RelativeLayout>\n            \
+    \  <RelativeLayout id='20' resource_id='settings_avoid_whats_new_holder'>\n  \
+    \              <checkbox id='21' resource_id='settings_avoid_whats_new'>Avoid\
+    \ showing What&apos;s New on startup OFF</checkbox>\n              </RelativeLayout>\n\
+    \              <RelativeLayout id='22' resource_id='settings_delete_all_events_holder'>\n\
+    \                <button id='23' resource_id='settings_delete_all_events'>Delete\
+    \ all events</button>\n              </RelativeLayout>\n              <View id='24'\
+    \ resource_id='reminders_divider'></View>\n              <p id='25' resource_id='reminders_label'>EVENT\
+    \ REMINDERS</p>\n              <RelativeLayout id='26' resource_id='settings_vibrate_holder'>\n\
+    \                <checkbox id='27' resource_id='settings_vibrate'>Vibrate on reminder\
+    \ notification OFF</checkbox>\n              </RelativeLayout>\n             \
+    \ <RelativeLayout id='28' resource_id='settings_reminder_sound_holder'>\n    \
+    \            <button id='29' resource_id='settings_reminder_sound_label'>Reminder\
+    \ sound</button>\n                <button id='30' resource_id='settings_reminder_sound'>Adara</button>\n\
+    \              </RelativeLayout>\n              <RelativeLayout id='31' resource_id='settings_use_same_snooze_holder'>\n\
+    \                <checkbox id='32' resource_id='settings_use_same_snooze' status='selected'>Always\
+    \ use same snooze time ON</checkbox>\n              </RelativeLayout>\n      \
+    \        <RelativeLayout id='33' resource_id='settings_snooze_time_holder'>\n\
+    \                <button id='34' resource_id='settings_snooze_time_label'>Snooze\
+    \ time</button>\n                <button id='35' resource_id='settings_snooze_time'>10\
+    \ minutes</button>\n              </RelativeLayout>\n            </LinearLayout>\n\
+    \          </scrollbar>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: a7d6ebc909fa8758b2912ae42b2f20e640d9e6debc721d99e7afad68d69d4fb5
+  state_str: 4bdbc029c2035e6adcad83fdb5143a3b05369f62fd44e31ed2f1751f6dae7f2c
+  tag: 2023-07-03_205827
+step_num: 6
+task_name: change the event reminder sound of Calendar app to adara

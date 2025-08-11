@@ -1,0 +1,284 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 25
+  Choice: 25
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='filter' alt='Filter'></button>\n                      <button id='15'\
+    \ resource_id='create_new_contact' alt='Create new contact'></button>\n      \
+    \                <button id='16' alt='More options'></button>\n              \
+    \      </LinearLayoutCompat>\n                  </ViewGroup>\n               \
+    \ </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <ViewGroup id='17' resource_id='main_holder'>\n              <scrollbar\
+    \ id='18' resource_id='view_pager'>\n                <RelativeLayout id='19' resource_id='contacts_fragment'>\n\
+    \                  <RelativeLayout id='20' resource_id='fragment_wrapper'>\n \
+    \                   <RecyclerView id='21' resource_id='fragment_list'>\n     \
+    \                 <FrameLayout id='22' resource_id='item_contact_frame'>\n   \
+    \                     <RelativeLayout id='23' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='24' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='25' resource_id='item_contact_name'>Alice</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                      <FrameLayout id='26' resource_id='item_contact_frame'>\n\
+    \                        <RelativeLayout id='27' resource_id='item_contact_holder'>\n\
+    \                          <ImageView id='28' resource_id='item_contact_image'></ImageView>\n\
+    \                          <button id='29' resource_id='item_contact_name'>Bob</button>\n\
+    \                        </RelativeLayout>\n                      </FrameLayout>\n\
+    \                    </RecyclerView>\n                    <ViewGroup id='30' resource_id='letter_fastscroller_thumb'></ViewGroup>\n\
+    \                    <LinearLayout id='34' resource_id='letter_fastscroller'>\n\
+    \                      <button id='35'>A\nB</button>\n                    </LinearLayout>\n\
+    \                  </RelativeLayout>\n                </RelativeLayout>\n    \
+    \          </scrollbar>\n              <button id='59' resource_id='main_dialpad_button'\
+    \ alt='Dialpad'></button>\n              <HorizontalScrollView id='60' resource_id='main_tabs_holder'>\n\
+    \                <LinearLayout id='61'>\n                  <LinearLayout id='62'>\n\
+    \                    <LinearLayout id='63' resource_id='tab_item_holder'>\n  \
+    \                    <ImageView id='64' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='65' resource_id='tab_item_label' status='selected'>Contacts</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='66'>\n                    <LinearLayout id='67'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='68' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='69' resource_id='tab_item_label'>Favorites</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='70'>\n                    <LinearLayout id='71'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='72' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='73' resource_id='tab_item_label'>Call History</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </ViewGroup>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 0c185e3afb93e10afd432c02f64a1be0de6945af47eff547674ad71159e353b5
+  state_str: f1e3658978875fcb435c615763df624b0dbdae9c42b85a19abf41c7c8212dc3b
+  tag: 2023-07-02_114613
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 36
+  Choice: 36
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <RelativeLayout id='5' resource_id='contact_wrapper'>\n\
+    \            <ScrollView id='6' resource_id='contact_scrollview'>\n          \
+    \    <RelativeLayout id='7' resource_id='contact_holder'>\n                <p\
+    \ id='8' resource_id='contact_photo' alt='Change photo'></p>\n               \
+    \ <button id='9' resource_id='contact_toggle_favorite' alt='Toggle favorite'></button>\n\
+    \                <LinearLayout id='10' resource_id='contact_actions_holder'>\n\
+    \                  <button id='11' resource_id='contact_send_email' alt='Send\
+    \ email'></button>\n                  <button id='12' resource_id='contact_start_call'\
+    \ alt='Call contact'></button>\n                  <button id='13' resource_id='contact_send_sms'\
+    \ alt='Send SMS'></button>\n                </LinearLayout>\n                <ImageView\
+    \ id='14' resource_id='contact_name_image'></ImageView>\n                <p id='15'\
+    \ resource_id='contact_name'>Alice</p>\n                <ImageView id='16' resource_id='contact_numbers_image'></ImageView>\n\
+    \                <LinearLayout id='17' resource_id='contact_numbers_holder'>\n\
+    \                  <RelativeLayout id='18' resource_id='contact_number_holder'>\n\
+    \                    <button id='19' resource_id='contact_number'>123456</button>\n\
+    \                    <button id='20' resource_id='contact_number_type'>Mobile</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='21' resource_id='contact_emails_image'></ImageView>\n\
+    \                <LinearLayout id='22' resource_id='contact_emails_holder'>\n\
+    \                  <RelativeLayout id='23' resource_id='contact_email_holder'>\n\
+    \                    <button id='24' resource_id='contact_email'>alice@mails.com</button>\n\
+    \                    <button id='25' resource_id='contact_email_type'>Home</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='26' resource_id='contact_source_image'></ImageView>\n\
+    \                <LinearLayout id='27' resource_id='contact_sources_holder'>\n\
+    \                  <RelativeLayout id='28' resource_id='contact_source_holder'>\n\
+    \                    <button id='29' resource_id='contact_source'>Phone storage</button>\n\
+    \                    <ImageView id='30' resource_id='contact_source_image'></ImageView>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \        </RelativeLayout>\n            </ScrollView>\n            <ImageView\
+    \ id='31' resource_id='contact_photo_top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='32' resource_id='contact_appbar'>\n              <ViewGroup id='33' resource_id='contact_toolbar'>\n\
+    \                <ImageButton id='34'></ImageButton>\n                <LinearLayoutCompat\
+    \ id='35'>\n                  <button id='36' resource_id='edit' alt='Edit contact'></button>\n\
+    \                  <button id='37' resource_id='share' alt='Share'></button>\n\
+    \                  <button id='38' resource_id='delete' alt='Delete'></button>\n\
+    \                  <button id='39' alt='More options'></button>\n            \
+    \    </LinearLayoutCompat>\n              </ViewGroup>\n            </LinearLayout>\n\
+    \          </RelativeLayout>\n        </FrameLayout>\n      </LinearLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: f2e82db6a77e461d904c435bd52078eb008f16f3a843a151ad6c6df883eb939a
+  state_str: '0'
+  tag: 2023-07-02_105232
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    id: 17
+    text: '1234567890'
+  Choice: 17
+  Input: '1234567890'
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <RelativeLayout id='5' resource_id='contact_wrapper'>\n\
+    \            <scrollbar id='6' resource_id='contact_scrollview'>\n           \
+    \   <RelativeLayout id='7' resource_id='contact_holder'>\n                <button\
+    \ id='8' resource_id='contact_photo' alt='Change photo'></button>\n          \
+    \      <button id='9' resource_id='contact_toggle_favorite' alt='Toggle favorite'></button>\n\
+    \                <button id='10' resource_id='contact_change_photo' alt='Change\
+    \ photo'></button>\n                <ImageView id='11' resource_id='contact_name_image'></ImageView>\n\
+    \                <input id='12' resource_id='contact_first_name'>Alice</input>\n\
+    \                <input id='13' resource_id='contact_surname'>Surname</input>\n\
+    \                <ImageView id='14' resource_id='contact_numbers_image'></ImageView>\n\
+    \                <LinearLayout id='15' resource_id='contact_numbers_holder'>\n\
+    \                  <RelativeLayout id='16' resource_id='contact_number_holder'>\n\
+    \                    <input id='17' resource_id='contact_number'>123456</input>\n\
+    \                    <button id='18' resource_id='contact_number_type'>Mobile</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='19' resource_id='contact_numbers_add_new'></ImageView>\n\
+    \                <ImageView id='20' resource_id='contact_emails_image'></ImageView>\n\
+    \                <LinearLayout id='21' resource_id='contact_emails_holder'>\n\
+    \                  <RelativeLayout id='22' resource_id='contact_email_holder'>\n\
+    \                    <input id='23' resource_id='contact_email'>alice@mails.com</input>\n\
+    \                    <button id='24' resource_id='contact_email_type'>Home</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='25' resource_id='contact_emails_add_new'></ImageView>\n\
+    \                <ImageView id='26' resource_id='contact_addresses_image'></ImageView>\n\
+    \                <LinearLayout id='27' resource_id='contact_addresses_holder'>\n\
+    \                  <RelativeLayout id='28' resource_id='contact_address_holder'>\n\
+    \                    <input id='29' resource_id='contact_address'>Address</input>\n\
+    \                    <button id='30' resource_id='contact_address_type'>Home</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='31' resource_id='contact_addresses_add_new'></ImageView>\n\
+    \                <ImageView id='32' resource_id='contact_events_image'></ImageView>\n\
+    \                <LinearLayout id='33' resource_id='contact_events_holder'>\n\
+    \                  <RelativeLayout id='34' resource_id='contact_event_holder'>\n\
+    \                    <button id='35' resource_id='contact_event'>Unknown</button>\n\
+    \                    <button id='36' resource_id='contact_event_type'>Birthday</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='37' resource_id='contact_events_add_new'></ImageView>\n\
+    \              </RelativeLayout>\n            </scrollbar>\n            <ImageView\
+    \ id='47' resource_id='contact_photo_top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='48' resource_id='contact_appbar'>\n              <ViewGroup id='49' resource_id='contact_toolbar'>\n\
+    \                <ImageButton id='50'></ImageButton>\n                <LinearLayoutCompat\
+    \ id='51'>\n                  <button id='52' resource_id='save' alt='Save'></button>\n\
+    \                  <button id='53' resource_id='share' alt='Share'></button>\n\
+    \                  <button id='54' resource_id='delete' alt='Delete'></button>\n\
+    \                  <button id='55' alt='More options'></button>\n            \
+    \    </LinearLayoutCompat>\n              </ViewGroup>\n            </LinearLayout>\n\
+    \          </RelativeLayout>\n        </FrameLayout>\n      </LinearLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 0d0357b2f47f6d25d5887ee7b65e2b6f2c53e00987b85c2acebe7694a75bed34
+  state_str: 72a051cd8130e40837e4800116a8b1794ee80c2853c0e99c1f78b375bf8d4802
+  tag: 2023-07-02_105248
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 52
+  Choice: 52
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <RelativeLayout id='5' resource_id='contact_wrapper'>\n\
+    \            <scrollbar id='6' resource_id='contact_scrollview'>\n           \
+    \   <RelativeLayout id='7' resource_id='contact_holder'>\n                <button\
+    \ id='8' resource_id='contact_photo' alt='Change photo'></button>\n          \
+    \      <button id='9' resource_id='contact_toggle_favorite' alt='Toggle favorite'></button>\n\
+    \                <button id='10' resource_id='contact_change_photo' alt='Change\
+    \ photo'></button>\n                <ImageView id='11' resource_id='contact_name_image'></ImageView>\n\
+    \                <input id='12' resource_id='contact_first_name'>Alice</input>\n\
+    \                <input id='13' resource_id='contact_surname'>Surname</input>\n\
+    \                <ImageView id='14' resource_id='contact_numbers_image'></ImageView>\n\
+    \                <LinearLayout id='15' resource_id='contact_numbers_holder'>\n\
+    \                  <RelativeLayout id='16' resource_id='contact_number_holder'>\n\
+    \                    <input id='17' resource_id='contact_number'>1234567890</input>\n\
+    \                    <button id='18' resource_id='contact_number_type'>Mobile</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='19' resource_id='contact_numbers_add_new'></ImageView>\n\
+    \                <ImageView id='20' resource_id='contact_emails_image'></ImageView>\n\
+    \                <LinearLayout id='21' resource_id='contact_emails_holder'>\n\
+    \                  <RelativeLayout id='22' resource_id='contact_email_holder'>\n\
+    \                    <input id='23' resource_id='contact_email'>alice@mails.com</input>\n\
+    \                    <button id='24' resource_id='contact_email_type'>Home</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='25' resource_id='contact_emails_add_new'></ImageView>\n\
+    \                <ImageView id='26' resource_id='contact_addresses_image'></ImageView>\n\
+    \                <LinearLayout id='27' resource_id='contact_addresses_holder'>\n\
+    \                  <RelativeLayout id='28' resource_id='contact_address_holder'>\n\
+    \                    <input id='29' resource_id='contact_address'>Address</input>\n\
+    \                    <button id='30' resource_id='contact_address_type'>Home</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='31' resource_id='contact_addresses_add_new'></ImageView>\n\
+    \                <ImageView id='32' resource_id='contact_events_image'></ImageView>\n\
+    \                <LinearLayout id='33' resource_id='contact_events_holder'>\n\
+    \                  <RelativeLayout id='34' resource_id='contact_event_holder'>\n\
+    \                    <button id='35' resource_id='contact_event'>Unknown</button>\n\
+    \                    <button id='36' resource_id='contact_event_type'>Birthday</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='37' resource_id='contact_events_add_new'></ImageView>\n\
+    \              </RelativeLayout>\n            </scrollbar>\n            <ImageView\
+    \ id='47' resource_id='contact_photo_top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='48' resource_id='contact_appbar'>\n              <ViewGroup id='49' resource_id='contact_toolbar'>\n\
+    \                <ImageButton id='50'></ImageButton>\n                <LinearLayoutCompat\
+    \ id='51'>\n                  <button id='52' resource_id='save' alt='Save'></button>\n\
+    \                  <button id='53' resource_id='share' alt='Share'></button>\n\
+    \                  <button id='54' resource_id='delete' alt='Delete'></button>\n\
+    \                  <button id='55' alt='More options'></button>\n            \
+    \    </LinearLayoutCompat>\n              </ViewGroup>\n            </LinearLayout>\n\
+    \          </RelativeLayout>\n        </FrameLayout>\n      </LinearLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 5dea48f25a1bc3c0eef24caa4fff6907a1f5317ec2aa9b4549ad757160a7d10f
+  state_str: 6cce95b055ce7661235421ce4cf1ff06cf52287b7ff4dbd37ac0c0d7aafcc3e1
+  tag: 2023-07-02_105423
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <RelativeLayout id='5' resource_id='contact_wrapper'>\n\
+    \            <ScrollView id='6' resource_id='contact_scrollview'>\n          \
+    \    <RelativeLayout id='7' resource_id='contact_holder'>\n                <p\
+    \ id='8' resource_id='contact_photo' alt='Change photo'></p>\n               \
+    \ <button id='9' resource_id='contact_toggle_favorite' alt='Toggle favorite'></button>\n\
+    \                <LinearLayout id='10' resource_id='contact_actions_holder'>\n\
+    \                  <button id='11' resource_id='contact_send_email' alt='Send\
+    \ email'></button>\n                  <button id='12' resource_id='contact_start_call'\
+    \ alt='Call contact'></button>\n                  <button id='13' resource_id='contact_send_sms'\
+    \ alt='Send SMS'></button>\n                </LinearLayout>\n                <ImageView\
+    \ id='14' resource_id='contact_name_image'></ImageView>\n                <p id='15'\
+    \ resource_id='contact_name'>Alice</p>\n                <ImageView id='16' resource_id='contact_numbers_image'></ImageView>\n\
+    \                <LinearLayout id='17' resource_id='contact_numbers_holder'>\n\
+    \                  <RelativeLayout id='18' resource_id='contact_number_holder'>\n\
+    \                    <button id='19' resource_id='contact_number'>1234567890</button>\n\
+    \                    <button id='20' resource_id='contact_number_type'>Mobile</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='21' resource_id='contact_emails_image'></ImageView>\n\
+    \                <LinearLayout id='22' resource_id='contact_emails_holder'>\n\
+    \                  <RelativeLayout id='23' resource_id='contact_email_holder'>\n\
+    \                    <button id='24' resource_id='contact_email'>alice@mails.com</button>\n\
+    \                    <button id='25' resource_id='contact_email_type'>Home</button>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <ImageView id='26' resource_id='contact_source_image'></ImageView>\n\
+    \                <LinearLayout id='27' resource_id='contact_sources_holder'>\n\
+    \                  <RelativeLayout id='28' resource_id='contact_source_holder'>\n\
+    \                    <button id='29' resource_id='contact_source'>Phone storage</button>\n\
+    \                    <ImageView id='30' resource_id='contact_source_image'></ImageView>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \        </RelativeLayout>\n            </ScrollView>\n            <ImageView\
+    \ id='31' resource_id='contact_photo_top_shadow'></ImageView>\n            <LinearLayout\
+    \ id='32' resource_id='contact_appbar'>\n              <ViewGroup id='33' resource_id='contact_toolbar'>\n\
+    \                <ImageButton id='34'></ImageButton>\n                <LinearLayoutCompat\
+    \ id='35'>\n                  <button id='36' resource_id='edit' alt='Edit contact'></button>\n\
+    \                  <button id='37' resource_id='share' alt='Share'></button>\n\
+    \                  <button id='38' resource_id='delete' alt='Delete'></button>\n\
+    \                  <button id='39' alt='More options'></button>\n            \
+    \    </LinearLayoutCompat>\n              </ViewGroup>\n            </LinearLayout>\n\
+    \          </RelativeLayout>\n        </FrameLayout>\n      </LinearLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 64cdb56a9152edcd3cea70cdbab6021bee85419c3bf565614ac4f76347002d03
+  state_str: '1'
+  tag: 2023-07-02_105440
+step_num: 6
+task_name: Modify Alice's mobile number to 1234567890 and save it

@@ -1,0 +1,249 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 33
+  Choice: 33
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <FrameLayout id='6' resource_id='container'>\n              <FrameLayout\
+    \ id='7' resource_id='container'>\n                <scrollbar id='8' resource_id='homeLayout'>\n\
+    \                  <LinearLayout id='9' resource_id='homeAppBar'>\n          \
+    \          <FrameLayout id='10'>\n                      <LinearLayout id='11'\
+    \ resource_id='wordmark'></LinearLayout>\n                      <button id='14'\
+    \ resource_id='privateBrowsingButton' alt='Enable private browsing'></button>\n\
+    \                    </FrameLayout>\n                  </LinearLayout>\n     \
+    \             <scrollbar id='15' resource_id='sessionControlRecyclerView'></scrollbar>\n\
+    \                  <ViewGroup id='18' resource_id='toolbarLayout'>\n         \
+    \           <View id='19' resource_id='bottomBarShadow'></View>\n            \
+    \        <View id='20' resource_id='bottom_bar'></View>\n                    <p\
+    \ id='21' resource_id='toolbar_wrapper' alt='Search or enter address'>\n     \
+    \                 <RelativeLayout id='22' resource_id='search_selector_button'>\n\
+    \                        <CardView id='23' resource_id='search_selector'>\n  \
+    \                        <ViewGroup id='24' resource_id='tab_item'>\n        \
+    \                    <button id='25' resource_id='icon' alt='Google'></button>\n\
+    \                            <ImageView id='26' resource_id='arrow'></ImageView>\n\
+    \                          </ViewGroup>\n                        </CardView>\n\
+    \                      </RelativeLayout>\n                      <p id='27' resource_id='toolbar'>Search\
+    \ or enter address</p>\n                    </p>\n                    <RelativeLayout\
+    \ id='28' resource_id='tab_button'>\n                      <button id='29' resource_id='counter_root'\
+    \ alt='0 open tabs. Tap to switch tabs.'>\n                        <button id='30'\
+    \ resource_id='counter_box' alt='The tab counter toolbar button.'></button>\n\
+    \                        <button id='31' resource_id='counter_text'>0</button>\n\
+    \                      </button>\n                    </RelativeLayout>\n    \
+    \                <FrameLayout id='32' resource_id='menuButton'>\n            \
+    \          <button id='33' resource_id='icon' alt='Menu'></button>\n         \
+    \             <button id='34' resource_id='notification_dot' alt='Highlighted'></button>\n\
+    \                    </FrameLayout>\n                  </ViewGroup>\n        \
+    \        </scrollbar>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </LinearLayout>\n  \
+    \  </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 8296582e793e9f504816578383d9d54e13b7fac650c9089e45589743940ebf27
+  state_str: a3cb8fb13bd7c9669e226f206b603089b175e197100a1cf07bb1db68002a0d16
+  tag: 2023-07-12_220314
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 43
+  Choice: 43
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <FrameLayout id='2' resource_id='mozac_browser_menu_menuView'>\n\
+    \      <RecyclerView id='3' resource_id='mozac_browser_menu_recyclerView'>\n \
+    \       <LinearLayout id='4'>\n          <ImageView id='5' resource_id='image'></ImageView>\n\
+    \          <button id='6' resource_id='text'>Bookmarks</button>\n          <View\
+    \ id='7'></View>\n        </LinearLayout>\n        <LinearLayout id='8'>\n   \
+    \       <ImageView id='9' resource_id='image'></ImageView>\n          <button\
+    \ id='10' resource_id='text'>History</button>\n          <View id='11'></View>\n\
+    \        </LinearLayout>\n        <LinearLayout id='12'>\n          <ImageView\
+    \ id='13' resource_id='image'></ImageView>\n          <button id='14' resource_id='text'>Downloads</button>\n\
+    \          <View id='15'></View>\n        </LinearLayout>\n        <LinearLayout\
+    \ id='16'>\n          <ImageView id='17' resource_id='image'></ImageView>\n  \
+    \        <button id='18' resource_id='text'>Add-ons</button>\n          <View\
+    \ id='19'></View>\n        </LinearLayout>\n        <LinearLayout id='20'>\n \
+    \         <ImageView id='21' resource_id='image'></ImageView>\n          <button\
+    \ id='22' resource_id='text'>Sync and save data</button>\n          <View id='23'></View>\n\
+    \        </LinearLayout>\n        <button id='24' resource_id='simple_text'>Manage\
+    \ Account and Devices</button>\n        <View id='25'></View>\n        <checkbox\
+    \ id='26' resource_id='switch_widget'>Desktop site</checkbox>\n        <View id='27'></View>\n\
+    \        <button id='28' alt='Highlighted, What\u2019s new'>\n          <ImageView\
+    \ id='29' resource_id='image'></ImageView>\n          <button id='30' resource_id='notification_dot'\
+    \ alt='Highlighted'></button>\n          <button id='31' resource_id='highlight_text'>What\u2019\
+    s new</button>\n          <ImageView id='32' resource_id='end_image'></ImageView>\n\
+    \        </button>\n        <LinearLayout id='33'>\n          <ImageView id='34'\
+    \ resource_id='image'></ImageView>\n          <button id='35' resource_id='text'>Help</button>\n\
+    \          <View id='36'></View>\n        </LinearLayout>\n        <LinearLayout\
+    \ id='37'>\n          <ImageView id='38' resource_id='image'></ImageView>\n  \
+    \        <button id='39' resource_id='text'>Customize homepage</button>\n    \
+    \    </LinearLayout>\n        <LinearLayout id='41'>\n          <ImageView id='42'\
+    \ resource_id='image'></ImageView>\n          <button id='43' resource_id='text'>Settings</button>\n\
+    \          <View id='44'></View>\n        </LinearLayout>\n      </RecyclerView>\n\
+    \    </FrameLayout>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 39180632bed6820472c6b99209b673b6fc599e7f661164ee753d0964854383bf
+  state_str: '9'
+  tag: 2023-07-12_220454
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 39
+  Choice: 39
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Settings</p>\n\
+    \            </ViewGroup>\n            <FrameLayout id='10' resource_id='container'>\n\
+    \              <FrameLayout id='11' resource_id='container'>\n               \
+    \ <LinearLayout id='12'>\n                  <FrameLayout id='13' resource_id='list_container'>\n\
+    \                    <scrollbar id='14' resource_id='recycler_view'>\n       \
+    \               <ViewGroup id='15'>\n                        <ImageView id='16'\
+    \ resource_id='imageView'></ImageView>\n                        <button id='17'\
+    \ resource_id='title'>Sync and save your data</button>\n                     \
+    \   <button id='18' resource_id='summary'>Sign in to sync tabs, bookmarks, passwords,\
+    \ and mo</button>\n                      </ViewGroup>\n                      <LinearLayout\
+    \ id='19'>\n                        <RelativeLayout id='20'>\n               \
+    \           <button id='21' resource_id='title'>Use domestic China service</button>\n\
+    \                        </RelativeLayout>\n                        <LinearLayout\
+    \ id='22' resource_id='widget_frame'></LinearLayout>\n                      </LinearLayout>\n\
+    \                      <p id='24'>General</p>\n                      <LinearLayout\
+    \ id='25'>\n                        <RelativeLayout id='26'>\n               \
+    \           <button id='27' resource_id='title'>Search</button>\n            \
+    \              <button id='28' resource_id='summary'>Google</button>\n       \
+    \                 </RelativeLayout>\n                      </LinearLayout>\n \
+    \                     <LinearLayout id='29'>\n                        <RelativeLayout\
+    \ id='30'>\n                          <button id='31' resource_id='title'>Tabs</button>\n\
+    \                          <button id='32' resource_id='summary'>Close manually</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='33'>\n                        <RelativeLayout\
+    \ id='34'>\n                          <button id='35' resource_id='title'>Homepage</button>\n\
+    \                          <button id='36' resource_id='summary'>Open on homepage\
+    \ after four hours</button>\n                        </RelativeLayout>\n     \
+    \                 </LinearLayout>\n                      <LinearLayout id='37'>\n\
+    \                        <RelativeLayout id='38'>\n                          <button\
+    \ id='39' resource_id='title'>Customize</button>\n                        </RelativeLayout>\n\
+    \                      </LinearLayout>\n                      <LinearLayout id='40'>\n\
+    \                        <RelativeLayout id='41'>\n                          <button\
+    \ id='42' resource_id='title'>Logins and passwords</button>\n                \
+    \        </RelativeLayout>\n                      </LinearLayout>\n          \
+    \            <LinearLayout id='43'>\n                        <RelativeLayout id='44'>\n\
+    \                          <button id='45' resource_id='title'>Autofill</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='46'>\n                        <RelativeLayout\
+    \ id='47'>\n                          <button id='48' resource_id='title'>Accessibility</button>\n\
+    \                        </RelativeLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='49'></LinearLayout>\n               \
+    \     </scrollbar>\n                  </FrameLayout>\n                </LinearLayout>\n\
+    \              </FrameLayout>\n            </FrameLayout>\n          </LinearLayout>\n\
+    \        </FrameLayout>\n      </LinearLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 7a817b721d1abfd6c27bfde5f105932dcea6ae150b78ccd945861b17390b83b9
+  state_str: 411d8b61b5b9dd76b97e389b3169497abbad10387a64572e381574e059a452ae
+  tag: 2023-07-12_220502
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 21
+  Choice: 21
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Customize</p>\n\
+    \            </ViewGroup>\n            <FrameLayout id='10' resource_id='container'>\n\
+    \              <FrameLayout id='11' resource_id='container'>\n               \
+    \ <LinearLayout id='12'>\n                  <FrameLayout id='13' resource_id='list_container'>\n\
+    \                    <RecyclerView id='14' resource_id='recycler_view'>\n    \
+    \                  <p id='15'>Theme</p>\n                      <ViewGroup id='16'>\n\
+    \                        <RadioButton id='17' resource_id='radio_button'></RadioButton>\n\
+    \                        <button id='18' resource_id='title'>Light</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='19'>\n\
+    \                        <RadioButton id='20' resource_id='radio_button'></RadioButton>\n\
+    \                        <button id='21' resource_id='title'>Dark</button>\n \
+    \                     </ViewGroup>\n                      <ViewGroup id='22'>\n\
+    \                        <RadioButton id='23' resource_id='radio_button'></RadioButton>\n\
+    \                        <button id='24' resource_id='title'>Follow device theme</button>\n\
+    \                      </ViewGroup>\n                      <p id='25'>Toolbar</p>\n\
+    \                      <ViewGroup id='26'>\n                        <RadioButton\
+    \ id='27' resource_id='radio_button'></RadioButton>\n                        <button\
+    \ id='28' resource_id='title'>Top</button>\n                      </ViewGroup>\n\
+    \                      <ViewGroup id='29'>\n                        <RadioButton\
+    \ id='30' resource_id='radio_button'></RadioButton>\n                        <button\
+    \ id='31' resource_id='title'>Bottom</button>\n                      </ViewGroup>\n\
+    \                      <p id='32'>Gestures</p>\n                      <LinearLayout\
+    \ id='33'>\n                        <RelativeLayout id='34'>\n               \
+    \           <button id='35' resource_id='title'>Pull to refresh</button>\n   \
+    \                     </RelativeLayout>\n                        <LinearLayout\
+    \ id='36' resource_id='widget_frame'></LinearLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='38'>\n                        <RelativeLayout\
+    \ id='39'>\n                          <button id='40' resource_id='title'>Scroll\
+    \ to hide toolbar</button>\n                        </RelativeLayout>\n      \
+    \                  <LinearLayout id='41' resource_id='widget_frame'></LinearLayout>\n\
+    \                      </LinearLayout>\n                      <LinearLayout id='43'>\n\
+    \                        <RelativeLayout id='44'>\n                          <button\
+    \ id='45' resource_id='title'>Swipe toolbar sideways to switch tabs</button>\n\
+    \                        </RelativeLayout>\n                        <LinearLayout\
+    \ id='46' resource_id='widget_frame'></LinearLayout>\n                      </LinearLayout>\n\
+    \                    </RecyclerView>\n                  </FrameLayout>\n     \
+    \           </LinearLayout>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </LinearLayout>\n  \
+    \  </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 93a31c46d08f30de12a279d9d017399461c200652faf8112c3fed8997bbd6283
+  state_str: c
+  tag: 2023-07-12_214332
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <LinearLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5' resource_id='rootContainer'>\n\
+    \            <ViewGroup id='6' resource_id='navigationToolbar'>\n            \
+    \  <button id='7' alt='Navigate up'></button>\n              <p id='8'>Customize</p>\n\
+    \            </ViewGroup>\n            <FrameLayout id='10' resource_id='container'>\n\
+    \              <FrameLayout id='11' resource_id='container'>\n               \
+    \ <LinearLayout id='12'>\n                  <FrameLayout id='13' resource_id='list_container'>\n\
+    \                    <RecyclerView id='14' resource_id='recycler_view'>\n    \
+    \                  <p id='15'>Theme</p>\n                      <ViewGroup id='16'>\n\
+    \                        <RadioButton id='17' resource_id='radio_button'></RadioButton>\n\
+    \                        <button id='18' resource_id='title'>Light</button>\n\
+    \                      </ViewGroup>\n                      <ViewGroup id='19'>\n\
+    \                        <RadioButton id='20' resource_id='radio_button'></RadioButton>\n\
+    \                        <button id='21' resource_id='title'>Dark</button>\n \
+    \                     </ViewGroup>\n                      <ViewGroup id='22'>\n\
+    \                        <RadioButton id='23' resource_id='radio_button'></RadioButton>\n\
+    \                        <button id='24' resource_id='title'>Follow device theme</button>\n\
+    \                      </ViewGroup>\n                      <p id='25'>Toolbar</p>\n\
+    \                      <ViewGroup id='26'>\n                        <RadioButton\
+    \ id='27' resource_id='radio_button'></RadioButton>\n                        <button\
+    \ id='28' resource_id='title'>Top</button>\n                      </ViewGroup>\n\
+    \                      <ViewGroup id='29'>\n                        <RadioButton\
+    \ id='30' resource_id='radio_button'></RadioButton>\n                        <button\
+    \ id='31' resource_id='title'>Bottom</button>\n                      </ViewGroup>\n\
+    \                      <p id='32'>Gestures</p>\n                      <LinearLayout\
+    \ id='33'>\n                        <RelativeLayout id='34'>\n               \
+    \           <button id='35' resource_id='title'>Pull to refresh</button>\n   \
+    \                     </RelativeLayout>\n                        <LinearLayout\
+    \ id='36' resource_id='widget_frame'></LinearLayout>\n                      </LinearLayout>\n\
+    \                      <LinearLayout id='38'>\n                        <RelativeLayout\
+    \ id='39'>\n                          <button id='40' resource_id='title'>Scroll\
+    \ to hide toolbar</button>\n                        </RelativeLayout>\n      \
+    \                  <LinearLayout id='41' resource_id='widget_frame'></LinearLayout>\n\
+    \                      </LinearLayout>\n                      <LinearLayout id='43'>\n\
+    \                        <RelativeLayout id='44'>\n                          <button\
+    \ id='45' resource_id='title'>Swipe toolbar sideways to switch tabs</button>\n\
+    \                        </RelativeLayout>\n                        <LinearLayout\
+    \ id='46' resource_id='widget_frame'></LinearLayout>\n                      </LinearLayout>\n\
+    \                    </RecyclerView>\n                  </FrameLayout>\n     \
+    \           </LinearLayout>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </LinearLayout>\n  \
+    \  </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 93a31c46d08f30de12a279d9d017399461c200652faf8112c3fed8997bbd6283
+  state_str: b
+  tag: 2023-07-12_214339
+step_num: 5
+task_name: open dark theme

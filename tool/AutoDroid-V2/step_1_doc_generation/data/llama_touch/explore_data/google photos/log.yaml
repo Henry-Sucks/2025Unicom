@@ -1,0 +1,2631 @@
+records:
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 45
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <ViewGroup id='11' resource_id='all_photos_coordinator'>\n\
+    \                      <FrameLayout id='12' resource_id='fragment_container'>\n\
+    \                        <FrameLayout id='13'>\n                          <FrameLayout\
+    \ id='14' resource_id='fragment_container'>\n                            <FrameLayout\
+    \ id='15' resource_id='fragment_container'>\n                              <FrameLayout\
+    \ id='16' resource_id='photos_photogrid_date_scrubber_view'>\n               \
+    \                 <FrameLayout id='17'></FrameLayout>\n                      \
+    \        </FrameLayout>\n                            </FrameLayout>\n        \
+    \                  </FrameLayout>\n                        </FrameLayout>\n  \
+    \                    </FrameLayout>\n                      <LinearLayout id='20'\
+    \ resource_id='all_photos_empty_state_layout'>\n                        <p id='21'\
+    \ alt='No photos'></p>\n                        <p id='22'>No photos</p>\n   \
+    \                     <p id='23'>Take a picture. Photos &amp; videos appear here.</p>\n\
+    \                      </LinearLayout>\n                    </ViewGroup>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='25' resource_id='scrolling_toolbar_container'>\n\
+    \                    <LinearLayout id='26' resource_id='toolbar_container'>\n\
+    \                      <ViewGroup id='28' resource_id='toolbar'>\n           \
+    \             <ViewGroup id='29'>\n                          <p id='30' resource_id='product_lockup_view'\
+    \ alt='Google Photos'>\n                            <p id='32' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='34'>\n                          <button\
+    \ id='35' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='36' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='39' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='40'>\n                      <LinearLayout\
+    \ id='41' resource_id='tab_layout'>\n                        <LinearLayout id='43'>\n\
+    \                          <button id='44' resource_id='tab_photos' status='selected'>Photos</button>\n\
+    \                          <button id='45' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='46' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='47' resource_id='tab_library'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: c97d2e
+  structure_str: 3d7534
+  tag: 2024-11-11_194447
+  width: 1080
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 1
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <FrameLayout id='11'\
+    \ resource_id='photos_search_tab_container'>\n                      <FrameLayout\
+    \ id='12' resource_id='photos_search_tab_date_scrubber_view'>\n              \
+    \          <scrollbar id='13' resource_id='photos_search_destination_searchtab_recycler_view'>\n\
+    \                          <ViewGroup id='14'>\n                            <p\
+    \ id='16' resource_id='caption_text'>Check back soon</p>\n                   \
+    \       </ViewGroup>\n                          <LinearLayout id='17' resource_id='search_lists_container'>\n\
+    \                            <p id='18' resource_id='heading_text'>Your Activity</p>\n\
+    \                            <button id='19'>\n                              <button\
+    \ id='21' resource_id='item_label'>Favorites</button>\n                      \
+    \      </button>\n                            <button id='23'>\n             \
+    \                 <button id='25' resource_id='item_label'>Recently Added</button>\n\
+    \                            </button>\n                            <p id='26'\
+    \ resource_id='heading_text'>Categories</p>\n                            <button\
+    \ id='27'>\n                              <button id='29' resource_id='item_label'>Screenshots</button>\n\
+    \                            </button>\n                            <button id='31'>\n\
+    \                              <button id='33' resource_id='item_label'>Selfies</button>\n\
+    \                            </button>\n                            <button id='35'>\n\
+    \                              <button id='37' resource_id='item_label'>Videos</button>\n\
+    \                            </button>\n                            <button id='39'>\n\
+    \                              <button id='41' resource_id='item_label'>360 Photos\
+    \ &amp; Videos</button>\n                            </button>\n             \
+    \               <button id='43'>\n                              <button id='45'\
+    \ resource_id='item_label'>PhotoScan</button>\n                            </button>\n\
+    \                          </LinearLayout>\n                        </scrollbar>\n\
+    \                      </FrameLayout>\n                      <button id='70' resource_id='photos_search_destination_searchtab_searchbar'>\n\
+    \                        <button id='71' resource_id='searchbar'>Search your photos</button>\n\
+    \                      </button>\n                    </FrameLayout>\n       \
+    \           </FrameLayout>\n                  <FrameLayout id='72' resource_id='scrolling_toolbar_container'>\n\
+    \                    <LinearLayout id='73' resource_id='toolbar_container'>\n\
+    \                      <ViewGroup id='75' resource_id='toolbar'>\n           \
+    \             <ViewGroup id='76'>\n                          <p id='77' resource_id='product_lockup_view'\
+    \ alt='Google Photos'>\n                            <p id='79' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='81'>\n                          <button\
+    \ id='82' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='83' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='86' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='87'>\n                      <LinearLayout\
+    \ id='88' resource_id='tab_layout'>\n                        <LinearLayout id='90'>\n\
+    \                          <button id='91' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='92' resource_id='search_destination' status='selected'>Search</button>\n\
+    \                          <button id='93' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='94' resource_id='tab_library'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: ad898c
+  structure_str: 05af27
+  tag: 2024-11-11_194651
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 99
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <FrameLayout id='11'\
+    \ resource_id='photos_search_tab_container'>\n                      <FrameLayout\
+    \ id='12' resource_id='photos_search_tab_date_scrubber_view'>\n              \
+    \          <scrollbar id='13' resource_id='photos_search_destination_searchtab_recycler_view'>\n\
+    \                          <LinearLayout id='14' resource_id='search_lists_container'>\n\
+    \                            <button id='32'>\n                              <button\
+    \ id='34' resource_id='item_label'>Videos</button>\n                         \
+    \   </button>\n                            <button id='36'>\n                \
+    \              <button id='38' resource_id='item_label'>360 Photos &amp; Videos</button>\n\
+    \                            </button>\n                            <button id='40'>\n\
+    \                              <button id='42' resource_id='item_label'>PhotoScan</button>\n\
+    \                            </button>\n                            <button id='44'>\n\
+    \                              <button id='46' resource_id='item_label'>Motion\
+    \ Photos</button>\n                            </button>\n                   \
+    \         <p id='47' resource_id='heading_text'>Creations</p>\n              \
+    \              <button id='48'>\n                              <button id='50'\
+    \ resource_id='item_label'>Saved creations</button>\n                        \
+    \    </button>\n                            <button id='52'>\n               \
+    \               <button id='54' resource_id='item_label'>Animations</button>\n\
+    \                            </button>\n                            <button id='56'>\n\
+    \                              <button id='58' resource_id='item_label'>Collages</button>\n\
+    \                            </button>\n                            <button id='60'>\n\
+    \                              <button id='62' resource_id='item_label'>Movies</button>\n\
+    \                            </button>\n                            <button id='64'>\n\
+    \                              <button id='66' resource_id='item_label'>Cinematic\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                          <button id='67'>\n        \
+    \                    <LinearLayout id='68'>\n                              <LinearLayout\
+    \ id='70'>\n                                <button id='71'>Help improve Google\
+    \ Photos</button>\n                                <button id='72'>Take a minute\
+    \ to review photos now</button>\n                              </LinearLayout>\n\
+    \                            </LinearLayout>\n                          </button>\n\
+    \                          <ViewGroup id='73'>\n                            <p\
+    \ id='74' resource_id='detail_text'>See photos of your favorite people grouped\
+    \ by simi</p>\n                            <button id='75' resource_id='settings_link'>Turn\
+    \ on face grouping</button>\n                          </ViewGroup>\n        \
+    \                </scrollbar>\n                      </FrameLayout>\n        \
+    \              <button id='76' resource_id='photos_search_destination_searchtab_searchbar'>\n\
+    \                        <button id='77' resource_id='searchbar'>Search your photos</button>\n\
+    \                      </button>\n                    </FrameLayout>\n       \
+    \           </FrameLayout>\n                  <FrameLayout id='92' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='93'>\n                      <LinearLayout\
+    \ id='94' resource_id='tab_layout'>\n                        <LinearLayout id='96'>\n\
+    \                          <button id='97' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='98' resource_id='search_destination' status='selected'>Search</button>\n\
+    \                          <button id='99' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='100' resource_id='tab_library'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 14e6de
+  structure_str: 0e3cb5
+  tag: 2024-11-11_194717
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 49
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <FrameLayout id='11'>\n\
+    \                      <FrameLayout id='12' resource_id='sharing_tab_date_scrubber_view'>\n\
+    \                        <RecyclerView id='13' resource_id='shared_albums_list'>\n\
+    \                          <button id='14'>\n                            <ViewGroup\
+    \ id='15'>\n                              <button id='17' resource_id='title'>Add\
+    \ partner account</button>\n                              <button id='18'>Give\
+    \ a partner access to all your photos</button>\n                             \
+    \ <button id='19' resource_id='dismiss_button' alt='Dismiss'></button>\n     \
+    \                       </ViewGroup>\n                          </button>\n  \
+    \                        <LinearLayout id='20'>\n                            <p\
+    \ id='22' resource_id='photos_sharingtab_impl_viewbinders_empty_state_subtitle'>Shared\
+    \ albums and conversations\nwill appear here</p>\n                          </LinearLayout>\n\
+    \                          <button id='23'>\n                            <button\
+    \ id='25'>Other shared links</button>\n                          </button>\n \
+    \                       </RecyclerView>\n                      </FrameLayout>\n\
+    \                      <button id='26' resource_id='share_fab'>Shared album</button>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \            <FrameLayout id='27' resource_id='scrolling_toolbar_container'>\n\
+    \                    <LinearLayout id='28' resource_id='toolbar_container'>\n\
+    \                      <ViewGroup id='30' resource_id='toolbar'>\n           \
+    \             <ViewGroup id='31'>\n                          <p id='32' resource_id='product_lockup_view'\
+    \ alt='Google Photos'>\n                            <p id='34' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='36'>\n                          <button\
+    \ id='37' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='38' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='41' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='42'>\n                      <LinearLayout\
+    \ id='43' resource_id='tab_layout'>\n                        <LinearLayout id='45'>\n\
+    \                          <button id='46' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='47' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='48' resource_id='tab_sharing' status='selected'>Sharing</button>\n\
+    \                          <button id='49' resource_id='tab_library'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 41b894
+  structure_str: afd7a1
+  tag: 2024-11-11_194737
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 32
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <ViewGroup id='11'>\n\
+    \                      <FrameLayout id='12' resource_id='photos_albums_date_scrubber_view'>\n\
+    \                        <RecyclerView id='14' resource_id='photos_albums_recycler_view'>\n\
+    \                          <ViewGroup id='15' resource_id='library_buttons_layout'>\n\
+    \                            <button id='16' resource_id='button1'>Favorites</button>\n\
+    \                            <button id='17' resource_id='button2'>Utilities</button>\n\
+    \                            <button id='18' resource_id='button3'>Archive</button>\n\
+    \                            <button id='19' resource_id='button4'>Trash</button>\n\
+    \                          </ViewGroup>\n                          <button id='21'>\n\
+    \                            <FrameLayout id='22' resource_id='album_cover_holder'>\n\
+    \                              <LinearLayout id='25'></LinearLayout>\n       \
+    \                     </FrameLayout>\n                            <LinearLayout\
+    \ id='27' resource_id='text_container'>\n                              <LinearLayout\
+    \ id='28'>\n                                <button id='29' resource_id='album_cover_title'>sdk_gphone64_x86_64</button>\n\
+    \                              </LinearLayout>\n                            </LinearLayout>\n\
+    \                          </button>\n                          <LinearLayout\
+    \ id='30' resource_id='photos_albums_empty_footer'>\n                        \
+    \    <p id='31' resource_id='empty_title'>The albums you create are shown here</p>\n\
+    \                            <button id='32' resource_id='photos_albums_empty_create_album_button'>Create\
+    \ album</button>\n                          </LinearLayout>\n                \
+    \        </RecyclerView>\n                      </FrameLayout>\n             \
+    \       </ViewGroup>\n                  </FrameLayout>\n                  <FrameLayout\
+    \ id='34' resource_id='scrolling_toolbar_container'>\n                    <LinearLayout\
+    \ id='35' resource_id='toolbar_container'>\n                      <ViewGroup id='37'\
+    \ resource_id='toolbar'>\n                        <ViewGroup id='38'>\n      \
+    \                    <p id='39' resource_id='product_lockup_view' alt='Google\
+    \ Photos'>\n                            <p id='41' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='43'>\n                          <button\
+    \ id='44' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='45' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='48' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='49'>\n                      <LinearLayout\
+    \ id='50' resource_id='tab_layout'>\n                        <LinearLayout id='52'>\n\
+    \                          <button id='53' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='54' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='55' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='56' resource_id='tab_library' status='selected'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: d73069
+  structure_str: 8010a2
+  tag: 2024-11-11_194949
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 17
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>Add a title</input>\n               \
+    \       </LinearLayout>\n                    </LinearLayout>\n               \
+    \     <ViewGroup id='19' resource_id='toolbar'>\n                      <button\
+    \ id='20' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='21'>\n                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: d83fa8
+  structure_str: 1e829b
+  tag: 2024-11-11_195016
+  width: 1080
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    text: my random photos
+  Choice: 17
+  Input: my random photos
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>Add a title</input>\n               \
+    \       </LinearLayout>\n                    </LinearLayout>\n               \
+    \     <ViewGroup id='19' resource_id='toolbar'>\n                      <button\
+    \ id='20' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='21'>\n                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: d83fa8
+  structure_str: 1e829b
+  tag: 2024-11-11_195042
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 34
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>my random photos</input>\n          \
+    \            </LinearLayout>\n                    </LinearLayout>\n          \
+    \          <ViewGroup id='18' resource_id='toolbar'>\n                      <button\
+    \ id='19' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='20'>\n                        <button id='21' resource_id='action_bar_overflow'>\n\
+    \                          <button id='22' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='23' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='25' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='26' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='27'>\n                      <RecyclerView\
+    \ id='28' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='29'>\n                          <LinearLayout id='30' resource_id='emptystate_button_list'>\n\
+    \                            <p id='31'>ADD PHOTOS</p>\n                     \
+    \       <button id='32'>\n                              <button id='34' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 457b8d
+  structure_str: f167c1
+  tag: 2024-11-11_195145
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 35
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>my random photos</input>\n          \
+    \            </LinearLayout>\n                    </LinearLayout>\n          \
+    \          <ViewGroup id='19' resource_id='toolbar'>\n                      <button\
+    \ id='20' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='21'>\n                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 9b5dd9
+  structure_str: 1e829b
+  tag: 2024-11-11_195208
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 9
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <LinearLayout id='6'>\n              <ViewGroup id='7' resource_id='toolbar'>\n\
+    \                <LinearLayout id='8'>\n                  <button id='9' resource_id='close_button'\
+    \ alt='Cancel'></button>\n                  <LinearLayout id='10'>\n         \
+    \           <LinearLayout id='11'>\n                      <p id='12' resource_id='title'>Add\
+    \ photos</p>\n                    </LinearLayout>\n                  </LinearLayout>\n\
+    \                </LinearLayout>\n              </ViewGroup>\n              <FrameLayout\
+    \ id='15' resource_id='main_container'>\n                <FrameLayout id='16'>\n\
+    \                  <FrameLayout id='18' resource_id='fragment_container'>\n  \
+    \                  <FrameLayout id='19'>\n                      <FrameLayout id='21'\
+    \ resource_id='fragment_container'>\n                        <FrameLayout id='22'\
+    \ resource_id='fragment_container'>\n                          <FrameLayout id='23'\
+    \ resource_id='photos_photogrid_date_scrubber_view'>\n                       \
+    \     <FrameLayout id='24'></FrameLayout>\n                          </FrameLayout>\n\
+    \                        </FrameLayout>\n                      </FrameLayout>\n\
+    \                      <button id='26' resource_id='zoom_fab_layout' alt='zoom\
+    \ in'></button>\n                    </FrameLayout>\n                  </FrameLayout>\n\
+    \                </FrameLayout>\n              </FrameLayout>\n            </LinearLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 1da19f
+  structure_str: 8c5e85
+  tag: 2024-11-11_195222
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 23
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>my random photos</input>\n          \
+    \            </LinearLayout>\n                    </LinearLayout>\n          \
+    \          <ViewGroup id='19' resource_id='toolbar'>\n                      <button\
+    \ id='20' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='21'>\n                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 9b5dd9
+  structure_str: 1e829b
+  tag: 2024-11-11_195306
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 9
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <button id='4'>\n        <button id='5' resource_id='action_bar_overflow_menu_item_title'>Select</button>\n\
+    \      </button>\n      <button id='6'>\n        <button id='7' resource_id='action_bar_overflow_menu_item_title'>Edit\
+    \ album</button>\n      </button>\n      <button id='8'>\n        <button id='9'\
+    \ resource_id='action_bar_overflow_menu_item_title'>Options</button>\n      </button>\n\
+    \      <button id='10'>\n        <button id='11' resource_id='action_bar_overflow_menu_item_title'>Delete\
+    \ album</button>\n      </button>\n    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 9b5dd9/e18d24
+  structure_str: 1e829b/4f387a
+  tag: 2024-11-11_195318
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='envelope_settings_container'>\n\
+    \              <button id='10'>\n                <FrameLayout id='11'>\n     \
+    \             <RecyclerView id='12' resource_id='photos_envelope_settings_recycler_view'>\n\
+    \                    <button id='13'>\n                      <button id='14' resource_id='settings_sharing_section_title'>SHARING</button>\n\
+    \                    </button>\n                    <LinearLayout id='15'>\n \
+    \                     <button id='16' resource_id='toggle_row_item'>\n       \
+    \                 <RelativeLayout id='17'>\n                          <LinearLayout\
+    \ id='18' resource_id='text_container'>\n                            <button id='19'\
+    \ resource_id='title'>Link sharing</button>\n                            <button\
+    \ id='20' resource_id='subtitle'>Let anyone with the link see photos and people\
+    \ in </button>\n                          </LinearLayout>\n                  \
+    \        <LinearLayout id='21' resource_id='toggle_container'>\n             \
+    \               <checkbox id='22' resource_id='toggle' alt='Link sharing'></checkbox>\n\
+    \                          </LinearLayout>\n                        </RelativeLayout>\n\
+    \                      </button>\n                    </LinearLayout>\n      \
+    \            </RecyclerView>\n                </FrameLayout>\n               \
+    \ <LinearLayout id='23' resource_id='toolbar_container'>\n                  <ViewGroup\
+    \ id='25' resource_id='toolbar'>\n                    <button id='26' alt='Navigate\
+    \ up'></button>\n                    <button id='27'>Options</button>\n      \
+    \            </ViewGroup>\n                </LinearLayout>\n              </button>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 0198ef
+  structure_str: e9336e
+  tag: 2024-11-11_195334
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 20
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>my random photos</input>\n          \
+    \            </LinearLayout>\n                    </LinearLayout>\n          \
+    \          <ViewGroup id='19' resource_id='toolbar'>\n                      <button\
+    \ id='20' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='21'>\n                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 9b5dd9
+  structure_str: 1e829b
+  tag: 2024-11-11_195345
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 29
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <ViewGroup id='11'>\n\
+    \                      <FrameLayout id='12' resource_id='photos_albums_date_scrubber_view'>\n\
+    \                        <RecyclerView id='14' resource_id='photos_albums_recycler_view'>\n\
+    \                          <ViewGroup id='15' resource_id='library_buttons_layout'>\n\
+    \                            <button id='16' resource_id='button1'>Favorites</button>\n\
+    \                            <button id='17' resource_id='button2'>Utilities</button>\n\
+    \                            <button id='18' resource_id='button3'>Archive</button>\n\
+    \                            <button id='19' resource_id='button4'>Trash</button>\n\
+    \                          </ViewGroup>\n                          <button id='21'>\n\
+    \                            <FrameLayout id='22' resource_id='album_cover_holder'>\n\
+    \                              <LinearLayout id='25'></LinearLayout>\n       \
+    \                     </FrameLayout>\n                            <LinearLayout\
+    \ id='27' resource_id='text_container'>\n                              <LinearLayout\
+    \ id='28'>\n                                <button id='29' resource_id='album_cover_title'>sdk_gphone64_x86_64</button>\n\
+    \                              </LinearLayout>\n                            </LinearLayout>\n\
+    \                          </button>\n                          <LinearLayout\
+    \ id='30' resource_id='photos_albums_empty_footer'>\n                        \
+    \    <p id='31' resource_id='empty_title'>The albums you create are shown here</p>\n\
+    \                            <button id='32' resource_id='photos_albums_empty_create_album_button'>Create\
+    \ album</button>\n                          </LinearLayout>\n                \
+    \        </RecyclerView>\n                      </FrameLayout>\n             \
+    \       </ViewGroup>\n                  </FrameLayout>\n                  <FrameLayout\
+    \ id='34' resource_id='scrolling_toolbar_container'>\n                    <LinearLayout\
+    \ id='35' resource_id='toolbar_container'>\n                      <ViewGroup id='37'\
+    \ resource_id='toolbar'>\n                        <ViewGroup id='38'>\n      \
+    \                    <p id='39' resource_id='product_lockup_view' alt='Google\
+    \ Photos'>\n                            <p id='41' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='43'>\n                          <button\
+    \ id='44' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='45' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='48' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='49'>\n                      <LinearLayout\
+    \ id='50' resource_id='tab_layout'>\n                        <LinearLayout id='52'>\n\
+    \                          <button id='53' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='54' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='55' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='56' resource_id='tab_library' status='selected'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 8aacfb
+  structure_str: 154c62
+  tag: 2024-11-11_195359
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 23
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='7' resource_id='fragment_container'>\n         \
+    \     <FrameLayout id='8'>\n                <FrameLayout id='10' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='11'>\n                    <FrameLayout id='12'\
+    \ resource_id='fragment_container'>\n                      <FrameLayout id='13'\
+    \ resource_id='fragment_container'>\n                        <FrameLayout id='14'\
+    \ resource_id='photos_photogrid_date_scrubber_view'>\n                       \
+    \   <FrameLayout id='15'>\n                            <RecyclerView id='16' resource_id='recycler_view'>\n\
+    \                              <LinearLayout id='17'>\n                      \
+    \          <LinearLayout id='18'>\n                                  <p id='19'\
+    \ resource_id='autobackup_folder_switch_text'>Back up &amp; sync</p>\n       \
+    \                           <checkbox id='20' resource_id='autobackup_folder_switch_icon'\
+    \ alt='Back up &amp; sync'></checkbox>\n                                </LinearLayout>\n\
+    \                              </LinearLayout>\n                             \
+    \ <button id='21'>\n                                <button id='22' resource_id='title'>Today</button>\n\
+    \                              </button>\n                              <button\
+    \ id='23' alt='Photo taken on Nov 11, 2024 11:03:34 AM'></button>\n          \
+    \                  </RecyclerView>\n                          </FrameLayout>\n\
+    \                        </FrameLayout>\n                      </FrameLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </FrameLayout>\n                <LinearLayout id='24' resource_id='toolbar_container'>\n\
+    \                  <ViewGroup id='26' resource_id='toolbar'>\n               \
+    \     <button id='27' alt='Navigate up'></button>\n                    <p id='28'>sdk_gphone64_x86_64</p>\n\
+    \                    <LinearLayoutCompat id='29'>\n                      <button\
+    \ id='30' resource_id='action_bar_overflow'>\n                        <button\
+    \ id='31' resource_id='photos_overflow_icon' alt='More options'></button>\n  \
+    \                    </button>\n                    </LinearLayoutCompat>\n  \
+    \                </ViewGroup>\n                </LinearLayout>\n             \
+    \ </FrameLayout>\n            </FrameLayout>\n          </FrameLayout>\n     \
+    \   </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 5e2e07
+  structure_str: d284f9
+  tag: 2024-11-11_195423
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 48
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='6' resource_id='photo_container'>\n            \
+    \  <LinearLayout id='7' resource_id='photo_pager_container'>\n               \
+    \ <ViewGroup id='8' resource_id='photo_pager'>\n                  <FrameLayout\
+    \ id='13' resource_id='photo_pager_content'>\n                    <ViewPager id='15'\
+    \ resource_id='photo_view_pager'>\n                      <ViewGroup id='16'>\n\
+    \                        <button id='20' resource_id='photos_photofragment_components_background_photo_view'\
+    \ alt='Photo taken on Nov 11, 2024 11:03:34 AM'></button>\n                  \
+    \      <FrameLayout id='22' resource_id='all_controls_container'></FrameLayout>\n\
+    \                      </ViewGroup>\n                    </ViewPager>\n      \
+    \            </FrameLayout>\n                  <ViewGroup id='25' resource_id='toolbar'>\n\
+    \                    <button id='26' alt='Navigate up'></button>\n           \
+    \         <LinearLayoutCompat id='27'>\n                      <button id='28'\
+    \ resource_id='action_bar_overflow'>\n                        <button id='29'\
+    \ resource_id='photos_overflow_icon' alt='More options'></button>\n          \
+    \            </button>\n                    </LinearLayoutCompat>\n          \
+    \        </ViewGroup>\n                  <FrameLayout id='30' resource_id='photo_bar_container'>\n\
+    \                    <FrameLayout id='31' resource_id='photo_action_bar_fragment'>\n\
+    \                      <LinearLayout id='32'>\n                        <FrameLayout\
+    \ id='33'>\n                          <button id='34' resource_id='share' alt='Share'></button>\n\
+    \                          <p id='35' resource_id='button_label'>Share</p>\n \
+    \                       </FrameLayout>\n                        <FrameLayout id='36'>\n\
+    \                          <button id='37' resource_id='edit' alt='Edit'></button>\n\
+    \                          <p id='38' resource_id='button_label'>Edit</p>\n  \
+    \                      </FrameLayout>\n                        <FrameLayout id='39'>\n\
+    \                          <button id='40' resource_id='lens_button' alt='Lens'></button>\n\
+    \                          <p id='41' resource_id='button_label'>Lens</p>\n  \
+    \                      </FrameLayout>\n                        <FrameLayout id='42'>\n\
+    \                          <button id='43' resource_id='trash' alt='Delete'></button>\n\
+    \                          <p id='44' resource_id='button_label'>Delete</p>\n\
+    \                        </FrameLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \            <FrameLayout id='45' resource_id='suggested_action_inflated_view'>\n\
+    \                    <button id='46' resource_id='action_image'></button>\n  \
+    \                  <button id='47' resource_id='action_text'>Search inside screenshot</button>\n\
+    \                    <button id='48' resource_id='close_button' alt='Dismiss'></button>\n\
+    \                  </FrameLayout>\n                </ViewGroup>\n            \
+    \  </LinearLayout>\n            </FrameLayout>\n          </FrameLayout>\n   \
+    \     </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: faa3d3
+  structure_str: e41fe0
+  tag: 2024-11-11_195448
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='6' resource_id='photo_container'>\n            \
+    \  <LinearLayout id='7' resource_id='photo_pager_container'>\n               \
+    \ <ViewGroup id='8' resource_id='photo_pager'>\n                  <FrameLayout\
+    \ id='13' resource_id='photo_pager_content'>\n                    <ViewPager id='15'\
+    \ resource_id='photo_view_pager'>\n                      <ViewGroup id='16'>\n\
+    \                        <button id='20' resource_id='photos_photofragment_components_background_photo_view'\
+    \ alt='Photo taken on Nov 11, 2024 11:03:34 AM'></button>\n                  \
+    \      <FrameLayout id='22' resource_id='all_controls_container'></FrameLayout>\n\
+    \                      </ViewGroup>\n                    </ViewPager>\n      \
+    \            </FrameLayout>\n                  <ViewGroup id='25' resource_id='toolbar'>\n\
+    \                    <button id='26' alt='Navigate up'></button>\n           \
+    \         <LinearLayoutCompat id='27'>\n                      <button id='28'\
+    \ resource_id='action_bar_overflow'>\n                        <button id='29'\
+    \ resource_id='photos_overflow_icon' alt='More options'></button>\n          \
+    \            </button>\n                    </LinearLayoutCompat>\n          \
+    \        </ViewGroup>\n                  <FrameLayout id='30' resource_id='photo_bar_container'>\n\
+    \                    <FrameLayout id='31' resource_id='photo_action_bar_fragment'>\n\
+    \                      <LinearLayout id='32'>\n                        <FrameLayout\
+    \ id='33'>\n                          <button id='34' resource_id='share' alt='Share'></button>\n\
+    \                          <p id='35' resource_id='button_label'>Share</p>\n \
+    \                       </FrameLayout>\n                        <FrameLayout id='36'>\n\
+    \                          <button id='37' resource_id='edit' alt='Edit'></button>\n\
+    \                          <p id='38' resource_id='button_label'>Edit</p>\n  \
+    \                      </FrameLayout>\n                        <FrameLayout id='39'>\n\
+    \                          <button id='40' resource_id='lens_button' alt='Lens'></button>\n\
+    \                          <p id='41' resource_id='button_label'>Lens</p>\n  \
+    \                      </FrameLayout>\n                        <FrameLayout id='42'>\n\
+    \                          <button id='43' resource_id='trash' alt='Delete'></button>\n\
+    \                          <p id='44' resource_id='button_label'>Delete</p>\n\
+    \                        </FrameLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </LinearLayout>\n            </FrameLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 0197d5
+  structure_str: aa1d30
+  tag: 2024-11-11_195513
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 27
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='7' resource_id='fragment_container'>\n         \
+    \     <FrameLayout id='8'>\n                <FrameLayout id='10' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='11'>\n                    <FrameLayout id='12'\
+    \ resource_id='fragment_container'>\n                      <FrameLayout id='13'\
+    \ resource_id='fragment_container'>\n                        <FrameLayout id='14'\
+    \ resource_id='photos_photogrid_date_scrubber_view'>\n                       \
+    \   <FrameLayout id='15'>\n                            <RecyclerView id='16' resource_id='recycler_view'>\n\
+    \                              <LinearLayout id='17'>\n                      \
+    \          <LinearLayout id='18'>\n                                  <p id='19'\
+    \ resource_id='autobackup_folder_switch_text'>Back up &amp; sync</p>\n       \
+    \                           <checkbox id='20' resource_id='autobackup_folder_switch_icon'\
+    \ alt='Back up &amp; sync'></checkbox>\n                                </LinearLayout>\n\
+    \                              </LinearLayout>\n                             \
+    \ <button id='21'>\n                                <button id='22' resource_id='title'>Today</button>\n\
+    \                              </button>\n                              <button\
+    \ id='23' alt='Photo taken on Nov 11, 2024 11:03:34 AM'></button>\n          \
+    \                  </RecyclerView>\n                          </FrameLayout>\n\
+    \                        </FrameLayout>\n                      </FrameLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </FrameLayout>\n                <LinearLayout id='24' resource_id='toolbar_container'>\n\
+    \                  <ViewGroup id='26' resource_id='toolbar'>\n               \
+    \     <button id='27' alt='Navigate up'></button>\n                    <p id='28'>sdk_gphone64_x86_64</p>\n\
+    \                    <LinearLayoutCompat id='29'>\n                      <button\
+    \ id='30' resource_id='action_bar_overflow'>\n                        <button\
+    \ id='31' resource_id='photos_overflow_icon' alt='More options'></button>\n  \
+    \                    </button>\n                    </LinearLayoutCompat>\n  \
+    \                </ViewGroup>\n                </LinearLayout>\n             \
+    \ </FrameLayout>\n            </FrameLayout>\n          </FrameLayout>\n     \
+    \   </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 5e2e07
+  structure_str: d284f9
+  tag: 2024-11-11_195549
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 44
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <ViewGroup id='11'>\n\
+    \                      <FrameLayout id='12' resource_id='photos_albums_date_scrubber_view'>\n\
+    \                        <RecyclerView id='14' resource_id='photos_albums_recycler_view'>\n\
+    \                          <ViewGroup id='15' resource_id='library_buttons_layout'>\n\
+    \                            <button id='16' resource_id='button1'>Favorites</button>\n\
+    \                            <button id='17' resource_id='button2'>Utilities</button>\n\
+    \                            <button id='18' resource_id='button3'>Archive</button>\n\
+    \                            <button id='19' resource_id='button4'>Trash</button>\n\
+    \                          </ViewGroup>\n                          <button id='21'>\n\
+    \                            <FrameLayout id='22' resource_id='album_cover_holder'>\n\
+    \                              <LinearLayout id='25'></LinearLayout>\n       \
+    \                     </FrameLayout>\n                            <LinearLayout\
+    \ id='27' resource_id='text_container'>\n                              <LinearLayout\
+    \ id='28'>\n                                <button id='29' resource_id='album_cover_title'>sdk_gphone64_x86_64</button>\n\
+    \                              </LinearLayout>\n                            </LinearLayout>\n\
+    \                          </button>\n                          <LinearLayout\
+    \ id='30' resource_id='photos_albums_empty_footer'>\n                        \
+    \    <p id='31' resource_id='empty_title'>The albums you create are shown here</p>\n\
+    \                            <button id='32' resource_id='photos_albums_empty_create_album_button'>Create\
+    \ album</button>\n                          </LinearLayout>\n                \
+    \        </RecyclerView>\n                      </FrameLayout>\n             \
+    \       </ViewGroup>\n                  </FrameLayout>\n                  <FrameLayout\
+    \ id='34' resource_id='scrolling_toolbar_container'>\n                    <LinearLayout\
+    \ id='35' resource_id='toolbar_container'>\n                      <ViewGroup id='37'\
+    \ resource_id='toolbar'>\n                        <ViewGroup id='38'>\n      \
+    \                    <p id='39' resource_id='product_lockup_view' alt='Google\
+    \ Photos'>\n                            <p id='41' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='43'>\n                          <button\
+    \ id='44' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='45' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='48' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='49'>\n                      <LinearLayout\
+    \ id='50' resource_id='tab_layout'>\n                        <LinearLayout id='52'>\n\
+    \                          <button id='53' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='54' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='55' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='56' resource_id='tab_library' status='selected'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 8aacfb
+  structure_str: 154c62
+  tag: 2024-11-11_195609
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 59
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5'>\n            <ViewGroup\
+    \ id='6' resource_id='og_dialog_view'>\n              <FrameLayout id='7' resource_id='og_container_header'>\n\
+    \                <button id='8' resource_id='og_header_close_button' alt='Close'></button>\n\
+    \                <FrameLayout id='9' resource_id='og_header_container'></FrameLayout>\n\
+    \              </FrameLayout>\n              <ScrollView id='11' resource_id='og_container_scroll_view'>\n\
+    \                <FrameLayout id='12'>\n                  <LinearLayout id='13'\
+    \ resource_id='og_container_scroll_root'>\n                    <FrameLayout id='14'\
+    \ resource_id='og_container_content_view'>\n                      <LinearLayout\
+    \ id='15' resource_id='og_expandable_account_menu'>\n                        <button\
+    \ id='16' resource_id='selected_account_header' alt='Signed in as Agent Test testmobileagent11@gmail.com.\
+    \ Expand account menu.'>\n                          <ViewGroup id='17'>\n    \
+    \                        <LinearLayout id='21' resource_id='has_selected_account'>\n\
+    \                              <FrameLayout id='22' resource_id='account_avatar'></FrameLayout>\n\
+    \                              <LinearLayout id='25'>\n                      \
+    \          <button id='26' resource_id='account_display_name'>Agent Test</button>\n\
+    \                                <button id='27' resource_id='account_name'>testmobileagent11@gmail.com</button>\n\
+    \                              </LinearLayout>\n                            </LinearLayout>\n\
+    \                          </ViewGroup>\n                        </button>\n \
+    \                       <ScrollView id='28' resource_id='scroll_view'>\n     \
+    \                     <LinearLayout id='29'>\n                            <button\
+    \ id='30' resource_id='header_my_account'>Manage your Google Account</button>\n\
+    \                            <LinearLayout id='31'></LinearLayout>\n         \
+    \                   <FrameLayout id='33' resource_id='container'>\n          \
+    \                    <LinearLayout id='34'>\n                                <FrameLayout\
+    \ id='35' resource_id='photos_autobackup_particle_backup_segment_container'>\n\
+    \                                  <LinearLayout id='36'>\n                  \
+    \                  <button id='37' resource_id='photos_autobackup_particle_status_content'>\n\
+    \                                      <LinearLayout id='39'>\n              \
+    \                          <button id='40' resource_id='photos_autobackup_particle_status_title'>Backup\
+    \ complete</button>\n                                      </LinearLayout>\n \
+    \                                   </button>\n                              \
+    \    </LinearLayout>\n                                </FrameLayout>\n       \
+    \                         <FrameLayout id='43' resource_id='photos_autobackup_particle_storage_meter_segment_container'>\n\
+    \                                  <button id='44'>\n                        \
+    \            <LinearLayout id='45' resource_id='storage_meter'>\n            \
+    \                          <LinearLayout id='47'>\n                          \
+    \              <button id='48' resource_id='title'>Account storage</button>\n\
+    \                                        <button id='50' resource_id='progress_details'>10\
+    \ MB of 15 GB used</button>\n                                      </LinearLayout>\n\
+    \                                    </LinearLayout>\n                       \
+    \           </button>\n                                </FrameLayout>\n      \
+    \                          <FrameLayout id='52' resource_id='photos_autobackup_particle_free_up_space_segment_container'>\n\
+    \                                  <button id='53' resource_id='free_up_space_content'>\n\
+    \                                    <LinearLayout id='55'>\n                \
+    \                      <button id='56' resource_id='free_up_space_status_title'>Free\
+    \ up space</button>\n                                    </LinearLayout>\n   \
+    \                               </button>\n                                </FrameLayout>\n\
+    \                                <button id='58' resource_id='data_in_photos'>Your\
+    \ data in Google Photos</button>\n                                <button id='59'\
+    \ resource_id='app_settings'>Photos settings</button>\n                      \
+    \          <button id='60' resource_id='help_and_feedback'>Help &amp; feedback</button>\n\
+    \                              </LinearLayout>\n                            </FrameLayout>\n\
+    \                          </LinearLayout>\n                        </ScrollView>\n\
+    \                      </LinearLayout>\n                    </FrameLayout>\n \
+    \                   <FrameLayout id='63' resource_id='og_container_footer'>\n\
+    \                      <ViewGroup id='64'>\n                        <button id='65'\
+    \ resource_id='og_privacy_policy_button'>Privacy Policy</button>\n           \
+    \             <button id='67' resource_id='og_tos_button'>Terms of Service</button>\n\
+    \                      </ViewGroup>\n                    </FrameLayout>\n    \
+    \              </LinearLayout>\n                </FrameLayout>\n             \
+    \ </ScrollView>\n            </ViewGroup>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e41409
+  structure_str: 4d6f2e
+  tag: 2024-11-11_195706
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='6' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='7'>\n              <scrollbar id='8' resource_id='list'>\n\
+    \                <button id='9'>\n                  <RelativeLayout id='10'>\n\
+    \                    <button id='11' resource_id='title'>Back up &amp; sync</button>\n\
+    \                    <button id='12' resource_id='summary'>Backing up to testmobileagent11@gmail.com</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <LinearLayout id='13'>\n                  <p id='14' resource_id='title'>Free\
+    \ up device storage</p>\n                  <p id='15' resource_id='summary'>Remove\
+    \ original photos &amp; videos from your device t</p>\n                </LinearLayout>\n\
+    \                <button id='16'>\n                  <RelativeLayout id='17'>\n\
+    \                    <button id='18' resource_id='title'>Notifications</button>\n\
+    \                    <button id='19' resource_id='summary'>Manage preferences\
+    \ for notifications</button>\n                  </RelativeLayout>\n          \
+    \      </button>\n                <button id='20'>\n                  <RelativeLayout\
+    \ id='21'>\n                    <button id='22' resource_id='title'>Group similar\
+    \ faces</button>\n                    <button id='23' resource_id='summary'>Manage\
+    \ preferences for face grouping</button>\n                  </RelativeLayout>\n\
+    \                </button>\n                <button id='24'>\n               \
+    \   <RelativeLayout id='25'>\n                    <button id='26' resource_id='title'>Memories</button>\n\
+    \                    <button id='27' resource_id='summary'>Manage what you see\
+    \ in your memories</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <button id='28'>\n                  <RelativeLayout\
+    \ id='29'>\n                    <button id='30' resource_id='title'>SD card access</button>\n\
+    \                    <button id='31' resource_id='summary'>Allow Photos to delete\
+    \ items on SD card</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <p id='32' resource_id='title'>SHARING</p>\n\
+    \                <button id='33'>\n                  <RelativeLayout id='34'>\n\
+    \                    <button id='35' resource_id='title'>Partner sharing</button>\n\
+    \                    <button id='36' resource_id='summary'>Automatically share\
+    \ photos with a partner</button>\n                  </RelativeLayout>\n      \
+    \          </button>\n                <button id='37'>\n                  <RelativeLayout\
+    \ id='38'>\n                    <button id='39' resource_id='title'>Hide video\
+    \ from motion photos</button>\n                    <button id='40' resource_id='summary'>Other\
+    \ people will only see the still photos</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='41' resource_id='widget_frame'>\n       \
+    \             <checkbox id='42' resource_id='switchWidget'></checkbox>\n     \
+    \             </LinearLayout>\n                </button>\n                <button\
+    \ id='43'>\n                  <RelativeLayout id='44'>\n                    <button\
+    \ id='45' resource_id='title'>Hide photo location data</button>\n            \
+    \        <button id='46' resource_id='summary' alt='Other people won&apos;t see\
+    \ where photos were taken. Learn\_more Link.'>Other people won&apos;t see where\
+    \ photos were taken. Le</button>\n                  </RelativeLayout>\n      \
+    \            <LinearLayout id='47' resource_id='widget_frame'>\n             \
+    \       <checkbox id='48' resource_id='switchWidget'></checkbox>\n           \
+    \       </LinearLayout>\n                </button>\n                <button id='49'>\n\
+    \                  <RelativeLayout id='50'>\n                    <button id='51'\
+    \ resource_id='title'>Skipped suggestions</button>\n                    <button\
+    \ id='52' resource_id='summary'>View &amp; remove your skipped suggestion history</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \  </scrollbar>\n            </LinearLayout>\n          </FrameLayout>\n     \
+    \   </FrameLayout>\n        <FrameLayout id='54' resource_id='action_bar_container'>\n\
+    \          <ViewGroup id='55' resource_id='action_bar'>\n            <button id='56'\
+    \ alt='Navigate up'></button>\n            <p id='57'>Settings</p>\n         \
+    \ </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e97481
+  structure_str: '301382'
+  tag: 2024-11-11_195748
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 54
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='6'>\n              <ListView id='7' resource_id='list'>\n\
+    \                <p id='8' resource_id='title'>SHARING</p>\n                <button\
+    \ id='9'>\n                  <RelativeLayout id='10'>\n                    <button\
+    \ id='11' resource_id='title'>Suggested sharing</button>\n                   \
+    \ <button id='12' resource_id='summary'>When you have new photos to share with\
+    \ friends</button>\n                  </RelativeLayout>\n                  <LinearLayout\
+    \ id='13' resource_id='widget_frame'>\n                    <checkbox id='14' resource_id='switchWidget'\
+    \ status='selected'></checkbox>\n                  </LinearLayout>\n         \
+    \       </button>\n                <p id='15' resource_id='title'>MEMORIES</p>\n\
+    \                <button id='16'>\n                  <RelativeLayout id='17'>\n\
+    \                    <button id='18' resource_id='title'>Previous years</button>\n\
+    \                    <button id='19' resource_id='summary'>When memories from\
+    \ previous years are available</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='20' resource_id='widget_frame'>\n       \
+    \             <checkbox id='21' resource_id='switchWidget' status='selected'></checkbox>\n\
+    \                  </LinearLayout>\n                </button>\n              \
+    \  <button id='22'>\n                  <RelativeLayout id='23'>\n            \
+    \        <button id='24' resource_id='title'>Themed memories</button>\n      \
+    \              <button id='25' resource_id='summary'>When new themed memories\
+    \ are available</button>\n                  </RelativeLayout>\n              \
+    \    <LinearLayout id='26' resource_id='widget_frame'>\n                    <checkbox\
+    \ id='27' resource_id='switchWidget' status='selected'></checkbox>\n         \
+    \         </LinearLayout>\n                </button>\n                <button\
+    \ id='28'>\n                  <RelativeLayout id='29'>\n                    <button\
+    \ id='30' resource_id='title'>Creations</button>\n                    <button\
+    \ id='31' resource_id='summary'>When new creations are available</button>\n  \
+    \                </RelativeLayout>\n                  <LinearLayout id='32' resource_id='widget_frame'>\n\
+    \                    <checkbox id='33' resource_id='switchWidget' status='selected'></checkbox>\n\
+    \                  </LinearLayout>\n                </button>\n              \
+    \  <p id='34' resource_id='title'>MANAGE YOUR LIBRARY</p>\n                <button\
+    \ id='35'>\n                  <RelativeLayout id='36'>\n                    <button\
+    \ id='37' resource_id='title'>Suggested Rotations</button>\n                 \
+    \   <button id='38' resource_id='summary'>Get suggestions to fix sideways photos</button>\n\
+    \                  </RelativeLayout>\n                  <LinearLayout id='39'\
+    \ resource_id='widget_frame'>\n                    <checkbox id='40' resource_id='switchWidget'\
+    \ status='selected'></checkbox>\n                  </LinearLayout>\n         \
+    \       </button>\n                <button id='41'>\n                  <RelativeLayout\
+    \ id='42'>\n                    <button id='43' resource_id='title'>Suggested\
+    \ Archive</button>\n                    <button id='44' resource_id='summary'>Get\
+    \ suggestions to archive photos</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='45' resource_id='widget_frame'>\n       \
+    \             <checkbox id='46' resource_id='switchWidget' status='selected'></checkbox>\n\
+    \                  </LinearLayout>\n                </button>\n              \
+    \  <p id='47' resource_id='title'>OTHER</p>\n                <button id='48'>\n\
+    \                  <RelativeLayout id='49'>\n                    <button id='50'\
+    \ resource_id='title'>Notification settings on this device</button>\n        \
+    \            <button id='51' resource_id='summary'>Manage notification dot &amp;\
+    \ other system settings</button>\n                  </RelativeLayout>\n      \
+    \          </button>\n              </ListView>\n            </LinearLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n        <FrameLayout id='52'\
+    \ resource_id='action_bar_container'>\n          <ViewGroup id='53' resource_id='action_bar'>\n\
+    \            <button id='54' alt='Navigate up'></button>\n            <p id='55'>Notifications</p>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 05ab3d
+  structure_str: 80ca74
+  tag: 2024-11-11_195812
+  width: 1080
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 1
+  Choice: 8
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='6' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='7'>\n              <scrollbar id='8' resource_id='list'>\n\
+    \                <button id='9'>\n                  <RelativeLayout id='10'>\n\
+    \                    <button id='11' resource_id='title'>Back up &amp; sync</button>\n\
+    \                    <button id='12' resource_id='summary'>Backing up to testmobileagent11@gmail.com</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <LinearLayout id='13'>\n                  <p id='14' resource_id='title'>Free\
+    \ up device storage</p>\n                  <p id='15' resource_id='summary'>Remove\
+    \ original photos &amp; videos from your device t</p>\n                </LinearLayout>\n\
+    \                <button id='16'>\n                  <RelativeLayout id='17'>\n\
+    \                    <button id='18' resource_id='title'>Notifications</button>\n\
+    \                    <button id='19' resource_id='summary'>Manage preferences\
+    \ for notifications</button>\n                  </RelativeLayout>\n          \
+    \      </button>\n                <button id='20'>\n                  <RelativeLayout\
+    \ id='21'>\n                    <button id='22' resource_id='title'>Group similar\
+    \ faces</button>\n                    <button id='23' resource_id='summary'>Manage\
+    \ preferences for face grouping</button>\n                  </RelativeLayout>\n\
+    \                </button>\n                <button id='24'>\n               \
+    \   <RelativeLayout id='25'>\n                    <button id='26' resource_id='title'>Memories</button>\n\
+    \                    <button id='27' resource_id='summary'>Manage what you see\
+    \ in your memories</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <button id='28'>\n                  <RelativeLayout\
+    \ id='29'>\n                    <button id='30' resource_id='title'>SD card access</button>\n\
+    \                    <button id='31' resource_id='summary'>Allow Photos to delete\
+    \ items on SD card</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <p id='32' resource_id='title'>SHARING</p>\n\
+    \                <button id='33'>\n                  <RelativeLayout id='34'>\n\
+    \                    <button id='35' resource_id='title'>Partner sharing</button>\n\
+    \                    <button id='36' resource_id='summary'>Automatically share\
+    \ photos with a partner</button>\n                  </RelativeLayout>\n      \
+    \          </button>\n                <button id='37'>\n                  <RelativeLayout\
+    \ id='38'>\n                    <button id='39' resource_id='title'>Hide video\
+    \ from motion photos</button>\n                    <button id='40' resource_id='summary'>Other\
+    \ people will only see the still photos</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='41' resource_id='widget_frame'>\n       \
+    \             <checkbox id='42' resource_id='switchWidget'></checkbox>\n     \
+    \             </LinearLayout>\n                </button>\n                <button\
+    \ id='43'>\n                  <RelativeLayout id='44'>\n                    <button\
+    \ id='45' resource_id='title'>Hide photo location data</button>\n            \
+    \        <button id='46' resource_id='summary' alt='Other people won&apos;t see\
+    \ where photos were taken. Learn\_more Link.'>Other people won&apos;t see where\
+    \ photos were taken. Le</button>\n                  </RelativeLayout>\n      \
+    \            <LinearLayout id='47' resource_id='widget_frame'>\n             \
+    \       <checkbox id='48' resource_id='switchWidget'></checkbox>\n           \
+    \       </LinearLayout>\n                </button>\n                <button id='49'>\n\
+    \                  <RelativeLayout id='50'>\n                    <button id='51'\
+    \ resource_id='title'>Skipped suggestions</button>\n                    <button\
+    \ id='52' resource_id='summary'>View &amp; remove your skipped suggestion history</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \  </scrollbar>\n            </LinearLayout>\n          </FrameLayout>\n     \
+    \   </FrameLayout>\n        <FrameLayout id='54' resource_id='action_bar_container'>\n\
+    \          <ViewGroup id='55' resource_id='action_bar'>\n            <button id='56'\
+    \ alt='Navigate up'></button>\n            <p id='57'>Settings</p>\n         \
+    \ </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e97481
+  structure_str: '301382'
+  tag: 2024-11-11_195854
+  width: 1080
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: up
+    index: 1
+  Choice: 8
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='6' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='7'>\n              <scrollbar id='8' resource_id='list'>\n\
+    \                <button id='9'>\n                  <RelativeLayout id='10'>\n\
+    \                    <button id='11' resource_id='title'>Memories</button>\n \
+    \                   <button id='12' resource_id='summary'>Manage what you see\
+    \ in your memories</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <button id='13'>\n                  <RelativeLayout\
+    \ id='14'>\n                    <button id='15' resource_id='title'>SD card access</button>\n\
+    \                    <button id='16' resource_id='summary'>Allow Photos to delete\
+    \ items on SD card</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <p id='17' resource_id='title'>SHARING</p>\n\
+    \                <button id='18'>\n                  <RelativeLayout id='19'>\n\
+    \                    <button id='20' resource_id='title'>Partner sharing</button>\n\
+    \                    <button id='21' resource_id='summary'>Automatically share\
+    \ photos with a partner</button>\n                  </RelativeLayout>\n      \
+    \          </button>\n                <button id='22'>\n                  <RelativeLayout\
+    \ id='23'>\n                    <button id='24' resource_id='title'>Hide video\
+    \ from motion photos</button>\n                    <button id='25' resource_id='summary'>Other\
+    \ people will only see the still photos</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='26' resource_id='widget_frame'>\n       \
+    \             <checkbox id='27' resource_id='switchWidget'></checkbox>\n     \
+    \             </LinearLayout>\n                </button>\n                <button\
+    \ id='28'>\n                  <RelativeLayout id='29'>\n                    <button\
+    \ id='30' resource_id='title'>Hide photo location data</button>\n            \
+    \        <button id='31' resource_id='summary' alt='Other people won&apos;t see\
+    \ where photos were taken. Learn\_more Link.'>Other people won&apos;t see where\
+    \ photos were taken. Le</button>\n                  </RelativeLayout>\n      \
+    \            <LinearLayout id='32' resource_id='widget_frame'>\n             \
+    \       <checkbox id='33' resource_id='switchWidget'></checkbox>\n           \
+    \       </LinearLayout>\n                </button>\n                <button id='34'>\n\
+    \                  <RelativeLayout id='35'>\n                    <button id='36'\
+    \ resource_id='title'>Skipped suggestions</button>\n                    <button\
+    \ id='37' resource_id='summary'>View &amp; remove your skipped suggestion history</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <p id='38' resource_id='title'>GOOGLE APPS</p>\n                <button id='39'>\n\
+    \                  <RelativeLayout id='40'>\n                    <button id='41'\
+    \ resource_id='title'>Google Location settings</button>\n                    <button\
+    \ id='42' resource_id='summary'>Photos uses location info to improve your experien</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <button id='43'>\n                  <RelativeLayout id='44'>\n          \
+    \          <button id='45' resource_id='title'>Google Lens</button>\n        \
+    \            <button id='46' resource_id='summary' alt='Your activity with Google\
+    \ Lens is saved to your Google Account if you have Web &amp; App Activity turned\
+    \ on. \nLearn more Link.'>Your activity with Google Lens is saved to your Go</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <p id='47' resource_id='title'>ABOUT</p>\n                <button id='48'>\n\
+    \                  <RelativeLayout id='49'>\n                    <button id='50'\
+    \ resource_id='title'>About Google Photos</button>\n                  </RelativeLayout>\n\
+    \                </button>\n              </scrollbar>\n            </LinearLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n        <FrameLayout id='51'\
+    \ resource_id='action_bar_container'>\n          <ViewGroup id='52' resource_id='action_bar'>\n\
+    \            <button id='53' alt='Navigate up'></button>\n            <p id='54'>Settings</p>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: '911298'
+  structure_str: 33e4b8
+  tag: 2024-11-11_195916
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='6' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='7'>\n              <scrollbar id='8' resource_id='list'>\n\
+    \                <button id='9'>\n                  <RelativeLayout id='10'>\n\
+    \                    <button id='11' resource_id='title'>Back up &amp; sync</button>\n\
+    \                    <button id='12' resource_id='summary'>Backing up to testmobileagent11@gmail.com</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <LinearLayout id='13'>\n                  <p id='14' resource_id='title'>Free\
+    \ up device storage</p>\n                  <p id='15' resource_id='summary'>Remove\
+    \ original photos &amp; videos from your device t</p>\n                </LinearLayout>\n\
+    \                <button id='16'>\n                  <RelativeLayout id='17'>\n\
+    \                    <button id='18' resource_id='title'>Notifications</button>\n\
+    \                    <button id='19' resource_id='summary'>Manage preferences\
+    \ for notifications</button>\n                  </RelativeLayout>\n          \
+    \      </button>\n                <button id='20'>\n                  <RelativeLayout\
+    \ id='21'>\n                    <button id='22' resource_id='title'>Group similar\
+    \ faces</button>\n                    <button id='23' resource_id='summary'>Manage\
+    \ preferences for face grouping</button>\n                  </RelativeLayout>\n\
+    \                </button>\n                <button id='24'>\n               \
+    \   <RelativeLayout id='25'>\n                    <button id='26' resource_id='title'>Memories</button>\n\
+    \                    <button id='27' resource_id='summary'>Manage what you see\
+    \ in your memories</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <button id='28'>\n                  <RelativeLayout\
+    \ id='29'>\n                    <button id='30' resource_id='title'>SD card access</button>\n\
+    \                    <button id='31' resource_id='summary'>Allow Photos to delete\
+    \ items on SD card</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <p id='32' resource_id='title'>SHARING</p>\n\
+    \                <button id='33'>\n                  <RelativeLayout id='34'>\n\
+    \                    <button id='35' resource_id='title'>Partner sharing</button>\n\
+    \                    <button id='36' resource_id='summary'>Automatically share\
+    \ photos with a partner</button>\n                  </RelativeLayout>\n      \
+    \          </button>\n                <button id='37'>\n                  <RelativeLayout\
+    \ id='38'>\n                    <button id='39' resource_id='title'>Hide video\
+    \ from motion photos</button>\n                    <button id='40' resource_id='summary'>Other\
+    \ people will only see the still photos</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='41' resource_id='widget_frame'>\n       \
+    \             <checkbox id='42' resource_id='switchWidget'></checkbox>\n     \
+    \             </LinearLayout>\n                </button>\n                <button\
+    \ id='43'>\n                  <RelativeLayout id='44'>\n                    <button\
+    \ id='45' resource_id='title'>Hide photo location data</button>\n            \
+    \        <button id='46' resource_id='summary' alt='Other people won&apos;t see\
+    \ where photos were taken. Learn\_more Link.'>Other people won&apos;t see where\
+    \ photos were taken. Le</button>\n                  </RelativeLayout>\n      \
+    \            <LinearLayout id='47' resource_id='widget_frame'>\n             \
+    \       <checkbox id='48' resource_id='switchWidget'></checkbox>\n           \
+    \       </LinearLayout>\n                </button>\n                <button id='49'>\n\
+    \                  <RelativeLayout id='50'>\n                    <button id='51'\
+    \ resource_id='title'>Skipped suggestions</button>\n                    <button\
+    \ id='52' resource_id='summary'>View &amp; remove your skipped suggestion history</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \  </scrollbar>\n            </LinearLayout>\n          </FrameLayout>\n     \
+    \   </FrameLayout>\n        <FrameLayout id='54' resource_id='action_bar_container'>\n\
+    \          <ViewGroup id='55' resource_id='action_bar'>\n            <button id='56'\
+    \ alt='Navigate up'></button>\n            <p id='57'>Settings</p>\n         \
+    \ </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e97481
+  structure_str: '301382'
+  tag: 2024-11-11_195933
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 38
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5'>\n           \
+    \ <ViewGroup id='6' resource_id='toolbar'>\n              <button id='7' alt='Navigate\
+    \ up'></button>\n              <p id='8'>Back up &amp; sync</p>\n            \
+    \  <LinearLayoutCompat id='9'>\n                <button id='10' resource_id='photos_backup_settings_help'\
+    \ alt='Help'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <FrameLayout id='11' resource_id='fragment_container'>\n        \
+    \      <LinearLayout id='12'>\n                <ListView id='13' resource_id='list'>\n\
+    \                  <button id='14'>\n                    <RelativeLayout id='15'>\n\
+    \                      <button id='16' resource_id='title'>Back up &amp; sync</button>\n\
+    \                      <button id='17' resource_id='summary'>Upload photos &amp;\
+    \ videos from this device to your Go</button>\n                    </RelativeLayout>\n\
+    \                    <LinearLayout id='18' resource_id='widget_frame'>\n     \
+    \                 <checkbox id='19' resource_id='switchWidget' status='selected'></checkbox>\n\
+    \                    </LinearLayout>\n                  </button>\n          \
+    \        <p id='20' resource_id='title'>ACCOUNT &amp; STORAGE</p>\n          \
+    \        <p id='21' alt='Agent Test testmobileagent11@gmail.com'>\n          \
+    \          <button id='22' resource_id='account_section'>\n                  \
+    \    <FrameLayout id='23' resource_id='photos_backup_settings_account_avatar'></FrameLayout>\n\
+    \                      <button id='25' resource_id='title'>Agent Test</button>\n\
+    \                      <button id='26' resource_id='summary'>testmobileagent11@gmail.com</button>\n\
+    \                    </button>\n                    <LinearLayout id='27' resource_id='photos_cloudstorage_ui_storageprogressbar_storage_usage_progress'>\n\
+    \                      <RelativeLayout id='28' resource_id='storage_usage_status'>\n\
+    \                        <p id='30' resource_id='storage_quota_percentage'>0%\
+    \ full</p>\n                        <p id='31' resource_id='storage_quota_limit'>15\
+    \ GB</p>\n                      </RelativeLayout>\n                    </LinearLayout>\n\
+    \                    <ViewGroup id='32' resource_id='button_container'>\n    \
+    \                  <button id='33' resource_id='intent_button'>Buy storage</button>\n\
+    \                      <button id='34' resource_id='manage_storage_button'>Manage\
+    \ storage</button>\n                    </ViewGroup>\n                  </p>\n\
+    \                  <p id='35' resource_id='title'>SETTINGS</p>\n             \
+    \     <button id='36'>\n                    <RelativeLayout id='37'>\n       \
+    \               <button id='38' resource_id='title'>Upload size</button>\n   \
+    \                   <button id='39' resource_id='summary'>Original quality (no\
+    \ change to quality)</button>\n                    </RelativeLayout>\n       \
+    \           </button>\n                  <button id='41'>\n                  \
+    \  <RelativeLayout id='42'>\n                      <button id='43' resource_id='title'>Cell\
+    \ data usage</button>\n                      <button id='44' resource_id='summary'>No\
+    \ data used for backup</button>\n                    </RelativeLayout>\n     \
+    \             </button>\n                  <button id='46'>\n                \
+    \    <RelativeLayout id='47'>\n                      <button id='48' resource_id='title'>Back\
+    \ up device folders</button>\n                      <button id='49' resource_id='summary'>None</button>\n\
+    \                    </RelativeLayout>\n                  </button>\n        \
+    \        </ListView>\n              </LinearLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </FrameLayout>\n   \
+    \ </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: '932192'
+  structure_str: d8a561
+  tag: 2024-11-11_200014
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='6' resource_id='backup_options_container'>\n  \
+    \            <ScrollView id='7'>\n                <LinearLayout id='8'>\n    \
+    \              <p id='9' resource_id='oq_storage_usage_text'>14 GB left of 15\
+    \ GB</p>\n                  <LinearLayout id='10' resource_id='backup_options_container'>\n\
+    \                    <LinearLayout id='11'>\n                      <button id='12'\
+    \ resource_id='header' status='selected'>\n                        <LinearLayout\
+    \ id='13'>\n                          <button id='14' resource_id='title' status='selected'>Original\
+    \ quality</button>\n                          <button id='15' resource_id='subtitle'\
+    \ status='selected'>Back up with no change to quality</button>\n             \
+    \           </LinearLayout>\n                        <button id='16' resource_id='indicator'\
+    \ alt='expand' status='selected'></button>\n                      </button>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='17'>\n\
+    \                      <button id='18' resource_id='header'>\n               \
+    \         <LinearLayout id='19'>\n                          <button id='20' resource_id='title'>Storage\
+    \ saver</button>\n                          <button id='21' resource_id='subtitle'>Store\
+    \ more at a slightly reduced quality</button>\n                        </LinearLayout>\n\
+    \                        <button id='22' resource_id='indicator' alt='expand'></button>\n\
+    \                      </button>\n                    </LinearLayout>\n      \
+    \            </LinearLayout>\n                </LinearLayout>\n              </ScrollView>\n\
+    \            </LinearLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <FrameLayout id='24' resource_id='action_bar_container'>\n          <ViewGroup\
+    \ id='25' resource_id='action_bar'>\n            <button id='26' alt='Navigate\
+    \ up'></button>\n            <p id='27'>Upload size</p>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: a640c8
+  structure_str: 1b96bb
+  tag: 2024-11-11_200036
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 25
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='6' resource_id='backup_options_container'>\n  \
+    \            <ScrollView id='7'>\n                <LinearLayout id='8'>\n    \
+    \              <p id='9' resource_id='oq_storage_usage_text'>14 GB left of 15\
+    \ GB</p>\n                  <LinearLayout id='10' resource_id='backup_options_container'>\n\
+    \                    <LinearLayout id='11'>\n                      <button id='12'\
+    \ resource_id='header' status='selected'>\n                        <LinearLayout\
+    \ id='13'>\n                          <button id='14' resource_id='title' status='selected'>Original\
+    \ quality</button>\n                          <button id='15' resource_id='subtitle'\
+    \ status='selected'>Back up with no change to quality</button>\n             \
+    \           </LinearLayout>\n                        <button id='16' resource_id='indicator'\
+    \ alt='collapse' status='selected'></button>\n                      </button>\n\
+    \                      <LinearLayout id='17' resource_id='descriptions_container'>\n\
+    \                        <p id='18' resource_id='item'>\u2022 First 15 GB free</p>\n\
+    \                        <p id='19' resource_id='item'>\u2022 Photos &amp; videos\
+    \ in full resolution</p>\n                        <p id='20' resource_id='item'>\u2022\
+    \ Recommended for large prints</p>\n                      </LinearLayout>\n  \
+    \                    <button id='21' resource_id='select' status='selected'>Selected</button>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='22'>\n\
+    \                      <button id='23' resource_id='header'>\n               \
+    \         <LinearLayout id='24'>\n                          <button id='25' resource_id='title'>Storage\
+    \ saver</button>\n                          <button id='26' resource_id='subtitle'>Store\
+    \ more at a slightly reduced quality</button>\n                        </LinearLayout>\n\
+    \                        <button id='27' resource_id='indicator' alt='expand'></button>\n\
+    \                      </button>\n                    </LinearLayout>\n      \
+    \            </LinearLayout>\n                </LinearLayout>\n              </ScrollView>\n\
+    \            </LinearLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <FrameLayout id='29' resource_id='action_bar_container'>\n          <ViewGroup\
+    \ id='30' resource_id='action_bar'>\n            <button id='31' alt='Navigate\
+    \ up'></button>\n            <p id='32'>Upload size</p>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 4b7127
+  structure_str: 8164b4
+  tag: 2024-11-11_200253
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 36
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='6' resource_id='backup_options_container'>\n  \
+    \            <ScrollView id='7'>\n                <LinearLayout id='8'>\n    \
+    \              <p id='9' resource_id='oq_storage_usage_text'>14 GB left of 15\
+    \ GB</p>\n                  <LinearLayout id='10' resource_id='backup_options_container'>\n\
+    \                    <LinearLayout id='11'>\n                      <button id='12'\
+    \ resource_id='header' status='selected'>\n                        <LinearLayout\
+    \ id='13'>\n                          <button id='14' resource_id='title' status='selected'>Original\
+    \ quality</button>\n                          <button id='15' resource_id='subtitle'\
+    \ status='selected'>Back up with no change to quality</button>\n             \
+    \           </LinearLayout>\n                        <button id='16' resource_id='indicator'\
+    \ alt='collapse' status='selected'></button>\n                      </button>\n\
+    \                      <LinearLayout id='17' resource_id='descriptions_container'>\n\
+    \                        <p id='18' resource_id='item'>\u2022 First 15 GB free</p>\n\
+    \                        <p id='19' resource_id='item'>\u2022 Photos &amp; videos\
+    \ in full resolution</p>\n                        <p id='20' resource_id='item'>\u2022\
+    \ Recommended for large prints</p>\n                      </LinearLayout>\n  \
+    \                    <button id='21' resource_id='select' status='selected'>Selected</button>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='22'>\n\
+    \                      <button id='23' resource_id='header'>\n               \
+    \         <LinearLayout id='24'>\n                          <button id='25' resource_id='title'>Storage\
+    \ saver</button>\n                          <button id='26' resource_id='subtitle'>Store\
+    \ more at a slightly reduced quality</button>\n                        </LinearLayout>\n\
+    \                        <button id='27' resource_id='indicator' alt='collapse'></button>\n\
+    \                      </button>\n                      <LinearLayout id='28'\
+    \ resource_id='descriptions_container'>\n                        <p id='29' resource_id='item'>\u2022\
+    \ Photos compressed to 16MP</p>\n                        <p id='30' resource_id='item'>\u2022\
+    \ Videos compressed to high definition</p>\n                        <p id='31'\
+    \ resource_id='item'>\u2022 Good quality prints up to 24 x 16 in.</p>\n      \
+    \                </LinearLayout>\n                      <button id='32' resource_id='select'>Select</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </ScrollView>\n            </LinearLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n        <FrameLayout id='34'\
+    \ resource_id='action_bar_container'>\n          <ViewGroup id='35' resource_id='action_bar'>\n\
+    \            <button id='36' alt='Navigate up'></button>\n            <p id='37'>Upload\
+    \ size</p>\n          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e33a65
+  structure_str: 8164b4
+  tag: 2024-11-11_200741
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 7
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayout id='5'>\n           \
+    \ <ViewGroup id='6' resource_id='toolbar'>\n              <button id='7' alt='Navigate\
+    \ up'></button>\n              <p id='8'>Back up &amp; sync</p>\n            \
+    \  <LinearLayoutCompat id='9'>\n                <button id='10' resource_id='photos_backup_settings_help'\
+    \ alt='Help'></button>\n              </LinearLayoutCompat>\n            </ViewGroup>\n\
+    \            <FrameLayout id='11' resource_id='fragment_container'>\n        \
+    \      <LinearLayout id='12'>\n                <ListView id='13' resource_id='list'>\n\
+    \                  <button id='14'>\n                    <RelativeLayout id='15'>\n\
+    \                      <button id='16' resource_id='title'>Back up &amp; sync</button>\n\
+    \                      <button id='17' resource_id='summary'>Upload photos &amp;\
+    \ videos from this device to your Go</button>\n                    </RelativeLayout>\n\
+    \                    <LinearLayout id='18' resource_id='widget_frame'>\n     \
+    \                 <checkbox id='19' resource_id='switchWidget' status='selected'></checkbox>\n\
+    \                    </LinearLayout>\n                  </button>\n          \
+    \        <p id='20' resource_id='title'>ACCOUNT &amp; STORAGE</p>\n          \
+    \        <p id='21' alt='Agent Test testmobileagent11@gmail.com'>\n          \
+    \          <button id='22' resource_id='account_section'>\n                  \
+    \    <FrameLayout id='23' resource_id='photos_backup_settings_account_avatar'></FrameLayout>\n\
+    \                      <button id='25' resource_id='title'>Agent Test</button>\n\
+    \                      <button id='26' resource_id='summary'>testmobileagent11@gmail.com</button>\n\
+    \                    </button>\n                    <LinearLayout id='27' resource_id='photos_cloudstorage_ui_storageprogressbar_storage_usage_progress'>\n\
+    \                      <RelativeLayout id='28' resource_id='storage_usage_status'>\n\
+    \                        <p id='30' resource_id='storage_quota_percentage'>0%\
+    \ full</p>\n                        <p id='31' resource_id='storage_quota_limit'>15\
+    \ GB</p>\n                      </RelativeLayout>\n                    </LinearLayout>\n\
+    \                    <ViewGroup id='32' resource_id='button_container'>\n    \
+    \                  <button id='33' resource_id='intent_button'>Buy storage</button>\n\
+    \                      <button id='34' resource_id='manage_storage_button'>Manage\
+    \ storage</button>\n                    </ViewGroup>\n                  </p>\n\
+    \                  <p id='35' resource_id='title'>SETTINGS</p>\n             \
+    \     <button id='36'>\n                    <RelativeLayout id='37'>\n       \
+    \               <button id='38' resource_id='title'>Upload size</button>\n   \
+    \                   <button id='39' resource_id='summary'>Original quality (no\
+    \ change to quality)</button>\n                    </RelativeLayout>\n       \
+    \           </button>\n                  <button id='41'>\n                  \
+    \  <RelativeLayout id='42'>\n                      <button id='43' resource_id='title'>Cell\
+    \ data usage</button>\n                      <button id='44' resource_id='summary'>No\
+    \ data used for backup</button>\n                    </RelativeLayout>\n     \
+    \             </button>\n                  <button id='46'>\n                \
+    \    <RelativeLayout id='47'>\n                      <button id='48' resource_id='title'>Back\
+    \ up device folders</button>\n                      <button id='49' resource_id='summary'>None</button>\n\
+    \                    </RelativeLayout>\n                  </button>\n        \
+    \        </ListView>\n              </LinearLayout>\n            </FrameLayout>\n\
+    \          </LinearLayout>\n        </FrameLayout>\n      </FrameLayout>\n   \
+    \ </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 4e4f09
+  structure_str: 5d52cd
+  tag: 2024-11-11_200757
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='6' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='7'>\n              <scrollbar id='8' resource_id='list'>\n\
+    \                <button id='9'>\n                  <RelativeLayout id='10'>\n\
+    \                    <button id='11' resource_id='title'>Back up &amp; sync</button>\n\
+    \                    <button id='12' resource_id='summary'>Backing up to testmobileagent11@gmail.com</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <LinearLayout id='13'>\n                  <p id='14' resource_id='title'>Free\
+    \ up device storage</p>\n                  <p id='15' resource_id='summary'>Remove\
+    \ original photos &amp; videos from your device t</p>\n                </LinearLayout>\n\
+    \                <button id='16'>\n                  <RelativeLayout id='17'>\n\
+    \                    <button id='18' resource_id='title'>Notifications</button>\n\
+    \                    <button id='19' resource_id='summary'>Manage preferences\
+    \ for notifications</button>\n                  </RelativeLayout>\n          \
+    \      </button>\n                <button id='20'>\n                  <RelativeLayout\
+    \ id='21'>\n                    <button id='22' resource_id='title'>Group similar\
+    \ faces</button>\n                    <button id='23' resource_id='summary'>Manage\
+    \ preferences for face grouping</button>\n                  </RelativeLayout>\n\
+    \                </button>\n                <button id='24'>\n               \
+    \   <RelativeLayout id='25'>\n                    <button id='26' resource_id='title'>Memories</button>\n\
+    \                    <button id='27' resource_id='summary'>Manage what you see\
+    \ in your memories</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <button id='28'>\n                  <RelativeLayout\
+    \ id='29'>\n                    <button id='30' resource_id='title'>SD card access</button>\n\
+    \                    <button id='31' resource_id='summary'>Allow Photos to delete\
+    \ items on SD card</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <p id='32' resource_id='title'>SHARING</p>\n\
+    \                <button id='33'>\n                  <RelativeLayout id='34'>\n\
+    \                    <button id='35' resource_id='title'>Partner sharing</button>\n\
+    \                    <button id='36' resource_id='summary'>Automatically share\
+    \ photos with a partner</button>\n                  </RelativeLayout>\n      \
+    \          </button>\n                <button id='37'>\n                  <RelativeLayout\
+    \ id='38'>\n                    <button id='39' resource_id='title'>Hide video\
+    \ from motion photos</button>\n                    <button id='40' resource_id='summary'>Other\
+    \ people will only see the still photos</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='41' resource_id='widget_frame'>\n       \
+    \             <checkbox id='42' resource_id='switchWidget'></checkbox>\n     \
+    \             </LinearLayout>\n                </button>\n                <button\
+    \ id='43'>\n                  <RelativeLayout id='44'>\n                    <button\
+    \ id='45' resource_id='title'>Hide photo location data</button>\n            \
+    \        <button id='46' resource_id='summary' alt='Other people won&apos;t see\
+    \ where photos were taken. Learn\_more Link.'>Other people won&apos;t see where\
+    \ photos were taken. Le</button>\n                  </RelativeLayout>\n      \
+    \            <LinearLayout id='47' resource_id='widget_frame'>\n             \
+    \       <checkbox id='48' resource_id='switchWidget'></checkbox>\n           \
+    \       </LinearLayout>\n                </button>\n                <button id='49'>\n\
+    \                  <RelativeLayout id='50'>\n                    <button id='51'\
+    \ resource_id='title'>Skipped suggestions</button>\n                    <button\
+    \ id='52' resource_id='summary'>View &amp; remove your skipped suggestion history</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <p id='53' resource_id='title'>GOOGLE APPS</p>\n              </scrollbar>\n\
+    \            </LinearLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <FrameLayout id='54' resource_id='action_bar_container'>\n          <ViewGroup\
+    \ id='55' resource_id='action_bar'>\n            <button id='56' alt='Navigate\
+    \ up'></button>\n            <p id='57'>Settings</p>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 3c50ab
+  structure_str: c23de4
+  tag: 2024-11-11_200840
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 33
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='6'>\n              <ListView id='7' resource_id='list'>\n\
+    \                <button id='8'>\n                  <RelativeLayout id='9'>\n\
+    \                    <button id='10' resource_id='summary' alt='Manage what you\
+    \ see in your memories. \nLearn\_more Link.'>Manage what you see in your memories.\
+    \ \nLearn\_more</button>\n                  </RelativeLayout>\n              \
+    \  </button>\n                <button id='11'>\n                  <button id='12'\
+    \ resource_id='icon' alt='Preference'></button>\n                  <RelativeLayout\
+    \ id='13'>\n                    <button id='14' resource_id='title'>Hide people\
+    \ &amp; pets</button>\n                  </RelativeLayout>\n                </button>\n\
+    \                <button id='15'>\n                  <button id='16' resource_id='icon'\
+    \ alt='Preference'></button>\n                  <RelativeLayout id='17'>\n   \
+    \                 <button id='18' resource_id='title'>Hide dates</button>\n  \
+    \                </RelativeLayout>\n                </button>\n              \
+    \  <button id='19'>\n                  <button id='20' resource_id='icon' alt='Preference'></button>\n\
+    \                  <RelativeLayout id='21'>\n                    <button id='22'\
+    \ resource_id='title'>Advanced</button>\n                  </RelativeLayout>\n\
+    \                </button>\n                <button id='23'>\n               \
+    \   <RelativeLayout id='24'>\n                    <button id='25' resource_id='title'>Featured\
+    \ memories</button>\n                    <button id='26' resource_id='summary'>Choose\
+    \ memories to show above the Photos view</button>\n                  </RelativeLayout>\n\
+    \                </button>\n                <button id='27'>\n               \
+    \   <RelativeLayout id='28'>\n                    <button id='29' resource_id='title'>Notifications</button>\n\
+    \                    <button id='30' resource_id='summary'>Manage memories notifications</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \  </ListView>\n            </LinearLayout>\n          </FrameLayout>\n      \
+    \  </FrameLayout>\n        <FrameLayout id='31' resource_id='action_bar_container'>\n\
+    \          <ViewGroup id='32' resource_id='action_bar'>\n            <button id='33'\
+    \ alt='Navigate up'></button>\n            <p id='34'>Memories</p>\n         \
+    \ </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 02851c
+  structure_str: d24ade
+  tag: 2024-11-11_200857
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 56
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='6' resource_id='main_settings_fragment'>\n\
+    \            <LinearLayout id='7'>\n              <scrollbar id='8' resource_id='list'>\n\
+    \                <button id='9'>\n                  <RelativeLayout id='10'>\n\
+    \                    <button id='11' resource_id='title'>Back up &amp; sync</button>\n\
+    \                    <button id='12' resource_id='summary'>Backing up to testmobileagent11@gmail.com</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <LinearLayout id='13'>\n                  <p id='14' resource_id='title'>Free\
+    \ up device storage</p>\n                  <p id='15' resource_id='summary'>Remove\
+    \ original photos &amp; videos from your device t</p>\n                </LinearLayout>\n\
+    \                <button id='16'>\n                  <RelativeLayout id='17'>\n\
+    \                    <button id='18' resource_id='title'>Notifications</button>\n\
+    \                    <button id='19' resource_id='summary'>Manage preferences\
+    \ for notifications</button>\n                  </RelativeLayout>\n          \
+    \      </button>\n                <button id='20'>\n                  <RelativeLayout\
+    \ id='21'>\n                    <button id='22' resource_id='title'>Group similar\
+    \ faces</button>\n                    <button id='23' resource_id='summary'>Manage\
+    \ preferences for face grouping</button>\n                  </RelativeLayout>\n\
+    \                </button>\n                <button id='24'>\n               \
+    \   <RelativeLayout id='25'>\n                    <button id='26' resource_id='title'>Memories</button>\n\
+    \                    <button id='27' resource_id='summary'>Manage what you see\
+    \ in your memories</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <button id='28'>\n                  <RelativeLayout\
+    \ id='29'>\n                    <button id='30' resource_id='title'>SD card access</button>\n\
+    \                    <button id='31' resource_id='summary'>Allow Photos to delete\
+    \ items on SD card</button>\n                  </RelativeLayout>\n           \
+    \     </button>\n                <p id='32' resource_id='title'>SHARING</p>\n\
+    \                <button id='33'>\n                  <RelativeLayout id='34'>\n\
+    \                    <button id='35' resource_id='title'>Partner sharing</button>\n\
+    \                    <button id='36' resource_id='summary'>Automatically share\
+    \ photos with a partner</button>\n                  </RelativeLayout>\n      \
+    \          </button>\n                <button id='37'>\n                  <RelativeLayout\
+    \ id='38'>\n                    <button id='39' resource_id='title'>Hide video\
+    \ from motion photos</button>\n                    <button id='40' resource_id='summary'>Other\
+    \ people will only see the still photos</button>\n                  </RelativeLayout>\n\
+    \                  <LinearLayout id='41' resource_id='widget_frame'>\n       \
+    \             <checkbox id='42' resource_id='switchWidget'></checkbox>\n     \
+    \             </LinearLayout>\n                </button>\n                <button\
+    \ id='43'>\n                  <RelativeLayout id='44'>\n                    <button\
+    \ id='45' resource_id='title'>Hide photo location data</button>\n            \
+    \        <button id='46' resource_id='summary' alt='Other people won&apos;t see\
+    \ where photos were taken. Learn\_more Link.'>Other people won&apos;t see where\
+    \ photos were taken. Le</button>\n                  </RelativeLayout>\n      \
+    \            <LinearLayout id='47' resource_id='widget_frame'>\n             \
+    \       <checkbox id='48' resource_id='switchWidget'></checkbox>\n           \
+    \       </LinearLayout>\n                </button>\n                <button id='49'>\n\
+    \                  <RelativeLayout id='50'>\n                    <button id='51'\
+    \ resource_id='title'>Skipped suggestions</button>\n                    <button\
+    \ id='52' resource_id='summary'>View &amp; remove your skipped suggestion history</button>\n\
+    \                  </RelativeLayout>\n                </button>\n            \
+    \    <p id='53' resource_id='title'>GOOGLE APPS</p>\n              </scrollbar>\n\
+    \            </LinearLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <FrameLayout id='54' resource_id='action_bar_container'>\n          <ViewGroup\
+    \ id='55' resource_id='action_bar'>\n            <button id='56' alt='Navigate\
+    \ up'></button>\n            <p id='57'>Settings</p>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 3c50ab
+  structure_str: c23de4
+  tag: 2024-11-11_201131
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 53
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <ViewGroup id='11'>\n\
+    \                      <FrameLayout id='12' resource_id='photos_albums_date_scrubber_view'>\n\
+    \                        <RecyclerView id='14' resource_id='photos_albums_recycler_view'>\n\
+    \                          <ViewGroup id='15' resource_id='library_buttons_layout'>\n\
+    \                            <button id='16' resource_id='button1'>Favorites</button>\n\
+    \                            <button id='17' resource_id='button2'>Utilities</button>\n\
+    \                            <button id='18' resource_id='button3'>Archive</button>\n\
+    \                            <button id='19' resource_id='button4'>Trash</button>\n\
+    \                          </ViewGroup>\n                          <button id='21'>\n\
+    \                            <FrameLayout id='22' resource_id='album_cover_holder'>\n\
+    \                              <LinearLayout id='24'></LinearLayout>\n       \
+    \                     </FrameLayout>\n                            <LinearLayout\
+    \ id='26' resource_id='text_container'>\n                              <LinearLayout\
+    \ id='27'>\n                                <button id='28' resource_id='album_cover_title'>sdk_gphone64_x86_64</button>\n\
+    \                              </LinearLayout>\n                            </LinearLayout>\n\
+    \                          </button>\n                          <LinearLayout\
+    \ id='29' resource_id='photos_albums_empty_footer'>\n                        \
+    \    <p id='30' resource_id='empty_title'>The albums you create are shown here</p>\n\
+    \                            <button id='31' resource_id='photos_albums_empty_create_album_button'>Create\
+    \ album</button>\n                          </LinearLayout>\n                \
+    \        </RecyclerView>\n                      </FrameLayout>\n             \
+    \       </ViewGroup>\n                  </FrameLayout>\n                  <FrameLayout\
+    \ id='33' resource_id='scrolling_toolbar_container'>\n                    <LinearLayout\
+    \ id='34' resource_id='toolbar_container'>\n                      <ViewGroup id='36'\
+    \ resource_id='toolbar'>\n                        <ViewGroup id='37'>\n      \
+    \                    <p id='38' resource_id='product_lockup_view' alt='Google\
+    \ Photos'>\n                            <p id='40' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='42'>\n                          <button\
+    \ id='43' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='44' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='47' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='48'>\n                      <LinearLayout\
+    \ id='49' resource_id='tab_layout'>\n                        <LinearLayout id='51'>\n\
+    \                          <button id='52' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='53' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='54' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='55' resource_id='tab_library' status='selected'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 6b3e79
+  structure_str: fda97c
+  tag: 2024-11-11_201901
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 93
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <FrameLayout id='11'\
+    \ resource_id='photos_search_tab_container'>\n                      <FrameLayout\
+    \ id='12' resource_id='photos_search_tab_date_scrubber_view'>\n              \
+    \          <scrollbar id='13' resource_id='photos_search_destination_searchtab_recycler_view'>\n\
+    \                          <ViewGroup id='14'>\n                            <p\
+    \ id='16' resource_id='caption_text'>Check back soon</p>\n                   \
+    \       </ViewGroup>\n                          <LinearLayout id='17' resource_id='search_lists_container'>\n\
+    \                            <p id='18' resource_id='heading_text'>Your Activity</p>\n\
+    \                            <button id='19'>\n                              <button\
+    \ id='21' resource_id='item_label'>Favorites</button>\n                      \
+    \      </button>\n                            <button id='23'>\n             \
+    \                 <button id='25' resource_id='item_label'>Recently Added</button>\n\
+    \                            </button>\n                            <p id='26'\
+    \ resource_id='heading_text'>Categories</p>\n                            <button\
+    \ id='27'>\n                              <button id='29' resource_id='item_label'>Screenshots</button>\n\
+    \                            </button>\n                            <button id='31'>\n\
+    \                              <button id='33' resource_id='item_label'>Selfies</button>\n\
+    \                            </button>\n                            <button id='35'>\n\
+    \                              <button id='37' resource_id='item_label'>Videos</button>\n\
+    \                            </button>\n                            <button id='39'>\n\
+    \                              <button id='41' resource_id='item_label'>360 Photos\
+    \ &amp; Videos</button>\n                            </button>\n             \
+    \               <button id='43'>\n                              <button id='45'\
+    \ resource_id='item_label'>PhotoScan</button>\n                            </button>\n\
+    \                          </LinearLayout>\n                        </scrollbar>\n\
+    \                      </FrameLayout>\n                      <button id='70' resource_id='photos_search_destination_searchtab_searchbar'>\n\
+    \                        <button id='71' resource_id='searchbar'>Search your photos</button>\n\
+    \                      </button>\n                    </FrameLayout>\n       \
+    \           </FrameLayout>\n                  <FrameLayout id='72' resource_id='scrolling_toolbar_container'>\n\
+    \                    <LinearLayout id='73' resource_id='toolbar_container'>\n\
+    \                      <ViewGroup id='75' resource_id='toolbar'>\n           \
+    \             <ViewGroup id='76'>\n                          <p id='77' resource_id='product_lockup_view'\
+    \ alt='Google Photos'>\n                            <p id='79' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='81'>\n                          <button\
+    \ id='82' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='83' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='86' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='87'>\n                      <LinearLayout\
+    \ id='88' resource_id='tab_layout'>\n                        <LinearLayout id='90'>\n\
+    \                          <button id='91' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='92' resource_id='search_destination' status='selected'>Search</button>\n\
+    \                          <button id='93' resource_id='tab_sharing'>Sharing</button>\n\
+    \                          <button id='94' resource_id='tab_library'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: e82ee4
+  structure_str: ac6c37
+  tag: 2024-11-11_201913
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 26
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <FrameLayout id='11'>\n\
+    \                      <FrameLayout id='12' resource_id='sharing_tab_date_scrubber_view'>\n\
+    \                        <RecyclerView id='13' resource_id='shared_albums_list'>\n\
+    \                          <button id='14'>\n                            <ViewGroup\
+    \ id='15'>\n                              <button id='17' resource_id='title'>Add\
+    \ partner account</button>\n                              <button id='18'>Give\
+    \ a partner access to all your photos</button>\n                             \
+    \ <button id='19' resource_id='dismiss_button' alt='Dismiss'></button>\n     \
+    \                       </ViewGroup>\n                          </button>\n  \
+    \                        <LinearLayout id='20'>\n                            <p\
+    \ id='22' resource_id='photos_sharingtab_impl_viewbinders_empty_state_subtitle'>Shared\
+    \ albums and conversations\nwill appear here</p>\n                          </LinearLayout>\n\
+    \                          <button id='23'>\n                            <button\
+    \ id='25'>Other shared links</button>\n                          </button>\n \
+    \                       </RecyclerView>\n                      </FrameLayout>\n\
+    \                      <button id='26' resource_id='share_fab'>Shared album</button>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \            <FrameLayout id='27' resource_id='scrolling_toolbar_container'>\n\
+    \                    <LinearLayout id='28' resource_id='toolbar_container'>\n\
+    \                      <ViewGroup id='30' resource_id='toolbar'>\n           \
+    \             <ViewGroup id='31'>\n                          <p id='32' resource_id='product_lockup_view'\
+    \ alt='Google Photos'>\n                            <p id='34' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='36'>\n                          <button\
+    \ id='37' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='38' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='41' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='42'>\n                      <LinearLayout\
+    \ id='43' resource_id='tab_layout'>\n                        <LinearLayout id='45'>\n\
+    \                          <button id='46' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='47' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='48' resource_id='tab_sharing' status='selected'>Sharing</button>\n\
+    \                          <button id='49' resource_id='tab_library'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 4f7be6
+  structure_str: a58939
+  tag: 2024-11-11_201929
+  width: 1080
+- Action: input_text
+  ActionDetails:
+    action_type: input_text
+    text: friends
+  Choice: 17
+  Input: friends
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>Add a title</input>\n               \
+    \       </LinearLayout>\n                    </LinearLayout>\n               \
+    \     <ViewGroup id='19' resource_id='toolbar'>\n                      <button\
+    \ id='20' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='21'>\n                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <ViewGroup id='39' resource_id='action_mode_bar'>\n          <button\
+    \ id='40' resource_id='action_mode_close_button' alt='Cancel'></button>\n    \
+    \      <LinearLayout id='41'>\n            <p id='42' resource_id='action_bar_title'>Create\
+    \ album</p>\n          </LinearLayout>\n          <LinearLayoutCompat id='43'>\n\
+    \            <button id='44' resource_id='share_album_button'>Share</button>\n\
+    \          </LinearLayoutCompat>\n        </ViewGroup>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 18a74d
+  structure_str: 6471fd
+  tag: 2024-11-11_202004
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 35
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>friends</input>\n                   \
+    \   </LinearLayout>\n                    </LinearLayout>\n                   \
+    \ <ViewGroup id='19' resource_id='toolbar'>\n                      <button id='20'\
+    \ alt='Navigate up'></button>\n                      <LinearLayoutCompat id='21'>\n\
+    \                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <ViewGroup id='39' resource_id='action_mode_bar'>\n          <button\
+    \ id='40' resource_id='action_mode_close_button' alt='Cancel'></button>\n    \
+    \      <LinearLayout id='41'>\n            <p id='42' resource_id='action_bar_title'>Create\
+    \ album</p>\n          </LinearLayout>\n          <LinearLayoutCompat id='43'>\n\
+    \            <button id='44' resource_id='share_album_button'>Share</button>\n\
+    \          </LinearLayoutCompat>\n        </ViewGroup>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: b3d24d
+  structure_str: 6471fd
+  tag: 2024-11-11_202023
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 9
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <LinearLayout id='6'>\n              <ViewGroup id='7' resource_id='toolbar'>\n\
+    \                <LinearLayout id='8'>\n                  <button id='9' resource_id='close_button'\
+    \ alt='Cancel'></button>\n                  <LinearLayout id='10'>\n         \
+    \           <LinearLayout id='11'>\n                      <p id='12' resource_id='title'>Add\
+    \ photos</p>\n                    </LinearLayout>\n                  </LinearLayout>\n\
+    \                </LinearLayout>\n              </ViewGroup>\n              <FrameLayout\
+    \ id='15' resource_id='main_container'>\n                <FrameLayout id='16'>\n\
+    \                  <FrameLayout id='18' resource_id='fragment_container'>\n  \
+    \                  <FrameLayout id='19'>\n                      <FrameLayout id='21'\
+    \ resource_id='fragment_container'>\n                        <FrameLayout id='22'\
+    \ resource_id='fragment_container'>\n                          <FrameLayout id='23'\
+    \ resource_id='photos_photogrid_date_scrubber_view'>\n                       \
+    \     <FrameLayout id='24'></FrameLayout>\n                          </FrameLayout>\n\
+    \                        </FrameLayout>\n                      </FrameLayout>\n\
+    \                      <button id='26' resource_id='zoom_fab_layout' alt='zoom\
+    \ in'></button>\n                    </FrameLayout>\n                  </FrameLayout>\n\
+    \                </FrameLayout>\n              </FrameLayout>\n            </LinearLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 1da19f
+  structure_str: 8c5e85
+  tag: 2024-11-11_202053
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 44
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <input id='17'\
+    \ resource_id='collection_title_editing'>friends</input>\n                   \
+    \   </LinearLayout>\n                    </LinearLayout>\n                   \
+    \ <ViewGroup id='19' resource_id='toolbar'>\n                      <button id='20'\
+    \ alt='Navigate up'></button>\n                      <LinearLayoutCompat id='21'>\n\
+    \                        <button id='22' resource_id='action_bar_overflow'>\n\
+    \                          <button id='23' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='24' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='26' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='27' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='28'>\n                      <RecyclerView\
+    \ id='29' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='30'>\n                          <LinearLayout id='31' resource_id='emptystate_button_list'>\n\
+    \                            <p id='32'>ADD PHOTOS</p>\n                     \
+    \       <button id='33'>\n                              <button id='35' resource_id='button_title'>Select\
+    \ photos</button>\n                            </button>\n                   \
+    \       </LinearLayout>\n                        </LinearLayout>\n           \
+    \           </RecyclerView>\n                    </FrameLayout>\n            \
+    \      </FrameLayout>\n                </FrameLayout>\n              </ViewGroup>\n\
+    \            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \        <ViewGroup id='39' resource_id='action_mode_bar'>\n          <button\
+    \ id='40' resource_id='action_mode_close_button' alt='Cancel'></button>\n    \
+    \      <LinearLayout id='41'>\n            <p id='42' resource_id='action_bar_title'>Create\
+    \ album</p>\n          </LinearLayout>\n          <LinearLayoutCompat id='43'>\n\
+    \            <button id='44' resource_id='share_album_button'>Share</button>\n\
+    \          </LinearLayoutCompat>\n        </ViewGroup>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 5eefee
+  structure_str: aba6dc
+  tag: 2024-11-11_202118
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 37
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='root_view'>\n\
+    \            <LinearLayout id='6' resource_id='share_view_container'>\n      \
+    \        <button id='8' resource_id='container'>\n                <ViewGroup id='9'\
+    \ resource_id='share_expander'>\n                  <FrameLayout id='10' resource_id='fragment_container'>\n\
+    \                    <LinearLayout id='11' resource_id='share_fragment_root_view'>\n\
+    \                      <FrameLayout id='12' resource_id='share_sheet_container'>\n\
+    \                        <RecyclerView id='13' resource_id='share_sheet'>\n  \
+    \                        <FrameLayout id='14'>\n                            <RelativeLayout\
+    \ id='15'>\n                              <LinearLayout id='16' resource_id='peoplekit_direct_wrapper'>\n\
+    \                                <RelativeLayout id='17' resource_id='peoplekit_direct_top_bar'>\n\
+    \                                  <button id='19' resource_id='peoplekit_direct_header'>INVITE\
+    \ TO ALBUM</button>\n                                  <button id='20' resource_id='peoplekit_direct_help_icon'\
+    \ alt='Help'></button>\n                                  <button id='22' resource_id='peoplekit_direct_search_icon'\
+    \ alt='Search for people'></button>\n                                </RelativeLayout>\n\
+    \                                <RelativeLayout id='24' resource_id='peoplekit_direct_facerows'>\n\
+    \                                  <RelativeLayout id='25'>\n                \
+    \                    <LinearLayout id='27'>\n                                \
+    \      <RelativeLayout id='28' resource_id='peoplekit_facerows_no_contacts'></RelativeLayout>\n\
+    \                                      <button id='30'>No contacts</button>\n\
+    \                                    </LinearLayout>\n                       \
+    \           </RelativeLayout>\n                                </RelativeLayout>\n\
+    \                                <button id='32' resource_id='peoplekit_direct_3p_header'>SHARE\
+    \ LINK IN OTHER APPS</button>\n                                <RelativeLayout\
+    \ id='33' resource_id='peoplekit_direct_3p'>\n                               \
+    \   <RecyclerView id='34' resource_id='peoplekit_third_party_scroll_view'>\n \
+    \                                   <button id='35' resource_id='peoplekit_new_app_item'>\n\
+    \                                      <button id='37' resource_id='peoplekit_third_party_new_app_name_id'>Get\
+    \ link</button>\n                                    </button>\n             \
+    \                       <button id='38' resource_id='peoplekit_new_app_item'>\n\
+    \                                      <button id='40' resource_id='peoplekit_third_party_new_app_name_id'>News\
+    \ Feed</button>\n                                    </button>\n             \
+    \                       <button id='41' resource_id='peoplekit_new_app_item'>\n\
+    \                                      <button id='43' resource_id='peoplekit_third_party_new_app_name_id'>Your\
+    \ groups</button>\n                                    </button>\n           \
+    \                         <button id='44' resource_id='peoplekit_new_app_item'>\n\
+    \                                      <button id='46' resource_id='peoplekit_third_party_new_app_name_id'>More</button>\n\
+    \                                    </button>\n                             \
+    \     </RecyclerView>\n                                </RelativeLayout>\n   \
+    \                           </LinearLayout>\n                            </RelativeLayout>\n\
+    \                          </FrameLayout>\n                        </RecyclerView>\n\
+    \                      </FrameLayout>\n                    </LinearLayout>\n \
+    \                 </FrameLayout>\n                </ViewGroup>\n             \
+    \ </button>\n            </LinearLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 096c61
+  structure_str: 7f4bcf
+  tag: 2024-11-11_202140
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 17
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='root_view'>\n\
+    \            <LinearLayout id='6' resource_id='share_view_container'>\n      \
+    \        <button id='8' resource_id='container'>\n                <ViewGroup id='9'\
+    \ resource_id='share_expander'>\n                  <FrameLayout id='10' resource_id='fragment_container'>\n\
+    \                    <ViewGroup id='11'>\n                      <button id='13'\
+    \ resource_id='header'>LINK SHARING</button>\n                      <button id='14'\
+    \ resource_id='title'>Create link to share</button>\n                      <button\
+    \ id='15' resource_id='description' alt='Let anyone with the link see photos and\
+    \ people in this album. Learn\_more Link.'>Let anyone with the link see photos\
+    \ and people in </button>\n                      <button id='16' resource_id='cancel_button'>Cancel</button>\n\
+    \                      <button id='17' resource_id='create_link_button'>Create\
+    \ link</button>\n                    </ViewGroup>\n                  </FrameLayout>\n\
+    \                </ViewGroup>\n              </button>\n            </LinearLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: b9fa5a
+  structure_str: a90a7b
+  tag: 2024-11-11_202217
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 31
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <p id='17' resource_id='collection_title'>friends</p>\n\
+    \                        <FrameLayout id='19' resource_id='facepile'>\n      \
+    \                    <LinearLayout id='20'>\n                            <p id='21'\
+    \ resource_id='faces' alt='Sharing Options'>\n                              <button\
+    \ id='22' resource_id='icon' alt='Link sharing is on'></button>\n            \
+    \                  <button id='23' alt='Sharing Options'></button>\n         \
+    \                     <button id='24' resource_id='icon' alt='Add Recipients'></button>\n\
+    \                            </p>\n                          </LinearLayout>\n\
+    \                        </FrameLayout>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <ViewGroup id='26' resource_id='toolbar'>\n\
+    \                      <button id='27' alt='Navigate up'></button>\n         \
+    \             <LinearLayoutCompat id='28'>\n                        <button id='29'\
+    \ resource_id='launch_album_feed_view_button' alt='View comments'></button>\n\
+    \                        <button id='30' resource_id='action_bar_overflow'>\n\
+    \                          <button id='31' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='32' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='34' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='35' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='36'>\n                      <RecyclerView\
+    \ id='37' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='38' resource_id='album_is_empty_state_item'>\n                         \
+    \ <p id='40' resource_id='album_is_empty_state_title'>This album is empty</p>\n\
+    \                          <button id='41' resource_id='album_is_empty_state_add_photos_button'>Add\
+    \ photos</button>\n                        </LinearLayout>\n                 \
+    \     </RecyclerView>\n                    </FrameLayout>\n                  </FrameLayout>\n\
+    \                </FrameLayout>\n              </ViewGroup>\n            </FrameLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 6be1cd
+  structure_str: b6977b
+  tag: 2024-11-11_202238
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 11
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <button id='4'>\n        <button id='5' resource_id='action_bar_overflow_menu_item_title'>Share</button>\n\
+    \      </button>\n      <button id='6'>\n        <button id='7' resource_id='action_bar_overflow_menu_item_title'>Select</button>\n\
+    \      </button>\n      <button id='8'>\n        <button id='9' resource_id='action_bar_overflow_menu_item_title'>Edit\
+    \ album</button>\n      </button>\n      <button id='10'>\n        <button id='11'\
+    \ resource_id='action_bar_overflow_menu_item_title'>Options</button>\n      </button>\n\
+    \      <button id='12'>\n        <button id='13' resource_id='action_bar_overflow_menu_item_title'>Hide\
+    \ from Library</button>\n      </button>\n      <button id='14'>\n        <button\
+    \ id='15' resource_id='action_bar_overflow_menu_item_title'>Delete album</button>\n\
+    \      </button>\n    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 6be1cd/ae24aa
+  structure_str: b6977b/4f387a
+  tag: 2024-11-11_202258
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='envelope_settings_container'>\n\
+    \              <button id='10'>\n                <FrameLayout id='11'>\n     \
+    \             <RecyclerView id='12' resource_id='photos_envelope_settings_recycler_view'>\n\
+    \                    <button id='13'>\n                      <button id='14' resource_id='settings_sharing_section_title'>SHARING</button>\n\
+    \                    </button>\n                    <button id='15'>\n       \
+    \               <RelativeLayout id='16'>\n                        <LinearLayout\
+    \ id='17' resource_id='text_container'>\n                          <button id='18'\
+    \ resource_id='title'>Collaborate</button>\n                          <button\
+    \ id='19' resource_id='subtitle'>Let others add their photos</button>\n      \
+    \                  </LinearLayout>\n                        <LinearLayout id='20'\
+    \ resource_id='toggle_container'>\n                          <checkbox id='21'\
+    \ resource_id='toggle' alt='Collaborate'></checkbox>\n                       \
+    \ </LinearLayout>\n                      </RelativeLayout>\n                 \
+    \   </button>\n                    <button id='22'>\n                      <RelativeLayout\
+    \ id='24'>\n                        <LinearLayout id='25' resource_id='text_container'>\n\
+    \                          <button id='26' resource_id='title'>Comments &amp;\
+    \ likes</button>\n                          <button id='27' resource_id='subtitle'>Let\
+    \ others respond</button>\n                        </LinearLayout>\n         \
+    \               <LinearLayout id='28' resource_id='toggle_container'>\n      \
+    \                    <checkbox id='29' resource_id='toggle' alt='Comments &amp;\
+    \ likes' status='selected'></checkbox>\n                        </LinearLayout>\n\
+    \                      </RelativeLayout>\n                    </button>\n    \
+    \                <LinearLayout id='30'>\n                      <button id='31'\
+    \ resource_id='toggle_row_item'>\n                        <RelativeLayout id='33'>\n\
+    \                          <LinearLayout id='34' resource_id='text_container'>\n\
+    \                            <button id='35' resource_id='title'>Link sharing</button>\n\
+    \                            <button id='36' resource_id='subtitle'>Let anyone\
+    \ with the link see photos and people in </button>\n                         \
+    \ </LinearLayout>\n                          <LinearLayout id='37' resource_id='toggle_container'>\n\
+    \                            <checkbox id='38' resource_id='toggle' alt='Link\
+    \ sharing' status='selected'></checkbox>\n                          </LinearLayout>\n\
+    \                        </RelativeLayout>\n                      </button>\n\
+    \                      <button id='39' resource_id='settings_toggle_button'>Copy\
+    \ link</button>\n                    </LinearLayout>\n                    <button\
+    \ id='40'>\n                      <button id='41' resource_id='title'>MEMBERS</button>\n\
+    \                    </button>\n                    <button id='42'>\n       \
+    \               <button id='44'>Invite people</button>\n                    </button>\n\
+    \                    <LinearLayout id='45'>\n                      <LinearLayout\
+    \ id='47'>\n                        <button id='48' resource_id='name'>Agent Test</button>\n\
+    \                      </LinearLayout>\n                      <button id='49'\
+    \ resource_id='role'>Owner</button>\n                    </LinearLayout>\n   \
+    \               </RecyclerView>\n                </FrameLayout>\n            \
+    \    <LinearLayout id='50' resource_id='toolbar_container'>\n                \
+    \  <ViewGroup id='52' resource_id='toolbar'>\n                    <button id='53'\
+    \ alt='Navigate up'></button>\n                    <button id='54'>Options</button>\n\
+    \                  </ViewGroup>\n                </LinearLayout>\n           \
+    \   </button>\n            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 3f8004
+  structure_str: 5e4cab
+  tag: 2024-11-11_202311
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 32
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='envelope_settings_container'>\n\
+    \              <button id='10'>\n                <FrameLayout id='11'>\n     \
+    \             <RecyclerView id='12' resource_id='photos_envelope_settings_recycler_view'>\n\
+    \                    <button id='13'>\n                      <button id='14' resource_id='settings_sharing_section_title'>SHARING</button>\n\
+    \                    </button>\n                    <LinearLayout id='15'>\n \
+    \                     <button id='16' resource_id='toggle_row_item'>\n       \
+    \                 <RelativeLayout id='17'>\n                          <LinearLayout\
+    \ id='18' resource_id='text_container'>\n                            <button id='19'\
+    \ resource_id='title'>Link sharing</button>\n                            <button\
+    \ id='20' resource_id='subtitle'>Let anyone with the link see photos and people\
+    \ in </button>\n                          </LinearLayout>\n                  \
+    \        <LinearLayout id='21' resource_id='toggle_container'>\n             \
+    \               <checkbox id='22' resource_id='toggle' alt='Link sharing' status='selected'></checkbox>\n\
+    \                          </LinearLayout>\n                        </RelativeLayout>\n\
+    \                      </button>\n                      <button id='23' resource_id='settings_toggle_button'>Copy\
+    \ link</button>\n                    </LinearLayout>\n                    <button\
+    \ id='24'>\n                      <button id='25' resource_id='title'>MEMBERS</button>\n\
+    \                    </button>\n                    <button id='26'>\n       \
+    \               <button id='28'>Invite people</button>\n                    </button>\n\
+    \                  </RecyclerView>\n                </FrameLayout>\n         \
+    \       <LinearLayout id='29' resource_id='toolbar_container'>\n             \
+    \     <ViewGroup id='31' resource_id='toolbar'>\n                    <button id='32'\
+    \ alt='Navigate up'></button>\n                    <button id='33'>Options</button>\n\
+    \                  </ViewGroup>\n                </LinearLayout>\n           \
+    \   </button>\n            </FrameLayout>\n          </FrameLayout>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 3d5e06
+  structure_str: 6854a3
+  tag: 2024-11-11_202332
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 24
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <FrameLayout id='9' resource_id='album_fragment_container'>\n   \
+    \           <ViewGroup id='10'>\n                <LinearLayout id='13' resource_id='toolbar_container'>\n\
+    \                  <FrameLayout id='14'>\n                    <LinearLayout id='15'\
+    \ resource_id='collection_title_card'>\n                      <LinearLayout id='16'\
+    \ resource_id='collection_title_card'>\n                        <p id='17' resource_id='collection_title'>friends</p>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <ViewGroup id='23' resource_id='toolbar'>\n             \
+    \         <button id='24' alt='Navigate up'></button>\n                      <LinearLayoutCompat\
+    \ id='25'>\n                        <button id='26' resource_id='launch_album_feed_view_button'\
+    \ alt='View comments'></button>\n                        <button id='27' resource_id='action_bar_overflow'>\n\
+    \                          <button id='28' resource_id='photos_overflow_icon'\
+    \ alt='More options'></button>\n                        </button>\n          \
+    \            </LinearLayoutCompat>\n                    </ViewGroup>\n       \
+    \           </FrameLayout>\n                  <HorizontalScrollView id='29' resource_id='chips_container'></HorizontalScrollView>\n\
+    \                </LinearLayout>\n                <FrameLayout id='31' resource_id='fragment_container'>\n\
+    \                  <FrameLayout id='32' resource_id='photos_photogrid_date_scrubber_view'>\n\
+    \                    <FrameLayout id='33'>\n                      <RecyclerView\
+    \ id='34' resource_id='recycler_view'>\n                        <LinearLayout\
+    \ id='35' resource_id='album_is_empty_state_item'>\n                         \
+    \ <p id='37' resource_id='album_is_empty_state_title'>This album is empty</p>\n\
+    \                          <button id='38' resource_id='album_is_empty_state_add_photos_button'>Add\
+    \ photos</button>\n                        </LinearLayout>\n                 \
+    \     </RecyclerView>\n                    </FrameLayout>\n                  </FrameLayout>\n\
+    \                </FrameLayout>\n              </ViewGroup>\n            </FrameLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: a2bffc
+  structure_str: 5eb0ff
+  tag: 2024-11-11_202346
+  width: 1080
+- Action: click
+  ActionDetails:
+    action_type: click
+  Choice: 56
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <FrameLayout id='5' resource_id='touch_capture_view'>\n\
+    \            <DrawerLayout id='7' resource_id='drawer_layout'>\n             \
+    \ <FrameLayout id='8' resource_id='main_container'>\n                <ViewGroup\
+    \ id='9' resource_id='toolbar_parent'>\n                  <FrameLayout id='10'\
+    \ resource_id='touch_capture_view'>\n                    <FrameLayout id='11'>\n\
+    \                      <FrameLayout id='12' resource_id='sharing_tab_date_scrubber_view'>\n\
+    \                        <RecyclerView id='13' resource_id='shared_albums_list'>\n\
+    \                          <button id='14'>\n                            <ViewGroup\
+    \ id='15'>\n                              <button id='17' resource_id='title'>Add\
+    \ partner account</button>\n                              <button id='18'>Give\
+    \ a partner access to all your photos</button>\n                             \
+    \ <button id='19' resource_id='dismiss_button' alt='Dismiss'></button>\n     \
+    \                       </ViewGroup>\n                          </button>\n  \
+    \                        <button id='20'>\n                            <RelativeLayout\
+    \ id='21'>\n                              <FrameLayout id='22' resource_id='avatar_or_status_container'></FrameLayout>\n\
+    \                              <LinearLayout id='25' resource_id='titles_container'>\n\
+    \                                <button id='26' resource_id='title'>friends</button>\n\
+    \                                <button id='27' resource_id='subtitle'>Google\
+    \ User shared an album</button>\n                              </LinearLayout>\n\
+    \                              <LinearLayout id='28' resource_id='cover_container'>\n\
+    \                                <button id='29' resource_id='overflow' alt='More\
+    \ sharing options'></button>\n                              </LinearLayout>\n\
+    \                            </RelativeLayout>\n                          </button>\n\
+    \                          <button id='30'>\n                            <button\
+    \ id='32'>Other shared links</button>\n                          </button>\n \
+    \                       </RecyclerView>\n                      </FrameLayout>\n\
+    \                      <button id='33' resource_id='share_fab'>Shared album</button>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \            <FrameLayout id='34' resource_id='scrolling_toolbar_container'>\n\
+    \                    <LinearLayout id='35' resource_id='toolbar_container'>\n\
+    \                      <ViewGroup id='37' resource_id='toolbar'>\n           \
+    \             <ViewGroup id='38'>\n                          <p id='39' resource_id='product_lockup_view'\
+    \ alt='Google Photos'>\n                            <p id='41' resource_id='product_name'>Photos</p>\n\
+    \                          </p>\n                        </ViewGroup>\n      \
+    \                  <LinearLayoutCompat id='43'>\n                          <button\
+    \ id='44' resource_id='selected_account_disc' alt='Signed in as Agent Test testmobileagent11@gmail.com\n\
+    Account and settings.'>\n                            <FrameLayout id='45' resource_id='og_selected_account_disc_apd'></FrameLayout>\n\
+    \                          </button>\n                        </LinearLayoutCompat>\n\
+    \                      </ViewGroup>\n                    </LinearLayout>\n   \
+    \               </FrameLayout>\n                  <FrameLayout id='48' resource_id='tab_bar'>\n\
+    \                    <FrameLayout id='49'>\n                      <LinearLayout\
+    \ id='50' resource_id='tab_layout'>\n                        <LinearLayout id='52'>\n\
+    \                          <button id='53' resource_id='tab_photos'>Photos</button>\n\
+    \                          <button id='54' resource_id='search_destination'>Search</button>\n\
+    \                          <button id='55' resource_id='tab_sharing' status='selected'>Sharing</button>\n\
+    \                          <button id='56' resource_id='tab_library'>Library</button>\n\
+    \                        </LinearLayout>\n                      </LinearLayout>\n\
+    \                    </FrameLayout>\n                  </FrameLayout>\n      \
+    \          </ViewGroup>\n              </FrameLayout>\n            </DrawerLayout>\n\
+    \          </FrameLayout>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  currently_executing_code: null
+  height: 2400
+  raw_answer: null
+  raw_prompt: null
+  state_str: 1b7bf1
+  structure_str: 8a7fb5
+  tag: 2024-11-11_202406
+  width: 1080
+step_num: 49

@@ -1,0 +1,234 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 5
+  Choice: 5
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <RelativeLayout id='4'>\n          <button\
+    \ id='5' resource_id='title'>Add holidays</button>\n        </RelativeLayout>\n\
+    \      </LinearLayout>\n      <LinearLayout id='6'>\n        <RelativeLayout id='7'>\n\
+    \          <button id='8' resource_id='title'>Add contact birthdays</button>\n\
+    \        </RelativeLayout>\n      </LinearLayout>\n      <LinearLayout id='9'>\n\
+    \        <RelativeLayout id='10'>\n          <button id='11' resource_id='title'>Add\
+    \ contact anniversaries</button>\n        </RelativeLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='12'>\n        <RelativeLayout id='13'>\n          <button\
+    \ id='14' resource_id='title'>Import events from an .ics file</button>\n     \
+    \   </RelativeLayout>\n      </LinearLayout>\n      <LinearLayout id='15'>\n \
+    \       <RelativeLayout id='16'>\n          <button id='17' resource_id='title'>Export\
+    \ events to an .ics file</button>\n        </RelativeLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='18'>\n        <RelativeLayout id='19'>\n          <button\
+    \ id='20' resource_id='title'>Settings</button>\n        </RelativeLayout>\n \
+    \     </LinearLayout>\n      <LinearLayout id='21'>\n        <RelativeLayout id='22'>\n\
+    \          <button id='23' resource_id='title'>About</button>\n        </RelativeLayout>\n\
+    \      </LinearLayout>\n    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: 5534c66d5f37c0f29958ac89e66254fa62b5e261bf014a6fb71d9aa78a75d4b3
+  state_str: '2'
+  tag: 2023-07-16_121307
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '8'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <scrollbar id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10'>Algeria</checkbox>\n                    <checkbox\
+    \ id='11'>Argentina</checkbox>\n                    <checkbox id='12'>Australia</checkbox>\n\
+    \                    <checkbox id='13'>Belgi\xEB</checkbox>\n                \
+    \    <checkbox id='14'>Bolivia</checkbox>\n                    <checkbox id='15'>Brasil</checkbox>\n\
+    \                    <checkbox id='16'>Canada</checkbox>\n                   \
+    \ <checkbox id='17'>China</checkbox>\n                    <checkbox id='18'>Colombia</checkbox>\n\
+    \                    <checkbox id='19'>\u010Cesk\xE1 republika</checkbox>\n  \
+    \                  <checkbox id='20'>Danmark</checkbox>\n                    <checkbox\
+    \ id='21'>Deutschland</checkbox>\n                    <checkbox id='22'>Eesti</checkbox>\n\
+    \                    <checkbox id='23'>Espa\xF1a</checkbox>\n                \
+    \  </RadioGroup>\n                </scrollbar>\n              </FrameLayout>\n\
+    \            </FrameLayout>\n          </aq>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4bedb8a368600eed8debb130eff36eafe0bb2cf4e4abcb16e1f86b0e4c4737a6
+  state_str: 602b27d33b55a97b90cd1247974100e00995ae41c0b4ddf9d5aaa9efbeb014f4
+  tag: 2023-07-03_210242
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '8'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <scrollbar id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='19'>\u010Cesk\xE1 republika</checkbox>\n      \
+    \              <checkbox id='20'>Danmark</checkbox>\n                    <checkbox\
+    \ id='21'>Deutschland</checkbox>\n                    <checkbox id='22'>Eesti</checkbox>\n\
+    \                    <checkbox id='23'>Espa\xF1a</checkbox>\n                \
+    \    <checkbox id='24'>\xC9ire</checkbox>\n                    <checkbox id='25'>France</checkbox>\n\
+    \                    <checkbox id='26'>Hanguk</checkbox>\n                   \
+    \ <checkbox id='27'>Hellas</checkbox>\n                    <checkbox id='28'>Hrvatska</checkbox>\n\
+    \                    <checkbox id='29'>India</checkbox>\n                    <checkbox\
+    \ id='30'>Indonesia</checkbox>\n                    <checkbox id='31'>\xCDsland</checkbox>\n\
+    \                    <checkbox id='32'>Italia</checkbox>\n                   \
+    \ <checkbox id='33'>Latvija</checkbox>\n                  </RadioGroup>\n    \
+    \            </scrollbar>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </aq>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 548f5d7185e95ee033d9c67eace99215a7d44eab86b9405f4566c863c3b9865e
+  state_str: 4bedb8a368600eed8debb130eff36eafe0bb2cf4e4abcb16e1f86b0e4c4737a6
+  tag: 2023-07-03_210242_2
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '8'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <scrollbar id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='30'>Indonesia</checkbox>\n                    <checkbox\
+    \ id='31'>\xCDsland</checkbox>\n                    <checkbox id='32'>Italia</checkbox>\n\
+    \                    <checkbox id='33'>Latvija</checkbox>\n                  \
+    \  <checkbox id='34'>Lietuva</checkbox>\n                    <checkbox id='35'>Luxemburg</checkbox>\n\
+    \                    <checkbox id='36'>Makedonija</checkbox>\n               \
+    \     <checkbox id='37'>Magyarorsz\xE1g</checkbox>\n                    <checkbox\
+    \ id='38'>M\xE9xico</checkbox>\n                    <checkbox id='39'>Nederland</checkbox>\n\
+    \                    <checkbox id='40'>\u65E5\u672C</checkbox>\n             \
+    \       <checkbox id='41'>Norge</checkbox>\n                    <checkbox id='42'>\xD6\
+    sterreich</checkbox>\n                    <checkbox id='43'>P\u0101kist\u0101\
+    n</checkbox>\n                  </RadioGroup>\n                </scrollbar>\n\
+    \              </FrameLayout>\n            </FrameLayout>\n          </aq>\n \
+    \       </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 5bfeaaf3aa4e04390137e33066ec472d340a1caa2258acd964751881b302c49e
+  state_str: 548f5d7185e95ee033d9c67eace99215a7d44eab86b9405f4566c863c3b9865e
+  tag: 2023-07-03_210242_2
+- Action: scroll
+  ActionDetails:
+    action_type: scroll
+    direction: down
+    index: 3
+  Choice: '8'
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <scrollbar id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='40'>\u65E5\u672C</checkbox>\n                 \
+    \   <checkbox id='41'>Norge</checkbox>\n                    <checkbox id='42'>\xD6\
+    sterreich</checkbox>\n                    <checkbox id='43'>P\u0101kist\u0101\
+    n</checkbox>\n                    <checkbox id='44'>Polska</checkbox>\n      \
+    \              <checkbox id='45'>Portugal</checkbox>\n                    <checkbox\
+    \ id='46'>\u0420\u043E\u0441\u0441\u0438\u044F</checkbox>\n                  \
+    \  <checkbox id='47'>Rom\xE2nia</checkbox>\n                    <checkbox id='48'>Schweiz</checkbox>\n\
+    \                    <checkbox id='49'>Srbija</checkbox>\n                   \
+    \ <checkbox id='50'>Slovenija</checkbox>\n                    <checkbox id='51'>Slovensko</checkbox>\n\
+    \                    <checkbox id='52'>South Africa</checkbox>\n             \
+    \       <checkbox id='53'>Suomi</checkbox>\n                    <checkbox id='54'>Sverige</checkbox>\n\
+    \                  </RadioGroup>\n                </scrollbar>\n             \
+    \ </FrameLayout>\n            </FrameLayout>\n          </aq>\n        </FrameLayout>\n\
+    \      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: bdf8d7320cb3e0ae3e7818e623d5e558b6ff6a0f51253ea7556e06edc3fbbdd7
+  state_str: 5bfeaaf3aa4e04390137e33066ec472d340a1caa2258acd964751881b302c49e
+  tag: 2023-07-03_210242_2
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 57
+  Choice: 57
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <aq id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <scrollbar id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='44'>Polska</checkbox>\n                    <checkbox\
+    \ id='45'>Portugal</checkbox>\n                    <checkbox id='46'>\u0420\u043E\
+    \u0441\u0441\u0438\u044F</checkbox>\n                    <checkbox id='47'>Rom\xE2\
+    nia</checkbox>\n                    <checkbox id='48'>Schweiz</checkbox>\n   \
+    \                 <checkbox id='49'>Srbija</checkbox>\n                    <checkbox\
+    \ id='50'>Slovenija</checkbox>\n                    <checkbox id='51'>Slovensko</checkbox>\n\
+    \                    <checkbox id='52'>South Africa</checkbox>\n             \
+    \       <checkbox id='53'>Suomi</checkbox>\n                    <checkbox id='54'>Sverige</checkbox>\n\
+    \                    <checkbox id='55'>Ukraine</checkbox>\n                  \
+    \  <checkbox id='56'>United Kingdom</checkbox>\n                    <checkbox\
+    \ id='57'>United States</checkbox>\n                  </RadioGroup>\n        \
+    \        </scrollbar>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </aq>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: d153f77cd44709997f1a7e9d001e3e4724b767b98d985b994cdefd5ace2fc89b
+  state_str: bdf8d7320cb3e0ae3e7818e623d5e558b6ff6a0f51253ea7556e06edc3fbbdd7
+  tag: 2023-07-03_210242_2
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <ViewGroup id='3' resource_id='decor_content_parent'>\n        <FrameLayout\
+    \ id='4' resource_id='action_bar_container'>\n          <ViewGroup id='5' resource_id='action_bar'>\n\
+    \            <p id='6'>Calendar</p>\n            <aq id='7'>\n              <button\
+    \ id='8' resource_id='search' alt='Search'></button>\n              <button id='9'\
+    \ resource_id='change_view' alt='Change view'></button>\n              <button\
+    \ id='10' alt='More options'></button>\n            </aq>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n        <FrameLayout id='11' resource_id='content'>\n\
+    \          <ViewGroup id='12' resource_id='calendar_coordinator'>\n          \
+    \  <FrameLayout id='13' resource_id='fragments_holder'>\n              <button\
+    \ id='14'>\n                <RelativeLayout id='63' resource_id='month_calendar_holder'>\n\
+    \                  <ImageView id='64' resource_id='top_left_arrow'></ImageView>\n\
+    \                  <button id='65' resource_id='top_value'>July</button>\n   \
+    \               <ImageView id='66' resource_id='top_right_arrow'></ImageView>\n\
+    \                  <FrameLayout id='67' resource_id='month_view_wrapper'></FrameLayout>\n\
+    \                </RelativeLayout>\n              </button>\n            </FrameLayout>\n\
+    \            <button id='159' resource_id='calendar_fab' alt='New Event'></button>\n\
+    \          </ViewGroup>\n        </FrameLayout>\n      </ViewGroup>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b037bd18f22672a681a11f31d2309ba4f48e3941ff9ac63a6a164e72ee9dc5d0
+  state_str: e0d0c869524ad63e9df43ce8ed965e1b795181cdc9f9ca7891b7806aabd48a40
+  tag: 2023-07-16_121258_2
+step_num: 4
+task_name: Add the holidays of United States to the calendar

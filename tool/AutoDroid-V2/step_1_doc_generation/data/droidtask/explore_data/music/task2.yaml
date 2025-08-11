@@ -1,0 +1,179 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 15
+  Choice: 15
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='equalizer' alt='Equalizer'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_holder'>\n                <scrollbar id='18' resource_id='view_pager'>\n\
+    \                  <RelativeLayout id='19' resource_id='playlists_fragment_holder'>\n\
+    \                    <RelativeLayout id='20' resource_id='playlists_fastscroller'></RelativeLayout>\n\
+    \                    <p id='25' resource_id='playlists_placeholder'>No items found.</p>\n\
+    \                    <button id='26' resource_id='playlists_placeholder_2'>Create\
+    \ new playlist</button>\n                  </RelativeLayout>\n               \
+    \ </scrollbar>\n                <HorizontalScrollView id='72' resource_id='main_tabs_holder'>\n\
+    \                  <LinearLayout id='73'>\n                    <LinearLayout id='74'>\n\
+    \                      <LinearLayout id='75' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='76' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <p id='77' resource_id='tab_item_label' status='selected'>Playlists</p>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='78'>\n                      <LinearLayout\
+    \ id='79' resource_id='tab_item_holder'>\n                        <ImageView id='80'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='81'\
+    \ resource_id='tab_item_label'>Folders</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='82'>\n\
+    \                      <LinearLayout id='83' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='84' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='85' resource_id='tab_item_label'>Artists</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='86'>\n                      <LinearLayout\
+    \ id='87' resource_id='tab_item_holder'>\n                        <ImageView id='88'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='89'\
+    \ resource_id='tab_item_label'>Albums</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='90'>\n\
+    \                      <LinearLayout id='91' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='92' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='93' resource_id='tab_item_label'>Tracks</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                  </LinearLayout>\n                </HorizontalScrollView>\n\
+    \              </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 72bbcce61f4f658f6a9e25f8e70135aafa6c70a050f16e478bfe3fb1059a0841
+  state_str: 3ab5ae72b5b5beeffd08731f524ba1820363ded0cb510a80ad632e3b94630ab1
+  tag: 2023-07-15_144105
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 18
+  Choice: 18
+  Input: null
+  State: "<FrameLayout id='0'>\n  <FrameLayout id='1'>\n    <ListView id='2'>\n  \
+    \    <LinearLayout id='3'>\n        <LinearLayout id='4' resource_id='content'>\n\
+    \          <RelativeLayout id='5'>\n            <button id='6' resource_id='title'>Create\
+    \ new playlist</button>\n          </RelativeLayout>\n        </LinearLayout>\n\
+    \      </LinearLayout>\n      <LinearLayout id='7'>\n        <LinearLayout id='8'\
+    \ resource_id='content'>\n          <RelativeLayout id='9'>\n            <button\
+    \ id='10' resource_id='title'>Create new playlist from folder</button>\n     \
+    \     </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n    \
+    \  <LinearLayout id='11'>\n        <LinearLayout id='12' resource_id='content'>\n\
+    \          <RelativeLayout id='13'>\n            <button id='14' resource_id='title'>Import\
+    \ playlist</button>\n          </RelativeLayout>\n        </LinearLayout>\n  \
+    \    </LinearLayout>\n      <LinearLayout id='15'>\n        <LinearLayout id='16'\
+    \ resource_id='content'>\n          <RelativeLayout id='17'>\n            <button\
+    \ id='18' resource_id='title'>Sleep timer</button>\n          </RelativeLayout>\n\
+    \        </LinearLayout>\n      </LinearLayout>\n      <LinearLayout id='19'>\n\
+    \        <LinearLayout id='20' resource_id='content'>\n          <RelativeLayout\
+    \ id='21'>\n            <button id='22' resource_id='title'>Settings</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \      <LinearLayout id='23'>\n        <LinearLayout id='24' resource_id='content'>\n\
+    \          <RelativeLayout id='25'>\n            <button id='26' resource_id='title'>About</button>\n\
+    \          </RelativeLayout>\n        </LinearLayout>\n      </LinearLayout>\n\
+    \    </ListView>\n  </FrameLayout>\n</FrameLayout>\n"
+  new_state_str: f057ab1d8ea28cccf9a5659bdbc494f12428a9a4034642c6440db0f387d25dbd
+  state_str: b
+  tag: 2023-07-15_143625
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 10
+  Choice: 10
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10' status='selected'>5 minutes</checkbox>\n  \
+    \                  <checkbox id='11'>10 minutes</checkbox>\n                 \
+    \   <checkbox id='12'>20 minutes</checkbox>\n                    <checkbox id='13'>30\
+    \ minutes</checkbox>\n                    <checkbox id='14'>1 hour</checkbox>\n\
+    \                    <checkbox id='15'>Custom</checkbox>\n                  </RadioGroup>\n\
+    \                </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayoutCompat>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 62930118ad897625ee0c4cf81cb554fcba6ed4a8afa830e77f2ab7277346a063
+  state_str: '0'
+  tag: 2023-07-02_214631
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='equalizer' alt='Equalizer'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_holder'>\n                <scrollbar id='18' resource_id='view_pager'>\n\
+    \                  <RelativeLayout id='19' resource_id='playlists_fragment_holder'>\n\
+    \                    <RelativeLayout id='20' resource_id='playlists_fastscroller'></RelativeLayout>\n\
+    \                    <p id='25' resource_id='playlists_placeholder'>No items found.</p>\n\
+    \                    <button id='26' resource_id='playlists_placeholder_2'>Create\
+    \ new playlist</button>\n                  </RelativeLayout>\n               \
+    \ </scrollbar>\n                <ViewGroup id='72' resource_id='sleep_timer_holder'>\n\
+    \                  <ImageView id='73' resource_id='sleep_timer_divider_top'></ImageView>\n\
+    \                  <ImageView id='74' resource_id='sleep_timer_divider_start'></ImageView>\n\
+    \                  <p id='75' resource_id='sleep_timer_label'>Sleep timer</p>\n\
+    \                  <p id='76' resource_id='sleep_timer_value'>04:59</p>\n    \
+    \              <ImageView id='77' resource_id='sleep_timer_stop'></ImageView>\n\
+    \                </ViewGroup>\n                <HorizontalScrollView id='78' resource_id='main_tabs_holder'>\n\
+    \                  <LinearLayout id='79'>\n                    <LinearLayout id='80'>\n\
+    \                      <LinearLayout id='81' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='82' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <p id='83' resource_id='tab_item_label' status='selected'>Playlists</p>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='84'>\n                      <LinearLayout\
+    \ id='85' resource_id='tab_item_holder'>\n                        <ImageView id='86'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='87'\
+    \ resource_id='tab_item_label'>Folders</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='88'>\n\
+    \                      <LinearLayout id='89' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='90' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='91' resource_id='tab_item_label'>Artists</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='92'>\n                      <LinearLayout\
+    \ id='93' resource_id='tab_item_holder'>\n                        <ImageView id='94'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='95'\
+    \ resource_id='tab_item_label'>Albums</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='96'>\n\
+    \                      <LinearLayout id='97' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='98' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='99' resource_id='tab_item_label'>Tracks</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                  </LinearLayout>\n                </HorizontalScrollView>\n\
+    \              </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 0a4e596515ea6cf4009b190dc76b5abde135c5b772cc848a7f3ea134325cbe7e
+  state_str: e11bcd4c23f08477d1a1871077151b5522370a4c9834b41cf09dacf1c91f5137
+  tag: 2023-07-02_214646
+step_num: 4
+task_name: set the sleep timer for five minutes

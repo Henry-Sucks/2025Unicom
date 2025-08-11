@@ -1,0 +1,127 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <scrollbar id='5' resource_id='directories_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search folders</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='open_camera' alt='Open camera'></button>\n                    \
+    \  <button id='14' resource_id='show_all' alt='Show all folders content'></button>\n\
+    \                      <button id='15' alt='More options'></button>\n        \
+    \            </LinearLayoutCompat>\n                  </ViewGroup>\n         \
+    \       </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <RelativeLayout id='16' resource_id='directories_holder'>\n     \
+    \         <ViewGroup id='17' resource_id='directories_refresh_layout'>\n     \
+    \           <RelativeLayout id='18' resource_id='directories_fastscroller'>\n\
+    \                  <RecyclerView id='19' resource_id='directories_grid'>\n   \
+    \                 <RelativeLayout id='20' resource_id='dir_holder'>\n        \
+    \              <ImageView id='21' resource_id='dir_thumbnail'></ImageView>\n \
+    \                     <ImageView id='22' resource_id='dir_shadow_holder'></ImageView>\n\
+    \                      <LinearLayout id='23' resource_id='dir_bottom_holder'>\n\
+    \                        <button id='24' resource_id='dir_name'>Internal</button>\n\
+    \                        <button id='25' resource_id='photo_cnt'>2</button>\n\
+    \                      </LinearLayout>\n                    </RelativeLayout>\n\
+    \                    <RelativeLayout id='26' resource_id='dir_holder'>\n     \
+    \                 <ImageView id='27' resource_id='dir_thumbnail'></ImageView>\n\
+    \                      <ImageView id='28' resource_id='dir_shadow_holder'></ImageView>\n\
+    \                      <LinearLayout id='29' resource_id='dir_bottom_holder'>\n\
+    \                        <button id='30' resource_id='dir_name'>DCIM</button>\n\
+    \                        <button id='31' resource_id='photo_cnt'>6</button>\n\
+    \                      </LinearLayout>\n                    </RelativeLayout>\n\
+    \                  </RecyclerView>\n                  <LinearLayout id='33' resource_id='trackView'></LinearLayout>\n\
+    \                </RelativeLayout>\n              </ViewGroup>\n            </RelativeLayout>\n\
+    \          </scrollbar>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str: 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+  tag: 2023-07-14_202423
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 16
+  Choice: 16
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2' resource_id='content'>\n\
+    \      <scrollbar id='3' resource_id='contentPanel'>\n        <RelativeLayout\
+    \ id='4' resource_id='title_container'>\n          <p id='5' resource_id='title'>Complete\
+    \ action using</p>\n        </RelativeLayout>\n        <View id='6' resource_id='divider'></View>\n\
+    \        <TabHost id='7' resource_id='profile_tabhost'>\n          <LinearLayout\
+    \ id='8'>\n            <FrameLayout id='9' resource_id='tabcontent'>\n       \
+    \       <ViewPager id='10' resource_id='profile_pager'>\n                <RelativeLayout\
+    \ id='11'>\n                  <ListView id='12' resource_id='resolver_list'>\n\
+    \                    <LinearLayout id='13'>\n                      <ImageView\
+    \ id='14' resource_id='icon'></ImageView>\n                      <LinearLayout\
+    \ id='15'>\n                        <button id='16' resource_id='text1'>Camera</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='17'>\n                      <ImageView\
+    \ id='18' resource_id='icon'></ImageView>\n                      <LinearLayout\
+    \ id='19'>\n                        <button id='20' resource_id='text1'>Camera</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                  </ListView>\n                </RelativeLayout>\n          \
+    \    </ViewPager>\n            </FrameLayout>\n          </LinearLayout>\n   \
+    \     </TabHost>\n        <LinearLayout id='21' resource_id='button_bar_container'>\n\
+    \          <View id='22' resource_id='resolver_button_bar_divider'></View>\n \
+    \         <LinearLayout id='23' resource_id='button_bar'>\n            <button\
+    \ id='24' resource_id='button_once'>Just once</button>\n            <button id='25'\
+    \ resource_id='button_always'>Always</button>\n          </LinearLayout>\n   \
+    \     </LinearLayout>\n      </scrollbar>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 1fe2495c877d5fb97b300a4b11940855c97f6c7ec5c0ec6e0305af52b0887714
+  state_str: 6dea963809b244f2b935d000b5e4b96eaee7d65675e19a5ad874c033885c7df1
+  tag: 2023-07-08_203037
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <scrollbar id='5' resource_id='directories_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search folders</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='open_camera' alt='Open camera'></button>\n                    \
+    \  <button id='14' resource_id='show_all' alt='Show all folders content'></button>\n\
+    \                      <button id='15' alt='More options'></button>\n        \
+    \            </LinearLayoutCompat>\n                  </ViewGroup>\n         \
+    \       </RelativeLayout>\n              </LinearLayout>\n            </LinearLayout>\n\
+    \            <RelativeLayout id='16' resource_id='directories_holder'>\n     \
+    \         <ViewGroup id='17' resource_id='directories_refresh_layout'>\n     \
+    \           <RelativeLayout id='18' resource_id='directories_fastscroller'>\n\
+    \                  <RecyclerView id='19' resource_id='directories_grid'>\n   \
+    \                 <RelativeLayout id='20' resource_id='dir_holder'>\n        \
+    \              <ImageView id='21' resource_id='dir_thumbnail'></ImageView>\n \
+    \                     <ImageView id='22' resource_id='dir_shadow_holder'></ImageView>\n\
+    \                      <LinearLayout id='23' resource_id='dir_bottom_holder'>\n\
+    \                        <button id='24' resource_id='dir_name'>Internal</button>\n\
+    \                        <button id='25' resource_id='photo_cnt'>2</button>\n\
+    \                      </LinearLayout>\n                    </RelativeLayout>\n\
+    \                    <RelativeLayout id='26' resource_id='dir_holder'>\n     \
+    \                 <ImageView id='27' resource_id='dir_thumbnail'></ImageView>\n\
+    \                      <ImageView id='28' resource_id='dir_shadow_holder'></ImageView>\n\
+    \                      <LinearLayout id='29' resource_id='dir_bottom_holder'>\n\
+    \                        <button id='30' resource_id='dir_name'>DCIM</button>\n\
+    \                        <button id='31' resource_id='photo_cnt'>6</button>\n\
+    \                      </LinearLayout>\n                    </RelativeLayout>\n\
+    \                  </RecyclerView>\n                  <LinearLayout id='33' resource_id='trackView'></LinearLayout>\n\
+    \                </RelativeLayout>\n              </ViewGroup>\n            </RelativeLayout>\n\
+    \          </scrollbar>\n        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n\
+    \  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: a54edb4560e79ad038ec5120a09ec838b034edd416abba65385969613b18a95b
+  state_str: 073664fc497d71c2d6fbd0680dbdd396ec5cf3939cd9a21af17a8da3b79c7f67
+  tag: 2023-07-14_202423_2
+step_num: 3
+task_name: Open the camera

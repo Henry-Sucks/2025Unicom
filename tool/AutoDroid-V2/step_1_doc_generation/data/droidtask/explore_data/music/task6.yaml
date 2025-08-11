@@ -1,0 +1,180 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 14
+  Choice: 14
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='sort' alt='Sort by'></button>\n                      <button id='14'\
+    \ resource_id='equalizer' alt='Equalizer'></button>\n                      <button\
+    \ id='15' alt='More options'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='16' resource_id='main_nested_scrollview'>\n              <ViewGroup id='17'\
+    \ resource_id='main_holder'>\n                <scrollbar id='18' resource_id='view_pager'>\n\
+    \                  <RelativeLayout id='58' resource_id='tracks_fragment_holder'>\n\
+    \                    <RelativeLayout id='59' resource_id='tracks_fastscroller'>\n\
+    \                      <RecyclerView id='60' resource_id='tracks_list'>\n    \
+    \                    <ViewGroup id='61' resource_id='track_frame'>\n         \
+    \                 <ImageView id='62' resource_id='track_image'></ImageView>\n\
+    \                          <button id='63' resource_id='track_title'>test1</button>\n\
+    \                          <button id='64' resource_id='track_duration'>00:10</button>\n\
+    \                        </ViewGroup>\n                        <ViewGroup id='65'\
+    \ resource_id='track_frame'>\n                          <ImageView id='66' resource_id='track_image'></ImageView>\n\
+    \                          <button id='67' resource_id='track_title'>test2</button>\n\
+    \                          <button id='68' resource_id='track_duration'>00:07</button>\n\
+    \                        </ViewGroup>\n                      </RecyclerView>\n\
+    \                      <LinearLayout id='70' resource_id='trackView'></LinearLayout>\n\
+    \                    </RelativeLayout>\n                  </RelativeLayout>\n\
+    \                </scrollbar>\n                <HorizontalScrollView id='72' resource_id='main_tabs_holder'>\n\
+    \                  <LinearLayout id='73'>\n                    <LinearLayout id='74'>\n\
+    \                      <LinearLayout id='75' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='76' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='77' resource_id='tab_item_label'>Playlists</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='78'>\n                      <LinearLayout\
+    \ id='79' resource_id='tab_item_holder'>\n                        <ImageView id='80'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='81'\
+    \ resource_id='tab_item_label'>Folders</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='82'>\n\
+    \                      <LinearLayout id='83' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='84' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <button id='85' resource_id='tab_item_label'>Artists</button>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                    <LinearLayout id='86'>\n                      <LinearLayout\
+    \ id='87' resource_id='tab_item_holder'>\n                        <ImageView id='88'\
+    \ resource_id='tab_item_icon'></ImageView>\n                        <button id='89'\
+    \ resource_id='tab_item_label'>Albums</button>\n                      </LinearLayout>\n\
+    \                    </LinearLayout>\n                    <LinearLayout id='90'>\n\
+    \                      <LinearLayout id='91' resource_id='tab_item_holder'>\n\
+    \                        <ImageView id='92' resource_id='tab_item_icon'></ImageView>\n\
+    \                        <p id='93' resource_id='tab_item_label' status='selected'>Tracks</p>\n\
+    \                      </LinearLayout>\n                    </LinearLayout>\n\
+    \                  </LinearLayout>\n                </HorizontalScrollView>\n\
+    \              </ViewGroup>\n            </RelativeLayout>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 1e43e274a76f614fea0fa0b0ca5c223a6a64d533eea8039dbb7d81277c71a122
+  state_str: 09ec4c800598df967694c07f5d5cdcdf197f1e855a1edb32eb151a6baa5643f7
+  tag: 2023-07-15_144422
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 33
+  Choice: 33
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='equalizer_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='equalizer_toolbar'>\n            \
+    \  <ImageButton id='7'></ImageButton>\n              <p id='8'>Equalizer</p>\n\
+    \            </ViewGroup>\n            <ScrollView id='10' resource_id='equalizer_nested_scrollview'>\n\
+    \              <ViewGroup id='11' resource_id='equalizer_holder'>\n          \
+    \      <RelativeLayout id='12' resource_id='equalizer_db_labels_holder'>\n   \
+    \               <TextView id='13' resource_id='equalizer_label_margin'></TextView>\n\
+    \                  <p id='14' resource_id='equalizer_label_left'>-15</p>\n   \
+    \               <p id='15' resource_id='equalizer_label_0'>0</p>\n           \
+    \       <p id='16' resource_id='equalizer_label_right'>+15</p>\n             \
+    \   </RelativeLayout>\n                <LinearLayout id='17' resource_id='equalizer_bands_holder'>\n\
+    \                  <RelativeLayout id='18' resource_id='equalizer_band_holder'>\n\
+    \                    <p id='19' resource_id='equalizer_band_label'>60 Hz</p>\n\
+    \                    <SeekBar id='20' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='21'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='22' resource_id='equalizer_band_label'>230\
+    \ Hz</p>\n                    <SeekBar id='23' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='24'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='25' resource_id='equalizer_band_label'>910\
+    \ Hz</p>\n                    <SeekBar id='26' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='27'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='28' resource_id='equalizer_band_label'>3.6\
+    \ kHz</p>\n                    <SeekBar id='29' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='30'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='31' resource_id='equalizer_band_label'>14\
+    \ kHz</p>\n                    <SeekBar id='32' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <button id='33' resource_id='equalizer_preset'>Normal</button>\n  \
+    \            </ViewGroup>\n            </ScrollView>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 2843821ee379eb6e8f6c817a0d13e47473260c42b50e6d217d41e8c5bd898eba
+  state_str: '5'
+  tag: 2023-07-15_143527
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 16
+  Choice: 16
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <LinearLayoutCompat id='5' resource_id='parentPanel'>\n\
+    \            <FrameLayout id='6' resource_id='customPanel'>\n              <FrameLayout\
+    \ id='7' resource_id='custom'>\n                <ScrollView id='8' resource_id='dialog_radio_holder'>\n\
+    \                  <RadioGroup id='9' resource_id='dialog_radio_group'>\n    \
+    \                <checkbox id='10' status='selected'>Normal</checkbox>\n     \
+    \               <checkbox id='11'>Classical</checkbox>\n                    <checkbox\
+    \ id='12'>Dance</checkbox>\n                    <checkbox id='13'>Flat</checkbox>\n\
+    \                    <checkbox id='14'>Folk</checkbox>\n                    <checkbox\
+    \ id='15'>Heavy Metal</checkbox>\n                    <checkbox id='16'>Hip Hop</checkbox>\n\
+    \                    <checkbox id='17'>Jazz</checkbox>\n                    <checkbox\
+    \ id='18'>Pop</checkbox>\n                    <checkbox id='19'>Rock</checkbox>\n\
+    \                    <checkbox id='20'>Custom</checkbox>\n                  </RadioGroup>\n\
+    \                </ScrollView>\n              </FrameLayout>\n            </FrameLayout>\n\
+    \          </LinearLayoutCompat>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: b981a7915163db4ff747379957e556395bf548060f9b5f93c967bb47d21021b1
+  state_str: '9'
+  tag: 2023-07-15_143534
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='equalizer_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='equalizer_toolbar'>\n            \
+    \  <ImageButton id='7'></ImageButton>\n              <p id='8'>Equalizer</p>\n\
+    \            </ViewGroup>\n            <ScrollView id='10' resource_id='equalizer_nested_scrollview'>\n\
+    \              <ViewGroup id='11' resource_id='equalizer_holder'>\n          \
+    \      <RelativeLayout id='12' resource_id='equalizer_db_labels_holder'>\n   \
+    \               <TextView id='13' resource_id='equalizer_label_margin'></TextView>\n\
+    \                  <p id='14' resource_id='equalizer_label_left'>-15</p>\n   \
+    \               <p id='15' resource_id='equalizer_label_0'>0</p>\n           \
+    \       <p id='16' resource_id='equalizer_label_right'>+15</p>\n             \
+    \   </RelativeLayout>\n                <LinearLayout id='17' resource_id='equalizer_bands_holder'>\n\
+    \                  <RelativeLayout id='18' resource_id='equalizer_band_holder'>\n\
+    \                    <p id='19' resource_id='equalizer_band_label'>60 Hz</p>\n\
+    \                    <SeekBar id='20' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='21'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='22' resource_id='equalizer_band_label'>230\
+    \ Hz</p>\n                    <SeekBar id='23' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='24'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='25' resource_id='equalizer_band_label'>910\
+    \ Hz</p>\n                    <SeekBar id='26' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='27'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='28' resource_id='equalizer_band_label'>3.6\
+    \ kHz</p>\n                    <SeekBar id='29' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                  <RelativeLayout id='30'\
+    \ resource_id='equalizer_band_holder'>\n                    <p id='31' resource_id='equalizer_band_label'>14\
+    \ kHz</p>\n                    <SeekBar id='32' resource_id='equalizer_band_seek_bar'></SeekBar>\n\
+    \                  </RelativeLayout>\n                </LinearLayout>\n      \
+    \          <button id='33' resource_id='equalizer_preset'>Hip Hop</button>\n \
+    \             </ViewGroup>\n            </ScrollView>\n          </ViewGroup>\n\
+    \        </FrameLayout>\n      </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n\
+    </FrameLayout>\n"
+  new_state_str: 7be9d5a0ff55cc30b2190ba7ab960c7384eb120c75f3997e68733bd53986ed1e
+  state_str: f
+  tag: 2023-07-02_220712
+step_num: 4
+task_name: change the mode to "Hip Hop"

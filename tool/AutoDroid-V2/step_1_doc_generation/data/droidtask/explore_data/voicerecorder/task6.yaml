@@ -1,0 +1,139 @@
+records:
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 13
+  Choice: 13
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='main_coordinator'>\n\
+    \            <LinearLayout id='6' resource_id='main_menu'>\n              <LinearLayout\
+    \ id='7' resource_id='top_app_bar_layout'>\n                <RelativeLayout id='8'\
+    \ resource_id='top_toolbar_holder'>\n                  <ImageView id='9' resource_id='top_toolbar_search_icon'></ImageView>\n\
+    \                  <input id='10' resource_id='top_toolbar_search'>Search</input>\n\
+    \                  <ViewGroup id='11' resource_id='top_toolbar'>\n           \
+    \         <LinearLayoutCompat id='12'>\n                      <button id='13'\
+    \ resource_id='settings' alt='Settings'></button>\n                      <button\
+    \ id='14' resource_id='about' alt='About'></button>\n                    </LinearLayoutCompat>\n\
+    \                  </ViewGroup>\n                </RelativeLayout>\n         \
+    \     </LinearLayout>\n            </LinearLayout>\n            <RelativeLayout\
+    \ id='15' resource_id='main_holder'>\n              <scrollbar id='16' resource_id='view_pager'>\n\
+    \                <ViewGroup id='17' resource_id='recorder_holder'>\n         \
+    \         <View id='18' resource_id='recorder_visualizer'></View>\n          \
+    \        <p id='19' resource_id='recording_duration'>00:00</p>\n             \
+    \     <ImageView id='20' resource_id='toggle_recording_button'></ImageView>\n\
+    \                </ViewGroup>\n              </scrollbar>\n              <HorizontalScrollView\
+    \ id='51' resource_id='main_tabs_holder'>\n                <LinearLayout id='52'>\n\
+    \                  <LinearLayout id='53'>\n                    <LinearLayout id='54'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='55' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <p id='56' resource_id='tab_item_label' status='selected'>Recorder</p>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \              <LinearLayout id='57'>\n                    <LinearLayout id='58'\
+    \ resource_id='tab_item_holder'>\n                      <ImageView id='59' resource_id='tab_item_icon'></ImageView>\n\
+    \                      <button id='60' resource_id='tab_item_label'>Player</button>\n\
+    \                    </LinearLayout>\n                  </LinearLayout>\n    \
+    \            </LinearLayout>\n              </HorizontalScrollView>\n        \
+    \    </RelativeLayout>\n          </ViewGroup>\n        </FrameLayout>\n     \
+    \ </FrameLayout>\n    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: ebc3c7ccc0dfade1d397a93599b9919dc50a79323f6b8302b99aff76932e937f
+  state_str: 2039f11abe6aae0cfd2fe2521c6aeb8b2e817800e5de6dc194b69148b9aa0d06
+  tag: 2023-07-15_182759
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: 24
+  Choice: 24
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ViewGroup id='15'\
+    \ resource_id='settings_widget_color_customization_holder'>\n                \
+    \  <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_change_date_time_format_holder'>\n\
+    \                  <button id='20' resource_id='settings_change_date_time_format'>Change\
+    \ date and time format</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='21' resource_id='settings_hide_notification_holder'>\n\
+    \                  <checkbox id='22' resource_id='settings_hide_notification'>Try\
+    \ hiding the recording notification</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='23' resource_id='settings_record_after_launch_holder'>\n\
+    \                  <checkbox id='24' resource_id='settings_record_after_launch'>Start\
+    \ recording automatically after launching the </checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='25' resource_id='settings_save_recordings_holder'>\n\
+    \                  <button id='26' resource_id='settings_save_recordings_label'>Save\
+    \ recordings in</button>\n                  <button id='27' resource_id='settings_save_recordings'>Internal/Music/Recordings</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='28' resource_id='settings_extension_holder'>\n\
+    \                  <button id='29' resource_id='settings_extension_label'>Extension</button>\n\
+    \                  <button id='30' resource_id='settings_extension'>m4a</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='31' resource_id='settings_audio_source_holder'>\n\
+    \                  <button id='32' resource_id='settings_audio_source_label'>Audio\
+    \ source</button>\n                  <button id='33' resource_id='settings_audio_source'>Camera</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='34' resource_id='settings_bitrate_holder'>\n\
+    \                  <button id='35' resource_id='settings_bitrate_label'>Bitrate</button>\n\
+    \                </RelativeLayout>\n              </LinearLayout>\n          \
+    \  </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: 4a49c9cd6a208c6e931246695e44bd78a97eeb47c5a7f11a226d98a6a18bbd98
+  state_str: b943f4cb9921eb82546a77f88a3d93f1428866f888d881c9684bfbbac638192b
+  tag: 2023-07-15_182820
+- Action: touch
+  ActionDetails:
+    action_type: click
+    id: -1
+  Choice: -1
+  Input: null
+  State: "<FrameLayout id='0'>\n  <LinearLayout id='1'>\n    <FrameLayout id='2'>\n\
+    \      <FrameLayout id='3' resource_id='action_bar_root'>\n        <FrameLayout\
+    \ id='4' resource_id='content'>\n          <ViewGroup id='5' resource_id='settings_coordinator'>\n\
+    \            <ViewGroup id='6' resource_id='settings_toolbar'>\n             \
+    \ <ImageButton id='7'></ImageButton>\n              <p id='8'>Settings</p>\n \
+    \           </ViewGroup>\n            <scrollbar id='10' resource_id='settings_nested_scrollview'>\n\
+    \              <LinearLayout id='11' resource_id='settings_holder'>\n        \
+    \        <p id='12' resource_id='settings_color_customization_section_label'>COLOR\
+    \ CUSTOMIZATION</p>\n                <ViewGroup id='13' resource_id='settings_color_customization_holder'>\n\
+    \                  <button id='14' resource_id='settings_color_customization_label'>Customize\
+    \ colors</button>\n                </ViewGroup>\n                <ViewGroup id='15'\
+    \ resource_id='settings_widget_color_customization_holder'>\n                \
+    \  <button id='16' resource_id='settings_widget_color_customization_label'>Customize\
+    \ widget colors</button>\n                </ViewGroup>\n                <ImageView\
+    \ id='17' resource_id='settings_color_customization_divider'></ImageView>\n  \
+    \              <p id='18' resource_id='settings_general_settings_label'>GENERAL</p>\n\
+    \                <RelativeLayout id='19' resource_id='settings_change_date_time_format_holder'>\n\
+    \                  <button id='20' resource_id='settings_change_date_time_format'>Change\
+    \ date and time format</button>\n                </RelativeLayout>\n         \
+    \       <RelativeLayout id='21' resource_id='settings_hide_notification_holder'>\n\
+    \                  <checkbox id='22' resource_id='settings_hide_notification'>Try\
+    \ hiding the recording notification</checkbox>\n                </RelativeLayout>\n\
+    \                <RelativeLayout id='23' resource_id='settings_record_after_launch_holder'>\n\
+    \                  <checkbox id='24' resource_id='settings_record_after_launch'\
+    \ status='selected'>Start recording automatically after launching the </checkbox>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='25' resource_id='settings_save_recordings_holder'>\n\
+    \                  <button id='26' resource_id='settings_save_recordings_label'>Save\
+    \ recordings in</button>\n                  <button id='27' resource_id='settings_save_recordings'>Internal/Music/Recordings</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='28' resource_id='settings_extension_holder'>\n\
+    \                  <button id='29' resource_id='settings_extension_label'>Extension</button>\n\
+    \                  <button id='30' resource_id='settings_extension'>m4a</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='31' resource_id='settings_audio_source_holder'>\n\
+    \                  <button id='32' resource_id='settings_audio_source_label'>Audio\
+    \ source</button>\n                  <button id='33' resource_id='settings_audio_source'>Camera</button>\n\
+    \                </RelativeLayout>\n                <RelativeLayout id='34' resource_id='settings_bitrate_holder'>\n\
+    \                  <button id='35' resource_id='settings_bitrate_label'>Bitrate</button>\n\
+    \                </RelativeLayout>\n              </LinearLayout>\n          \
+    \  </scrollbar>\n          </ViewGroup>\n        </FrameLayout>\n      </FrameLayout>\n\
+    \    </FrameLayout>\n  </LinearLayout>\n</FrameLayout>\n"
+  new_state_str: f8bb569a3efd57a817e96acb2b7afb429151be80d42f662fcbea0c703f63e181
+  state_str: f729f82e9bcdf89dee60795b8d981fb03dc48c9667632beae950fd33ad6ceebf
+  tag: 2023-07-03_102902
+step_num: 3
+task_name: Enable starting recording automatically after launching the app

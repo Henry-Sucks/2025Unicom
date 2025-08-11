@@ -1,0 +1,626 @@
+--------- beginning of main
+03-22 16:23:26.242   584   604 I ServiceWatcher: [GeocoderProxy] chose new implementation 10097/com.google.android.gms/.location.geocode.GeocodeService@2
+03-22 16:23:26.242   584   604 I ServiceWatcher: [fused] chose new implementation 10097/com.google.android.gms/com.google.android.location.fused.FusedLocationService@1
+03-22 16:23:26.243   584   604 I ServiceWatcher: [RealLocationTimeZoneProviderProxy] chose new implementation 10097/com.google.android.gms/.geotimezone.GeoTimeZoneService@1
+03-22 16:23:26.244   584   604 I ServiceWatcher: [network] chose new implementation 10097/com.google.android.gms/com.google.android.location.network.NetworkLocationService@2
+03-22 16:23:26.245   584   604 I ServiceWatcher: [GeofenceProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService@1
+03-22 16:23:26.246   584   604 I ServiceWatcher: [HardwareActivityRecognitionProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService@1
+03-22 16:23:26.251 12664 12664 W PrimesInit: Primes instant initialization
+03-22 16:23:26.263 12664 12690 W Primes  : background initialization
+03-22 16:23:26.275 12664 12691 I GAv4    : Google Analytics 19.6.77 is starting up. To enable debug logging on a device run:
+03-22 16:23:26.275 12664 12691 I GAv4    :   adb shell setprop log.tag.GAv4 DEBUG
+03-22 16:23:26.275 12664 12691 I GAv4    :   adb logcat -s GAv4
+03-22 16:23:26.295 12664 12664 W FontsContract: Platform version of downloadable fonts is deprecated. Please use androidx version instead.
+--------- beginning of system
+03-22 16:23:26.305   584   822 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:26.305   584   822 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:26.305   584   822 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:26.305   584   822 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:26.306   584   822 I ActivityManager:   Force stopping service ServiceRecord{1a25b35 u0 com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService}
+03-22 16:23:26.306   584   822 I ActivityManager:   Force stopping service ServiceRecord{cd83079 u0 com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService}
+03-22 16:23:26.306   584   822 I ActivityManager:   Force stopping service ServiceRecord{7b8797d u0 com.google.android.gms/com.google.android.location.network.NetworkLocationService}
+03-22 16:23:26.306   584   822 I ActivityManager:   Force stopping service ServiceRecord{52f7a41 u0 com.google.android.gms/.geotimezone.GeoTimeZoneService}
+03-22 16:23:26.306   584   822 I ActivityManager:   Force stopping service ServiceRecord{f2d36c5 u0 com.google.android.gms/com.google.android.location.fused.FusedLocationService}
+03-22 16:23:26.306   584   822 I ActivityManager:   Force stopping service ServiceRecord{9e97309 u0 com.google.android.gms/.location.geocode.GeocodeService}
+03-22 16:23:26.308   584   604 W ServiceWatcher: [GeocoderProxy] 10097/com.google.android.gms/.location.geocode.GeocodeService@2 died
+03-22 16:23:26.308   584   604 W ServiceWatcher: [fused] 10097/com.google.android.gms/com.google.android.location.fused.FusedLocationService@1 died
+03-22 16:23:26.308   584   604 W ServiceWatcher: [RealLocationTimeZoneProviderProxy] 10097/com.google.android.gms/.geotimezone.GeoTimeZoneService@1 died
+03-22 16:23:26.308   584   604 W ServiceWatcher: [network] 10097/com.google.android.gms/com.google.android.location.network.NetworkLocationService@2 died
+03-22 16:23:26.308   584   604 W ServiceWatcher: [GeofenceProxy] 10097/com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService@1 died
+03-22 16:23:26.309   584   604 W ServiceWatcher: [HardwareActivityRecognitionProxy] 10097/com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService@1 died
+03-22 16:23:26.309   584   822 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.fonts: process is bad
+03-22 16:23:26.309   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:26.309 12664 12694 E ActivityThread: Failed to find provider info for com.google.android.gms.fonts
+03-22 16:23:26.310 12664 12697 W GAv4    : AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+03-22 16:23:26.311 12664 12664 W FontsContract: Platform version of downloadable fonts is deprecated. Please use androidx version instead.
+03-22 16:23:26.316   584  3476 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:26.316   584  3476 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:26.316   584  3476 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:26.317   584  3476 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:26.318 12664 12697 W GAv4    : CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+03-22 16:23:26.321 12664 12697 W GAv4    : AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+03-22 16:23:26.325   584  3476 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.fonts: process is bad
+03-22 16:23:26.326 12664 12694 E ActivityThread: Failed to find provider info for com.google.android.gms.fonts
+03-22 16:23:26.326   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:26.327 12664 12664 I AlarmClock: AlarmInitReceiver android.intent.action.TIME_SET
+03-22 16:23:26.362 12664 12690 I PrimesTesting: GserviceFlagsSupplier.get()
+03-22 16:23:26.395 12664 12696 I AlarmClock: Connected Dock: null
+03-22 16:23:26.409 12664 12696 I AlarmClock: Removing AlarmClockInfo
+03-22 16:23:26.484 12664 12664 I AlarmClock: DigitalAppWidgetProvider processing Intent { act=android.intent.action.TIME_SET flg=0x25200010 cmp=com.google.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider }
+03-22 16:23:26.542   584   618 I ActivityManager: Start proc 12710:com.google.android.gm/u0a121 for broadcast {com.google.android.gm/androidx.work.impl.background.systemalarm.RescheduleReceiver}
+03-22 16:23:26.575 12710 12710 W ogle.android.g: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:26.588 12710 12710 E ogle.android.g: Not starting debugger since process cannot load the jdwp agent.
+03-22 16:23:26.661   584  3476 W ActivityManager: Slow operation: 53ms so far, now at attachApplicationLocked: after sendPendingBroadcastsLocked
+03-22 16:23:26.809   584   604 I ServiceWatcher: [GeocoderProxy] chose new implementation 10097/com.google.android.gms/.location.geocode.GeocodeService@2
+03-22 16:23:26.809   584   604 I ServiceWatcher: [fused] chose new implementation 10097/com.google.android.gms/com.google.android.location.fused.FusedLocationService@1
+03-22 16:23:26.810   584   604 I ServiceWatcher: [RealLocationTimeZoneProviderProxy] chose new implementation 10097/com.google.android.gms/.geotimezone.GeoTimeZoneService@1
+03-22 16:23:26.811   584   604 I ServiceWatcher: [network] chose new implementation 10097/com.google.android.gms/com.google.android.location.network.NetworkLocationService@2
+03-22 16:23:26.811   584   604 I ServiceWatcher: [GeofenceProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService@1
+03-22 16:23:26.811   584   604 I ServiceWatcher: [HardwareActivityRecognitionProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService@1
+03-22 16:23:27.254 12710 12742 W ogle.android.g: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (max-target-o, reflection, denied)
+03-22 16:23:27.255 12710 12742 W ogle.android.g: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (max-target-o, reflection, denied)
+03-22 16:23:27.255 12710 12742 W ogle.android.g: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (max-target-o, reflection, denied)
+03-22 16:23:27.289   584  1775 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:27.289   584  1775 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:27.289   584  1775 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:27.289   584  1775 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:27.297   584  1775 I ActivityManager:   Force stopping service ServiceRecord{8c26b3d u0 com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService}
+03-22 16:23:27.297   584  1775 I ActivityManager:   Force stopping service ServiceRecord{d89d001 u0 com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService}
+03-22 16:23:27.298   584  1775 I ActivityManager:   Force stopping service ServiceRecord{1d9b085 u0 com.google.android.gms/com.google.android.location.network.NetworkLocationService}
+03-22 16:23:27.298   584  1775 I ActivityManager:   Force stopping service ServiceRecord{94dd0c9 u0 com.google.android.gms/.geotimezone.GeoTimeZoneService}
+03-22 16:23:27.298   584  1775 I ActivityManager:   Force stopping service ServiceRecord{a8db4cd u0 com.google.android.gms/com.google.android.location.fused.FusedLocationService}
+03-22 16:23:27.298   584  1775 I ActivityManager:   Force stopping service ServiceRecord{edcc u0 com.google.android.gms/.analytics.service.AnalyticsService}
+03-22 16:23:27.298   584  1775 I ActivityManager:   Force stopping service ServiceRecord{210a091 u0 com.google.android.gms/.location.geocode.GeocodeService}
+03-22 16:23:27.300   584   604 W ServiceWatcher: [GeocoderProxy] 10097/com.google.android.gms/.location.geocode.GeocodeService@2 died
+03-22 16:23:27.300   584   604 W ServiceWatcher: [fused] 10097/com.google.android.gms/com.google.android.location.fused.FusedLocationService@1 died
+03-22 16:23:27.301   584   604 W ServiceWatcher: [RealLocationTimeZoneProviderProxy] 10097/com.google.android.gms/.geotimezone.GeoTimeZoneService@1 died
+03-22 16:23:27.301   584   604 W ServiceWatcher: [network] 10097/com.google.android.gms/com.google.android.location.network.NetworkLocationService@2 died
+03-22 16:23:27.301   584   604 W ServiceWatcher: [GeofenceProxy] 10097/com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService@1 died
+03-22 16:23:27.302   584  1775 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.chimera: process is bad
+03-22 16:23:27.302   584   604 W ServiceWatcher: [HardwareActivityRecognitionProxy] 10097/com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService@1 died
+03-22 16:23:27.302 12710 12742 E ActivityThread: Failed to find provider info for com.google.android.gms.chimera
+03-22 16:23:27.302   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:27.303 12710 12742 W ConnectionStatusConfig: Dynamic intent resolution failed: java.lang.IllegalArgumentException: Unknown authority com.google.android.gms.chimera
+03-22 16:23:27.303 12710 12742 W ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.gmscompliance.service.START
+03-22 16:23:27.303   584  1775 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.gmscompliance.service.START pkg=com.google.android.gms } U=0: not found
+03-22 16:23:27.306   584  1775 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@d85aac4
+03-22 16:23:27.306 12710 12742 E GmsClient: unable to connect to service: com.google.android.gms.gmscompliance.service.START on com.google.android.gms
+03-22 16:23:27.363   584   822 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:27.363   584   822 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:27.363   584   822 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:27.363   584   822 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:27.365   584   822 I ActivityManager:   Force stopping service ServiceRecord{494af30 u0 com.google.android.gms/.chimera.GmsBoundBrokerService}
+03-22 16:23:27.365   584   822 I ActivityManager:   Force stopping service ServiceRecord{3899dad u0 com.google.android.gms/.chimera.PersistentApiService}
+03-22 16:23:27.368   584   822 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.auth.accounts: process is bad
+03-22 16:23:27.369   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:27.370 12710 12758 E ActivityThread: Failed to find provider info for com.google.android.gms.auth.accounts
+03-22 16:23:27.377   584   822 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:27.377   584   822 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:27.377   584   822 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:27.378   584   822 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:27.385   584   822 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.phenotype: process is bad
+03-22 16:23:27.385   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:27.387 12710 12757 E ActivityThread: Failed to find provider info for com.google.android.gms.phenotype
+03-22 16:23:27.408   584  1775 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:27.408   584  1775 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:27.408   584  1775 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:27.408   584  1775 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:27.409   584  1775 I ActivityManager:   Force stopping service ServiceRecord{18a4460 u0 com.google.android.gms/.auth.GetToken}
+03-22 16:23:27.416   584  1775 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.auth.accounts: process is bad
+03-22 16:23:27.416   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:27.420 12710 12758 E ActivityThread: Failed to find provider info for com.google.android.gms.auth.accounts
+03-22 16:23:27.466 12661 12661 I dex2oat64: dex2oat took 1.554s (1.652s cpu) (threads: 4) arena alloc=0B (0B) java alloc=2475KB (2534464B) native alloc=1709KB (1750736B) free=1085KB (1111712B)
+03-22 16:23:27.493   584   638 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~1ry5Runl6dCNKb-90IL9Dg==/com.google.android.gms-QUG2Ce0LjaG77N5ryX4ggA==/split_MeasurementDynamite_installtime.apk pkg=com.google.android.gms isa=x86_64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~1ry5Runl6dCNKb-90IL9Dg==/com.google.android.gms-QUG2Ce0LjaG77N5ryX4ggA==/oat classLoaderContext=DLC[];PCL[base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system/framework/com.android.media.remotedisplay.jar]#PCL[/system/framework/com.android.location.provider.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]#PCL[/system/framework/org.apache.http.legacy.jar]}
+03-22 16:23:27.526 12766 12766 W dex2oat64: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:27.526 12766 12766 W dex2oat64: Mismatch between dex2oat instruction set features to use (ISA: X86_64 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86_64 Feature string: ssse3,sse4.1,sse4.2,-avx,-avx2,popcnt) for the command line:
+03-22 16:23:27.526 12766 12766 W dex2oat64: /apex/com.android.art/bin/dex2oat64 --zip-fd=7 --zip-location=split_MeasurementDynamite_installtime.apk --oat-fd=8 --oat-location=/data/app/~~1ry5Runl6dCNKb-90IL9Dg==/com.google.android.gms-QUG2Ce0LjaG77N5ryX4ggA==/oat/x86_64/split_MeasurementDynamite_installtime.odex --input-vdex-fd=-1 --output-vdex-fd=9 --swap-fd=10 --classpath-dir=/data/app/~~1ry5Runl6dCNKb-90IL9Dg==/com.google.android.gms-QUG2Ce0LjaG77N5ryX4ggA== --class-loader-context=DLC[];PCL[base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system/framework/com.android.media.remotedisplay.jar]#PCL[/system/framework/com.android.location.provider.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]#PCL[/system/framework/org.apache.http.legacy.jar]} --compact-dex-level=none --instruction-set=x86_64 --instruction-set-features=default --instruction-set-variant=x86_64 --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info --runtime-arg -Xtarget-sdk-version:34 --runtime-arg -Xhidden-api-policy:enabled --runtime-arg -Xms64m --runtime-arg -Xmx512m
+03-22 16:23:27.527 12766 12766 I dex2oat64: /apex/com.android.art/bin/dex2oat64 --input-vdex-fd=-1 --output-vdex-fd=9 --classpath-dir=/data/app/~~1ry5Runl6dCNKb-90IL9Dg==/com.google.android.gms-QUG2Ce0LjaG77N5ryX4ggA== --class-loader-context=DLC[];PCL[base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system/framework/com.android.media.remotedisplay.jar]#PCL[/system/framework/com.android.location.provider.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]#PCL[/system/framework/org.apache.http.legacy.jar]} --compact-dex-level=none --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info
+03-22 16:23:27.566 12710 12751 I org.webrtc.Logging: CrashStartupListener: Checking conference crashes for 1 account(s).
+03-22 16:23:27.571   584   822 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:27.571   584   822 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:27.571   584   822 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:27.571   584   822 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:27.572   584   822 I ActivityManager:   Force stopping service ServiceRecord{26bd8db u0 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService}
+03-22 16:23:27.573   584   822 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.chimera: process is bad
+03-22 16:23:27.573   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:27.573 12710 12775 E ActivityThread: Failed to find provider info for com.google.android.gms.chimera
+03-22 16:23:27.573 12710 12775 W DynamiteModule: Failed to retrieve remote module version.
+03-22 16:23:27.651   584   822 E ActivityManager: Failure starting process com.google.android.gms.persistent
+03-22 16:23:27.651   584   822 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:8553)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1819)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2435)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2573)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:2686)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProviderImpl(ContentProviderHelper.java:464)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ContentProviderHelper.getContentProvider(ContentProviderHelper.java:125)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:6002)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2440)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1179)
+03-22 16:23:27.651   584   822 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+03-22 16:23:27.652   584   822 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: start failure
+03-22 16:23:27.663   584   822 I ActivityManager: Killing 12710:com.google.android.gm/u0a121 (adj 0): stop com.google.android.gms due to start failure
+03-22 16:23:27.674   584   822 W ContentProviderHelper: Unable to launch app com.google.android.gms/10097 for provider com.google.android.gms.fonts: process is bad
+03-22 16:23:27.675   584   607 I ActivityManager: Exiting empty application process 0:com.google.android.gms.persistent/u0a97 (null)
+03-22 16:23:27.702   330   330 I Zygote  : Process 12710 exited due to signal 9 (Killed)
+03-22 16:23:27.709   584   619 I libprocessgroup: Successfully killed process cgroup uid 10121 pid 12710 in 42ms
+03-22 16:23:27.774   584   618 I ActivityManager: Start proc 12793:com.google.android.tts/u0a108 for broadcast {com.google.android.tts/androidx.work.impl.background.systemalarm.RescheduleReceiver}
+03-22 16:23:27.788 12793 12793 W gle.android.tt: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:27.793   584   679 E AlarmManager: Too many (10000) false wakeups, nowElapsed=434629
+03-22 16:23:27.794 12793 12793 E gle.android.tt: Not starting debugger since process cannot load the jdwp agent.
+03-22 16:23:27.798   584   617 I DropBoxManagerService: add tag=system_server_wtf isTagEnabled=true flags=0x2
+03-22 16:23:27.802   584   604 I ServiceWatcher: [GeocoderProxy] chose new implementation 10097/com.google.android.gms/.location.geocode.GeocodeService@2
+03-22 16:23:27.807   584   604 I ServiceWatcher: [fused] chose new implementation 10097/com.google.android.gms/com.google.android.location.fused.FusedLocationService@1
+03-22 16:23:27.811   584   604 I ServiceWatcher: [RealLocationTimeZoneProviderProxy] chose new implementation 10097/com.google.android.gms/.geotimezone.GeoTimeZoneService@1
+03-22 16:23:27.811   584   604 I ServiceWatcher: [network] chose new implementation 10097/com.google.android.gms/com.google.android.location.network.NetworkLocationService@2
+03-22 16:23:27.811   584   604 I ServiceWatcher: [GeofenceProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService@1
+03-22 16:23:27.812   584   604 I ServiceWatcher: [HardwareActivityRecognitionProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService@1
+03-22 16:23:27.963 12793 12793 I MultiDex: VM with version 2.1.0 has multidex support
+03-22 16:23:27.964 12793 12793 I MultiDex: install
+03-22 16:23:27.964 12793 12793 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+03-22 16:23:27.964 12793 12793 I MultiDex: install
+03-22 16:23:27.964 12793 12793 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+03-22 16:23:27.965 12793 12793 I CarUiInstaller: CarUiInstaller started for com.google.android.tts
+03-22 16:23:28.144 12793 12793 I fbn     : SslGuard completed installation.
+03-22 16:23:28.156 12793 12793 I GoogleTTSApplication: Beginning load of tts_android...
+03-22 16:23:28.367 12793 12793 I GoogleTTSApplication: tts_android (null) was loaded normally!
+03-22 16:23:28.375 12793 12793 I Analytics: Running on TYPE_PHONE
+03-22 16:23:28.376 12793 12821 W gle.android.tt: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (max-target-o, reflection, denied)
+03-22 16:23:28.376 12793 12821 W gle.android.tt: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (max-target-o, reflection, denied)
+03-22 16:23:28.377 12793 12821 W gle.android.tt: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (max-target-o, reflection, denied)
+03-22 16:23:28.429 12793 12793 I VoiceDataDownloader: fetchVoiceInternal en-us
+03-22 16:23:28.430 12793 12824 I VoiceDataDownloader: Not already initialized. Initializing Superpacks.
+03-22 16:23:28.480 12793 12824 I VoiceDataDownloader: Superpack object built.
+03-22 16:23:28.480 12793 12824 I VoiceDataDownloader: Superpack slicing strategy registered
+03-22 16:23:28.481 12793 12824 I VoiceDataDownloader: Superpack quota set for all voices.
+03-22 16:23:28.482 12793 12824 I VoiceDataDownloader: Got bundled voice en-us-x-multi-r33
+03-22 16:23:28.483 12766 12766 I dex2oat64: dex2oat took 959.821ms (736.296ms cpu) (threads: 4) arena alloc=0B (0B) java alloc=751KB (769696B) native alloc=1426KB (1461040B) free=1109KB (1135968B)
+03-22 16:23:28.502 12793 12831 I SP      : Registering ttsvoices.1068, url: null, constraints: *:*:*:*, flags: *, requested: 1068, current: 1068
+03-22 16:23:28.528   584   618 I ActivityManager: Start proc 12832:com.google.android.youtube/u0a118 for broadcast {com.google.android.youtube/androidx.work.impl.background.systemalarm.RescheduleReceiver}
+03-22 16:23:28.533 12793 12824 I VoiceDataDownloader: Initialization success: true
+03-22 16:23:28.533 12793 12824 I GoogleTTSApplication: VoiceDataDownloader initialized success true
+03-22 16:23:28.533 12793 12824 I VoiceDataDownloader: Superpacks created and default voices checked.
+03-22 16:23:28.546 12832 12832 W android.youtub: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:28.551 12793 12824 I VoiceDataDownloader: Download of en-us started.
+03-22 16:23:28.552 12793 12824 I VoiceDataManager: Delete the old data directory successfully.
+03-22 16:23:28.552 12793 12824 I VoiceDataDownloader: Registered slicing strategy for en-us
+03-22 16:23:28.554 12793 12824 I VoiceDataDownloader: Getting pack name en-us-x-multi-r33
+03-22 16:23:28.556 12832 12832 E android.youtub: Not starting debugger since process cannot load the jdwp agent.
+03-22 16:23:28.556 12793 12824 I VoiceDataDownloader: Adding pack en-us-x-multi-r33 to superpack.
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Getting pack name en-us-x-afh-r33
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Adding pack en-us-x-afh-r33 to superpack.
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Getting pack name en-us-x-fis-r33
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Adding pack en-us-x-fis-r33 to superpack.
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Getting pack name en-us-x-multi-wavernn-r33
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Adding pack en-us-x-multi-wavernn-r33 to superpack.
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Getting pack name en-us-x-multi-darwinn-wavernn-r33
+03-22 16:23:28.557 12793 12824 I VoiceDataDownloader: Adding pack en-us-x-multi-darwinn-wavernn-r33 to superpack.
+03-22 16:23:28.558 12793 12824 I VoiceDataDownloader: Syncing superpack en-us
+03-22 16:23:28.558 12483 12511 I Bugle   : BugleStartup: Initializing with enabled individual init failures...
+03-22 16:23:28.558 12793 12831 I SP      : Registering en-us.33, url: null, constraints: *:*:*:*, flags: *, requested: 33, current: 33
+03-22 16:23:28.560 12483 12511 I Bugle   : BugleStartup: Registering SIM change receiver...
+03-22 16:23:28.571 12483 12511 I BugleRcsEngine: [82] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+03-22 16:23:28.575 12793 12831 I SP      : Syncing en-us (33) with slices: [{en-us-x-multi-r33, m:*:*:*}], metadata: false
+03-22 16:23:28.581 12483 12511 I Bugle   : BugleStartup: Updating app config...
+03-22 16:23:28.598 12483 12511 I Bugle   : BugleStartup: Done with SIM change receiver & app config.
+03-22 16:23:28.598 12483 12511 I Bugle   : BugleStartup: Handling shared prefs upgrade & Load MMS Configuration...
+03-22 16:23:28.666 12483 12512 I BugleRcsEngine: [83] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+03-22 16:23:28.701 12483 12855 W BugleRcsEngine: [101] alod.d: (Sim): Unexpected action: android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED
+03-22 16:23:28.726 12483 12854 I BugleRcsEngine: [100] aloh.c: do not delay first event
+03-22 16:23:28.727 12483 12854 W BugleRcsEngine: [100] alod.a: (Sim): process intent: android.intent.action.SIM_STATE_CHANGED
+03-22 16:23:28.727 12483 12512 I BugleRcsEngine: [83] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+03-22 16:23:28.730 12483 12856 W BugleRcsEngine: [102] alod.d: (Sim): Unexpected action: android.intent.action.ACTION_DEFAULT_VOICE_SUBSCRIPTION_CHANGED
+03-22 16:23:28.749 12483 12512 I Bugle   : BugleStartup: Initializing RCS availability...
+03-22 16:23:28.771 12483 12851 I BugleRcsEngine: [99] aloh.c: SIM delay is not enabled
+03-22 16:23:28.777 12483 12512 I BugleRcsEngine: [83] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+03-22 16:23:28.853 12483 12512 I Bugle   : RcsAvailabilityUtilForProvisioningEngineV2: updateAvailabilityAsync, hint: NO_HINT
+03-22 16:23:28.853 12483 12512 I BugleRcs: RcsAvailabilityUpdaterRemote: postUpdateRcsAvailability, hint: NO_HINT
+03-22 16:23:28.854 12483 12520 W Bugle   : BuglePhoneNumberUtils: canonicalizeMccMnc: invalid mccmnc. mcc: null, mnc: null
+03-22 16:23:28.854 12483 12512 I BugleRcs: RcsAvailabilityUpdaterRemote: updateRcsAvailabilityAsync, hint: NO_HINT
+03-22 16:23:28.854 12483 12851 I BugleRcsEngine: [99] alod.j: (Sim): Processing an intent
+03-22 16:23:28.858 12483 12851 I BugleRcsEngine: [99] alod.w: (Sim): SIM state LOADED
+03-22 16:23:28.871 12483 12512 I Bugle   : BugleStartup: Done with RCS availability.
+03-22 16:23:28.871 12483 12512 I Bugle   : BugleStartup: Initializing RBM downloads...
+03-22 16:23:28.925 12483 12506 I BugleRcs: RcsAvailabilityUpdaterRemote: updateRcsAvailabilityAsync, trivialAvailability: null
+03-22 16:23:28.946 12483 12506 W BugleRcsEngine: [79] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:28.947 12483 12506 I BugleRcsEngine: [79] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:28.947 12483 12506 W BugleRcsEngine: [79] alsz.e: Service with meta data key: SignupServiceVersions is not compatible. Service Version 4 is not supported. Supported versions: []
+03-22 16:23:28.948 12483 12506 W BugleRcsEngine: [79] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:28.948 12483 12506 I BugleRcsEngine: [79] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:28.948 12483 12506 W BugleRcsEngine: [79] alsz.e: Service with meta data key: JibeServiceApiVersions is not compatible. Service Version 1 is not supported. Supported versions: []
+03-22 16:23:28.948 12483 12506 I BugleRcsEngine: [79] alsz.c: Not using CS JibeService because it is not compatible with AM.
+03-22 16:23:28.948 12483 12506 I BugleRcs: RcsAvailabilityUpdaterRemote: getRcsAvailabilityFromSignupServiceAsync
+03-22 16:23:28.981 12483 12512 I Bugle   : BugleDownloadManager: Marking BugleDownloadManager as initialized.
+03-22 16:23:28.981 12483 12512 I Bugle   : BugleStartup: Done initializing RBM downloads.
+03-22 16:23:28.981 12483 12512 I Bugle   : BugleStartup: Done initializing with enabled individual init failures.
+03-22 16:23:28.985 12483 12511 W BugleRcsEngine: [82] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:28.985 12483 12511 I BugleRcsEngine: [82] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:28.985 12483 12511 W BugleRcsEngine: [82] alsz.e: Service with meta data key: JibeServiceApiVersions is not compatible. Service Version 1 is not supported. Supported versions: []
+03-22 16:23:28.986 12483 12511 I BugleRcsEngine: [82] alsz.c: Not using CS JibeService because it is not compatible with AM.
+03-22 16:23:28.987 12483 12540 I RcsClientLib: Connecting SignupService
+03-22 16:23:28.989 12483 12540 W RcsClientLib: No CS.apk RCS service found. Is RCS running in Bugle?
+03-22 16:23:28.994 12483 12492 W .apps.messagin: Suspending all threads took: 5.005ms
+03-22 16:23:28.995 12483 12540 W BugleRcsEngine: [94] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:28.995 12483 12540 I BugleRcsEngine: [94] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:28.996 12483 12540 W BugleRcsEngine: [94] alsz.e: Service with meta data key: JibeServiceApiVersions is not compatible. Service Version 1 is not supported. Supported versions: []
+03-22 16:23:28.996 12483 12540 I BugleRcsEngine: [94] alsz.c: Not using CS JibeService because it is not compatible with AM.
+03-22 16:23:28.998 12483 12540 I RcsClientLib: shouldUseCarrierServicesJibeService: false, CarrierServices rcs service found: false
+03-22 16:23:29.042 12483 12851 I BugleRcsEngine: [99] alod.w: (Sim): SIM changed: false. current id: redacted-pii:sim_id[20-chars]; stored id: redacted-pii:sim_id[20-chars]; isFiDevice: false; subId: 1; slotIndex: 0
+03-22 16:23:29.140 12832 12832 W android.youtub: Entry not found
+03-22 16:23:29.142 12832 12832 W android.youtub: Entry not found
+03-22 16:23:29.144 12832 12832 W android.youtub: Entry not found
+03-22 16:23:29.183 12483 12483 I RcsClientLib: com.google.android.rcs.client.signup.SignupService connected
+03-22 16:23:29.203 12793 12831 I SP      : Sync for en-us succeeded in 640 ms: no changes
+03-22 16:23:29.204 12793 12831 I SP      : GC for 'en-us' (10) with ttl of 0 ms took 1 ms (0/1/0)
+03-22 16:23:29.211 12793 12824 I VoiceDataDownloader: Superpack download completed.
+03-22 16:23:29.211 12793 12824 I VoiceDataDownloader: Download default Success true
+03-22 16:23:29.304 12483 12540 I BugleRcs: RcsAvailabilityUpdaterRemote: updateRcsAvailabilityPostProcess, Get Updated RcsAvailability, RcsAvailability: DISABLED_STUB_PROVISIONING_ENGINE, SimId: redacted-pii[20-chars]
+03-22 16:23:29.356 12832 12832 W android.youtub: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:29.356 12832 12832 W android.youtub: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:29.356 12832 12832 W android.youtub: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:29.376 12483 12540 I RcsClientLib: Disconnecting SignupService
+03-22 16:23:29.389 12483 12512 I BugleRcs: RcsAvailabilityUpdaterRemote: postUpdateRcsAvailability : success updating RCS availability async
+03-22 16:23:29.449 12483 12492 W .apps.messagin: Suspending all threads took: 7.064ms
+03-22 16:23:29.469 12483 12506 I BugleJobs: Icing index repair service is not scheduled. [CONTEXT class_name="IcingMonitoringUtils" ]
+03-22 16:23:29.605 12483 12506 I BugleJobs: Starts to observe table change.
+03-22 16:23:29.669 12483 12851 I BugleRcsEngine: [99] alod.w: (Sim): Skipping writing subId because this is main bugle process.
+03-22 16:23:29.681 12483 12851 I BugleRcsEngine: [99] alod.w: (Sim): Updated SIM info: currentSimId: redacted-pii:sim_id[20-chars]; imsi: redacted-pii:imsi[15-chars]; rawMsisdn: redacted-pii:phone_number[12-chars]; formattedMsisdn: redacted-pii:phone_number[0-chars]; mccmnc: redacted-pii:sim_operator[6-chars] isFiDevice: false; subId: 1; slotIndex: 0
+03-22 16:23:29.688 12483 12851 I BugleRcsEngine: [99] alod.K: (Sim): Broadcasting Intent { act=com.google.android.ims.SIM_LOADED (has extras) }
+03-22 16:23:29.692 12483 12483 I Bugle   : SimChangeReceiver: action: com.google.android.ims.SIM_LOADED
+03-22 16:23:29.695 12483 12508 I Bugle   : RcsAvailabilityUtilForProvisioningEngineV2: updateAvailabilityAsync, hint: NO_HINT
+03-22 16:23:29.695 12483 12508 I BugleRcs: RcsAvailabilityUpdaterRemote: postUpdateRcsAvailability, hint: NO_HINT
+03-22 16:23:29.696 12483 12508 I BugleRcs: RcsAvailabilityUpdaterRemote: updateRcsAvailabilityAsync, hint: NO_HINT
+03-22 16:23:29.707 12483 12851 I BugleRcsEngine: [99] alod.j: (Sim): Processing an intent
+03-22 16:23:29.707 12483 12851 I BugleRcsEngine: [99] alod.w: (Sim): Ignoring duplicate SIM state: LOADED
+03-22 16:23:29.777   584   605 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+03-22 16:23:29.781 12483 12512 I BugleRcs: RcsAvailabilityUpdaterRemote: updateRcsAvailabilityAsync, trivialAvailability: null
+03-22 16:23:29.806 12483 12512 W BugleRcsEngine: [83] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:29.807 12483 12512 I BugleRcsEngine: [83] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:29.807 12483 12512 W BugleRcsEngine: [83] alsz.e: Service with meta data key: SignupServiceVersions is not compatible. Service Version 4 is not supported. Supported versions: []
+03-22 16:23:29.815 12483 12512 W BugleRcsEngine: [83] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:29.818 12483 12512 I BugleRcsEngine: [83] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:29.819 12483 12512 W BugleRcsEngine: [83] alsz.e: Service with meta data key: JibeServiceApiVersions is not compatible. Service Version 1 is not supported. Supported versions: []
+03-22 16:23:29.819 12483 12512 I BugleRcsEngine: [83] alsz.c: Not using CS JibeService because it is not compatible with AM.
+03-22 16:23:29.819 12483 12512 I BugleRcs: RcsAvailabilityUpdaterRemote: getRcsAvailabilityFromSignupServiceAsync
+03-22 16:23:29.821 12483 12541 I RcsClientLib: Connecting SignupService
+03-22 16:23:29.831 12483 12541 W RcsClientLib: No CS.apk RCS service found. Is RCS running in Bugle?
+03-22 16:23:29.881 12483 12541 W BugleRcsEngine: [95] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:29.882 12483 12541 I BugleRcsEngine: [95] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:29.882 12483 12541 W BugleRcsEngine: [95] alsz.e: Service with meta data key: JibeServiceApiVersions is not compatible. Service Version 1 is not supported. Supported versions: []
+03-22 16:23:29.882 12483 12541 I BugleRcsEngine: [95] alsz.c: Not using CS JibeService because it is not compatible with AM.
+03-22 16:23:29.882 12483 12541 I RcsClientLib: shouldUseCarrierServicesJibeService: false, CarrierServices rcs service found: false
+03-22 16:23:29.906 12483 12483 I RcsClientLib: com.google.android.rcs.client.signup.SignupService connected
+03-22 16:23:29.911   584   618 W ActivityManager: Slow operation: 54ms so far, now at startProcess: returned from zygote!
+03-22 16:23:29.912   584   618 W ActivityManager: Slow operation: 55ms so far, now at startProcess: done updating battery stats
+03-22 16:23:29.912   584   618 W ActivityManager: Slow operation: 55ms so far, now at startProcess: building log message
+03-22 16:23:29.912   584   618 I ActivityManager: Start proc 12874:com.google.android.gms.persistent/u0a97 for service {com.google.android.gms/com.google.android.gms.chimera.PersistentApiService}
+03-22 16:23:29.912   584   618 W ActivityManager: Slow operation: 55ms so far, now at startProcess: starting to update pids map
+03-22 16:23:29.913   584   618 W ActivityManager: Slow operation: 56ms so far, now at startProcess: done updating pids map
+03-22 16:23:29.934 12874 12874 W .gms.persisten: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:29.947 12874 12874 E .gms.persisten: Not starting debugger since process cannot load the jdwp agent.
+03-22 16:23:29.948 11155 11305 I MicroDetectionState: Should stop hotword detection immediately - true
+03-22 16:23:29.955 11155 12871 I GsaConfigFlagsSyncer: Flags already sync'ed.
+03-22 16:23:29.975 12483 12541 I BugleRcs: RcsAvailabilityUpdaterRemote: updateRcsAvailabilityPostProcess, Get Updated RcsAvailability, RcsAvailability: DISABLED_STUB_PROVISIONING_ENGINE, SimId: redacted-pii[20-chars]
+03-22 16:23:29.976 12483 12541 I RcsClientLib: Disconnecting SignupService
+03-22 16:23:30.013 12483 12508 I BugleRcsEngine: [80] akyy.e: RcsProvisioningManager: combineConfigurationWithAvailability, simId = redacted-pii:sim_id[20-chars], hasConfig = false
+03-22 16:23:30.015 12483 12508 W BugleRcsEngine: [80] akyy.h: RcsProvisioningManager: ProvisioningEngineAdapter not found for SIM redacted-pii:sim_id[20-chars]
+03-22 16:23:30.102   584   584 W Looper  : Slow dispatch took 116ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=4
+03-22 16:23:30.106 12483 12506 I BugleRcs: RcsAvailabilityUpdaterRemote: postUpdateRcsAvailability : success updating RCS availability async
+03-22 16:23:30.151 12874 12874 W .gms.persisten: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:30.153 12874 12874 W .gms.persisten: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:30.237   584   584 W Looper  : Slow dispatch took 133ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@f9cc73f m=0
+03-22 16:23:30.314   584   618 I ActivityManager: Start proc 12899:com.google.android.gms/u0a97 for service {com.google.android.gms/com.google.android.gms.chimera.GmsBoundBrokerService}
+03-22 16:23:30.324 12899 12899 W gle.android.gm: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:30.330 12483 12830 I AssistantConnector: Use gRPC connector
+03-22 16:23:30.330 12899 12899 E gle.android.gm: Not starting debugger since process cannot load the jdwp agent.
+03-22 16:23:30.377 12483 12532 I Forking : Starting analysis.
+03-22 16:23:30.378 12483 12532 I Misthreading: Starting analysis.
+03-22 16:23:30.379   443   443 E installd: Couldn't opendir /data/app/vmdl831437680.tmp: No such file or directory
+03-22 16:23:30.380   443   443 E installd: Failed to delete /data/app/vmdl831437680.tmp: No such file or directory
+03-22 16:23:30.381 12483 12508 I BugleNetwork: FirebaseRegistrationStartupTask: Enabling Firebase component
+03-22 16:23:30.402 12899 12899 W gle.android.gm: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:30.402 12899 12899 W gle.android.gm: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:30.409   584   638 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: pkg removed
+03-22 16:23:30.425   584   638 I ActivityManager: Killing 12874:com.google.android.gms.persistent/u0a97 (adj 0): stop com.google.android.gms due to pkg removed
+03-22 16:23:30.433   584   604 W ServiceWatcher: [GeocoderProxy] 10097/com.google.android.gms/.location.geocode.GeocodeService@2 died
+03-22 16:23:30.433   584   604 W ServiceWatcher: [HardwareActivityRecognitionProxy] 10097/com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService@1 died
+03-22 16:23:30.434   584   604 W ServiceWatcher: [RealLocationTimeZoneProviderProxy] 10097/com.google.android.gms/.geotimezone.GeoTimeZoneService@1 died
+03-22 16:23:30.439   584   604 W ServiceWatcher: [GeofenceProxy] 10097/com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService@1 died
+03-22 16:23:30.439   584   604 W ServiceWatcher: [fused] 10097/com.google.android.gms/com.google.android.location.fused.FusedLocationService@1 died
+03-22 16:23:30.439   584   604 W ServiceWatcher: [network] 10097/com.google.android.gms/com.google.android.location.network.NetworkLocationService@2 died
+03-22 16:23:30.439   584   638 I ActivityManager: Killing 12899:com.google.android.gms/u0a97 (adj 0): stop com.google.android.gms due to pkg removed
+03-22 16:23:30.443   330   330 I Zygote  : Process 12874 exited due to signal 9 (Killed)
+03-22 16:23:30.457   330   330 I Zygote  : Process 12899 exited due to signal 9 (Killed)
+03-22 16:23:30.473   584   619 I libprocessgroup: Successfully killed process cgroup uid 10097 pid 12874 in 46ms
+03-22 16:23:30.473   584   619 I libprocessgroup: Successfully killed process cgroup uid 10097 pid 12899 in 0ms
+03-22 16:23:30.489  1262  1262 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.google.android.gms. Reason: package android.intent.action.PACKAGE_REMOVED
+03-22 16:23:30.532 12483 12508 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+03-22 16:23:30.540   584   638 I ActivityManager: Force stopping com.google.android.gms appid=10097 user=0: pkg removed
+03-22 16:23:30.569   584   683 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-22 16:23:30.572  1270  1270 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.google.android.gms flg=0x4000010 (has extras) }
+03-22 16:23:30.586  2043  2043 I Finsky  : [2] aafz.i(1): aafz - Received: android.intent.action.PACKAGE_REMOVED, [5RgnIEJQaOQbqneqo2SF47BEgT9fG5svDK6hS_daqhI]
+03-22 16:23:30.590 12832 12841 I android.youtub: WaitForGcToComplete blocked Background on None for 5.076ms
+03-22 16:23:30.603   584   616 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+03-22 16:23:30.623  1067  1077 I s.nexuslaunche: Background concurrent copying GC freed 122411(4215KB) AllocSpace objects, 5(296KB) LOS objects, 49% free, 5411KB/10MB, paused 3.938ms,261us total 168.841ms
+03-22 16:23:30.674  1262  1262 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.google.android.gms. Reason: package android.intent.action.PACKAGE_ADDED
+03-22 16:23:30.690   584   683 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-22 16:23:30.726  1270  1270 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.google.android.gms flg=0x4000010 (has extras) }
+03-22 16:23:30.763 12928 12928 W gle.android.gm: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:30.765  1067  1079 W System  : A resource failed to call release. 
+03-22 16:23:30.765  1067  1079 W System  : A resource failed to call release. 
+03-22 16:23:30.765  1067  1079 W System  : A resource failed to call release. 
+03-22 16:23:30.772 12928 12928 E gle.android.gm: Not starting debugger since process cannot load the jdwp agent.
+03-22 16:23:30.809 11155 11163 I earchbox:searc: Background concurrent copying GC freed 9216(565KB) AllocSpace objects, 3(192KB) LOS objects, 49% free, 10MB/21MB, paused 1.248ms,428us total 338.719ms
+03-22 16:23:30.835 12483 12942 W DynamiteModule: Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+03-22 16:23:30.859   584   618 W ActivityManager: Slow operation: 138ms so far, now at startProcess: done updating battery stats
+03-22 16:23:30.859   584   618 W ActivityManager: Slow operation: 138ms so far, now at startProcess: building log message
+03-22 16:23:30.859   584   618 I ActivityManager: Start proc 12928:com.google.android.gms/u0a97 for content provider {com.google.android.gms/com.google.android.gms.people.service.galprovider.PeopleGalProvider}
+03-22 16:23:30.859   584   618 W ActivityManager: Slow operation: 138ms so far, now at startProcess: starting to update pids map
+03-22 16:23:30.860   584   618 W ActivityManager: Slow operation: 139ms so far, now at startProcess: done updating pids map
+03-22 16:23:30.867   584   683 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-22 16:23:30.898 12947 12947 W .gms.persisten: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:30.918 12947 12947 E .gms.persisten: Not starting debugger since process cannot load the jdwp agent.
+03-22 16:23:30.927 12483 12506 W BugleRcsEngine: [79] alsz.g: Carrier Services Apk was not found.
+03-22 16:23:30.927 12483 12506 I BugleRcsEngine: [79] alsz.e: Cannot get service version because CS.apk was not found, not pre-loaded or disabled.
+03-22 16:23:30.927 12483 12506 W BugleRcsEngine: [79] alsz.e: Service with meta data key: JibeServiceApiVersions is not compatible. Service Version 1 is not supported. Supported versions: []
+03-22 16:23:30.928 12483 12506 I BugleRcsEngine: [79] alsz.c: Not using CS JibeService because it is not compatible with AM.
+03-22 16:23:30.932   584  2018 W ActivityManager: Slow operation: 53ms so far, now at attachApplicationLocked: after updateOomAdjLocked
+03-22 16:23:30.935   584   604 I ServiceWatcher: [GeocoderProxy] chose new implementation 10097/com.google.android.gms/.location.geocode.GeocodeService@2
+03-22 16:23:30.937   584   604 I ServiceWatcher: [HardwareActivityRecognitionProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService@1
+03-22 16:23:30.940   584   604 I ServiceWatcher: [RealLocationTimeZoneProviderProxy] chose new implementation 10097/com.google.android.gms/.geotimezone.GeoTimeZoneService@1
+03-22 16:23:30.969   584   618 W ActivityManager: Slow operation: 136ms so far, now at startProcess: done updating battery stats
+03-22 16:23:30.969   584   618 W ActivityManager: Slow operation: 136ms so far, now at startProcess: building log message
+03-22 16:23:30.970   584   618 I ActivityManager: Start proc 12947:com.google.android.gms.persistent/u0a97 for content provider {com.google.android.gms/com.google.android.gms.chimera.container.GmsModuleProvider}
+03-22 16:23:30.970   584   618 W ActivityManager: Slow operation: 137ms so far, now at startProcess: starting to update pids map
+03-22 16:23:30.973   584   618 W ActivityManager: Slow operation: 140ms so far, now at startProcess: done updating pids map
+03-22 16:23:31.005   584   584 W Looper  : Slow dispatch took 512ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@f11288 m=0
+03-22 16:23:31.006   584   584 W Looper  : Slow delivery took 531ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@77a8421 m=0
+03-22 16:23:31.008   584   604 I ServiceWatcher: [GeofenceProxy] chose new implementation 10097/com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService@1
+03-22 16:23:31.009   584   604 I ServiceWatcher: [fused] chose new implementation 10097/com.google.android.gms/com.google.android.location.fused.FusedLocationService@1
+03-22 16:23:31.009   584   604 I ServiceWatcher: [network] chose new implementation 10097/com.google.android.gms/com.google.android.location.network.NetworkLocationService@2
+03-22 16:23:31.010 12928 12928 W gle.android.gm: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:31.010 12928 12928 W gle.android.gm: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:31.073  1270  1270 I GsaVoiceInteractionSrv: O received Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.google.android.gms flg=0x4000010 (has extras) }
+03-22 16:23:31.082 12483 12506 W BugleAction: Null config in BugleSharedPrefs
+03-22 16:23:31.082 12483 12506 W BugleAction: Failed to get msisdn from Bugle
+03-22 16:23:31.102 12483 12506 W BugleAction: Failed to get msisdn from RcsProfileService
+03-22 16:23:31.102 12483 12506 W BugleAction: awmw: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at awmp.b(PG:2)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.g(PG:1)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at com.google.android.rcs.client.profile.RcsProfileService.getMsisdn(PG:1)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at utg.F(PG:12)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at tmz.b(PG:1)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at pzo.d(PG:4)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at pzk.run(PG:5)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at aypj.run(PG:2)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at bcic.c(PG:1)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at bchf.run(PG:4)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at bcid.run(PG:1)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at aosz.run(PG:1)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at aosl.run(PG:2)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at aorz.run(PG:2)
+03-22 16:23:31.102 12483 12506 W BugleAction: 	at java.lang.Thread.run(Thread.java:920)
+03-22 16:23:31.107 12947 12947 W .gms.persisten: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:31.108 12947 12947 W .gms.persisten: JIT profile information will not be recorded: profile file does not exist.
+03-22 16:23:31.124 12483 12483 I BugleRcsEngine: [2] RcsAvailabilityLogWorker.a: RcsAvailabilityLogWorker is started
+03-22 16:23:31.126 12483 12483 I BugleRcsEngine: [2] RcsAvailabilityLogWorker.a: RcsAvailabilityLogWorker Provisioning task in Bugle is disabled, not logging RcsAvailability
+03-22 16:23:31.132   584   584 W Looper  : Slow dispatch took 126ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@da12fe7 m=0
+03-22 16:23:31.149   757   757 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+03-22 16:23:31.157 12483 12506 W Bugle   : SubscriptionMetadataUtils get: invalid subId = -2
+03-22 16:23:31.158 12483 12506 I Bugle   : TelephonyManagerFactory: Returning per-subscription TelephonyManager (>= N) subscription{id:-1}
+03-22 16:23:31.190 11155 11305 W SearchServiceCore: Abort, client detached.
+03-22 16:23:31.191 11155 11305 W SearchServiceCore: Abort, client detached.
+03-22 16:23:31.207 12483 12506 I BugleBackup: Registering preference change listener for "buglesub_-1".
+03-22 16:23:31.209 12483 12506 W Bugle   : SubscriptionMetadataUtils get: invalid subId = -2
+03-22 16:23:31.237 11155 11305 W SearchServiceCore: Abort, client detached.
+03-22 16:23:31.253 11155 12883 I A       : soft deleting data for DEVICE_INSTALLED_APPS [CONTEXT ratelimit_period="100 MILLISECONDS" ]
+03-22 16:23:31.314   584   604 W Looper  : Slow dispatch took 133ms android.fg h=android.os.Handler c=com.android.server.servicewatcher.ServiceWatcherImpl$$ExternalSyntheticLambda1@a812d3a m=0
+03-22 16:23:31.314   584   604 W Looper  : Slow delivery took 262ms android.fg h=android.os.Handler c=com.android.server.power.hint.HintManagerService$UidObserver$$ExternalSyntheticLambda1@9a41deb m=0
+03-22 16:23:31.325 12483 12506 W Bugle   : SubscriptionMetadataUtils get: invalid subId = -2
+03-22 16:23:31.332 12483 12506 W Bugle   : SubscriptionUtilsAsOfLMR1: getSelfRawNumber: subInfo is null for subscription{id:-1}
+03-22 16:23:31.332 12483 12506 W BugleAction: No default number, returning empty msisdn
+03-22 16:23:31.335 12483 12506 I BugleBackup: Registering preference change listener for "buglesub_1".
+03-22 16:23:31.342 12483 12506 W BugleAction: No default number, returning empty msisdn
+03-22 16:23:31.345 12947 12947 I Safeboot: Checking safeboot...
+03-22 16:23:31.358 12483 12506 W Bugle   : SubscriptionMetadataUtils get: invalid subId = -2
+03-22 16:23:31.362 11155 12883 I A       : Performing deletion propagation for Geller data.
+03-22 16:23:31.395 12483 12506 W BugleNetwork: RcsMsisdnAccessor: Failed to access Rcs msisdn. subId: -2
+03-22 16:23:31.395 12947 12947 I GmsApplication: Staging modules and/or updating config
+03-22 16:23:31.395 12928 12928 I GmsApplication: Staging modules and/or updating config
+03-22 16:23:31.402   584   584 I Telecom : CarModeTracker: Package com.google.android.gms is not tracked.: SSH.oR@AIQ
+03-22 16:23:31.415   584   584 I Telecom : InCallController: updateCarModeForConnections: car mode apps: : SSH.oR@AIQ
+03-22 16:23:31.423 12483 12506 W BugleEtouffee: E2eeStartupTask: Skip prekey checking because MSISDN is empty.
+03-22 16:23:31.483   584   678 I RoleService: Granting default roles...
+03-22 16:23:31.506 12928 12928 I GmsApplication: Staging modules
+03-22 16:23:31.507 12928 12928 I FileApkMgr: Extracting modules...
+03-22 16:23:31.507 11155 11280 I A       : updated last sync time to 2025-03-22T08:23:31.348Z
+03-22 16:23:31.555   584   584 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AIc
+03-22 16:23:31.658   584   604 W Looper  : Drained
+03-22 16:23:31.658   584   604 W Looper  : Slow dispatch took 140ms android.fg h=android.os.Handler c=com.android.internal.infra.ServiceConnector$Impl$$ExternalSyntheticLambda2@3445145 m=0
+03-22 16:23:31.670  2043  2043 I Finsky  : [2] lzp.f(7): AIM: AppInfoCacheUpdater -> invalidating apps: [com.google.android.gms]
+03-22 16:23:31.685  2043  2043 I Finsky  : [2] mac.c(19): AIM: AppInfoManager-Perf > getApps > called for 1 apps
+03-22 16:23:31.724  2043  2280 I Finsky  : [72] mbk.a(47): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.google.android.gms]
+03-22 16:23:31.726 12664 12697 E GAv4    : Successfully bound to service but never got onServiceConnected callback
+03-22 16:23:31.789  2043  2280 I Finsky  : [72] lhc.apply(1115): AIM: Got app ownership map. App counts: 1. Unique apps: 1
+03-22 16:23:31.791  6126  6140 I PermissionControllerServiceImpl: Updating user sensitive for uid 10097
+03-22 16:23:31.815  6126 12982 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+03-22 16:23:31.821  2043 12976 I Finsky  : [247] qby.accept(78): Wrote row to frosting DB: 522
+03-22 16:23:31.883 12483 12511 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d69ea0f8-c4e0-4dbe-867f-55363109033e, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker, TikTokWorker#com.google.android.apps.messaging.shared.telephony.impl.copyoftelephony.TelephonyOrphanedAttachmentsCollectorTikTokWorkItem } ]
+03-22 16:23:31.887  6126 12982 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+03-22 16:23:31.907  2043  2226 E Finsky  : [59] aomw.M(45): [Counters] attempted to use a non-positive increment for: 4753
+03-22 16:23:31.911   584   584 W Looper  : Drained
+03-22 16:23:31.927   765   780 I ndroid.systemu: Background concurrent copying GC freed 54249(2139KB) AllocSpace objects, 14(280KB) LOS objects, 49% free, 12MB/25MB, paused 1.413ms,149us total 1.444s
+03-22 16:23:31.993  2043  2249 I Finsky  : [67] mbf.a(219): AIM: AppInfoManager-Perf > ItemModel > CacheSize=26, cacheHitCount=0, cacheMissCount=1, total appsWithNoServerDataCount=0. Missed  in cache (limit 10) : [com.google.android.gms]
+03-22 16:23:32.018  2043  2249 I Finsky  : [67] mbj.n(19): AIM: AppInfoManager-Perf > ItemModel > ItemStore Called 1 apps cacheOptions = REFRESH_LOCAL_CACHE
+03-22 16:23:32.032  2043  2226 I Finsky  : [59] mbk.a(47): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=1, cacheMissCount=0. Missed  in cache (limit 10) : []
+03-22 16:23:32.033  2043  2226 I Finsky  : [59] lhc.apply(1115): AIM: Got app ownership map. App counts: . Unique apps: 0
+03-22 16:23:32.033  2043  2226 E Finsky  : [59] aomw.M(45): [Counters] attempted to use a non-positive increment for: 4752
+03-22 16:23:32.033  2043  2226 E Finsky  : [59] aomw.M(45): [Counters] attempted to use a non-positive increment for: 4753
+03-22 16:23:32.035  2043  2226 I Finsky  : [59] mbf.a(219): AIM: AppInfoManager-Perf > ItemModel > CacheSize=26, cacheHitCount=0, cacheMissCount=1, total appsWithNoServerDataCount=0. Missed  in cache (limit 10) : [com.google.android.gms]
+03-22 16:23:32.036  2043  2226 I Finsky  : [59] mbj.n(19): AIM: AppInfoManager-Perf > ItemModel > ItemStore Called 1 apps cacheOptions = USE_CACHE
+03-22 16:23:32.040  2043  2043 I Finsky  : [2] uiq.d(67): IQ: onPackageRemoved com.google.android.gms, replacing=true, uninstallingFromPlay=false
+03-22 16:23:32.060  2043  2249 I Finsky  : [67] mbf.a(1109): AIM: ItemModel fetch - unauth(0), auth([U5xHvel1yC1YrIEJhN75UdmkVuw2QNW2bBflVr2xi6o]->1)
+03-22 16:23:32.072  2043 11850 I Finsky  : [204] tdj.accept(37): IQ: handled package removed
+03-22 16:23:32.098  6126 12982 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+03-22 16:23:32.102  6126 12982 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+03-22 16:23:32.115  2043  2043 I Finsky  : [2] nxy.ko(83): [ContentSync] finished, scheduled=false
+03-22 16:23:32.121  2043  2226 I Finsky  : [59] mbf.a(1109): AIM: ItemModel fetch - unauth(0), auth([U5xHvel1yC1YrIEJhN75UdmkVuw2QNW2bBflVr2xi6o]->1)
+03-22 16:23:32.447 12483 12512 I BugleRcsProvisioning: RcsProvisioningTrigger: Schedule provisioning on app startup
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: Work [ id=d0e2191f-67ae-4a38-a21f-9f4eef43391b, tags={ com.google.android.apps.messaging.shared.rcs.availability.metrics.RcsAvailabilityLogWorker } ] was cancelled
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: java.util.concurrent.CancellationException: Task was cancelled.
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at brc.j(PG:3)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at brc.get(PG:4)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at bmi.run(PG:1)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at bqb.run(PG:1)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at aosz.run(PG:1)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at aosl.run(PG:2)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at aorz.run(PG:2)
+03-22 16:23:32.580 12483 12511 I WM-WorkerWrapper: 	at java.lang.Thread.run(Thread.java:920)
+03-22 16:23:32.648 12483 12512 I BugleRcsProvisioning: RcsProvisioningTrigger: schedule provisioning
+03-22 16:23:32.652 12483 12512 I BugleRcsEngine: [83] jsj.run: Provisioning task in Bugle is disabled by P/H flag
+03-22 16:23:32.653 12483 12512 I BugleNetwork: Startup: registering tachyon.
+03-22 16:23:32.659 12483 12512 I BugleNetwork: Startup: registering tachyon for phone.
+03-22 16:23:32.659   440   666 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=12832
+03-22 16:23:32.660 12483 12512 I BugleNetwork: Profile service is not connected at startup task.
+03-22 16:23:32.670 12483 12512 I Bugle   : VerifiedSmsEnabledCheckerImpl: VSMS is disabled via Phenotype flag.
+03-22 16:23:32.671   440   666 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=12832
+03-22 16:23:32.693 12483 12506 I Bugle   : VerifiedSmsStartupTask: Checking if Verified SMS tasks should be enqueued. feature supported: false, feature enabled: false, eligible / has registered key: false, C11N: false
+03-22 16:23:32.693 12483 12506 I Bugle   : VerifiedSmsStartupTask: Not enqueuing VSMS periodic task, VSMS is disabled or not supported.
+03-22 16:23:32.693 12483 12515 I Bugle   : VerifiedSmsStartupTask: Not calling C11N to get phone numbers.
+03-22 16:23:32.714   440   666 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=12832
+03-22 16:23:32.715   440   666 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=12832
+03-22 16:23:32.731   440   666 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=12832
+03-22 16:23:32.735   440   666 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=12832
+03-22 16:23:32.736   440   666 W ServiceManager: Permission failure: android.permission.SYSTEM_CAMERA from uid=10118 pid=12832
+03-22 16:23:32.753 13040 13040 W hirdpartyclien: Unexpected CPU variant for X86 using defaults: x86_64
+03-22 16:23:32.790   584   618 W ActivityManager: Slow operation: 99ms so far, now at startProcess: done updating battery stats
+03-22 16:23:32.827   584   618 W ActivityManager: Slow operation: 136ms so far, now at startProcess: building log message
+03-22 16:23:32.827   584   618 I ActivityManager: Start proc 13040:com.amazon.avod.thirdpartyclient/u0a162 for broadcast {com.amazon.avod.thirdpartyclient/com.amazon.identity.auth.device.storage.LambortishClock$ChangeTimestampsBroadcastReceiver}
+03-22 16:23:32.827   584   618 W ActivityManager: Slow operation: 136ms so far, now at startProcess: starting to update pids map
+03-22 16:23:32.868 13040 13040 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+03-22 16:23:32.869   584   618 W ActivityManager: Slow operation: 148ms so far, now at startProcess: done updating pids map
+03-22 16:23:32.935 12928 12937 I gle.android.gm: Background young concurrent copying GC freed 19021(1302KB) AllocSpace objects, 4(80KB) LOS objects, 90% free, 2511KB/26MB, paused 6.706ms,247us total 71.328ms
+03-22 16:23:32.974  6126 12982 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+03-22 16:23:33.002 12947 12955 I .gms.persisten: Background young concurrent copying GC freed 16711(1000KB) AllocSpace objects, 5(100KB) LOS objects, 91% free, 2292KB/26MB, paused 1.912ms,151us total 104.752ms
+03-22 16:23:33.085  2043  2280 I Finsky  : [72] vmr.apply(549): ItemStore: Missing some fields: com.google.android.gms, 13
+03-22 16:23:33.086  2043  2203 I Finsky  : [53] vmr.apply(549): ItemStore: Missing some fields: com.google.android.gms, 13
+03-22 16:23:33.091  2043 12976 I Finsky  : [247] qby.accept(78): Wrote row to frosting DB: 523
+03-22 16:23:33.107  2043  2043 I Finsky  : [2] aafz.i(1): aafz - Received: android.intent.action.PACKAGE_REMOVED, [5RgnIEJQaOQbqneqo2SF47BEgT9fG5svDK6hS_daqhI]
+03-22 16:23:33.137  2043  2043 I Finsky  : [2] aafz.i(1): aafz - Deduping intent android.intent.action.PACKAGE_REMOVED
+03-22 16:23:33.142  2043  2043 I Finsky  : [2] aafz.i(1): aafz - Received: android.intent.action.PACKAGE_ADDED, [5RgnIEJQaOQbqneqo2SF47BEgT9fG5svDK6hS_daqhI]
+03-22 16:23:33.163  2043  2043 I Finsky  : [2] uln.jG(11): DTU: Received onPackageAdded, replacing: true
+03-22 16:23:33.195  2043  2052 I android.vendin: Background concurrent copying GC freed 118083(6708KB) AllocSpace objects, 20(572KB) LOS objects, 45% free, 29MB/53MB, paused 9.537ms,4.429ms total 2.727s
+03-22 16:23:33.204  2043  2249 I Finsky  : [67] ueb.apply(534): IV2::TD: Submit done. com.google.android.gms[iid:10] [isid:dndYdaMNRBShiILdmBvBLg] [tid: 1000000013]
+03-22 16:23:33.207  2043  2043 I Finsky  : [2] atce.z(13): Set autoupdate of com.google.android.gms to 1 (install/update)
+03-22 16:23:33.214  2043  5424 I Finsky  : [158] udt.b(28): IV2: task success. tid:1000000013 statusCode:0
+03-22 16:23:33.216  2043  2226 I Finsky  : [59] uek.a(78): IV2::TM: cleaning up tid: 1000000013
+03-22 16:23:33.216  2043  2226 I Finsky  : [59] uek.a(225): IV2:TM: cleaning up task. com.google.android.gms[iid:10] [isid:dndYdaMNRBShiILdmBvBLg] [tid: 1000000013]
+03-22 16:23:33.244  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.253  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.253  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.253  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.253  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.253  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.253  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.254  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.254  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.254  2043  2203 I Finsky  : [53] adri.w(9): RM: remove resources for request 
+03-22 16:23:33.269  2043  2122 E Finsky  : [43] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.271  2043  2122 E Finsky  : [43] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.271  2043  2122 E Finsky  : [43] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.272  2043  2122 E Finsky  : [43] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.273  2043  2122 E Finsky  : [43] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.275  2043  2120 E Finsky  : [41] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.277  2043  2121 E Finsky  : [42] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.278  2043  2122 E Finsky  : [43] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.283  2043  2121 E Finsky  : [42] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.284  2043  2120 E Finsky  : [41] adog.a(101): RM: no data for ID, not removing
+03-22 16:23:33.299  2043 12976 I Finsky  : [247] qby.accept(78): Wrote row to frosting DB: 524
+03-22 16:23:33.349  2043  5424 I Finsky  : [158] udu.b(50): IV2: Finishing successful install for installId: 10
+03-22 16:23:33.352  2043  5424 I Finsky  : [158] udv.m(23): IV2: stopping install timeout for 10
+03-22 16:23:33.355  2043  5424 E Finsky  : [158] mxg.apply(380): IV2: Failed to delete record for 10
+03-22 16:23:33.356  2043  2226 I Finsky  : [59] uir.Z(19): IQ: start evaluating install requests.
+03-22 16:23:33.369  2043  2226 I Finsky  : [59] uir.Z(197): IQ: There are 15 installs pending for job 145: [com.google.android.youtube, com.google.android.googlequicksearchbox, com.google.android.apps.messaging, com.google.android.deskclock, com.google.android.gm, com.google.android.apps.wellbeing, com.google.android.apps.docs, com.google.android.apps.maps, com.google.android.tts, com.google.android.partnersetup, com.google.android.apps.photos, com.google.android.calendar, com.google.android.apps.youtube.music, com.google.android.inputmethod.latin, com.google.android.apps.restore]
