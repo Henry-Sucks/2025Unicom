@@ -195,42 +195,42 @@ Domain verification status:
           u.10010.cn
 
 Permissions:
-  Permission [com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE] (1efbcf9):
+  Permission [com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE] (a3a4553):
     sourcePackage=com.sinovatech.unicom.ui
     uid=10235 gids=[] type=0 prot=signature
     perm=PermissionInfo{79da63b com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE}
     flags=0x0
 
 Permissions:
-  Permission [com.sinovatech.unicom.ui.ZXCHANGE_PERMISSION] (3d843e):
+  Permission [com.sinovatech.unicom.ui.ZXCHANGE_PERMISSION] (d20fe90):
     sourcePackage=com.sinovatech.unicom.ui
     uid=10235 gids=[] type=0 prot=normal
     perm=PermissionInfo{dac2b1 com.sinovatech.unicom.ui.ZXCHANGE_PERMISSION}
     flags=0x0
 
 Permissions:
-  Permission [com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG] (e70629f):
+  Permission [com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG] (7fc7389):
     sourcePackage=com.sinovatech.unicom.ui
     uid=10235 gids=[] type=0 prot=signature
     perm=PermissionInfo{cb66b17 com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG}
     flags=0x0
 
 Permissions:
-  Permission [com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN] (9e09fec):
+  Permission [com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN] (6a71f8e):
     sourcePackage=com.sinovatech.unicom.ui
     uid=10235 gids=[] type=0 prot=signature
     perm=PermissionInfo{9a7d8ed com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN}
     flags=0x0
 
 Permissions:
-  Permission [com.sinovatech.unicom.ui.permission.PUSH_WRITE_PROVIDER] (1e62fb5):
+  Permission [com.sinovatech.unicom.ui.permission.PUSH_WRITE_PROVIDER] (699e3af):
     sourcePackage=com.sinovatech.unicom.ui
     uid=10235 gids=[] type=0 prot=signature
     perm=PermissionInfo{22ca1b3 com.sinovatech.unicom.ui.permission.PUSH_WRITE_PROVIDER}
     flags=0x0
 
 Permissions:
-  Permission [com.sinovatech.unicom.ui.permission.PUSH_PROVIDER] (c89a64a):
+  Permission [com.sinovatech.unicom.ui.permission.PUSH_PROVIDER] (b3f73bc):
     sourcePackage=com.sinovatech.unicom.ui
     uid=10235 gids=[] type=0 prot=signature
     perm=PermissionInfo{ab616e9 com.sinovatech.unicom.ui.permission.PUSH_PROVIDER}
@@ -279,65 +279,65 @@ Registered ContentProviders:
 ContentProvider Authorities:
   [com.sinovatech.unicom.ui.lifecycle-trojan]:
     Provider{ab0ba21 com.sinovatech.unicom.ui/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
-      applicationInfo=ApplicationInfo{e8289bb com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{eafbf45 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.aaidinitprovider]:
     Provider{1324807 com.sinovatech.unicom.ui/com.huawei.hms.aaid.InitProvider}
-      applicationInfo=ApplicationInfo{52dced8 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{179a69a com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.pangle.servermanager.main]:
     Provider{95038a5 com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
-      applicationInfo=ApplicationInfo{c971231 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{6ab0bcb com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.AGCInitializeProvider]:
     Provider{f6becc com.sinovatech.unicom.ui/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
-      applicationInfo=ApplicationInfo{6c3dd16 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{e6e0fa8 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.TTMultiProvider]:
     Provider{33dd75d com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
-      applicationInfo=ApplicationInfo{3c60697 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{1920ac1 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.TTFileProvider]:
     Provider{d08947a com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.TTFileProvider}
-      applicationInfo=ApplicationInfo{11d0084 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{cbb9266 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost]:
     Provider{d858c59 com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
-      applicationInfo=ApplicationInfo{999a06d com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{35c99a7 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.autosize-init-provider]:
     Provider{ee66088 com.sinovatech.unicom.ui/com.unicom.pay.auto.InitProvider}
-      applicationInfo=ApplicationInfo{698b4a2 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{3687e54 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.fileprovider]:
     Provider{ea15da3 com.sinovatech.unicom.ui/android.support.v4.content.FileProvider}
-      applicationInfo=ApplicationInfo{d5a7533 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{2f391fd com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.com.liulishuo.okdownload]:
     Provider{c4fd34 com.sinovatech.unicom.ui/com.liulishuo.okdownload.OkDownloadProvider}
-      applicationInfo=ApplicationInfo{7aba0f0 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{ede6ef2 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.com.mob.MobProvider]:
     Provider{876101e com.sinovatech.unicom.ui/com.mob.MobProvider}
-      applicationInfo=ApplicationInfo{8bcd669 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{baf2943 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.huawei.push.provider]:
     Provider{a40942b com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushProvider}
-      applicationInfo=ApplicationInfo{ff178ee com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{4f92bc0 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.CP]:
     Provider{c7b7e46 com.sinovatech.unicom.ui/com.secneo.apkwrapper.CP}
-      applicationInfo=ApplicationInfo{2bd318f com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{fec50f9 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.pangle.provider.proxy.main]:
     Provider{25a769c com.sinovatech.unicom.ui/com.bytedance.pangle.provider.MainProcessProviderProxy}
-      applicationInfo=ApplicationInfo{341dc1c com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{1e0883e com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.permission.provider]:
     Provider{44eb8a0 com.sinovatech.unicom.ui/com.qw.soul.permission.InitProvider}
-      applicationInfo=ApplicationInfo{dc37025 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{411169f com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.utilcode.provider]:
     Provider{86230ff com.sinovatech.unicom.ui/com.blankj.utilcode.util.UtilsFileProvider}
-      applicationInfo=ApplicationInfo{a0035fa com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{e2543ec com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.cn.sharesdk.ShareSDKFileProvider]:
     Provider{bb8ef6e com.sinovatech.unicom.ui/cn.sharesdk.framework.utils.ShareSDKFileProvider}
-      applicationInfo=ApplicationInfo{be557ab com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{51803b5 com.sinovatech.unicom.ui}
   [com.sinovatech.unicom.ui.pangle.fileprovider]:
     Provider{3c5a60f com.sinovatech.unicom.ui/com.bytedance.pangle.FileProvider}
-      applicationInfo=ApplicationInfo{a9e9e08 com.sinovatech.unicom.ui}
+      applicationInfo=ApplicationInfo{f58ea4a com.sinovatech.unicom.ui}
 
 Key Set Manager:
   [com.sinovatech.unicom.ui]
       Signing KeySets: 108
 
 Packages:
-  Package [com.sinovatech.unicom.ui] (71e3c52):
+  Package [com.sinovatech.unicom.ui] (fd54d96):
     appId=10235
     pkg=Package{63cc2e8 com.sinovatech.unicom.ui}
     codePath=/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==
