@@ -4,3 +4,6 @@ tools/droidbot
 output/
 apks/
 tools/droidbot_explore/test
+
+*.apk
+*.log

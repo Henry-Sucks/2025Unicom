@@ -1,0 +1,1 @@
+PLANNED_TASK_PATH = r"C:\Projects\2025Unicom\data\planned_task"
