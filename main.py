@@ -1,10 +1,11 @@
 import argparse
 import os
 import sys
+from config import TASK_EXECUTION_RESULT_PATH, TASK_EXECUTION_LOG_PATH
 
 # 假设 agents 目录下有 agent1_task_planner.py 和 agent2_executor.py
 from agents.agent1_task_planner import Agent1TaskPlanner
-# from agents import agent2_executor as agent2
+from agents.agent2_task_executor import Agent2TaskExecutor
 
 
 def main():
@@ -22,10 +23,20 @@ def main():
         required=True,
         help="UI tree JSON/JS file path used by Agent1"
     )
+
+    parser.add_argument(
+        "--target-apk",
+        type=str,
+        required=True,
+        help="Target APK executed by Agent2"
+    )
+
+
     args = parser.parse_args()
 
     task_desc = args.task
     ui_tree_path = args.ui_tree_file
+    apk_path = args.target_apk
 
 
     if not os.path.isfile(ui_tree_path):
@@ -43,9 +54,15 @@ def main():
         sys.exit(1)
 
     # # === Agent2: 执行任务 ===
-    # print("[Main] Running Agent2 (execution)...")
-    # result = agent2.run_executor(actions, func_doc_dir)
-    # print(f"[Main] Agent2 result: {result}")
+    print("[Main] Running Agent2 (task execution)...")
+    agent2 = Agent2TaskExecutor(
+        apk_path=apk_path,
+        output_dir=TASK_EXECUTION_RESULT_PATH,
+        task_str=task_desc,
+        log_path=TASK_EXECUTION_LOG_PATH
+    )
+    agent2.run()
+    print("[Main] Pipeline finished.")
 
 
 if __name__ == "__main__":
