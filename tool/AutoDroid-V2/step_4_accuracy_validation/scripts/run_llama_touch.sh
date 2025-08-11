@@ -1,1 +1,0 @@
-python run_llama_touch_experiment.py

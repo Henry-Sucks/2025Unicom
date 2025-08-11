@@ -1,1 +1,0 @@
-python -m step_1_doc_generation.gen_doc -m deepseek -o 'C:\Projects\2025Unicom\tools\AutoDroid-V2\step_1_doc_generation\data\test\output\calendar' -d 'C:\Projects\2025Unicom\tools\AutoDroid-V2\step_1_doc_generation\data\test\data\calendar' -a 'Calendar' -i

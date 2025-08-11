@@ -1,1 +1,0 @@
-[['Add holidays', 5], ['Add contact birthdays', 8], ['Add contact anniversaries', 11], ['Import events from an .ics file', 14], ['Export events to an .ics file', 17], ['Settings', 20], ['About', 23]]

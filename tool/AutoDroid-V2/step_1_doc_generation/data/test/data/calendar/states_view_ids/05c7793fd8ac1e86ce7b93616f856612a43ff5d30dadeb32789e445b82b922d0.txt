@@ -1,1 +1,0 @@
-[['Calendar', 6], ['Search', 8], ['Change view', 9], ['More options', 10], ['July', 65], ['New Event', 159]]

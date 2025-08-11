@@ -1,1 +1,0 @@
-[['Navigate up', 6], ['New Event', 7], ['Save', 9], ['Title', 13], ['Location', 14], ['Description', 16], ['July 24 (Thu)', 20], ['04:00 PM', 21], ['July 24 (Thu)', 22], ['04:00 PM', 23], ['10 minutes before', 26], ['Add another reminder', 27], ['No repetition', 30], ['Regular event', 35]]
