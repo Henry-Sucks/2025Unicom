@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 
 class Agent2TaskExecutor:
-    def __init__(self, apk_path, output_dir, task_str, log_path):
+    def __init__(self, apk_path, output_dir, task_str, log_path, instruction_path):
         """
         初始化任务执行器
         :param apk_path: APK 文件路径 (绝对路径)
@@ -16,6 +16,7 @@ class Agent2TaskExecutor:
         self.output_dir = output_dir
         self.task_str = task_str
         self.log_path = log_path
+        self.instruction_path = instruction_path
 
     def _generate_log_filename(self):
         """
@@ -48,7 +49,7 @@ class Agent2TaskExecutor:
             "-a", self.apk_path,
             "-o", self.output_dir,
             "-adaptive_policy",
-            "-adaptive_instructions", "instruction_test.json",
+            "-adaptive_instructions", self.instruction_path,
             "-task", self.task_str,
             "-keep_app",
             "-keep_env",
