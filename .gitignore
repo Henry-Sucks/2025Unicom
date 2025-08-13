@@ -7,6 +7,7 @@ tools/droidbot_explore/test
 
 *.apk
 *.log
-data/task_execution_result
+data/task_execution_result/*
+data/planned_task/*
 *.mp4
 *.png
