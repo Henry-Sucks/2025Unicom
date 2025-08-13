@@ -8,3 +8,5 @@ tools/droidbot_explore/test
 *.apk
 *.log
 data/task_execution_result
+*.mp4
+*.png
