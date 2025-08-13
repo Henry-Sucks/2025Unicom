@@ -14,3 +14,4 @@
 git filter-branch --force --index-filter \ ^
   "git rm --cached --ignore-unmatch docs/演示视频/订明天从北京飞往上海的机票.mp4" \ ^
   --prune-empty --tag-name-filter cat -- --all ^
+
