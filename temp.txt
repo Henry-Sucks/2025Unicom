@@ -31,7 +31,7 @@ python main.py \
   --ui-tree-file .data/ui_tree_graph/Unicom App.js
 
 
-
+python start.py -a "C:\Projects\2025Unicom\apks\unicom.apk" -o "./output/"  -adaptive_policy -adaptive_instructions instruction_test.json  -task "Book a flight from Beijing to Haikou in August 10th." -keep_app -keep_env -is_emulator > test1.log 2>&1  
 
 
 

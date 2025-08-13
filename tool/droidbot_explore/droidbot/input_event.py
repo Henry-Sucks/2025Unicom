@@ -434,8 +434,8 @@ class UIEvent(InputEvent):
         if x and y:
             return x, y
         if view:
-            from .device_state import DeviceState
-            return DeviceState.get_view_center(view_dict=view)
+            from .my_device_state import MyDeviceState
+            return MyDeviceState.get_view_center(view_dict=view)
         return x, y
 
     @staticmethod
@@ -617,9 +617,9 @@ class ScrollEvent(UIEvent):
 
     def send(self, device):
         if self.view is not None:
-            from .device_state import DeviceState
-            width = DeviceState.get_view_width(view_dict=self.view)
-            height = DeviceState.get_view_height(view_dict=self.view)
+            from .my_device_state import MyDeviceState
+            width = MyDeviceState.get_view_width(view_dict=self.view)
+            height = MyDeviceState.get_view_height(view_dict=self.view)
         else:
             width = device.get_width()
             height = device.get_height()

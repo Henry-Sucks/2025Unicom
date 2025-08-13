@@ -842,8 +842,8 @@ class Device(object):
             background_services = self.get_service_names()
             screenshot_path = self.take_screenshot()
             self.logger.debug("finish getting current device state...")
-            from .device_state import DeviceState
-            current_state = DeviceState(self,
+            from .my_device_state import MyDeviceState
+            current_state = MyDeviceState(self,
                                         views=views,
                                         foreground_activity=foreground_activity,
                                         activity_stack=activity_stack,

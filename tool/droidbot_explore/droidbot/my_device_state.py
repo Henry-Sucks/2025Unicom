@@ -1211,10 +1211,22 @@ class MyDeviceState(object):
     def __filter_views(self):
         def is_all_children_invisible(view_dict):
             """检查一个节点的所有子节点是否都不可见"""
-            if not self.__safe_dict_get(view_dict, 'children'):
+            children = self.__safe_dict_get(view_dict, 'children')
+            if not children:
                 return True
             
-            for child_id in view_dict['children']:
+            # 先检查所有子节点ID是否有效
+            valid_children = []
+            for child_id in children:
+                if 0 <= child_id < len(self.views):
+                    valid_children.append(child_id)
+            
+            # 如果没有有效的子节点,返回True
+            if not valid_children:
+                return True
+                
+            # 检查所有有效子节点
+            for child_id in valid_children:
                 child_view = self.views[child_id]
                 if self.__safe_dict_get(child_view, 'visible'):
                     return False
@@ -1223,15 +1235,19 @@ class MyDeviceState(object):
                     return False
             return True
 
-        # 过滤views列表，只保留可见的view或其子节点有可见的view
-        self.views = [
-            view_dict for view_dict in self.views
-            if self.__safe_dict_get(view_dict, 'visible') or not is_all_children_invisible(view_dict)
-        ]
+        # 创建新的views列表
+        new_views = []
+        for view_dict in self.views:
+            if self.__safe_dict_get(view_dict, 'visible') or not is_all_children_invisible(view_dict):
+                new_views.append(view_dict)
+
+        # 更新views列表
+        self.views = new_views
 
         # 重新分配temp_id
         for idx, view_dict in enumerate(self.views):
             view_dict['temp_id'] = idx
+
 
     
 

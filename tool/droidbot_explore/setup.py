@@ -3,10 +3,10 @@ from setuptools import setup, find_packages, findall
 import os
 
 setup(
-    name='droidbot',
+    name='droidbot-explore',  # 修改包名
     packages=find_packages(include=['droidbot', 'droidbot.adapter']),
     # this must be the same as the name above
-    version='1.0.2b4',
+    version='1.0.0',  # 可以自定义版本
     description='A lightweight UI-guided test input generator for Android.',
     author='Yuanchun Li',
     license='MIT',
@@ -34,7 +34,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'droidbot=start:main',
+            'droidbot_explore=start:main',
         ],
     },
     package_data={

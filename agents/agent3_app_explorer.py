@@ -3,20 +3,17 @@ import os
 import re
 from datetime import datetime
 
-class Agent2TaskExecutor:
-    def __init__(self, apk_path, output_dir, task_str, log_path, instruction_path):
+class Agent3AppExplorer:
+    def __init__(self, apk_path, output_dir, log_path):
         """
-        初始化任务执行器
-        :param apk_path: APK 文件路径 (绝对路径)
+        初始化APP探索器
+        :param apk_path: APK路径
         :param output_dir: 输出目录
-        :param task_str: 任务描述
-        :param log_path: 日志文件路径
+        :param log_path: 日志路径
         """
         self.apk_path = apk_path
         self.output_dir = output_dir
-        self.task_str = task_str
         self.log_path = log_path
-        self.instruction_path = instruction_path
 
     def _generate_log_filename(self):
         """
@@ -29,14 +26,14 @@ class Agent2TaskExecutor:
         apk_name = os.path.splitext(os.path.basename(self.apk_path))[0]
 
         # 将 task_str 转成安全的文件名（只保留字母数字和下划线）
-        safe_task = re.sub(r'[^a-zA-Z0-9]+', '_', self.task_str).strip("_")
+        safe_task = re.sub(r'[^a-zA-Z0-9]+', '_', "explore").strip("_")
 
         # 拼接文件名
         filename = f"{timestamp}_{apk_name}_{safe_task}.log"
 
         # 返回完整路径
         return os.path.join(self.log_path, filename)
-    
+
     def run(self):
         """运行任务"""
         if not os.path.exists(self.apk_path):
@@ -45,38 +42,25 @@ class Agent2TaskExecutor:
         os.makedirs(self.output_dir, exist_ok=True)
 
         cmd = [
-            "python", "-m", "tool.droidbot_execute.start",
+            "python", "-m", "tool.droidbot_explore.start",
             "-a", self.apk_path,
             "-o", self.output_dir,
-            "-adaptive_policy",
-            # "-adaptive_instructions", self.instruction_path,
-            "-adaptive_instructions", r"C:\Projects\2025Unicom\data\planned_task\Book_a_flight_ticket_unicom_20250811_0433_processed.json",
-            "-task", self.task_str,
-            "-keep_app",
+            "-timeout", "7200",
+            "-policy", "function_explore",
+            "--no-task",
             "-keep_env",
-            "-is_emulator"
+            "-keep_app"
         ]
 
-        print(cmd)
+        print("执行命令:", " ".join(cmd))
 
         log_file = self._generate_log_filename()
         
-        with open(log_file, "wb") as f:
+        with open(log_file, "w") as f:
             process = subprocess.Popen(cmd, stdout=f, stderr=subprocess.STDOUT)
             process.communicate()
 
         if process.returncode == 0:
-            print(f"[Agent2] 任务执行完成，日志已保存到: {log_file}")
+            print(f"[Agent3] 任务执行完成，日志已保存到: {log_file}")
         else:
-            print(f"[Agent2] 任务执行失败，请查看日志: {log_file}")
-
-
-if __name__ == "__main__":
-    # 示例用法
-    executor = Agent2TaskExecutor(
-        apk_path=r"C:\Projects\2025Unicom\apks\unicom.apk",
-        output_dir="./output/",
-        task_str="Book a flight from Beijing to Haikou in August 10th.",
-        log_path="test1.log"
-    )
-    executor.run()
+            print(f"[Agent3] 任务执行失败，请查看日志: {log_file}")
