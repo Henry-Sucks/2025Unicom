@@ -1,6 +1,6 @@
 python main.py ^
   --execute ^
-  --task "Book a flight ticket from Beijing to Shanghai in August 15th" ^
+  --task "Book a flight ticket from Beijing to Shanghai for tomorrow" ^
   --ui-tree-file ".\data\ui_tree_graph\Unicom App.json" ^
   --target-apk ".\apks\unicom.apk"
 
