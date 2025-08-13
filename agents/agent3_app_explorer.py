@@ -15,6 +15,13 @@ class Agent3AppExplorer:
         self.output_dir = output_dir
         self.log_path = log_path
 
+    def generate_output_dir(self):
+        """生成带时间戳和APK名称的输出目录，格式：explore_unicom_20230813_1530"""
+        apk_name = os.path.splitext(os.path.basename(self.apk_path))[0]
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M")  # 例如：20230813_1530
+        dir_name = f"explore_{apk_name}_{timestamp}"
+        return os.path.join(self.output_dir, dir_name)
+    
     def _generate_log_filename(self):
         """
         根据时间戳、APK 文件名和任务字符串生成日志文件名，并拼接 log_path。
@@ -44,7 +51,7 @@ class Agent3AppExplorer:
         cmd = [
             "python", "-m", "tool.droidbot_explore.start",
             "-a", self.apk_path,
-            "-o", self.output_dir,
+            "-o", self.generate_output_dir(),
             "-timeout", "7200",
             "-policy", "function_explore",
             "--no-task",

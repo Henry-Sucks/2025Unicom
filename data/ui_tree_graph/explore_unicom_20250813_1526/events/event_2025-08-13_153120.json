@@ -1,0 +1,50 @@
+{
+  "tag": "2025-08-13_153120",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\u7b7e\u5230",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          906,
+          167
+        ],
+        [
+          1006,
+          267
+        ]
+      ],
+      "resource_id": "com.sinovatech.unicom.ui:id/home_qiandao_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 61,
+      "size": "100*100",
+      "signature": "[class]android.widget.ImageView[resource_id]com.sinovatech.unicom.ui:id/home_qiandao_image[text][enabled,,]",
+      "view_str": "2f2543bce93b8bfa23d2c3721584126f",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.sinovatech.unicom.ui:id/home_qiandao_image"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "e9da2429d09b49f2576463ca509f0e3a8b74d9570bbd062601e12f8319060d42",
+  "stop_state": "e9da2429d09b49f2576463ca509f0e3a8b74d9570bbd062601e12f8319060d42",
+  "event_str": "TouchEvent(state=e9da2429d09b49f2576463ca509f0e3a8b74d9570bbd062601e12f8319060d42, view=2f2543bce93b8bfa23d2c3721584126f(WebDetailActivity/ImageView-))"
+}

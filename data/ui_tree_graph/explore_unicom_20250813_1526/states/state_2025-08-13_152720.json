@@ -1,0 +1,2554 @@
+{
+  "tag": "2025-08-13_152720",
+  "state_str": "86ee497a202bb5d60f2d387a64c91953abdd5c11dbdfc553eaddd40ade61060b",
+  "state_str_content_free": "22f440bb6d2f64ea5b2fd91cc4ad6ed8",
+  "foreground_activity": "com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WebDetailActivity",
+  "activity_stack": [
+    "com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WebDetailActivity",
+    "com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.nearby.presence.service.LifeCycleService",
+    "com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.droidguard.DroidGuardService",
+    "com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService",
+    "com.google.android.gms/.personalsafety.service.SndDetectionService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.textclassifier.service.QAiaiTextClassifierService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiSuperpacksService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService",
+    "com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.systemui/.wallpapers.ImageWallpaper",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.magictether.service.TetherService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.as/androidx.room.MultiInstanceInvalidationService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl",
+    "com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "com.android.phone/com.android.internal.telephony.data.CellularDataService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationListenerService",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.geotimezone.GeoTimeZoneService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/.nearby.discovery.service.DiscoveryService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService",
+    "com.google.android.bluetooth/com.android.bluetooth.btservice.AdapterService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.vending/com.google.android.finsky.multiusercoordinator.MultiUserCoordinatorService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.android.systemui/com.google.android.systemui.power.batteryevent.domain.BatteryEventService",
+    "com.sinovatech.unicom.ui/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationAssistantService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.google.android.gms/.dtdi.lifecycle.LifecycleService",
+    "com.sinovatech.unicom.ui/com.ss.android.socialbase.downloader.notification.DownloadNotificationService",
+    "com.google.android.googlequicksearchbox/androidx.work.impl.background.gcm.WorkManagerGcmService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.captions.downloadservice.CaptionsDownloadService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService"
+  ],
+  "width": 1280,
+  "height": 2856,
+  "views": [
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        63
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2856
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1280*2856",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "ccc6661905f2d47ab209812947d9ed87",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "be0d996bc1b359ad6927306f1c605cd9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.FrameLayout[resource_id][text][enabled,,]",
+      "view_str": "8a0a3a7127b5da7d270d9ff15a0cccde",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": "com.sinovatech.unicom.ui:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.sinovatech.unicom.ui:id/action_bar_root[text][enabled,,]",
+      "view_str": "d8d7ac6c1cc7b9829dfdda822e6eb43e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.sinovatech.unicom.ui:id/action_bar_root"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text][enabled,,]",
+      "view_str": "0e8c3fd9df58f3dec4f7532e31ef1abc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "6db0c950d4b830d150bd160716720938",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": "com.sinovatech.unicom.ui:id/web_liner_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sinovatech.unicom.ui:id/web_liner_layout[text][enabled,,]",
+      "view_str": "20b8dd50918dea47f74166d01acec280",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sinovatech.unicom.ui:id/web_liner_layout"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": "com.sinovatech.unicom.ui:id/root_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sinovatech.unicom.ui:id/root_layout[text][enabled,,]",
+      "view_str": "20b7bb9102b20a97e7b60bbc3f3d0b15",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sinovatech.unicom.ui:id/root_layout"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.LinearLayout[resource_id][text][enabled,,]",
+      "view_str": "7bd751ebb043f59b740657b16938a2b9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": "com.sinovatech.unicom.ui:id/webdetail_contentroot_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.sinovatech.unicom.ui:id/webdetail_contentroot_layout[text][enabled,,]",
+      "view_str": "94f6391e6373514624c4ac2bfc6a0fc1",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.sinovatech.unicom.ui:id/webdetail_contentroot_layout"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1280*2784",
+      "signature": "[class]android.widget.RelativeLayout[resource_id][text][enabled,,]",
+      "view_str": "d10cb3a98a8fb46a34bf8600e1c6783f",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2784
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.webkit.WebView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1280*2784",
+      "signature": "[class]android.webkit.WebView[resource_id][text][enabled,,]",
+      "view_str": "49d437aa41709c7f5304b158e09f15ec",
+      "content_free_signature": "[class]android.webkit.WebView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2813
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u641c\u7d22",
+      "class": "android.webkit.WebView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1280*2813",
+      "signature": "[class]android.webkit.WebView[resource_id][text]\u641c\u7d22[enabled,,]",
+      "view_str": "ded624e82780c78dff4785ec692b7909",
+      "content_free_signature": "[class]android.webkit.WebView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2813
+        ]
+      ],
+      "resource_id": "app",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1280*2813",
+      "signature": "[class]android.view.View[resource_id]app[text][enabled,,]",
+      "view_str": "8d1b92ed7e40652d83d3e4f3359d366a",
+      "content_free_signature": "[class]android.view.View[resource_id]app"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1280,
+          2813
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1280*2813",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "e60b4de6d1d3f71bbc3e20235f22d97b",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17,
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          186
+        ],
+        [
+          1280,
+          276
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "1280*90",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "c0959aaa8b0539bf54d0f4f98499a34d",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          186
+        ],
+        [
+          105,
+          276
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u8fd4\u56de",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "105*90",
+      "signature": "[class]android.widget.Button[resource_id][text]\u8fd4\u56de[enabled,,]",
+      "view_str": "a81893831ab662f4bfe0a2c7d607ed1c",
+      "content_free_signature": "[class]android.widget.Button[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          180
+        ],
+        [
+          1116,
+          282
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "1014*102",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "0d59cb93f4b3f4c5e8f05a4db0efacd5",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          180
+        ],
+        [
+          1116,
+          282
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1014*102",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "07d956b35a239ed98a26cc2f31004bc7",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          225,
+          180
+        ],
+        [
+          1035,
+          282
+        ]
+      ],
+      "resource_id": "search-main-input",
+      "checked": false,
+      "text": "",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "810*102",
+      "signature": "[class]android.widget.EditText[resource_id]search-main-input[text][enabled,,]",
+      "view_str": "3ab03f762af6eabee439dd9cc5c9b8b4",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]search-main-input"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1146,
+          195
+        ],
+        [
+          1239,
+          267
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u641c\u7d22",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 20,
+      "size": "93*72",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u641c\u7d22[enabled,,]",
+      "view_str": "f6e7b2a03d47309111633e2b2fe2c680",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22,
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          306
+        ],
+        [
+          1280,
+          2813
+        ]
+      ],
+      "resource_id": "search-main-content-box",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 21,
+      "size": "1280*2507",
+      "signature": "[class]android.view.View[resource_id]search-main-content-box[text][enabled,,]",
+      "view_str": "7498a53cd6f096e006663e7f14429e90",
+      "content_free_signature": "[class]android.view.View[resource_id]search-main-content-box"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          306
+        ],
+        [
+          1280,
+          711
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1280*405",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "bfc390541e54d0c4dfe3c94399221020",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24,
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          336
+        ],
+        [
+          1280,
+          441
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "1280*105",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "eb63dfeb9f0937eee21386624bd7957e",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          57,
+          363
+        ],
+        [
+          267,
+          426
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u641c\u7d22\u53d1\u73b0",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "210*63",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u641c\u7d22\u53d1\u73b0[enabled,,]",
+      "view_str": "f4137e54e36cf398615fbe53ecd78636",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1167,
+          363
+        ],
+        [
+          1221,
+          417
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 25,
+      "size": "54*54",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "64dfe3de317c17b7031ce947ada59f40",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1167,
+          363
+        ],
+        [
+          1221,
+          417
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5f00\u5173",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "54*54",
+      "signature": "[class]android.widget.Image[resource_id][text]\u5f00\u5173[enabled,,]",
+      "view_str": "15b0c1696d617a46784940916431629e",
+      "content_free_signature": "[class]android.widget.Image[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        28
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          57,
+          438
+        ],
+        [
+          1221,
+          711
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 27,
+      "size": "1164*273",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "11465f995633bb594659ccdb545c8212",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 9,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38,
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          57,
+          438
+        ],
+        [
+          1221,
+          936
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.widget.ListView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "1164*498",
+      "signature": "[class]android.widget.ListView[resource_id][text][enabled,,]",
+      "view_str": "c4de468394856ba07b7bb64c8ec7084a",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          78,
+          471
+        ],
+        [
+          492,
+          567
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u9886\u817e\u8baf/\u7231\u5947\u827aVIP",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "414*96",
+      "signature": "[class]android.view.View[resource_id][text]\u9886\u817e\u8baf/\u7231\u5947\u827aVIP[enabled,,]",
+      "view_str": "625a0ca77587fc9b79758114be886322",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          510,
+          471
+        ],
+        [
+          723,
+          567
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u988630\u5143",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 30,
+      "size": "213*96",
+      "signature": "[class]android.view.View[resource_id][text]\u988630\u5143[enabled,,]",
+      "view_str": "f75dd42261c2ff451afd31a932780dae",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          741,
+          471
+        ],
+        [
+          1074,
+          567
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u98865-10\u5143\u8bdd\u8d39",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 31,
+      "size": "333*96",
+      "signature": "[class]android.view.View[resource_id][text]\u98865-10\u5143\u8bdd\u8d39[enabled,,]",
+      "view_str": "0a2b7f2a11f143816144c9393268b24d",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          78,
+          594
+        ],
+        [
+          369,
+          690
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u9001\u89c6\u9891\u6743\u76ca",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 32,
+      "size": "291*96",
+      "signature": "[class]android.view.View[resource_id][text]\u9001\u89c6\u9891\u6743\u76ca[enabled,,]",
+      "view_str": "6bcb4f75684147e28b8b83b8a9836122",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          387,
+          594
+        ],
+        [
+          810,
+          690
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u70ed\u95e8\u4f1a\u5458+5\u5143\u8bdd\u8d39",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 33,
+      "size": "423*96",
+      "signature": "[class]android.view.View[resource_id][text]\u70ed\u95e8\u4f1a\u5458+5\u5143\u8bdd\u8d39[enabled,,]",
+      "view_str": "ba93e2d5462b4c7728a112efccda27e5",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          825,
+          594
+        ],
+        [
+          1170,
+          690
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u70ed\u95e8\u7279\u6743N\u90092",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 34,
+      "size": "345*96",
+      "signature": "[class]android.view.View[resource_id][text]\u70ed\u95e8\u7279\u6743N\u90092[enabled,,]",
+      "view_str": "0a42d8118b027457913358512b2bf976",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36,
+        37
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          78,
+          717
+        ],
+        [
+          564,
+          813
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 35,
+      "size": "486*96",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "ae4c5ba4ba5ea928b4437cef7234912d",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          120,
+          744
+        ],
+        [
+          459,
+          795
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u988612\u4e2a\u6708\u817e\u8baf\u89c6\u9891",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "339*51",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u988612\u4e2a\u6708\u817e\u8baf\u89c6\u9891[enabled,,]",
+      "view_str": "e8e5576ea897660d42f2d1e5319ec193",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          471,
+          738
+        ],
+        [
+          522,
+          792
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "1726111531594",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 37,
+      "size": "51*54",
+      "signature": "[class]android.widget.Image[resource_id][text]1726111531594[enabled,,]",
+      "view_str": "5e7d2656b0315ae94719be5bd1a7e76d",
+      "content_free_signature": "[class]android.widget.Image[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          582,
+          717
+        ],
+        [
+          957,
+          813
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u9650\u65f6\uff01\u9996\u6708\u514d\u8d39",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 38,
+      "size": "375*96",
+      "signature": "[class]android.view.View[resource_id][text]\u9650\u65f6\uff01\u9996\u6708\u514d\u8d39[enabled,,]",
+      "view_str": "141e97477669959abdb0392fb40509e9",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          78,
+          840
+        ],
+        [
+          417,
+          936
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u988612\u4e2a\u6708\u4f1a\u5458",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 39,
+      "size": "339*96",
+      "signature": "[class]android.view.View[resource_id][text]\u988612\u4e2a\u6708\u4f1a\u5458[enabled,,]",
+      "view_str": "58536cce19edfe6d165d4bb94fff6ff7",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41,
+        60
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          744
+        ],
+        [
+          1280,
+          2367
+        ]
+      ],
+      "resource_id": "HotSearchRecommended",
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 40,
+      "size": "1280*1623",
+      "signature": "[class]android.view.View[resource_id]HotSearchRecommended[text][enabled,,]",
+      "view_str": "8383ad2b40b3bc756e07906bb492541e",
+      "content_free_signature": "[class]android.view.View[resource_id]HotSearchRecommended"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        42,
+        59
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          744
+        ],
+        [
+          1280,
+          2253
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "1280*1509",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "3e4976ad957c5e61052cb00459794f0a",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          744
+        ],
+        [
+          1280,
+          2253
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "1280*1509",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "4ff8b447fe311f5f1cbd9a084dbd5684",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 15,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          60,
+          780
+        ],
+        [
+          885,
+          2220
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "825*1440",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "d3e87ccff520ccc360a0ed8a0b4215f4",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          129,
+          819
+        ],
+        [
+          885,
+          903
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u699c\u5355\u901f\u9012",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "756*84",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u699c\u5355\u901f\u9012[enabled,,]",
+      "view_str": "01f413d73cb393b04d227fd45d2e5808",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          990
+        ],
+        [
+          213,
+          1056
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5bbd\u5e26",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 45,
+      "size": "90*66",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u5bbd\u5e26[enabled,,]",
+      "view_str": "b9d3cff7547bb58bd30e913fbdeb7070",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          711,
+          990
+        ],
+        [
+          825,
+          1056
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u66f4\u591a",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 46,
+      "size": "114*66",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u66f4\u591a[enabled,,]",
+      "view_str": "1dd507b941658ea715a80977099c12f3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1074
+        ],
+        [
+          825,
+          1155
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u9001 12 \u6708\u4f1a\u5458\uff01\u9650\u65f6\u62a2",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 47,
+      "size": "702*81",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u9001 12 \u6708\u4f1a\u5458\uff01\u9650\u65f6\u62a2[enabled,,]",
+      "view_str": "d9a221102cc55a7155fd76bc689de803",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1152
+        ],
+        [
+          825,
+          1233
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u7eed\u7ea6/\u5347\u6863\u529e\u7406\u66f4\u65b9\u4fbf",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 48,
+      "size": "702*81",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u7eed\u7ea6/\u5347\u6863\u529e\u7406\u66f4\u65b9\u4fbf[enabled,,]",
+      "view_str": "e053b121e5f65f9b54c1ccaff3765324",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1230
+        ],
+        [
+          825,
+          1311
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u51fa\u884c/\u89c6\u9891/\u97f3\u4e50\u4f1a\u5458\u4efb\u610f\u9886",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 49,
+      "size": "702*81",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u51fa\u884c/\u89c6\u9891/\u97f3\u4e50\u4f1a\u5458\u4efb\u610f\u9886[enabled,,]",
+      "view_str": "5d174be09c69381dc0a70508f3c8b992",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1374
+        ],
+        [
+          213,
+          1440
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u53f7\u5361",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 50,
+      "size": "90*66",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u53f7\u5361[enabled,,]",
+      "view_str": "9762291e684668a4d25f1fbefbe8da0a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          711,
+          1374
+        ],
+        [
+          825,
+          1440
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u66f4\u591a",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 51,
+      "size": "114*66",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u66f4\u591a[enabled,,]",
+      "view_str": "1dd507b941658ea715a80977099c12f3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1455
+        ],
+        [
+          825,
+          1539
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u6d77\u91cf\u7279\u60e0\u5957\u9910\u4efb\u610f\u9009",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 52,
+      "size": "702*84",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u6d77\u91cf\u7279\u60e0\u5957\u9910\u4efb\u610f\u9009[enabled,,]",
+      "view_str": "3bd48c6e2c2c4067838f22befddb8114",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1536
+        ],
+        [
+          825,
+          1617
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u7cbe\u9009\u4f4e\u6708\u79df\u5957\u9910",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 53,
+      "size": "702*81",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u7cbe\u9009\u4f4e\u6708\u79df\u5957\u9910[enabled,,]",
+      "view_str": "8f09b45c23925172fe5c0efd78a0bb04",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1614
+        ],
+        [
+          825,
+          1695
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u4eab30GB\u4e13\u5c5e\u6d41\u91cf",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 54,
+      "size": "702*81",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u4eab30GB\u4e13\u5c5e\u6d41\u91cf[enabled,,]",
+      "view_str": "11539b1979f1bfcff9de806210100109",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1755
+        ],
+        [
+          297,
+          1821
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u624b\u673a\u6570\u7801",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 55,
+      "size": "174*66",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u624b\u673a\u6570\u7801[enabled,,]",
+      "view_str": "995a8de450e214445792c6375fbab880",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          711,
+          1755
+        ],
+        [
+          825,
+          1821
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u66f4\u591a",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 56,
+      "size": "114*66",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u66f4\u591a[enabled,,]",
+      "view_str": "1dd507b941658ea715a80977099c12f3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1839
+        ],
+        [
+          825,
+          1920
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u8054\u901a\u4e13\u5c5e\u8d2d\u673a\u4f18\u60e0\uff01",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 57,
+      "size": "702*81",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u8054\u901a\u4e13\u5c5e\u8d2d\u673a\u4f18\u60e0\uff01[enabled,,]",
+      "view_str": "27cee06e745c2c38d0e58d9a88d5f35c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          123,
+          1917
+        ],
+        [
+          825,
+          1998
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u7701\u5343\u5143\uff0c\u5c31\u73b0\u5728\uff01",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 58,
+      "size": "702*81",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u7701\u5343\u5143\uff0c\u5c31\u73b0\u5728\uff01[enabled,,]",
+      "view_str": "bcaaa011d4f0cb6a7d94b1a0b15b5911",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          744
+        ],
+        [
+          1280,
+          2253
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 59,
+      "size": "1280*1509",
+      "signature": "[class]android.widget.TextView[resource_id][text][enabled,,]",
+      "view_str": "26d3f59c3eba7732a9dccb7301b15b4f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        61,
+        62
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          2265
+        ],
+        [
+          384,
+          2367
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "",
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 60,
+      "size": "312*102",
+      "signature": "[class]android.view.View[resource_id][text][enabled,,]",
+      "view_str": "791e2970f99e59837a1f3bd636a548c0",
+      "content_free_signature": "[class]android.view.View[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          96,
+          2292
+        ],
+        [
+          150,
+          2343
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u5f00\u5173",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 61,
+      "size": "54*51",
+      "signature": "[class]android.widget.Image[resource_id][text]\u5f00\u5173[enabled,,]",
+      "view_str": "0eb0ed6b75ab58e6cfc7a627ef4cc792",
+      "content_free_signature": "[class]android.widget.Image[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          147,
+          2289
+        ],
+        [
+          360,
+          2340
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": " \u9690\u85cf\u70ed\u641c\u699c",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 62,
+      "size": "213*51",
+      "signature": "[class]android.widget.TextView[resource_id][text] \u9690\u85cf\u70ed\u641c\u699c[enabled,,]",
+      "view_str": "7764fd23c1ff9245348c0a6c344bda24",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2784
+        ],
+        [
+          1280,
+          2856
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 63,
+      "size": "1280*72",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text][enabled,,]",
+      "view_str": "1b22dbae1cfa396b3a1b91e29d38018a",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

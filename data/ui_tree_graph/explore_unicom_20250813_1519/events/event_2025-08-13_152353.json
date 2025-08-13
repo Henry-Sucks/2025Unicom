@@ -1,0 +1,50 @@
+{
+  "tag": "2025-08-13_152353",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          981,
+          1181
+        ],
+        [
+          1074,
+          1274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "icon_list.3aff9a55",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "93*93",
+      "signature": "[class]android.widget.Image[resource_id][text]icon_list.3aff9a55[enabled,,]",
+      "view_str": "734c2e9e099cc4fcbeda53c1b186c76d",
+      "content_free_signature": "[class]android.widget.Image[resource_id]"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "cfb24ce96cc3fd5b798e8d06e79ceb1e014d099c72163c73a8400219230c6c99",
+  "stop_state": "aab05e9d3a678916d70489cc77d3df2971d074c874edc68f453f900230b40d4e",
+  "event_str": "TouchEvent(state=cfb24ce96cc3fd5b798e8d06e79ceb1e014d099c72163c73a8400219230c6c99, view=734c2e9e099cc4fcbeda53c1b186c76d(MainActivity/Image-icon_list.))"
+}

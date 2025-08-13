@@ -1,0 +1,50 @@
+{
+  "tag": "2025-08-13_152326",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1059,
+          1822
+        ],
+        [
+          1152,
+          1876
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\u66f4\u591a",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 56,
+      "size": "93*54",
+      "signature": "[class]android.widget.TextView[resource_id][text]\u66f4\u591a[enabled,,]",
+      "view_str": "8658cb41a8a2f46599c17c08dd33bf89",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "df2689cfe6a2d4690d2e2cd241606c00d74983d4397c4c01767d1bcfae5e7ca2",
+  "stop_state": "8a70d544ef8a2032d27dd234f489c177bbc615de16094a0eefa531ed2dbef292",
+  "event_str": "TouchEvent(state=df2689cfe6a2d4690d2e2cd241606c00d74983d4397c4c01767d1bcfae5e7ca2, view=8658cb41a8a2f46599c17c08dd33bf89(WebDetailActivity/TextView-\u66f4\u591a))"
+}

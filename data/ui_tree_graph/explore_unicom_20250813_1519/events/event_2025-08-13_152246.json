@@ -1,0 +1,50 @@
+{
+  "tag": "2025-08-13_152246",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.sinovatech.unicom.ui",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          594,
+          1181
+        ],
+        [
+          687,
+          1274
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "icon_hotel.e422e4d1",
+      "class": "android.widget.Image",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "93*93",
+      "signature": "[class]android.widget.Image[resource_id][text]icon_hotel.e422e4d1[enabled,,]",
+      "view_str": "db9b4c7a24f54249b13bd04507ba6c4d",
+      "content_free_signature": "[class]android.widget.Image[resource_id]"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "25491f81a6e56c509f891d75b5ea059f14641791665dba1e3986af5ef2048238",
+  "stop_state": "aab05e9d3a678916d70489cc77d3df2971d074c874edc68f453f900230b40d4e",
+  "event_str": "TouchEvent(state=25491f81a6e56c509f891d75b5ea059f14641791665dba1e3986af5ef2048238, view=db9b4c7a24f54249b13bd04507ba6c4d(MainActivity/Image-icon_hotel))"
+}

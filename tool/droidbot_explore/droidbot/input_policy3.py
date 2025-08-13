@@ -296,7 +296,7 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                     print(button_view)
                     self.current_content = button_text
                     self.current_function = button_text
-                    if button_text != "旅行":
+                    if button_text != "发现":
                         continue
                     self.clicked_buttons.add(button_str)  # 标记为已点击
                     self.menu_phrase = False
@@ -366,23 +366,30 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                 if len(actions_to_explore) == 0:
                     print("No actions to explore, something is wrong? Going back...")
                     self.dfs_depth -= 1
+                    # 更新expected_state
+                    self.expected_state = self._get_expected_state(self.current_state)
                     return self.current_state, KeyEvent(name="BACK")
                 else:
                     print(f"Actions to explore: {len(actions_to_explore)}")
                 self.current_function = current_function
                 self.state_actions_map[self.current_state.structure_str] = actions_to_explore
                 # 将状态和动作加入栈顶，实现深度优先
-                actions_to_explore.append((self.current_state, KeyEvent(name="BACK")))
+                actions_to_explore.append(KeyEvent(name="BACK"))
                 for action in reversed(actions_to_explore):
                     self.dfs_stack.append((self.current_state, action))
 
             else:
                 # 如果状态已访问过，直接返回
                 print(f"State {self.current_state.structure_str} has been visited before.")
+
+
             
             # DFS探索
             while self.dfs_stack:
                 current_state, action = self.dfs_stack.pop()  # 从栈顶取出元素
+
+                if isinstance(action, tuple):
+                    action = action[1]
                 
                 # 尝试执行未探索的动作
                 if not self.utg.is_event_explored(event=action, state=current_state):
@@ -394,6 +401,8 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                     
                     if isinstance(action, KeyEvent) and  action.name == "BACK":
                         print("Finishing DFS exploration on this page, going back...")
+                        # 更新expected_state
+                        self.expected_state = self._get_expected_state(self.current_state)
                         self.dfs_depth -= 1
                     return current_state, action
                 

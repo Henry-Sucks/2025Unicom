@@ -1,0 +1,13 @@
+{
+  "matched_node": {
+    "id": "4",
+    "matching_reason": "The node's function describes a travel ticket booking interface for flights, which matches the task of booking a flight ticket from Shanghai to Beijing on August 12nd."
+  },
+  "navigation_path": ["1", "2", "3", "4"],
+  "action_sequence": ["1", "2", "3"],
+  "action_explanation": [
+    "Touch event to activate the menu bar from the starting point (Main page).",
+    "Touch event on the 'Travel' option in the menu bar to navigate to the homepage of the China Unicom mobile app.",
+    "Touch event on the flight icon to navigate to the travel ticket booking interface."
+  ]
+}

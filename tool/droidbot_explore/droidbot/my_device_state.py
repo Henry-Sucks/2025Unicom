@@ -1235,11 +1235,31 @@ class MyDeviceState(object):
                     return False
             return True
 
-        # 创建新的views列表
+        # 创建视图ID到新索引的映射
+        id_to_new_index = {}
         new_views = []
-        for view_dict in self.views:
+        
+        # 第一遍：收集要保留的视图并建立映射
+        for idx, view_dict in enumerate(self.views):
             if self.__safe_dict_get(view_dict, 'visible') or not is_all_children_invisible(view_dict):
+                id_to_new_index[idx] = len(new_views)
                 new_views.append(view_dict)
+        
+        # 第二遍：更新视图间的引用关系
+        for view_dict in new_views:
+            children = self.__safe_dict_get(view_dict, 'children', [])
+            new_children = []
+            for child_id in children:
+                if child_id in id_to_new_index:
+                    new_children.append(id_to_new_index[child_id])
+            view_dict['children'] = new_children
+            
+            # 更新parent引用
+            parent_id = self.__safe_dict_get(view_dict, 'parent', -1)
+            if parent_id in id_to_new_index:
+                view_dict['parent'] = id_to_new_index[parent_id]
+            else:
+                view_dict['parent'] = -1
 
         # 更新views列表
         self.views = new_views
@@ -1247,6 +1267,7 @@ class MyDeviceState(object):
         # 重新分配temp_id
         for idx, view_dict in enumerate(self.views):
             view_dict['temp_id'] = idx
+
 
 
     

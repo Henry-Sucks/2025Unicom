@@ -123,6 +123,7 @@ class Agent1TaskPlanner:
                   planned_task = json.load(f)
 
             # 2. 读取ui_graph
+            print('ui_graph_path:', ui_graph_path)
             with open(ui_graph_path, 'r', encoding='utf-8') as f:
                   ui_graph = json.load(f)
 

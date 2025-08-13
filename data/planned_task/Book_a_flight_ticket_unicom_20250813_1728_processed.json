@@ -1,0 +1,17 @@
+{
+    "task": "Book a flight ticket from Beijing to Shanghai in August 15th",
+    "instructions": [
+        {
+            "explanation": "Touch event to activate the menu bar from the starting main page.",
+            "event": "(3ac3661471d3fd8fd624161b99b6f9315360cf1c93790110efb000a458626219, unknown_view)"
+        },
+        {
+            "explanation": "Touch event to navigate to the travel services section from the main page with menu bar activated.",
+            "event": "(3ac3661471d3fd8fd624161b99b6f9315360cf1c93790110efb000a458626219, unknown_view)"
+        },
+        {
+            "explanation": "Touch event to select the flight booking option from the travel services homepage.",
+            "event": "(7c65c993cab4b846b126cec0c25b8f4b65b73175702f1176c8aecf55c6f888b8, 93ee0f231bfb9bb81bd3386d6d9788f5)"
+        }
+    ]
+}

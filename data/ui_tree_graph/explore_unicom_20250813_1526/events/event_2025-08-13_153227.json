@@ -1,0 +1,12 @@
+{
+  "tag": "2025-08-13_153227",
+  "event": {
+    "event_type": "key",
+    "log_lines": null,
+    "prompt": null,
+    "name": "BACK"
+  },
+  "start_state": "30abb6c252470283e3fe4b6028ce147da5c1dafa072fa84dfbf21341259c7f85",
+  "stop_state": "f97774c6d4fbaaf7052de7fe65788ecdface5787055df9cf1f9897cb11175b4e",
+  "event_str": "KeyEvent(state=30abb6c252470283e3fe4b6028ce147da5c1dafa072fa84dfbf21341259c7f85, name=BACK)"
+}

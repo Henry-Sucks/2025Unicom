@@ -32,6 +32,10 @@ class MyUTG(object):
 
         self.start_time = datetime.datetime.now()
 
+
+        self.node_id = 1
+        self.edge_id = 1
+
     @property
     def first_state_str(self):
         return self.first_state.structure_str if self.first_state else None
@@ -112,7 +116,7 @@ class MyUTG(object):
             return
         
         if state.structure_str not in self.G2.nodes():
-            self.G2.add_node(state.structure_str, state=state, function=state_function)
+            self.G2.add_node(state.structure_str, state=state, function=state_function, )
         elif self.G2.nodes[state.structure_str].get('function') is None and state_function is not None:
             # 如果节点已存在但function为None，且新传入的state_function不为None，则更新function
             self.G2.nodes[state.structure_str]['function'] = state_function
@@ -177,7 +181,7 @@ class MyUTG(object):
             table += "</table>"
             return table
 
-        utg_file_path = os.path.join(self.device.output_dir, "my_utg.js")
+        utg_file_path = os.path.join(self.device.output_dir, "function_explore_utg.js")
         utg_file = open(utg_file_path, "w")
         utg_nodes = []
         utg_edges = []
@@ -259,11 +263,13 @@ class MyUTG(object):
             utg_edge = {
                 "from": from_state,
                 "to": to_state,
-                "id": from_state + "-->" + to_state,
+                "id": from_state + "->" + to_state,
                 "title": list_to_html_table(event_short_descs),
                 "label": ", ".join([str(x["event_id"]) for x in event_list]),
                 "events": event_list
             }
+
+            self.edge_id += 1
 
             # # Highlight last transition
             # if state_transition == self.last_transition:

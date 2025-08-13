@@ -1,0 +1,12 @@
+{
+  "tag": "2025-08-13_152630",
+  "event": {
+    "event_type": "manual",
+    "log_lines": null,
+    "prompt": null,
+    "time": 1755069987.818909
+  },
+  "start_state": "7feadb667da84c694501f2475e42ad6980630a1dd23a0b8401c3f9008428ab20",
+  "stop_state": "43f5b3ebadcb07606bc9516842d7f222f3440bba6c6fac4a573889ac89168761",
+  "event_str": "ManualEvent(time=1755069987.818909)"
+}

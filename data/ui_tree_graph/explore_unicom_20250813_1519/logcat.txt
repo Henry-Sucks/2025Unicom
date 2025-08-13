@@ -1,0 +1,801 @@
+--------- beginning of main
+08-13 07:19:52.775  1057  2448 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+08-13 07:19:52.775  1057  2448 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+08-13 07:19:52.775  5360  5490 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=80 ]
+08-13 07:19:52.902  1397  1406 I AiAiEcho: Settings changed for uri: content://settings/secure/enabled_input_methods
+08-13 07:19:52.905  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.905  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.905  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.905  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.905  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.907  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.907  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.907  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.907  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.907  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.907  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.907  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.907  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.907  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.907  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.907  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.907  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.908  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.908  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+08-13 07:19:52.908  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+08-13 07:19:52.908  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+08-13 07:19:52.909  1146  1146 I SsBaseTemplateCard: Secondary card pane is null
+08-13 07:19:52.910   829   829 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+08-13 07:19:52.935  1397  1406 I AiAiEcho: Settings changed for uri: content://settings/secure/input_methods_subtype_history
+08-13 07:19:52.936  1397  1406 I AiAiEcho: Settings changed for uri: content://settings/secure/selected_input_method_subtype
+08-13 07:19:52.936  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.937  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.937  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.937  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.937  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.937  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.937  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.937  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.937  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.937  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.937  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.937  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.938  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.938  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.939  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+08-13 07:19:52.940  1397  1406 I AiAiEcho: Settings changed for uri: content://settings/secure/default_input_method
+08-13 07:19:52.940  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+08-13 07:19:52.942   829   829 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+08-13 07:19:52.942  1306  1306 I GoogleInputMethodService: GoogleInputMethodService.onDestroy():1509 
+08-13 07:19:52.942  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+08-13 07:19:52.944  1306  1306 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+08-13 07:19:52.947  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+08-13 07:19:52.948  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+08-13 07:19:52.950  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+08-13 07:19:52.952   584   702 W InputManager-JNI: Input channel object '63dc636 InputMethod (client)' was disposed without first being removed with the input manager!
+08-13 07:19:52.952  1306  1306 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+08-13 07:19:52.952  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.952  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.952  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.952  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.953  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.954  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.954  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.955  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.955  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.955  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.955  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.955  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.956  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:52.956  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:52.956  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:52.956  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.956  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:52.957  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:52.957  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+08-13 07:19:52.958  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+08-13 07:19:52.959  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+08-13 07:19:52.961  1146  1146 I SsBaseTemplateCard: Secondary card pane is null
+--------- beginning of system
+08-13 07:19:52.961   584  1920 W WindowManager: Cannot find window which accessibility connection is added to
+08-13 07:19:52.961  1146  1146 I SsBaseTemplateCard: Secondary card pane is null
+08-13 07:19:52.962  1146  1146 I SsBaseTemplateCard: Secondary card pane is null
+08-13 07:19:52.965   829   829 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+08-13 07:19:52.967   829   829 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+08-13 07:19:52.970   584  1920 W WindowManager: Failed looking up window session=Session{49e2ace 1306:u0a10156} callers=com.android.server.wm.WindowManagerService.removeClientToken:2058 com.android.server.wm.Session.remove:274 android.view.IWindowSession$Stub.onTransact:685 
+08-13 07:19:52.972  1057  1724 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+08-13 07:19:52.974  1306  1306 I GoogleInputMethodService: GoogleInputMethodService.clearInputMethodServiceData():1613 clearInputMethodServiceData for onDestroy
+08-13 07:19:52.974  1306  1306 I GoogleInputMethodService: GoogleInputMethodService.discardAllKeyboardViewAndInputView():1818 discardAllKeyboardViewAndInputView()
+08-13 07:19:52.974  1306  1306 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():625 setInputView() : supportsOneHandedMode=true supportsSplitMode=true
+08-13 07:19:52.974  1057  1724 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+08-13 07:19:52.975  1306  1306 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():104 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+08-13 07:19:52.975  1306  1306 I KeyboardModeManager: KeyboardModeManager.setInputViewKeyboardViewHolderProvider():613 setInputView() : supportsOneHandedMode=true, supportSplitMode=true
+08-13 07:19:52.975  1306  1306 I InputMethodEntryManager: InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():521 notifyCurrentInputMethodEntryOnContextChanged()
+08-13 07:19:52.975  1306  1306 I InputMethodEntryManager: InputMethodEntryManager.notifyCurrentInputMethodEntryOnContextChanged():542 Notify current input method entry changed on context change
+08-13 07:19:52.975  1306  1306 I SystemSubtypesReportModule: SystemSubtypesReportModule$3.onCurrentInputMethodEntryChanged():136 entry: en-US, source: UNSPECIFIED
+08-13 07:19:52.976  1306  1306 I KeyboardThemeProvider: KeyboardThemeProvider.reset():40 Reset keyboard theme
+08-13 07:19:52.976  1306  1306 I KeyboardContextProvider: KeyboardContextProvider.setBaseContextAndInvalidKeyboardContextCache():88 setBaseContextAndInvalidKeyboardContextCache(): null
+08-13 07:19:52.976  1306  1306 I DeviceModeMonitor2: DeviceModeMonitor2.onConfigurationChanged():62 
+08-13 07:19:52.976  1306  1306 I DeviceModeMonitor2: DeviceModeMonitor2.calculateAndNotify():72 Window metrics is not available, fallback to app context.
+08-13 07:19:52.976  1306  1306 I DeviceModeMonitor2: DeviceModeMonitor2.calculateAndNotify():101 Device mode 'phone' from display metrics 'DisplayMetrics{density=3.0, width=1280, height=2856, scaledDensity=3.0, xdpi=480.0, ydpi=480.0}' or smallestScreenWidthDp: 427
+08-13 07:19:52.976  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019809, callback=jjt@eaa669e, lastModifier=2, keyCodes=[47], actions=[0]}
+08-13 07:19:52.982  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=0, callback=jwl@4524eaa, lastModifier=0, keyCodes=[204], actions=[0]}
+08-13 07:19:52.996  1306  1306 I OnDevicePackDownloadModule: OnDevicePackDownloadModule.onDestroy():95 onDestroy()
+08-13 07:19:52.997  1306  1306 I NewS3RecognizerModule: NewS3RecognizerModule.onDestroy():21 onDestroy [news3]
+08-13 07:19:53.000  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019803, callback=cfr@c75a345, lastModifier=65536, keyCodes=[76], actions=[0]}
+08-13 07:19:53.000  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019802, callback=cfr@16ec542, lastModifier=2, keyCodes=[37], actions=[0]}
+08-13 07:19:53.000  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019804, callback=cfr@b87914d, lastModifier=2, keyCodes=[48], actions=[0]}
+08-13 07:19:53.000  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132018371, callback=cfr@bf7a51d, lastModifier=2, keyCodes=[39], actions=[0]}
+08-13 07:19:53.000  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019799, callback=cfr@b80bb87, lastModifier=2, keyCodes=[50], actions=[0]}
+08-13 07:19:53.001  1306  1306 W AccessPointsManager: AccessPointsManager.removeAccessPoint():834 The holder controller #0x7f0b2066 is not registered
+08-13 07:19:53.001  1306  1306 W AccessPointsManager: AccessPointsManager.removeAccessPoint():834 The holder controller #0x7f0b2066 is not registered
+08-13 07:19:53.001  1306  1306 W AccessPointsManager: AccessPointsManager.removeAccessPoint():834 The holder controller #0x7f0b2066 is not registered
+08-13 07:19:53.001  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019808, callback=gnd@21ee7b5, lastModifier=2, keyCodes=[62], actions=[0]}
+08-13 07:19:53.001  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019806, callback=null, lastModifier=2, keyCodes=[8], actions=[0]}
+08-13 07:19:53.012  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=2132019800, callback=gnd@24eb0ac, lastModifier=0, keyCodes=[57, 57], actions=[1, 0]}
+08-13 07:19:53.012  1306  1306 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():183 Unregister key sequence lnk{labelResId=0, callback=gnd@661617b, lastModifier=0, keyCodes=[58, 58], actions=[1, 0]}
+08-13 07:19:53.012  1306  1306 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():538 Destroy existing keyboard group manager in fvq
+08-13 07:19:53.016  1306  1306 W NotificationCenter: NotificationCenter$ListenerData.notifyOnExecutor():672 Heavy notify work detected on UI thread: |kfv->lcz| takes 30ms
+08-13 07:19:53.016  1306  1306 I EmojifyExtensionImpl: EmojifyExtensionImpl.onDestroy():605 Destroying Emojify extension ehb@70a30ca.
+08-13 07:19:53.018  1306  1306 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():538 Destroy existing keyboard group manager in eid
+08-13 07:19:53.018  1306  1306 I AbstractOpenableExtension: AbstractOpenableExtension.maybeDestroyExistingKeyboardGroupManager():538 Destroy existing keyboard group manager in fxu
+08-13 07:19:53.026  1306  9565 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroyServiceInternal():81 onDestroyServiceInternal()
+08-13 07:19:53.028  1306  1306 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():552 KeyboardGroupManager destroyed in fvq.
+08-13 07:19:53.028  1306  1306 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():552 KeyboardGroupManager destroyed in eid.
+08-13 07:19:53.028  1306  1306 I AbstractOpenableExtension: AbstractOpenableExtension$3.onSuccess():552 KeyboardGroupManager destroyed in fxu.
+08-13 07:19:53.043  1306  1306 I AppBase : AppBase.onTrimMemory():412 onTrimMemory(): 40
+08-13 07:19:53.043  1306  1306 I KeyboardDefCache: MemoryFileCache$1.onTrimMemory():126 clearMemory() for trim memory: 40
+08-13 07:19:53.043  1306  1306 I KeyboardDefCache: MemoryFileCache.clearMemory():410 evictAll()
+08-13 07:19:53.057  1306  1313 W SP      : File ref is being finalized but wasn't closed, file: 7a635888cb828dfa2fc744b7b9b50f04[15]
+08-13 07:19:53.233   584  1918 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+08-13 07:19:53.290   584   702 W InputManager-JNI: Input channel object 'stylus-handwriting-event-receiver-0 (client)' was disposed without first being removed with the input manager!
+08-13 07:19:53.413  9610  9610 I artd    : Starting artd
+08-13 07:19:53.414  9610  9610 I AidlLazyServiceRegistrar: Registering service artd
+08-13 07:19:53.417  9610  9610 I AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification artd has clients: 1
+08-13 07:19:53.427  9610  9612 I artd    : Dex parent of /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/base.apk is not writable: Permission denied
+08-13 07:19:53.427  9610  9612 I artd    : GetBestInfo checking odex in dalvik-cache (/data/dalvik-cache/x86_64/data@app@~~dyzzG8vPP-BCGX6tJeuTEA==@com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==@base.apk@classes.dex)
+08-13 07:19:53.428  9610  9612 I artd    : Loading /data/dalvik-cache/x86_64/data@app@~~dyzzG8vPP-BCGX6tJeuTEA==@com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==@base.apk@classes.dex with executable: 0
+08-13 07:19:53.429  9610  9612 I artd    : OatFileAssistant test for existing oat file /data/dalvik-cache/x86_64/data@app@~~dyzzG8vPP-BCGX6tJeuTEA==@com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==@base.apk@classes.dex: File /data/dalvik-cache/x86_64/data@app@~~dyzzG8vPP-BCGX6tJeuTEA==@com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==@base.apk@classes.vdex does not exist.
+08-13 07:19:53.429  9610  9612 I artd    : GetBestInfo checking odex next to the dex file (/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/oat/x86_64/base.odex)
+08-13 07:19:53.429  9610  9612 I artd    : Loading /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/oat/x86_64/base.odex with executable: 0
+08-13 07:19:53.429  9610  9612 I artd    : Successfully loaded /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/oat/x86_64/base.odex with executable: 0
+08-13 07:19:53.430  9610  9612 I artd    : /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/oat/x86_64/base.odex is kOatUpToDate with filter verify
+08-13 07:19:53.432  9610  9612 W artd    : Could not get dex checksums for location /data/user/0/com.sinovatech.unicom.ui/app_e_qq_com_plugin_d13dd96bb8ae57d006f7d8566fd2a081/AnoymousDex, fd=-1
+08-13 07:19:53.674  9627  9627 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+08-13 07:19:53.674  9627  9627 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+08-13 07:19:53.702   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-13 07:19:53.702  9627  9629 I Gralloc4: mapper 4.x is not supported
+08-13 07:19:53.756  1387  3801 W MediaProvider: isAppCloneUserPair for user 0: false
+08-13 07:19:53.886   584  1918 W ProcessStats: Tracking association SourceState{51337d0 com.google.android.gms.persistent/10144 ImpBg #12196} whose proc state 6 is better than process ProcessState{cd34495 com.google.android.gms/10144 pkg=com.google.android.gms} proc state 14 (26 skipped)
+08-13 07:19:53.897  1057 29199 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+08-13 07:19:53.908  1057 29199 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+08-13 07:19:53.921  1057  5416 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+08-13 07:19:53.925  1665  3332 I ChimeraConfigurator: Starting update, reason: 1 urgentFeatures: 
+08-13 07:19:53.952  1665  3332 I PlayCore: UID: [10144]  PID: [1665] SplitInstallService : deferredUninstall([all_locale_splits])
+08-13 07:19:53.961  1665  2829 I PlayCore: UID: [10144]  PID: [1665] SplitInstallService : Initiate binding to the service.
+08-13 07:19:54.040  1977  1977 I Finsky  : [2] Connecting InstallListener to SplitInstallService broadcaster...
+08-13 07:19:54.058  1665  1665 I PlayCore: UID: [10144]  PID: [1665] SplitInstallService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.splitinstallservice.SplitInstallService})
+08-13 07:19:54.060  1665  2829 I PlayCore: UID: [10144]  PID: [1665] SplitInstallService : linkToDeath
+08-13 07:19:54.105  1665  3332 I ChimeraConfigService: (REDACTED) Scheduling checkin for one-off execution between [%s,%s] seconds from now (%s)
+08-13 07:19:54.119  1057  9308 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+08-13 07:19:54.129  1665  3956 I PlayCore: UID: [10144]  PID: [1665] SplitInstallService : onDeferredUninstall
+08-13 07:19:54.130  1665  2829 I PlayCore: UID: [10144]  PID: [1665] SplitInstallService : Unbind from service.
+08-13 07:19:54.136  1977  1977 I Finsky  : [2] Memory trim requested to level 40
+08-13 07:19:54.136  1977  1977 I Finsky  : [2] Flushing in-memory image cache
+08-13 07:19:54.141  2406  2406 I Finsky:background: [2] Memory trim requested to level 40
+08-13 07:19:54.207  1548  1570 I mit.droidbotapp: Background concurrent mark compact GC freed 4396KB AllocSpace bytes, 24(10MB) LOS objects, 49% free, 12MB/24MB, paused 367us,1.308ms total 107.180ms
+08-13 07:19:54.261  1665 13579 I gle.android.gms: Explicit concurrent mark compact GC freed 3136KB AllocSpace bytes, 20(908KB) LOS objects, 49% free, 13MB/27MB, paused 682us,2.389ms total 371.857ms
+08-13 07:19:54.451   584  1917 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+08-13 07:19:54.452   584  1917 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+08-13 07:19:54.453   584  1919 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-13 07:19:54.457   584   603 I ActivityManager: Broadcast completed: result=0
+08-13 07:19:54.459  1387  1988 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:19:54.466  1387  1988 W ExifInterface: Invalid image: ExifInterface got an unsupported image format file(ExifInterface supports JPEG and some RAW image formats only) or a corrupted JPEG file to ExifInterface.
+08-13 07:19:54.466  1387  1988 W ExifInterface: java.io.IOException: Encountered corrupt PNG file.
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at android.media.ExifInterface.getPngAttributes(ExifInterface.java:3443)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at android.media.ExifInterface.loadAttributes(ExifInterface.java:2008)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1640)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1591)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItemImage(ModernMediaScanner.java:1392)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItem(ModernMediaScanner.java:1054)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.-$$Nest$smscanItem(ModernMediaScanner.java:0)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:854)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:351)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2670)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2742)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.walkFileTree(ModernMediaScanner.java:467)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.runInternal(ModernMediaScanner.java:430)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.run(ModernMediaScanner.java:419)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanFile(ModernMediaScanner.java:285)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaProvider.scanFile(MediaProvider.java:2154)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaService.onScanFile(MediaService.java:225)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaService.onHandleWork(MediaService.java:85)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:396)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:387)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+08-13 07:19:54.466  1387  1988 W ExifInterface: 	at java.lang.Thread.run(Thread.java:1012)
+08-13 07:19:54.474  1387  1988 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:19:54.566  1387  3801 W MediaProvider: Ignoring param:deletedata post U for external apps
+08-13 07:19:54.568  1387  3801 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+08-13 07:19:54.571  1057  1815 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+08-13 07:19:54.878   584  1919 I ActivityManager: Force stopping com.sinovatech.unicom.ui appid=10235 user=0: from pid 9670
+08-13 07:19:54.881   584  1917 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.882   584  1919 I ActivityManager: Killing 5775:com.sinovatech.unicom.ui/u0a235 (adj 0): stop com.sinovatech.unicom.ui due to from pid 9670
+08-13 07:19:54.887  6344  6344 I cr_ChildProcessService: Destroying ChildProcessService pid=6344
+08-13 07:19:54.888  6344  6344 I ocessService0:1: System.exit called, status: 0
+08-13 07:19:54.888  6344  6344 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+08-13 07:19:54.889   584  1919 W ActivityTaskManager: Force removing ActivityRecord{4a437b7 u0 com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity t255 f}}: app died, no saved state
+08-13 07:19:54.896   584  1919 I ActivityManager: Killing 6381:com.sinovatech.unicom.ui:remote/u0a235 (adj 915): stop com.sinovatech.unicom.ui due to from pid 9670
+08-13 07:19:54.898   584   603 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda14@b41080a
+08-13 07:19:54.898   584   603 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda13@cdfa87b
+08-13 07:19:54.903   584  1919 I ActivityManager: Killing 6344:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:1/u0a235i19 (adj 0): isolated not needed
+08-13 07:19:54.908   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.913   584  1919 I AppsFilter: interaction: PackageSetting{f2944aa com.android.microdroid.empty_payload/10207} -> PackageSetting{dc425d com.sinovatech.unicom.ui/10235} BLOCKED
+08-13 07:19:54.913   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.913   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.913   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.913   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.914   584   737 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:19:54.934   369   369 I Zygote  : Process 6381 exited due to signal 9 (Killed)
+08-13 07:19:54.935   901   901 I Zygote  : Process 6344 exited cleanly (0)
+08-13 07:19:54.935   584  1428 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+08-13 07:19:54.943   441   441 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+08-13 07:19:54.968   584   603 E AppOps  : Operation not started: uid=10235 pkg=com.sinovatech.unicom.ui(null) op=MONITOR_LOCATION
+08-13 07:19:54.973  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:54.973  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:54.973  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:54.973  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:54.973  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:54.974  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:54.979   584  1918 I ImeTracker: com.sinovatech.unicom.ui:dc4a220d: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+08-13 07:19:54.981   584  1928 I WindowManager: WIN DEATH: Window{b358ac2 u0 PopupWindow:34264e}
+08-13 07:19:54.983   584  1928 W InputManager-JNI: Input channel object 'b358ac2 PopupWindow:34264e (client)' was disposed without first being removed with the input manager!
+08-13 07:19:54.983   584  1928 I WindowManager: WIN DEATH: Window{9ee2120 u0 com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity}
+08-13 07:19:54.983   584  1928 W InputManager-JNI: Input channel object '9ee2120 com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity (client)' was disposed without first being removed with the input manager!
+08-13 07:19:54.986  1146  1146 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=246, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+08-13 07:19:54.986   584   603 E AppOps  : Operation not started: uid=10235 pkg=com.sinovatech.unicom.ui(null) op=GPS
+08-13 07:19:54.989   584  1918 I ImeTracker: com.sinovatech.unicom.ui:dc4a220d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+08-13 07:19:54.991   584   603 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda14@b41080a
+08-13 07:19:54.991   584   617 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10235/pid_5775
+08-13 07:19:54.991   584   617 I ActivityManager: Process PhantomProcessRecord {40b9893 5790:5775:com.sinovatech.unicom.ui/u0a235} died
+08-13 07:19:54.991   584   617 I ActivityManager: Process PhantomProcessRecord {61ef0d0 6397:6381:com.sinovatech.unicom.ui:remote/u0a235} died
+08-13 07:19:54.992   584   617 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10235/pid_6381
+08-13 07:19:54.993   584   603 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda13@cdfa87b
+08-13 07:19:54.993   584   617 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_99019/pid_6344
+08-13 07:19:54.993   369   369 I Zygote  : Process 5775 exited due to signal 9 (Killed)
+08-13 07:19:55.000  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+08-13 07:19:55.061   392   486 I RanchuHwc: logCompositionFallbackIfChanged: layer 237 CompositionType fallback from 2 to 1
+08-13 07:19:55.061   392   486 I RanchuHwc: logCompositionFallbackIfChanged: layer 236 CompositionType fallback from 2 to 1
+08-13 07:19:55.061   392   486 I RanchuHwc: logCompositionFallbackIfChanged: layer 257 CompositionType fallback from 2 to 1
+08-13 07:19:55.066   584   604 E IPCThreadState: Binder transaction failure. id: 4183354, BR_*: 29189, error: -22 (Invalid argument)
+08-13 07:19:55.066   584   604 W ActivityManager: pid 584 system sent binder code 9 with flags 1 to frozen apps and got error -32
+08-13 07:19:55.066   584   604 E IPCThreadState: Binder transaction failure. id: 4183356, BR_*: 29189, error: -22 (Invalid argument)
+08-13 07:19:55.066   584   604 W ActivityManager: pid 584 system sent binder code 9 with flags 1 to frozen apps and got error -32
+08-13 07:19:55.086   584   702 I ImeTracker: com.google.android.apps.nexuslauncher:622d777e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+08-13 07:19:55.086   584   702 I ImeTracker: com.google.android.apps.nexuslauncher:622d777e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+08-13 07:19:55.122 29592 29592 I emoa    : (REDACTED) Created gRPC endpoint for service %s
+08-13 07:19:55.124   584   606 W ActivityManager: setHasOverlayUi called on unknown pid: 5775
+08-13 07:19:55.130   829   829 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+08-13 07:19:55.134   584   604 W ActivityTaskManager: callingPackage for (uid=-1, pid=0) has no WPC
+08-13 07:19:55.138   584   604 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+08-13 07:19:55.138   584   604 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+08-13 07:19:55.138   584   604 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+08-13 07:19:55.140   584   604 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+08-13 07:19:55.141   584   604 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+08-13 07:19:55.146   584   604 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} with LAUNCH_SINGLE_TASK from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=3
+08-13 07:19:55.146   584   604 W Looper  : Slow dispatch took 167ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$DisplayHomeButtonHandler$$ExternalSyntheticLambda0@4c9d65 m=0
+08-13 07:19:55.164  1146  1146 W SplitSelectStateCtor: Missing session instanceIds
+08-13 07:19:55.171   584  1917 W UserManagerService: Requested status bar icon for non-badged user 0
+08-13 07:19:55.176  5855  5855 I emoa    : (REDACTED) Created gRPC endpoint for service %s
+08-13 07:19:55.186   584  1428 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+08-13 07:19:55.202  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:19:55.203  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:19:55.203  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:19:55.203  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:55.205  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:19:55.206  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:19:55.208  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+08-13 07:19:55.254  1146  1152 W System  : A resource failed to call release. 
+08-13 07:19:55.254  1146  1152 W System  : A resource failed to call release. 
+08-13 07:19:55.254  1146  1152 W System  : A resource failed to call release. 
+08-13 07:19:55.256  1146  1152 W s.nexuslauncher: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/base.apk' with 1 weak references
+08-13 07:19:55.314   441  1277 W VsyncModulator: setTransactionSchedule: Unexpected EarlyEnd
+08-13 07:19:55.618   584   606 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+08-13 07:19:55.643  1146  1146 I SsBaseTemplateCard: Secondary card pane is null
+08-13 07:19:55.646   584  1590 W ActivityManager: pid 584 system sent binder code 7 with flags 1 to frozen apps and got error -32
+08-13 07:19:55.647   584  1590 W WindowManager: Exception thrown during dispatchAppVisibility Window{b358ac2 u0 PopupWindow:34264e EXITING}
+08-13 07:19:55.647   584  1590 W WindowManager: android.os.DeadObjectException
+08-13 07:19:55.647   584  1590 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:553)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3253)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1289)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3240)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1289)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:403)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:7166)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5881)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5823)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1286)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:937)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:494)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:289)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:204)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+08-13 07:19:55.647   584  1590 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+08-13 07:19:55.647   584  1590 W Process : Unable to open /proc/5775/status
+08-13 07:19:55.647   584  1590 W ActivityManager: pid 584 system sent binder code 7 with flags 1 to frozen apps and got error -32
+08-13 07:19:55.648   584  1590 W WindowManager: Exception thrown during dispatchAppVisibility Window{9ee2120 u0 com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.MainActivity EXITING}
+08-13 07:19:55.648   584  1590 W WindowManager: android.os.DeadObjectException
+08-13 07:19:55.648   584  1590 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:553)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3253)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1289)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:403)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:7166)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5881)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5823)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1286)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:937)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:494)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:289)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:204)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+08-13 07:19:55.648   584  1590 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1444)
+08-13 07:19:55.648   584  1590 W Process : Unable to open /proc/5775/status
+08-13 07:19:55.653   584  1469 W UserManagerService: Requested status bar icon for non-badged user 0
+08-13 07:19:55.653  1146  1146 I TopTaskTracker: onTaskRemoved: taskId=255
+08-13 07:19:55.653   584  1469 W UserManagerService: Requested status bar icon for non-badged user 0
+08-13 07:19:55.654  1146  1146 I TopTaskTracker: onTaskRemoved: taskId=255
+08-13 07:19:55.692   441   441 E BpTransactionCompletedListener: Failed to transact (-32)
+08-13 07:19:55.693   441   441 E BpTransactionCompletedListener: Failed to transact (-32)
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806442, 30368200, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806450, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missing HWUI jank callback for vsyncId: 806450, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806458, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missing HWUI jank callback for vsyncId: 806458, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806473, 21603202, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806488, 29973636, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806503, 33643470, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806525, 32077504, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806547, 31301738, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806562, 22137472, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806585, 22488606, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806613, 27282340, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806635, 30889174, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806657, 24297308, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806679, 22901742, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806694, 22932176, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806716, 22075310, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806745, 21322544, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806767, 21492978, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806789, 21026712, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806804, 20165346, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806819, 19882980, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806834, 19724514, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806842, 0, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.711  1146  1146 W FrameTracker: Missing HWUI jank callback for vsyncId: 806842, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806850, 20957782, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806858, 22140716, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806866, 20395850, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806874, 20611584, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806882, 20842918, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806890, 20529152, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806898, 20193886, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806906, 20373020, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806914, 19766354, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806922, 20203788, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.712  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806930, 19972222, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.713  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806945, 21142756, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.713  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 80, 806960, 24629590, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.713  1146  1146 W FrameTracker: Missed App frame:UNKNOWN: 88, 806975, 34102724, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.713  1146  1146 W FrameTracker: Missed SF frame:UNKNOWN: 88, 806975, 34102724, CUJ=J<LAUNCHER_APP_CLOSE_TO_HOME>
+08-13 07:19:55.779  5360  5449 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=74 ]
+08-13 07:19:55.780  5360  5490 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[90b8bf60-6510]>Handler" thread_id=80 ]
+08-13 07:19:55.780  1057  1252 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+08-13 07:19:55.780  1057  1252 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+08-13 07:19:55.787  5360  5490 I BugleRcsEngine: No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=80 ]
+08-13 07:19:55.862   584  1469 W InputManager-JNI: Input channel object '8c2195a Toast (client)' was disposed without first being removed with the input manager!
+08-13 07:19:55.864   584  1469 W NotificationService: Toast already killed. pkg=com.sinovatech.unicom.ui token=android.os.BinderProxy@ff1c324
+08-13 07:19:55.864   829   829 E IPCThreadState: Binder transaction failure. id: 4184884, BR_*: 29189, error: -22 (Invalid argument)
+08-13 07:19:55.864   584  1469 W ActivityManager: pid 829 com.android.systemui sent binder code 2 with flags 1 to frozen apps and got error -32
+08-13 07:19:55.864   829   829 W ToastPresenter: Error calling back com.sinovatech.unicom.ui to notify onToastHide()
+08-13 07:19:55.864   829   829 W ToastPresenter: android.os.DeadObjectException
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.os.BinderProxy.transactNative(Native Method)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.app.ITransientNotificationCallback$Stub$Proxy.onToastHidden(ITransientNotificationCallback.java:139)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.widget.ToastPresenter.hide(ToastPresenter.java:286)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at com.android.systemui.toast.ToastUI$ToastOutAnimatorListener.onAnimationEnd(go/retraceme 9e092c9c2386c99f14882b21706a041c35aea77d807a1528d7efcc93ed4a3601:5)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.Animator$AnimatorListener.onAnimationEnd(Animator.java:708)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.Animator$AnimatorCaller$$ExternalSyntheticLambda1.call(D8$$SyntheticClass:0)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.Animator.callOnList(Animator.java:666)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.Animator.notifyListeners(Animator.java:609)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.Animator.notifyEndListeners(Animator.java:634)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.AnimatorSet.endAnimation(AnimatorSet.java:1444)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.AnimatorSet.doAnimationFrame(AnimatorSet.java:1230)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.AnimationHandler.doAnimationFrame(AnimationHandler.java:344)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.AnimationHandler.-$$Nest$mdoAnimationFrame(Unknown Source:0)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.animation.AnimationHandler$1.doFrame(AnimationHandler.java:87)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1404)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.view.Choreographer.doFrame(Choreographer.java:941)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.os.Handler.handleCallback(Handler.java:959)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.os.Looper.loopOnce(Looper.java:232)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.os.Looper.loop(Looper.java:317)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at java.lang.reflect.Method.invoke(Native Method)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+08-13 07:19:55.864   829   829 W ToastPresenter: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+08-13 07:19:56.080  1387  4432 I PSyncWorker: Starting proactive picker sync from sync source: 1
+08-13 07:19:56.081  1387  4432 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@44e0a6[Not completed, 1 dependents]. Future map: {48bf1689-e533-48eb-8ffb-d422080203c9=java.util.concurrent.CompletableFuture@44e0a6[Not completed, 1 dependents]}
+08-13 07:19:56.085  1387  4432 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+08-13 07:19:56.089  1387  4432 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=105617, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+08-13 07:19:56.089  1387  4432 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+08-13 07:19:56.092  1387  4432 E PickerDbFacade: Could not get first date taken millis for media id: 1000010863
+08-13 07:19:56.092  1387  4432 W PickerDbFacade: Unable to promote cloud media with localId: 1000010863
+08-13 07:19:56.094  1387  4432 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=105617, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+08-13 07:19:56.094  1387  4432 I PickerSyncTracker: Marked sync future complete for work id: 48bf1689-e533-48eb-8ffb-d422080203c9. Future map: {}
+08-13 07:19:56.094  1387  4432 I PSyncWorker: Completed picker proactive sync complete from local provider.
+08-13 07:19:56.096  1387  1618 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=48bf1689-e533-48eb-8ffb-d422080203c9, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+08-13 07:19:56.214  9708  9708 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+08-13 07:19:56.214  9708  9708 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+08-13 07:19:56.235   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-13 07:19:56.235  9708  9710 I Gralloc4: mapper 4.x is not supported
+08-13 07:19:56.283  1387  3537 W MediaProvider: isAppCloneUserPair for user 0: false
+08-13 07:19:56.875   584  1469 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+08-13 07:19:56.877   584  1469 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+08-13 07:19:56.880   584  1917 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-13 07:19:56.885   584   603 I ActivityManager: Broadcast completed: result=0
+08-13 07:19:56.887  1387  1988 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:19:56.902  1387  1988 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:19:56.976  1387  1766 W MediaProvider: Ignoring param:deletedata post U for external apps
+08-13 07:19:56.979  1387  1766 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+08-13 07:19:56.980  1057  1815 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+08-13 07:19:57.351  9747  9747 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+08-13 07:19:57.351  9747  9747 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+08-13 07:19:57.368   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-13 07:19:57.368  9747  9749 I Gralloc4: mapper 4.x is not supported
+08-13 07:19:57.408  1387  3537 W MediaProvider: isAppCloneUserPair for user 0: false
+08-13 07:19:58.003   584  1469 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+08-13 07:19:58.006   584  1469 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+08-13 07:19:58.008   584  1590 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-13 07:19:58.016   584   603 I ActivityManager: Broadcast completed: result=0
+08-13 07:19:58.017  1387  1988 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:19:58.023  1387  1988 W ExifInterface: Invalid image: ExifInterface got an unsupported image format file(ExifInterface supports JPEG and some RAW image formats only) or a corrupted JPEG file to ExifInterface.
+08-13 07:19:58.023  1387  1988 W ExifInterface: java.io.IOException: Encountered corrupt PNG file.
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at android.media.ExifInterface.getPngAttributes(ExifInterface.java:3443)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at android.media.ExifInterface.loadAttributes(ExifInterface.java:2008)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1640)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1591)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItemImage(ModernMediaScanner.java:1392)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItem(ModernMediaScanner.java:1054)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.-$$Nest$smscanItem(ModernMediaScanner.java:0)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:854)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:351)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2670)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2742)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.walkFileTree(ModernMediaScanner.java:467)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.runInternal(ModernMediaScanner.java:430)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.run(ModernMediaScanner.java:419)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanFile(ModernMediaScanner.java:285)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaProvider.scanFile(MediaProvider.java:2154)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaService.onScanFile(MediaService.java:225)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaService.onHandleWork(MediaService.java:85)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:396)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:387)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+08-13 07:19:58.023  1387  1988 W ExifInterface: 	at java.lang.Thread.run(Thread.java:1012)
+08-13 07:19:58.027  1387  1988 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:19:58.103  1387  1766 W MediaProvider: Ignoring param:deletedata post U for external apps
+08-13 07:19:58.105  1387  1766 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+08-13 07:19:58.106  1057  1815 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+08-13 07:19:58.657   584  1472 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+08-13 07:19:59.615  1387  4806 I PSyncWorker: Starting proactive picker sync from sync source: 1
+08-13 07:19:59.615  1387  4806 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@6ec4cc4[Not completed, 1 dependents]. Future map: {9f43f6b5-31b0-4d1f-86a4-f68a36781970=java.util.concurrent.CompletableFuture@6ec4cc4[Not completed, 1 dependents]}
+08-13 07:19:59.618  1387  4806 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+08-13 07:19:59.621  1387  4806 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=105628, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+08-13 07:19:59.621  1387  4806 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+08-13 07:19:59.623  1387  4806 E PickerDbFacade: Could not get first date taken millis for media id: 1000010864
+08-13 07:19:59.624  1387  4806 W PickerDbFacade: Unable to promote cloud media with localId: 1000010864
+08-13 07:19:59.624  1387  4806 W PickerDbFacade: Unable to promote cloud media with localId: 1000010865
+08-13 07:19:59.625  1387  4806 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=105628, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+08-13 07:19:59.626  1387  4806 I PickerSyncTracker: Marked sync future complete for work id: 9f43f6b5-31b0-4d1f-86a4-f68a36781970. Future map: {}
+08-13 07:19:59.626  1387  4806 I PSyncWorker: Completed picker proactive sync complete from local provider.
+08-13 07:19:59.627  1387  1618 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=9f43f6b5-31b0-4d1f-86a4-f68a36781970, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+08-13 07:20:00.005  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:20:00.005  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:20:00.005  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:20:00.005  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:20:00.005  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:20:00.006  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:20:00.006  1397  1664 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+08-13 07:20:00.006  1397  1664 I AiAiEcho: EchoTargets: 
+08-13 07:20:00.006  1397  1664 I AiAiEcho: Filtered by AiAi flag check: 
+08-13 07:20:00.006  1397  1664 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:20:00.006  1397  1664 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+08-13 07:20:00.007  1397  1664 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+08-13 07:20:00.008  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+08-13 07:20:00.008  1397  1664 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+08-13 07:20:00.011  1146  1146 I SsBaseTemplateCard: Secondary card pane is null
+08-13 07:20:00.018   829   829 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+08-13 07:20:01.472  9817  9817 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+08-13 07:20:01.472  9817  9817 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+08-13 07:20:01.488   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-13 07:20:01.488  9817  9819 I Gralloc4: mapper 4.x is not supported
+08-13 07:20:01.531  1387  3537 W MediaProvider: isAppCloneUserPair for user 0: false
+08-13 07:20:02.110   584  1590 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+08-13 07:20:02.112   584  1590 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+08-13 07:20:02.114   584  1469 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-13 07:20:02.120   584   603 I ActivityManager: Broadcast completed: result=0
+08-13 07:20:02.122  1387  1988 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:20:02.131  1387  1988 W ExifInterface: Invalid image: ExifInterface got an unsupported image format file(ExifInterface supports JPEG and some RAW image formats only) or a corrupted JPEG file to ExifInterface.
+08-13 07:20:02.131  1387  1988 W ExifInterface: java.io.IOException: Encountered corrupt PNG file.
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at android.media.ExifInterface.getPngAttributes(ExifInterface.java:3443)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at android.media.ExifInterface.loadAttributes(ExifInterface.java:2008)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1640)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1591)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItemImage(ModernMediaScanner.java:1392)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItem(ModernMediaScanner.java:1054)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.-$$Nest$smscanItem(ModernMediaScanner.java:0)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:854)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:351)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2670)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2742)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.walkFileTree(ModernMediaScanner.java:467)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.runInternal(ModernMediaScanner.java:430)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.run(ModernMediaScanner.java:419)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanFile(ModernMediaScanner.java:285)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaProvider.scanFile(MediaProvider.java:2154)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaService.onScanFile(MediaService.java:225)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at com.android.providers.media.MediaService.onHandleWork(MediaService.java:85)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:396)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:387)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+08-13 07:20:02.131  1387  1988 W ExifInterface: 	at java.lang.Thread.run(Thread.java:1012)
+08-13 07:20:02.134  1387  1988 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:20:02.213  1387  1766 W MediaProvider: Ignoring param:deletedata post U for external apps
+08-13 07:20:02.217  1057  1815 I UriTaskContentObserver: (REDACTED) Throttling content uri change event for %s
+08-13 07:20:02.222  1387  1766 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+08-13 07:20:02.405   584  1590 W ActivityTaskManager: callingPackage for (uid=2000, pid=9844) has no WPC
+08-13 07:20:02.407   584  1590 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+08-13 07:20:02.407   584  1590 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+08-13 07:20:02.407   584  1590 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+08-13 07:20:02.408   584  1590 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+08-13 07:20:02.408   584  1590 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+08-13 07:20:02.419   584  1590 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+08-13 07:20:02.422  1146  1146 W SplitSelectStateCtor: Missing session instanceIds
+08-13 07:20:02.428   441   441 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+08-13 07:20:02.431   584  1590 I AppsFilter: interaction: PackageSetting{f2944aa com.android.microdroid.empty_payload/10207} -> PackageSetting{ba98698 com.sinovatech.unicom.ui/10235} BLOCKED
+08-13 07:20:02.434  1146  1146 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=256, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient }
+08-13 07:20:02.454   584   616 I ActivityManager: Start proc 9849:com.sinovatech.unicom.ui/u0a235 for next-top-activity {com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient}
+08-13 07:20:02.472  9849  9849 I atech.unicom.ui: Using CollectorTypeCMC GC.
+08-13 07:20:02.474  9849  9849 W atech.unicom.ui: Unexpected CPU variant for x86: x86_64.
+08-13 07:20:02.474  9849  9849 W atech.unicom.ui: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default
+08-13 07:20:02.480   479  3526 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:20:02.524   584  1590 W UserManagerService: Requested status bar icon for non-badged user 0
+08-13 07:20:02.550  9849  9849 I berberis: Initialized Berberis (aarch64), version 0.2.3
+08-13 07:20:02.586  9849  9849 E atech.unicom.ui: Not starting debugger since process cannot load the jdwp agent.
+08-13 07:20:02.609   584   595 I system_server: Background concurrent mark compact GC freed 22MB AllocSpace bytes, 79(1800KB) LOS objects, 42% free, 32MB/56MB, paused 925us,2.349ms total 185.237ms
+08-13 07:20:02.616  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {ad19937d-55a9-4b04-885f-ee8bf2183054}
+08-13 07:20:02.617  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {cdc6b074-b0c3-4629-b479-c13beb8556ec}
+08-13 07:20:02.617  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {5a9de49e-8848-4a36-80dc-70337aafc08f}
+08-13 07:20:02.617  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {c8f07ae2-5520-4a9b-9bbf-bad152eb068c}
+08-13 07:20:02.617  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {83b673db-a24c-45a2-aa67-42e0478d574a}
+08-13 07:20:02.618  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {ea3c43bc-9770-4100-b074-14cc80217cc2}
+08-13 07:20:02.618   584   597 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+08-13 07:20:02.619   584   597 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~5RRtRDVizARib8tuEWfUSw==/com.google.android.tts--HTLpn3VJcc3ndE0iwTDBA==/base.apk' with 1 weak references
+08-13 07:20:02.619   584   597 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~5RRtRDVizARib8tuEWfUSw==/com.google.android.tts--HTLpn3VJcc3ndE0iwTDBA==/split_config.en.apk' with 1 weak references
+08-13 07:20:02.620  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {8e5114da-6cd0-49e6-a0cb-a009fedcf3a5}
+08-13 07:20:02.620  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {525de3b0-0323-48fb-b325-db7fbb477fc2}
+08-13 07:20:02.620   584   597 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~5RRtRDVizARib8tuEWfUSw==/com.google.android.tts--HTLpn3VJcc3ndE0iwTDBA==/split_config.x86_64.apk' with 1 weak references
+08-13 07:20:02.620  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {49ee3295-b9ee-404c-b85c-763f70141d25}
+08-13 07:20:02.620   584   597 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~5RRtRDVizARib8tuEWfUSw==/com.google.android.tts--HTLpn3VJcc3ndE0iwTDBA==/split_config.xxhdpi.apk' with 1 weak references
+08-13 07:20:02.620  1397  1397 I AiAiTextClassifier: onDestroyTextClassificationSession = TextClassificationSessionId {10823605-ae3f-4c1e-8c95-7a4331afb1fa}
+08-13 07:20:02.620   584   597 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~rkwdZOcGCGQMTErswQEX0A==/io.github.ylimit.droidbotapp-ax5cu2NIvMatfPSHYiiexg==/base.apk' with 1 weak references
+08-13 07:20:02.621   584   597 W System  : A resource failed to call release. 
+08-13 07:20:02.621   584   597 W System  : A resource failed to call HardwareBuffer.close. 
+08-13 07:20:02.622   584   597 W System  : A resource failed to call release. 
+08-13 07:20:02.630  9849  9849 I berberis: '/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/lib/arm64/libDexHelper-x86.so' library was loaded for the host platform.
+08-13 07:20:02.815   584  1590 W UserManagerService: Requested status bar icon for non-badged user 0
+08-13 07:20:02.815   584  1590 W UserManagerService: Requested status bar icon for non-badged user 0
+08-13 07:20:02.870  9849  9849 W HMSSDK_PushPreferences: get new sharedPreferences failed,start to get from context. 
+08-13 07:20:02.872  9849  9849 I AGConnectProvider: AGConnectInitializeProvider#onCreate
+08-13 07:20:02.873  9849  9849 I AGConnectInstance: AGConnectInstance#initialize
+08-13 07:20:02.879  9849  9849 I ServiceRegistrarParser: getServices
+08-13 07:20:02.880  9849  9849 I ServiceRegistrarParser: services:0
+08-13 07:20:02.881  9849  9849 I AGC_Instance: AGC SDK initialize end
+08-13 07:20:02.949  9849  9849 I Zeus/init_pangle: ZeusManager init, context = com.sinovatech.unicom.ui.App@68e96da, hParam = com.bytedance.pangle.GlobalParam@348d70b
+08-13 07:20:02.955  9849  9849 E flipped : init succeeded.
+08-13 07:20:02.956  9849  9877 E flipped : Attach current thread 0
+08-13 07:20:02.957  9849  9877 E flipped : Detach current thread 0
+08-13 07:20:02.957  9849  9879 E flipped : Attach current thread 0
+08-13 07:20:02.957  9849  9879 E flipped : Detach current thread 0
+08-13 07:20:02.959  9849  9849 W Zeus/init_pangle: ZeusManager disableApiWarningShownForAndroidP, true
+08-13 07:20:02.962  9849  9849 I Zeus/provider_pangle: Need to init system provider info start [packageNam:=com.sinovatech.unicom.ui],[processName=com.sinovatech.unicom.ui],[authority:com.sinovatech.unicom.ui.pangle.provider.proxy.main]
+08-13 07:20:02.963  9849  9849 I Zeus/provider_pangle: Init system provider info finish [packageNam:=com.sinovatech.unicom.ui],[processName=com.sinovatech.unicom.ui],[authority:com.sinovatech.unicom.ui.pangle.provider.proxy.main]
+08-13 07:20:02.990   584   584 W AccessibilityManagerService:  wait for adding window timeout: 232
+08-13 07:20:03.029  9849  9873 W System  : Ignoring header moid because its value was null.
+08-13 07:20:03.158  9849  9873 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+08-13 07:20:03.212  9849  9957 W System  : Ignoring header moid because its value was null.
+08-13 07:20:03.365  9849  9849 I NBSAgent: NBSAgent start.
+08-13 07:20:03.365  9849  9849 I NBSAgent: NBSAgent enabled.
+08-13 07:20:03.365  9849  9849 I NBSAgent: NBSAgent V2.15.5.26
+08-13 07:20:03.435  9849  9849 W System.err: java.lang.NoSuchFieldException: No field mHiddenApiWarningShown in class Landroid/app/ActivityThread; (declaration of 'android.app.ActivityThread' appears in /system/framework/framework.jar)
+08-13 07:20:03.435  9849  9849 W System.err: 	at java.lang.Class.getDeclaredField(Native Method)
+08-13 07:20:03.435  9849  9849 W System.err: 	at com.fort.andjni.JniLib.cV(Native Method)
+08-13 07:20:03.436  9849  9849 W System.err: 	at com.sinovatech.unicom.ui.App.disableAPIDialog(Unknown Source:20)
+08-13 07:20:03.436  9849  9849 W System.err: 	at com.fort.andjni.JniLib.cV(Native Method)
+08-13 07:20:03.436  9849  9849 W System.err: 	at com.sinovatech.unicom.ui.App.onCreate(Unknown Source:20)
+08-13 07:20:03.436  9849  9849 W System.err: 	at com.secneo.apkwrapper.AW.replaceApplicationContext(Unknown Source:38)
+08-13 07:20:03.436  9849  9849 W System.err: 	at com.secneo.apkwrapper.AW.onCreate(Unknown Source:21)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.os.Looper.loopOnce(Looper.java:232)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.os.Looper.loop(Looper.java:317)
+08-13 07:20:03.436  9849  9849 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+08-13 07:20:03.436  9849  9849 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+08-13 07:20:03.436  9849  9849 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+08-13 07:20:03.436  9849  9849 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+08-13 07:20:03.453   584  1469 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+08-13 07:20:03.588  9849 10075 I WebViewFactory: Loading com.google.android.webview version 138.0.7204.179 (code 720417938)
+08-13 07:20:03.590  9849 10075 W ziparchive: Unable to open '/data/app/~~3KeKTSs_QJRyjZXpK2yBlw==/com.google.android.trichromelibrary_720417938-_xvb1w3KCbw6Yd9K9KsmAg==/base.dm': No such file or directory
+08-13 07:20:03.590  9849 10075 W ziparchive: Unable to open '/data/app/~~3KeKTSs_QJRyjZXpK2yBlw==/com.google.android.trichromelibrary_720417938-_xvb1w3KCbw6Yd9K9KsmAg==/base.dm': No such file or directory
+08-13 07:20:03.590  9849 10075 W atech.unicom.ui: Entry not found
+08-13 07:20:03.614  9849 10075 I cr_WVCFactoryProvider: version=138.0.7204.179 (720417938) minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+08-13 07:20:03.618  9849 10081 E chromium: [0813/072003.618696:ERROR:android_webview/browser/variations/variations_seed_loader.cc:39] Seed missing signature.
+08-13 07:20:03.619  9849 10081 I chromium: [0813/072003.619002:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+08-13 07:20:03.622  9849 10075 I cr_LibraryLoader: Successfully loaded native library
+08-13 07:20:03.622  9849 10075 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms, 0 samples were dropped.
+08-13 07:20:03.649  9849 10075 E baidu_location_Client: The location function has been stopped because you do not agree with the privacy compliance policy. Please recheck the setAgreePrivacy interface
+08-13 07:20:03.651 10076 10076 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+08-13 07:20:03.652 10076 10076 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+08-13 07:20:03.669   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-13 07:20:03.670 10076 10086 I Gralloc4: mapper 4.x is not supported
+08-13 07:20:03.707  9849 10047 I NBSAgent: connect success
+08-13 07:20:03.717  1387 14160 W MediaProvider: isAppCloneUserPair for user 0: false
+08-13 07:20:03.743  1387  4842 I PSyncWorker: Starting proactive picker sync from sync source: 1
+08-13 07:20:03.744  1387  4842 I PickerSyncTracker: Created new sync future java.util.concurrent.CompletableFuture@aef843a[Not completed, 1 dependents]. Future map: {b3a3b7b0-be6a-4f3c-b399-3257be429537=java.util.concurrent.CompletableFuture@aef843a[Not completed, 1 dependents]}
+08-13 07:20:03.748  1387  4842 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+08-13 07:20:03.751  1387  4842 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=105647, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+08-13 07:20:03.751  1387  4842 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+08-13 07:20:03.753  1387  4842 E PickerDbFacade: Could not get first date taken millis for media id: 1000010866
+08-13 07:20:03.754  1387  4842 W PickerDbFacade: Unable to promote cloud media with localId: 1000010866
+08-13 07:20:03.759  1387  4842 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=105647, android.provider.extra.PAGE_SIZE=1000}] Total Rows: 0
+08-13 07:20:03.760  1387  4842 I PickerSyncTracker: Marked sync future complete for work id: b3a3b7b0-be6a-4f3c-b399-3257be429537. Future map: {}
+08-13 07:20:03.760  1387  4842 I PSyncWorker: Completed picker proactive sync complete from local provider.
+08-13 07:20:03.761  1387  1619 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b3a3b7b0-be6a-4f3c-b399-3257be429537, tags={ com.android.providers.media.photopicker.sync.ProactiveSyncWorker } ]
+08-13 07:20:03.859  9849  9849 W HWUI    : Unknown dataspace 0
+08-13 07:20:03.864   584  1917 W WindowManager: Failed looking up window session=Session{e32887d 9849:u0a10235} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6311 com.android.server.wm.Session.updateRequestedVisibleTypes:755 android.view.IWindowSession$Stub.onTransact:1078 
+08-13 07:20:03.890   584  1469 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+08-13 07:20:03.892   584  1469 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+08-13 07:20:03.897  9849 10059 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+08-13 07:20:03.900   584  1590 W JobInfo : Job 'com.google.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-13 07:20:03.900  9849 10059 I EGL_emulation: Opening libGLESv2_emulation.so
+08-13 07:20:03.918  9849 10059 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+08-13 07:20:03.918  9849 10059 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+08-13 07:20:03.919   584   603 I ActivityManager: Broadcast completed: result=0
+08-13 07:20:03.921  1387  1988 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:20:03.924   441  1277 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+08-13 07:20:03.935  1387  1988 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+08-13 07:20:03.952   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-13 07:20:03.952  9849 10059 I Gralloc4: mapper 4.x is not supported
+08-13 07:20:04.031  1387  1766 W MediaProvider: Ignoring param:deletedata post U for external apps
+08-13 07:20:04.033   584   603 W system_server: Failed to determine oat file name for dex location /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/base.apk: Dalvik cache directory does not exist
+08-13 07:20:04.034   584   603 W ziparchive: Unable to open '/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/base.dm': No such file or directory
+08-13 07:20:04.038   584   603 I ActivityTaskManager: Displayed com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient for user 0: +1s626ms
+08-13 07:20:04.040  1387  1766 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+08-13 07:20:04.059   584   606 W ProcessStats: Tracking association SourceState{af2be27 com.google.android.apps.nexuslauncher/10176 BFgs #12270} whose proc state 4 is better than process ProcessState{b96f652 com.google.android.googlequicksearchbox:googleapp/10145 pkg=com.google.android.googlequicksearchbox} proc state 14 (49 skipped)
+08-13 07:20:04.071   584   702 I ImeTracker: com.sinovatech.unicom.ui:fb8980e3: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+08-13 07:20:04.071   584   702 I ImeTracker: com.sinovatech.unicom.ui:fb8980e3: onCancelled at PHASE_SERVER_SHOULD_HIDE
+08-13 07:20:04.087  1146  5613 I IPCThreadState: oneway function results for code 2 on binder at 0x7cbbf224b610 will be dropped but finished with status UNKNOWN_TRANSACTION
+08-13 07:20:04.238  1387  1766 E MediaProvider: Permission to access file: /storage/emulated/0/Documents/Unicom/appid is denied
+08-13 07:20:04.238  9849 10134 W System.err: java.io.FileNotFoundException: /storage/emulated/0/Documents/Unicom/appid: open failed: EACCES (Permission denied)
+08-13 07:20:04.239  9849 10134 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+08-13 07:20:04.239  9849 10134 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+08-13 07:20:04.239  9849 10134 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:208)
+08-13 07:20:04.239  9849 10134 W System.err: 	at com.sinovatech.unicom.common.FileTools.saveAppid(FileTools.java:205)
+08-13 07:20:04.239  9849 10134 W System.err: 	at com.sinovatech.unicom.basic.server.UserManager.saveLoginAppId(UserManager.java:954)
+08-13 07:20:04.239  9849 10134 W System.err: 	at com.sinovatech.unicom.basic.server.LoginManager.handleLoginResponse(LoginManager.java:238)
+08-13 07:20:04.239  9849 10134 W System.err: 	at com.sinovatech.unicom.basic.ui.manager.ManagerMainLogin$8.apply(ManagerMainLogin.java:572)
+08-13 07:20:04.239  9849 10134 W System.err: 	at com.sinovatech.unicom.basic.ui.manager.ManagerMainLogin$8.apply(ManagerMainLogin.java:568)
+08-13 07:20:04.239  9849 10134 W System.err: 	at io.reactivex.internal.operators.observable.ObservableMap$MapObserver.onNext(ObservableMap.java:59)
+08-13 07:20:04.239  9849 10134 W System.err: 	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:200)
+08-13 07:20:04.239  9849 10134 W System.err: 	at io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:252)
+08-13 07:20:04.239  9849 10134 W System.err: 	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+08-13 07:20:04.239  9849 10134 W System.err: 	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+08-13 07:20:04.239  9849 10134 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+08-13 07:20:04.240  9849 10134 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+08-13 07:20:04.240  9849 10134 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+08-13 07:20:04.240  9849 10134 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+08-13 07:20:04.240  9849 10134 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+08-13 07:20:04.240  9849 10134 W System.err: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+08-13 07:20:04.240  9849 10134 W System.err: 	at libcore.io.Linux.open(Native Method)
+08-13 07:20:04.240  9849 10134 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+08-13 07:20:04.240  9849 10134 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+08-13 07:20:04.240  9849 10134 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+08-13 07:20:04.240  9849 10134 W System.err: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+08-13 07:20:04.240  9849 10134 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+08-13 07:20:04.240  9849 10134 W System.err: 	... 17 more
+08-13 07:20:04.400   479  3526 W IPCThreadState: Sending oneway calls to frozen process.
+08-13 07:20:04.401  9849 10123 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.sinovatech.unicom.ui
+08-13 07:20:04.406   829   923 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@c5852bf
+08-13 07:20:04.407   584  1917 W InputManager-JNI: Input channel object '5184bf3 Splash Screen com.sinovatech.unicom.ui (client)' was disposed without first being removed with the input manager!
+08-13 07:20:04.408 10153 10153 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+08-13 07:20:04.408 10153 10153 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+08-13 07:20:04.426   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-13 07:20:04.426 10153 10161 I Gralloc4: mapper 4.x is not supported
+08-13 07:20:04.447  9849  9849 E PermissionCheck: The authManager is: null; the authCallback is: null; the mContext is: null
+08-13 07:20:04.463  9849  9849 I BaiduApiAuth: BaiduApiAuth SDK Version:1.0.25
+08-13 07:20:04.476  1387  3537 W MediaProvider: isAppCloneUserPair for user 0: false
+08-13 07:20:04.489  9849 10166 I Zeus/init_pangle: PluginManagerparsePluginsJson. find com.byted.pangle
+08-13 07:20:04.493  9849 10166 I Zeus/init_pangle: PluginManagerparsePluginsJson. find com.byted.csj.ext
+08-13 07:20:04.494  9849 10166 I Zeus/init_pangle: PluginManagerparsePluginsJson. find com.byted.live.lite
+08-13 07:20:04.494  9849 10166 I Zeus/init_pangle: PluginManager parsePluginsJson success
+08-13 07:20:04.496  9849 10166 W Zeus/so_pangle: NativeLibHelper inferHostAbiAuto, primaryCpuAbi=arm64-v8a
+08-13 07:20:04.496  9849 10166 W Zeus/so_pangle: NativeLibHelper inferHostAbiAuto, processMode=64
+08-13 07:20:04.496  9849 10166 W Zeus/so_pangle: NativeLibHelper inferHostAbiAuto2, sHostAbi=arm64-v8a
+08-13 07:20:04.496  9849 10166 I Zeus/init_pangle: ZeusSpUtils isHostAbiUpdate HOST_ABI=arm64-v8a, arm64-v8a, result=false
+08-13 07:20:04.498  9849 10166 I Zeus/init_pangle: Plugin getInstalledMaxVersion, pkg=com.byted.pangle, maxVer=5911
+08-13 07:20:04.498  9849 10166 I Zeus/init_pangle: ZeusSpUtils getPluginApiVersion pluginPKg = com.byted.pangle, pluginApiVersion = 5102
+08-13 07:20:04.498  9849 10166 I Zeus/init_pangle: Plugin checkVersionValid, pkg=com.byted.pangle, ver=0, valid=true
+08-13 07:20:04.500  9849 10166 I Zeus/init_pangle: ZeusSpUtils getHostIdentity pluginPKg = com.byted.pangle, hostIdentity = 2418D42D12DC26AFDC609F15B7232758
+08-13 07:20:04.501  9849 10166 I Zeus/init_pangle: Plugin initPlugins result=Plugin{pkg=com.byted.pangle, ver=5911, life=2}
+08-13 07:20:04.501  9849 10166 I Zeus/init_pangle: ZeusSpUtils setHostAbiUpdated HOST_ABI=arm64-v8a --> arm64-v8a
+08-13 07:20:04.501  9849 10166 I Zeus/init_pangle: ZeusSpUtils getHostIdentity pluginPKg = com.byted.pangle, hostIdentity = 2418D42D12DC26AFDC609F15B7232758
+08-13 07:20:04.501  9849 10166 I Zeus/init_pangle: ZeusSpUtils setHostIdentity(com.byted.pangle) 2418D42D12DC26AFDC609F15B7232758 --> 2418D42D12DC26AFDC609F15B7232758
+08-13 07:20:04.501  9849 10166 I Zeus/init_pangle: ZeusSpUtils getPluginApiVersion pluginPKg = com.byted.pangle, pluginApiVersion = 5102
+08-13 07:20:04.502  9849 10166 I Zeus/init_pangle: ZeusSpUtils setPluginApiVersion 5102 --> 5102
+08-13 07:20:04.502  9849 10166 I Zeus/load_pangle: PluginLoader watcher[loadPlugin:com.byted.pangle]-start
+08-13 07:20:04.510  9849  9876 W System  : ClassLoader referenced unknown path: 
+08-13 07:20:04.511  9849  9876 W atech.unicom.ui: Unsupported class loader
+08-13 07:20:04.512  9849  9876 E atech.unicom.ui: Attempt to load writable dex file: /data/user/0/com.sinovatech.unicom.ui/files/pangle_p/com.byted.pangle/version-5911/apk/base-1.apk
+08-13 07:20:04.514  9849  9876 W atech.unicom.ui: Unsupported class loader
+08-13 07:20:04.527  9849 10167 E atech.unicom.ui: Attempt to load writable dex file: /data/user/0/com.sinovatech.unicom.ui/app_e_qq_com_plugin_d13dd96bb8ae57d006f7d8566fd2a081/gdt_plugin.jar
+08-13 07:20:04.528  9849  9849 E PermissionCheck: The authManager is: null; the authCallback is: null; the mContext is: null
+08-13 07:20:04.557  1387  3801 E MediaProvider: Creating or writing to a non-default top level directory is not allowed!
+08-13 07:20:04.559  9849  9849 W CuidBuddyInfoManager: galaxy lib host missing meta-data,make sure you know the right way to integrate galaxy
+08-13 07:20:04.559  9849  9849 W CuidBuddyInfoManager: galaxy lib host missing meta-data,make sure you know the right way to integrate galaxy
+08-13 07:20:04.559  9849  9849 W CuidBuddyInfoManager: galaxy lib host missing meta-data,make sure you know the right way to integrate galaxy
+08-13 07:20:04.554  9849  9849 W Thread-26: type=1400 audit(0.0:448): avc:  denied  { search } for  name="net" dev="sysfs" ino=4816 scontext=u:r:untrusted_app_30:s0:c235,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.sinovatech.unicom.ui
+08-13 07:20:04.562  9849  9849 W Thread-26: type=1400 audit(0.0:449): avc:  denied  { search } for  name="net" dev="sysfs" ino=4816 scontext=u:r:untrusted_app_30:s0:c235,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.sinovatech.unicom.ui
+08-13 07:20:04.570  9849  9849 W Thread-26: type=1400 audit(0.0:450): avc:  denied  { search } for  name="net" dev="sysfs" ino=4816 scontext=u:r:untrusted_app_30:s0:c235,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.sinovatech.unicom.ui
+08-13 07:20:04.570  9849  9849 W Thread-26: type=1400 audit(0.0:451): avc:  denied  { search } for  name="net" dev="sysfs" ino=4816 scontext=u:r:untrusted_app_30:s0:c235,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.sinovatech.unicom.ui
+08-13 07:20:04.590  9849 10155 I R/VY*ZTUk: R/VY*ZTUV+]
+08-13 07:20:04.570  9849  9849 W Thread-26: type=1400 audit(0.0:452): avc:  denied  { search } for  name="net" dev="sysfs" ino=4816 scontext=u:r:untrusted_app_30:s0:c235,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.sinovatech.unicom.ui
+08-13 07:20:04.599   982  1194 W TelephonyPermissions: reportAccessDeniedToReadIdentifiers:com.sinovatech.unicom.ui:getDeviceId:1
+08-13 07:20:04.637  9849 10155 E FidoAppSDK_fido: initFidoAsync Context: com.sinovatech.unicom.ui.App@68e96da , FidoCallback: com.unicom.pay.c$c@6be3531
+08-13 07:20:04.640  9849 10173 E FidoAppSDK_fido: initFido Context:com.sinovatech.unicom.ui.App@68e96da , FidoParam:com.gmrz.appsdk.commlib.api.FidoParam@37cbf84

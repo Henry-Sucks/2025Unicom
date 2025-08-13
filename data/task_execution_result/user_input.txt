@@ -1,7 +1,7 @@
-add device 1: /dev/input/event0
-  name:     "Power Button"
-add device 2: /dev/input/event1
+add device 1: /dev/input/event1
   name:     "AT Translated Set 2 keyboard"
+add device 2: /dev/input/event0
+  name:     "Power Button"
 add device 3: /dev/input/event2
   name:     "virtio_input_multi_touch_1"
 add device 4: /dev/input/event3

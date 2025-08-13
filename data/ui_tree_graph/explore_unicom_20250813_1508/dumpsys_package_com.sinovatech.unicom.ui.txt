@@ -1,0 +1,557 @@
+Activity Resolver Table:
+  Schemes:
+      jscard:
+        f281f12 com.sinovatech.unicom.ui/com.crb.jscard.HomeActivity filter 778e6e3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jscard"
+          Authority: "load.server": 8888
+          Path: "PatternMatcher{LITERAL: /main}"
+      tencent100884650:
+        2e16974 com.sinovatech.unicom.ui/cn.sharesdk.tencent.qq.ReceiveActivity filter bd36e9d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent100884650"
+      ssdk2abdab54e079:
+        3270c2 com.sinovatech.unicom.ui/cn.sharesdk.loopshare.LoopShareActivity filter be14ed3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ssdk2abdab54e079"
+          Authority: "cn.sharesdk.loop": -1
+      rangersapplog.40145aa21bfbde42:
+        5e51a5e com.sinovatech.unicom.ui/com.bytedance.applog.util.SimulateLaunchActivity filter 3490e3f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "rangersapplog.40145aa21bfbde42"
+          Authority: "rangersapplog": -1
+          Path: "PatternMatcher{LITERAL: /picker}"
+      http:
+        814e9ae com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient filter dc9f2ba
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Authority: "u.10010.cn": -1
+          AutoVerify=true
+      https:
+        814e9ae com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient filter ccd356b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "u.10010.cn": -1
+          AutoVerify=true
+      chinaunicom:
+        814e9ae com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient filter 51e9adc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "chinaunicom"
+      tingyun.7001:
+        56888c8 com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WebDetailActivity filter 807bd47
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tingyun.7001"
+      chinaunicomdefault:
+        814e9ae com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient filter 35f27e5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "chinaunicomdefault"
+      customscheme:
+        56888c8 com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WebDetailActivity filter 9df5d61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "customscheme"
+      unicomwebscheme:
+        56888c8 com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WebDetailActivity filter c948086
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "unicomwebscheme"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        814e9ae com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient filter aaeb34f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.mob.open.app_20000:
+        c6c17a4 com.sinovatech.unicom.ui/com.mob.guard.MobTranPullUpActivity filter 612390d
+          Action: "com.mob.open.app_20000"
+          Category: "android.intent.category.DEFAULT"
+      com.mob.id.app_30000:
+        6c41736 com.sinovatech.unicom.ui/com.mob.id.MobIDActivity filter a548637
+          Action: "com.mob.id.app_30000"
+          Category: "android.intent.category.DEFAULT"
+      com.mob.id.app_lk:
+        4e47e6a com.sinovatech.unicom.ui/com.mob.id.MobIDSYActivity filter 3ca4f5b
+          Action: "com.mob.id.app_lk"
+          Category: "android.intent.category.DEFAULT"
+      com.mob.open.app_lk:
+        cb3b3f8 com.sinovatech.unicom.ui/com.mob.guard.MobTranPullLockActivity filter 32960d1
+          Action: "com.mob.open.app_lk"
+          Category: "android.intent.category.DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        c2c730c com.sinovatech.unicom.ui/com.sina.weibo.sdk.share.ShareTransActivity filter 142d455
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      cn.anicert.ctid:
+        b65a8e0 com.sinovatech.unicom.ui/cn.anicert.verification.lib_identify.ui.ShowActivity filter fd5799
+          Action: "cn.anicert.ctid"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        3ad70e com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.xiaomi.XiaoMiPushMessageReceiver filter 438b73c
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      com.xiaomi.mipush.ERROR:
+        3ad70e com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.xiaomi.XiaoMiPushMessageReceiver filter 8627cc5
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        f1eb9e6 com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushReceiver filter a9d6b27
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        4780b28 com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushMsgReceiver filter 3732041
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.huawei.android.push.intent.RECEIVE:
+        f1eb9e6 com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushReceiver filter a9d6b27
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.vivo.pushclient.action.RECEIVE:
+        f250a10 com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.vivo.VivoPushMessageReceiver filter 4365909
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.xiaomi.push.PING_TIMER:
+        951561a com.sinovatech.unicom.ui/com.xiaomi.push.service.receivers.PingReceiver filter 1f9c54b
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        3ad70e com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.xiaomi.XiaoMiPushMessageReceiver filter 968052f
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.huawei.intent.action.PUSH:
+        4780b28 com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushMsgReceiver filter 3732041
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.mob.service.action.MOB_AC_SERVICE:
+        c7f6896 com.sinovatech.unicom.ui/com.mob.MobACService filter e216c17
+          Action: "com.mob.service.action.MOB_AC_SERVICE"
+      com.sinovatech.unicom.ui.messenger:
+        3588e58 com.sinovatech.unicom.ui/com.blankj.utilcode.util.MessengerUtils$ServerService filter 8239bb1
+          Action: "com.sinovatech.unicom.ui.messenger"
+      com.mob.intent.MOB_GUARD_SERVICE:
+        7417822 com.sinovatech.unicom.ui/com.mob.guard.MobGuardPullUpService filter 5c6b2b3
+          Action: "com.mob.intent.MOB_GUARD_SERVICE"
+      com.mob.intent.MOB_ID_SERVICE:
+        3f43804 com.sinovatech.unicom.ui/com.mob.id.MobIDService filter f2541ed
+          Action: "com.mob.intent.MOB_ID_SERVICE"
+      com.huawei.push.msg.NOTIFY_MSG:
+        a3b79ca com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.service.HmsMsgService filter 6aa973b
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.ss.android.socialbase.downloader.remote:
+        fb6676c com.sinovatech.unicom.ui/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService filter db52135
+          Action: "com.ss.android.socialbase.downloader.remote"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        2d6b1d4 com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.oppo.OppoQPushService filter d907f7d permission com.heytap.mcs.permission.RECIEVE_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        2d6b1d4 com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.oppo.OppoQPushService filter d907f7d permission com.heytap.mcs.permission.RECIEVE_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        50c8e72 com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.oppo.OppoPushService filter 7eb92c3 permission com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.huawei.push.msg.PASSBY_MSG:
+        a3b79ca com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.service.HmsMsgService filter 6aa973b
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        9911fbe com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.honor.HonorPushService filter 56a981f
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.huawei.push.action.MESSAGING_EVENT:
+        bd71740 com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.push.huawei.UnicomHmsMessageService filter f2a9679
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+
+Domain verification status:
+  com.sinovatech.unicom.ui:
+    ID: 9d4f5008-364a-4b24-a3ee-3ab84e0372cb
+    Signatures: [E9:67:16:E4:88:22:AA:C0:2D:B2:EA:42:AF:B3:9C:39:29:06:67:AB:B5:43:BB:47:A6:69:93:0D:0A:E8:3C:E5]
+    Domain verification state:
+      u.10010.cn: 1024
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          u.10010.cn
+
+Permissions:
+  Permission [com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE] (6424892):
+    sourcePackage=com.sinovatech.unicom.ui
+    uid=10235 gids=[] type=0 prot=signature
+    perm=PermissionInfo{1facc9f com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [com.sinovatech.unicom.ui.ZXCHANGE_PERMISSION] (f419263):
+    sourcePackage=com.sinovatech.unicom.ui
+    uid=10235 gids=[] type=0 prot=normal
+    perm=PermissionInfo{d6fa9b5 com.sinovatech.unicom.ui.ZXCHANGE_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG] (517ae60):
+    sourcePackage=com.sinovatech.unicom.ui
+    uid=10235 gids=[] type=0 prot=signature
+    perm=PermissionInfo{14993bb com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG}
+    flags=0x0
+
+Permissions:
+  Permission [com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN] (76af19):
+    sourcePackage=com.sinovatech.unicom.ui
+    uid=10235 gids=[] type=0 prot=signature
+    perm=PermissionInfo{3e2c31 com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN}
+    flags=0x0
+
+Permissions:
+  Permission [com.sinovatech.unicom.ui.permission.PUSH_WRITE_PROVIDER] (2385bde):
+    sourcePackage=com.sinovatech.unicom.ui
+    uid=10235 gids=[] type=0 prot=signature
+    perm=PermissionInfo{cf3b097 com.sinovatech.unicom.ui.permission.PUSH_WRITE_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.sinovatech.unicom.ui.permission.PUSH_PROVIDER] (9b0f1bf):
+    sourcePackage=com.sinovatech.unicom.ui
+    uid=10235 gids=[] type=0 prot=signature
+    perm=PermissionInfo{9985a6d com.sinovatech.unicom.ui.permission.PUSH_PROVIDER}
+    flags=0x0
+
+Registered ContentProviders:
+  com.sinovatech.unicom.ui/cn.sharesdk.framework.utils.ShareSDKFileProvider:
+    Provider{eb9e6a2 com.sinovatech.unicom.ui/cn.sharesdk.framework.utils.ShareSDKFileProvider}
+  com.sinovatech.unicom.ui/com.bytedance.pangle.FileProvider:
+    Provider{cb8bf33 com.sinovatech.unicom.ui/com.bytedance.pangle.FileProvider}
+  com.sinovatech.unicom.ui/com.bytedance.pangle.provider.MainProcessProviderProxy:
+    Provider{95d22f0 com.sinovatech.unicom.ui/com.bytedance.pangle.provider.MainProcessProviderProxy}
+  com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.MainServerManager:
+    Provider{2ed3069 com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+  com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.TTFileProvider:
+    Provider{df3caee com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.TTFileProvider}
+  com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushProvider:
+    Provider{ab61b8f com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushProvider}
+  com.sinovatech.unicom.ui/com.unicom.pay.auto.InitProvider:
+    Provider{b897e1c com.sinovatech.unicom.ui/com.unicom.pay.auto.InitProvider}
+  com.sinovatech.unicom.ui/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{39f6a25 com.sinovatech.unicom.ui/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.sinovatech.unicom.ui/com.secneo.apkwrapper.CP:
+    Provider{ad5a7fa com.sinovatech.unicom.ui/com.secneo.apkwrapper.CP}
+  com.sinovatech.unicom.ui/com.huawei.hms.aaid.InitProvider:
+    Provider{b82e1ab com.sinovatech.unicom.ui/com.huawei.hms.aaid.InitProvider}
+  com.sinovatech.unicom.ui/com.liulishuo.okdownload.OkDownloadProvider:
+    Provider{cbe6008 com.sinovatech.unicom.ui/com.liulishuo.okdownload.OkDownloadProvider}
+  com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider:
+    Provider{c8183a1 com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+  com.sinovatech.unicom.ui/com.sina.weibo.sdk.content.FileProvider:
+    Provider{8c649c6 com.sinovatech.unicom.ui/com.sina.weibo.sdk.content.FileProvider}
+  com.sinovatech.unicom.ui/android.support.v4.content.FileProvider:
+    Provider{c0bed87 com.sinovatech.unicom.ui/android.support.v4.content.FileProvider}
+  com.sinovatech.unicom.ui/com.qw.soul.permission.InitProvider:
+    Provider{dd74b4 com.sinovatech.unicom.ui/com.qw.soul.permission.InitProvider}
+  com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager:
+    Provider{f11b8dd com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+  com.sinovatech.unicom.ui/com.mob.MobProvider:
+    Provider{8cd3c52 com.sinovatech.unicom.ui/com.mob.MobProvider}
+  com.sinovatech.unicom.ui/com.blankj.utilcode.util.UtilsFileProvider:
+    Provider{12fdb23 com.sinovatech.unicom.ui/com.blankj.utilcode.util.UtilsFileProvider}
+  com.sinovatech.unicom.ui/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{6372820 com.sinovatech.unicom.ui/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+
+ContentProvider Authorities:
+  [com.sinovatech.unicom.ui.lifecycle-trojan]:
+    Provider{39f6a25 com.sinovatech.unicom.ui/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{2b9508c com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.aaidinitprovider]:
+    Provider{b82e1ab com.sinovatech.unicom.ui/com.huawei.hms.aaid.InitProvider}
+      applicationInfo=ApplicationInfo{7ba23d5 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.pangle.servermanager.main]:
+    Provider{2ed3069 com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+      applicationInfo=ApplicationInfo{cea57ea com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.AGCInitializeProvider]:
+    Provider{6372820 com.sinovatech.unicom.ui/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{f8ceadb com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.TTMultiProvider]:
+    Provider{c8183a1 com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+      applicationInfo=ApplicationInfo{ef0e978 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.TTFileProvider]:
+    Provider{df3caee com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.TTFileProvider}
+      applicationInfo=ApplicationInfo{e862851 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost]:
+    Provider{f11b8dd com.sinovatech.unicom.ui/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+      applicationInfo=ApplicationInfo{f0e08b6 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.autosize-init-provider]:
+    Provider{b897e1c com.sinovatech.unicom.ui/com.unicom.pay.auto.InitProvider}
+      applicationInfo=ApplicationInfo{26559b7 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.fileprovider]:
+    Provider{c0bed87 com.sinovatech.unicom.ui/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{1072524 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.com.liulishuo.okdownload]:
+    Provider{cbe6008 com.sinovatech.unicom.ui/com.liulishuo.okdownload.OkDownloadProvider}
+      applicationInfo=ApplicationInfo{b33f88d com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.com.mob.MobProvider]:
+    Provider{8cd3c52 com.sinovatech.unicom.ui/com.mob.MobProvider}
+      applicationInfo=ApplicationInfo{4e9fa42 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.huawei.push.provider]:
+    Provider{ab61b8f com.sinovatech.unicom.ui/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{2ebda53 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.CP]:
+    Provider{ad5a7fa com.sinovatech.unicom.ui/com.secneo.apkwrapper.CP}
+      applicationInfo=ApplicationInfo{a236f90 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.pangle.provider.proxy.main]:
+    Provider{95d22f0 com.sinovatech.unicom.ui/com.bytedance.pangle.provider.MainProcessProviderProxy}
+      applicationInfo=ApplicationInfo{6749089 com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.permission.provider]:
+    Provider{dd74b4 com.sinovatech.unicom.ui/com.qw.soul.permission.InitProvider}
+      applicationInfo=ApplicationInfo{6a1788e com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.utilcode.provider]:
+    Provider{12fdb23 com.sinovatech.unicom.ui/com.blankj.utilcode.util.UtilsFileProvider}
+      applicationInfo=ApplicationInfo{14fc8af com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.cn.sharesdk.ShareSDKFileProvider]:
+    Provider{eb9e6a2 com.sinovatech.unicom.ui/cn.sharesdk.framework.utils.ShareSDKFileProvider}
+      applicationInfo=ApplicationInfo{477f4bc com.sinovatech.unicom.ui}
+  [com.sinovatech.unicom.ui.pangle.fileprovider]:
+    Provider{cb8bf33 com.sinovatech.unicom.ui/com.bytedance.pangle.FileProvider}
+      applicationInfo=ApplicationInfo{90cac45 com.sinovatech.unicom.ui}
+
+Key Set Manager:
+  [com.sinovatech.unicom.ui]
+      Signing KeySets: 108
+
+Packages:
+  Package [com.sinovatech.unicom.ui] (e939d77):
+    appId=10235
+    pkg=Package{f563a7c com.sinovatech.unicom.ui}
+    codePath=/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==
+    resourcePath=/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==
+    legacyNativeLibraryDir=/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=163 minSdk=23 targetSdk=30
+    minExtensionVersions=[]
+    versionName=11.7.2
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesPackages=[com.sina.weibo, com.tencent.mobileqq, com.eg.android.AlipayGphone, com.tencent.mm, com.taobao.taobao, com.sankuai.meituan, com.jingdong.app.mall, com.baidu.BaiduMap, com.huawei.bone, com.huawei.health, com.autonavi.minimap, me.ele, com.tencent.map, com.ss.android.ugc.aweme.lite, com.ss.android.ugc.aweme, com.xingin.xhs, com.sankuai.meituan, com.sankuai.meituan.takeoutnew, com.xunmeng.pinduoduo, ctrip.android.view, com.smile.gifmaker, com.tencent.qqmusic, com.chinaunicom.zst, cn.gov.pbc.dcep, com.zl.fqbao, com.tencent.mm, com.unionpay, cn.gov.pbc.dcep, com.google.ar.core, com.huawei.arengine.service, com.tencent.mm]
+    queriesIntents=[Intent { act=com.hihonor.push.action.BIND_PUSH_SERVICE }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=org.fidoalliance.intent.FIDO_OPERATION dat=content://*/... typ=application/fido.uaf_client+json }, Intent { act=org.fidoalliance.aidl.FIDO_OPERATION dat=content://*/... typ=application/fido.uaf_client+json }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      org.simalliance.openmobileapi
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2025-08-10 10:08:41
+    lastUpdateTime=2025-08-10 10:08:43
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{570df05 version:3, signatures:[70057a1e], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    apexModuleName=null
+    declared permissions:
+      android.permission.DEVICE_POWER: prot=normal
+      com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN: prot=signature
+      com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG: prot=signature
+      com.sinovatech.unicom.ui.permission.PUSH_PROVIDER: prot=signature
+      com.sinovatech.unicom.ui.permission.PUSH_WRITE_PROVIDER: prot=signature
+      com.sinovatech.unicom.ui.ZXCHANGE_PERMISSION: prot=normal
+      com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE: prot=signature
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.READ_SMS
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_CALL_LOG
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      org.simalliance.openmobileapi.SMARTCARD
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.NFC
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.BLUETOOTH_CONNECT
+      com.asus.msa.SupplementaryDID.ACCESS
+      android.permission.BLUETOOTH
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.READ_EXTERNAL_STORAGE
+      com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN
+      andorid.permission.CHANGE_CONFIGURATION
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.CAPTURE_AUDIO_OUTPUT
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.SEND_SMS
+      android.permission.CALL_PHONE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.WRITE_CONTACTS
+      android.permission.CAPTURE_SECURE_VIDEO_OUTPUT
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_GPS
+      android.permission.DISABLE_KEYGUARD
+      android.permission.CAMERA
+      android.permission.READ_LOGS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.USE_FINGERPRINT
+      android.permission.BLUETOOTH_ADVERTISE
+      org.fidoalliance.uaf.permissions.FIDO_CLIENT
+      com.huawei.permission.ACCESS_HW_KEYSTORE
+      android.permission.CAPTURE_VIDEO_OUTPUT
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      android.permission.ACCESS_WIFI_STATE
+      com.sinovatech.unicom.ui.permission.PUSH_PROVIDER
+      android.permission.USE_BIOMETRIC
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.RECORD_AUDIO
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      android.permission.BLUETOOTH_SCAN
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.sinovatech.unicom.ui.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.NFC: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.sinovatech.unicom.ui.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.sinovatech.unicom.ui.openadsdk.permission.TT_PANGOLIN: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.sinovatech.unicom.ui.permission.PUSH_PROVIDER: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=368698 deDataInode=41054 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.sinovatech.unicom.ui
+      firstInstallTime=2025-08-10 10:08:43
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/EmulationPixel9Pro/EmulationPixel9ProOverlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/EmulationPixel9Pro/EmulationPixel9ProOverlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CALL_LOG: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|524288]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.SEND_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.CALL_PHONE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.google.android.settings.intelligence:
+      com.sinovatech.unicom.ui
+    com.google.android.apps.messaging:
+      com.sinovatech.unicom.ui
+    com.sinovatech.unicom.ui:
+      com.google.android.googlequicksearchbox
+  queryable via interaction:
+    User 0:
+      [com.android.location.fused,android,com.android.server.telecom,com.android.inputdevices,com.android.DeviceAsWebcam,com.android.keychain,com.android.dynsystem,com.android.localtransport,com.android.providers.settings,com.android.settings,com.android.emulator.multidisplay]:
+        com.sinovatech.unicom.ui
+      [com.google.android.gsf,com.google.android.gms]:
+        com.sinovatech.unicom.ui
+      com.google.android.inputmethod.latin:
+        com.sinovatech.unicom.ui
+      com.google.android.webview:
+        com.sinovatech.unicom.ui
+      com.google.android.permissioncontroller:
+        com.sinovatech.unicom.ui
+      com.google.android.providers.media.module:
+        com.sinovatech.unicom.ui
+      com.sinovatech.unicom.ui:
+        com.google.android.webview
+      io.github.ylimit.droidbotapp:
+        com.sinovatech.unicom.ui
+  queryable via uses-library:
+
+Dexopt state:
+  [com.sinovatech.unicom.ui]
+    path: /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/base.apk
+      x86_64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/oat/x86_64/base.odex]
+    known secondary dex files:
+      /data/user/0/com.sinovatech.unicom.ui/app_e_qq_com_plugin_d13dd96bb8ae57d006f7d8566fd2a081/gdt_plugin.jar
+        x86_64: [status=error] [reason=error] [primary-abi]
+          [location is Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.sinovatech.unicom.ui/app_e_qq_com_plugin_d13dd96bb8ae57d006f7d8566fd2a081/gdt_plugin.jar' with context 'PCL[];PCL[/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/base.apk:AnoymousDex]{PCL[/system/framework/org.apache.http.legacy.jar]}']
+        class loader context: PCL[];PCL[/data/app/~~dyzzG8vPP-BCGX6tJeuTEA==/com.sinovatech.unicom.ui-dlpBK5h-dIgA9FEUBpFt-Q==/base.apk:AnoymousDex]{PCL[/system/framework/org.apache.http.legacy.jar]}
+
+Compiler stats:
+  [com.sinovatech.unicom.ui]
+     base.apk - 115
