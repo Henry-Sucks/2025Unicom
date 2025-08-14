@@ -296,7 +296,7 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                     print(button_view)
                     self.current_content = button_text
                     self.current_function = button_text
-                    if button_text != "借钱":
+                    if button_text != "号码":
                         continue
                     self.clicked_buttons.add(button_str)  # 标记为已点击
                     self.menu_phrase = False
