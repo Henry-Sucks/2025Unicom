@@ -46,6 +46,11 @@ class MyDeviceState(object):
         self.__generate_view_strs()
         self.state_str = self.__get_hashed_state_str()
         self.structure_str = self.__get_content_free_state_str()
+
+        # 添加自己的state_str
+        self.my_state_str = self.__get_my_state_str()
+
+
         self.search_content = self.__get_search_content()
         self.possible_events = None
         self.width = device.get_width(refresh=True)
@@ -57,6 +62,47 @@ class MyDeviceState(object):
     def activity_short_name(self):
         return self.foreground_activity.split('.')[-1]
     
+    # 添加自己生成的state_str
+    def __get_my_state_str(self):
+        """
+        获取仅包含可互动视图的状态字符串，判断条件更全面：
+        - clickable/long_clickable（可点击/长按）
+        - editable（可编辑）
+        - focusable（可获取焦点）
+        - checkable（可勾选）
+        - scrollable（可滚动）
+        格式：[class]%s[resource_id]%s[text]%s
+        """
+        interactive_view_signatures = set()
+        for view in self.views:
+            # 判断是否可交互
+            is_interactive = (
+                view.get('clickable', False)
+                or view.get('long_clickable', False)
+                or view.get('editable', False)
+                or view.get('focusable', False)
+                or view.get('checkable', False)
+                or view.get('scrollable', False)
+            )
+            
+            if not is_interactive:
+                continue
+
+            # 获取签名（格式：[class]%s[resource_id]%s[text]%s）
+            view_class = self.__safe_dict_get(view, 'class', "None")
+            resource_id = self.__safe_dict_get(view, 'resource_id', "None")
+            view_text = self.__safe_dict_get(view, 'text', "None")
+            if view_text is None or len(view_text) > 50:
+                view_text = "None"
+                
+            signature = f"[class]{view_class}[resource_id]{resource_id}[text]{view_text}"
+            interactive_view_signatures.add(signature)
+        
+        state_str = "%s{%s}" % (self.foreground_activity, ",".join(sorted(interactive_view_signatures)))
+        
+        import hashlib
+        return hashlib.md5(state_str.encode('utf-8')).hexdigest()
+
         
     def _save_important_view_ids(self):
         _, _, _, important_view_ids = self.get_described_actions(remove_time_and_ip=False)

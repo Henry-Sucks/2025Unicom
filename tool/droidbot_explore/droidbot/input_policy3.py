@@ -189,7 +189,7 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
             self.logger.info("No expected state found for current state.")
             return None
         else:
-            return expected_state.structure_str
+            return expected_state.my_state_str
         
     def generate_event_based_on_utg(self, input_manager):
         current_state = self.current_state
@@ -296,7 +296,7 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                     print(button_view)
                     self.current_content = button_text
                     self.current_function = button_text
-                    if button_text != "发现":
+                    if button_text != "旅行":
                         continue
                     self.clicked_buttons.add(button_str)  # 标记为已点击
                     self.menu_phrase = False
@@ -316,31 +316,35 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
             
             if is_back_key_event(self.last_event):
                 self.logger.info("The last event is a BACK")
-                if self.current_state.structure_str != self.expected_state:
+                # 更新expected_state
+                self.expected_state = self._get_expected_state(self.last_state)
+                if self.current_state.my_state_str != self.expected_state:
                     if self.expected_state is None:
                         self.logger.info("Expected state not found, skip it.")
                     
                     else:
                         waited_times = 0
                         while waited_times < MAX_DFS_WAITING_TIME:
-                            self.logger.info('Current state: ' + self.current_state.structure_str)
+                            self.logger.info('Last state: ' + self.last_state.my_state_str)
+                            self.logger.info('Current state: ' + self.current_state.my_state_str)
                             self.logger.info('Expected state: ' + self.expected_state)
                             self.logger.info("Waiting for the expected state...")
                             time.sleep(1)
                             waited_times += 1
                             self.current_state = self.device.get_current_state()
-                            if self.current_state.structure_str == self.expected_state:
+                            if self.current_state.my_state_str == self.expected_state:
                                 break
 
                         raise InputInterruptedException("Waited too long, may have entered an unknown state we can't go back.")
 
-            # 如果是第一次到达该状态，获取可用动作并加入栈
-            if self.current_state.structure_str not in self.visited_states:
+            # # 如果是第一次到达该状态，获取可用动作并加入栈
+            # if self.current_state.my_state_str not in self.visited_states:
+            else:
                 self.dfs_depth += 1
-                print(f"Entering a new state: {self.current_state.structure_str}")
+                print(f"Entering a new state: {self.current_state.my_state_str}")
                 print(f"DFS depth: {self.dfs_depth}")
 
-                self.visited_states.add(self.current_state.structure_str)
+                self.visited_states.add(self.current_state.my_state_str)
                 current_function, actions_to_explore = self.__explore_current_state()
 
                 if self.dfs_depth > MAX_DFS_DEPTH:
@@ -350,8 +354,6 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                     # 更新utg
                     self.my_utg.add_node(self.current_state, current_function)
                     self.my_utg.add_transition(self.last_event, self.last_state, self.current_state, KeyEvent(name="BACK"))
-                    # 更新expected_state
-                    self.expected_state = self._get_expected_state(self.current_state)
                     return self.current_state, KeyEvent(name="BACK")
                 
 
@@ -366,21 +368,20 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                 if len(actions_to_explore) == 0:
                     print("No actions to explore, something is wrong? Going back...")
                     self.dfs_depth -= 1
-                    # 更新expected_state
-                    self.expected_state = self._get_expected_state(self.current_state)
                     return self.current_state, KeyEvent(name="BACK")
                 else:
                     print(f"Actions to explore: {len(actions_to_explore)}")
                 self.current_function = current_function
-                self.state_actions_map[self.current_state.structure_str] = actions_to_explore
+                self.state_actions_map[self.current_state.my_state_str] = actions_to_explore
                 # 将状态和动作加入栈顶，实现深度优先
                 actions_to_explore.append(KeyEvent(name="BACK"))
                 for action in reversed(actions_to_explore):
                     self.dfs_stack.append((self.current_state, action))
 
-            else:
-                # 如果状态已访问过，直接返回
-                print(f"State {self.current_state.structure_str} has been visited before.")
+            # else:
+            #     # 如果状态已访问过
+                
+            #     print(f"State {self.current_state.my_state_str} has been visited before.")
 
 
             
@@ -401,8 +402,6 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                     
                     if isinstance(action, KeyEvent) and  action.name == "BACK":
                         print("Finishing DFS exploration on this page, going back...")
-                        # 更新expected_state
-                        self.expected_state = self._get_expected_state(self.current_state)
                         self.dfs_depth -= 1
                     return current_state, action
                 

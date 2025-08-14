@@ -4,10 +4,13 @@ tool/droidbot
 output/
 apks/
 tools/droidbot_explore/test
+utils/
 
 *.apk
 *.log
 data/task_execution_result/*
 data/planned_task/*
+data/ui_tree_graph/*
 *.mp4
 *.png
+

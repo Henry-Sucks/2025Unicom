@@ -38,11 +38,11 @@ class MyUTG(object):
 
     @property
     def first_state_str(self):
-        return self.first_state.structure_str if self.first_state else None
+        return self.first_state.my_state_str if self.first_state else None
 
     @property
     def last_state_str(self):
-        return self.last_state.structure_str if self.last_state else None
+        return self.last_state.my_state_str if self.last_state else None
 
     @property
     def effective_event_count(self):
@@ -82,18 +82,23 @@ class MyUTG(object):
         #     "id": self.effective_event_count
         # }
 
-        if (old_state.structure_str, new_state.structure_str) not in self.G2.edges():
-            self.G2.add_edge(old_state.structure_str, new_state.structure_str, events={})
-        self.G2[old_state.structure_str][new_state.structure_str]["events"][event_str] = {
+
+        # 我们是否记录自环？
+        if (old_state.my_state_str, new_state.my_state_str) not in self.G2.edges():
+            self.G2.add_edge(old_state.my_state_str, new_state.my_state_str, events={})
+        self.G2[old_state.my_state_str][new_state.my_state_str]["events"][event_str] = {
             "event": event,
             "id": self.effective_event_count,
-
             # 添加逆事件
             "reverse_event": reverse_event
         }
 
+        # 添加edge_id作为边的属性
+        self.G2[old_state.my_state_str][new_state.my_state_str]["edge_id"] = self.edge_id
+        self.edge_id += 1
+
         self.last_state = new_state
-        self.logger.info("Add transition: %s -> %s", old_state.structure_str, new_state.structure_str)
+        self.logger.info("Add transition: %s -> %s", old_state.my_state_str, new_state.my_state_str)
         self.__output_utg()
 
     def remove_transition(self, event, old_state, new_state):
@@ -104,22 +109,22 @@ class MyUTG(object):
                 events.pop(event_str)
             if len(events) == 0:
                 self.G.remove_edge(old_state.state_str, new_state.state_str)
-        if (old_state.structure_str, new_state.structure_str) in self.G2.edges():
-            events = self.G2[old_state.structure_str][new_state.structure_str]["events"]
+        if (old_state.my_state_str, new_state.my_state_str) in self.G2.edges():
+            events = self.G2[old_state.my_state_str][new_state.my_state_str]["events"]
             if event_str in events.keys():
                 events.pop(event_str)
             if len(events) == 0:
-                self.G2.remove_edge(old_state.structure_str, new_state.structure_str)
+                self.G2.remove_edge(old_state.my_state_str, new_state.my_state_str)
 
     def add_node(self, state, state_function):
         if not state:
             return
         
-        if state.structure_str not in self.G2.nodes():
-            self.G2.add_node(state.structure_str, state=state, function=state_function, )
-        elif self.G2.nodes[state.structure_str].get('function') is None and state_function is not None:
+        if state.my_state_str not in self.G2.nodes():
+            self.G2.add_node(state.my_state_str, state=state, function=state_function, )
+        elif self.G2.nodes[state.my_state_str].get('function') is None and state_function is not None:
             # 如果节点已存在但function为None，且新传入的state_function不为None，则更新function
-            self.G2.nodes[state.structure_str]['function'] = state_function
+            self.G2.nodes[state.my_state_str]['function'] = state_function
 
 
         if state.foreground_activity.startswith(self.app.package_name):
@@ -133,13 +138,48 @@ class MyUTG(object):
         #     if self.first_state is None:
         #         self.first_state = state
 
-        # if state.structure_str not in self.G2.nodes():
-        #     self.G2.add_node(state.structure_str, states=[])
-        # self.G2.nodes[state.structure_str]['states'].append(state)
+        # if state.my_state_str not in self.G2.nodes():
+        #     self.G2.add_node(state.my_state_str, states=[])
+        # self.G2.nodes[state.my_state_str]['states'].append(state)
 
         if state.foreground_activity.startswith(self.app.package_name):
             self.reached_activities.add(state.foreground_activity)
 
+
+    # def get_expected_state(self, current_state):
+    #     """
+    #     根据utg得出当前state执行返回event后应该落回的状态
+    #     :param current_state: 当前状态
+    #     :return: 上一个状态
+    #     """
+    #     if current_state is None:
+    #         return None
+        
+    #     try:
+    #         # 获取所有能到达当前状态的边
+    #         predecessors = list(self.G2.predecessors(current_state.my_state_str))
+    #         if not predecessors:
+    #             self.logger.info("No predecessor found for state: %s", current_state.my_state_str)
+    #             return None
+            
+    #         # 如果有多个前驱状态，选择edge_id最大的那个
+    #         max_edge_id = -1
+    #         selected_predecessor = None
+            
+    #         for predecessor in predecessors:
+    #             edge_data = self.G2[predecessor][current_state.my_state_str]
+    #             current_edge_id = edge_data.get("edge_id", -1)
+    #             if current_edge_id > max_edge_id:
+    #                 max_edge_id = current_edge_id
+    #                 selected_predecessor = predecessor
+            
+    #         if selected_predecessor and self.G2.nodes[selected_predecessor]['state']:
+    #             return self.G2.nodes[selected_predecessor]['state']
+    #         return None
+            
+    #     except Exception as e:
+    #         self.logger.warning(f"Error getting expected state for {current_state.my_state_str}: {str(e)}")
+    #         return None
 
     def get_expected_state(self, current_state):
         """
@@ -152,20 +192,37 @@ class MyUTG(object):
         
         try:
             # 获取所有能到达当前状态的边
-            predecessors = list(self.G2.predecessors(current_state.structure_str))
+            predecessors = list(self.G2.predecessors(current_state.my_state_str))
             if not predecessors:
-                self.logger.info("No predecessor found for state: %s", current_state.structure_str)
+                self.logger.info("No predecessor found for state: %s", current_state.my_state_str)
                 return None
             
-            # 返回第一个前驱状态对应的具体状态实例
-            predecessor_structure = predecessors[0]
-            if self.G2.nodes[predecessor_structure]['state']:
-                return self.G2.nodes[predecessor_structure]['state']
-            return None
+            # 收集所有前驱状态及其对应的edge_id
+            edge_info = []
+            for predecessor in predecessors:
+                edge_data = self.G2[predecessor][current_state.my_state_str]
+                current_edge_id = edge_data.get("edge_id", -1)
+                edge_info.append((current_edge_id, predecessor))
             
-        except Exception as e:
-            self.logger.warning(f"Error getting expected state for {current_state.structure_str}: {str(e)}")
+            # 按edge_id降序排序
+            edge_info.sort(key=lambda x: x[0], reverse=True)
+            
+            # 选择非自环的边中edge_id最大的
+            for edge_id, predecessor in edge_info:
+                if predecessor != current_state.my_state_str:  # 不是自环
+                    if self.G2.nodes[predecessor]['state']:
+                        return self.G2.nodes[predecessor]['state']
+                    return None
+            
+            # 如果所有边都是自环，返回None
+            self.logger.info("All edges to state %s are self-loops", current_state.my_state_str)
             return None
+                
+        except Exception as e:
+            self.logger.warning(f"Error getting expected state for {current_state.my_state_str}: {str(e)}")
+            return None
+
+        
 
     def __output_utg(self):
         """
@@ -185,10 +242,10 @@ class MyUTG(object):
         utg_file = open(utg_file_path, "w")
         utg_nodes = []
         utg_edges = []
-        for structure_str in self.G2.nodes():
+        for my_state_str in self.G2.nodes():
             # state_structure一样的state我们将其视作一致，因此随意取一个
-            state = self.G2.nodes[structure_str]["state"]
-            state_function = self.G2.nodes[structure_str]["function"]
+            state = self.G2.nodes[my_state_str]["state"]
+            state_function = self.G2.nodes[my_state_str]["function"]
             package_name = state.foreground_activity.split("/")[0]
             activity_name = state.foreground_activity.split("/")[1]
             short_activity_name = activity_name.split(".")[-1]
@@ -197,7 +254,7 @@ class MyUTG(object):
                 ("package", package_name),
                 ("activity", activity_name),
                 ("state_str", state.state_str),
-                ("structure_str", state.structure_str)
+                ("my_state_str", state.my_state_str)
             ])
 
             # utg_node = {
@@ -209,13 +266,13 @@ class MyUTG(object):
             #     "package": package_name,
             #     "activity": activity_name,
             #     "state_str": state_str,
-            #     "structure_str": state.structure_str,
+            #     "my_state_str": state.my_state_str,
             #     "title": state_desc,
             #     "content": "\n".join([package_name, activity_name, state.state_str, state.search_content])
             # }
             
             utg_node = {
-                "id": structure_str,
+                "id": my_state_str,
                 "function": state_function,
                 "shape": "image",
                 "image": os.path.relpath(state.screenshot_path, self.device.output_dir),
@@ -223,15 +280,15 @@ class MyUTG(object):
                 # "group": state.foreground_activity,
                 "package": package_name,
                 "activity": activity_name,
-                "structure_str": structure_str,
+                "my_state_str": my_state_str,
                 "title": state_desc,
                 "content": "\n".join([package_name, activity_name, state.state_str, state.search_content])
             }
 
-            if state.structure_str == self.first_state_str:
+            if state.my_state_str == self.first_state_str:
                 utg_node["label"] += "\n<FIRST>"
                 utg_node["font"] = "14px Arial red"
-            if state.structure_str == self.last_state_str:
+            if state.my_state_str == self.last_state_str:
                 utg_node["label"] += "\n<LAST>"
                 utg_node["font"] = "14px Arial red"
 
@@ -368,7 +425,7 @@ class MyUTG(object):
     #     simple_nav_steps = []
     #     last_state, last_action = nav_steps[-1]
     #     for state, action in nav_steps:
-    #         if state.structure_str == last_state.structure_str:
+    #         if state.my_state_str == last_state.my_state_str:
     #             simple_nav_steps.append((state, last_action))
     #             break
     #         simple_nav_steps.append((state, action))
@@ -377,8 +434,8 @@ class MyUTG(object):
     def get_G2_nav_steps(self, from_state, to_state):
         if from_state is None or to_state is None:
             return None
-        from_state_str = from_state.structure_str
-        to_state_str = to_state.structure_str
+        from_state_str = from_state.my_state_str
+        to_state_str = to_state.my_state_str
         try:
             nav_steps = []
             state_strs = nx.shortest_path(G=self.G2, source=from_state_str, target=to_state_str)
@@ -400,7 +457,7 @@ class MyUTG(object):
             simple_nav_steps = []
             last_state, last_action = nav_steps[-1]
             for state, action in nav_steps:
-                if state.structure_str == last_state.structure_str:
+                if state.my_state_str == last_state.my_state_str:
                     simple_nav_steps.append((state, last_action))
                     break
                 simple_nav_steps.append((state, action))
