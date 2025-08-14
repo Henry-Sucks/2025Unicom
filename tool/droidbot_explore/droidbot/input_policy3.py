@@ -296,7 +296,7 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
                     print(button_view)
                     self.current_content = button_text
                     self.current_function = button_text
-                    if button_text != "旅行":
+                    if button_text != "借钱":
                         continue
                     self.clicked_buttons.add(button_str)  # 标记为已点击
                     self.menu_phrase = False
@@ -340,43 +340,47 @@ class FunctionExplorePolicy(MyUtgBasedInputPolicy):
             # # 如果是第一次到达该状态，获取可用动作并加入栈
             # if self.current_state.my_state_str not in self.visited_states:
             else:
-                self.dfs_depth += 1
-                print(f"Entering a new state: {self.current_state.my_state_str}")
-                print(f"DFS depth: {self.dfs_depth}")
+                if self.current_state.my_state_str == self.last_state.my_state_str:
+                    self.logger.info("发生自环，跳过...")
 
-                self.visited_states.add(self.current_state.my_state_str)
-                current_function, actions_to_explore = self.__explore_current_state()
-
-                if self.dfs_depth > MAX_DFS_DEPTH:
-                    print("DFS depth exceeded, going back...")
-                    self.dfs_depth -= 1
-
-                    # 更新utg
-                    self.my_utg.add_node(self.current_state, current_function)
-                    self.my_utg.add_transition(self.last_event, self.last_state, self.current_state, KeyEvent(name="BACK"))
-                    return self.current_state, KeyEvent(name="BACK")
-                
-
-                
-                
-                
-                
-                self.current_function = current_function
-                self.my_utg.add_node(self.current_state, self.current_function)
-                self.my_utg.add_transition(self.last_event, self.last_state, self.current_state, KeyEvent(name="BACK"))
-
-                if len(actions_to_explore) == 0:
-                    print("No actions to explore, something is wrong? Going back...")
-                    self.dfs_depth -= 1
-                    return self.current_state, KeyEvent(name="BACK")
                 else:
-                    print(f"Actions to explore: {len(actions_to_explore)}")
-                self.current_function = current_function
-                self.state_actions_map[self.current_state.my_state_str] = actions_to_explore
-                # 将状态和动作加入栈顶，实现深度优先
-                actions_to_explore.append(KeyEvent(name="BACK"))
-                for action in reversed(actions_to_explore):
-                    self.dfs_stack.append((self.current_state, action))
+                    self.dfs_depth += 1
+                    print(f"Entering a new state: {self.current_state.my_state_str}")
+                    print(f"DFS depth: {self.dfs_depth}")
+
+                    self.visited_states.add(self.current_state.my_state_str)
+                    current_function, actions_to_explore = self.__explore_current_state()
+
+                    if self.dfs_depth > MAX_DFS_DEPTH:
+                        print("DFS depth exceeded, going back...")
+                        self.dfs_depth -= 1
+
+                        # 更新utg
+                        self.my_utg.add_node(self.current_state, current_function)
+                        self.my_utg.add_transition(self.last_event, self.last_state, self.current_state, KeyEvent(name="BACK"))
+                        return self.current_state, KeyEvent(name="BACK")
+                    
+
+                    
+                    
+                    
+                    
+                    self.current_function = current_function
+                    self.my_utg.add_node(self.current_state, self.current_function)
+                    self.my_utg.add_transition(self.last_event, self.last_state, self.current_state, KeyEvent(name="BACK"))
+
+                    if len(actions_to_explore) == 0:
+                        print("No actions to explore, something is wrong? Going back...")
+                        self.dfs_depth -= 1
+                        return self.current_state, KeyEvent(name="BACK")
+                    else:
+                        print(f"Actions to explore: {len(actions_to_explore)}")
+                    self.current_function = current_function
+                    self.state_actions_map[self.current_state.my_state_str] = actions_to_explore
+                    # 将状态和动作加入栈顶，实现深度优先
+                    actions_to_explore.append(KeyEvent(name="BACK"))
+                    for action in reversed(actions_to_explore):
+                        self.dfs_stack.append((self.current_state, action))
 
             # else:
             #     # 如果状态已访问过
